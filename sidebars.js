@@ -1,0 +1,42 @@
+module.exports = {
+  docs: [
+    {
+      type: 'category',
+      label: 'AI Ecosystem War',
+      items: [
+        'ai-war/00_guide',
+        'ai-war/01_food_chain',
+        'ai-war/02_ms_openai',
+        'ai-war/03_perpetual_motion',
+        'ai-war/04_limitations',
+        'ai-war/05_claude_code',
+        'ai-war/06_apple_counter',
+        'ai-war/07_ai_film',
+        'ai-war/08_xbox',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Mirror Realm',
+      items: [
+        'mirror-realm/prologue',
+        'mirror-realm/ch01',
+        'mirror-realm/ch02',
+        'mirror-realm/ch03',
+        'mirror-realm/ch04',
+        'mirror-realm/ch05',
+        'mirror-realm/ch06',
+        'mirror-realm/ch07',
+        'mirror-realm/ch08',
+        'mirror-realm/ch09',
+        'mirror-realm/ch10',
+        'mirror-realm/ch11',
+        'mirror-realm/ch12',
+        'mirror-realm/ch12b',
+        'mirror-realm/ch13',
+        'mirror-realm/ch14',
+        'mirror-realm/ch15',
+      ],
+    },
+  ],
+};

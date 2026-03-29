@@ -50,7 +50,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'ai-war/00_guide',
+            docId: 'ai-war/guide',
             position: 'left',
             label: 'AI Archive',
           },

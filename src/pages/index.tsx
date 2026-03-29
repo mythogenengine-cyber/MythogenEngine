@@ -23,7 +23,7 @@ function HeroSection() {
             <div className="flex space-x-4">
               <Link
                 className="button button--outline button--primary button--lg"
-                to="/docs/ai-war/00_guide">
+                to="/docs/ai-war/guide">
                 Access Archives
               </Link>
             </div>
@@ -68,7 +68,7 @@ function CategoryCards() {
                 </p>
               </div>
               <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Link to="/docs/ai-war/00_guide" style={{ color: 'var(--ifm-color-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                <Link to="/docs/ai-war/guide" style={{ color: 'var(--ifm-color-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   ENTER PROTOCOL <ArrowRight size={20} />
                 </Link>
               </div>

@@ -1,0 +1,111 @@
+
+> mythogen-engine-blog@0.1.0 build
+> docusaurus build
+
+
+ ------------------------------------------------------------------------------                                                                                                          Update available 3.5.2 ??3.9.2                                                                                                                 To upgrade Docusaurus packages with the latest version, run the                                       following command:                                        `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest                @docusaurus/module-type-aliases@latest @docusaurus/types@latest`                                                                                         ------------------------------------------------------------------------------ 
+
+[INFO] Website will be built for all these locales: 
+- zh-Hant
+- en
+- zh-HK
+[INFO] Website will be built for all these locales: 
+- zh-Hant
+- en
+- zh-HK
+[INFO] [zh-Hant] Creating an optimized production build...
+i Compiling Client
+i Compiling Server
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\06_apple_counter.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (01_AI憌?????.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\02_ms_openai.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\01_food_chain.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\07_ai_film.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\03_perpetual_motion.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\04_limitations.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\05_claude_code.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (00_?桅???霈.md) in source file "D:\Note\BLOG\docs\ai-war\08_xbox.md" for version current
+??Server: Compiled successfully in 33.20s
+??Client: Compiled successfully in 1.20m
+[SUCCESS] Generated static files in "build".
+[INFO] [en] Creating an optimized production build...
+i Compiling Client
+i Compiling Server
+[WARNING] Docs markdown link couldn't be resolved: (06_Apples_Quiet_Counterkill.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\05_claude_code.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_Dangerous_Dance_Between_Microsoft_and_OpenAI.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\01_food_chain.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Surprise_Attack_of_Claude_Code.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\04_limitations.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (00_Table_of_Contents_and_Guide.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\08_xbox.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI_Perpetual_Motion_Machine.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\02_ms_openai.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_Microsofts_Four_Tightening_Spells.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\03_perpetual_motion.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox_Gamble_and_Crisis.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\07_ai_film.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (01_AI_Food_Chain_Class_Game.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_Dangerous_Dance_Between_Microsoft_and_OpenAI.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI_Perpetual_Motion_Machine.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_Microsofts_Four_Tightening_Spells.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Surprise_Attack_of_Claude_Code.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apples_Quiet_Counterkill.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_Route_Dispute_of_AI_Film_and_Television.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox_Gamble_and_Crisis.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_Route_Dispute_of_AI_Film_and_Television.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\06_apple_counter.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Surprise_Attack_of_Claude_Code.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\04_limitations.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apples_Quiet_Counterkill.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\05_claude_code.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_Dangerous_Dance_Between_Microsoft_and_OpenAI.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\01_food_chain.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI_Perpetual_Motion_Machine.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\02_ms_openai.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (00_Table_of_Contents_and_Guide.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\08_xbox.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_Route_Dispute_of_AI_Film_and_Television.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\06_apple_counter.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox_Gamble_and_Crisis.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\07_ai_film.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_Microsofts_Four_Tightening_Spells.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\03_perpetual_motion.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (01_AI_Food_Chain_Class_Game.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_Dangerous_Dance_Between_Microsoft_and_OpenAI.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI_Perpetual_Motion_Machine.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_Microsofts_Four_Tightening_Spells.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Surprise_Attack_of_Claude_Code.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apples_Quiet_Counterkill.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_Route_Dispute_of_AI_Film_and_Television.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox_Gamble_and_Crisis.md) in source file "D:\Note\BLOG\i18n\en\docusaurus-plugin-content-docs\current\ai-war\00_guide.md" for version current
+??Server: Compiled successfully in 7.71s
+??Client: Compiled successfully in 12.85s
+[SUCCESS] Generated static files in "build\en".
+[INFO] [zh-HK] Creating an optimized production build...
+i Compiling Client
+i Compiling Server
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\06_apple_counter.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (01_AI憌?????.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\02_ms_openai.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\07_ai_film.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\01_food_chain.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\04_limitations.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\05_claude_code.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\03_perpetual_motion.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (00_?桅???霈.md) in source file "D:\Note\BLOG\docs\ai-war\08_xbox.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\06_apple_counter.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\02_ms_openai.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (01_AI憌?????.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (03_AI瘞詨?璈?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (07_AI敶梯??楝蝺???md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\00_guide.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (08_Xbox?悸鞈剛??望?.md) in source file "D:\Note\BLOG\docs\ai-war\07_ai_film.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (02_敺株??penAI??芷?鈭箄?.md) in source file "D:\Note\BLOG\docs\ai-war\01_food_chain.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (04_敺株?????蝞?.md) in source file "D:\Note\BLOG\docs\ai-war\03_perpetual_motion.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (05_Claude_Code??镼?md) in source file "D:\Note\BLOG\docs\ai-war\04_limitations.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (06_Apple?????捏.md) in source file "D:\Note\BLOG\docs\ai-war\05_claude_code.md" for version current
+[WARNING] Docs markdown link couldn't be resolved: (00_?桅???霈.md) in source file "D:\Note\BLOG\docs\ai-war\08_xbox.md" for version current
+??Server: Compiled successfully in 7.44s

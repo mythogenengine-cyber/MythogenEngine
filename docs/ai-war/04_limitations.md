@@ -1,4 +1,4 @@
-# 主題四：微軟的四道緊箍咒——被鎖死的 AI 帝國
+﻿# 主題四：微軟的四道緊箍咒——被鎖死的 AI 帝國
 
 ## 核心論點
 
@@ -211,5 +211,4 @@ Apple Silicon（M 系列晶片）將 CPU/GPU 封裝在一起，**共用同一塊
 
 在這場殘酷的遊戲中，微軟試圖用無盡的資本強行把雲端、系統、硬體全部縫合在一起。但只要這四道緊箍咒一天不解開，這個 AI 帝國就始終建立在隨時可能崩塌的流沙之上。
 
-👉 [主題五：Claude Code 的奇襲](05_Claude_Code的奇襲.md)
-![](Gemini_Generated_Image_ibszioibszioibsz.png)
+👉 [主題五：Claude Code 的奇襲](05_claude_code.md)

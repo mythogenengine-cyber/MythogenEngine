@@ -1,30 +1,119 @@
 /**
- * Any custom CSS rules can go here.
+ * Anti-Gravity Theme - Inspired by REF Design
+ * Dark Surface: #131313
+ * Primary Accent (Cyan): #00f3ff
+ * Secondary Accent (Purple): #b600f8
  */
-@font-face {
-  font-family: 'Inter';
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #00f3ff;
+  --ifm-color-primary-dark: #00dbeb;
+  --ifm-color-primary-darker: #00cfde;
+  --ifm-color-primary-darkest: #00abb7;
+  --ifm-color-primary-light: #26f5ff;
+  --ifm-color-primary-lighter: #39f6ff;
+  --ifm-color-primary-lightest: #73faff;
+  
+  --ifm-background-color: #131313;
+  --ifm-footer-background-color: #0e0e0e;
+  --ifm-navbar-background-color: rgba(19, 19, 19, 0.8);
+  
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-heading-font-family: 'Newsreader', serif;
+  --ifm-code-font-family: 'Space Grotesk', monospace;
+  
+  --color-secondary-container: #b600f8;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-high: #2a2a2a;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #b9cacb;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #131313;
+  --ifm-navbar-background-color: rgba(19, 19, 19, 0.8);
+}
+
+/* Glassmorphism Effect */
+.navbar {
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Headlines */
+h1, h2, h3, h4 {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 200;
+  letter-spacing: -0.02em;
+}
+
+/* Navigation items */
+.navbar__link, .menu__link {
+  font-family: var(--ifm-font-family-base);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+/* Premium Typography for Docs */
+.markdown h1 {
+  font-size: 3.5rem;
+  color: #e3fdff;
+  margin-bottom: 2rem;
+}
+
+.markdown h2 {
+  font-size: 2.5rem;
+  color: var(--ifm-color-primary);
+  border-bottom: none;
+  margin-top: 3rem;
+}
+
+.markdown p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-on-surface-variant);
+  font-weight: 300;
+}
+
+.markdown blockquote {
+  border-left: 3px solid var(--color-secondary-container);
+  background: rgba(182, 0, 248, 0.05);
+  color: #ebb2ff;
+  font-style: italic;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.markdown code {
+  background: var(--color-surface-container-low);
+  color: var(--ifm-color-primary);
+  border: none;
+  font-weight: 400;
+}
+
+/* Hero Section Utilities */
+.hero-banner {
+  background: transparent;
+  padding: 8rem 0;
+  text-align: left;
+}
+
+.glitch-text {
+  position: relative;
+  display: inline-block;
+}
+
+.container-wide {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }

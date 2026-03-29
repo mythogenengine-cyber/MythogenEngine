@@ -1,26 +1,26 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Blog',
-  tagline: 'Refining AI and Stories',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  title: 'Mythogen Engine',
+  tagline: 'Refining AI and Speculative Narratives',
+  url: 'https://mythogenengine-cyber.github.io',
+  baseUrl: '/MythogenEngine/', // Target repository name
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+
+  // GitHub Pages deployment config.
+  organizationName: 'mythogenengine-cyber', // GitHub org/user name.
+  projectName: 'MythogenEngine', // Repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'zh-Hant',
     locales: ['zh-Hant', 'en', 'zh-HK'],
     localeConfigs: {
-      'zh-Hant': {
-        label: '繁體中文 (台灣)',
-      },
-      en: {
-        label: 'English',
-      },
-      'zh-HK': {
-        label: '繁體中文 (香港)',
-      },
+      'zh-Hant': { label: '繁體中文 (台灣)' },
+      en: { label: 'English' },
+      'zh-HK': { label: '繁體中文 (香港)' },
     },
   },
 
@@ -31,11 +31,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,13 +46,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Mythogen Engine',
         items: [
           {
             type: 'doc',
             docId: 'ai-war/00_guide',
             position: 'left',
-            label: 'AI Ecosystem War',
+            label: 'AI Archive',
           },
           {
             type: 'doc',
@@ -66,11 +64,21 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          {
+            href: 'https://github.com/mythogenengine-cyber/MythogenEngine',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mythogen Engine. Built with Docusaurus.`,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true, // Force dark mode for experimental feel
+        respectPrefersColorScheme: false,
       },
     }),
 };

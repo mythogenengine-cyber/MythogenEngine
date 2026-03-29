@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zh-Hant" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-mirror-realm/ch08" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">第八章〈幫手〉 | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch08"><meta data-rh="true" property="og:locale" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="zh-Hant"><meta data-rh="true" name="docsearch:language" content="zh-Hant"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="第八章〈幫手〉 | Mythogen Engine"><meta data-rh="true" name="description" content="台版 v1"><meta data-rh="true" property="og:description" content="台版 v1"><link data-rh="true" rel="icon" href="/MythogenEngine/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch08"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch08" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch08" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/mirror-realm/ch08" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch08" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/assets/css/styles.0f32740a.css">
+<script src="/MythogenEngine/assets/js/runtime~main.5888e819.js" defer="defer"></script>
+<script src="/MythogenEngine/assets/js/main.b9f931e8.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳至主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳至主要内容</a></div><nav aria-label="主導航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切換導覽列" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/docs/mirror-realm/prologue">Mirror Realm</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>繁體中文 (台灣)</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/mirror-realm/ch08" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/mirror-realm/ch08" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/mirror-realm/ch08" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://github.com/mythogenengine-cyber/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到頂部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="文件側邊欄" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/MythogenEngine/docs/mirror-realm/prologue">Mirror Realm</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/prologue">序章〈消失的方式〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch01">第一章〈最不差的選擇〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch02">第二章〈歡迎來到霧谷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch03">第三章〈QCC 的代價〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch04">第四章〈假面話術詞典〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch05">第五章〈平安夜〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch06">第六章〈懷疑的種子〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch07">第七章〈推斷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch08">第八章〈幫手〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch09">第九章〈回來〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch10">第十章〈投訴的反噬〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch11">第十一章〈維克多・數算的計算〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch12">第十二章〈廠商那邊〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch12b">第十二章B〈地板下面〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch13">第十三章〈架空孤立協議〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch14">第十四章〈鬥獸棋〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/docs/mirror-realm/ch15">第十五章〈1024年11月〉</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="頁面路徑"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主頁面" class="breadcrumbs__link" href="/MythogenEngine/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mirror Realm</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">第八章〈幫手〉</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本頁導覽</button></div><div class="theme-doc-markdown markdown"><header><h1>第八章〈幫手〉</h1></header>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="台版-v1">台版 v1<a href="#台版-v1" class="hash-link" aria-label="台版 v1的直接連結" title="台版 v1的直接連結">​</a></h3>
+<hr>
+<p>地點：鏡界・翠鏡島
+時間：1023年10月—12月
+主角：林昭明</p>
+<hr>
+<p>CTO走了之後，辦公室有一種奇怪的靜。</p>
+<p>不是安靜。是繼續運作的靜。Email繼續進來。會議繼續開。有人繼續在白板前面示範東西，有人繼續問「Action item是什麼」。一個零件被換走，機器繼續轉。</p>
+<p>林昭明坐在新樓層的hot-desk，看著自己副眼鏡的private view。</p>
+<p>那張地圖。他在中介島畫的。加上模擬的結果。Null pointer的位置。Pattern的分布。</p>
+<p>CTO見過。走了。韌體工程師見過部分。走了。</p>
+<p>現在知道那張地圖存在的人，只剩下他一個。</p>
+<p>他看著螢幕，想了很久。</p>
+<p>如果沒有人再見到這張地圖，它就會變成一個人的幻覺。一個推斷。沒有任何人可以覆核的推斷。</p>
+<p>他需要多一雙眼睛。</p>
+<hr>
+<p>他選了阿文。</p>
+<p>做測試的。林昭明跟他合作過幾次。他問的問題是準確的——不是問來填場的問題，是看過東西再問的。在例行會議上靜靜地聽，但偶爾插一句，切到要害。</p>
+<p>林昭明找他，不是開門見山說「我要你幫我查」。他說：「在整理一些數據，想多一雙眼睛看看有沒有問題。」</p>
+<p>阿文聽完，問了一個問題：「哪方面的數據？」</p>
+<p>「Symptom distribution跟firmware的correlation。」</p>
+<p>阿文站在茶水間，攪著他的咖啡。湯匙停了一秒。</p>
+<p>「好。什麼時候？」</p>
+<hr>
+<p>第一個禮拜。一間小會議室。那種訂不到半天但可以用一陣的房間。</p>
+<p>林昭明在牆上掛出symptom distribution。掛出timeline。掛出firmware spec那一頁——initialization sequence那一段，他標記過的。</p>
+<p>阿文看得仔細。</p>
+<p>問了幾個問題，每個建立在上一個的基礎上。像是走一條路一樣。</p>
+<p>「這個symptom，分布是規律的還是分散的？」阿文看著投影。</p>
+<p>「規律的。不是隨機。有pattern。」</p>
+<p>「Pattern跟firmware版本有沒有關係？」</p>
+<p>「有。某個版本之後symptom的形狀改變了。你可以看到。」</p>
+<p>阿文伸手，用指頭在投影上點了兩個位置——那兩個位置正正就是版本切換的節點。</p>
+<p>他看到了。</p>
+<p>林昭明那一刻的感覺，是很久沒有過的東西。像是你拿著一張地圖，走了很久，終於有人站在你旁邊，指著同一個位置，問同一個問題。</p>
+<p>「如果這個pattern是真的，」阿文說話時沒有看他，是看著牆上的數據，「那root cause不在供應商那邊。」</p>
+<p>「是。」</p>
+<p>阿文沒有再說。站在那裡看了好一陣子。</p>
+<p>那時候，林昭明覺得是有可能的。</p>
+<hr>
+<p>散會之後，阿文走向門口，然後停住。</p>
+<p>像是想說什麼，又像是在整理自己的想法。</p>
+<p>「這個東西你查了多久？」</p>
+<p>「正式來說，回來之後。  但在中介島那時候已經開始記錄了。」</p>
+<p>「多久？」</p>
+<p>「差不多一年。」</p>
+<p>阿文聽完，沒有立即反應。然後他轉過身來，看著林昭明。不是看資料的那種看法。是另一種。</p>
+<p>「知道這件事的人呢？」</p>
+<p>「兩個走了。CTO，還有一個做韌體的。」</p>
+<p>「而你是最後知道的人。」</p>
+<p>「是。」</p>
+<p>阿文站在門口。走廊的燈光射進來，他背光的臉看不清楚表情。</p>
+<p>「你把我拉進來了。」阿文說。不是問句。是確認。</p>
+<p>「是。」</p>
+<p>「好。」他走出去。</p>
+<hr>
+<p>第二個禮拜，阿文帶了一個人來。</p>
+<p>沒有事先問林昭明。</p>
+<p>那個人叫佩珊。PM出身，懂看硬體log。林昭明認識她——在一個review會議上，她曾經當著眾人指出一份數據的formatting問題。是說得出為什麼的人。</p>
+<p>林昭明那天走進會議室，看到佩珊已經坐在那裡。阿文坐在她旁邊。</p>
+<p>「我跟佩珊說了個大概。」阿文說。「她懂看hardware log。多個角度比較好。」</p>
+<p>林昭明停了一下。</p>
+<p>他注意到一件事：阿文跟佩珊坐在一起的方式。沒有那種第一次一起開會的距離。佩珊的包放在桌角，很自然，像是這個房間她來過很多次。阿文跟她說話的時候，用「你上次說的那個」——上次。</p>
+<p>他們認識。不是因為林昭明的邀請才認識。是之前就認識了。</p>
+<p>林昭明沒有追問。多一雙眼睛就是多一雙眼睛。誰帶來的不重要。</p>
+<p>他開始說。從頭說。從symptom distribution說到firmware correlation，說到initialization sequence，說到null pointer。</p>
+<p>佩珊聽完，問的第一個問題是：「這個symptom distribution，有沒有季節性因素？就是說不同月份有沒有差異？」</p>
+<p>是合理的問題。</p>
+<p>只是林昭明已經排除過季節性因素了。他在中介島那八個月做的第一件事就是排除。</p>
+<p>「排除了。不是季節性的。Pattern跟firmware版本走，不跟月份走。」</p>
+<p>佩珊點了點頭。「嗯。但我們要確認一下。」</p>
+<p>確認。他已經確認過了。</p>
+<p>但他沒有再說。因為多一雙眼睛的意思就是：人家要用他們自己的方式看。</p>
+<hr>
+<p>第三個禮拜。阿文又帶了一個人來。</p>
+<p>這次他有問林昭明。但不是問「可不可以」，是說「我想再加一個人——老廖。廠商出身，懂看供應商那邊的東西。你覺得呢？」</p>
+<p>老廖。入行很久的人。從供應商那邊轉過來品牌廠。他懂廠商的視角——不是從文件裡懂，是做過的人懂。</p>
+<p>「好。」林昭明說。</p>
+<p>但他心裡有一件事微微動了。</p>
+<p>阿文帶人進來。每次都有理由。每個理由都是好的。但林昭明開始注意到：每加一個人，討論的方向就寬了一點。每寬一點，他那條線就退了一點。</p>
+<p>第一個禮拜，只有他跟阿文，全部時間都在firmware correlation上。</p>
+<p>第二個禮拜，加了佩珊，開始有人說季節性因素，說testing protocol，說環境變數。</p>
+<p>第三個禮拜——</p>
+<p>老廖坐下來，靜靜地看著供應商那幾份FIR。看了好一陣子。</p>
+<p>「那個廠商好幾年的FIR都是這個類型。」老廖說。</p>
+<p>然後他靜了。</p>
+<p>那個靜，林昭明覺得他是懂的。是在消化。</p>
+<p>但阿文立刻接上：「是，所以廠商那邊的procedure有沒有改過，這個要check。佩珊，你可以去問嗎？」</p>
+<p>「可以。我跟他們PM有聯絡。」</p>
+<p>就這樣。老廖那句話，在空氣中停了不到五秒，就被接住、被裝進另一個方向。</p>
+<p>「好幾年的FIR都是這個類型」——這句話可以指向兩個方向。一個是「廠商procedure有問題」。另一個是「問題不在廠商那邊，但被寫成廠商的問題，持續了好幾年」。</p>
+<p>阿文接的是第一個方向  。</p>
+<p>林昭明看著老廖。老廖沒有再說。</p>
+<hr>
+<p>這個pattern，林昭明用了兩個禮拜才確認不是自己多心。</p>
+<p>每次他拉回去initialization sequence，就有人接住他的話，然後帶到另一條路。</p>
+<p>不是粗暴的。不是「你錯了」。是很專業的、有道理的、每一步都說得通的。</p>
+<p>林昭明說：「如果看symptom分布，initialization sequence那一段——」</p>
+<p>阿文：「是，那點很重要。記下來了。」然後：「但同時我們要check測試protocol那邊的variable。」</p>
+<p>林昭明說：「如果追根本原因，initialization sequence——」</p>
+<p>佩珊：「你的分析是很重要的input。我們要加進去整體的picture。」</p>
+<p>整體picture。</p>
+<p>林昭明開始聽到這個詞。</p>
+<p>每次他指向一個具體的方向，就有人說「加進去整體的picture」。然後那個方向就融化了，變成十幾個方向裡面的一個。</p>
+<p>他又試了一次。帶了一份新的分析——symptom跟firmware release date的correlation。他能夠用現有數據做的最緊的correlation。</p>
+<p>講完，沉默了一下。</p>
+<p>阿文看著螢幕。「這個correlation有意思。但correlation不是causation。」</p>
+<p>「是。但排除了其他主要factor之後——」</p>
+<p>「怎麼排除？你有後台log支持排除了什麼？」</p>
+<p>林昭明停了。</p>
+<p>「我沒有後台log。但symptom pattern——」</p>
+<p>佩珊接上：「如果沒有log，嚴格來講不能說排除了。」</p>
+<p>「我不是說排除。我是說pattern指向——」</p>
+<p>「Pattern可以有很多解釋。」</p>
+<p>沉默。冷氣的聲音。</p>
+<p>他看著他們兩個。每一句都是對的。Correlation不是causation，是對的。沒有log不能說排除，是對的。Pattern可以有很多解釋，是對的。</p>
+<p>每一句都是對的。但加起來的效果是：他那張地圖，在這個房間裡，走不到下一步。</p>
+<hr>
+<p>有一天下午，林昭明早了幾分鐘到會議室。</p>
+<p>阿文跟佩珊已經在裡面。門虛掩。他走到門口，聽到裡面的聲音。</p>
+<p>佩珊的聲音：「……昭明那個firmware correlation，如果真的寫進report，誰去defend？」</p>
+<p>阿文的聲音：「他有data，但沒有log。沒有log的東西寫進report，到時候出問題——」</p>
+<p>停了。</p>
+<p>林昭明站在門口。沒有進去。等了幾秒，然後走開，去了茶水間倒水。等到正式時間再回來。</p>
+<p>他走進會議室，阿文跟佩珊已經坐好了。</p>
+<p>阿文看著他，笑了一下：「來了。今天我們繼續對齊testing protocol那邊的timeline。」</p>
+<p>繼續。一切繼續。</p>
+<hr>
+<p>那個禮拜尾，林昭明在公用的工作台看到阿文開著一份collaborative doc。草稿。</p>
+<p>「你來看一下吧。」阿文說。</p>
+<p>他坐下，看著阿文寫。</p>
+<p>那一段是說廠商的測試紀錄。阿文打了一句：「廠商測試數據顯示，錯誤類型集中於——」然後停住。看著自己那句。刪掉「集中於」。改成「包含」。</p>
+<p>「為什麼改？」林昭明問。</p>
+<p>阿文沒有看他，是看著螢幕。「『集中於』有指向性。但我們現在到不了說有一個單一方向。『包含』是中性的。」</p>
+<p>林昭明看著那個字。「包含」。沒有指向。沒有方向。</p>
+<p>阿文繼續寫。下一段。「韌體初始化邏輯存在——」停住。刪。改成「韌體層面存在初始化邏輯複雜性」。</p>
+<p>「複雜性」。不是「問題」。不是「缺陷」。不是「錯誤」。是「複雜性」。</p>
+<p>林昭明看著那個字的時候，他明白了一件事：這份文件不是他的調查報告。這份文件是另一樣東西。他的調查，在這份文件裡，正在被翻譯成另一種語言。</p>
+<p>他沒有出聲。坐在那裡，繼續看。</p>
+<hr>
+<p>但這個還不是最壞的事。</p>
+<p>最壞的事發生在禮拜三。</p>
+<p>他打 開collaborative doc。他有權限——阿文早就share給他了。他記得自己兩天前放了一份symptom distribution的breakdown進去。是他做的，他親手放的，放在第五頁，initialization sequence那一節下面。</p>
+<p>他翻到第五頁。</p>
+<p>那份breakdown不在那裡了。</p>
+<p>他往下找。找到了。在第十二頁。附錄B。</p>
+<p>有人搬過去了。</p>
+<p>他看edit history。佩珊。昨天下午。沒有留comment。沒有問過他。</p>
+<p>他繼續看。</p>
+<p>那份breakdown的數字沒有改。但表格下面，被加了一行：「以上數據作為參考。正式結論以綜合分析為準。」</p>
+<p>這行字是新的。edit history：阿文。昨天傍晚。</p>
+<p>一份數據從正文搬到附錄。加了一行disclaimer。兩個動作。兩個人。前後幾個小時。沒有人通知他。</p>
+<p>林昭明坐在hot-desk，看著螢幕。</p>
+<p>他那張地圖——他花了一年畫的地圖——正在被搬到一份文件的角落。不是被刪除。是被搬到一個大多數人不會翻到的地方。</p>
+<hr>
+<p>他去找老廖。</p>
+<p>不是在會議室。是茶水間。等到老廖一個人的時候。</p>
+<p>「你覺得initialization的問題是真的嗎？你自己的判斷。」</p>
+<p>老廖拿著杯子。停了好一陣子。</p>
+<p>「是有問題的。」聲音很低。</p>
+<p>「但是——」</p>
+<p>「但我們能寫的，是我們能寫的東西。」</p>
+<p>「我知道。我是問你自己的判斷。」</p>
+<p>老廖看著他。「我自己的判斷，你那張地圖有根據。但我自己的判斷在文件裡是沒有用的。文件要data support。」</p>
+<p>「沒有data support是因為後台進不去。」</p>
+<p>「是。」</p>
+<p>「而進得了後台的人，走了。」</p>
+<p>老廖看著他幾秒。幾秒裡面有很多東西——林昭明不確定他讀到了什麼，但他確定有東西。</p>
+<p>「你知不知道，」老廖把杯子放在桌面，聲音又低了一點，「佩珊跟阿文，在你找他們之前，認識了幾年？」</p>
+<p>「我知道。」</p>
+<p>「你知不知道他們跟這裡的人的關係？」</p>
+<p>林昭明沒有回答。</p>
+<p>「我不是說他們有什麼陰謀。」老廖說。「沒有。真的沒有。但你把他們拉進來，他們帶著的東西不只是他們的專業。」</p>
+<p>「帶著什麼？」</p>
+<p>「規則。哪些字可以用，哪些不可以。哪些東西寫得下去，哪些寫不得。這些規則不是有人教的。是做久了就知道的。」</p>
+<p>老廖走了。</p>
+<p>林昭明站在茶水間。咖啡機的聲音。低的，連續的。</p>
+<p>他開始明白一件事。但那件事還沒有名字。</p>
+<hr>
+<p>他又試了一次。</p>
+<p>下一次開會，他拿著他的analysis。重新整理過。從韌體角度看的symptom distribution。他能夠有的最清楚版本。</p>
+<p>他講完。</p>
+<p>阿文說：「這個analysis很清楚。我建議放進附錄，作為supporting material。」</p>
+<p>附錄。</p>
+<p>「我的意思是，這個不是supporting material。這個是指向root cause的evidence。」</p>
+<p>阿文看著他。很平靜。「昭明。你的analysis是你的interpretation。沒有後台log support，這個在正式文件裡只能是附錄。你明白的。」</p>
+<p>Interpretation。</p>
+<p>去年他做那個模擬的時候，在螢幕上看到null pointer的時候，那個不是interpretation。那個是他親眼看到的。但「他自己的模擬環境」跟「production system」之間，有一道說不清楚的gap。這道gap，在這個房間裡，被叫做interpretation。</p>
+<p>他看著阿文。阿文眼都沒有眨。</p>
+<p>佩珊沒有出聲。老廖低著頭。</p>
+<p>「好。」林昭明說。「附錄。」</p>
+<hr>
+<p>那個禮拜之後，他又打開那份doc，想確認一些東西。</p>
+<p>他注意到timeline那一頁有改動。</p>
+<p>他記得自己寫的版本：某個firmware release的日期是三月十七。他對照過官方記錄的。</p>
+<p>現在那裡寫的是三  月二十四。</p>
+<p>差七天。</p>
+<p>他去check edit history。是佩珊改的。沒有comment。沒有解釋。</p>
+<p>七天。在大多數人眼裡什麼都不是。但林昭明知道：三月十七到三月二十四之間，有一次firmware hotfix。如果用三月二十四的日期，那個hotfix就在之前，symptom pattern的轉折點就對不上firmware release。如果用三月十七，對得上。</p>
+<p>他對得上。</p>
+<p>有人改了他對得上的東西。</p>
+<p>林昭明坐在那裡。他的手指停在keyboard上。他可以改回去。他有權限。改一個數字。七天。</p>
+<p>但如果他改回去，佩珊會看到。阿文會看到。然後呢？然後他變成那個「執著於一個日期」的人。然後每一次討論，他的名字都會帶著這個標籤：那個去改別人東西的人。那個不肯放下的人。</p>
+<p>他看著螢幕。</p>
+<p>他沒有改。</p>
+<hr>
+<p>三個禮拜後，report的雛形出來了。阿文寄給大家。「大家看一下有沒有補充。」</p>
+<p>林昭明坐下來，讀。</p>
+<p>每一句是真的。測試數據是真的。投訴記錄是真的。廠商回覆是真的。時間線是真的——用了佩珊改過的日期。</p>
+<p>他找initialization sequence那一節。在第七頁。夾在十六個factor中間。</p>
+<p>「韌體層面存在初始化邏輯複雜性，或影響部分邊緣狀況下的判斷準確性。建議廠商進一步測試以確認影響範圍。」</p>
+<p>他讀完。讀多一次。</p>
+<p>「或影響。」「部分邊緣狀況。」「建議廠商進一步測試。」</p>
+<p>換句話說：可能是問題，可能不是。繼續測。</p>
+<p>那份report問的問題，跟他那張地圖問的問題，不是同一個問題。</p>
+<p>他那張地圖問：根本原因是什麼。</p>
+<p>那份report答：綜合情況是這樣，建議多方面跟進。</p>
+<p>不是兩個矛盾的故事。是兩個關於不同事情的故事，用了同一批名詞。看完之後，人家會以為是同一件事。</p>
+<hr>
+<p>那個禮拜。林昭明在大群組看到一份名單。</p>
+<p>裁員名單。大陸QC的部分，幾個位置被cut。</p>
+<p>其中一個名字，是他聯絡過的。對供應商那幾年的FIR record很熟。他曾經問過幾個問題，對方答得準——是看過原始report再回答的人。</p>
+<p>幾個月前，這個人還會回他的email。上個月，已讀不回。他以為是在忙。</p>
+<p>現在名字在裁員名單上。理由：「業務調整，相關職能重新規劃。」</p>
+<p>林昭明看著那個名字。</p>
+<p>CTO。走了。
+韌體工程師。走了。
+大陸QC。裁了。</p>
+<p>每一個走的人，都有一個合理的原因。每一個原因，獨立看，都是正常的。</p>
+<p>他是唯一一個同時看見三個消失的人。</p>
+<p>他關掉那個view。</p>
+<hr>
+<p>然後是一封全team email。</p>
+<p>「電源管理優化項目完成。透過測試流程改進及系統功能精簡，整體良率較Q1基準提升。供應商投訴率降低。感謝相關team的努力。」</p>
+<p>林昭明坐在hot-desk，讀著這封email。</p>
+<p>「系統功能精簡。」</p>
+<p>他知道這四個字的意思。有幾個功能被關掉了。Null pointer觸發的條件減少了。「電池有問題」的判斷少了——不是因為電池沒有問題，是因為觸發那個判斷的門被移走了。</p>
+<p>供應商投訴跟著少了。</p>
+<p>投訴少了不是因為問題修正了。是因為偵測那道門被拆了。</p>
+<p>Email裡沒有一句是：「我們發現了一個問題。問題是initialization的null pointer。我們修正了。」</p>
+<p>因為承認有null pointer，就等於承認之前所有寫著「供應商組件異常」的report，全部的「原因」欄都是錯的。幾年的文件。幾百份report。</p>
+<p>所以沒有人承認。</p>
+<p>功勞寫成：「系統功能精簡，流程改進。」</p>
+<p>林昭明讀到最後一句——「感謝相關team的努力。」</p>
+<p>他想：他是不是「相關team」。還是那張地圖上面那個人。還是附錄B裡面那個名字。</p>
+<hr>
+<p>那天下午，他去找阿文。茶水間。</p>
+<p>阿文在挑咖啡。林昭明走過去，站在他旁邊。</p>
+<p>「你看到那封email了？」</p>
+<p>「看到了。」阿文沒有看他，是看著機器。</p>
+<p>「『系統功能精簡』——你知道這四個字的意思。」</p>
+<p>阿文停了一停。咖啡機的聲音填了那幾秒。</p>
+<p>「我知道。」</p>
+<p>「你知道。他們靜靜關掉的功能，跟null pointer觸發的功能，是同樣的東西。」</p>
+<p>「昭明。」阿文拿好杯子，轉過來。臉上沒有任何攻擊性的東西。沒有敵意。沒有閃避。是一個做了很多年的人的平靜。「你的推斷我理解。第一個禮拜你給我看那張地圖，我就知道你指的方向。」</p>
+<p>「那你為什麼——」</p>
+<p>「因為知道跟寫得出來是兩件事。」阿文拿著杯子。「你沒有後台log。你的推斷放進正式文件，出了事你頂。不是頂推斷的後果——是頂『寫了一個沒有data support的結論進report』的後果。你的名字在上面。我的名字在上面。」</p>
+<p>「所以做得到的，就是——」</p>
+<p>「附錄。你那份analysis在附錄裡。是在的。」</p>
+<p>「人家會看附錄嗎？」</p>
+<p>阿文沒有回答。喝了一口咖啡。</p>
+<p>「你覺得我錯了嗎？」林昭明問。</p>
+<p>「我覺得你沒有錯。」阿文看著他。「但沒有錯跟寫得出來是兩件事。」</p>
+<p>他走了。</p>
+<p>林昭明站在茶水間。窗外是低雲。很厚的那種。</p>
+<hr>
+<p>那天晚上，林昭明回到家。</p>
+<p>妻子在客廳。眼鏡戴著，在看東西。看到他進來，摘下來。</p>
+<p>「這麼早？」</p>
+<p>「開完會沒什麼事情。」他放下包。坐在她旁邊。</p>
+<p>「吃飯了嗎？」</p>
+<p>「還沒。你想吃什麼？」</p>
+<p>「你選。」</p>
+<p>他訂外賣。坐著。客廳很靜。</p>
+<p>「你最近做的那個東西，」妻子 說，「上次你說很複雜。找到了嗎？」</p>
+<p>「出了一份report。」</p>
+<p>「就是完成了？」</p>
+<p>「不是完成。是出了一份文件。」</p>
+<p>妻子轉過來看著他。她認識他。「你的版本跟那份文件不一樣？」</p>
+<p>「不一樣。但我的版本沒有辦法confirm。沒有後台的log。」</p>
+<p>靜了一陣。</p>
+<p>「那你查了這麼久——」</p>
+<p>「我的analysis在附錄裡。」</p>
+<p>妻子看著他：「人家會看附錄嗎？」</p>
+<p>林昭明沒有回答。</p>
+<p>兩秒。三秒。</p>
+<p>妻子說：「你不開心。」</p>
+<p>「不是不開心。」他想了一陣。「是奇怪。你找人來一起看一件事。出來的東西——不是你以為會出來的東西。但他們不是騙你。每個人做的事都是——」</p>
+<p>他停了。</p>
+<p>「你沒事就好。」妻子說。</p>
+<p>外賣到了。他們去吃飯。飯桌上聊的是另一件事。</p>
+<hr>
+<p>晚上。妻子睡了。</p>
+<p>林昭明坐在書房。燈暗暗的。窗外是海的方向。黑色的。</p>
+<p>他沒有開電腦。</p>
+<p>他想起第一個禮拜。阿文在牆上用指頭點了兩個位置。那兩個位置正正是firmware版本切換的節點。他看到了。他真的看到了。</p>
+<p>然後他帶了佩珊來。然後老廖來。然後佩珊把他的breakdown搬到附錄。然後日期被改了七天。然後阿文把每一個有指向性的詞換成沒有指向性的詞。然後report出來——十六個factor並列，每一個都是「或影響」，沒有一個是root cause。</p>
+<p>是一個過程。從一到十六。</p>
+<p>不是有人坐下來開了個會說「來，我們一起掩蓋」。</p>
+<p>是每一個人帶著他們的規則進來。哪些字寫得了。哪些寫不得。哪些東西放正文。哪些放附錄。這些規則不是為了這件事而存在。是一直都存在的。只是他以前不知道。</p>
+<p>老廖說的——「他們帶著的不只是專業。是規則。」</p>
+<p>規則。</p>
+<p>  他找人來。找的是眼睛。來的是眼睛，加規則。規則比眼睛大。所以出來的東西，是規則能夠裝下的東西。</p>
+<p>他那張地圖，規則裝不下。</p>
+<p>所以地圖去了附錄B。</p>
+<p>每一個人做了他們能夠做的事。沒有人騙他。沒有人指著他那張地圖說是假的。只是每一個人做完他們能做的事之後，加起來，那張地圖消失了。</p>
+<p>不是被刪除。是被稀釋。在十六個factor裡面。在「或影響」裡面。在「建議進一步測試」裡面。在附錄B裡面。</p>
+<p>地圖還是存在的。附錄B裡面有他的名字。有他的analysis。有他花了一年做的東西。</p>
+<p>只是沒有人會翻到附錄B。</p>
+<p>而那封email——「系統功能精簡，良率提升」——這個才是會留下來的故事。日後有人翻回這件事，翻出來的是report。Report說：綜合問題，多方面跟進，良率已改善。</p>
+<p>沒有一句話是錯的。</p>
+<p>他坐在書房。窗外很靜。連浪聲都沒有。</p>
+<p>他第一個禮拜以為的東西——「至少有人見過那張地圖」——這個是真的。有人見過。阿文見過。第一天，他用手指點了那兩個節點。他看到的東西跟林昭明看到的一樣。</p>
+<p>但見過之後，寫下來的，是另一件事。</p>
+<p>他帶進來的人，是做完他們的事之後出去的人。他們出去的時候，帶走了他的數據、他的breakdown、他的timeline，然後把這些東西裝進一個他不認識的形狀。那個形狀叫做「正式報告」。</p>
+<p>正式報告裡每一個字都能defend。</p>
+<p>只是defend的對象，不是真相。是文件。</p>
+<p>林昭明坐在暗的書房，沒有動。很久很久。</p>
+<hr>
+<blockquote>
+<p>「最精密的掩蓋，是讓你自己把調查的人帶進來，然後讓那些人，帶著他們的規則，把你的地圖翻譯成一份他們的語言能夠說出來的文件。沒有人騙你。沒有人刪你的東西。只是翻譯完之後 ，那張地圖，在附錄B裡面，等著一個永遠不會翻到那頁的人。」</p>
+</blockquote></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件選項卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/docs/mirror-realm/ch07"><div class="pagination-nav__sublabel">上一頁</div><div class="pagination-nav__label">第七章〈推斷〉</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/MythogenEngine/docs/mirror-realm/ch09"><div class="pagination-nav__sublabel">下一頁</div><div class="pagination-nav__label">第九章〈回來〉</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#台版-v1" class="table-of-contents__link toc-highlight">台版 v1</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

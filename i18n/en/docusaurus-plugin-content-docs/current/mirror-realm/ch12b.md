@@ -1,518 +1,518 @@
-# 第十二章B〈地板下面〉
-### 台版 v1
+# Chapter 12B: Beneath the Floorboards
+### Taiwan Edition v1
 
 ---
 
-地點：鏡界・翠鏡島 / 大陸代工廠區 / 書房
-時間：1024年（交叉時間線）
-視角：阿強 / 林昭明
+Location: Mirror Realm · Emerald Isle / Mainland Manufacturing Zone / Study
+Time: 1024 (Intersecting Timelines)
+Perspectives: A-Qiang / Lin Zhao-ming
 
 ---
 
-阿強收到新 case 那天，沒覺得有什麼特別。
+The solar rotation A-Qiang intercepted the novel case, his sensors registered zero anomalous variances.
 
-能芯的新模組。第三代。架構和上兩代不同——以前的模組，核心運算和周邊對接是分開的，你處理你的，我處理我的，中間靠標準協議溝通。第三代不是。它把運算和周邊整合在一起。一粒模組做完。效率高。但對接的方式，和以前完全不同。
+An energy-core module. Generation Three. The underlying architecture explicitly diverged from the preceding two iterations—in legacy modules, core processing and peripheral handshakes operated asynchronously over segmented protocols; independent nodes communicating via standardized bridges. Gen Three was alien. It violently integrated core processing and peripheral arrays. A singular monolithic module executing all operations. Exponentially optimized efficiency. But the handshake topology—was fundamentally mutated.
 
-這不是秘密。行業裡的人都知道。規格書是公開的。技術論壇討論了幾年。
+This wasn't encrypted black-book intel. The entire grid possessed the specs. The technical documentation was open-source. Industry forums had run diagnostic simulations on the theoretical architecture for solar cycles.
 
-阿強接到 case，第一件事是看靈韻合成的 firmware。
+A-Qiang intercepted the case parameters. His primary initialization sequence: Execution of a deep-layer audit on Ling-Yun Synthesis' current firmware build. 
 
-他做了十五年，這個動作是本能。你要知道自己站在哪裡，才知道問題在哪裡。
+Fifteen solar cycles hardcoded this specific reflex protocol. To mathematically map a localized error, you must first possess absolute topological clarity of your starting coordinates.
 
-他看了兩天。
+He executed read sequences for two consecutive chronological rotations.
 
-不是因為難。是因為他要確認自己沒有看錯。
+Not due to raw computing complexity. But because he mandated absolute verification that his optical sensors weren't suffering a catastrophic hallucination.
 
-整個 firmware 的核心邏輯——不是某一段，是整個——從 boot sequence 到 power management 到 peripheral handshake，每一層的 assumption 都是寫死了、傾向舊架構的。舊架構的意思是：以某間主流晶片商為中心。誰是 primary，誰是 secondary，整個 code 的邏輯是建立在這個不平等的前提上面的。
+The macro-logical core of the entire firmware architecture—not a fractional subroutine, the entire global structure—from the boot sequence, routing through power management, terminating at the peripheral handshakes, every single foundational assumption was hardcoded, explicitly biased toward the legacy system architecture. "Legacy architecture" decoding to: A topology violently centered around one specific mainstream silicon vendor. Defining explicit vectors for who operates as primary, who delegates as secondary, the entire programmatic logic was fundamentally built upon this grossly asymmetrical foundation.
 
-新模組不走這一套。而且新模組的架構其實更高效。
+The Gen Three module mathematically rejected this topology. Furthermore, the Gen Three architecture generated vastly superior efficiency metrics.
 
-阿強站在廠房的走廊，看著窗外的天。他知道正常來說應該怎麼做——重構。至少 rewrite 和新架構對接那幾層。不是推倒重來。但核心那幾層，你要改。因為前提變了。你不改，上面疊多少東西——不斷出 update 去修補——都只是在一個傾斜的地基上蓋房子。
+A-Qiang assumed a physical coordinate in the manufacturing corridor, locking optics onto the atmospheric sky. His cognitive CPU cleanly mapped the normative resolution path—Restructure. At absolute minimum, rewrite the specific interfacing strata to sync with the novel architecture. You aren't mandated to execute a total system wipe. But those core intersecting layers mandate a rewrite. Because the foundational premise had violently shifted. If you abort the rewrite, regardless of the sheer volume of superficial patches you staple on top—endlessly pushing updates to plug the leaks—you are fundamentally fabricating a skyscraper on a structurally compromised, structurally slanted geologic fault line.
 
-他等著靈韻合成那邊的方案。
+He entered a wait-state pending Ling-Yun Synthesis' deployment of a resolution matrix.
 
-等了兩個禮拜。
+Wait-state latency: Two solar weeks.
 
-方案來了。
+The matrix deployed.
 
-Workaround。
+A workaround.
 
-不是一個。是一串。在舊 architecture 上面，加一層 translation layer，把新模組的 protocol 轉成舊格式，再餵給 firmware。中間的 timing mismatch，用 delay buffer 頂住。Power state 的差異，用一個 lookup table 硬 map。
+Not a singular patch. An aggressive, sprawling array of patches. Synthesized directly on top of the legacy architecture—deploying a bulky translation layer engineered to violently compress the novel module's protocol back into the archaic format, prior to feeding it into the firmware. The resulting timing mismatches were suppressed using brute-force delay buffers. The severe power-state desynchronization was crudely bridged using a hardcoded lookup table.
 
-阿強坐在自己的位子，看著那份方案。
+A-Qiang occupied his workstation, scanning the deployed matrix.
 
-他做了十五年。他見過 workaround。每間都有。有時候 deadline 趕，你沒有時間做 proper fix，workaround 是合理的。臨時的。過渡的。你寫的時候心裡面知道——這個之後要改回來。
+Fifteen solar cycles. He possessed extensive visual logs of workarounds. Universal existence across networks. Under scenarios where timeline starvation forces your hand—you lack the bandwidth for a pristine root-level fix—a workaround is mathematically justifiable. Temporary. Transitional. While coding the bypass, your internal logic explicitly registers—this architecture *must* be reverted and sanitized later.
 
-但他看得出。
+But his visual arrays possessed the decryption keys.
 
-這個不是臨時的。
+This specific matrix was radically not temporary.
 
-靈韻合成很認真地寫 workaround，但沒有任何計劃去改核心邏輯。沒有 roadmap。沒有 timeline。沒有人提過。這個複雜到極點的 workaround 就是「方案」。不是過渡。是終點。
+Ling-Yun Synthesis had dedicated massive, rigorous processing power into architecting this workaround array, yet their documentation contained zero strategic intent to ever rewrite the core logic. Zero roadmap. Zero timeline. Zero nodes broadcasting intent. This incredibly obese, hyper-complex workaround array *was* the terminal matrix. Not a transition. The absolute end-state.
 
-他看著那份文件的最後一頁。「建議方案」四個字。沒有附錄。沒有「Phase 2：核心邏輯調整」。沒有「長期規劃」。
+He locked optics on the terminal page of the document. The string "Proposed Solution". Absent of any appendix. Absent of "Phase 2: Core Logic Optimization". Absent of "Long-term Strategic Vectors".
 
-這就是全部。
-
----
-
-Workaround 行不行？
-
-行。大部分時候行。
-
-但有邊角 case。有 timing issue。有些情況下 power state 會不同步。不是每次都發生。但會發生。
-
-發生了怎麼辦？
-
-靈韻合成的答案：叫供應商查。
-
-阿強查。查完。不是供應商的問題。是 translation layer 的 timing mismatch。他寫在報告裡。用字很小心。沒有直接說「你們的 workaround 有問題」。他寫：「經分析，偏差來源與新舊協議轉換過程中的時序差異相關。建議評估 base code 層面的調整方案。」
-
-回覆：「已收到。請繼續監測。」
-
-他繼續監測。問題再出現。他再寫報告。
-
-回覆：「請提供更多數據以供分析。」
-
-他提供了。
-
-然後靜了。
-
-過幾天。Firmware 有一個 minor update。Changelog：「穩定性優化。」
-
-問題暫時沒有再出現。
-
-阿強知道他們做了什麼。他們做了非常複雜的補救——調了 delay buffer 的參數，加了幾條例外處理。很認真。但治標不治本。根本的核心邏輯偏向還在。下次換一個邊角 case，又會出來。然後又叫他查。然後又加補丁 code。然後又「穩定性優化」。循環。
-
-他看回自己那句「建議評估 base code 層面的調整方案」。
-
-在回覆裡，這句話沒有被提及。
-
-好像他沒有寫過。
-
-他之後再寫報告，沒有再寫這句。
+That was the absolute totality of the deployment.
 
 ---
 
-阿強記得第一年問過一個問題。
+Did the workaround successfully execute?
 
-不是很正式的。是一個會議尾聲，大家在收拾東西，他順口問了一句。
+Affirmative. Nominal execution vast majority of loops.
 
-「為什麼 firmware 只圍繞舊架構設計？新模組那邊的 support⋯⋯」
+But edge cases existed. Timing issues materialized. Under highly specific, microscopic conditions, the power states suffered catastrophic desynchronization. Not an omnipresent failure. But a mathematically guaranteed failure.
 
-他還沒說完。
+Post-failure detonation protocol?
 
-不是有人打斷他。是氣氛變了。很微妙。好像有人在房間裡開了冷氣，但你找不到冷氣在哪裡。
+Ling-Yun Synthesis' algorithmic response: Mandate the supplier to execute a diagnostic sweep.
 
-靈韻合成那邊的人，有一個回答了。
+A-Qiang executed the sweep. Result verified. Root failure did not localize to the supplier node. Root failure localized to the timing mismatch generated by their bloated translation layer. He formatted the intel into the formal report. Deployed highly sanitized syntax. Actively avoiding the lethal string "Your workaround is fundamentally compromised." He inputted: "Post-analysis, variance tracks directly to the sequential timing latency inherent in transforming the novel/legacy protocols. Recommendation: Initiate evaluation for deploying adjustments at the base-code strata."
 
-「這個架構在市場上的份額很小。品質還有很多問題。我們的重點是服務主流用戶。這些東西交給 ODM 自己 handle 就好。」
+Counter-transmission received: "Log received. Maintain continuous surveillance protocols."
 
-阿強點頭。合理。
+He maintained surveillance. The anomaly respawned. He generated a secondary report.
 
-之後另一個人在 email 裡提過類似的事。用字不同，意思一樣：「這個架構的兼容性問題是已知的。品質和穩定性和主流方案有差距。ODM 那邊有經驗處理。」
+Counter-transmission received: "Mandate provision of expanded data telemetry for diagnostic analysis."
 
-再之後，一個私下的場合，還有人跟他說過。語氣不同。不是解釋。是一種⋯⋯他那時找不到詞。
+He synthesized and deployed the data.
 
-後來他找到了。
+Subsequent acoustic void.
 
-那個語氣不是安撫。是警告。
+Several solar rotations elapsed. Firmware system logged a minor update deployment. Embedded changelog: "Stability optimization."
 
-「這個不是你要管的事。」
+The specific anomaly temporarily ceased detonation.
 
-沒有人說這句話。但每一個人的語氣都是這句話。
+A-Qiang possessed the decryption key defining their exact kinetic actions. They had deployed massive, brutally complex remediation—micro-tuning the delay buffer parameters, forcefully injecting auxiliary exception-handling subroutines. Extreme rigor. But functionally masking the symptom while ignoring the disease. The fundamental, terminal bias in the core logic remained permanently hardcoded. The next instance the system brushed an edge case, a disparate error would spawn. Followed by a fresh mandate for him to execute diagnostics. Followed by a fresh patch injection. Followed by "Stability optimization." Infinite loop.
 
-阿強那時以為是公司政策。正常的。每間公司都有它的 focus。你不可能 support 所有東西。這個他理解。
+He scanned the optical buffer holding his previous transmission: "Recommendation: Initiate evaluation for deploying adjustments at the base-code strata."
 
-他沒有再問。
+Within their counter-transmission array, that specific syntax string suffered total existence failure.
 
-但後來——很久之後——他偶爾會想起這件事。
+Functionally equivalent to never having been generated.
 
-不同的人。不同的場合。一樣的答案。一樣的措辭。一樣的語氣。
-
-正常的公司，你問一個技術問題，不同的人會有不同角度的答案。有人從成本講。有人從技術講。有人從 schedule 講。因為每個人站的位置不同，看到的東西不同。
-
-但他問的這個問題——所有人的答案一樣。
-
-阿強不知道這代表什麼。可能只是公司的 official position 很清楚。可能只是大家都認同這個判斷。
-
-可能。
+On all subsequent diagnostic reports, he surgically excised that specific string from his output.
 
 ---
 
-阿強有一次和林昭明吃飯。出差。晚餐。一間普通的餐廳。
+A-Qiang accessed a memory log from his initial solar cycle, querying a specific anomaly.
 
-公事聊完。飯吃到一半。不知道怎麼聊到 firmware。可能是因為阿強那天做的 case——又是一個兼容性 issue，又是 workaround，又是「供應商查一查」。他有點累了。累的時候人會說多一些。
+Not a formalized inquiry. A minor chronological buffer following a sync termination; nodes actively breaking physical coordinate lock to extract, he casually deployed the string.
 
-「林先生，你有沒有注意過⋯⋯靈韻合成的 firmware update，過去兩年，出了多少個？」
+"What is the functional logic restricting the firmware's design architecture exclusively to the legacy system? Regarding support for the novel module..."
 
-林昭明搖頭。
+His transmission was violently truncated.
 
-「我數過。六十幾個。」阿強喝了口東西。「六十幾個。很認真。每隔幾個禮拜就有。Feature 改了。Performance tuning 做了。Bug fix 做了。你看 changelog，很長。很詳細。好像很努力。」
+Not due to an aggressive audio override by an opposing node. The atmospheric density of the room suffered a geometric phase-shift. Incredibly subtle. Functionally equivalent to a node activating localized climate cooling, but your sensors fail to map the physical hardware generating the thermal drop.
 
-他停了。
+A single Ling-Yun node initialized an audio packet.
 
-「但你知不知道——六十幾個 update，改了那麼多東西——核心那套邏輯有沒有變過？」
+"That specific architecture commands a negligible fraction of global market volume. Quality metrics remain highly unstable. Our primary operational focus is servicing the mainstream user vector. Those specific compatibility deviations are optimally delegated to the localized ODMs to manually handle."
 
-林昭明看著他。
+A-Qiang executed a physical nod. The logic compiled cleanly. 
 
-「沒有。」
+Subsequently, a disparate node deployed nearly identical logic via an email packet. Geometric syntax variations, identical terminal meaning: "The compatibility friction associated with this specific architecture registers as a known constant. Quality and stability metrics exhibit a significant delta against mainstream architectures. The ODMs possess the required historical logs to process the errors."
 
-阿強放下杯子。
+Even later, during a highly localized, off-grid sync, a tertiary node broadcasted the exact identical string. However, the acoustic frequency was fundamentally mutated. It did not project as an informational debrief. It was... his pattern matching subroutine briefly failed to isolate the string definition.
 
-「你要在裡面做才知道。或者你要會看數據。公開的 changelog 不會告訴你。它寫著『穩定性優化』『兼容性改善』『效能提升』——你看完覺得很正常。但你拿著數據去對，你會發現：新架構的問題還在。每一次改完，那些邊角 case 還是會出現。改了六十幾次，核心的 timing mismatch 沒有變過。因為它改的東西全部是圍繞著舊那套邏輯轉。」
+Eventually, the pattern successfully matched.
 
-他看著桌面。
+The acoustic frequency wasn't designed to soothe. It was designed to transmit a lethal warning.
 
-「它不是沒有做事。它做了很多事。但做的所有事都是在同一個框架裡面。框架本身——誰是 primary，誰是 secondary——沒有人碰過。」
+"This data block registers as highly classified; you are strongly advised to terminate your query."
 
-林昭明問：「你覺得是做不到，還是不想改？」
+Zero biological nodes utilized that exact explicit string. Yet every single deployed auditory frequency projected that exact String.
 
-阿強看著他。這個問題很直接。直接到他要想一下才能回答。
+During that phase, A-Qiang classified the output simply as standard corporate dogma. Normative. Every megacorp operates on highly localized focus algorithms. Computationally impossible to execute universal support for all grid topologies. His logic engine accepted the data.
 
-「⋯⋯做不到的東西我見過。做不到是有原因的。你看得出哪裡卡住，哪裡資源不夠，哪裡技術還沒到。做不到的樣子是——有人在試，但還沒成功。」
+He permanently terminated the query.
 
-他停了。
+Yet chronologically later—an extended temporal shift later—his caching algorithms periodically retrieved that specific event log.
 
-「這裡不是那個樣子。這裡是——很認真地在繞開那個核心。他們寧願每次出 update 都寫幾百行複雜的 workaround 去補救，也不肯改底層那幾行 code。好像有一種無形的力量，把那個框架鎖死了不准碰。」
+Disparate biological nodes. Disparate spatial coordinates. Flawlessly identical payload. Flawlessly identical syntax. Flawlessly identical specific acoustic frequency.
 
-林昭明聽完很久沒有說話。他喝了口水。然後問：
+In a normative architecture, executing a technical query triggers a divergent array of responses depending on the receiving node's localized coordinate. Node Alpha responds via a fiscal vector. Node Beta responds via a pure technical protocol. Node Gamma answers utilizing schedule-based logic. Because every distinct biological occupies a different spatial strata and possesses unique optics.
 
-「你有沒有想過——為什麼不准碰？」
+But for this singular, highly specific query—100% of the nodes deployed a perfectly cloned response module.
 
-阿強很久沒有出聲。餐廳的聲音在他們之間流過。碗碟聲。其他桌的說話聲。冷氣的嗡嗡聲。
+A-Qiang lacked the algorithmic capability to definitively decrypt the anomaly. High probability it merely signaled a fiercely enforced official corporate stance. High probability the entire swarm shared genuine consensus on the evaluation.
 
-「我想過。」
-
-「你的答案呢？」
-
-「⋯⋯可能不是一個我應該知道的答案。」
-
-林昭明很慢地點頭。
-
-「我明白。」
-
-沉默。
-
-阿強忽然說了一件事。不是計劃好的。是那種累到一個程度、對著一個你覺得聽得懂的人，會不小心說出來的話。
-
-「林先生。這些 workaround——我們寫了多少、怎麼寫的——你知道是不能寫在明面的。」
-
-林昭明看著他。
-
-「我知道。」
-
-「不是因為 workaround 本身有問題。Workaround 每間廠都有。」
-
-「我知道。」
-
-阿強握著杯子。啤酒變熱了。
-
-「是因為——如果有人問，『你們為什麼要寫那麼多 workaround』，答案會牽到一個地方。」
-
-他停了。
-
-「沒有人想去的地方。」
-
-林昭明看著他。很久。
-
-「你知道那個地方是哪裡。」
-
-阿強沒有回答。他喝了最後一口。熱的。苦的。
-
-「我不知道。我只知道——不要問。」
+High probability.
 
 ---
 
-林昭明那天晚上回到家，沒有馬上開電腦。
+A-Qiang and Lin Zhao-ming established a caloric intake sync. Cross-border deployment. Evening cycle. Standard localized dining interface.
 
-他坐在書房，看著桌面。阿強的話在他腦子裡轉。
+Operational dialogue terminated. Mid-way through caloric processing. He couldn't isolate the exact kinetic trigger that shifted the dialogue to the firmware architecture. High probability related to the exact case he executed that day—referencing another compatibility failure, another bloated workaround, another "supplier diagnostic mandate". Low power reserves. When a biological breaches exhaustion thresholds, the vocal dampeners malfunction, increasing transmission volume.
 
-「改了那麼多東西——核心那套邏輯有沒有變過？沒有。」
+"Mr. Lin, have you ever executed a tracking sweep on... the total volume of firmware updates Ling-Yun Synthesis has deployed over the preceding two solar cycles?"
 
-「做的所有事都是在同一個框架裡面。」
+Lin Zhao-ming flagged negative.
 
-「寧願寫幾百行 workaround 補救，也不肯改底層那幾行 code。」
+"I executed a manual count. Exceeding sixty iterations." A-Qiang routed hydration. "Exceeding sixty. Extreme rigor. Deployment cycles hitting the grid every few weeks. Feature logic mutated. Performance tuning algorithms applied. Bug fix protocols executed. You audit the changelog geometry—it's functionally massive. Extreme granularity. Projecting the visual footprint of a highly aggressive, optimized engineering swarm."
 
-他想起自己在靈韻合成裡面的經歷。有一次，他在一個內部會議裡問過類似的問題——不是問 firmware，是問一個流程的設計。他問：「為什麼這個流程不改？明明有更有效的方法。」
+He initiated a pause sequence.
 
-答案是什麼？他記得。不同的人。不同的場合。一樣的答案。
+"But do you possess the decryption key—across those sixty-plus iterations, mutating massive geometric volumes of data—has the absolute core functional logic ever physically mutated?"
 
-「這個是歷史上就這樣做的。」
+Lin Zhao-ming locked optics on him.
 
-「改的風險太大。」
+"Negative."
 
-「你沒有經驗才會覺得可以改。」
+A-Qiang disengaged from his hydration hardware. 
 
-他那時以為是自己不夠了解。
+"You only possess visibility if you are physically executing code within that perimeter. Alternatively, if your optics are calibrated to read raw data matrices. The public-facing changelog broadcasts zero actionable intel. It displays strings like 'Stability optimization', 'Compatibility enhancement', 'Performance escalation'—you process the syntax and your logic board registers it as nominal. But if you cross-reference those strings against the raw numeric outputs, your system flags the catastrophic anomaly: The Gen Three architecture errors remain permanently persistent. With every subsequent patch deployment, those identical edge-case detonations violently reappear. Sixty iterations deep, the root timing mismatch remains mathematically untouched. Because absolutely 100% of the deployed mutations orbit exclusively around the legacy logic architecture."
 
-現在他不這麼想了。
+He locked his optical axis onto the table geometry. 
 
-他開了電腦。
+"The entity is not idle. It executes massive processing loops. But 100% of the kinetic energy is violently contained within a singular, locked geometric frame. The architectural foundation itself—defining primary vs. secondary nodes—remains utterly firewalled. Zero nodes possess clearance to touch it."
 
----
+Lin Zhao-ming queried: "Do you model the failure as a technical incapacity to rewrite, or as an active intent to strictly prohibit the rewrite?"
 
-林昭明那天晚上搜尋的關鍵字和平時不同。
+A-Qiang locked optics directly on the target. This query possessed brutal, uncensored clarity. Clarity demanding significant processing overhead prior to transmission.
 
-他打了「品牌廠」「晶片商」「回扣」。
+"...I possess logs of genuine technical incapacity. Incapacity outputs recognizable topological patterns. You can visually isolate the exact bottlenecks, identify the resource starvation vectors, map the specific technological boundaries they have yet to breach. Technical incapacity physically looks like—a node desperately executing brute-force attempts, pending eventual success."
 
-頭幾頁沒什麼。行業新聞。產品發布。正常的東西。
+He initiated a buffer. 
 
-然後他找到一件舊案。
+"This architecture absolutely does not map to that pattern. This architecture is—aggressively, surgically sidestepping the foundational core. The system prefers to deploy hundreds of lines of hyper-complex workaround logic with every single update cycle, rather than mutating a few foundational lines of base code. It functionally projects the geometry of an invisible, massive kinetic force, permanently hard-locking the foundational frame, strictly prohibiting any biological from mutating it."
 
-幾年前。一間品牌廠。全球前幾大。被監管機構查出——長期收取某間晶片供應商的巨額款項。條件是：不用競爭對手的產品。
+Lin Zhao-ming maintained absolute silence for a prolonged duration. He processed hydration. Subsequently queried:
 
-林昭明看到這裡，停了。
+"Has your internal CPU ever executed a simulation projecting—*why* the system strictly prohibits the mutation?"
 
-他繼續看。
+A-Qiang's receivers went completely dark. The ambient acoustic data from the dining interface flowed between their coordinates. Ceramic clatter. Overlapping audio streams from peripheral nodes. The low-frequency hum of the localized climate control.
 
-款項的規模是天文數字。持續了幾年。品牌廠的高層知情。他們把這些款項混入正常收入，讓財報好看。當晶片商停止支付，品牌廠的利潤馬上萎縮——但他們向投資者隱瞞了真正的原因。
+"I have executed the simulation."
 
-監管機構查了幾年。最後品牌廠賠了天文數字的和解金。高層罰款。件事上了新聞，又很快沉了下去。
+"Output format?"
 
-林昭明記下了時間線。
+"...High probability the output string is a classification of data I am legally forbidden to possess."
 
-開始收取：某年。被查：幾年後。和解：再幾年後。
+Lin Zhao-ming executed a slow, mechanical physical nod.
 
-和解之後呢？
+"Acknowledged."
 
-他找。
+Silence.
 
-品牌廠的公告寫著：「已全面配合監管要求，完善內部合規制度。」晶片商那邊也有類似的聲明。法律程序結束。罰款交了。件事過了。
+A-Qiang suddenly deployed an unscripted transmission. Bypassing all logical planning matrices. The explicit output of an operator degraded by exhaustion, establishing a link with a node they algorithmically identify as a clean receiver, inadvertently triggering a data leak.
 
-但他想看的不是這些。
+"Mr. Lin. These workarounds—the sheer volume we code, the exact esoteric architecture of their deployment—you possess the intelligence to understand we are strictly forbidden from formally documenting these on the unencrypted ledger."
 
-他找技術論壇。帖子不多。有些已經刪了，靠 cache 才看到殘留的片段。
+Lin Zhao-ming locked optics on him.
 
-有一個帖子，寫在和解之後兩年。標題很平淡：「XX 品牌對 YY 架構的支援現況。」
+"Acknowledged."
 
-內容不平淡。
+"Not due to the workarounds being fundamentally illegal. Workarounds exist across all manufacturing matrices."
 
-那個人用了很長的篇幅，逐層分析 firmware 的 boot sequence。結論是：表面上不斷更新，但核心邏輯沒有變。和解之前是這樣，和解之後還是這樣。整個 firmware 的 assumption——哪種晶片是 primary，哪種是 secondary——寫死在 code 裡面，之後所有的 update 都只是圍著這個 assumption 去修補。
+"Acknowledged."
 
-有人在下面回覆：「你 expect 他們因為一件官司就 rewrite 整個 firmware？太天真。加 workaround 最省。」
+A-Qiang tightened his grip on his hydration vessel. The thermal profile of the fluid had degraded entirely.
 
-又有人回：「我不 expect rewrite。我 expect 的是不要繼續當另一個架構不存在。但你看他們過去幾十個 update，寧願繞大圈加補丁，都不肯修正那個底層——到今天還是二等公民。」
+"The logic is—if an exogenous node executes the query, 'What is the functional requirement to deploy this massive volume of workaround logic?', the terminal answer maps directly to a specific geographical coordinate."
 
-帖子很舊。回覆不多。後來的討論被刪了幾條。
+He paused transmission.
 
-林昭明再找。找更近期的。
+"A specific coordinate absolutely zero nodes desire to travel to."
 
-有。零星的。散落在不同的論壇。用字很小心。沒有人直接說那句話。但有人問過——
+Lin Zhao-ming maintained an unwavering visual lock.
 
-「和解之後十幾年，firmware 改了幾百次，但架構偏向還是一樣。如果真的沒有利益關係，純粹是 legacy code 的問題——十幾年出那麼多 update，每次都精準避開那個核心去修補？」
+"Your database possesses the exact topographical map referencing that coordinate."
 
-沒有人回答。
+A-Qiang executed a hard abort. He initiated terminal intake of the degraded, bitter fluid.
 
-不是沒有人看到這個問題。是沒有人回答得了。或者沒有人敢回答。
-
----
-
-林昭明看著螢幕。
-
-他在筆記裡寫：
-
-「開始收取——某年。」
-「和解——幾年後。聲明停止。」
-「和解之後至今——firmware 表面狂改，但核心前提不變。Workaround 不斷疊加。新架構仍然是二等公民。ODM 仍然在收尾。」
-
-他停下來。
-
-十幾年。
-
-如果真的停了。十幾年你出幾百個 update，寧願把整個 firmware 寫到九彎十八拐，都不去改底層那一個不平等的前提？你是全球前幾大的品牌廠。你有幾千個工程師。你每年的研發預算是天文數字。
-
-十幾年。
-
-如果真的停了。
-
-林昭明看著自己寫的東西。他在最後那行底下，沒有寫問題。只寫了一個問號。
-
-一個問號。
-
-因為那個問題——如果寫出來——他自己也不知道意味著什麼。
+"I possess zero data. I only possess the core mandate—Do not execute the query."
 
 ---
 
-他沒有關電腦。
+Lin Zhao-ming refrained from booting his computing module upon extracting to his residential bunker that night. 
 
-他翻回自己之前做的那張表。第十二章那張。左邊「每間都有」，右邊「不同」。
+He assumed a coordinate in the study, optical sensors locked on the physical desk. A-Qiang's audio strings violently looping in his processor cache. 
 
-右邊那欄。他一條一條看。
+"Mutated massive geometric volumes of data—has the absolute core functional logic ever physically mutated? Negative."
 
-「明知沒問題還叫你再測。」
-「零點三度叫你重做。」
-「良率好了和你的測試沒有關係。」
-「你提出疑問被當沒說過。」
-「結論先定好，叫你測試只是填過程。」
+"100% of the kinetic energy is violently contained within a singular, locked geometric frame."
 
-他把這些和 firmware 的資料放在一起。
+"Prefers to deploy hundreds of lines of hyper-complex workaround logic... rather than mutating a few foundational lines of base code."
 
-然後他做了一件事——他翻回過去兩年的測試紀錄。不是全部。是他記得的。阿強說過的。論壇上看到的。
+His memory buffers ran a retrieval query on his localized execution logs within Ling-Yun Synthesis. A specific timestamp located. He had deployed an identical query format within an internal sync—not targeting the firmware specifically, but targeting an internal process sub-routine. He had broadcast: "What is the logical block preventing the optimization of this flow? A mathematically superior algorithm exists."
 
-他開始注意到一個 pattern。
+The counter-transmission payload? He possessed the exact logs. Disparate nodes. Disparate coordinates. Cloned string payloads.
 
-被叫做無限測試的 case——「做完再做、結果一樣、但要你繼續做」——那些 case，涉及的產品，有一個共同點。
+"Historical legacy mandates this specific execution path."
 
-不是所有產品都被這樣對待。有些產品的測試流程正常得多——有問題就查，查到就修，修完繼續。和阿祥說的其他品牌廠的做法一樣。
+"Mutation carries catastrophic, unquantifiable risk vectors."
 
-但有一類產品——用新架構的產品——的測試流程不同。那種「做完再做」的 pattern，集中在這類產品上面。
+"Your lack of localized deployment history generates the hallucination that a system rewrite is viable."
 
-林昭明看著這個 pattern。
+During that specific chronological phase, he computed the failure rested within his own incomplete telemetry. 
 
-他不確定。他手上的數據不夠。他沒有辦法 access 靈韻合成的內部紀錄。他只有阿強的碎片、論壇的碎片、自己的記憶碎片。
+Currently, that algorithm was forcefully deprecated.
 
-但碎片放在一起，有一個形狀。
-
-如果 firmware 的 base code 從來不打算好好 support 新架構——
-如果這個 decision 背後有歷史原因——
-如果這個歷史原因不能被承認——
-
-那麼無限測試的功能就不是「找問題」。
-
-是製造紀錄。供應商那邊全部 pass。所以問題不在供應商那邊。所以問題在哪裡？沒有人知道。或者有人知道。但紀錄上面寫著：我們查過。我們做過。我們盡責了。
-
-是消耗資源。供應商的人忙到沒命做測試、寫報告、開會、再測試。沒有時間退一步問：「等等，這個問題是不是其實在 firmware 那邊？」因為他們忙。因為下一份報告的 deadline 在等。
-
-是建立 narrative。做得夠多次之後，連供應商自己都開始懷疑——是不是真的是我們的問題？阿強做了十五年都說不出哪裡不對。因為他做了那麼多測試，做到他自己都不確定了。
-
-林昭明看著自己寫的東西。
-
-他在最底加了一行：
-
-「不是人有問題。是這個 system 從出生那天開始就是這樣設計的。人只是走著 system 叫他走的路。」
-
-他停了。
-
-然後加了兩個字：
-
-「包括我。」
+He booted the hardware.
 
 ---
 
-阿強握著那枝筆。
+Lin Zhao-ming's search geometry that evening violently shifted from his normative parameters.
 
-又一份報告。又一頁。結論欄。
+He inputted syntax: "Brand-tier corps" "Silicon vendors" "Kickbacks".
 
-「測試結果符合規格要求，未發現異常。建議維持現行方案並持續監測。」
+Top-level search queries returned nominal noise. Industry press releases. Hardware drops. Standard generic data points.
 
-他的筆停了一秒。
+Then, his algorithm successfully isolated a legacy archive.
 
-不是不簽。不是猶豫。是一種⋯⋯他以前沒有過的感覺。好像他的手記得一些他的腦還沒整理好的東西。
+Temporal origin: Several solar cycles prior. Target: An apex-tier brand node. Top five global market share. Targeted by regulatory optical sweeps—caught executing a prolonged operation harvesting massive fiscal payloads from a specific silicon vendor. The contractual condition: Absolute zero integration of competitor hardware. 
 
-那封 email。「可以用來支持我們的結論。」
+Lin Zhao-ming commanded his optical feed to halt. 
 
-那六十幾個 firmware update。很認真，但核心邏輯從來沒有變。
+He resumed execution.
 
-那些不同的人用同一種語氣警告他「不要問」的時候。
+The fiscal payload volume was classified as mathematically astronomical. Executed continuously over multiple solar cycles. The brand-tier command nodes possessed full decrypt keys to the operation. They systematically laundered the incoming payloads into standard revenue streams, artificially jacking up the quarterly fiscal reports. When the silicon vendor abruptly halted the payload deployment, the brand-tier's profit margins suffered instantaneous, catastrophic collapse—however, they deployed a highly sophisticated obfuscation matrix, completely blinding their investor nodes to the authentic root cause.
 
-他的名字在幾百份報告上面。每一份都是真實的。他做了測試。結果是這樣。他沒有造假。沒有一份是假的。
+The regulatory sweep burned through several cycles. Terminal output: The brand-tier node negotiated a settlement involving astronomical fiscal penalties. Command-tier biologicals absorbed localized financial hits. The data burst hit the global news feeds, then rapidly sunk back into the sub-surface layers.
 
-但這些報告在靈韻合成的系統裡扮演著什麼角色——這個他不知道。他只知道：他的簽名進了系統之後，去了哪裡、被怎麼用、出現在什麼文件裡、支撐著什麼結論——這些他碰不到。
+Lin Zhao-ming manually logged the timeline geography.
 
-他以前覺得這是正常的。品牌廠的 internal 東西，供應商本來就不需要知道。這是行規。
+Payload harvesting initiated: Target Year Alpha. Regulatory breach detected: Alpha plus X. Settlement executed: Detection plus Y.
 
-但如果——
+Post-settlement trajectory?
 
-如果他的簽名不只是「我做了測試」？如果他的簽名是「供應商確認沒有問題」？如果「供應商確認沒有問題」這句話在靈韻合成的系統裡，被用來支撐另一個結論——「所以問題不在 firmware」？
+He executed deep search.
 
-如果他的簽名是一份保險單的一部分？
+The brand-tier's official broadcast read: "Full compliance executed correlating to all regulatory mandates; internal compliance protocols have undergone massive structural optimization." The silicon vendor released a mirrored projection. Legal sequence terminated. Fines cleared. The event officially flatlined. 
 
-阿強看著那枝筆。
+But that explicitly wasn't the specific data string his processor hungered for.
 
-他不知道。他真的不知道。可能只是他想太多了。可能他的報告就是他的報告，沒有人拿去做其他事。可能靈韻合成的 firmware 不改 base code，真的是因為 legacy 太深，改不了。可能一切都有合理的解釋。
+He initiated sweeps through subterranean technical forums. Sparse data density. Multiple logs already suffered deletion; relying entirely on server caches to reconstruct fragmented strings.
 
-可能。
+He isolated one specific post, timestamped two solar cycles post the settlement finalize. Title was utterly benign: "Brand XX’s current integration support status for Architecture YY."
 
-但他做了十五年。六間品牌廠。他知道——當所有人用同一種語氣警告你「不要問」的時候，通常不是因為答案不重要。
+The payload body was radically non-benign.
 
-是因為答案太重要了。
+The node mobilized a massive text block, executing a granular, layer-by-layer forensic teardown of the firmware's boot sequence. Terminal conclusion: Superficially, the system deploys endless frantic updates, yet the absolute core logic remains mathematically frozen. Pre-settlement status perfectly mirrors post-settlement status. The entire foundational assumption of the firmware—explicitly hardcoding which silicon entity designated as primary, and which relegated to secondary—was permanently etched into the bare metal code; every subsequent system update merely orbited this immutable assumption, deploying cosmetic patches.
 
-他簽名。日期。放去右手邊那疊。
+A secondary node commented: "You genuinely compute they would rewrite the entire global firmware architecture due to one localized legal strike? Your logic is critically naive. Deploying workaround bloat optimizes fiscal expenditure."
 
-但這次，他的手記住了那一秒的停頓。
+A tertiary node countered: "I possess zero mandate for a total system rewrite. My mandate requires them to cease executing protocols acting as if the alternate architecture mathematically suffers existence failure. Audit their deployment history over the past dozens of updates—they systematically prefer navigating massive labyrinthine detours to apply superficial patches, rather than surgically addressing the core. Even at current timestamp—still permanently flagged as a second-class citizen."
 
----
+The archive was ancient. Minimal engagement metrics. Subsequent dialogue chains had been manually purged from the server.
 
-林昭明合上電腦。
+Lin Zhao-ming escalated the sweep. Targeting temporal coordinates closer to present.
 
-書房很安靜。窗外沒有風。
+Success. Scattered data fragments. Geographically isolated across disparate forums. The deployed syntax was incredibly cautious. Zero biologicals deployed the direct explicit string. However, nodes had broadcasted theoretical queries—
 
-他現在知道的東西比一個月前多很多。但「知道」這件事本身，他不知道有沒有用。
+"A decade-plus post-settlement, with the firmware mutating through hundreds of deployment cycles, the architectural bias operates identically. Operating under the assumption that zero financial corruption currently exists, and the rot is purely a symptom of legacy code bloat—is it mathematically logical that across dozens of updates spanning decades, every single iteration executes a flawless sniper-precision maneuver explicitly avoiding modifying that singular core?"
 
-他知道 firmware 表面狂改但核心不變。他知道有歷史。他知道有 pattern。他知道阿強感覺到的東西和他感覺到的東西是同一件事的兩面。
+Zero nodes uploaded a counter-transmission. 
 
-但他沒有 proof。
-
-他沒有靈韻合成的 internal 文件。沒有 firmware 的 source code。沒有商業協議的紀錄。沒有任何人的書面確認。他有的只是：碎片。阿強的幾句話。論壇上的殘留帖子。一件十幾年前的和解案。和一份六十幾個 update、但核心邏輯從來沒有變過的 changelog。
-
-碎片放在一起，有一個形狀。但形狀不是 proof。
-
-而且——他想起阿強說的——這些 workaround 的數量和細節，是不能寫在明面的。品牌廠的黑盒裡面的東西，他碰不到。ODM 的 internal 紀錄，他更碰不到。
-
-還有一層。
-
-公司轉型了。系統換了。舊的 database 退役了。舊的紀錄 format 不 compatible 了。你想翻查？查不到。不是因為有人攔你。是因為「系統已經升級了」。
-
-三層封鎖。
-
-第一層：給你看的東西，已經過濾過了。你以為你碰到了核心，其實你碰到的是他們劃給你的邊界。
-
-第二層：過濾背後還有東西。真正的 decision、真正的安排——從來沒有出過某幾個人的範圍。
-
-第三層：轉型讓 raw data 斷裂了。就算你有一天有權限去查，你也查不到。因為那些 data 已經不存在於任何你可以 access 的地方。不是被刪。是被「淘汰」。
-
-林昭明看著自己的筆記。
-
-他寫的東西，在這個世界上，證明不了任何事。
-
-他知道。
-
-但他還是在寫。
-
-因為阿強的手停了一秒。老周退休走了。那個匿名的人沒有再上線。阿祥還在做，覺得行業就是這樣。他的三個朋友裡面，前兩個覺得他的問題很奇怪，第三個知道但不想說。
-
-這些人——每一個——都摸到了這頭大象的一部分。但沒有一個人看到整頭。因為這個 system 的設計就是讓每個人只看到自己那一塊，然後以為那一塊就是全部。
-
-林昭明不確定自己有沒有看到整頭。可能他看到的只是比其他人多一塊。可能他的拼圖還有很多塊缺了。可能他拼錯了。
-
-但他知道一件事。
-
-那頭大象存在。
-
-不是他想像出來的。
+Not because zero optics registered the query. Because absolutely zero nodes possessed the capability to compute a survivable answer. Or, zero nodes possessed the suicidal velocity to deploy it.
 
 ---
 
-> 我坐在書房。桌面的東西攤開了很久。
->
-> 阿強的話。老周的比喻。論壇的帖子。一件十幾年前的和解案。六十幾個 firmware update。一個問號。
->
-> 我以為靈韻合成的問題是管理。是文化。是某幾個人的做事方式。我以為如果換一批人，事情會不一樣。
->
-> 但如果不是人的問題呢？
->
-> 如果整個 firmware——整個系統——從第一天開始就是為了某一種特定的安排而設計的？如果那個設計的 DNA 裡面，已經寫死了規則？如果這個 DNA 在 code 裡面，在流程裡面，在每一個工程師的習慣裡面，深到你換多少人都換不走？
->
-> 那麼阿強的測試就不只是「管理問題」。
->
-> 他的名字在幾百份報告上面。他的簽名是真實的。每一次他簽名，他以為自己在確認「我做了測試，結果是這樣」。
->
-> 但在那個 system 裡面，他的簽名的意思可能是另一件事。
->
-> 可能。我不確定。我沒有 proof。
->
-> 但那個 pattern——無限測試集中在某一類產品、firmware 表面狂改但核心不變、workaround 不斷疊加、所有人用同一種語氣警告你不要問——這個 pattern 不是隨機的。
->
-> 隨機不會這麼整齊。
->
-> 我不知道這幅圖有多大。我不知道地板下面還有多少層。每次我以為到了底，就發現下面還有。
->
-> 但有一件事我現在知道了：
->
-> 當所有人都說「這個不是你要管的事」——
->
-> 那件事，通常就是最需要管的事。
+Lin Zhao-ming held absolute optical lock on the interface.
+
+He appended syntax onto his local notepad architecture:
+
+"Payload harvesting initiated—Target Year Alpha."
+"Settlement finalized—Alpha plus X. Official broadcast declares cessation."
+"Post-settlement to present operational timestamp—Firmware executes frantic superficial mutation loops, but core premise remains frozen. Workaround arrays metastasize. Novel architectures remain permanently classified as second-class citizens. ODMs permanently relegated to executing clean-up routines."
+
+He halted kinetic input.
+
+Decade-plus.
+
+Operating under the assumption the operation had genuinely terminated. A decade-plus, deploying hundreds of system updates, choosing to violently twist the total firmware architecture into a microscopic pretzel, entirely avoiding patching the foundational asymmetrical bias? You represent a global apex-tier brand node. You command a swarm counting thousands of engineering biologicals. Your annual R&D fiscal payload is astronomical.
+
+Decade-plus.
+
+*If* the operation genuinely terminated. 
+
+Lin Zhao-ming tracked the syntax he manually configured. He aborted writing a query beneath the terminal line. He actively chose to merely deploy a bare question mark geometry.
+
+A single question mark.
+
+Because if he fully mobilized the query into syntax—his own processor lacked the safety protocols to handle the explosive yield of what it conceptually signified. 
 
 ---
 
-*由港版 v1 轉換*
+He opted not to trigger the hardware shutdown sequence.
+
+He reverted to the physical chart he engineered previously. The "Chapter 12" matrix. Left vector: "Universal Architectures." Right vector: "The Anomaly."
+
+He ran optical sweeps down the right vector. Line by line.
+
+"Mandated testing matrices despite confirmed physical optimization."
+"0.3 thermal deviances mandating full-scale re-executions."
+"Yield randomly optimizes. Flawlessly disconnected from external testing efforts."
+"Querying specific anomaly targets yields selective deafness."
+"Terminal conclusion hardcoded in advance; testing purely a performative physical chore."
+
+He initiated a mental concatenation sequence, violently merging this vector directly with the fresh firmware telemetry.
+
+And subsequently, he executed a specific logic subroutine—he initiated a cross-referencing audit against two solar cycles of historical testing logs. Not comprehensive. Exclusively isolated to parameters he actively maintained in memory cache. A-Qiang's audio strings. Dark forum data dumps. 
+
+He mapped a terrifying geometric pattern taking shape. 
+
+The specific case files universally categorized as "Infinite Testing Loops"—"Execute, re-execute, identical outputs, yet mandated to continue execution"—those specific geometric files, and the corresponding hardware products targeted, possessed a singular, shared architectural identifier.
+
+100% of products were not violently subjected to this protocol. Certain product lines executed entirely normative testing matrices—anomaly detected > root cause isolated > patch deployed > forward momentum resumed. Identical to A-Xiang's description of normative brand-tier functionality.
+
+However, a highly constrained classification of products—specifically, hardware executing the *novel architectures*—were systematically routed into the divergent testing pipeline. That psychotic "Execute and Re-execute" looping pattern was exclusively concentrated like a laser array onto this specific hardware classification.
+
+Lin Zhao-ming kept his optics locked onto the pattern generation.
+
+His system lacked absolute certainty. His localized dataset was computationally poor. He possessed zero clearance to breach Ling-Yun Synthesis' encrypted internal ledgers. His available telemetry was restricted to A-Qiang's fragmented strings, disjointed forum logic, and his own localized memory decay. 
+
+But merging the fragments generated an undeniable macroscopic shape.
+
+If the firmware's base logic code was strategically engineered, from absolute genesis, to purposefully *reject* optimized support for the novel architecture—
+If this explicit geometric decision was driven by an ancient, heavily encrypted historical vector—
+If this historical vector was legally forbidden from being formally recognized—
+
+Then the kinetic function of the infinite testing loops *was never mathematically engineered* to "Isolate the Anomaly."
+
+Its functional objective was strictly Document Generation. Generating a massive paper trail proving: The supplier nodes successfully passed 100% of execution permutations. Therefore, the catastrophic failure explicitly does not locate at the supplier coordinate. Consequently, where does the root error locate? Null data. Alternatively, the data exists but is highly classified. However, the formal ledger clearly states: We aggressively deployed diagnostic sweeps. We executed full bandwidth. We fulfilled our operational mandate.
+
+Its functional objective was Resource Starvation. Violently burning out the supplier engineering swarm until they lacked the biological capacity to survive—running endless testing loops, compiling massive reports, grinding in syncs, executing re-tests. Totally stripping them of the temporal bandwidth to step outside the matrix and execute the query: "Hold protocol, does this catastrophic failure actually geographically locate within the firmware sub-strata?" Because their bandwidth is pegged 100%. Because the deadline for the next iterative report is actively screaming.
+
+Its functional objective was Narrative Engineering. By brute-forcing the iteration count high enough, even the supplier nodes fundamentally glitch and trigger self-doubt logic—"Is it mathematically possible our systems actually generated the fault?" A-Qiang burned fifteen solar cycles in the sector and suffered an inability to vocalize the exact source of the friction. Purely because the massive volume of testing permutations he was forced to execute successfully corrupted his own localized confidence algorithms.
+
+Lin Zhao-ming locked optics on his handwritten log.
+
+He executed a final append string to the terminal line:
+
+"The failure doesn't locate within the biologicals. The entire system architecture was explicitly hardcoded from temporal zero to run this specific execution. The biologicals are merely navigating the geometry the system actively renders for them."
+
+He entered a buffer pause.
+
+Then appended two final characters:
+
+"Including my own avatar."
+
+---
+
+A-Qiang tightened his grip on the stylus.
+
+Another physical report format. Another page. Terminal conclusion perimeter.
+
+"Testing permutations fulfill explicit spec requirements; zero anomalies detected. Recommendation: Maintain current operational configuration and execute continuous tracking sweeps."
+
+His stylus execution physically froze for exactly one second.
+
+Not due to an explicit intent to abort. Not due to calculated hesitation. A physical sensation he possessed zero historical logs of... analogous to his tactile manipulators retaining localized cache data that his central cognitive processor failed to fully compile.
+
+That email string. "Repurpose to fortify our primary conclusion."
+
+Those sixty-plus firmware update files. Massive rigor, yet the absolute core logic remained violently frozen.
+
+Those explicit iterations where disparate nodes utilized identical acoustic frequencies to transmit the lethal warning: "Do not execute the query."
+
+His unique biological identifier was permanently scarred onto hundreds of physical reports. 100% genuine data execution. He ran the permutations. The geometric outputs matched perfectly. He committed zero data forgery protocols. Zero hallucinated strings.
+
+But what precise functional vector did these physical reports fulfill within the Ling-Yun Synthesis architecture—he lacked that decoding algorithm. He only possessed the certainty: Once his signature breached the Ling-Yun intranet, tracking optics went dark—where did it route, how was it weaponized, which specific encrypted documents did it manifest inside, which pre-compiled conclusion was it acting as load-bearing architecture for—those metrics remained permanently firewalled.
+
+For fifteen solar cycles he calculated this as a nominal operational state. Internal brand-tier intelligence inherently doesn't broadcast to the external supply chain. Immutable industry law. 
+
+But if...
+
+If his signature wasn't merely executing the string "I successfully ran the required testing matrix"? If his signature was algorithmically translated into the string "Target Supplier formally verifies zero anomalies at their coordinate"? If that specific formal verification was subsequently loaded into Ling-Yun's internal architecture to support a completely disparate terminal conclusion—"Therefore, the catastrophic failure explicitly does *not* reside within our core firmware"?
+
+If his signature was merely functioning as a localized component within a massive, globally scaled internal insurance policy?
+
+A-Qiang locked his optical sensors onto the stylus object.
+
+He lacked the data. He ran a diagnostic: Complete absence of verifiable data. High probability his paranoid sub-routines were suffering a psychotic over-clock. High probability his output reports functioned cleanly as reports, with zero nodes weaponizing them. High probability Ling-Yun Synthesis' firmware stubbornly refused base-code mutation purely because the legacy bloat was genuinely too computationally massive to safely alter, as claimed. High probability 100% of these parameters possessed flawlessly innocent technical explanations. 
+
+High probability.
+
+But he possessed fifteen solar cycles of data logs. Intersected six global brand networks. He possessed the algorithm: When an entire swarm of disparate biologicals utilizes an identically configured, lethal acoustic frequency to transmit the warning "Do not execute the query"—the underlying rationale is rarely because the terminal answer possesses low value.
+
+It is universally because the terminal answer possesses catastrophically high value.
+
+He executed the signature protocol. Appended the timestamp. Reallocated the document.
+
+However, during this specific iteration, his physical tactile sensors permanently committed that one-second hesitation delay into their hardcoded memory matrix.
+
+---
+
+Lin Zhao-ming executed the hardware shutdown on his computing module.
+
+The study architecture was submerged in absolute acoustic zero. Zero exterior atmospheric turbulence detected.
+
+The volume of integrated data he possessed currently vastly exceeded the prior lunar cycle. But whether the mere state of "possessing integrated data" generated any functional tactical utility remained entirely uncomputed. 
+
+He now possessed the data that the firmware underwent massive superficial mutation while maintaining a frozen core. He possessed the historical legacy data. He mapped the pattern geography. He mapped the reality that A-Qiang’s localized sensory inputs and his own localized sensory inputs represented dual vectors observing the exact identical monolithic object.
+
+But he possessed zero mathematical proof.
+
+He lacked Ling-Yun Synthesis' encrypted internal documentation logs. Lacked the raw firmware source code dump. Lacked any localized commercial contract ledgers. Lacked physical, formal verification from any deployed biological operator. His total accumulated assets composed of: Fragments. A-Qiang's vocal string fragments. Degraded forum cache remnants. A legal settlement case rotting from a decade prior. And a changelog boasting sixty-plus massive updates while mathematically freezing the absolute core logic.
+
+The combined fragments generated a geometric shape. But a geometric shape fundamentally fails the compiler check for "Mathematical Proof."
+
+Furthermore—he re-accessed A-Qiang's transmission payload—the explicit technical specifics and total numeric volume of these workarounds were strictly legally forbidden from occupying any unencrypted, formal tracking ledger. The architecture locked inside the brand-tier black box remained completely un-breachable. The ODM's localized internal reporting logs were exponentially more isolated.
+
+There was a tertiary layer to the firewall.
+
+The megacorp had executed a global transition. The localized system architectures had been fundamentally updated. The legacy databases were formally deprecated. The legacy reporting formats violently lost backward compatibility. Attempt a retroactive sweep? Yields an access denied error. Not because an active hostile node intercepted your read command. Because the literal architecture housing the data had undergone an "upgrade execution". 
+
+Three impenetrable firewall strata.
+
+Layer One: The intelligence available for organic visual sweeping is pre-filtered. You compute you've successfully breached the core, but in physical reality, you merely collided with the artificial boundary they pre-calculated for you.
+
+Layer Two: A deeper architectural layer operates behind the filter. The authentic decision arrays, the authentic resource allocation parameters—never geometrically escaped the perimeter of a highly constrained cluster of specific nodes.
+
+Layer Three: The macro system transition physically severed the raw data topography. Even assuming you acquire a master clearance key in the future, your execution query will return null. Because the target data literally suffered physical existence failure across all accessible storage nodes. Not explicitly classified as "Deleted." Classified as "Systematically Deprecated."
+
+Lin Zhao-ming locked his visual arrays onto his physical notebook.
+
+100% of the syntax he actively composed couldn't logically prove a single variable within the physical universe.
+
+He possessed absolute clarity on that parameter.
+
+Yet he relentlessly maintained output generation.
+
+Because A-Qiang's physical manipulators halted execution for one specific second. Old Zhou triggered extraction and permanently disconnected. The anonymous feline node permanently maintained offline status. A-Xiang continued grinding away at his node, convinced the global architecture mapped his localized floor plan. Among his three external ping targets, the first two classified his query as a glitching algorithm, the third possessed the telemetry but maintained absolute transmission silence.
+
+These biological entities—every single localized node—had physically grazed a fractional coordinate of this massive, invisible topological horror. But not a single node possessed the optical clearance to render the entire model. Because the entire system architecture was flawlessly optimized to mandate that every node only ever processes their localized geometry, forcing the hallucination that their fractional slice constitutes the absolute global reality.
+
+Lin Zhao-ming lacked the mathematical validation to prove he had successfully rendered the complete monolithic model. Highly probable his local rendering simply possessed an incrementally larger fractional slice than the swarm. Highly probable his topological jigsaw puzzle lacked massive, critical data nodes. Highly probable his algorithmic assembly was catastrophically flawed.
+
+But he possessed absolute certainty regarding one singular parameter.
+
+The monolithic topological horror existed in the physical reality plane.
+
+It was absolutely not synthesized within his localized hallucination engine.
+
+---
+
+> I occupied my geographical coordinate in the study. The physical data arrays congested the surface for an extended period.
+>
+> A-Qiang's transmission strings. Old Zhou's metaphorical mapping. The recovered forum data chunks. An ancient legal settlement rotting from an era prior. Sixty-plus bloated firmware update files. A solitary question mark string.
+>
+> I formerly ran simulations calculating Ling-Yun Synthesis' root anomaly spawned directly from degraded management protocols. Stemmed from corrupted operational culture. Originated from the specific localized processing algorithms of a handful of targeted executives. I hypothesized that executing a mass swap of those biological nodes would mathematically re-optimize the environment.
+>
+> But what if the root anomaly isn't mathematically tied to the biologicals?
+>
+> What if the entire firmware architecture—the entire global system configuration—was flawlessly engineered from temporal zero explicitly to maintain one highly specific, immutable arrangement? What if the DNA hardcoded into that structural design already possessed the absolute, unyielding ruleset? What if this DNA saturation was so deep—imbedded within the code, within the operational pipelines, mapping the localized habits of every single deployed engineer—that mass swapping the biologicals yields absolutely zero geometric variance?
+>
+> Then A-Qiang's agonizing testing loops fundamentally transcend a basic "Management Error".
+>
+> His unique identifier aggressively scars hundreds of formal reports. His cryptographic signature is a verifiable truth asset. Every single execution of his signature protocol, his local CPU computes he is confirming the string "I successfully verified the testing parameters."
+>
+> But within that specific corporate system architecture, the true kinetic vector of his signature executes an entirely separate, devastating protocol.
+>
+> High probability. I lack the absolute metric of certainty. I lack the mathematical proofs. 
+>
+> But the geometric pattern generation—the infinite testing loops concentrating exclusively like a laser on a highly specific subset of products, the firmware projecting massive superficial mutations while violently locking its core logic, the workaround arrays constantly metastasizing, every single biological node utilizing an identically mapped acoustic frequency warning you to terminate your queries—this specific pattern is absolutely not generated via random stochastic noise.
+>
+> True stochastic noise fails to compile this flawlessly.
+>
+> I lack the topological data indicating the total macroscopic volume of this model. I lack the data specifying the exact depth of the subterranean architecture beneath the floorboards. Every iteration I calculate I've hit the absolute base strata, my sensors detect another sub-layer beneath it.
+>
+> But there is one specific data string I have finally logged to permanent memory:
+>
+> When the entire global swarm flawlessly synchronizes the warning string "This specific process is completely external to your mandated operational parameters" —
+>
+> That specific process, represents the absolute most critical, high-priority target your optical sensors must immediately lock onto.
+
+---
+
+*Converted from HK Edition v1*

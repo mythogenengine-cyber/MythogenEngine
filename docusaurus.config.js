@@ -66,18 +66,15 @@ const config = {
           },
           {
             href: 'https://portaly.cc/Mythogen',
-            label: 'Sponsor',
             position: 'right',
+            className: 'header-sponsor-link',
+            'aria-label': 'Sponsor',
           },
           {
             href: 'https://www.facebook.com/MythogenEngine',
-            label: 'Facebook',
             position: 'right',
-          },
-          {
-            href: 'https://github.com/mythogenengine-cyber/MythogenEngine',
-            label: 'GitHub',
-            position: 'right',
+            className: 'header-facebook-link',
+            'aria-label': 'Facebook',
           },
         ],
       },

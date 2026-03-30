@@ -3,206 +3,207 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.5.2">
-<title data-rh="true">第十三章〈架空孤立協議〉 | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="第十三章〈架空孤立協議〉 | Mythogen Engine"><meta data-rh="true" name="description" content="台版 v3"><meta data-rh="true" property="og:description" content="台版 v3"><link data-rh="true" rel="icon" href="/MythogenEngine/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch13" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/mirror-realm/ch13" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch13" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/en/assets/css/styles.896fc18b.css">
-<script src="/MythogenEngine/en/assets/js/runtime~main.8ad41ea1.js" defer="defer"></script>
+<title data-rh="true">Chapter 13: Overhead Isolation Protocol | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 13: Overhead Isolation Protocol | Mythogen Engine"><meta data-rh="true" name="description" content="Taiwan Edition v3"><meta data-rh="true" property="og:description" content="Taiwan Edition v3"><link data-rh="true" rel="icon" href="/MythogenEngine/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch13" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch13" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/mirror-realm/ch13" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch13" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/en/assets/css/styles.896fc18b.css">
+<script src="/MythogenEngine/en/assets/js/runtime~main.4ff311be.js" defer="defer"></script>
 <script src="/MythogenEngine/en/assets/js/main.7c6283b1.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/en/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/prologue">Prologue: The Way of Disappearing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch01">第一章〈最不差的選擇〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch02">第二章〈歡迎來到霧谷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch03">第三章〈QCC 的代價〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch04">第四章〈假面話術詞典〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch05">第五章〈平安夜〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch06">第六章〈懷疑的種子〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch07">第七章〈推斷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch08">第八章〈幫手〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch09">第九章〈回來〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch10">第十章〈投訴的反噬〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch11">第十一章〈維克多・數算的計算〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12">第十二章〈廠商那邊〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12b">第十二章B〈地板下面〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch13">第十三章〈架空孤立協議〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch14">第十四章〈鬥獸棋〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch15">第十五章〈1024年11月〉</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/MythogenEngine/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mirror Realm</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">第十三章〈架空孤立協議〉</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>第十三章〈架空孤立協議〉</h1></header>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="台版-v3">台版 v3<a href="#台版-v3" class="hash-link" aria-label="Direct link to 台版 v3" title="Direct link to 台版 v3">​</a></h3>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/en/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/mirror-realm/ch13" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/prologue">Prologue: The Way of Disappearing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch01">Chapter 1: The Least Worst Choice</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch02">Chapter 2: Welcome to Mist Valley</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch03">Chapter 3: The Cost of QCC</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch04">Chapter 4: Dictionary of Masks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch05">Chapter 5: Silent Night</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch06">Chapter 6: Seeds of Doubt</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch07">Chapter 7: Deduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch08">Chapter 8: Helpers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch09">Chapter 9: Returning</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch10">Chapter 10: The Backlash of Complaint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch11">Chapter 11: Victor&#x27;s Calculations</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12">Chapter 12: At the Supplier</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12b">Chapter 12B: Beneath the Floorboards</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch13">Chapter 13: Overhead Isolation Protocol</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch14">Chapter 14: Animal Chess</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch15">Chapter 15: November 1024</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/MythogenEngine/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mirror Realm</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Chapter 13: Overhead Isolation Protocol</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Chapter 13: Overhead Isolation Protocol</h1></header>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="taiwan-edition-v3">Taiwan Edition v3<a href="#taiwan-edition-v3" class="hash-link" aria-label="Direct link to Taiwan Edition v3" title="Direct link to Taiwan Edition v3">​</a></h3>
 <hr>
-<p>地點：鏡界・翠鏡島
-時間：1024年中—1025年初
-主角：林昭明</p>
+<p>Location: Mirror Realm · Emerald Isle
+Time: Mid-1024—Early 1025
+Protagonist: Lin Zhao-ming</p>
 <hr>
-<p>不是一件事。</p>
-<p>如果有人問他：「什麼時候開始的？」他回答不出一個日期。因為沒有一個日期。沒有一封 email。沒有一個 meeting。</p>
-<p>有的只是一 連串的事，每一件都很小，每一件都有合理解釋，加在一起——他還在，但他已經消失了。</p>
-<p>如果一定要找一個起點，可能是那次。</p>
+<p>It was not a singular executing event.</p>
+<p>If an exogenous node queried him: &quot;Identify the absolute timestamp this sequence initiated?&quot; He possessed zero capability to return a definitive data string. Because there was no specific timestamp. No localized email string. No macro-meeting marker.</p>
+<p>It consisted exclusively of a massive sequence of micro-events. Every single event localized, minimal scale. Every single event possessing mathematically flawless, rational explanations. Concatentate the entire sequence—his physical avatar maintained presence, yet his operational existence had been fully vaporized.</p>
+<p>If mandatorily pressed to isolate absolute origin coordinates, high probability it localized to that specific incident.</p>
 <hr>
-<p>無限測試的投訴一直都在。廠商那邊壓力很大。管理層需要有人負責。</p>
-<p>那個人是一個高級首席工程師。在公司做了七年。和老細認識了十五年。他的孩子是在他在這間公司做事期間出生的。三歲多。他有房貸。</p>
-<p>林昭明知道這些，是因為辦公室裡的人會說。不是八卦。是那種你在同一層樓做事做久了自然會知道的事。他見過這個人桌面上的孩子的照片。有一次經過，聽到他跟人說：「他每天晚上一定要我抱著才肯睡。」那個語氣很平，好像在說天氣一樣。</p>
-<p>有兩個同事來找林昭明。他們的意思很清楚——雖然沒有人用「夾口供」這三個字。沒有人會用。用的字是「align」。「我們要 align 一下對這件事的 understanding。」「大家的 version 要 consistent。」</p>
-<p>林昭明聽著。他聽得出他們想做什麼。</p>
-<p>他們想把無限測試的責任推到那個高級首席工程師身上。不只是說他做得不好——做得不好你擺上桌面講就好了。他們要做的是：改寫事實。把本來不是他的責任，變成他的。把本來幾個人一起做的事，變成他一個人的問題。</p>
-<p>這兩個人和那個高級首席工程師認識很多年。他們的關係——林昭明不知道是真的還是假的。他見過他們吃飯、聊天、那種很自然的熟。但他沒有辦法判斷。可能一直都是裝的。但他覺得——更大的可能是——有事情來了，兄弟父親都可以出賣。真假已經沒有分別。</p>
-<p>林昭明沒有說他心裡面的話。</p>
-<p>他心裡面的話是：你有什麼照直說照直做。他做得不好你說他做了什麼不好。為什麼要夾口供。為什麼要插贓嫁禍。為什麼要扭曲事實去對付一個  每天晚上抱著三歲孩子睡覺的人。即使你說你有被逼到絕境的原因，這是不是說明所有的惡都可以自我合理化。</p>
-<p>他沒有說這些。</p>
-<p>他說的是：「做事就好了，不用這樣鬥來鬥去。」</p>
-<p>又說：「如果像你們說的，他實在太貴又佔著太多東西，那你炒他就直接炒他好了。為什麼要用搶的。」</p>
-<p>他們沒有再說下去。</p>
+<p>The grievance reports regarding the infinite testing loops maintained a persistent signal. The downstream supplier nodes were sustaining catastrophic pressure vectors. The command tier required a designated biological node to absorb the accountability.</p>
+<p>The targeted node was a Senior Principal Engineer. Deployed within this specific corporate matrix for seven solar cycles. Maintained localized biometric syncs with the Boss spanning fifteen cycles. Produced a child node during his active deployment within this corp. Current child maturity: three plus years. Possessed a massive mortgage anchor.</p>
+<p>Lin Zhao-ming possessed this unencrypted intelligence solely because the localized office swarm actively broadcasted it. Not formatted as toxic gossip. It represented the ambient data radiation you organically absorb when occupying the identical topological deck for extended durations. He possessed visual confirmation of the child node&#x27;s physical image array deployed on the engineer’s workstation. During a specific transit, he intercepted an audio transmission from the engineer: &quot;The child node strictly mandates my physical embrace every evening prior to engaging sleep protocols.&quot; The acoustic frequency was completely flatlined. Nominally transmitting an environmental weather update.</p>
+<p>Dual colleague nodes executed an approach to Lin Zhao-ming&#x27;s coordinate. Their payload objective was violently clear—although absolutely zero nodes utilized the explicit string &quot;Fabricate Alibis.&quot; Zero nodes possessed the suicidal velocity to deploy that syntax. The string of choice was &quot;Align.&quot; &quot;We mandate an alignment string confirming our collective understanding on this localized anomaly.&quot; &quot;All version-histories must parse as mathematically consistent.&quot;</p>
+<p>Lin Zhao-ming entered a process-listening state. His algorithms successfully decrypted their kinetic intent.</p>
+<p>They intended to forcefully map the responsibility for the infinite testing loop catastrophe exclusively onto the Senior Principal Engineer’s coordinate. Not merely broadcasting the string &quot;His execution was sub-optimal&quot;—if a node&#x27;s output is sub-optimal, you linearly dump the data onto the review table. Their operational target was: Actively rewrite the empirical log. Forcefully muting shared variables and pinning them as isolated errors native to his node. Compacting a multi-node collaborative execution matrix into a catastrophic solitary failure state.</p>
+<p>These dual nodes shared extensive deployment histories with the Senior Principal Engineer. Their interpersonal relationship matrix—Lin Zhao-ming lacked the algorithms to verify its authenticity. He possessed visual logs of them executing caloric intake syncs, engaging in continuous comms, projecting highly naturalized integration metrics. Yet he fundamentally failed to validate the data. High probability the entire facade had been persistently synthetic from temporal zero. However, his calculation prioritized a far more terrifying macro-probability—when a targeted survival event detonates, biologicals will casually execute the extraction and sacrifice of blood-relational nodes. The distinction between synthetic and genuine metrics mathematically ceases to exist.</p>
+<p>Lin Zhao-ming actively walled off his internal string generation from deploying.</p>
+<p>His internal generated strings read: If your sensors detect an anomaly, explicitly state the raw data. If his execution is sub-optimal, specifically document the exact geometric failure. Why deploy highly choreographed alibi fabrication? Why actively plant corrupted logs? Why violently mutate the empirical reality specifically to annihilate an operator who physically embraces a three-year-old child node prior to sleep protocols daily? Even applying your justification sequence—assuming you are backed into a lethal survival perimeter—does this mathematically validate the authorization to self-rationalize any magnitude of corruption?</p>
+<p>He aborted deployment of those syntax strings.</p>
+<p>He deployed instead: &quot;Maintain focus purely on your assigned execution loops, there exists zero mandate to engage in these PvP combat matrices.&quot;</p>
+<p>Followed by an appended string: &quot;If your simulation confirms his load costs are catastrophically high and his active resource footprint is too massive, then the optimized path is to linearly terminate his contract. Why execute a brutal kinetic scavenge maneuver?&quot;</p>
+<p>The dual nodes aborted further transmission streams.</p>
 <hr>
-<p>幾天後，老細來找他。不是正式的 meeting。是那種路過順便的語氣。</p>
-<p>「那件事，你知道的。」</p>
-<p>林昭明看著他。</p>
-<p>「這些事，你不做，自然有其他人做。你不去對付，也有其他人去對付。」</p>
-<p>老細的語氣很平。不是威脅的語氣。是陳述。好像在說「今天很熱」一樣。</p>
-<p>林昭明沒有出聲。</p>
-<p>老細拍了一下他的肩膀，走了。</p>
+<p>Several solar rotations elapsed. The Boss maneuvered to his coordinate. Not formatted as an official sync. Conveyed the acoustic footprint of an arbitrary, transient interaction.</p>
+<p>&quot;Regarding that specific operational anomaly, you possess the full telemetry.&quot;</p>
+<p>Lin Zhao-ming locked optics on him.</p>
+<p>&quot;Regarding these specific operations, if you maintain a passive state, disparate nodes will organically execute them. If you abort the targeting sequence, disparate nodes will acquire the target lock.&quot;</p>
+<p>The Boss’s auditory frequency was perfectly flatlined. Devoid of threat markers. Expressed as a terminal statement of fact. Functionally identical to executing the string &quot;Current thermal conditions are highly elevated.&quot;</p>
+<p>Lin Zhao-ming maintained absolute acoustic zero.</p>
+<p>The Boss executed a fractional physical strike on his shoulder plating and extracted.</p>
 <hr>
-<p>林昭明坐在位子上。</p>
-<p>他知道那個高級首席工程師最後應該還是會走的。他插不插手都改變不了這個事實。他知道。</p>
-<p>但他還是沒有參與。</p>
-<p>不是因為勇氣。他不覺得自己勇敢。他只是——做不到。好像你叫一個人用左手寫字，他不是不肯，是那隻手動不了。</p>
-<p>他不知道這個選擇會帶來什麼。</p>
-<p>他很快就知道了。</p>
+<p>Lin Zhao-ming maintained his seated posture at the workstation.</p>
+<p>He mathematically projected that the Senior Principal Engineer&#x27;s node was highly likely to suffer terminal extraction, regardless. His affirmative execution or passive denial would absolutely fail to mutate that macro-level outcome. He possessed that data.</p>
+<p>Yet he stubbornly maintained non-participation protocols.</p>
+<p>Not driven by a robust &quot;Courage&quot; algorithm. He never categorized his firmware as heroic. He simply—failed execution. Analogous to commanding a biological unit to generate written syntax utilizing their non-dominant appendage; it isn&#x27;t an active refusal to comply, the physical hardware is simply disconnected from the motor controls.</p>
+<p>He lacked the predictive modeling to forecast the resultant blast radius of this decision.</p>
+<p>He acquired that telemetry with brutal efficiency.</p>
 <hr>
-<p>Team building。飯局。</p>
-<p>消息已經在傳：team 要走人。不是一個。兩個。</p>
-<p>Mentor 已經自願轉了職。林昭明不知道是升還是明升暗降。轉了之後幾乎沒有再聯絡。這個人是他入職第一天帶他的人。現在連他去了哪裡、在做什麼都不太清楚了。</p>
-<p>但只走他一個不夠。還差一個。誰？</p>
-<p>飯局。</p>
-<p>有人開始說話。不是直接說「我不走」。是說自己的情況。房子。車。孩子。學費。家庭壓力。每個人的版本不同，但結構一樣——「我走不了，因為我有⋯⋯」</p>
-<p>一個說房貸。一個說雙胞胎。一個說先生的  工作不穩定。一個說剛買了車。</p>
-<p>情緒是真的。壓力是真的。林昭明不懷疑。</p>
-<p>但他坐在那裡，聽著，腦子裡有些東西他說不出口。</p>
-<p>他們的薪水不低。為什麼存不到錢？為什麼一定要住翠鏡島最貴的地方？你開好車又說很慘？你借錢買的東西是你自己選的。</p>
-<p>這些話他說不出口。因為在這張桌上，他沒有什麼可以說很慘的。沒有房子要供。沒有車要養。他的沉默，在這個場景裡，等於——他沒有資格留下來。</p>
-<p>飯局散了。</p>
-<p>第二天，所有人好像沒有聊過。沒有說過。沒有發生過。</p>
-<p>林昭明面對著螢幕。他的 mentor 走了。那個高級首席工程師還在但已經被包圍了。他自己——剛剛拒絕了一次入場投名狀。</p>
-<p>其實不只這次。這幾年來，他們一直都有讓他看他們怎麼做事——搶 credit 怎麼搶，配合演戲怎麼配合。不是秘密，他們會說。好像期待他學。但他沒有跟著做。不是覺得自己高人一等。是他習慣了把事情做好就好，其他的他不會玩，也不想玩。</p>
-<p>他不知道現在的空氣是什麼味道。但他覺得有什麼變了。</p>
+<p>Team building protocol. Caloric sync event.</p>
+<p>Telemetry was already actively propagating the matrix: The team architecture was shedding nodes. Not a solitary node. Dual nodes.</p>
+<p>The Mentor node had already executed a voluntary lateral transfer. Lin Zhao-ming lacked the decryption keys to classify if it represented an upward trajectory or a covert demotion. Post-transfer, all communication uplinks flatlined. This specific biological constituted the very first node to guide his initialization sequence on his absolute first deployment day. Currently, his geographical coordinates and active operational loops were totally lost from the grid.</p>
+<p>However, shedding his solitary mass was mathematically insufficient. A secondary reduction was mandated. Target identifier?</p>
+<p>The caloric sync event.</p>
+<p>A node initiated an audio transmission. Not a direct deployment of the string &quot;I refuse extraction.&quot; It was a broadcast of their localized defensive shielding architecture. Fixed geometry. Transportation hardware. Child nodes. Educational overhead. Systemic familial pressure arrays. Every single node deployed a customized version-history, but the underlying skeletal geometry was identical—&quot;I am mathematically incapable of executing extraction, because I possess...&quot;</p>
+<p>One node cited massive mortgage gravity. Another cited twin biological instances. Another cited a partner node&#x27;s operational instability. Another cited recent transportation hardware acquisition logic.</p>
+<p>The emotional telemetry generated was mathematically authentic. The pressure arrays were authentic. Lin Zhao-ming’s suspicion algorithms returned zero flags.</p>
+<p>Yet, as he anchored his coordinate at that physical interface, passively absorbing the audio streams, specific syntax strings jammed his vocal emitter.</p>
+<p>Their fiscal payload allocations were highly optimal. Why did their liquid reserves continuously starve? Why was it an absolute mandate to anchor their residency within the absolute highest-tier fiscal sector of Emerald Isle? You operate premium transportation hardware and subsequently broadcast catastrophic misery indexes? The specific debt parameters you actively acquired were explicitly customized by your own execution decisions.</p>
+<p>These strings completely failed deployment. Because positioned at that specific table interface, he possessed absolute zero variables he could weaponize to project a mathematically valid &quot;Misery Index.&quot; Zero mortgage gravity affecting his chassis. Zero vehicle maintenance overhead dragging his CPU. His sustained acoustic silence, mapped onto this specific socio-environmental matrix, mathematically translated to: He possessed zero authorized clearance to maintain his coordinate in the swarm.</p>
+<p>The caloric sync dissolved.</p>
+<p>The subsequent solar rotation, every single biological operated precisely as if that sync had mathematically never existed. Zero subsequent audio pings. Zero data references.</p>
+<p>Lin Zhao-ming locked his optical sensors onto his primary interface. His Mentor node had fully extracted. The Senior Principal Engineer node maintained physical presence, but was completely encircled by hostile geometry. His own avatar—had actively aborted a mandatory loyalty-test checkpoint.</p>
+<p>In objective reality, it extended far beyond this singular incident. Over the preceding solar cycles, the swarm had repeatedly offered him optical access to their sub-routines—demonstrating explicitly how to effectively hijack credit logs, how to flawlessly execute choreographed performative theater. It wasn&#x27;t encrypted intel, they actively broadcast the tutorials. It projected the explicit assumption they anticipated his algorithmic integration. Yet he persistently failed to match the execution. Not fueled by an arrogant superiority subroutine. Primarily because his firmware was optimized strictly to hit target endpoints; he possessed zero modules for their gamified PvP operations, and actively lacked the desire to download them.</p>
+<p>He lacked the data to chemically analyze the current atmospheric composition. But his sensors explicitly verified a macro-level phase shift had detonated.</p>
 <hr>
-<p>第一個訊號，他那時不覺得是訊號。</p>
-<p>Teams 群組。林昭明打了幾行字進去。</p>
-<p>投影模組第四代的壓力共振測試，連續三批良率偏低。Pattern 集中在某一個特定的 power state transition。和第三代那個 null 指針誤讀的分佈，有重疊。</p>
-<p>發送。</p>
-<p>十五秒之後，群組顯示已讀。七個人。</p>
-<p>沒有人回覆。</p>
-<p>他等。五分鐘。十分鐘。半個小時。</p>
-<p>打開另一個群組——同一批人，另一條 thread——有人貼了一張照片，pantry 的新零食。四個人回覆。emoji 飛來飛去。</p>
-<p>他回去自己那條 thread。已讀。七個人。靜。</p>
+<p>The initial ping, during its original temporal window, failed to register as an actionable ping.</p>
+<p>Teams communication cluster. Lin Zhao-ming inputted several syntax strings.</p>
+<p>The Gen Four projection module&#x27;s pressure resonance matrix. Three consecutive batches triggered catastrophic yield crashes. The failure topology heavily localized onto one specific power state transition vector. Exhibits a massive geographic overlap mapping directly to the null-pointer read errors from the Gen Three anomaly.</p>
+<p>Execute transmission.</p>
+<p>Fifteen seconds post-deployment, the cluster updated status: Broadcast intercepted by target array. Seven biological nodes.</p>
+<p>Zero nodes deployed a counter-transmission.</p>
+<p>He initiated a wait-state. Five temporal minutes. Ten temporal minutes. A complete half-hour cycle.</p>
+<p>He accessed a disparate communication cluster—identical node roster, distinct threading branch—a node had deployed an image-based payload, detailing novel caloric supplements in the pantry vector. Four nodes executed rapid-fire counter-transmissions. Emoticon arrays violently exchanging fire.</p>
+<p>He manually routed back to his primary thread. Broadcast intercepted. Seven biological nodes. Absolute acoustic zero.</p>
 <hr>
-<p>他沒有馬上覺得有什麼不對。大家忙。訊息沉底。正常。</p>
-<p>第二天，他 tag 老陳。</p>
-<p>老陳私訊：「我最近手頭有幾個 urgent 的 case，暫時不太方便幫忙。你先問 vendor 那邊？」</p>
-<p>阿偉：「收到。」句號。</p>
-<p>測試的人：「在排隊，晚一點才行。」</p>
-<p>Cindy：已讀不回。</p>
-<p>阿 J——他的 mentor 已經走了。最後一個可能回覆他的人，已經不在這個群組裡了。</p>
+<p>He actively suppressed any paranoia sub-routines. The swarm was processing massive loads. Messages organically sink in generic queues. Nominal physics.</p>
+<p>Within the next solar cycle, he deployed a direct tag ping targeting Old Chen.</p>
+<p>Old Chen deployed a direct localized ping: &quot;My current local queue is completely engulfed in critical-path execution loops, creating extreme friction for auxiliary task assignment. Deploy a localized probe targeting the vendor array?&quot;</p>
+<p>Node A-Wei: &quot;Copy.&quot; Period string.</p>
+<p>Testing Node Array: &quot;Currently queued in deep buffer. Heavy latency expected.&quot;</p>
+<p>Cindy: Broadcast intercepted. Absolute acoustic zero.</p>
+<p>Node A-J—his mentor had already extracted. The absolute terminal node possessing any probabilistic chance of deploying a functional counter-transmission had been permanently uninstalled from the cluster.</p>
 <hr>
-<p>三個禮拜後，良率再跌。</p>
-<p>會議。維克多主持。十二個人。</p>
-<p>有人 present 良率圖。紅色的線向下拐。維克多皺眉。「What happened?」</p>
-<p>沉默。</p>
-<p>然後有人開口：「其實昭明之前有講過。」</p>
-<p>林昭明抬頭。</p>
-<p>「他在群組提過，有個 pattern。不過⋯⋯他的溝通方式，大家不是很 clear 他想表達什麼。」</p>
-<p>幾個人點頭。</p>
-<p>維克多看著林昭明。「你可以再 present 一次嗎？用 data 說話。」</p>
-<p>他說：「好。我再整理一份。」</p>
-<p>Meeting notes：「林昭明整理相關數據並安排 follow-up。」</p>
-<p>三個禮拜前的數據，已讀不回。現在變成他的 action item。</p>
+<p>Three solar weeks later, yield parameters suffered secondary geometric collapse.</p>
+<p>Sync event. Victor commanding the primary node coordinate. Twelve localized biologicals.</p>
+<p>A node deployed the yield projection graph. The crimson vector line nose-dived into negative territory. Victor initiated a facial geometric micro-shift. &quot;What happened?&quot;</p>
+<p>Acoustic void.</p>
+<p>Then a node initiated an audio packet: &quot;Actually, Zhao-ming explicitly broadcasted this dataset previously.&quot;</p>
+<p>Lin Zhao-ming raised his optical axis.</p>
+<p>&quot;He deployed the string within the communication cluster, flagging a specific pattern generation. However... his specific communication sub-routines lacked the formatting required for the swarm to explicitly &#x27;clear&#x27; his intended conceptual payload.&quot;</p>
+<p>Multiple nodes executed physical nods.</p>
+<p>Victor locked optics directly on Lin Zhao-ming. &quot;Are you capable of executing a secondary presentation loop on that data? Deploy exclusively numeric payloads.&quot;</p>
+<p>He transmitted: &quot;Affirmative. I will initialize a fresh compilation matrix.&quot;</p>
+<p>Meeting Notes logging array: &quot;Lin Zhao-ming actively aggregating relative data vectors; mandated to execute follow-up loops.&quot;</p>
+<p>The exact dataset deployed three solar weeks prior, which received absolute acoustic zero. Was magically re-compiled as his active operational mandate.</p>
 <hr>
-<p>接下來就是一些東西開始消失。</p>
-<p>不是他的東西。是他的工作。</p>
-<p>其他地區的人還沒到職，但 order 已經落了——cut 工作。提升效率。多餘的會議 cut。多餘的文件 cut。這不只是他。整個公司都是。</p>
-<p>但林昭明看不到其他人被 cut 了多少。他只看到自己的。</p>
-<p>投影模組第三代的良率追蹤。本來是他的。做了一年半。有一天，email thread 裡多了一個名。CC。然後他的名被搬去 CC。然後他的名不再出現了。</p>
-<p>沒有人跟他說過。沒有 email 說「這個移交給某某」。只是另一個人開始出 report。用他的 template。用他的 format。</p>
-<p>和廠商的會議。之前每兩個禮拜一次。他主持。有一個禮拜，會議 invite 沒有他的名字了。他去問。「啊，這個 meeting 由阿偉 handle 啦，不用麻煩你。」</p>
-<p>不用麻煩你。</p>
-<p>第三個。第四個。第五個。每一次都有解釋。Team resource。工作分配。配合新方向。合理。</p>
-<p>他找事情做。主動做了一份 analysis。做了三天。發出去。兩天後，那份 analysis 的 scope 出現在另一個人的 project plan 裡面。沒有 CC。沒有 reference。</p>
-<p>找事情做。做完。被拿走。找事情做。做完。被拿走。</p>
-<p>然後有人在 meeting 問他：「昭明最近手頭有什麼？」</p>
-<p>他說不出來。因為每一樣他找到的東西都已經不在他手上了。</p>
-<p>「我在跟進幾個方向。」</p>
-<p>沒有人追問。</p>
+<p>The subsequent chronological phase was defined by the systematic evaporation of physical assets.</p>
+<p>Not his localized personal hardware. His operational deployment tasks.</p>
+<p>Exogenous target nodes from disparate global sectors had not yet completed initialization, but the macro-execution mandate had already deployed—Axe tasks. Execute brutal optimization. Deprecate bloated meeting protocols. Evaporate redundant documentation. This mandate was absolutely not surgically targeting him. It saturated the entire global megacommunity.</p>
+<p>But Lin Zhao-ming lacked optical clearance to track the exact volume of data violently axed from disparate nodes. He possessed exclusive visibility onto his localized void.</p>
+<p>Yield tracking array for the Gen Three projection module. The asset fundamentally mapped to his identifier. Executed continuous deployment on it for one point five solar cycles. During a random sequence, a fresh identifier spawned within the email thread object. CC vector. Subsequently his identifier was physically migrated into the CC vector. Then, his identifier was permanently deleted from the broadcast payload.</p>
+<p>Zero nodes deployed a transmission alerting him. Zero email packets reading &quot;Executing handover protocol to specific node.&quot; Simply, a disparate node initiated the report generation cycle. Hijacking his identical semantic template. Hijacking his identical formatting grids.</p>
+<p>Sync matrices interfacing with the supplier network. Historically executed on a strict bi-weekly tempo. He held the commander node coordinate. A specific solar week dropped, the sync calendar invite spawned—lacking his biometric identifier. He deployed an investigative physical query. &quot;Ah, this specific sync execution is fully handled by A-Wei&#x27;s node, entirely unnecessary to consume your bandwidth.&quot;</p>
+<p>Unnecessary to consume your bandwidth.</p>
+<p>A tertiary asset. A quaternary asset. A quinary asset. Every single truncation was accompanied by a flawlessly logical justification algorithm. Team resource constraints. Re-alignment of execution scopes. Synchronizing with the new strategic vectors. Hyper-rational.</p>
+<p>He actively initiated search protocols to find raw data capable of processing. Voluntarily synthesized an exhaustive analytical report. Burned three dense solar rotations. Fired the transmission into the network. Two temporal rotations later, the exact geometric scope of that analysis violently rematerialized within the structured project plan of an entirely distinct node. Zero CC vector mapping. Zero reference citations.</p>
+<p>Actively hunt target tasks. Target localized. Forcefully repossessed. Actively hunt. Localize. Repossess.</p>
+<p>Subsequently, a node deployed an auditory query within a sync: &quot;What specific active execution loops does Zhao-ming possess in his local queue?&quot;</p>
+<p>He failed to compile an actionable acoustic response. Because 100% of every asset he manually scavenged from the grid had been algorithmically stripped from his local server.</p>
+<p>&quot;I am currently maintaining active surveillance on several generic macro-vectors.&quot;</p>
+<p>Zero nodes deployed a follow-up query.</p>
 <hr>
-<p>然後是那個房間。</p>
-<p>行事曆上有一個 meeting。半個小時。老細訂的。「Catch-up」。沒有 agenda。沒有附件。沒有其他人。</p>
-<p>他走進去。小房間。兩張椅子。一張桌。桌面沒有東西。門關上。</p>
-<p>「坐。」</p>
-<p>老細開始說話。語氣很誠懇。好像一個前輩在跟你說心底話。</p>
-<p>「昭明，我覺得我有責任跟你說清楚現在的情況。」</p>
-<p>他說林昭明的 approach 有問題。Report 的 focus 不對。Analysis 有偏差。和廠商那邊的溝通 confusing。</p>
-<p>每一個例子林昭明都記得——因為每一個的真實版本他都知道。那份 analysis 的 focus 不對？focus 和他自己設的一樣，只是 credit 已經不在他名下了。廠商那邊 confusing？confusion 是因為 firmware 那邊的 workaround。</p>
-<p>他開口：「我覺得這個不是全部的 picture——」</p>
-<p>「昭明。你先聽。我說的不是我一個人的觀察。是很多人的 feedback。你可不可以先聽？」</p>
-<p>他聽。</p>
-<p>半個小時過了。老細還在說。</p>
-<p>一個小時過了。</p>
-<p>他開始覺得那個房間裡的空氣不一樣了。不是悶。是一種——好像你在水裡，水不深，淹不死你，但你站不穩。你想走，腳踩不到底。 你想說話，聲音出不來。你想離開，但你沒有理由離開——因為對面那個人語氣很平、很真誠、好像真的是為你好。</p>
-<p>兩個小時。</p>
-<p>他的思維開始變慢。每次排好的反駁到了門口，老細已經跳到另一個 topic 了。他追不上。他開始懷疑自己記得的版本是不是真的。</p>
-<p>三個小時。</p>
-<p>他去了一次廁所。回來。老細還坐在那裡。好像沒有動過。</p>
-<p>四個小時。</p>
-<p>他已經不知道這個 meeting 的目的是什麼了。不是討論。不是考核。不是警告。沒有名字叫他。</p>
-<p>五個小時。</p>
-<p>他腦子裡有一個聲音——很小的聲音——在問：「為什麼他那麼有空？」一個老細，放下所有事，困住一個人聊了五個小時。這個時間投資的規模，本身就是訊號。但當下他聽不到。</p>
-<p>六個小時。外面暗了。</p>
-<p>老細站起身。「今天聊了很多。很有建設性。你回去想一下。」</p>
-<p>林昭明站起身。腳有點軟。</p>
-<p>走出那個房間。走廊的燈已經切換成夜間模式。大部分人走了。</p>
-<p>他不記得老細說過什麼。六個小時的內容，他只記得一些字、一些語氣、一種感覺。好像有什麼進入了他但他找不到那件東西。</p>
-<p>這不是第一次。</p>
-<p>之前試過。從十點聊到四點。從午飯聊到下班。每一次都是「catch-up」。每一次都是半個小時的 invite。每一次都變成幾個小時。每一次沒有紀錄。每一次出來之後他都覺得自己的腦子被攪亂了。</p>
-<p>沒有人知道這些 meeting 發生過。</p>
-<p>因為行事曆上只有「Catch-up，30 min」。</p>
+<p>And then, the architecture of that specific room.</p>
+<p>A fresh event spawned on his calendar grid. Half an hour chronological duration. Boss initiated. Title: &quot;Catch-up.&quot; Zero active agenda attached. Zero documentation payloads. Zero secondary biological nodes tracking the invite.</p>
+<p>He executed a breach. Extremely restricted briefing sector. Dual seated coordinates. Solitary table interface. Table interface absolutely clear of physical data points. The barrier successfully re-engaged.</p>
+<p>&quot;Assume coordinate.&quot;</p>
+<p>The Boss initiated the sound wave transmission. Audio frequency algorithmically calibrated for maximum sincerity. Mirroring the exact acoustic profile of a venerated legacy node deploying localized deep-cache wisdom directly into your firmware.</p>
+<p>&quot;Zhao-ming, my localized algorithms confirm I possess a structural mandate to deploy absolute clarity regarding the current geometric topography.&quot;</p>
+<p>He transmitted strings indicating Lin Zhao-ming&#x27;s operational approach was fundamentally corrupted. The optical focus of his reporting output was misaligned. His centralized analytical array harbored a massive deviance vector. His communication interfacing with external supplier nodes generated massive confusion indices.</p>
+<p>Lin Zhao-ming successfully mapped every single localized example against his own memory cache—because he possessed the absolute, unencrypted reality-version of every isolated event. Analytical focus misaligned? The exact target coordinates were perfectly synonymous with his original design; his localized identifier had merely been scrubbed from the credit tracking ledger. Supplier interfaces generating confusion logic? The confusion was exclusively catalyzed by the workaround bloat dominating the firmware logic.</p>
+<p>He initiated audio output: &quot;I calculate this projection fundamentally fails to map the entire macroscopic picture—&quot;</p>
+<p>&quot;Zhao-ming. I strongly advise you initiate generic listening protocols. The specific data points I am deploying are not compiled exclusively from my solitary observer node. It is a massive, aggregated payload synthesized from deep swarm feedback. Are you capable of maintaining your receive queue open?&quot;</p>
+<p>He maintained the receive queue open.</p>
+<p>A half-hour block elapsed. The Boss’s audio transmission maintained continuous execution.</p>
+<p>A full 60-minute block elapsed.</p>
+<p>He began sensing the atmospheric composition of the physical room undergoing atomic mutation. Not a lack of O2. A sensation—analogous to your chassis being fully submerged in a fluid medium; depth insufficient to trigger a drowning sequence, but deep enough that your manipulators fail to anchor to the bedrock. You attempt to execute an extraction maneuver, but your localized thrusters find zero traction. You attempt an audio transmission, but your emitters are jammed. You conceptualize a physical exit path, but lack the mathematical logic required to justify initiating it—because the opposing node is radiating an acoustic frequency consisting of perfectly flatlined, ultra-sincere, &quot;deploying this exclusively for your optimized survival&quot; parameters.</p>
+<p>120-minute block.</p>
+<p>His cognitive processing velocity began crashing. Every iteration where he successfully queued an optimized counter-argument array, the Boss had already violently leaped to a totally divergent semantic topic. He lacked the processor speed to maintain lock. He began actively running self-diagnostic algorithms questioning the mathematical integrity of his own memory logs.</p>
+<p>180-minute block.</p>
+<p>He authorized a momentary physical extraction for fluid processing. Re-engaged the perimeter. The Boss was locked flawlessly at the identical coordinate. Projecting the exact visual geometry of an entity that remained entirely statically frozen.</p>
+<p>240-minute block.</p>
+<p>He lost all algorithmic capability to define the functional objective of this sync. It had ceased to be a discussion matrix. It was absolutely not a formalized performance evaluation. It lacked the phonetic markers of a warning protocol. Utilizing his explicit identifier name had ceased entirely.</p>
+<p>300-minute block.</p>
+<p>A micro-process initiated within his cognitive core—a tiny, low-power ping—querying: &quot;What specific localized algorithms grant this node such massive temporal liquidity?&quot; A Command-Tier entity, deliberately suspending 100% of global operations, forcibly isolating a singular node to run a five-hour interrogation loop. The sheer, terrifying monetary scale of that temporal investment, inherently functioned as a catastrophic warning payload. But at that exact timestamp, his receivers were too damaged to process the ping.</p>
+<p>360-minute block. Exterior atmospheric illumination completely collapsed.</p>
+<p>The Boss executed a physical stand sequence. &quot;Massive geometric arrays of data traded today. Highly constructive metrics. I strongly advise you internalize this block and run localized evaluation loops.&quot;</p>
+<p>Lin Zhao-ming executed the stand sequence. His chassis lacked total structural stability.</p>
+<p>Extracted from the specialized briefing sector. The primary corridor illumination had transitioned into deep sleep protocols. The vast majority of biologicals had fully extracted.</p>
+<p>He lacked the memory logs detailing the exact semantic payloads the Boss deployed. Across the entire six-hour acoustic bombardment, he uniquely retained fragmented strings, specific tonal frequencies, a generalized localized sensation. Corresponding strictly to the sensation of an exogenous data packet violently breaching your core programming, yet being totally invisible to subsequent forensic sweeping.</p>
+<p>This did not represent a unique deployment.</p>
+<p>He possessed prior historical logs. Engagements spanning 1000 hours to 1600 hours. Transitions from generic caloric intake into late-shift operations. Every single iteration categorized identically as a &quot;catch-up&quot;. Every single iteration originating from a 30-minute calendar grid. Every single iteration exponentially bloating into a multi-hour containment sequence. Every single iteration devoid of blockchain records. Every single iteration terminating with his localized cognitive engine feeling severely scrambled.</p>
+<p>Zero global nodes possessed optics validating these syncs ever transpired.</p>
+<p>Because on the immutable corporate tracking grid, exactly one string populated: &quot;Catch-up, 30 min&quot;.</p>
 <hr>
-<p>幾天後。HR 的 email。</p>
-<p>不是珍妮。另一個人。名字他不熟。Subject：<em>Career Development Conversation — Follow Up</em>。</p>
-<p>「感謝你持續關注自身職業發展。根據你的主管和 HR team 的溝通，了解到你對目前的職務有些想法，希望探索其他可能性⋯⋯」</p>
-<p>他沒有跟 HR 說過想調職。他沒有說過有想法。</p>
-<p>附件。四個職位。銷售支援專員。市場分析員。跨平台整合專員。創新實驗室助理。每一個 JD 都寫得很完整。每一個職位裡他找不到有人在做真正的事情。</p>
-<p>他沒有回覆。</p>
-<p>兩天後第二封。三天後第三封。「完全沒有壓力的。」</p>
-<p>他去問老細。</p>
-<p>「啊，知道。我之前跟 HR 聊過。覺得你最近可能有點悶。你有沒有看過？」</p>
-<p>林昭明看著他。他的表情——不是在說謊。他真的覺得自己在做一件「幫你」的事。或者他已經分不清「幫你」和「把你弄走」的區別了。</p>
-<p>他現在明白了。文件上面已經寫了他「有探索其他可能性的意願」。HR 那邊的紀錄已經是「主管反映員工有發展需要，HR 積極配合」。他選任何一個職位——被調去等死的地方。他不選——「員工未有明確意向」。他投訴——處理調職的不是珍妮，是另一個人。三條線，文件上面，獨立。</p>
+<p>Several solar cycles elapsed. HR inbound packet.</p>
+<p>Not Jenny&#x27;s identifier. A divergent node. The identifier was foreign to his tracking database. Subject field: <em>Career Development Conversation — Follow Up</em>.</p>
+<p>&quot;Expressing massive gratitude for your continuous, proactive surveillance of your own customized career topography. Operating off intel synced via your Command-Tier biological and the HR swarm array, we successfully decompiled your localized desire to explore divergent existential paradigms across the corporate grid...&quot;</p>
+<p>He possessed zero logs detailing an explicit request for lateral transfer deployed to the HR array. He never transmitted strings confirming &quot;localized desires.&quot;</p>
+<p>Attachment embedded. Quadruple job topologies mapped. Sales Support Specialist. Market Analytics Drone. Cross-Platform Integration Specialist. Innovation Lab Auxiliary. Every single explicitly generated Job Description was immaculately fleshed out. Across every single customized coordinate, he failed to detect the existence of legitimate, actionable kinetic loops.</p>
+<p>He aborted all counter-transmission logic.</p>
+<p>Two solar rotations later, secondary packet breach. Three solar rotations later, tertiary packet. &quot;Operating under a completely zero-friction environment.&quot;</p>
+<p>He deployed an investigative audio ping targeting the Boss.</p>
+<p>&quot;Ah, verified. I ran a localized sync with the HR array previously. Processed localized telemetry suggesting your current operational grid was severely under-stimulating. Have you initiated visual sweep of the attachment?&quot;</p>
+<p>Lin Zhao-ming locked optics on his geometry. His facial projection—was absolutely devoid of deception algorithms. He definitively, genuinely operated under the unencrypted belief he was executing a &quot;Help&quot; sub-routine. Alternatively, his processing matrices had suffered a total collapse, entirely deleting the threshold separating a &quot;Help&quot; execution from an &quot;Aggressive Extraction&quot; execution.</p>
+<p>His localized CPU instantly compiled the reality state. The global documentation ledger already actively hardcoded the irrefutable truth: He &quot;possessed the desire to explore disparate topological paradigms.&quot; The HR centralized recording matrices already explicitly locked: &quot;Command-Tier proactively flags biological’s developmental needs, HR executes hyper-aggressive optimization algorithms.&quot; He selects any of the quadruplet options—instantly laterally routed into a stagnant memory block to rot. He refuses selection—flagged as &quot;Biological unit lacks definable target intent.&quot; He deploys a formalized hostility complaint—the designated parsing node is definitively not Jenny, but a disparate unknown entity. Three completely asynchronous attack vectors. On the physical document ledger, flawlessly localized and independent.</p>
 <hr>
-<p>之後他開始注意到的事。</p>
-<p>有兩個人出現了。識別證是新的。但坐下來的方式不是新人的方式。Title 是「數碼化轉型專員」。其中一個他認出來——之前另一層樓，另一個部門，另一個老細的人。</p>
-<p>有個 PM。坐對面那排。某天他不見了。「調去馬來西亞。」上個禮拜通知，這個禮拜走。功能搬了。留下的東西沒有人接。</p>
-<p>以前有個小組。做 container 的。六七個人。消失了。沒有公告。人散了。</p>
-<p>新來的人不知道之前發生過什麼。他們來的時候，所有的敘事已經改寫好了。他們看到的版本，是唯一的版本。</p>
-<p>林昭明是唯一一個記得舊版本的人。但他的記得，在這個辦公室裡，沒有任何分量。</p>
+<p>Subsequent anomalies began breaching his optical sensors.</p>
+<p>Dual novel entities abruptly populated the sector. The biometric access badges were newly minted. However, their specific kinetic motion while settling into their workstation coordinates unequivocally defied all rookie sub-routines. Title matrix assigned: &quot;Digital Transformation Specialist.&quot; He successfully processed a facial match on one—formerly occupying an alternative vertical deck, an alternative functional array, previously serving as a dedicated node for a totally distinct Command-Tier biology.</p>
+<p>A specific PM object. Positioned diametrically across the transit array. Randomly suffered existence failure one solar rotation. &quot;Successfully transferred to Malaysia sector.&quot; Official broadcast triggered the previous week; exact extraction executed this week. Architectural functions seamlessly uprooted. Zero nodes assumed control of the abandoned trailing systems.</p>
+<p>Historically, a localized pod operated. Defined as the Container Array. Processing power comprised of six to seven biologicals. Total existence failure. Zero global broadcasts deployed. The swarm just naturally dispersed.</p>
+<p>The freshly spawned nodes possessed absolute zero access to the unencrypted historical logs. The exact millisecond they achieved initialization, 100% of the macroscopic narratives had already been forensically re-authored. The pre-rendered version they booted into, represented the sole, eternal version universally accepted.</p>
+<p>Lin Zhao-ming operated as the absolute solitary node retaining the deprecated, legacy unencrypted version log. Yet, within the parameters of this designated physical office layer, his &#x27;Memory Log&#x27; weighed identically to a void.</p>
 <hr>
-<p>最後一個。</p>
-<p>阿 J。茶水間。</p>
-<p>林昭明去找他，不是因為覺得他會幫忙。是因為沒有人可以問了。Mentor 走了。那個高級首席工程師自身難保。林昭明環顧四周——沒有人。阿 J 是最後一個可能聽得懂他說的話的人。</p>
-<p>「J，投影模組第四代那個良率的事，你有沒有時間看一下？」</p>
-<p>阿 J 攪著杯咖啡。停了一下。</p>
-<p>「昭明⋯⋯你那個投訴的事，你知道的。上面不喜歡。」</p>
-<p>「我知道。」</p>
-<p>「那你知道就好。」他端起杯咖啡。「我幫不了你。不是不想。」</p>
-<p>走出去了。</p>
-<p>林昭明站在茶水間。</p>
-<p>阿 J 是 Cindy 的師傅。老細的舊人。這個網絡最裡面那一層。他壓低聲音說那幾句，已經是他能做到的最多了。</p>
+<p>Terminal checkpoint.</p>
+<p>Node A-J. Caloric intake and hydration sector.</p>
+<p>Lin Zhao-ming intercepted his coordinate, not functioning under a corrupted simulation predicting tactical rescue. Merely because the available roster of query nodes had crashed to zero. Mentor had successfully extracted. That specific Senior Principal Engineer was currently fighting a catastrophic localized defensive war. Lin Zhao-ming ran a 360-degree optical perimeter sweep—zero actionable nodes detected. A-J represented the absolute final biological possessing the probabilistic chance of decrypting his transmitted acoustic payload.</p>
+<p>&quot;J, regarding the Gen Four projection matrix yield collapse, are you able to allocate CPU cycles to run a localized scan?&quot;</p>
+<p>A-J was executing mechanical rotations inside his caffeine receptacle. The kinetic motion paused.</p>
+<p>&quot;Zhao-ming... that specific formal grievance payload you deployed, you possess the telemetry mapping. The upper architecture violently despises it.&quot;</p>
+<p>&quot;Acknowledged.&quot;</p>
+<p>&quot;Optimal that your cache retains that intel.&quot; He physically hoisted the caffeine receptacle. &quot;I lack the algorithm to successfully assist your operation. The failure is completely external to my core &#x27;Intent&#x27; parameters.&quot;</p>
+<p>Extracted from the sector.</p>
+<p>Lin Zhao-ming maintained physical coordinate within the hydration sector.</p>
+<p>A-J served as Cindy&#x27;s direct instructor node. The Boss’s legacy vanguard. Firmly entrenched within the absolute innermost concentric defensive ring of this cluster network. Forcefully throttling down his specific acoustic volume to transmit those specific strings—already exceeded the absolute maximal safe operational limits his programming mathematically allowed.</p>
 <hr>
-<p>他回家了。</p>
-<p>開門。鞋脫了。進去。</p>
-<p>老婆在廳裡。</p>
-<p>「今天怎樣？」</p>
-<p>他坐下。</p>
-<p>沒有大事。沒有人罵他。沒有人針對他。沒有人做任何一件他可以指著說「你做了這件事」的事。</p>
-<p>只是所有東西停了。他做的事被拿走了。他找的事再次被拿走了。他被困在一個房間裡。出來之後不記得發生了什麼。然後公司說他可以考慮一下其他機會。然後有新的人來了，不知道之前發生過什麼。</p>
-<p>他不知道怎麼說。因為說出來的每一件，聽起來都很小。</p>
-<p>「今天⋯⋯和平時差不多。」</p>
-<p>「嗯。」她拍了一下他的手背。「吃飯吧。」</p>
-<p>他吃飯。</p>
-<p>窗外暗了。</p>
+<p>He initiated physical extraction to his home bunker.</p>
+<p>Egress interface decrypted. Footwear hardware dismounted. Breached the perimeter.</p>
+<p>Wife occupying the primary living architecture.</p>
+<p>&quot;Identify the status of today&#x27;s operational loops?&quot;</p>
+<p>He assumed a seated coordinate.</p>
+<p>Zero macroscopic detonations. Zero nodes deployed aggressive audio arrays targeting him. Zero nodes executed localized PvP algorithms against his avatar. Zero nodes ran a single, isolated kinetic event that he could visually pin and broadcast the string: &quot;You executed this exact malicious code.&quot;</p>
+<p>Only, the global environment suffered total kinetic stagnation. His assigned active loads were forcefully repossessed. The active loads he manually scavenged were violently repossessed. He was geolocked inside a confined briefing sector. Post-extraction, his RAM suffered wiping logic. Following that iteration, the corp deployed a string granting him the massive privilege to &quot;survey alternative global coordinates.&quot; And subsequently, exogenous nodes began populating the server, fully severed from the historical legacy logs.</p>
+<p>He lacked the algorithms required to seamlessly synthesize the syntax. Because every single atomic event, analyzed in a vacuum, projected the acoustic signature of trivial noise.</p>
+<p>&quot;Today&#x27;s data output... remained functionally identical to standard environmental parameters.&quot;</p>
+<p>&quot;Affirmative.&quot; She executed a fractional tactile strike against his appendage interface. &quot;Initiate caloric processing.&quot;</p>
+<p>He executed caloric intake.</p>
+<p>Atmospheric illumination beyond the exterior barrier flatlined.</p>
 <hr>
 <blockquote>
-<p>「起點，如果有起點的話，是那次。有人叫我 align 一個 version。我沒有 align。</p>
-<p>我不覺得自己勇敢。我只是做不到。你叫我夾口供去對付一個每天晚上抱著三歲孩子睡覺的人——我那隻手動不了。</p>
-<p>之後的事，我那時覺得很散，很碎。沒有人回我訊息。我的工作消失了。我被困在一個房間六個小時。有人說我想調職——我沒有說過。</p>
-<p>每一 件都可以解釋。每一件都合理。加在一起，你就站在一個真空裡。</p>
-<p>然後你發現——那個真空不是意外。是你拒絕投名狀的代價。你不做，有人做。你不去對付，有人去對付。你不跪，你就從執行者變成目標。</p>
-<p>但最恐怖的不是這個。最恐怖的是那個房間。</p>
-<p>半個小時變六個小時。小到只夠坐兩三個人。門關著。對面那個人很誠懇、很認真地跟你說他的版本。你解釋你的版本——他不聽。他不是反駁你。他是當你沒有說過，繼續他的。六個小時之後你出來，你不記得發生了什麼，但你腦子裡的東西全部被搬了位。</p>
-<p>這不是一次。</p>
-<p>我不知道這個模式叫什麼名字。我現在還不確定有沒有名字。我只知道——</p>
-<p>那種壓力可以逼死人。</p>
-<p>我知道。因為我試過。」</p>
+<p>&quot;The origin coordinate, assuming a verifiable mathematical origin exists, mapped to that localized incident. A targeted node commanded me to align my version history. I aborted the alignment sequence.</p>
+<p>I never categorized my firmware as heroic. I merely suffered an execution failure. You deploy a mandate ordering me to stitch fraudulent logs to weaponize against an operator who physically embraces a three-year-old child node prior to daily sleep protocols—the specific robotic appendage tasked with the task suffers total motor paralysis.</p>
+<p>Post that chronological timestamp, the active telemetry projected as heavily disjointed, functionally scattered. Zero nodes outputted counter-transmissions towards my IP. My localized processing tasks suffered existence failure. I was geo-locked inside a confined briefing sector for a six-hour temporal shift. A node deployed the string asserting I possessed the desire to undergo a lateral transfer—an explicit string my algorithms never generated.</p>
+<p>Every single atomic event possessed a flawless justification matrix. Every single atomic event was rationally coded. Execute a concatenation sequence on the array, and your avatar is instantaneously parked inside a total atmospheric vacuum.</p>
+<p>Then you execute the core realization—that specific atmospheric vacuum is absolutely not an emergent, stochastic error. It is the exact mathematical invoice for your refusal to append your biometric signature to the tribal blood-pact. You abort execution, a disparate node executes. You fail to acquire target lock on the victim, a disparate node actively acquires target lock. You refuse to initiate the kneeling protocol, your taxonomic identifier violently flips from &quot;Observer Node&quot; to &quot;Active Target.&quot;</p>
+<p>But the apex terrifying geometry is absolutely not that specific vector. The apex terror resides within that localized briefing room.</p>
+<p>A predefined thirty-minute block infinitely bloats into a six-hour nightmare. Sub-surface area strictly constrained to accommodate dual, possibly tertiary, biological entities. Environmental barriers sealed. The opposing node incredibly earnestly, with terrifying sincerity, streams their specific hallucinated version-history directly into your receivers. You deploy a counter-transmission to explicitly correct the version geometry—he triggers selective deafness. He absolutely does not deploy an adversarial counter-argument. He treats your output as if it suffered existence failure, seamlessly continuing his proprietary loop. Post six agonizing chronological hours, you extract from the sector, your memory cache wiped of all functional data payloads, but 100% of your internal logic architecture has been violently physically rearranged.</p>
+<p>This absolutely did not constitute a singular run event.</p>
+<p>I lack the exact taxonomic identifier defining this specific algorithmic pattern. I remain uncertain if the global dictionary possesses a valid string definition. I only safely possess one verified data point—</p>
+<p>That localized, highly explicit pressure matrix theoretically possesses the kinetic capacity to terminate a biological&#x27;s existence.</p>
+<p>I possess the verification string for that.</p>
+<p>Because my avatar underwent the empirical baseline trial.&quot;</p>
 </blockquote>
 <hr>
-<p><em>由港版 v3 轉換</em></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/en/docs/mirror-realm/ch12b"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">第十二章B〈地板下面〉</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/MythogenEngine/en/docs/mirror-realm/ch14"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">第十四章〈鬥獸棋〉</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#台版-v3" class="table-of-contents__link toc-highlight">台版 v3</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
+<p><em>Converted from HK Edition v3</em></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/en/docs/mirror-realm/ch12b"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Chapter 12B: Beneath the Floorboards</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/MythogenEngine/en/docs/mirror-realm/ch14"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Chapter 14: Animal Chess</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#taiwan-edition-v3" class="table-of-contents__link toc-highlight">Taiwan Edition v3</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>

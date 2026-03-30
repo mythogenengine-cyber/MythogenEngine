@@ -3,185 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.5.2">
-<title data-rh="true">第七章〈推斷〉 | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="第七章〈推斷〉 | Mythogen Engine"><meta data-rh="true" name="description" content="台版 v3"><meta data-rh="true" property="og:description" content="台版 v3"><link data-rh="true" rel="icon" href="/MythogenEngine/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch07" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/mirror-realm/ch07" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch07" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/en/assets/css/styles.896fc18b.css">
-<script src="/MythogenEngine/en/assets/js/runtime~main.8ad41ea1.js" defer="defer"></script>
+<title data-rh="true">Chapter 7: Deduction | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 7: Deduction | Mythogen Engine"><meta data-rh="true" name="description" content="Taiwan Edition v3"><meta data-rh="true" property="og:description" content="Taiwan Edition v3"><link data-rh="true" rel="icon" href="/MythogenEngine/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch07" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/mirror-realm/ch07" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/mirror-realm/ch07" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/mirror-realm/ch07" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/en/assets/css/styles.896fc18b.css">
+<script src="/MythogenEngine/en/assets/js/runtime~main.4ff311be.js" defer="defer"></script>
 <script src="/MythogenEngine/en/assets/js/main.7c6283b1.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/en/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/prologue">Prologue: The Way of Disappearing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch01">第一章〈最不差的選擇〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch02">第二章〈歡迎來到霧谷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch03">第三章〈QCC 的代價〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch04">第四章〈假面話術詞典〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch05">第五章〈平安夜〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch06">第六章〈懷疑的種子〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch07">第七章〈推斷〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch08">第八章〈幫手〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch09">第九章〈回來〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch10">第十章〈投訴的反噬〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch11">第十一章〈維克多・數算的計算〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12">第十二章〈廠商那邊〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12b">第十二章B〈地板下面〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch13">第十三章〈架空孤立協議〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch14">第十四章〈鬥獸棋〉</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch15">第十五章〈1024年11月〉</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/MythogenEngine/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mirror Realm</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">第七章〈推斷〉</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>第七章〈推斷〉</h1></header>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="台版-v3">台版 v3<a href="#台版-v3" class="hash-link" aria-label="Direct link to 台版 v3" title="Direct link to 台版 v3">​</a></h3>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/en/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/mirror-realm/ch07" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/prologue">Prologue: The Way of Disappearing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch01">Chapter 1: The Least Worst Choice</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch02">Chapter 2: Welcome to Mist Valley</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch03">Chapter 3: The Cost of QCC</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch04">Chapter 4: Dictionary of Masks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch05">Chapter 5: Silent Night</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch06">Chapter 6: Seeds of Doubt</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch07">Chapter 7: Deduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch08">Chapter 8: Helpers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch09">Chapter 9: Returning</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch10">Chapter 10: The Backlash of Complaint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch11">Chapter 11: Victor&#x27;s Calculations</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12">Chapter 12: At the Supplier</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch12b">Chapter 12B: Beneath the Floorboards</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch13">Chapter 13: Overhead Isolation Protocol</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch14">Chapter 14: Animal Chess</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/mirror-realm/ch15">Chapter 15: November 1024</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/MythogenEngine/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mirror Realm</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Chapter 7: Deduction</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Chapter 7: Deduction</h1></header>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="taiwan-edition-v3">Taiwan Edition v3<a href="#taiwan-edition-v3" class="hash-link" aria-label="Direct link to Taiwan Edition v3" title="Direct link to Taiwan Edition v3">​</a></h3>
 <hr>
-<p>地點：鏡界・翠鏡島
-時間：1023年9月—10月
-主角：林昭明</p>
+<p>Location: Mirror Realm · Emerald Isle
+Time: September—October 1023
+Protagonist: Lin Zhao-ming</p>
 <hr>
-<p>林昭明回到翠鏡島的第一天，走進辦公室。</p>
-<p>不是像居家辦公（WFH）那樣的辦公室——螢幕裡的格子。而是真正的辦公室，有桌子、有椅子、有人。有冷氣運轉的聲音、有咖啡機運轉的聲音、有人走來走去的聲音。</p>
-<p>八個月沒回來了。</p>
-<p>他站在門口，望著裡面。好像一樣，又好像不一樣。</p>
+<p>The first day Lin Zhao-ming returned to Emerald Isle, he walked into the office.</p>
+<p>Not the kind of office you see during WFH—a grid of boxes on a screen. An actual, physical office, with desks, chairs, and human beings. The hum of the air conditioning, the sound of the coffee machine operating, the kinetic friction of people walking back and forth.</p>
+<p>He hadn&#x27;t been back in eight months.</p>
+<p>He stood at the entrance, gazing inward. It felt identical, yet simultaneously alien.</p>
 <hr>
-<p>第一件他留意到的，是桌子。</p>
-<p>準確一點說，是過渡期那種奇怪的混雜。</p>
-<p>有幾層樓還是舊款。桌面深、隔板高、走廊寬。那些樓層名義上都是彈性導位（hot-desking），沒人分配固定座位，但他的同事——大部分人——都去那邊。去了就坐同一個位子，無聲無息，有一種默契。沒人說是你的位子，但就是你的位子。桌上有杯子、有筆筒，有人貼了便條紙在隔板上。山寨版的「地契」，不成文，但人人都懂。佔住位子，就是佔住了地盤。</p>
-<p>有些人還會自己搬張椅子過來。兩個人坐同一張桌子，擠在一起。系統沒說不可以，彈性導位只說沒有固定座位，沒說不能坐在一起。所以他們就坐在一起，很自然、很正常。沒人反對。</p>
-<p>林昭明後來回想，其實哪層樓不是重點。新樓層有人留下，舊樓層也有人走。座位看不出命運。真正的指標是另一樣東西——是「關係」。但那時候，他還沒想到這層。</p>
-<p>裝修過的樓層在另一邊。桌子窄、走廊縮水了。隔板有些地方有，有些地方拆了。這層樓容易找位置——去的人少，沒人來這裡「圈地」。</p>
-<p>林昭明去新樓層。</p>
-<p>不是因為位子好。位子其實差一點——窄桌子、沒隔板、沒固定座位。但是簡單。你來了，你坐下，你走了。沒有那種「你坐錯位子了」的眼神。</p>
-<p>他不是進不去舊樓層，是不需要。</p>
-<p>他拿出自己的眼鏡，戴上。</p>
-<p>這副眼鏡是他自己買的。公司也有幾副共用的，但全層樓不夠分。他本來就不喜歡全像投射（holographic projection）——所有東西攤在空氣中，你隔壁的人走過就全都看光了。他不習慣這樣做事。戴眼鏡，只有自己看得到，安靜、乾淨。</p>
-<p>他啟動眼鏡，畫面亮起。只有他看得到。</p>
-<p>他望了望四周。有些面孔認得，有些陌生。以前那些面孔，很多消失了。他不知道那些人是什麼時候走的，沒人通知他。</p>
-<p>有一張臉，他確定沒見過。
-那個人坐在靠窗的位子。臉是陌生的——林昭明在這個 team 待了兩年，他可以確認這個人以前不在這裡。
-但他坐的樣子不像新來的。
-椅子調到剛好的角度。桌上有杯子，不是紙杯，是自己的杯子。眼鏡戴著，全像投射收起來了，只對著自己用。沒有打量四周。沒有那種找廁所在哪、茶水間在哪的眼神。
-阿K從另一邊過來，看見他，說：「你昨天那份東西，我看了，等一下跟你說。」
-那個人抬起頭：「好，你說。」
-然後阿K走過去，兩個人開始聊，聲音很低，林昭明聽不清楚說什麼。不是刻意壓低，是那種本來就不需要讓所有人都聽到的音量。
-林昭明轉回自己的螢幕。
-他說不清楚剛才那一幕有什麼奇怪。
-也可能沒什麼奇怪。一個人調過來，以前就認識的，說幾句話，很正常。
-他沒再多想。</p>
+<p>The first anomaly he noticed was the desks.</p>
+<p>More accurately, it was the bizarre hybridization characteristic of transitional phases.</p>
+<p>Several floors remained in the legacy configuration. Deep desktops, high partition walls, wide corridors. Nominally, those floors operated on a hot-desking model—no one was officially allocated a fixed seat. But his colleagues—the vast majority of them—migrated there anyway. When they arrived, they sat in the exact same seat, day after day, in absolute silence, forging an unspoken consensus. No one explicitly stated it was your seat, but it was definitively your seat. There were mugs on the desks, pen holders, Post-it notes slapped onto the partitions. A pirated version of a &quot;land deed&quot;—completely undocumented, yet universally respected. If you occupied the seat, you had staked your territory.</p>
+<p>Some even manually dragged a second chair over. Two people occupying a single desk, crammed together. The system didn&#x27;t explicitly forbid it; the hot-desking mandate merely stated there were no fixed seats, it didn&#x27;t state you couldn&#x27;t sit physically conjoined. So they sat together, naturally, normally. No one raised an objection.</p>
+<p>Reflecting on it later, Lin Zhao-ming realized that the specific floor wasn&#x27;t the terminal metric. People remained on the new floors, and people evacuated the legacy floors. Seating arrangements didn&#x27;t dictate operational destiny. The genuine leading indicator was entirely different—it was &quot;relationships.&quot; But at the time, he hadn&#x27;t pierced through to that conceptual layer yet.</p>
+<p>The newly renovated floors were on the opposite side. The desks were narrow, the corridors had aggressively contracted. Partitions existed in some zones, and had been entirely ripped out in others. Securing a seat on this floor was frictionless—few people came here, and no one came here to &quot;stake territory.&quot;</p>
+<p>Lin Zhao-ming deployed to the new floor.</p>
+<p>Not because the seating was superior. Architecturally, it was inferior—narrow desks, zero partitions, no fixed allocation. But it was computationally simple. You arrive, you sit, you execute, you leave. You never encounter that specific gaze of, &quot;You&#x27;re sitting in the wrong seat.&quot;</p>
+<p>It wasn&#x27;t that he couldn&#x27;t infiltrate the legacy floors; it was that he possessed zero requirement to do so.</p>
+<p>He extracted his glasses and put them on.</p>
+<p>He had purchased this pair out of his own pocket. The company provided a few shared communal pairs, but nowhere near enough to equip the entire floor. Besides, he fundamentally despised holographic projection interfaces—having your entire operational workspace vomited into the ambient air, completely visible to whoever happened to walk past. He couldn&#x27;t execute tasks under those parameters. Wearing the glasses, the visual telemetry was restricted exclusively to him. It was silent, sterile, secure.</p>
+<p>He engaged the glasses, and the interface illuminated. Visible only to his retinas.</p>
+<p>He scanned the immediate perimeter. Some facial signatures were recognizable, others were completely foreign. Many of the faces from the previous era had simply vanished. He had zero visibility into exactly when those individuals had been extracted; no one had ever updated his telemetry.</p>
+<p>There was one face he could mathematically verify he had never seen before.
+The man was occupying a seat adjacent to the window. The facial geometry was unknown—Lin Zhao-ming had operated within this specific team for two years; he could definitively confirm this individual was an exogenous variable.
+But the way he occupied the seat didn&#x27;t resonate with the kinetic signature of a new hire.
+The chair was calibrated to a highly specific angle. The mug on the desk wasn&#x27;t paper; it was proprietary hardware. He wore his glasses, his holographic projection neutralized, isolated entirely to his own visual field. He wasn&#x27;t violently scanning the perimeter. He lacked the disoriented gaze of someone attempting to map the coordinates of the restrooms or the pantry.
+K approached from the opposite vector, locked eyes with the man, and stated: &quot;That packet you deployed yesterday. I audited it; I&#x27;ll brief you on it shortly.&quot;
+The man raised his head: &quot;Copy that. I&#x27;m listening.&quot;
+K closed the distance, and the two immediately engaged in a low-bandwidth exchange. Lin Zhao-ming couldn&#x27;t intercept the audio. It wasn&#x27;t deliberately encrypted; it was simply modulated at a volume that inherently didn&#x27;t require global broadcasting.
+Lin Zhao-ming rotated back to his primary monitor.
+He couldn&#x27;t articulate exactly what felt anomalous about that specific interaction.
+Or perhaps it wasn&#x27;t anomalous at all. An operator is laterally transferred in, they previously shared operational history, they execute a brief sync—mathematically normal.
+He terminated the processing thread.</p>
 <hr>
-<p>前幾天，他主要在翻舊電子郵件（email）——從他離開那天開始，逐封篩選回來。</p>
-<p>八個月的存檔，幾百封。大部分是他待在中介島時沒細看，或者是看了沒放在心上的。</p>
-<p>翻回去才知道，有三個老闆走了。一個退休、一個轉調部門、一個「因個人原因離開」。研發（R&amp;D）那邊，架構名義上沒變，但產品工程（PE）、專案管理（PM）那邊的人走了一大堆，由研發部接收過來。結果研發部的人都在做產品工程的事，沒人有空做真正的研發。</p>
-<p>以前那群做決定的人，不在了。</p>
-<p>現在待在這裡的人，是另一批。</p>
+<p>For the preceding few days, his primary operational focus was auditing legacy emails—filtering backward, email by email, starting from the exact hour of his extraction to Intermediary Island.</p>
+<p>Eight months of archived logs. Hundreds of packets. The vast majority were materials he had either skimmed or actively deprioritized while stationed on Intermediary Island.</p>
+<p>Only by executing this retroactive audit did he mathematically grasp that three executives had been vaporized. One retired, one executed a lateral transfer, and one &quot;departed for personal reasons.&quot; In R&amp;D, the architectural org chart remained nominally static, but massive swaths of personnel from Product Engineering (PE) and Project Management (PM) had violently evacuated, their roles forcefully absorbed by R&amp;D. Consequently, the entire R&amp;D division was exclusively executing PE tasks; no one possessed the bandwidth to engage in actual Research &amp; Development.</p>
+<p>The cohort that previously drove terminal decisions had evaporated.</p>
+<p>The operators currently occupying these coordinates were an entirely different species.</p>
 <hr>
-<p>他決定自願重返辦公室（RTO）。Return to Office。三十九天。</p>
-<p>這不是公 司逼的，是他自己的決定。</p>
-<p>他在中介島的那八個月，所有的事都是隔著螢幕做的。電子郵件沒人回覆、備忘錄沒人理會、分析被人拿走。他得出一個結論——</p>
-<p>人不在現場，你做的事就不算數。</p>
-<p>那他就回來。用三十九天，面對面，親口說。拿著他的數據、他的規律（pattern）、他的地圖，在會議室裡，說給對的人聽。</p>
+<p>He had voluntarily initiated an RTO sequence. Return to Office. Thirty-nine days.</p>
+<p>It wasn&#x27;t a corporate mandate; it was his own autonomous calculation.</p>
+<p>During his eight-month exile on Intermediary Island, every single kinetic action he had executed was mediated through a monitor. Emails triggered zero responses, memos were deflected into the void, analytical telemetry was hijacked. He had derived a terminal conclusion—</p>
+<p>If you lack physical presence on the battlefield, your kinetic output mathematically equals zero.</p>
+<p>Therefore, he returned. For thirty-nine days, he would operate face to face, engaging in direct acoustic transmission. Armed with his telemetry, his rhythmic patterns, his cartography, sitting inside physical briefing rooms, executing transmissions directly into the auditory receivers of the correct targets.</p>
 <hr>
-<p>九月中。</p>
-<p>林昭明做了一個模擬。</p>
-<p>不是公司安排的，沒人叫他做。是他自己搭的——用他在中介島那八個月收集的數據，加上他回來後取得的一些新測試結果，在他自己的環境裡做的一個系統級（system-level）模擬。</p>
-<p>模擬的目的很簡單：重現那個間歇性的當機。</p>
-<p>他之前在中介島時，已經畫好了一張地圖。規律很清楚。每次系統從休眠喚醒，特定的操作序列（sequence），特定的運算負載（processing load），就會出事。他推斷是底層——BIOS或者韌體。</p>
-<p>但推斷歸推斷，他沒有證據（proof）。</p>
-<p>所以他做模擬。</p>
+<p>Mid-September.</p>
+<p>Lin Zhao-ming engineered a simulation.</p>
+<p>It wasn&#x27;t sanctioned by the corporation; no one ordered him to architect it. He built it autonomously—fusing the massive datasets he had excavated during his eight months on Intermediary Island with fresh testing telemetry he had acquired upon his return, forging a system-level simulation completely localized within his own segregated environment.</p>
+<p>The objective of the simulation was singular: Replicate the catastrophic intermittent blue-screen.</p>
+<p>While isolated on Intermediary Island, he had already forged a sprawling map. The rhythmic patterns were mathematically flawless. Every time the system executed a wake command from hibernation, under highly specific operational sequences, burdened by a highly specific processing load, the anomaly detonated. He logically deduced the rot was localized in the subterranean layers—the BIOS or the firmware.</p>
+<p>But a deduction is merely a deduction. He lacked terminal proof.</p>
+<p>So he ran the simulation.</p>
 <hr>
-<p>模擬跑了幾天。大部分時間沒事，正常、穩定。</p>
-<p>之後，在第四天的深夜，他盯著螢幕。</p>
-<p>出事的那一瞬間——系統從休眠喚醒的那零點幾秒——他見到了一樣東西。</p>
-<p>一個空指標（null pointer）。</p>
-<p>在正常情況下，這個指標應該指向一個有效的記憶體地址。但在喚醒瞬間，因為某些初始化（initialization）的順序問題，它指向了一個空的地址。Null。</p>
-<p>然後系統試圖讀取那個地址，讀到 Null。之後——視當時的負載、時序（timing）和其他幾十個變數而定——有時當機（crash），有時沒事。當機的那些，就是用戶見到的「莫名其妙的故障」。</p>
-<p>林昭明盯住螢幕。</p>
-<p>他找了大半年的東西，就在這裡。</p>
-<p>不是能芯的問題、不是供應商的問  題、不是硬體的問題。是系統底層初始化程序（initialization sequence）裡的一個空指標。一個程式碼等級（code level）的問題。</p>
-<p>他深呼吸。</p>
-<p>然後他提醒自己：這是模擬，他自己搭的環境，不是生產系統（production system）。他見到的是一個指標在他的模擬中指向 Null。這跟真正系統中發生的事，可能有關，也可能無關。</p>
-<p>他有的，始終只有推斷。</p>
-<p>但是這個推斷，跟他過去八個月收集的所有規律，完全契合。</p>
+<p>The simulation churned for days. The vast majority of the runtime was clear—normal, stable.</p>
+<p>Then, deep into the graveyard shift of the fourth day, he locked onto the monitor.</p>
+<p>At the exact millisecond of detonation—that fractional sliver of a second when the system violently tore itself from hibernation—he intercepted an anomaly.</p>
+<p>A null pointer.</p>
+<p>Under mathematically normal parameters, this pointer should invariably index to a valid memory address. But during the chaotic millisecond of the wake sequence, driven by a catastrophic flaw within the initialization hierarchy, it indexed to a vacuum. An empty address. Null.</p>
+<p>The system subsequently attempted to fetch data from that address, violently colliding with Null. The fallout—dictated by the real-time processing load, the microscopic timing, and dozens of tertiary variables—sometimes resulted in a catastrophic system crash, and sometimes resolved into localized instability. Those crashes were the exact &quot;bizarre, inexplicable malfunctions&quot; the end-users were continuously flagging.</p>
+<p>Lin Zhao-ming stared dead into the monitor.</p>
+<p>The phantom he had hunted for over half a year was sitting right there.</p>
+<p>It wasn&#x27;t a defect in the energy core, it wasn&#x27;t supplier incompetence, it wasn&#x27;t a hardware failure. It was a null pointer buried deep within the subterranean initialization sequence of the macroscopic system. A microscopic flaw residing at the absolute bedrock code level.</p>
+<p>He inhaled deeply.</p>
+<p>Then he forcefully rebooted his own cognitive loops: This is a simulation. A localized environment he had engineered himself; it is <em>not</em> the live production system. What he was observing was a pointer indexing to Null within his synthetic architecture. Whether this mathematically correlated to the live-fire chaos occurring within the production system was entirely unconfirmed.</p>
+<p>What he possessed remained, fundamentally, a deduction.</p>
+<p>But this deduction aligned with absolute algorithmic perfection against every single rhythmic pattern he had aggregated over the preceding eight months.</p>
 <hr>
-<p>第二天，他去找技術長（CTO）。</p>
-<p>CTO還在，這點是他回來後確認過的——CTO還沒走。</p>
-<p>他約了一個一對一（one-on-one）會談。視訊。CTO在另一個辦公地點。</p>
-<p>林昭明將他的模擬結果分享出來。一步步說明。規律、數據、模擬設定。最後——那個空指標。</p>
-<p>「我見到這段程式碼。」他說，語氣很平靜。「我推斷這是根本原因。但是完整的日誌——生產環境（production environment）的日誌——在後台。我沒有權限，你能不能幫我查？」</p>
-<p>CTO沒有即刻回答。</p>
-<p>沈默。</p>
-<p>正常的一對一會談，你問一個技術問題，對方會立刻開始討論。或者說「我想想看」，或者是「你多講一點」。</p>
-<p>但 CTO 的沈默，比正常長了一點。</p>
-<p>不是很久，可能多了兩三秒。但是林昭明留意到了。</p>
-<p>之後 CTO 開口：「你的分析做得很細。我看到了你的規律。」</p>
-<p>停了一停。</p>
-<p>「我需要一點時間看後台那邊。」</p>
-<p>「多久？」</p>
-<p>「我盡量。」</p>
-<p>收線。</p>
+<p>The next day, he initiated contact with the CTO.</p>
+<p>The CTO was still active; Lin Zhao-ming had verified this baseline reality immediately upon his return—the CTO had not yet been vaporized.</p>
+<p>He scheduled a one-on-one sync. Video uplink. The CTO was operating out of a disparate physical facility.</p>
+<p>Lin Zhao-ming screen-shared his simulation telemetry. He walked through the execution step by step. The rhythmic patterns, the raw data, the simulation parameters. And finally—the null pointer.</p>
+<p>&quot;I intercepted this specific block of code,&quot; he stated, his vocal tone resting at baseline absolute zero. &quot;I logically deduce this is the root cause. But the comprehensive logs—the telemetry from the live production environment—are locked in the backend. I possess zero access privileges. Can you run the query for me?&quot;</p>
+<p>The CTO did not instantaneously execute a response.</p>
+<p>Silence.</p>
+<p>During a standard one-on-one sync, when deploying a technical query, the target typically initiates an immediate conceptual counter-volley. Or they execute a buffer phrase like &quot;Let me process that,&quot; or demand, &quot;Expand on that vector.&quot;</p>
+<p>But the CTO&#x27;s silence sustained for a fractional baseline longer than normal.</p>
+<p>It wasn&#x27;t an eternity; perhaps merely a delta of two or three seconds. But Lin Zhao-ming registered the anomaly.</p>
+<p>Then the CTO transmitted: &quot;The granularity of your analysis is exceptionally high. I have visibility on the pattern you isolated.&quot;</p>
+<p>A deliberate pause.</p>
+<p>&quot;I will require a window to audit the backend.&quot;</p>
+<p>&quot;What&#x27;s your operational timeline?&quot;</p>
+<p>&quot;I&#x27;ll do my best.&quot;</p>
+<p>Call ended.</p>
 <hr>
-<p>林昭明坐在辦公室的彈性座位上，盯著螢幕。</p>
-<p>「我盡量。」</p>
-<p>不是「我幫你查」，不是「我先看看」，是「我盡量」。</p>
-<p>他不知道這三個字到底是什麼意思。可能只是一個忙碌的人的正常回應，可能什麼都不是。</p>
-<p>他沒  再多想。等。</p>
+<p>Lin Zhao-ming sat at his hot-desk in the physical office, staring at the monitor.</p>
+<p>&quot;I&#x27;ll do my best.&quot;</p>
+<p>Not &quot;I will run the query for you.&quot; Not &quot;I&#x27;ll take a look.&quot; It was &quot;I&#x27;ll do my best.&quot;</p>
+<p>He possessed zero cryptographic key to decode the actual meaning of those four words. Perhaps it was merely the standard operational deflection of an overloaded executive; perhaps it translated to absolutely nothing.</p>
+<p>He terminated the processing thread. He waited.</p>
 <hr>
-<p>過了幾天。</p>
-<p>辦公室裡有個工程師，做韌體（firmware）的。林昭明跟他聊過幾次，他懂行，講到空指標，他聽得懂。</p>
-<p>有一天，林昭明在茶水間遇到他，聊了幾句。林昭明順口問：「那個初始化程序的問題，你有沒有注意到？」</p>
-<p>對方望著他，好像想說什麼。之後說：「我明天放假。」</p>
-<p>「喔，要去哪邊？」</p>
-<p>「回家。」</p>
-<p>「什麼時候回來？」</p>
-<p>「不知道。」</p>
-<p>林昭明覺得有些奇怪，但沒追問。放假就放假。</p>
-<p>一個禮拜過去，沒回來。</p>
-<p>兩個禮拜，沒回來。</p>
-<p>林昭明問其他人。有人說：「他好像不回來了。」</p>
-<p>「什麼意思？辭職？」</p>
-<p>「不清楚，好像是。」</p>
-<p>一個月後，人資（HR）的電子郵件寄出了。確認離職，生效日期追溯到他「放假」的那天。</p>
-<p>林昭明看著電子郵件。</p>
-<p>他記得那天在茶水間，那個工程師望著他的眼神。好像想說什麼，最後只說了「我明天放假」。</p>
-<p>他不知道那個工程師想說的話是什麼。永遠不會知道了。</p>
+<p>Several days elapsed.</p>
+<p>There was an engineer embedded in the office who operated exclusively on firmware. Lin Zhao-ming had synced with him previously; the man was a lethal operator, deeply knowledgeable in the architecture. When you deployed the term &quot;null pointer,&quot; his cognitive receivers instantly decoded it.</p>
+<p>One day, Lin Zhao-ming intercepted him in the pantry and engaged in a low-bandwidth sync. Casually, Lin Zhao-ming dropped a probe: &quot;That anomaly within the initialization sequence. Have you established any visibility on it?&quot;</p>
+<p>The target locked eyes with him, his facial geometry shifting as if preparing to execute a data dump. Then he abruptly aborted and stated: &quot;I&#x27;m on leave starting tomorrow.&quot;</p>
+<p>&quot;Copy. Where are you deploying to?&quot;</p>
+<p>&quot;Heading home.&quot;</p>
+<p>&quot;What&#x27;s your extraction timeline to return?&quot;</p>
+<p>&quot;Unknown.&quot;</p>
+<p>Lin Zhao-ming registered the anomaly, but elected not to press further. Leave was leave.</p>
+<p>One week elapsed. Zero re-entry.</p>
+<p>Two weeks. Zero re-entry.</p>
+<p>Lin Zhao-ming queried other operators. An anonymous node supplied the intel: &quot;Intel suggests he&#x27;s not spinning back up.&quot;</p>
+<p>&quot;Decode that. He tendered resignation?&quot;</p>
+<p>&quot;Unconfirmed, but highly probable.&quot;</p>
+<p>One month later, the HR global broadcast hit the servers. Resignation confirmed, effective date retroactively locked to the exact day his &quot;leave&quot; initiated.</p>
+<p>Lin Zhao-ming stared at the email vector.</p>
+<p>He aggressively retrieved the visual data from that day in the pantry. The way the engineer&#x27;s eyes had locked onto him. The aborted data dump, ultimately reduced to the terminal phrase, &quot;I&#x27;m on leave starting tomorrow.&quot;</p>
+<p>He lacked the data to decode what the engineer had actually intended to transmit. And he would remain mathematically blind to it for eternity.</p>
 <hr>
-<p>之後，CTO 辭職。</p>
-<p>不到一個禮拜。</p>
-<p>林昭明是從電子郵件中知道的。一封簡短的通知。「CTO 因個人原因離開公司，即日生效。」感謝他的貢獻，祝他前程似錦。</p>
-<p>即日生效。</p>
-<p>林昭明讀了兩次。</p>
-<p>他跟 CTO 講完那個空指標的模擬，不到兩個禮拜。他叫 CTO 幫他查後台的日誌。CTO 說「我盡量」。然後 CTO 就走了。</p>
-<p>他不知道 CTO 有沒有真的去查，不知道 CTO 查到了什麼，不知道 CTO 離開的原因是不是跟這件事有關。</p>
-<p>他什麼都不知道。</p>
-<p>他只知道：他找到的東西——那個空指標、那個規律——知道這些事的人，都走了。</p>
-<p>韌體工程師，走了。
-CTO，走了。</p>
-<p>在中介島那段時間  ，還有人聽得懂。CTO還在，識得空指標的人還在。林昭明講話有人接得住。</p>
-<p>現在，接得住的人，一個一個消失。</p>
+<p>Subsequently, the CTO tendered resignation.</p>
+<p>The delta between the two events was less than a week.</p>
+<p>Lin Zhao-ming acquired the intel via a global email broadcast. A brutally truncated notification. &quot;The CTO has departed the corporation due to personal reasons, effective immediately.&quot; Standardized boilerplate expressing gratitude for his kinetic output, paired with wishes for a luminescent future.</p>
+<p>Effective immediately.</p>
+<p>Lin Zhao-ming parsed the text twice.</p>
+<p>The delta between his presentation of the null pointer simulation and this broadcast was less than two weeks. He had requested the CTO audit the backend logs. The CTO had transmitted &quot;I&#x27;ll do my best.&quot; And then the CTO had been evaporated.</p>
+<p>He possessed zero visibility into whether the CTO had actively executed the query. Zero visibility into what the CTO might have intercepted. Zero visibility into whether the CTO&#x27;s extraction was in any mathematical way correlated to his localized operation.</p>
+<p>He possessed zero visibility across the board.</p>
+<p>He only knew one absolute certainty: The architecture he had excavated—the null pointer, the cyclic patterns—every single operator who possessed visibility into those specific assets had been systematically neutralized.</p>
+<p>The firmware engineer. Vaporized.
+The CTO. Vaporized.</p>
+<p>During his operational exile on Intermediary Island, there were still nodes who possessed the bandwidth to decode his transmissions. The CTO was online; operators capable of parsing a null pointer were online. When Lin Zhao-ming initiated an uplink, there was a receiver capable of catching the packet.</p>
+<p>Now, every single capable receiver was being systematically terminated, one by one.</p>
 <hr>
-<p>辦公室裡，不是完全沒人提起。</p>
-<p>有人說 CTO 走得很不值得。這是私底下說的，茶水間那種，沒人在公開場合講。</p>
-<p>有同事來找林昭明聊。不是聊技術，是那種：「你覺得公司有沒有開除錯人？」</p>
-<p>林昭明沒表態。</p>
-<p>因為他知道——無論他說開除人是對是錯，都可以拿來做文章。兩邊都是把柄。</p>
+<p>Within the physical office, it wasn&#x27;t as if absolute radio silence was maintained.</p>
+<p>There were subterranean transmissions indicating the CTO&#x27;s extraction was an unmitigated disaster for the org. This data flowed strictly through encrypted channels—pantry chatter, never broadcast on open comms.</p>
+<p>Occasionally, a colleague would initiate a lateral sync with Lin Zhao-ming. Not technical data exchanges, but probes configured like: &quot;Do you calculate the org executed the wrong personnel?&quot;</p>
+<p>Lin Zhao-ming maintained an absolute zero-state. He deployed no stance.</p>
+<p>Because he mathematically understood—regardless of whether he categorized the termination as logically sound or fatally flawed, his transmission could be intercepted and weaponized. Both vectors provided lethal leverage to an adversary.</p>
 <hr>
-<p>其實不只有那個同事問。</p>
-<p>林昭明之前——在中介島那陣子，還有回來之後——都試過跟很多人講。講那個初始化的問題、講他的推斷、講他覺得系統到底出了什麼事。</p>
-<p>大部分人的反應？不支持。或者裝作聽不懂。</p>
-<p>你講空指標，他們說「蛤？什麼指標？」你講數據規律，他們說「蛤？什麼規律？」不是真的不懂，是不想懂。懂了就要表態，表態就有風險。</p>
-<p>有少數人，本來是支持的、聽得懂的。但那些人——一部分走了。自願的、被裁員的，總之不在了。</p>
-<p>支持的人變少了，走的人變多了。留下的人就更沒人敢支持。這是一個迴圈。走掉一個人，那個迴圈就收緊一圈。</p>
+<p>Actually, that specific colleague wasn&#x27;t the sole node attempting to probe him.</p>
+<p>Lin Zhao-ming had previously—both during his exile on Intermediary Island, and following his RTO sequence—attempted to deploy his data packets to a massive swarm of targets. He briefed them on the initialization catastrophic failure, briefed them on his deductions, briefed them on his global architectural assessment of the system&#x27;s terminal rot.</p>
+<p>The feedback from the vast majority? Zero bandwidth for support. Or the aggressive deployment of cognitive firewalls pretending zero comprehension.</p>
+<p>You transmit the term &quot;null pointer,&quot; and they return: &quot;Error. What pointer?&quot; You transmit &quot;telemetry rhythm,&quot; and they return: &quot;Error. What rhythm?&quot; It wasn&#x27;t a genuine inability to decrypt the packet; it was a deliberate, weaponized refusal to do so. Acknowledging comprehension mathematically required deploying a stance, and deploying a stance equaled absorbing kinetic risk.</p>
+<p>There had been a microscopic subset of operators who initially provided bandwidth, who genuinely decrypted the packets. But those nodes—a significant percentage of them had been extracted. Voluntary vaporizations, corporate restructurings; regardless of the mechanism, they were offline.</p>
+<p>The pool of supporting nodes contracted, while the pool of terminated nodes expanded. The surviving operators were consequently subjected to an exponential spike in the risk parameters for supporting him. It was a self-feeding algorithmic loop. Every time an operator was neutralized, the noose governing the loop tightened another terminal fraction.</p>
 <hr>
-<p>那個禮拜，他回到家。</p>
-<p>老婆在廚房。</p>
-<p>「你回來啦。」她說。</p>
-<p>「嗯。」林昭明將背包放下，坐在沙發上。</p>
-<p>「吃飯了嗎？」</p>
-<p>「還沒。」</p>
-<p>老婆走過來，坐在他旁邊。「你最近很忙？」</p>
-<p>「老樣子。在那邊查一個問題，很複雜。」</p>
-<p>「找到答案了嗎？」</p>
-<p>林昭明想了一陣。</p>
-<p>找到答案了嗎。</p>
-<p>他找到了。在他的模擬裡，一個空指標，指向空白的地址。幾百次用戶投訴的根源。供應商被迫做了幾個月無止盡測試的原因。平安夜一個工程師想過死的原因。</p>
-<p>他找到了。但他沒辦法證明——因為他沒有後台的日誌。而能夠拿到後台日誌的人，走了。</p>
-<p>他找到了。但他沒人可以說——因為聽得懂的人，全部走光了。</p>
-<p>他找到了。但他連「找到了」這三個字都不敢肯定——因為他有的，始終只有推斷。</p>
-<p>「還在查。」他回答。</p>
-<p>老婆望著他：「加油。」</p>
-<p>他笑了笑。很淡的那種笑。</p>
-<p>「謝謝。」</p>
+<p>That specific week at the end of the operational cycle, he extracted back to his residential coordinates.</p>
+<p>His wife was deployed in the kitchen.</p>
+<p>&quot;You&#x27;ve initiated re-entry,&quot; she noted.</p>
+<p>&quot;Affirmative,&quot; Lin Zhao-ming replied, disengaging from his tactical pack and seating himself on the sofa.</p>
+<p>&quot;Have you executed caloric intake yet?&quot;</p>
+<p>&quot;Negative.&quot;</p>
+<p>His wife closed the distance and sat adjacent to him. &quot;Your operational bandwidth seems heavily constrained recently.&quot;</p>
+<p>&quot;Status quo. I&#x27;m running diagnostics on a highly complex anomaly over there.&quot;</p>
+<p>&quot;Have you isolated a terminal solution?&quot;</p>
+<p>Lin Zhao-ming idled his cognitive processors for a moment.</p>
+<p>Had he isolated a terminal solution.</p>
+<p>He had. Within his localized simulation, a null pointer was violently indexing a blank address block. The mathematical genesis of hundreds of user crash reports. The sole mechanism driving the supplier into months of agonizing, infinite loop testing. The exact vector that drove an engineer to the absolute brink of suicide on Christmas Eve.</p>
+<p>He had isolated it. But he fundamentally lacked the parameters to prove it—because he lacked the backend logs. And the exact nodes possessing the clearance to authorize access to those logs had been systematically vaporized.</p>
+<p>He had isolated it. But he possessed zero operational targets to transmit that data to—because every single node capable of decrypting the packet had been extracted from the battlespace.</p>
+<p>He had isolated it. But he couldn&#x27;t even confidently deploy the syntax &quot;I found it&quot;—because what he possessed, up until the terminal moment of the universe, remained solely a deduction.</p>
+<p>&quot;Diagnostics are still ongoing,&quot; he replied.</p>
+<p>His wife locked eyes with him. &quot;Maintain operational integrity.&quot;</p>
+<p>He executed a smile. A microscopic, almost invisible modification of facial geometry.</p>
+<p>&quot;Copy that.&quot;</p>
 <hr>
-<p>晚上。老婆睡了。</p>
-<p>林昭明坐在書房。</p>
-<p>他打開電腦，望著自己那張地圖。八個月在中介島畫的，加上回來之後的模擬結果。空指標的位置、規律（pattern）的分佈。所有東西都指向同一個方向。</p>
-<p>但是這張地圖，現在沒人看懂了。</p>
-<p>他想起中介島的書房。想起他在六月時，打開能芯的韌體規格（firmware spec），第一次注意到：在一個簡單純粹的底層邏輯之上，堆疊了將近一半的功能。一層又一層，每一個都有名字，每一個都有文件。但他問過幾個人，沒人答得清楚那些功能到底是在那邊做什麼。</p>
-<p>他那時候沒深入去拆解，只是記下了這種感覺——有些東西，在裡面，埋藏得很深。</p>
-<p>現在，望著那個空指標，望著那個韌體的規格（spec），望著 CTO 走前那兩三秒的沈默——</p>
-<p>這些碎片，在他腦海裡旋轉。</p>
-<p>他沒辦法將它們拼成一幅完整的圖。沒辦法解釋為什麼 CTO 走，為什麼韌體工程師走。為什麼他問的每一個問題，都好像踩到一個不該踩的地方。</p>
-<p>他只知道一件事：他找到了他能找到的東西。</p>
-<p>之後，知道他找到了什麼的人，一個一個消失了。</p>
+<p>Nighttime. His wife had entered sleep mode.</p>
+<p>Lin Zhao-ming was stationed in his study.</p>
+<p>He booted up his terminal and locked his retinas onto his own cartography. Eight months of intense, grueling fabrication on Intermediary Island, synergized with the simulation telemetry he had generated post-RTO. The exact geographical coordinates of the null pointer, the precise distribution architecture of the geometric patterns. Every single vector converged with devastating lethality onto a solitary coordinate.</p>
+<p>But this cartography was now entirely unreadable to the surviving population.</p>
+<p>His memory banks accessed the study on Intermediary Island. Accessed the specific execution cycle in June, when he had ripped open the energy core&#x27;s firmware specifications, registering the absolute anomaly for the first time: Stacked upon a brilliantly pure, sterile sub-layer of foundational logic was a bloated, hyper-dense superstructure constituting nearly fifty percent of the total operational mass. Layer crushing layer; every single node branded with an identifier, every single node supported by sprawling documentation. But when he probed the surrounding forces regarding the actual, physical utility of those architectures, absolutely no one could formulate a coherent sequence of logic.</p>
+<p>At that specific coordinate in time, he hadn&#x27;t possessed the bandwidth to aggressively decompile the anomaly. He had merely logged the visceral sensory input—there were hidden architectures buried deep, deep beneath the surface geometry.</p>
+<p>And now, locking optics onto that null pointer, locking optics onto that firmware specification, locking optics onto the CTO&#x27;s two-to-three-second buffer lag prior to his extraction—</p>
+<p>These fragmented nodes began violently orbiting within his cognitive center.</p>
+<p>He lacked the processing architecture to compile them into a unified macroscopic rendering. He couldn&#x27;t mathematically compute why the CTO had been evaporated, why the firmware engineer had been evaporated. Why every single probe he launched seemed to impact a subterranean landmine that was strictly designated as a no-fire zone.</p>
+<p>He possessed only one verifiable absolute: He had successfully excavated every single terabyte of actionable intelligence he was physically capable of extracting.</p>
+<p>And subsequently, every single operator who possessed visibility into his payload had been systematically, flawlessly evaporated.</p>
 <hr>
 <blockquote>
-<p>「他找到了他能找到的東西。之後，知道他找到了什麼的人，一個一個消失了。」</p>
-</blockquote></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/en/docs/mirror-realm/ch06"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">第六章〈懷疑的種子〉</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/MythogenEngine/en/docs/mirror-realm/ch08"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">第八章〈幫手〉</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#台版-v3" class="table-of-contents__link toc-highlight">台版 v3</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
+<p>&quot;He had successfully excavated every single terabyte of actionable intelligence he was physically capable of extracting. And subsequently, every single operator who possessed visibility into his payload had been systematically, flawlessly evaporated.&quot;</p>
+</blockquote></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/en/docs/mirror-realm/ch06"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Chapter 6: Seeds of Doubt</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/MythogenEngine/en/docs/mirror-realm/ch08"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Chapter 8: Helpers</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#taiwan-edition-v3" class="table-of-contents__link toc-highlight">Taiwan Edition v3</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>

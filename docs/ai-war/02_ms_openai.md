@@ -129,4 +129,4 @@ OpenAI 計劃最快 2026 年第四季度 IPO，估值目標接近 1 兆美元。
 **2026 年底到 2027 年是關鍵節點。** 不管是雙方 IPO 攤開帳本，還是自研模型取得突破，這段科技史上最危險的雙人舞，終將迎來它的高潮或終局。
 
 👉 [主題三：AI 永動機——千億美元的資金循環](03_perpetual_motion.md)
-![](docs/ai-war/Gemini_Generated_Image_8n5dmh8n5dmh8n5d.png)
+![](./Gemini_Generated_Image_8n5dmh8n5dmh8n5d.png)

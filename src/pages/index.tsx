@@ -26,6 +26,12 @@ function HeroSection() {
                 to="/docs/ai-war/guide">
                 Access Archives
               </Link>
+              <Link
+                className="button button--outline button--lg"
+                to="https://portaly.cc/Mythogen"
+                style={{ marginLeft: '1rem', borderColor: 'var(--color-secondary-container)', color: 'var(--color-secondary-container)' }}>
+                贊助支持
+              </Link>
             </div>
           </div>
         </div>

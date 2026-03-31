@@ -1,3 +1,8 @@
+---
+title: 黃仁勳說「文科生贏了」？你被標題騙了。
+sidebar_position: 1
+---
+
 ![](Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
 ![](Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)

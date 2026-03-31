@@ -1,3 +1,8 @@
+---
+title: Did Jensen Huang Say "Liberal Arts Students Won"? You Got Fooled by the Clickbait.
+sidebar_position: 1
+---
+
 ![](Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
 ![](Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)

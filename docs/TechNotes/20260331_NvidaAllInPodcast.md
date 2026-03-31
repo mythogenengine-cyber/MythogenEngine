@@ -1,3 +1,7 @@
+---
+title: 黃仁勳說「文科生贏了」？你被標題騙了。
+sidebar_position: 1
+---
 
 ![](Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
@@ -5,7 +9,6 @@
 作者：星忘塵 Nebula Walker
 Date: 31MAR2026
 創象引擎 Mythogen Engine
-
 
 **📌 黃仁勳說「文科生贏了」？你被標題騙了。**
 

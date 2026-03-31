@@ -61,6 +61,11 @@ const config = {
             label: 'Mirror Realm',
           },
           {
+            to: 'docs/category/科技雜文-tech-musings',
+            position: 'left',
+            label: '科技雜文',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },

@@ -37,9 +37,10 @@ module.exports = {
         'mirror-realm/ch14',
         'mirror-realm/ch15',
       ],
+    },
     {
       type: 'category',
-      label: 'Tech Notes',
+      label: '科技雜文 Tech Musings',
       items: [
         'TechNotes/20260331_NvidaAllInPodcast',
       ],

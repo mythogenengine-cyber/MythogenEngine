@@ -61,9 +61,9 @@ const config = {
             label: 'Mirror Realm',
           },
           {
-            to: 'docs/category/科技雜文-tech-musings',
+            to: 'docs/category/sci-fi-vibe',
             position: 'left',
-            label: '科技雜文',
+            label: 'Sci-Fi Vibe',
           },
           {
             type: 'localeDropdown',

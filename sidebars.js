@@ -40,7 +40,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '科技雜文 Tech Musings',
+      label: 'Sci-Fi Vibe',
       link: {
         type: 'generated-index',
       },

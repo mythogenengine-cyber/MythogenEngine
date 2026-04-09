@@ -38,6 +38,8 @@ module.exports = {
         'mirror-realm/ch15',
         'mirror-realm/ch16',
         'mirror-realm/ch17',
+        'mirror-realm/ch18',
+        'mirror-realm/ch19',
       ],
     },
     {

@@ -5,8 +5,7 @@ sidebar_position: 20260409
 
 # Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave
 
-![](Gemini_Generated_Image_kq4joikq4joikq4j.png)
-
+![](Gemini_Generated_Image_3h2kd43h2kd43h2k.png)
 This year, there are two distinct narratives circulating in the market regarding AI and software engineering jobs.
 
 On one side, people are talking about layoff waves, recent graduates struggling to find jobs, and a Stanford study indicating that employment for young people in highly AI-exposed professions is down by 14%. On the other side, we hear about record-high job openings, companies fighting for talent, and how "transforming" your skills will present new opportunities. When you string these two together, it’s easy to reach a convenient conclusion: "The market is weeding people out. As long as you upgrade from a 'coder' to an 'engineer', you'll be safe."

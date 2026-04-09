@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/TechNotes/20260409AIJobWave.md",
+                "file": "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
                 "mode": "source",
                 "source": false
               },
@@ -200,6 +200,8 @@
   },
   "active": "57284b33deee157b",
   "lastOpenFiles": [
+    "Gemini_Generated_Image_3h2kd43h2kd43h2k.png",
+    "docs/TechNotes/20260409AIJobWave.md",
     "build/zh-HK/assets/js/runtime~main.04d35122.js",
     "build/zh-HK/assets/js/f6c62eef.589e20db.js",
     "build/zh-HK/assets/js/main.706d8e6f.js.LICENSE.txt",
@@ -210,7 +212,6 @@
     "build/zh-HK/assets/js/db1c82b8.2b237e24.js",
     "build/zh-HK/assets/js/d037f241.2250da2a.js",
     "build/zh-HK/assets/js/d66564b5.0ecdcfb2.js",
-    "build/zh-HK/assets/js/d9806fa8.0a716163.js",
     "build/zh-HK/assets/images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt-9a411a3384b7ecf3aaa38c5c28f99cd6.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e-e50693de905c4b12108948dd6b7aeb61.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_iugy1oiugy1oiugy 1-f118bbc1c877bcc70194ba05f28e8207.png",
@@ -224,7 +225,6 @@
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "docs/TechNotes/20260331_NvidaAllInPodcast.md",
-    "docs/TechNotes/20260409AIJobWave.md",
     "docs/mirror-realm/ch15.md",
     "docs/TechNotes/Nvida_All_in_podcast_2026MAR.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260331_NvidaAllInPodcast.md",

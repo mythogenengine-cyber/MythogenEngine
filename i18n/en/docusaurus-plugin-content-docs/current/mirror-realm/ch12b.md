@@ -512,6 +512,3 @@ It was absolutely not synthesized within his localized hallucination engine.
 > When the entire global swarm flawlessly synchronizes the warning string "This specific process is completely external to your mandated operational parameters" —
 >
 > That specific process, represents the absolute most critical, high-priority target your optical sensors must immediately lock onto.
-
----
-

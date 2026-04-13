@@ -40,6 +40,7 @@ module.exports = {
         'mirror-realm/ch17',
         'mirror-realm/ch18',
         'mirror-realm/ch19',
+        'mirror-realm/epilogue',
       ],
     },
     {

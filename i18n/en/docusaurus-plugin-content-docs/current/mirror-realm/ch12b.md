@@ -515,4 +515,3 @@ It was absolutely not synthesized within his localized hallucination engine.
 
 ---
 
-*Converted from HK Edition v1*

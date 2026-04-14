@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-TechNotes/CLAW" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">CLAW | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/TechNotes/CLAW"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="zh_HK"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="CLAW | Mythogen Engine"><meta data-rh="true" name="description" content="Regarding this wave of &quot;Lobsters&quot; (AI Agents), if you are still arguing about &quot;whether it&#x27;s useful or not&quot;, you are already half a beat behind."><meta data-rh="true" property="og:description" content="Regarding this wave of &quot;Lobsters&quot; (AI Agents), if you are still arguing about &quot;whether it&#x27;s useful or not&quot;, you are already half a beat behind."><link data-rh="true" rel="icon" href="/MythogenEngine/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/TechNotes/CLAW"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/TechNotes/CLAW" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/en/docs/TechNotes/CLAW" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/zh-HK/docs/TechNotes/CLAW" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine-cyber.github.io/MythogenEngine/docs/TechNotes/CLAW" hreflang="x-default"><link rel="stylesheet" href="/MythogenEngine/en/assets/css/styles.f85417a3.css">
+<script src="/MythogenEngine/en/assets/js/runtime~main.f0687a3e.js" defer="defer"></script>
+<script src="/MythogenEngine/en/assets/js/main.a7b11029.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/MythogenEngine/en/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a><a class="navbar__item navbar__link" href="/MythogenEngine/en/docs/category/sci-fi-vibe">Sci-Fi Vibe</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/MythogenEngine/docs/TechNotes/CLAW" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/MythogenEngine/en/docs/TechNotes/CLAW" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/MythogenEngine/zh-HK/docs/TechNotes/CLAW" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/MythogenEngine/en/docs/mirror-realm/prologue">Mirror Realm</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/MythogenEngine/en/docs/category/sci-fi-vibe">Sci-Fi Vibe</a><button aria-label="Collapse sidebar category &#x27;Sci-Fi Vibe&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/TechNotes/NvidaAllInPodcast">Did Jensen Huang Say &quot;Liberal Arts Students Won&quot;? You Got Fooled by the Clickbait.</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/MythogenEngine/en/docs/TechNotes/20260409AIJobWave">Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/MythogenEngine/en/docs/TechNotes/CLAW">CLAW</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/MythogenEngine/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/MythogenEngine/en/docs/category/sci-fi-vibe"><span itemprop="name">Sci-Fi Vibe</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">CLAW</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>CLAW</h1></header><p>Regarding this wave of &quot;Lobsters&quot; (AI Agents), if you are still arguing about &quot;whether it&#x27;s useful or not&quot;, you are already half a beat behind.
+A more accurate perspective is that it&#x27;s experiencing a three-wave market—
+👉 First wave: Selling Dreams
+👉 Second wave: Selling Thresholds<img decoding="async" loading="lazy" src="/MythogenEngine/en/assets/images/Gemini_Generated_Image_jfbw6ajfbw6ajfbw (2)-8aacf24d6fcb49d8688fe5a3ffccd1e8.png" width="2752" height="1536" class="img_ev3q">
+👉 Third wave: Currently forming
+<img decoding="async" loading="lazy" src="/MythogenEngine/en/assets/images/Gemini_Generated_Image_jfbw6ajfbw6ajfbw (1)-0a9a925631db26cbfc0a14de1ce1f090.png" width="2752" height="1536" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="first-wave-selling-dreams">First Wave: Selling Dreams<a href="#first-wave-selling-dreams" class="hash-link" aria-label="Direct link to First Wave: Selling Dreams" title="Direct link to First Wave: Selling Dreams">​</a></h3>
+<p>The early narrative was very clean:</p>
+<ul>
+<li>AI helps you get things done</li>
+<li>Automated operations</li>
+<li>One-person company</li>
+<li>Passive income</li>
+</ul>
+<p>The core message was:
+👉 <strong>&quot;Even those who don&#x27;t know tech can use it.&quot;</strong></p>
+<p>But after everyone jumped in, they realized—they need to tweak prompts, fix workflows, debug, and maintain the environment.
+The first batch of people started to leave the market, leading to a backlash:
+👉 <strong>&quot;I&#x27;m busy taking care of the lobsters all day, but the lobsters aren&#x27;t doing any work.&quot;</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="second-wave-selling-thresholds">Second Wave: Selling Thresholds<a href="#second-wave-selling-thresholds" class="hash-link" aria-label="Direct link to Second Wave: Selling Thresholds" title="Direct link to Second Wave: Selling Thresholds">​</a></h3>
+<p>When &quot;accessible to everyone&quot; could no longer hold up, the narrative upgraded:</p>
+<ul>
+<li>It&#x27;s not that the tool doesn&#x27;t work, it&#x27;s that you don&#x27;t know how to use it.</li>
+<li>You aren&#x27;t using AI to manage AI.</li>
+<li>Your model is too weak.</li>
+<li>You lack system thinking.</li>
+</ul>
+<p>The keywords became: workflow / agent design / orchestration
+This wave looks more professional and also closer to reality.
+But it simultaneously did one thing:
+👉 <strong>Shifted the responsibility for failure from the product to the user.</strong></p>
+<p>The first wave sold illusions, the second wave sells capabilities.
+At this point, most discussions get stuck at two extremes—
+&quot;Lobsters are a scam&quot; vs &quot;Only experts deserve to use them.&quot;
+Neither conclusion is precise.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="engineering-reality-this-thing-is-still-a-framework-not-a-product">Engineering Reality: This thing is still a framework, not a product.<a href="#engineering-reality-this-thing-is-still-a-framework-not-a-product" class="hash-link" aria-label="Direct link to Engineering Reality: This thing is still a framework, not a product." title="Direct link to Engineering Reality: This thing is still a framework, not a product.">​</a></h3>
+<p>If you&#x27;ve used systems like OpenClaw, the feeling is usually very consistent:
+👉 <strong>You are not using a tool; you are building a system.</strong></p>
+<p>What you actually have to handle is workflow orchestration, state/memory management, tool chaining, and failure recovery.
+The nature of these problems is closer to distributed systems + automation pipelines, rather than an out-of-the-box AI assistant.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="third-wave-selling-platforms">Third Wave: Selling Platforms<a href="#third-wave-selling-platforms" class="hash-link" aria-label="Direct link to Third Wave: Selling Platforms" title="Direct link to Third Wave: Selling Platforms">​</a></h3>
+<p>What we will see next is not just tutorials or courses anymore, but—</p>
+<ul>
+<li>Platforms that bundle workflows for you</li>
+<li>Pre-configured agent templates</li>
+<li>Execution layers with controllable costs</li>
+<li>Standardized tool ecosystems</li>
+</ul>
+<p>Simply put:
+👉 <strong>Productizing &quot;engineering problems&quot;</strong></p>
+<p>Typical characteristics:
+1️⃣ Hiding the orchestration
+2️⃣ Restricting degrees of freedom in exchange for stability
+3️⃣ Replacing personal capability with platform rules
+4️⃣ Starting to charge subscriptions, no longer selling courses</p>
+<p>But note—the third wave doesn&#x27;t mean the problem is solved; it just centralizes the problem handling.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="however-the-third-wave-actually-has-two-possible-outcomes">However, the third wave actually has two possible outcomes.<a href="#however-the-third-wave-actually-has-two-possible-outcomes" class="hash-link" aria-label="Direct link to However, the third wave actually has two possible outcomes." title="Direct link to However, the third wave actually has two possible outcomes.">​</a></h4>
+<p>Understanding the third wave as &quot;platform rent collection&quot; is from a business model perspective.
+But if we switch to a technical evolution perspective, we see another path:
+👉 <strong>The third wave might also be &quot;the model directly consuming the agent layer.&quot;</strong></p>
+<p>The reason is very realistic.
+Right now, what most agents are doing essentially boils down to three things: task decomposition, tool invocation, and workflow chaining.
+And these three things are rapidly becoming built-in capabilities of the models.</p>
+<p>A direct signal is the Claude Mythos Preview released by Anthropic in April.
+This model isn&#x27;t packaged as an agent; it simply connects directly to a sandbox environment, and it can—
+<img decoding="async" loading="lazy" src="/MythogenEngine/en/assets/images/Gemini_Generated_Image_jfbw6ajfbw6ajfbw-cab2f4eb104811fcca26013307324df8.png" width="2752" height="1536" class="img_ev3q"></p>
+<ul>
+<li>Deconstruct vulnerability analysis tasks on its own</li>
+<li>Decide which tools to use on its own</li>
+<li>Run proof-of-concept attacks on its own</li>
+</ul>
+<p>A TCP SACK vulnerability in OpenBSD that had been dormant for 27 years, an H.264 vulnerability in FFmpeg undiscovered for 16 years, and a 17-year-old remote execution vulnerability in FreeBSD—were all uncovered just like that.
+And in the past, these things usually required—
+👉 A complete set of security agent frameworks + manual tuning + multi-layer prompt chains.</p>
+<p>In other words:
+When reasoning capabilities reach a critical point, many things that seem to &quot;rely on an agent to achieve&quot; will turn directly into things a model can do with a standard prompt.</p>
+<p>A very realistic problem arises:
+👉 <strong>The agent workflow you spent half a year optimizing today might be swallowed whole by the next version of the model.</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="who-do-agents-bring-the-most-value-to-the-answer-is-not-the-user">Who do Agents Bring the Most Value To? The Answer is Not the User<a href="#who-do-agents-bring-the-most-value-to-the-answer-is-not-the-user" class="hash-link" aria-label="Direct link to Who do Agents Bring the Most Value To? The Answer is Not the User" title="Direct link to Who do Agents Bring the Most Value To? The Answer is Not the User">​</a></h3>
+<p>If agents really will be absorbed by models, then why is the entire industry still pushing agents so hard?
+A perspective that few people talk about:
+👉 <strong>Because agents are the best channel for model companies to collect real-world operational data.</strong></p>
+<p>Including—how users actually break down tasks, how tools are actually chained together, which workflows fail, and why they fail.
+For training the next generation of models, this data is more valuable than the revenue generated by the agents themselves.</p>
+<p>So the three-wave structure can be interpreted again:</p>
+<ul>
+<li>First Wave: Selling Dreams (getting people to enter the market)</li>
+<li>Second Wave: Selling Thresholds (filtering the users)</li>
+<li>Third Wave: Collecting Platform Rent + Collecting Operational Data (happening simultaneously)</li>
+</ul>
+<p>And after the third wave is collected, the next step might be—
+👉 <strong>Folding this layer directly back inside the model.</strong></p>
+<p>By then, what most intermediate-layer agent companies will face is not competition, but extinction.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="returning-to-the-core-judgment">Returning to the Core Judgment<a href="#returning-to-the-core-judgment" class="hash-link" aria-label="Direct link to Returning to the Core Judgment" title="Direct link to Returning to the Core Judgment">​</a></h3>
+<p>Are AI Agents (Lobsters) the future?
+👉 <strong>Yes, it&#x27;s almost certain.</strong></p>
+<p>But the problem most people face right now is:
+👉 <strong>Using an &quot;unfinished product&quot; while evaluating it with the expectations of a &quot;mature product&quot;.</strong></p>
+<p>An engineering perspective criteria—
+If an AI system has: an unpredictable success rate, uncontrollable costs, and requires a lot of manual intervention,
+Then it is currently still stuck at:
+👉 <strong>The framework / infra layer, rather than the product layer.</strong></p>
+<p>The conclusion isn&#x27;t pessimistic, nor is it optimistic, but stratified:
+👉 Technology is growing.
+👉 The market is harvesting.
+👉 Platforms are forming.
+👉 And models are likely preparing to fold all of this back into themselves.</p>
+<p>The question has never been:
+❌ <strong>&quot;Are lobsters worth building?&quot;</strong>
+But rather:
+✅ <strong>&quot;Which layer are you standing on right now?&quot;</strong></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/MythogenEngine/en/docs/TechNotes/20260409AIJobWave"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#first-wave-selling-dreams" class="table-of-contents__link toc-highlight">First Wave: Selling Dreams</a></li><li><a href="#second-wave-selling-thresholds" class="table-of-contents__link toc-highlight">Second Wave: Selling Thresholds</a></li><li><a href="#engineering-reality-this-thing-is-still-a-framework-not-a-product" class="table-of-contents__link toc-highlight">Engineering Reality: This thing is still a framework, not a product.</a></li><li><a href="#third-wave-selling-platforms" class="table-of-contents__link toc-highlight">Third Wave: Selling Platforms</a></li><li><a href="#who-do-agents-bring-the-most-value-to-the-answer-is-not-the-user" class="table-of-contents__link toc-highlight">Who do Agents Bring the Most Value To? The Answer is Not the User</a></li><li><a href="#returning-to-the-core-judgment" class="table-of-contents__link toc-highlight">Returning to the Core Judgment</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

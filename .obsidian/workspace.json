@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
+                "file": "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260409AIJobWave"
+              "title": "20260413_CLAW"
             }
           }
         ],
@@ -200,6 +200,14 @@
   },
   "active": "57284b33deee157b",
   "lastOpenFiles": [
+    "Gemini_Generated_Image_pq61m2pq61m2pq61.png",
+    "docs/TechNotes/20260413_CLAW.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
+    "Gemini_Generated_Image_jfbw6ajfbw6ajfbw.png",
+    "Gemini_Generated_Image_jfbw6ajfbw6ajfbw (1).png",
+    "Gemini_Generated_Image_jfbw6ajfbw6ajfbw (2).png",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "build/zh-HK/docs/ai-war/food_chain.html",
     "build/zh-HK/docs/ai-war/xbox.html",
     "build/zh-HK/docs/ai-war/apple_counter.html",
@@ -210,7 +218,6 @@
     "build/zh-HK/docs/ai-war/claude_code.html",
     "build/zh-HK/docs/mirror-realm/ch14.html",
     "build/zh-HK/docs/ai-war/ai_film.html",
-    "build/zh-HK/docs/mirror-realm/ch06.html",
     "build/zh-HK/assets/images/Gemini_Generated_Image_jlnhaljlnhaljlnh-c39b72162cbcbcece6bbf9e22ddf1746.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_rk2y2xrk2y2xrk2y-f5fa415af2099dfbefe9b31bd8b0fb8f.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_kq4joikq4joikq4j-243320ae7a32209634087c846d2e1a0b.png",
@@ -218,11 +225,7 @@
     "build/zh-HK/assets/images/Gemini_Generated_Image_iugy1oiugy1oiugy 1-f118bbc1c877bcc70194ba05f28e8207.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_ibszioibszioibsz-e5894765cc9dea82e7f4980865fed85b.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt-9a411a3384b7ecf3aaa38c5c28f99cd6.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_8n5dmh8n5dmh8n5d-d19d87822217a85109dec4799181e555.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e-e50693de905c4b12108948dd6b7aeb61.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_2cfayt2cfayt2cfa-116b9c408b9ad5aa33b55ec40329b09b.png",
     "docs/TechNotes/20260409AIJobWave.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "docs/TechNotes/20260331_NvidaAllInPodcast.md",
     "docs/mirror-realm/ch15.md",
@@ -242,9 +245,6 @@
     "docs/ai-war/04_limitations.md",
     "docs/ai-war/05_claude_code.md",
     "docs/ai-war/03_perpetual_motion.md",
-    "docs/ai-war/02_ms_openai.md",
-    "docs/ai-war/06_apple_counter.md",
-    "docs/ai-war/08_xbox.md",
-    "docs/ai-war/07_ai_film.md"
+    "docs/ai-war/02_ms_openai.md"
   ]
 }

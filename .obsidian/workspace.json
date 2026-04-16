@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
+                "file": "i18n/zh-HK/docusaurus-plugin-content-docs/current/mirror-realm/prologue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260413_CLAW"
+              "title": "prologue"
             }
           }
         ],
@@ -200,9 +200,13 @@
   },
   "active": "57284b33deee157b",
   "lastOpenFiles": [
+    "Pasted image 20260416141110.png",
+    "docs/mirror-realm/prologue.md",
+    "Pasted image 20260416141032.png",
+    "docs/mirror-realm/ch03.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
     "Gemini_Generated_Image_pq61m2pq61m2pq61.png",
     "docs/TechNotes/20260413_CLAW.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/20260413_CLAW.md",
     "Gemini_Generated_Image_jfbw6ajfbw6ajfbw.png",
     "Gemini_Generated_Image_jfbw6ajfbw6ajfbw (1).png",
@@ -223,8 +227,6 @@
     "build/zh-HK/assets/images/Gemini_Generated_Image_kq4joikq4joikq4j-243320ae7a32209634087c846d2e1a0b.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_q0ni09q0ni09q0ni-d246ccda45cc091ad05363d3363cd894.png",
     "build/zh-HK/assets/images/Gemini_Generated_Image_iugy1oiugy1oiugy 1-f118bbc1c877bcc70194ba05f28e8207.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_ibszioibszioibsz-e5894765cc9dea82e7f4980865fed85b.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt-9a411a3384b7ecf3aaa38c5c28f99cd6.png",
     "docs/TechNotes/20260409AIJobWave.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/20260409AIJobWave.md",
     "docs/TechNotes/20260331_NvidaAllInPodcast.md",
@@ -243,8 +245,6 @@
     "docs/mirror-realm/ch01.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/mirror-realm/ch01.md",
     "docs/ai-war/04_limitations.md",
-    "docs/ai-war/05_claude_code.md",
-    "docs/ai-war/03_perpetual_motion.md",
-    "docs/ai-war/02_ms_openai.md"
+    "docs/ai-war/05_claude_code.md"
   ]
 }

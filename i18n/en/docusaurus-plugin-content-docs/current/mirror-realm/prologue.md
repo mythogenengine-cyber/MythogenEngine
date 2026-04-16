@@ -1,5 +1,35 @@
 # Prologue: The Way of Disappearing
 
+━━━━━━━━━━━━━━━━━━━━
+
+A NOTE ON THIS TRANSLATION
+
+You are reading a working draft.
+
+The original is in Chinese (Cantonese and Mandarin
+editions). This English version was produced with
+AI assistance — the same class of tools the book
+itself examines.
+
+I could have waited for a polished human translation.
+That would have been the safer choice. But this book
+is about what happens when we wait for safer choices.
+It felt dishonest to hold the book back while people
+who might need it continue to sit in the same rooms
+it describes.
+
+So this draft goes out as it is. Imperfect. In motion.
+Being refined.
+
+If you find passages that don't land, that's real
+feedback. I'd like to hear it.
+
+— Nebula Walker
+ April 2026
+ portaly.cc/Mythogen
+
+━━━━━━━━━━━━━━━━━━━━
+
 ---
 
 _"If this book can save even one person—one person is worth it."_ _—— Lin Zhao-ming_

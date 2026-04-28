@@ -61,6 +61,12 @@ const config = {
             label: 'Mirror Realm',
           },
           {
+            type: 'doc',
+            docId: 'GameVictory/INFO_PAGE',
+            position: 'left',
+            label: 'GameVictory',
+          },
+          {
             to: 'docs/category/sci-fi-vibe',
             position: 'left',
             label: 'Sci-Fi Vibe',

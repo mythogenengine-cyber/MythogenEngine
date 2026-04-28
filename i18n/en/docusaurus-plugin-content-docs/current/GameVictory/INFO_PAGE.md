@@ -20,6 +20,11 @@ title: "GameVictory — Book Info Page"
 **Website:** https://mythogenengine-cyber.github.io/MythogenEngine/
 **Facebook:** https://www.facebook.com/mythogenengine
 
+&nbsp;
+
+### 📖 下載電子書 Download eBook
+- [繁體中文 EPUB 下載](/downloads/GameVictory_TC.epub)
+- [English EPUB Download](/downloads/GameVictory_EN.epub)
 
 &nbsp;
 

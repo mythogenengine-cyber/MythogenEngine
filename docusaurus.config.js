@@ -67,7 +67,7 @@ const config = {
             label: 'GameVictory',
           },
           {
-            to: 'docs/category/sci-fi-vibe',
+            to: 'docs/category/lucid-record',
             position: 'left',
             label: 'Lucid Record',
           },

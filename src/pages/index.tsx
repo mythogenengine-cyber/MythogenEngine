@@ -234,7 +234,7 @@ function CategoryCards() {
                 </p>
               </div>
               <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/category/sci-fi-vibe" style={{ color: 'var(--ifm-color-warning, #ff9800)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                <Link to="/docs/category/lucid-record" style={{ color: 'var(--ifm-color-warning, #ff9800)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Commentary' : '閱讀評論'} <ArrowRight size={20} />
                 </Link>
               </div>

@@ -69,7 +69,7 @@ const config = {
           {
             to: 'docs/category/sci-fi-vibe',
             position: 'left',
-            label: 'Sci-Fi Vibe',
+            label: 'Lucid Record',
           },
           {
             type: 'localeDropdown',

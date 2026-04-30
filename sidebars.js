@@ -68,7 +68,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Sci-Fi Vibe',
+      label: 'Lucid Record',
       link: {
         type: 'generated-index',
       },

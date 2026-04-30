@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Mythogen Engine",
+    "description": "The title in the navbar"
+  },
+  "item.label.AI Archive": {
+    "message": "AI Archive",
+    "description": "Navbar item with label AI Archive"
+  },
+  "item.label.Mirror Realm": {
+    "message": "Mirror Realm",
+    "description": "Navbar item with label Mirror Realm"
+  },
+  "item.label.GameVictory": {
+    "message": "GameVictory",
+    "description": "Navbar item with label GameVictory"
+  },
+  "item.label.Lucid Record": {
+    "message": "清醒記錄",
+    "description": "Navbar item with label Lucid Record"
+  }
+}

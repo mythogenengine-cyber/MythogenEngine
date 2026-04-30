@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.AI Ecosystem War": {
+    "message": "AI Ecosystem War",
+    "description": "The label for category AI Ecosystem War in sidebar docs"
+  },
+  "sidebar.docs.category.Mirror Realm": {
+    "message": "Mirror Realm",
+    "description": "The label for category Mirror Realm in sidebar docs"
+  },
+  "sidebar.docs.category.GameVictory": {
+    "message": "GameVictory",
+    "description": "The label for category GameVictory in sidebar docs"
+  },
+  "sidebar.docs.category.Lucid Record": {
+    "message": "Lucid Record",
+    "description": "The label for category Lucid Record in sidebar docs"
+  }
+}

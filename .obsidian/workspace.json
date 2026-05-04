@@ -11,15 +11,100 @@
             "id": "69c5e3e5825b8566",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/chatgpt-images2-vs-nanoBanana2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "chatgpt-images2-vs-nanoBanana2"
+            }
+          },
+          {
+            "id": "8d50a5ba421e4178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Opus 4.7 不是更強的 4.6，是另一種模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Opus 4.7 不是更強的 4.6，是另一種模型"
+            }
+          },
+          {
+            "id": "e4ae2fe9b05b02ce",
+            "type": "leaf",
+            "state": {
               "type": "image",
               "state": {
-                "file": "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/Cover_BACK.png"
+                "file": "docs/TechNotes/AI模型企業轉向_Infographic.png"
               },
               "icon": "lucide-image",
-              "title": "Cover_BACK"
+              "title": "AI模型企業轉向_Infographic"
+            }
+          },
+          {
+            "id": "e934a7da985bb24a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/AI 模型不是變笨了，是不再為你而設計.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI 模型不是變笨了，是不再為你而設計"
+            }
+          },
+          {
+            "id": "4c008ea6cac8c378",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/20260331_NvidaAllInPodcast.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260331_NvidaAllInPodcast"
+            }
+          },
+          {
+            "id": "91d69b21da2703cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/人寫還是AI寫，其實是個假問題.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "人寫還是AI寫，其實是個假問題"
+            }
+          },
+          {
+            "id": "a60af077c50b2c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/人寫還是AI寫，其實是個假問題.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "人寫還是AI寫，其實是個假問題"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -181,53 +266,53 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "69c5e3e5825b8566",
+  "active": "a60af077c50b2c48",
   "lastOpenFiles": [
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/gamevictory_cover_lock_front.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/終章_遊戲即未來_v5b.md",
-    "ch12_zh 1.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第十一章_給遊戲玩家的情書_v4.md",
-    "ch11_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第十章_最後一根救命稻草_v2.md",
-    "ch10_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2.md",
-    "ch09_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2.md",
-    "ch08_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3.md",
-    "ch07_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第六章_Gabe Newell 的越獄行動_v5.md",
-    "ch06_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2.md",
-    "ch05_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第四章_世嘉的五百萬美元善款_v1.md",
-    "ch04_en.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第三章_微軟的恐懼與 Xbox 的誕生.md",
-    "ch03_en 1.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第二章_特洛伊木馬_v3.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第一章_神仙打架的DOS時代_v4.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/序章_看不見的代價_v1.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/自序_玩住學_v17.md",
-    "docs/GameVictory/外傳下篇_缺課者_中國的應用狂歡與底層斷裂_v1.md",
-    "docs/GameVictory/序章_看不見的代價_v1.md",
-    "docs/GameVictory/第一章_神仙打架的DOS時代_v4.md",
-    "docs/GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2.md",
-    "docs/GameVictory/第三章_微軟的恐懼與 Xbox 的誕生.md",
-    "docs/GameVictory/第六章_Gabe Newell 的越獄行動_v5.md",
-    "docs/GameVictory/第四章_世嘉的五百萬美元善款_v1.md",
-    "docs/GameVictory/終章_遊戲即未來_v5b.md",
-    "docs/GameVictory/第十一章_給遊戲玩家的情書_v4.md",
-    "docs/GameVictory/第十章_最後一根救命稻草_v2.md",
-    "docs/GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/終章_遊戲即未來_v4.md.tmp.38604.1777274136534",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/終章_遊戲即未來_v4.md.tmp.38604.1777274125582",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/自序_玩住學_v17.md.tmp.38604.1777274109977",
-    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/自序_玩住學_v17.md.tmp.38604.1777274101039",
-    "build/zh-HK/docs/ai-war/food_chain.html",
+    "build/zh-HK/docs/GameVictory/間章_全面性的消亡_v1.html",
+    "build/zh-HK/docs/GameVictory/自序_玩住學_v17.html",
+    "build/zh-HK/docs/GameVictory/終章_遊戲即未來_v5b.html",
+    "build/zh-HK/docs/category/lucid-record.html",
+    "build/zh-HK/docs/GameVictory/第十章_最後一根救命稻草_v2.html",
+    "build/zh-HK/docs/GameVictory/第四章_世嘉的五百萬美元善款_v1.html",
+    "build/zh-HK/docs/GameVictory/第十一章_給遊戲玩家的情書_v4.html",
     "build/zh-HK/docs/ai-war/xbox.html",
-    "build/zh-HK/docs/ai-war/apple_counter.html",
     "build/zh-HK/docs/ai-war/perpetual_motion.html",
-    "build/zh-HK/docs/ai-war/ms_openai.html",
-    "build/zh-HK/docs/ai-war/limitations.html"
+    "build/zh-HK/docs/GameVictory/第六章_Gabe Newell 的越獄行動_v5.html",
+    "build/zh-HK/docs/GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2.html",
+    "build/zh-HK/img/cover-tw.png",
+    "build/zh-HK/img/cover-hk.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_ygytq4ygytq4ygyt-dbae9f7dc5504aba5f565013a92b77fa.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_fu78cqfu78cqfu78-f29531fe89f2a44f217c100b2462bd12.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_ibszioibszioibsz-e5894765cc9dea82e7f4980865fed85b.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_2cfayt2cfayt2cfa-116b9c408b9ad5aa33b55ec40329b09b.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_8n5dmh8n5dmh8n5d-d19d87822217a85109dec4799181e555.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_rk2y2xrk2y2xrk2y-f5fa415af2099dfbefe9b31bd8b0fb8f.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_q0ni09q0ni09q0ni-d246ccda45cc091ad05363d3363cd894.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_kq4joikq4joikq4j-243320ae7a32209634087c846d2e1a0b.png",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口.md",
+    "docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口.md",
+    "chatgpt-images2-vs-nanoBanana2-書面語版 (1).md",
+    "未命名 1.md",
+    "docs/TechNotes/人寫還是AI寫，其實是個假問題.md",
+    "docs/TechNotes/AI 模型不是變笨了，是不再為你而設計.md",
+    "docs/TechNotes/20260331_NvidaAllInPodcast.md",
+    "未命名.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/AI 模型不是變笨了，是不再為你而設計.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/人寫還是AI寫，其實是個假問題.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/人寫還是AI寫，其實是個假問題.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/AI 模型不是變笨了，是不再為你而設計 copy.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/AI 模型不是變笨了，是不再為你而設計.md",
+    "Opus 4.7 不是更強的 4.6，是另一種模型.md",
+    "docs/TechNotes/chatgpt-images2-vs-nanoBanana2.md",
+    "docs/TechNotes/chatgpt-images2-vs-nanoBanana2-書面語版.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/終章_遊戲即未來_v5b.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第十一章_給遊戲玩家的情書_v4.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第十章_最後一根救命稻草_v2.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第六章_Gabe Newell 的越獄行動_v5.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2.md"
   ]
 }

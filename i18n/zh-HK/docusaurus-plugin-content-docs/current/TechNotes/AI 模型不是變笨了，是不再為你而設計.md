@@ -10,6 +10,11 @@ sidebar_position: 20260429
 
 ---
 
+作者：星忘塵 Nebula Walker
+Date: 29APR2026
+創象引擎 Mythogen Engine
+
+
 2026 年 4 月，Anthropic 發佈了 Claude Opus 4.7。社群的反應幾乎是一致的：**難用、貴、輸出變乾**。
 
 YouTube 上一支熱門影片的標題精準概括了這種情緒：「Opus 4.7 不是更強的 4.6，是另一種模型。」影片作者 Gary Chen 花了十多分鐘解釋為什麼這不是模型變笨，而是使用者必須升級自己的提示詞寫法、建立跨模型審查流程、學會模型分工。

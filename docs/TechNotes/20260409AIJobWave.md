@@ -3,6 +3,11 @@ title: 不是轉型，是收縮：AI 就業潮的另一種讀法
 sidebar_position: 20260409
 ---
 
+作者：星忘塵 Nebula Walker
+Date: 09APR2026
+創象引擎 Mythogen Engine
+
+
 # 不是轉型，是收縮：AI 就業潮的另一種讀法
 
 ![](Gemini_Generated_Image_kq4joikq4joikq4j.png)

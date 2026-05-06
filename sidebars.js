@@ -56,6 +56,7 @@ module.exports = {
         'GameVictory/第四章_世嘉的五百萬美元善款_v1',
         'GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2',
         'GameVictory/第六章_Gabe Newell 的越獄行動_v5',
+        'GameVictory/間章_全面性的消亡_v1',
         'GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3',
         'GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2',
         'GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2',

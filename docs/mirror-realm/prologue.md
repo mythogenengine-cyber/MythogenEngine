@@ -1,6 +1,7 @@
 # 序章〈消失的方式〉
 ## 台版
-![](/img/cover-tw.png)
+
+![](cover_B_tw.png)
 
 ⬇️ **[下載《鏡界：假面系統殺人事件》電子書 (EPUB)](/epub/mirror-realm-tw.epub)**
 

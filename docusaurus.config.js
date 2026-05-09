@@ -76,8 +76,20 @@ const config = {
             label: 'Lucid Record',
           },
           {
+            to: 'docs/category/diary',
+            position: 'left',
+            label: 'Diary',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
+          },
+          {
+            href: 'https://matters.town/@mythogenengine',
+            position: 'right',
+            className: 'header-icon-link',
+            'aria-label': 'Matters',
+            html: '<svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>',
           },
           {
             href: 'https://portaly.cc/Mythogen',

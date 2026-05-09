@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio } from 'lucide-react';
+import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee } from 'lucide-react';
 
 function HeroSection() {
   const { i18n } = useDocusaurusContext();
@@ -52,6 +52,12 @@ function HeroSection() {
                 to="https://portaly.cc/Mythogen"
                 style={{ marginLeft: '1rem', borderColor: 'var(--color-secondary-container)', color: 'var(--color-secondary-container)' }}>
                 {sponsor}
+              </Link>
+              <Link
+                className="button button--outline button--lg"
+                to="https://matters.town/@mythogenengine"
+                style={{ marginLeft: '1rem', borderColor: 'var(--ifm-color-warning)', color: 'var(--ifm-color-warning)' }}>
+                MATTERS
               </Link>
             </div>
           </div>
@@ -236,6 +242,51 @@ function CategoryCards() {
               <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
                 <Link to="/docs/category/lucid-record" style={{ color: 'var(--ifm-color-warning, #ff9800)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Commentary' : '閱讀評論'} <ArrowRight size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          {/* Diary */}
+          <div className="col col--12 margin-bottom--lg">
+            <div className="card shadow--md" style={{ 
+              background: 'var(--color-surface-container-lowest)', 
+              padding: '3rem', 
+              borderRadius: '0.25rem',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              border: 'none',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '300px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(120px)', opacity: 0.08, borderRadius: '50%' }}></div>
+              <div style={{ position: 'relative', zIndex: 1, flex: 1 }}>
+                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'flex', gap: '1rem' }}>
+                  <PenLine size={36} strokeWidth={1.5} />
+                  <Heart size={36} strokeWidth={1.5} />
+                  <Coffee size={36} strokeWidth={1.5} />
+                </div>
+                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
+                  {isEn ? 'Diary' : '隨心書寫'} <br />
+                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
+                    {isEn ? '(Personal Reflections)' : '（隨筆與日記）'}
+                  </span>
+                </h2>
+                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
+                  {isZhTW
+                    ? '沒有框架，沒有計劃，只是寫。關於職場、關於系統、關於一個人怎麼在體制裡找到自己的語言。'
+                    : isZhHK
+                    ? '冇框架，冇計劃，只係寫。關於職場、關於系統、關於一個人點喺體制入面搵到自己嘅語言。'
+                    : 'No framework, no plan, just writing. About the workplace, about the system, about how one person finds their own language within institutions.'}
+                </p>
+              </div>
+              <div className="margin-left--lg" style={{ position: 'relative', zIndex: 1 }}>
+                <Link to="/docs/category/diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                  {isEn ? 'Read Diary' : '閱讀隨筆'} <ArrowRight size={20} />
                 </Link>
               </div>
             </div>

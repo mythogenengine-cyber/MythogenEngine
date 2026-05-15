@@ -201,4 +201,4 @@ Google、Microsoft、OpenAI、Anthropic 正在爭奪的，不是 chatbot 市場�
 [https://www.facebook.com/share/p/1FtLscgR8G/](https://www.facebook.com/MythogenEngine/posts/pfbid0uVLZjbPutyjed19vxD56ystXgennnmmELNxH64syrCJ2kJq1cfWTfS3jsVWYAL5Gl?__cft__[0]=AZZIxIeCPzCDsfyu7ZSCE-J75IuMVeXMHW4rvRSPXA0GPkJgjvlyLc_OC3h60ArNBiEal3N9w3OdWSjz5zhksyclqkDfTXPnAHTSWTsiKD1hVii_YzmCO3wHo-988RlHENr0h5K0ayVBw1KeEfY-yX1qhAC7OMV_M-8SV4ldpPHg2FEPHBh4e0XGro2HlNialSRoWXwUkdHI0y4Td71GwBMb&__tn__=-UK-R)
 
 
-![](Gemini_Generated_Image_ygytq4ygytq4ygyt.png)
+![](./images/Gemini_Generated_Image_ygytq4ygytq4ygyt.png)

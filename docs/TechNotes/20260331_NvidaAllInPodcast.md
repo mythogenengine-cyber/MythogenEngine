@@ -3,9 +3,9 @@ title: 黃仁勳說「文科生贏了」？你被標題騙了。
 sidebar_position: 1
 ---
 
-![](Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
+![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
-![](Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)
+![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)
 作者：星忘塵 Nebula Walker
 Date: 31MAR2026
 創象引擎 Mythogen Engine
@@ -94,5 +94,5 @@ AI 三秒給你十種方案。「產出」不再稀缺，稀缺的是「識貨�
 這不是文科的勝利，是**思考者的時代**。
 
 ---
-![](Gemini_Generated_Image_iugy1oiugy1oiugy%201.png)
-![](Gemini_Generated_Image_7m9eqk7m9eqk7m9e.png)
+![](./images/Gemini_Generated_Image_iugy1oiugy1oiugy%201.png)
+![](./images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e.png)

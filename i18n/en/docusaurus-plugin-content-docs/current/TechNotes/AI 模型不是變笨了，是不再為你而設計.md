@@ -25,7 +25,7 @@ The more complete answer is hidden in a set of numbers—not benchmark numbers, 
 
 ---
 
-![](AI模型企業轉向_Infographic.png)
+![](./images/AI模型企業轉向_Infographic.png)
 
 ---
 ## I. First, the Benchmarks: The Model Hasn't Regressed Across the Board
@@ -44,9 +44,9 @@ Multi-step software engineering, large-scale codebase refactoring, financial doc
 
 The model hasn't regressed across the board. It has **selectively advanced in a specific direction**, and that direction happens not to be one most individual users feel in their daily experience.
 
-![697](Opus47_01.png)
+![697](./images/Opus47_01.png)
 
-![](Opus47_02.png)
+![](./images/Opus47_02.png)
 
 ---
 
@@ -66,7 +66,7 @@ Anthropic's own documentation says it plainly: **the model will not infer needs 
 
 For enterprises, this is called controllability. For individual users, this is called coldness.
 
-![](Opus47_03.png)
+![](./images/Opus47_03.png)
 
 ---
 
@@ -88,7 +88,7 @@ One analyst summed it up well: **Anthropic essentially never went through a cons
 
 When 80% of revenue comes from enterprises, the product optimization direction cannot help but follow. This isn't conspiracy theory—it's business logic.
 
-![](Opus47_04.png)
+![](./images/Opus47_04.png)
 
 ---
 
@@ -124,7 +124,7 @@ Even more notable is the self-evaluation bias: when Opus evaluates its own outpu
 
 This self-evaluation bias has less impact in enterprise structured pipelines, because enterprises typically have independent validation layers. But for individual users, if your workflow is "let the model do the work, then have the same model check it"—you've handed quality control to a reviewer who is systematically overconfident about its own work.
 
-![](Opus47_05.png)
+![](./images/Opus47_05.png)
 
 ---
 
@@ -142,7 +142,7 @@ It's worth noting that Gary Chen's video contained a factual error about this. H
 
 **This is not a company building a "fun chatbot for you to talk to." This is a company systematically devouring the enterprise software market.**
 
-![](Opus47_06.png)
+![](./images/Opus47_06.png)
 
 ---
 
@@ -164,7 +164,7 @@ This doesn't mean individual users are being abandoned. Anthropic still offers P
 
 As one analyst wrote: consumer viral growth gets you massive user numbers fast, but enterprise contracts get you durable, high-ARPU revenue—and it compounds.
 
-![](Opus47_07.png)
+![](./images/Opus47_07.png)
 
 ---
 

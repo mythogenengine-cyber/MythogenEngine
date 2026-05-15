@@ -3,10 +3,10 @@
 **所有人都說 ChatGPT Images 2.0 是革命性突破。我花了一天做了一件很無聊的事：逐項 fact-check。**
 
 ChatGPT Summary
-![](ChatGPT%20Image%202026年4月29日%20上午11_33_50.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午11_33_50.png)
 
 Gemini Summary
-![](Gemini_Generated_Image_lh2lrclh2lrclh2l.png)
+![](./images/Gemini_Generated_Image_lh2lrclh2lrclh2l.png)
 
 ---
 上週 OpenAI 發佈 ChatGPT Images 2.0，整個科技圈為之沸騰。Image Arena 排名第一，ELO 分數拋離 Google Nano Banana 2 達 242 分——史上最大差距。KOL 排隊出教學，標題清一色是「碾壓」「革命」「Google 完了」。
@@ -58,10 +58,10 @@ Prompt 要求：雙語港式茶餐廳菜單，至少 8 個菜品附 HKD 價格�
 "Create a bilingual restaurant menu card (Traditional Chinese and English) for a Hong Kong-style cha chaan teng. Include at least 8 items with prices in HKD. The menu should have a retro 1970s aesthetic with cream background and red accents. All Chinese text must be in Traditional Chinese characters."
 
 Fig_01: ChatGPT bilingual restaurant menu card
-![](ChatGPT%20Image%202026年4月29日%20上午09_18_13.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午09_18_13.png)
 
 Fig_02:  Gemini bilingual restaurant menu card
-![](gemini_test1.png)
+![](./images/gemini_test1.png)
 
 ---
 
@@ -74,12 +74,12 @@ Fig_02:  Gemini bilingual restaurant menu card
 "Create a celebratory poster-style infographic commemorating [最近一週內的重大體育/新聞事件]. Include the key figures, dates, and statistics. Include one or two additional context details that make the event meaningful."
 
 Fig_03: ChatGPT 最近一週內的重大體育/新聞事件
-![](ChatGPT%20Image%202026年4月29日%20上午09_20_23.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午09_20_23.png)
 
 **Gemini** 交出了一張 2026 年尤伯盃中華女子羽球隊晉級八強的資訊圖。雙版佈局，球員卡通插圖，分組賽數據，個人戰績統計。設計上不如 ChatGPT 驚艷，但資訊脈絡清晰。
 
 Fig_04: Gemini 最近一週內的重大體育/新聞事件
-![](Gemini_Generated_Image_ereqdjereqdjereq.png)
+![](./images/Gemini_Generated_Image_ereqdjereqdjereq.png)
 
 然後我做了一件很無聊的事。
 
@@ -126,10 +126,10 @@ ChatGPT Images 2.0 被吹捧最多的「獨門功夫」是結構化佈局——�
 "Create a one-page product comparison chart for 3 wireless earbuds (AirPods Pro 3, Samsung Galaxy Buds 4, Sony WF-1000XM6). Use a clean 3-column layout with rows for: Price, Battery Life, ANC Rating (out of 10), Water Resistance, Weight. Include a small product icon at the top of each column. Add a 'Best For' recommendation at the bottom of each column. All text must be sharp and readable."
 
 Fig_05: ChatGPT product comparison chart for 3 wireless earbuds
-![](ChatGPT%20Image%202026年4月29日%20上午10_01_10.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_01_10.png)
 
 Fig_06: Gemini product comparison chart for 3 wireless earbuds
-![](Gemini_Generated_Image_c6gdztc6gdztc6gd.png)
+![](./images/Gemini_Generated_Image_c6gdztc6gdztc6gd.png)
 ---
 
 ### 逐項核實規格數據
@@ -169,16 +169,16 @@ Fig_07 由於Gemini 對於多種檔案效果都一致我就只貼md(而且是從
 Fig_08-10 html md json，基本只有JSON大概知道主題，但都是牛風馬不搭。
 
 Fig_07: Gemini Chapter Summary (html, json, md)
-![](ch11_zh.png)
+![](./images/ch11_zh.png)
 
 Fig_08: ChatGPT Chapter Summary (html)
-![](ChatGPT%20Image%202026年4月29日%20上午10_16_32.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_16_32.png)
 
 Fig_09: ChatGPT Chapter Summary (md)
-![](ChatGPT%20Image%202026年4月29日%20上午10_37_37.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_37_37.png)
 
 Fig_10: ChatGPT Chapter Summary (json)
-![](ChatGPT%20Image%202026年4月29日%20上午10_40_34.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_40_34.png)
 
 ---
 

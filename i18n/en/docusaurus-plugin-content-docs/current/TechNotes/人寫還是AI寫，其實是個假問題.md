@@ -100,12 +100,12 @@ AI can help me write, but AI cannot write why a person changes their mind at a p
 
 That dissatisfaction—that is the human thing.
 
-![](Gemini_Generated_Image_fu78cqfu78cqfu78.png)
+![](./images/Gemini_Generated_Image_fu78cqfu78cqfu78.png)
 
 
-![](GAMEVICTORY_BUG2.png)
+![](./images/GAMEVICTORY_BUG2.png)
 
 
-![](GAMEVICTORY_BUG1.png)
+![](./images/GAMEVICTORY_BUG1.png)
 
-![](GAMEVICTORY_BUG3.png)
+![](./images/GAMEVICTORY_BUG3.png)

@@ -100,12 +100,12 @@ AI可以幫我寫，但AI寫不出一個人為什麼會在某一個時間點轉�
 
 那個不滿意，才是人的東西。
 
-![](Gemini_Generated_Image_fu78cqfu78cqfu78.png)
+![](./images/Gemini_Generated_Image_fu78cqfu78cqfu78.png)
 
 
-![](GAMEVICTORY_BUG2.png)
+![](./images/GAMEVICTORY_BUG2.png)
 
 
-![](GAMEVICTORY_BUG1.png)
+![](./images/GAMEVICTORY_BUG1.png)
 
-![](GAMEVICTORY_BUG3.png)
+![](./images/GAMEVICTORY_BUG3.png)

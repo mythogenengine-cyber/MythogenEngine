@@ -3,9 +3,9 @@ title: Did Jensen Huang Say "Liberal Arts Students Won"? You Got Fooled by the C
 sidebar_position: 1
 ---
 
-![](Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
+![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
-![](Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)
+![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)
 Author: Nebula Walker
 Date: 31MAR2026
 Mythogen Engine
@@ -94,5 +94,5 @@ As Jensen Huang himself said: "Knowing how to prompt it, knowing how to under-sp
 This is not a victory for the liberal arts; it is the **era of the thinker**.
 
 ---
-![](Gemini_Generated_Image_iugy1oiugy1oiugy%201.png)
-![](Gemini_Generated_Image_7m9eqk7m9eqk7m9e.png)
+![](./images/Gemini_Generated_Image_iugy1oiugy1oiugy%201.png)
+![](./images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e.png)

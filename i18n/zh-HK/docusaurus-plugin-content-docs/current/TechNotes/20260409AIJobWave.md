@@ -5,7 +5,7 @@ sidebar_position: 20260409
 
 # 不是轉型，是收縮：AI 就業潮的另一種讀法
 
-![](Gemini_Generated_Image_kq4joikq4joikq4j.png)
+![](./images/Gemini_Generated_Image_kq4joikq4joikq4j.png)
 
 這一年，關於 AI 跟軟體就業，市場上同時流傳兩套故事。
 

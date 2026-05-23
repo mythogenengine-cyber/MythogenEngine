@@ -71,7 +71,8 @@ const config = {
             label: 'GameVictory',
           },
           {
-            to: 'docs/category/lucid-record',
+            type: 'doc',
+            docId: 'TechNotes/index',
             position: 'left',
             label: 'Lucid Record',
           },

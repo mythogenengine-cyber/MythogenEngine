@@ -1,3 +1,33 @@
+---
+title: "Deciding whether an article is written by a human or by AI is actually a false question."
+date: 2026-05-04
+lang: en
+section: sober-record
+topic: t-ai-writing
+article_tags:
+  zh:
+    - 人機協作
+    - AI 輔助寫作
+    - 編輯判斷力
+    - AI 寫作判定
+    - 媒體素養
+  en:
+    - human-ai-collaboration
+    - ai-assisted-writing
+    - editorial-judgment
+    - ai-writing-detection
+    - media-literacy
+keywords:
+  - GameVictory
+  - Mirror Realm
+  - Statistical Bias
+  - Stephen Hawking
+  - Judgment
+summary: "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment."
+status: published
+reading_time: 10
+---
+
 **Deciding whether an article is written by a human or by AI is actually a false question.**
 
 Author: 星忘塵 Nebula Walker

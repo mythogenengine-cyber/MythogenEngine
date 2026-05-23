@@ -1,3 +1,33 @@
+---
+title: "Google 也不再為你而設計：當免費模型變成企業雲端的入口"
+date: 2026-05-03
+lang: zh-HK
+section: sober-record
+topic: t-ai-industry
+article_tags:
+  zh:
+    - Google
+    - 商業模式
+    - 平台壟斷
+    - API 定價
+    - 垂直整合
+  en:
+    - google
+    - business-model
+    - platform-monopoly
+    - api-pricing
+    - vertical-integration
+keywords:
+  - Google Cloud Next
+  - A2A 協議
+  - Gemini
+  - 企業雲端
+  - 免費模型
+summary: "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。"
+status: published
+reading_time: 15
+---
+
 作者：星忘塵 Nebula Walker
 Date: 03MAY2026
 創象引擎 Mythogen Engine

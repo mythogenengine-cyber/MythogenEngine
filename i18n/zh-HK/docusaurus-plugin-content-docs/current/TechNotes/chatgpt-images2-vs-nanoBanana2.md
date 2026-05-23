@@ -1,3 +1,33 @@
+---
+title: "我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實"
+date: 2026-04-29
+lang: zh-HK
+section: sober-record
+topic: t-media
+article_tags:
+  zh:
+    - AI 影像生成
+    - 事實查核
+    - 資訊不對稱
+    - Google
+    - ChatGPT
+  en:
+    - ai-image-generation
+    - fact-checking
+    - information-asymmetry
+    - google
+    - chatgpt
+keywords:
+  - ChatGPT Images 2.0
+  - Nano Banana 2
+  - fact-check
+  - ELO
+  - 視覺幻覺
+summary: "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。"
+status: published
+reading_time: 12
+---
+
 # 我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實
 
 **所有人都說 ChatGPT Images 2.0 是革命性突破。我花了一天做了一件很無聊的事：逐項 fact-check。**

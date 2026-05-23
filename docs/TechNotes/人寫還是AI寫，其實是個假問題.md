@@ -1,3 +1,33 @@
+---
+title: "人寫還是AI寫，其實是個假問題"
+date: 2026-05-04
+lang: zh-Hant
+section: sober-record
+topic: t-ai-writing
+article_tags:
+  zh:
+    - 人機協作
+    - AI 輔助寫作
+    - 編輯判斷力
+    - AI 寫作判定
+    - 媒體素養
+  en:
+    - human-ai-collaboration
+    - ai-assisted-writing
+    - editorial-judgment
+    - ai-writing-detection
+    - media-literacy
+keywords:
+  - 遊戲至勝
+  - 鏡界
+  - 統計偏見
+  - 霍金
+  - 判斷力
+summary: "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。"
+status: published
+reading_time: 10
+---
+
 **判斷一篇文章是人寫還是AI寫，其實是個假問題。**
 
 作者：星忘塵 Nebula Walker

@@ -1,3 +1,33 @@
+---
+title: "I Tested ChatGPT Images 2.0 Using Google's Own Prompts—The Results Were So Beautiful You'll Want to Fact-Check Every Detail"
+date: 2026-04-29
+lang: en
+section: sober-record
+topic: t-media
+article_tags:
+  zh:
+    - AI 影像生成
+    - 事實查核
+    - 資訊不對稱
+    - Google
+    - ChatGPT
+  en:
+    - ai-image-generation
+    - fact-checking
+    - information-asymmetry
+    - google
+    - chatgpt
+keywords:
+  - ChatGPT Images 2.0
+  - Nano Banana 2
+  - Fact-check
+  - ELO
+  - Visual Hallucination
+summary: "Reverse-testing ChatGPT Images 2.0 using Google's official prompts, revealing the vast gap between visual quality and factual accuracy."
+status: published
+reading_time: 12
+---
+
 # I Tested ChatGPT Images 2.0 Using Google's Own Prompts—The Results Were So Beautiful You'll Want to Fact-Check Every Detail
 
 **Everyone is calling ChatGPT Images 2.0 a revolutionary breakthrough. I spent a day doing something very boring: fact-checking it item by item.**

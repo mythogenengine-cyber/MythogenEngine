@@ -1,5 +1,31 @@
 ---
-title: Did Jensen Huang Say "Liberal Arts Students Won"? You Got Fooled by the Clickbait.
+title: "Did Jensen Huang Say \"Liberal Arts Students Won\"? You Got Fooled by the Clickbait."
+date: 2026-03-31
+lang: en
+section: sober-record
+topic: t-education
+article_tags:
+  zh:
+    - 敘事操控
+    - 文理分科
+    - 人文教育
+    - 提示工程
+    - NVIDIA
+  en:
+    - narrative-manipulation
+    - arts-science-divide
+    - humanities-education
+    - prompt-engineering
+    - nvidia
+keywords:
+  - Jensen Huang
+  - All-In Podcast
+  - Liberal Arts
+  - Structured Thinking
+  - Problem Framing
+summary: "Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era."
+status: published
+reading_time: 6
 sidebar_position: 1
 ---
 

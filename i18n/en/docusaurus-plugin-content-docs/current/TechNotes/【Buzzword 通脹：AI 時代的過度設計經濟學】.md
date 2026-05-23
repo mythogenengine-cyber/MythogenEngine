@@ -1,3 +1,33 @@
+---
+title: "Buzzword Inflation: The Economics of Over-Engineering in the AI Era"
+date: 2026-05-19
+lang: en
+section: sober-record
+topic: t-ai-industry
+article_tags:
+  zh:
+    - Buzzword 通脹
+    - 焦慮套利
+    - 賣課經濟
+    - 開發者生態
+    - AI Agent
+  en:
+    - buzzword-inflation
+    - anxiety-arbitrage
+    - course-selling-economy
+    - developer-ecosystem
+    - ai-agent
+keywords:
+  - Orchestration
+  - Agentic
+  - Over-engineering
+  - Jargon Inflation
+  - Naming
+summary: "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity."
+status: published
+reading_time: 5
+---
+
 # Buzzword Inflation: The Economics of Over-Engineering in the AI Era
 
 Author: Nebula Walker

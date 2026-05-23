@@ -1,3 +1,33 @@
+---
+title: "認知與判斷——AI 時代人類最後的不可取代性"
+date: 2026-05-20
+lang: zh-Hant
+section: sober-record
+topic: t-education
+article_tags:
+  zh:
+    - 人文教育
+    - 文理分科
+    - 媒體素養
+    - 教育產業化
+    - 人機協作
+  en:
+    - humanities-education
+    - arts-science-divide
+    - media-literacy
+    - education-industrialization
+    - human-ai-collaboration
+keywords:
+  - 認知力
+  - 判斷力
+  - 遊戲至勝
+  - 世嘉
+  - 框架意識
+summary: "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。"
+status: published
+reading_time: 20
+---
+
 # 認知與判斷——AI 時代人類最後的不可取代性
 
 ## 前言

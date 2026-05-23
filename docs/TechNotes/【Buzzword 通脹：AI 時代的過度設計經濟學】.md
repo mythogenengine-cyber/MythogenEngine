@@ -1,3 +1,33 @@
+---
+title: "Buzzword 通脹：AI 時代的過度設計經濟學"
+date: 2026-05-19
+lang: zh-Hant
+section: sober-record
+topic: t-ai-industry
+article_tags:
+  zh:
+    - Buzzword 通脹
+    - 焦慮套利
+    - 賣課經濟
+    - 開發者生態
+    - AI Agent
+  en:
+    - buzzword-inflation
+    - anxiety-arbitrage
+    - course-selling-economy
+    - developer-ecosystem
+    - ai-agent
+keywords:
+  - orchestration
+  - agentic
+  - 過度設計
+  - 術語通脹
+  - 命名
+summary: "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。"
+status: published
+reading_time: 5
+---
+
 # 【Buzzword 通脹：AI 時代的過度設計經濟學】
 
 作者：星忘塵 Nebula Walker

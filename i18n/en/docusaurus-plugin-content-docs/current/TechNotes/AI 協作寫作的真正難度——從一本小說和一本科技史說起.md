@@ -1,3 +1,33 @@
+---
+title: "Two Kinds of Judgment: The True Difficulty of AI Collaborative Writing—Starting from a Novel and a History of Technology"
+date: 2026-05-10
+lang: en
+section: sober-record
+topic: t-ai-writing
+article_tags:
+  zh:
+    - 人機協作
+    - AI 輔助寫作
+    - 編輯判斷力
+    - 事實查核
+    - 世界觀設定
+  en:
+    - human-ai-collaboration
+    - ai-assisted-writing
+    - editorial-judgment
+    - fact-checking
+    - worldbuilding
+keywords:
+  - GameVictory
+  - Mirror Realm
+  - Cognitive Position
+  - Diffusive Lock-in
+  - Nintendo
+summary: "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment."
+status: published
+reading_time: 18
+---
+
 I wrote a novel using AI, and then a history of technology.
 
 With the novel, I could feel it when the AI made a mistake.

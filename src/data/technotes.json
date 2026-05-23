@@ -1,0 +1,1217 @@
+{
+  "zh-Hant": [
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
+      ],
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
+      "date": "2026-05-19T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "orchestration",
+        "agentic",
+        "過度設計",
+        "術語通脹",
+        "命名"
+      ],
+      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "title": "當「教育」變成一門不可能翻車的生意",
+      "date": "2026-05-15T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "賣課經濟",
+          "焦慮套利",
+          "教育產業化",
+          "媒體素養",
+          "AI 影片生成"
+        ],
+        "en": [
+          "course-selling-economy",
+          "anxiety-arbitrage",
+          "education-industrialization",
+          "media-literacy",
+          "ai-video-generation"
+        ]
+      },
+      "keywords": [
+        "霍去病",
+        "AI短劇",
+        "打書釘",
+        "明買明賣",
+        "判斷力"
+      ],
+      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "遊戲致勝",
+        "鏡界",
+        "認知位置",
+        "擴散型鎖定",
+        "任天堂"
+      ],
+      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "title": "人寫還是AI寫，其實是個假問題",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "遊戲至勝",
+        "鏡界",
+        "統計偏見",
+        "霍金",
+        "判斷力"
+      ],
+      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A 協議",
+        "Gemini",
+        "企業雲端",
+        "免費模型"
+      ],
+      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
+      "status": "published",
+      "reading_time": 15
+    },
+    {
+      "id": "AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "title": "AI 模型不是變笨了，是不再為你而設計",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI",
+          "Anthropic",
+          "商業模式",
+          "資金結構",
+          "開發者生態"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "anthropic",
+          "business-model",
+          "funding-structure",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "Opus 4.7",
+        "企業部署",
+        "消費級AI",
+        "benchmark",
+        "Claude Design"
+      ],
+      "summary": "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。",
+      "status": "published",
+      "reading_time": 18,
+      "sidebar_position": 20260429
+    },
+    {
+      "id": "chatgpt-images2-vs-nanoBanana2",
+      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "title": "我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI 影像生成",
+          "事實查核",
+          "資訊不對稱",
+          "Google",
+          "ChatGPT"
+        ],
+        "en": [
+          "ai-image-generation",
+          "fact-checking",
+          "information-asymmetry",
+          "google",
+          "chatgpt"
+        ]
+      },
+      "keywords": [
+        "ChatGPT Images 2.0",
+        "Nano Banana 2",
+        "fact-check",
+        "ELO",
+        "視覺幻覺"
+      ],
+      "summary": "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。",
+      "status": "published",
+      "reading_time": 12
+    },
+    {
+      "id": "20260413_CLAW",
+      "slug": "/TechNotes/20260413_CLAW",
+      "title": "當大家還在學怎樣『養龍蝦』，模型公司正在學怎樣『不需要龍蝦』。",
+      "date": "2026-04-13T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "商業模式",
+          "平台壟斷",
+          "Anthropic",
+          "開發者生態"
+        ],
+        "en": [
+          "ai-agent",
+          "business-model",
+          "platform-monopoly",
+          "anthropic",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "龍蝦",
+        "OpenClaw",
+        "AI Agent",
+        "平台化",
+        "Claude Mythos"
+      ],
+      "summary": "以「龍蝦」比喻AI Agent，拆解三波市場演進與模型吞噬中間層的趨勢。",
+      "status": "published",
+      "reading_time": 6
+    },
+    {
+      "id": "index",
+      "slug": "/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "20260409AIJobWave",
+      "slug": "/TechNotes/20260409AIJobWave",
+      "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
+      "date": "2026-04-09T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "tags": {
+        "zh": [
+          "就業收縮",
+          "結構性失業",
+          "焦慮套利",
+          "賣課經濟",
+          "技能焦慮"
+        ],
+        "en": [
+          "job-market-contraction",
+          "structural-unemployment",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "skill-anxiety"
+        ]
+      },
+      "keywords": [
+        "裁員潮",
+        "碼農",
+        "金字塔",
+        "過剩期",
+        "斜槓"
+      ],
+      "summary": "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。",
+      "status": "published",
+      "reading_time": 9,
+      "sidebar_position": 20260409
+    },
+    {
+      "id": "20260331_NvidaAllInPodcast",
+      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "title": "黃仁勳說「文科生贏了」？你被標題騙了。",
+      "date": "2026-03-31T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "文理分科",
+          "人文教育",
+          "提示工程",
+          "NVIDIA"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "arts-science-divide",
+          "humanities-education",
+          "prompt-engineering",
+          "nvidia"
+        ]
+      },
+      "keywords": [
+        "黃仁勳",
+        "All-In Podcast",
+        "文科生",
+        "結構化思維",
+        "問題定義"
+      ],
+      "summary": "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 1
+    }
+  ],
+  "zh-HK": [
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
+      ],
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
+      "date": "2026-05-19T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "orchestration",
+        "agentic",
+        "過度設計",
+        "術語通脹",
+        "命名"
+      ],
+      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "title": "當「教育」變成一門不可能翻車的生意",
+      "date": "2026-05-15T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "賣課經濟",
+          "焦慮套利",
+          "教育產業化",
+          "媒體素養",
+          "AI 影片生成"
+        ],
+        "en": [
+          "course-selling-economy",
+          "anxiety-arbitrage",
+          "education-industrialization",
+          "media-literacy",
+          "ai-video-generation"
+        ]
+      },
+      "keywords": [
+        "霍去病",
+        "AI短劇",
+        "打書釘",
+        "明買明賣",
+        "判斷力"
+      ],
+      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "遊戲致勝",
+        "鏡界",
+        "認知位置",
+        "擴散型鎖定",
+        "任天堂"
+      ],
+      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "title": "人寫還是AI寫，其實是個假問題",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "遊戲至勝",
+        "鏡界",
+        "統計偏見",
+        "霍金",
+        "判斷力"
+      ],
+      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A 協議",
+        "Gemini",
+        "企業雲端",
+        "免費模型"
+      ],
+      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
+      "status": "published",
+      "reading_time": 15
+    },
+    {
+      "id": "AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "title": "AI 模型不是變笨了，是不再為你而設計",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI",
+          "Anthropic",
+          "商業模式",
+          "資金結構",
+          "開發者生態"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "anthropic",
+          "business-model",
+          "funding-structure",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "Opus 4.7",
+        "企業部署",
+        "消費級AI",
+        "benchmark",
+        "Claude Design"
+      ],
+      "summary": "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。",
+      "status": "published",
+      "reading_time": 18,
+      "sidebar_position": 20260429
+    },
+    {
+      "id": "chatgpt-images2-vs-nanoBanana2",
+      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "title": "我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI 影像生成",
+          "事實查核",
+          "資訊不對稱",
+          "Google",
+          "ChatGPT"
+        ],
+        "en": [
+          "ai-image-generation",
+          "fact-checking",
+          "information-asymmetry",
+          "google",
+          "chatgpt"
+        ]
+      },
+      "keywords": [
+        "ChatGPT Images 2.0",
+        "Nano Banana 2",
+        "fact-check",
+        "ELO",
+        "視覺幻覺"
+      ],
+      "summary": "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。",
+      "status": "published",
+      "reading_time": 12
+    },
+    {
+      "id": "20260413_CLAW",
+      "slug": "/TechNotes/20260413_CLAW",
+      "title": "當大家還在學怎樣『養龍蝦』，模型公司正在學怎樣『不需要龍蝦』。",
+      "date": "2026-04-13T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "商業模式",
+          "平台壟斷",
+          "Anthropic",
+          "開發者生態"
+        ],
+        "en": [
+          "ai-agent",
+          "business-model",
+          "platform-monopoly",
+          "anthropic",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "龍蝦",
+        "OpenClaw",
+        "AI Agent",
+        "平台化",
+        "Claude Mythos"
+      ],
+      "summary": "以「龍蝦」比喻AI Agent，拆解三波市場演進與模型吞噬中間層的趨勢。",
+      "status": "published",
+      "reading_time": 6
+    },
+    {
+      "id": "index",
+      "slug": "/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "20260409AIJobWave",
+      "slug": "/TechNotes/20260409AIJobWave",
+      "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
+      "date": "2026-04-09T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "tags": {
+        "zh": [
+          "就業收縮",
+          "結構性失業",
+          "焦慮套利",
+          "賣課經濟",
+          "技能焦慮"
+        ],
+        "en": [
+          "job-market-contraction",
+          "structural-unemployment",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "skill-anxiety"
+        ]
+      },
+      "keywords": [
+        "裁員潮",
+        "碼農",
+        "金字塔",
+        "過剩期",
+        "斜槓"
+      ],
+      "summary": "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。",
+      "status": "published",
+      "reading_time": 9,
+      "sidebar_position": 20260409
+    },
+    {
+      "id": "20260331_NvidaAllInPodcast",
+      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "title": "黃仁勳說「文科生贏了」？你被標題騙了。",
+      "date": "2026-03-31T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "文理分科",
+          "人文教育",
+          "提示工程",
+          "NVIDIA"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "arts-science-divide",
+          "humanities-education",
+          "prompt-engineering",
+          "nvidia"
+        ]
+      },
+      "keywords": [
+        "黃仁勳",
+        "All-In Podcast",
+        "文科生",
+        "結構化思維",
+        "問題定義"
+      ],
+      "summary": "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 1
+    }
+  ],
+  "en": [
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "Cognition",
+        "Judgment",
+        "GameVictory",
+        "Sega",
+        "Frame Awareness"
+      ],
+      "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "title": "Buzzword Inflation: The Economics of Over-Engineering in the AI Era",
+      "date": "2026-05-19T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "Orchestration",
+        "Agentic",
+        "Over-engineering",
+        "Jargon Inflation",
+        "Naming"
+      ],
+      "summary": "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity.",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "title": "When \"Education\" Becomes a Business That Cannot Fail",
+      "date": "2026-05-17T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "賣課經濟",
+          "技能焦慮",
+          "資訊不對稱",
+          "媒體素養"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "skill-anxiety",
+          "information-asymmetry",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Selling Courses",
+        "Anxiety Arbitrage",
+        "Unfalsifiable",
+        "Huo Qubing",
+        "Clear-cut Transaction"
+      ],
+      "summary": "Deconstructing the business logic behind AI courses that sell 'simplicity' and how they shift the responsibility of failure entirely onto the learner.",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "title": "Two Kinds of Judgment: The True Difficulty of AI Collaborative Writing—Starting from a Novel and a History of Technology",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "GameVictory",
+        "Mirror Realm",
+        "Cognitive Position",
+        "Diffusive Lock-in",
+        "Nintendo"
+      ],
+      "summary": "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment.",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "title": "Deciding whether an article is written by a human or by AI is actually a false question.",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "GameVictory",
+        "Mirror Realm",
+        "Statistical Bias",
+        "Stephen Hawking",
+        "Judgment"
+      ],
+      "summary": "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment.",
+      "status": "published",
+      "reading_time": 10
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "title": "Google Is No Longer Designed for You Either: When Free Models Become the Gateway to Enterprise Cloud",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A Protocol",
+        "Gemini",
+        "Enterprise Cloud",
+        "Free Models"
+      ],
+      "summary": "Analyzing Google Cloud Next 2026 to show how free AI models serve as a customer acquisition funnel for enterprise cloud revenue.",
+      "status": "published",
+      "reading_time": 15
+    },
+    {
+      "id": "AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "title": "AI Models Haven't Gotten Dumber—They're Just No Longer Designed for You",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI",
+          "Anthropic",
+          "商業模式",
+          "資金結構",
+          "開發者生態"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "anthropic",
+          "business-model",
+          "funding-structure",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "Opus 4.7",
+        "Enterprise Deployment",
+        "Consumer AI",
+        "Benchmark",
+        "Claude Design"
+      ],
+      "summary": "Using financial data to prove AI models are shifting from consumer products to enterprise components, explaining why individual user experience is degrading.",
+      "status": "published",
+      "reading_time": 18,
+      "sidebar_position": 20260429
+    },
+    {
+      "id": "chatgpt-images2-vs-nanoBanana2",
+      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "title": "I Tested ChatGPT Images 2.0 Using Google's Own Prompts—The Results Were So Beautiful You'll Want to Fact-Check Every Detail",
+      "date": "2026-04-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI 影像生成",
+          "事實查核",
+          "資訊不對稱",
+          "Google",
+          "ChatGPT"
+        ],
+        "en": [
+          "ai-image-generation",
+          "fact-checking",
+          "information-asymmetry",
+          "google",
+          "chatgpt"
+        ]
+      },
+      "keywords": [
+        "ChatGPT Images 2.0",
+        "Nano Banana 2",
+        "Fact-check",
+        "ELO",
+        "Visual Hallucination"
+      ],
+      "summary": "Reverse-testing ChatGPT Images 2.0 using Google's official prompts, revealing the vast gap between visual quality and factual accuracy.",
+      "status": "published",
+      "reading_time": 12
+    },
+    {
+      "id": "20260413_CLAW",
+      "slug": "/TechNotes/20260413_CLAW",
+      "title": "When everyone is still learning how to \"raise lobsters\", AI Platforms are learning how to \"replace lobsters\".",
+      "date": "2026-04-13T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "商業模式",
+          "平台壟斷",
+          "Anthropic",
+          "開發者生態"
+        ],
+        "en": [
+          "ai-agent",
+          "business-model",
+          "platform-monopoly",
+          "anthropic",
+          "developer-ecosystem"
+        ]
+      },
+      "keywords": [
+        "Lobsters",
+        "OpenClaw",
+        "AI Agent",
+        "Platformization",
+        "Claude Mythos"
+      ],
+      "summary": "Using 'lobsters' as a metaphor for AI Agents to break down the three waves of market evolution and the trend of models devouring the middleware layer.",
+      "status": "published",
+      "reading_time": 6
+    },
+    {
+      "id": "index",
+      "slug": "/TechNotes/index",
+      "title": "Lucid Record",
+      "date": null,
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "20260409AIJobWave",
+      "slug": "/TechNotes/20260409AIJobWave",
+      "title": "Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave",
+      "date": "2026-04-09T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "tags": {
+        "zh": [
+          "就業收縮",
+          "結構性失業",
+          "焦慮套利",
+          "賣課經濟",
+          "技能焦慮"
+        ],
+        "en": [
+          "job-market-contraction",
+          "structural-unemployment",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "skill-anxiety"
+        ]
+      },
+      "keywords": [
+        "Layoffs",
+        "Coders",
+        "Pyramid",
+        "Surplus Period",
+        "Side Hustle"
+      ],
+      "summary": "Dismantling the anxiety narrative surrounding the AI job wave, arguing that the software industry is undergoing structural contraction, not transformation.",
+      "status": "published",
+      "reading_time": 9,
+      "sidebar_position": 20260409
+    },
+    {
+      "id": "20260331_NvidaAllInPodcast",
+      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "title": "Did Jensen Huang Say \"Liberal Arts Students Won\"? You Got Fooled by the Clickbait.",
+      "date": "2026-03-31T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "文理分科",
+          "人文教育",
+          "提示工程",
+          "NVIDIA"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "arts-science-divide",
+          "humanities-education",
+          "prompt-engineering",
+          "nvidia"
+        ]
+      },
+      "keywords": [
+        "Jensen Huang",
+        "All-In Podcast",
+        "Liberal Arts",
+        "Structured Thinking",
+        "Problem Framing"
+      ],
+      "summary": "Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era.",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 1
+    }
+  ]
+}

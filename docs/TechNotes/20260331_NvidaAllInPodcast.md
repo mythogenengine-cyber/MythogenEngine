@@ -1,5 +1,31 @@
 ---
-title: 黃仁勳說「文科生贏了」？你被標題騙了。
+title: "黃仁勳說「文科生贏了」？你被標題騙了。"
+date: 2026-03-31
+lang: zh-Hant
+section: sober-record
+topic: t-education
+article_tags:
+  zh:
+    - 敘事操控
+    - 文理分科
+    - 人文教育
+    - 提示工程
+    - NVIDIA
+  en:
+    - narrative-manipulation
+    - arts-science-divide
+    - humanities-education
+    - prompt-engineering
+    - nvidia
+keywords:
+  - 黃仁勳
+  - All-In Podcast
+  - 文科生
+  - 結構化思維
+  - 問題定義
+summary: "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。"
+status: published
+reading_time: 6
 sidebar_position: 1
 ---
 

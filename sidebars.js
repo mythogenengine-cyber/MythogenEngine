@@ -71,7 +71,8 @@ module.exports = {
       type: 'category',
       label: 'Lucid Record',
       link: {
-        type: 'generated-index',
+        type: 'doc',
+        id: 'TechNotes/index',
       },
       items: [
         {

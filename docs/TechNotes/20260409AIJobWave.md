@@ -1,5 +1,31 @@
 ---
-title: 不是轉型，是收縮：AI 就業潮的另一種讀法
+title: "不是轉型，是收縮：AI 就業潮的另一種讀法"
+date: 2026-04-09
+lang: zh-Hant
+section: sober-record
+topic: t-labor
+article_tags:
+  zh:
+    - 就業收縮
+    - 結構性失業
+    - 焦慮套利
+    - 賣課經濟
+    - 技能焦慮
+  en:
+    - job-market-contraction
+    - structural-unemployment
+    - anxiety-arbitrage
+    - course-selling-economy
+    - skill-anxiety
+keywords:
+  - 裁員潮
+  - 碼農
+  - 金字塔
+  - 過剩期
+  - 斜槓
+summary: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。"
+status: published
+reading_time: 9
 sidebar_position: 20260409
 ---
 

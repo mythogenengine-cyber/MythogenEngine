@@ -1,5 +1,32 @@
-
-
+---
+title: "AI 協作寫作的真正難度——從一本小說和一本科技史說起"
+date: 2026-05-10
+lang: zh-Hant
+section: sober-record
+topic: t-ai-writing
+article_tags:
+  zh:
+    - 人機協作
+    - AI 輔助寫作
+    - 編輯判斷力
+    - 事實查核
+    - 世界觀設定
+  en:
+    - human-ai-collaboration
+    - ai-assisted-writing
+    - editorial-judgment
+    - fact-checking
+    - worldbuilding
+keywords:
+  - 遊戲致勝
+  - 鏡界
+  - 認知位置
+  - 擴散型鎖定
+  - 任天堂
+summary: "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。"
+status: published
+reading_time: 18
+---
 
 我用 AI 寫了一本小說，再寫一本科技史。
 

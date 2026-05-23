@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mythogen Engine — 清醒記錄</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #0e0e10;
+  --bg-card: #18181b;
+  --bg-card-hover: #1f1f24;
+  --bg-featured: #1a1520;
+  --text-primary: #e4e4e7;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent-cyan: #22d3ee;
+  --accent-amber: #f59e0b;
+  --accent-purple: #a78bfa;
+  --accent-green: #34d399;
+  --accent-rose: #fb7185;
+  --border: #27272a;
+  --border-hover: #3f3f46;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* NAV */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(14,14,16,0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 clamp(1.5rem, 4vw, 4rem);
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-brand {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--accent-cyan);
+}
+
+/* MAIN */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1.5rem, 4vw, 4rem);
+}
+
+/* HERO / PAGE HEADER */
+.page-header {
+  padding: 4rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+.page-header h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.page-header .subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  line-height: 1.8;
+}
+.page-header .subtitle span {
+  color: var(--accent-cyan);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+
+/* FEATURED ARTICLE */
+.featured {
+  position: relative;
+  background: var(--bg-featured);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 3rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s, transform 0.2s;
+}
+.featured:hover {
+  border-color: var(--accent-amber);
+  transform: translateY(-2px);
+}
+.featured::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: radial-gradient(ellipse at 80% 20%, rgba(167,139,250,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse at 20% 80%, rgba(34,211,238,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.featured-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--accent-amber);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.featured-label::before {
+  content: '◆';
+  font-size: 0.6rem;
+}
+.featured h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+  color: var(--text-primary);
+}
+.featured .excerpt {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  line-height: 1.9;
+  margin-bottom: 1.2rem;
+}
+.featured .meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.featured .meta .tag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  background: rgba(167,139,250,0.15);
+  color: var(--accent-purple);
+  font-weight: 500;
+}
+.featured .meta .date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.featured .read-arrow {
+  position: absolute;
+  bottom: clamp(2rem, 4vw, 3rem);
+  right: clamp(2rem, 4vw, 3rem);
+  font-size: 1.5rem;
+  color: var(--accent-amber);
+  transition: transform 0.3s;
+}
+.featured:hover .read-arrow {
+  transform: translateX(6px);
+}
+
+/* FILTERS */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.filter-bar .label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 0.4rem;
+}
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.filter-btn:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  background: var(--bg-card);
+}
+.filter-btn.active {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  background: rgba(34,211,238,0.08);
+}
+
+/* ARTICLE GRID */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.2rem;
+  padding-bottom: 4rem;
+}
+.article-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.6rem;
+  cursor: pointer;
+  transition: all 0.25s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.article-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+.article-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+}
+.article-card .card-tag {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.tag-ai { background: rgba(34,211,238,0.12); color: var(--accent-cyan); }
+.tag-job { background: rgba(52,211,153,0.12); color: var(--accent-green); }
+.tag-edu { background: rgba(245,158,11,0.12); color: var(--accent-amber); }
+.tag-tech { background: rgba(167,139,250,0.12); color: var(--accent-purple); }
+.tag-media { background: rgba(251,113,133,0.12); color: var(--accent-rose); }
+
+.article-card .card-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+.article-card h3 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+  color: var(--text-primary);
+  transition: color 0.2s;
+}
+.article-card:hover h3 {
+  color: var(--accent-cyan);
+}
+.article-card .card-excerpt {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.article-card .card-footer {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-card .read-time {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+.article-card .card-arrow {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+.article-card:hover .card-arrow {
+  color: var(--accent-cyan);
+  transform: translateX(3px);
+}
+
+/* SEARCH */
+.search-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.search-box {
+  position: relative;
+  flex: 0 0 280px;
+}
+.search-box input {
+  width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.55rem 1rem 0.55rem 2.4rem;
+  color: var(--text-primary);
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-box input::placeholder {
+  color: var(--text-muted);
+}
+.search-box input:focus {
+  border-color: var(--accent-cyan);
+}
+.search-box .search-icon {
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+.article-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* EMPTY STATE */
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+}
+.empty-state .empty-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.4;
+}
+.empty-state p {
+  font-size: 0.9rem;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-in {
+  animation: fadeUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+.article-card { animation: fadeUp 0.4s ease-out forwards; opacity: 0; }
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  .article-grid { grid-template-columns: 1fr; }
+  .search-box { flex: 1 1 100%; }
+  .nav-links { gap: 1rem; }
+  .featured .read-arrow { display: none; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Mythogen Engine</div>
+  <ul class="nav-links">
+    <li><a href="#">AI Archive</a></li>
+    <li><a href="#">Mirror Realm</a></li>
+    <li><a href="#">GameVictory</a></li>
+    <li><a href="#" class="active">清醒記錄</a></li>
+    <li><a href="#">Diary</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="page-header animate-in">
+    <h1>清醒記錄</h1>
+    <p class="subtitle">
+      獨立的 AI 產業評論與社會觀察。拆解賣課經濟的焦慮套利、AI 就業市場的結構性收縮、科技巨頭的敘事操作，以及被忽略的真實趨勢。<br>
+      <span>// 不賣課、不販焦慮，只做清醒的記錄。</span>
+    </p>
+  </div>
+
+  <!-- FEATURED -->
+  <div class="featured animate-in" style="animation-delay:0.1s" onclick="">
+    <div class="featured-label">置頂文章</div>
+    <h2>黃仁勳說「文科生贏了」？你被標題騙了。</h2>
+    <p class="excerpt">
+      當媒體用一句斷章取義的話點燃焦慮，背後真正的產業信號卻被完全忽略。這篇文章還原完整語境，拆解為什麼「人文教育有用」的論述恰恰是科技壟斷邏輯的延伸，而非對文科生的救贖。
+    </p>
+    <div class="meta">
+      <span class="tag">AI 產業</span>
+      <span class="tag" style="background:rgba(245,158,11,0.15);color:var(--accent-amber)">教育</span>
+      <span class="date">2025.05</span>
+    </div>
+    <span class="read-arrow">→</span>
+  </div>
+
+  <!-- SEARCH + FILTERS -->
+  <div class="search-row">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="searchInput" placeholder="搜尋文章標題..." oninput="filterArticles()">
+    </div>
+    <span class="article-count" id="articleCount"></span>
+  </div>
+  <div class="filter-bar">
+    <span class="label">篩選 ▸</span>
+    <button class="filter-btn active" data-tag="all" onclick="setFilter(this)">全部</button>
+    <button class="filter-btn" data-tag="ai" onclick="setFilter(this)">AI 產業</button>
+    <button class="filter-btn" data-tag="job" onclick="setFilter(this)">就業市場</button>
+    <button class="filter-btn" data-tag="edu" onclick="setFilter(this)">教育</button>
+    <button class="filter-btn" data-tag="tech" onclick="setFilter(this)">科技巨頭</button>
+    <button class="filter-btn" data-tag="media" onclick="setFilter(this)">媒體素養</button>
+  </div>
+
+  <!-- ARTICLES -->
+  <div class="article-grid" id="articleGrid"></div>
+</main>
+
+<script>
+const articles = [
+  {
+    title: '不是轉型，是收縮：AI 就業潮的另一種讀法',
+    excerpt: '當所有人告訴你「轉型就好」，沒人告訴你的是：轉型目標本身也在收縮。AI 對就業市場的真正衝擊不是替代，而是系統性地壓縮可存活的位置數量。',
+    tag: 'job', tagLabel: '就業市場', date: '2025.05', readMin: 12
+  },
+  {
+    title: '當大家還在學怎樣「養龍蝦」，模型公司正在學怎樣「不需要龍蝦」。',
+    excerpt: '課程市場的核心矛盾：你正在學的技能，它的需求方正在想辦法讓你變得不必要。這不是陰謀論，這是平台經濟的標準劇本。',
+    tag: 'ai', tagLabel: 'AI 產業', date: '2025.04', readMin: 10
+  },
+  {
+    title: 'AI 模型不是變笨了，是不再為你而設計',
+    excerpt: '當 300 億美元的年化營收告訴你，你不是目標客戶。模型優化的方向從來不是「讓所有人滿意」，而是「讓付費企業留下來」。',
+    tag: 'ai', tagLabel: 'AI 產業', date: '2025.04', readMin: 8
+  },
+  {
+    title: 'AI 協作寫作的真正難度——從一本小說和一本科技史說起',
+    excerpt: '我用 AI 寫了一本小說，再寫一本科技史。過程中最困難的不是技術，而是維持自己的判斷力不被便利性稀釋。',
+    tag: 'media', tagLabel: '媒體素養', date: '2025.04', readMin: 15
+  },
+  {
+    title: 'Google 也不再為你而設計：當免費模型變成企業雲端的入口',
+    excerpt: '免費的 Gemini 不是慈善，是漏斗。從 Google I/O 的產品佈局看，消費者端的 AI 功能只是企業雲端銷售的導流工具。',
+    tag: 'tech', tagLabel: '科技巨頭', date: '2025.03', readMin: 11
+  },
+  {
+    title: '我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實',
+    excerpt: '所有人都說 ChatGPT Images 2.0 是革命性突破。我決定用 Google 自己的評測 prompt 來驗證這個說法。',
+    tag: 'ai', tagLabel: 'AI 產業', date: '2025.03', readMin: 9
+  },
+  {
+    title: '【Buzzword 通脹：AI 時代的過度設計經濟學】',
+    excerpt: '當每個產品都是「AI 驅動」，每個職位都要「AI 素養」，語言通脹本身就成了一種市場操控機制。',
+    tag: 'media', tagLabel: '媒體素養', date: '2025.03', readMin: 7
+  },
+  {
+    title: '人寫還是AI寫，其實是個假問題',
+    excerpt: '判斷一篇文章是人寫還是AI寫，其實是個假問題。真正的問題是：這篇文章有沒有經過真正的思考？',
+    tag: 'media', tagLabel: '媒體素養', date: '2025.02', readMin: 6
+  },
+  {
+    title: '當「教育」變成一門不可能翻車的生意',
+    excerpt: '賣課的人永遠不會輸：學了沒用是你不夠努力，學了有用是課程的功勞。這個產業結構讓「教育焦慮」成為最穩定的收入來源。',
+    tag: 'edu', tagLabel: '教育', date: '2025.02', readMin: 10
+  },
+  {
+    title: '認知與判斷——AI 時代人類最後的不可取代性',
+    excerpt: '如果 AI 可以寫、可以畫、可以編碼，人類還剩什麼？答案可能不在技能清單裡，而在你是否還保有對世界的獨立判斷。',
+    tag: 'ai', tagLabel: 'AI 產業', date: '2025.01', readMin: 14
+  }
+];
+
+const tagColors = {
+  ai: 'tag-ai', job: 'tag-job', edu: 'tag-edu', tech: 'tag-tech', media: 'tag-media'
+};
+
+let currentFilter = 'all';
+
+function renderArticles() {
+  const grid = document.getElementById('articleGrid');
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  
+  const filtered = articles.filter(a => {
+    const matchTag = currentFilter === 'all' || a.tag === currentFilter;
+    const matchSearch = !searchTerm || a.title.toLowerCase().includes(searchTerm);
+    return matchTag && matchSearch;
+  });
+
+  document.getElementById('articleCount').textContent = `${filtered.length} 篇文章`;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><div class="empty-icon">⊘</div><p>沒有符合條件的文章</p></div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map((a, i) => `
+    <div class="article-card" style="animation-delay:${i * 0.06}s">
+      <div class="card-top">
+        <span class="card-tag ${tagColors[a.tag]}">${a.tagLabel}</span>
+        <span class="card-date">${a.date}</span>
+      </div>
+      <h3>${a.title}</h3>
+      <p class="card-excerpt">${a.excerpt}</p>
+      <div class="card-footer">
+        <span class="read-time">${a.readMin} min read</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function setFilter(btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentFilter = btn.dataset.tag;
+  renderArticles();
+}
+
+function filterArticles() {
+  renderArticles();
+}
+
+renderArticles();
+</script>
+
+</body>
+</html>

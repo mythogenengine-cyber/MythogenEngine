@@ -1,5 +1,31 @@
 ---
 title: "Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave"
+date: 2026-04-09
+lang: en
+section: sober-record
+topic: t-labor
+article_tags:
+  zh:
+    - 就業收縮
+    - 結構性失業
+    - 焦慮套利
+    - 賣課經濟
+    - 技能焦慮
+  en:
+    - job-market-contraction
+    - structural-unemployment
+    - anxiety-arbitrage
+    - course-selling-economy
+    - skill-anxiety
+keywords:
+  - Layoffs
+  - Coders
+  - Pyramid
+  - Surplus Period
+  - Side Hustle
+summary: "Dismantling the anxiety narrative surrounding the AI job wave, arguing that the software industry is undergoing structural contraction, not transformation."
+status: published
+reading_time: 9
 sidebar_position: 20260409
 ---
 

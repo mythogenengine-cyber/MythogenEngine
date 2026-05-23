@@ -1,6 +1,32 @@
-﻿---
-title: AI 模型不是變笨了，是不再為你而設計
-sidebar_label: AI 模型不是變笨了，是不再為你而設計
+---
+title: "AI 模型不是變笨了，是不再為你而設計"
+date: 2026-04-29
+lang: zh-Hant
+section: sober-record
+topic: t-ai-industry
+article_tags:
+  zh:
+    - AI
+    - Anthropic
+    - 商業模式
+    - 資金結構
+    - 開發者生態
+  en:
+    - artificial-intelligence
+    - anthropic
+    - business-model
+    - funding-structure
+    - developer-ecosystem
+keywords:
+  - Opus 4.7
+  - 企業部署
+  - 消費級AI
+  - benchmark
+  - Claude Design
+summary: "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。"
+status: published
+reading_time: 18
+sidebar_label: "AI 模型不是變笨了，是不再為你而設計"
 sidebar_position: 20260429
 ---
 

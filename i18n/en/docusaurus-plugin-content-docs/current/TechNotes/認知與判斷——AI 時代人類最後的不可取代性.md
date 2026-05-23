@@ -1,3 +1,33 @@
+---
+title: "Cognition and Judgment—The Last Thing AI Cannot Replace"
+date: 2026-05-20
+lang: en
+section: sober-record
+topic: t-education
+article_tags:
+  zh:
+    - 人文教育
+    - 文理分科
+    - 媒體素養
+    - 教育產業化
+    - 人機協作
+  en:
+    - humanities-education
+    - arts-science-divide
+    - media-literacy
+    - education-industrialization
+    - human-ai-collaboration
+keywords:
+  - Cognition
+  - Judgment
+  - GameVictory
+  - Sega
+  - Frame Awareness
+summary: "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills."
+status: published
+reading_time: 20
+---
+
 # Cognition and Judgment—The Last Thing AI Cannot Replace
 
 ## Foreword

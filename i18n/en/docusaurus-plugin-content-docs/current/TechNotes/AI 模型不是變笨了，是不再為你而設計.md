@@ -1,5 +1,31 @@
 ---
 title: "AI Models Haven't Gotten Dumber—They're Just No Longer Designed for You"
+date: 2026-04-29
+lang: en
+section: sober-record
+topic: t-ai-industry
+article_tags:
+  zh:
+    - AI
+    - Anthropic
+    - 商業模式
+    - 資金結構
+    - 開發者生態
+  en:
+    - artificial-intelligence
+    - anthropic
+    - business-model
+    - funding-structure
+    - developer-ecosystem
+keywords:
+  - Opus 4.7
+  - Enterprise Deployment
+  - Consumer AI
+  - Benchmark
+  - Claude Design
+summary: "Using financial data to prove AI models are shifting from consumer products to enterprise components, explaining why individual user experience is degrading."
+status: published
+reading_time: 18
 sidebar_label: "AI Models Haven't Gotten Dumber—They're Just No Longer Designed for You"
 sidebar_position: 20260429
 ---

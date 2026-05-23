@@ -2,7 +2,7 @@
   "zh-Hant": [
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
       "title": "認知與判斷——AI 時代人類最後的不可取代性",
       "date": "2026-05-20T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -37,7 +37,7 @@
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
       "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
       "date": "2026-05-19T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -72,7 +72,7 @@
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/當「教育」變成一門不可能翻車的生意",
       "title": "當「教育」變成一門不可能翻車的生意",
       "date": "2026-05-15T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -107,7 +107,7 @@
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
       "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
       "date": "2026-05-10T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -142,7 +142,7 @@
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/人寫還是AI寫，其實是個假問題",
       "title": "人寫還是AI寫，其實是個假問題",
       "date": "2026-05-04T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -177,7 +177,7 @@
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "date": "2026-05-03T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -212,7 +212,7 @@
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
-      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/docs/TechNotes/AI 模型不是變笨了，是不再為你而設計",
       "title": "AI 模型不是變笨了，是不再為你而設計",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -248,7 +248,7 @@
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
-      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "slug": "/docs/TechNotes/chatgpt-images2-vs-nanoBanana2",
       "title": "我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -283,7 +283,7 @@
     },
     {
       "id": "20260413_CLAW",
-      "slug": "/TechNotes/20260413_CLAW",
+      "slug": "/docs/TechNotes/20260413_CLAW",
       "title": "當大家還在學怎樣『養龍蝦』，模型公司正在學怎樣『不需要龍蝦』。",
       "date": "2026-04-13T00:00:00.000Z",
       "lang": "zh-HK",
@@ -318,7 +318,7 @@
     },
     {
       "id": "index",
-      "slug": "/TechNotes/index",
+      "slug": "/docs/TechNotes/index",
       "title": "清醒記錄",
       "date": null,
       "lang": "zh-Hant",
@@ -333,7 +333,7 @@
     },
     {
       "id": "20260409AIJobWave",
-      "slug": "/TechNotes/20260409AIJobWave",
+      "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
       "date": "2026-04-09T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -369,7 +369,7 @@
     },
     {
       "id": "20260331_NvidaAllInPodcast",
-      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "slug": "/docs/TechNotes/20260331_NvidaAllInPodcast",
       "title": "黃仁勳說「文科生贏了」？你被標題騙了。",
       "date": "2026-03-31T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -406,8 +406,28 @@
   ],
   "zh-HK": [
     {
+      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "slug": "/docs/TechNotes/AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "title": "AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？",
+      "date": "2026-05-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-labour-market",
+      "tags": {},
+      "keywords": [
+        "醬板鴨",
+        "雪山救狐狸",
+        "AI 短劇",
+        "MVP",
+        "流量實驗工廠"
+      ],
+      "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。",
+      "status": "draft",
+      "reading_time": 10
+    },
+    {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
       "title": "認知與判斷——AI 時代人類最後的不可取代性",
       "date": "2026-05-20T00:00:00.000Z",
       "lang": "zh-HK",
@@ -442,7 +462,7 @@
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
       "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
       "date": "2026-05-19T00:00:00.000Z",
       "lang": "zh-HK",
@@ -477,7 +497,7 @@
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/當「教育」變成一門不可能翻車的生意",
       "title": "當「教育」變成一門不可能翻車的生意",
       "date": "2026-05-15T00:00:00.000Z",
       "lang": "zh-Hant",
@@ -512,7 +532,7 @@
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
       "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
       "date": "2026-05-10T00:00:00.000Z",
       "lang": "zh-HK",
@@ -547,7 +567,7 @@
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/人寫還是AI寫，其實是個假問題",
       "title": "人寫還是AI寫，其實是個假問題",
       "date": "2026-05-04T00:00:00.000Z",
       "lang": "zh-HK",
@@ -582,7 +602,7 @@
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "date": "2026-05-03T00:00:00.000Z",
       "lang": "zh-HK",
@@ -617,7 +637,7 @@
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
-      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/docs/TechNotes/AI 模型不是變笨了，是不再為你而設計",
       "title": "AI 模型不是變笨了，是不再為你而設計",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "zh-HK",
@@ -653,7 +673,7 @@
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
-      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "slug": "/docs/TechNotes/chatgpt-images2-vs-nanoBanana2",
       "title": "我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "zh-HK",
@@ -688,7 +708,7 @@
     },
     {
       "id": "20260413_CLAW",
-      "slug": "/TechNotes/20260413_CLAW",
+      "slug": "/docs/TechNotes/20260413_CLAW",
       "title": "當大家還在學怎樣『養龍蝦』，模型公司正在學怎樣『不需要龍蝦』。",
       "date": "2026-04-13T00:00:00.000Z",
       "lang": "zh-HK",
@@ -723,7 +743,7 @@
     },
     {
       "id": "index",
-      "slug": "/TechNotes/index",
+      "slug": "/docs/TechNotes/index",
       "title": "清醒記錄",
       "date": null,
       "lang": "zh-HK",
@@ -738,7 +758,7 @@
     },
     {
       "id": "20260409AIJobWave",
-      "slug": "/TechNotes/20260409AIJobWave",
+      "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
       "date": "2026-04-09T00:00:00.000Z",
       "lang": "zh-HK",
@@ -774,7 +794,7 @@
     },
     {
       "id": "20260331_NvidaAllInPodcast",
-      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "slug": "/docs/TechNotes/20260331_NvidaAllInPodcast",
       "title": "黃仁勳說「文科生贏了」？你被標題騙了。",
       "date": "2026-03-31T00:00:00.000Z",
       "lang": "zh-HK",
@@ -811,8 +831,28 @@
   ],
   "en": [
     {
+      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "slug": "/docs/TechNotes/AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "title": "The New Species of the AI Era: Why Many Companies Are No Longer Looking for \"Engineers\"?",
+      "date": "2026-05-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-labour-market",
+      "tags": {},
+      "keywords": [
+        "Jiangban Duck",
+        "Rescue Fox in Snow Mountain",
+        "AI Short Drama",
+        "MVP",
+        "Traffic Experiment Factory"
+      ],
+      "summary": "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.",
+      "status": "draft",
+      "reading_time": 10
+    },
+    {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
       "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
       "date": "2026-05-20T00:00:00.000Z",
       "lang": "en",
@@ -847,7 +887,7 @@
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】",
       "title": "Buzzword Inflation: The Economics of Over-Engineering in the AI Era",
       "date": "2026-05-19T00:00:00.000Z",
       "lang": "en",
@@ -882,7 +922,7 @@
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/TechNotes/當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/當「教育」變成一門不可能翻車的生意",
       "title": "When \"Education\" Becomes a Business That Cannot Fail",
       "date": "2026-05-17T00:00:00.000Z",
       "lang": "en",
@@ -917,7 +957,7 @@
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起",
       "title": "Two Kinds of Judgment: The True Difficulty of AI Collaborative Writing—Starting from a Novel and a History of Technology",
       "date": "2026-05-10T00:00:00.000Z",
       "lang": "en",
@@ -952,7 +992,7 @@
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/TechNotes/人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/人寫還是AI寫，其實是個假問題",
       "title": "Deciding whether an article is written by a human or by AI is actually a false question.",
       "date": "2026-05-04T00:00:00.000Z",
       "lang": "en",
@@ -987,7 +1027,7 @@
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "title": "Google Is No Longer Designed for You Either: When Free Models Become the Gateway to Enterprise Cloud",
       "date": "2026-05-03T00:00:00.000Z",
       "lang": "en",
@@ -1022,7 +1062,7 @@
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
-      "slug": "/TechNotes/AI 模型不是變笨了，是不再為你而設計",
+      "slug": "/docs/TechNotes/AI 模型不是變笨了，是不再為你而設計",
       "title": "AI Models Haven't Gotten Dumber—They're Just No Longer Designed for You",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "en",
@@ -1058,7 +1098,7 @@
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
-      "slug": "/TechNotes/chatgpt-images2-vs-nanoBanana2",
+      "slug": "/docs/TechNotes/chatgpt-images2-vs-nanoBanana2",
       "title": "I Tested ChatGPT Images 2.0 Using Google's Own Prompts—The Results Were So Beautiful You'll Want to Fact-Check Every Detail",
       "date": "2026-04-29T00:00:00.000Z",
       "lang": "en",
@@ -1093,7 +1133,7 @@
     },
     {
       "id": "20260413_CLAW",
-      "slug": "/TechNotes/20260413_CLAW",
+      "slug": "/docs/TechNotes/20260413_CLAW",
       "title": "When everyone is still learning how to \"raise lobsters\", AI Platforms are learning how to \"replace lobsters\".",
       "date": "2026-04-13T00:00:00.000Z",
       "lang": "en",
@@ -1128,7 +1168,7 @@
     },
     {
       "id": "index",
-      "slug": "/TechNotes/index",
+      "slug": "/docs/TechNotes/index",
       "title": "Lucid Record",
       "date": null,
       "lang": "en",
@@ -1143,7 +1183,7 @@
     },
     {
       "id": "20260409AIJobWave",
-      "slug": "/TechNotes/20260409AIJobWave",
+      "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave",
       "date": "2026-04-09T00:00:00.000Z",
       "lang": "en",
@@ -1179,7 +1219,7 @@
     },
     {
       "id": "20260331_NvidaAllInPodcast",
-      "slug": "/TechNotes/20260331_NvidaAllInPodcast",
+      "slug": "/docs/TechNotes/20260331_NvidaAllInPodcast",
       "title": "Did Jensen Huang Say \"Liberal Arts Students Won\"? You Got Fooled by the Clickbait.",
       "date": "2026-03-31T00:00:00.000Z",
       "lang": "en",

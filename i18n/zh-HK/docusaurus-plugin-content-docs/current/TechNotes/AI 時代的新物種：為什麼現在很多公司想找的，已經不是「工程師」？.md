@@ -4,7 +4,7 @@ date: 2026-05-23
 lang: zh-HK
 section: sober-record
 topic: ai-labour-market
-tags:
+article_tags:
   zh:
     - AI 內容工業化
     - 超級個體
@@ -216,4 +216,4 @@ Meta 喺 2026 年 3 月確實更新咗「原創內容指南」，聲稱要獎勵
 
 而 AI 正在將呢兩種世界觀之間嘅距離，拉得比以往任何時候都大。
 
-![](Gemini_Generated_Image_udmrh1udmrh1udmr.png)
+![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.png)

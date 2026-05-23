@@ -4,7 +4,7 @@ date: 2026-05-23
 lang: en
 section: sober-record
 topic: ai-labour-market
-tags:
+article_tags:
   zh:
     - AI 內容工業化
     - 超級個體
@@ -216,4 +216,4 @@ Two worldviews.
 
 And AI is pulling the distance between these two worldviews further apart than ever before.
 
-![](Gemini_Generated_Image_udmrh1udmrh1udmr.png)
+![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.png)

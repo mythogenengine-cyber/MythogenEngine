@@ -35,7 +35,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
     if (parsed.data.title) {
       // Calculate id / slug based on filename, same as Docusaurus defaults
       const id = parsed.data.id || file.replace(/\.mdx?$/, '');
-      const slug = parsed.data.slug || `/docs/TechNotes/${id}`;
+      const slug = parsed.data.slug || `/docs/TechNotes/${encodeURIComponent(id)}`;
       
       outputData[locale].push({
         id,

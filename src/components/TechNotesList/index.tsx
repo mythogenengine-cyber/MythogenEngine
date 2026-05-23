@@ -23,6 +23,7 @@ export default function TechNotesList() {
   
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('ALL');
+  const [sortOrder, setSortOrder] = useState('newest');
 
   // Determine which tag sub-array to use based on locale
   const tagLang = locale.startsWith('en') ? 'en' : 'zh';
@@ -39,7 +40,7 @@ export default function TechNotesList() {
 
   // Filter articles
   const filteredArticles = useMemo(() => {
-    return articles.filter(article => {
+    const filtered = articles.filter(article => {
       // Search filter
       const searchLower = searchQuery.toLowerCase();
       const matchesSearch = 
@@ -53,7 +54,14 @@ export default function TechNotesList() {
 
       return matchesSearch && matchesTag;
     });
-  }, [articles, searchQuery, activeFilter, tagLang]);
+
+    // Sort by date
+    return [...filtered].sort((a, b) => {
+      const dateA = a.date ? new Date(a.date).getTime() : 0;
+      const dateB = b.date ? new Date(b.date).getTime() : 0;
+      return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
+    });
+  }, [articles, searchQuery, activeFilter, tagLang, sortOrder]);
 
   // Determine featured (we just use the first item that matches, or just the very first item overall)
   // Let's use the first item in the FULL list as featured, if it matches the current filter.
@@ -103,6 +111,21 @@ export default function TechNotesList() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
+        </div>
+        <div className={styles.sortControls}>
+          <span className={styles.sortLabel}>{locale.startsWith('en') ? 'Sort:' : '排序:'}</span>
+          <button
+            className={`${styles.sortBtn} ${sortOrder === 'newest' ? styles.sortBtnActive : ''}`}
+            onClick={() => setSortOrder('newest')}
+          >
+            {locale.startsWith('en') ? '↓ Newest' : '↓ 最新'}
+          </button>
+          <button
+            className={`${styles.sortBtn} ${sortOrder === 'oldest' ? styles.sortBtnActive : ''}`}
+            onClick={() => setSortOrder('oldest')}
+          >
+            {locale.startsWith('en') ? '↑ Oldest' : '↑ 最舊'}
+          </button>
         </div>
         <div className={styles.articleCount}>
           {filteredArticles.length} {locale.startsWith('en') ? 'articles found' : '篇文章'}

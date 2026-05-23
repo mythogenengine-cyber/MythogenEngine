@@ -1,11 +1,31 @@
-title: "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？" date: 2026-05-23 lang: zh-Hant section: sober-record topic: ai-labour-market tags: zh: - AI 內容工業化 - 超級個體 - 流量素材與作品 - AI 短劇 - 人才結構轉變 en: - ai-content-industrialization - super-individual - traffic-content-vs-craft - ai-short-drama - talent-structure-shift keywords:
-
-- 醬板鴨
-- 雪山救狐狸
-- AI 短劇
-- MVP
-- 流量實驗工廠 summary: "從一篇招聘文、一部 AI 短劇、到 50 億播放量的醬板鴨，拆解 AI 時代內容工業化的真正結構。" status: draft reading_time: 10
-
+---
+title: "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？"
+date: 2026-05-23
+lang: zh-Hant
+section: sober-record
+topic: ai-labour-market
+article_tags:
+  zh:
+    - AI 內容工業化
+    - 超級個體
+    - 流量素材與作品
+    - AI 短劇
+    - 人才結構轉變
+  en:
+    - ai-content-industrialization
+    - super-individual
+    - traffic-content-vs-craft
+    - ai-short-drama
+    - talent-structure-shift
+keywords:
+  - 醬板鴨
+  - 雪山救狐狸
+  - AI 短劇
+  - MVP
+  - 流量實驗工廠
+summary: "從一篇招聘文、一部 AI 短劇、到 50 億播放量的醬板鴨，拆解 AI 時代內容工業化的真正結構。"
+status: draft
+reading_time: 10
 ---
 
 # AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？
@@ -196,4 +216,4 @@ Meta 在 2026 年 3 月確實更新了「原創內容指南」，聲稱要獎勵
 
 而 AI 正在讓這兩種世界觀之間的距離，拉得比以往任何時候都大。
 
-![](Gemini_Generated_Image_udmrh1udmrh1udmr.png)
+![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.png)

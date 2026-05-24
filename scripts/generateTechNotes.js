@@ -34,7 +34,10 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
     // Ignore category index or info pages if needed, but we will list everything that has a title.
     if (parsed.data.title) {
       // Calculate id / slug based on filename, same as Docusaurus defaults
-      const id = parsed.data.id || file.replace(/\.mdx?$/, '');
+      let id = parsed.data.id || file.replace(/\.mdx?$/, '');
+      if (!parsed.data.id) {
+        id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
+      }
       const slug = parsed.data.slug || `/docs/TechNotes/${encodeURIComponent(id)}`;
       
       outputData[locale].push({

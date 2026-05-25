@@ -4,7 +4,7 @@ date: 2026-05-25
 lang: en
 section: gamevictory
 topic: t-game-history
-tags:
+article_tags:
   zh:
     - AI
     - 開發者生態

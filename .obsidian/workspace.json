@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9597ab5743c07ed",
+            "id": "0ac5b99d61d49fac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/mirror-realm/ch15.md",
+                "file": "docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch15"
-            }
-          },
-          {
-            "id": "3345294326f55c93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第七章_CUDA豪賭與遊戲玩家的RD稅_v3"
-            }
-          },
-          {
-            "id": "4a87f59a24c4ccbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？"
+              "title": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,29 +183,40 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "76882750d854c412",
+  "active": "0ac5b99d61d49fac",
   "lastOpenFiles": [
-    "build/img/cover-tw.png",
-    "build/img/cover-hk.png",
-    "build/img",
-    "build/epub/mirror-realm-tw.epub",
-    "build/epub/mirror-realm-hk.epub",
-    "build/epub",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/ChatGPT Image 2026年5月27日 上午10_15_57.png",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/ChatGPT Image 2026年5月27日 上午10_15_57.png",
+    "docs/TechNotes/ChatGPT Image 2026年5月27日 上午10_15_57.png",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
+    "Gemini_Generated_Image_wce9g5wce9g5wce9.png",
+    "Gemini_Generated_Image_7ie8mq7ie8mq7ie8.png",
+    "ChatGPT Image 2026年5月27日 上午10_15_05.png",
+    "ChatGPT Image 2026年5月27日 上午10_16_02.png",
+    "ChatGPT Image 2026年5月27日 上午10_15_57.png",
+    "AI模型企業轉向_Infographic.png",
+    "docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
+    "Gemini_Generated_Image_sgkitasgkitasgki.png",
+    "Gemini_Generated_Image_fr320bfr320bfr32.png",
+    "docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
+    "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
+    "未命名 1.md",
+    "build/assets/css/styles.0f26538f.css",
+    "build/assets/css",
     "build/docs/Diary/看不見的暴力，和一本沒人要求我寫的書.html",
     "build/docs/Diary/中國的「高速工業化系統」與全球競爭的真正問題.html",
-    "build/docs/Diary",
-    "build/docs/category/diary.html",
-    "build/docs/category",
-    "build/zh-HK/docs/TechNotes/CLAW.html",
-    "build/zh-HK/img/cover-tw.png",
-    "build/zh-HK/img/cover-hk.png",
-    "build/zh-HK/assets/images/Opus47_06-246ad7e19a0e11ced23122a4ee8f1cfa.png",
-    "build/zh-HK/assets/images/Opus47_07-d73243965e631738ed6a9815d3c7209b.png",
-    "build/zh-HK/assets/images/Opus47_05-e720b001d4727ead58ac4fe7018ebd7a.png",
-    "build/zh-HK/assets/images/Opus47_04-6578cc0cda2e34f6ab580d93b1cef425.png",
-    "build/zh-HK/assets/images/Opus47_03-87097f53be6ff1f413c6c016ee119ec4.png",
-    "build/zh-HK/assets/images/Opus47_02-b2b0934a187027504243ce48ab915558.png",
-    "build/zh-HK/assets/images/gemini_test1-3aadbc7753c1aa519f74e76d8f931f8e.png",
+    "build/docs/mirror-realm/ch12b.html",
+    "build/docs/mirror-realm/ch17.html",
+    "build/docs/ai-war/claude_code.html",
+    "build/docs/ai-war/xbox.html",
+    "build/docs/ai-war/perpetual_motion.html",
+    "build/docs/ai-war/ms_openai.html",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
+    "docs/GameVictory/第十一章_給遊戲玩家的情書_v4.md",
+    "docs/GameVictory/第十章_最後一根救命稻草_v2.md",
+    "docs/GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2.md",
+    "docs/GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/當「教育」變成一門不可能翻車的生意.md",
     "REF/zip/tag-library.md",
     "REF/zip/SKILL.md",
@@ -248,17 +230,6 @@
     "docs/mirror-realm/ch19.md",
     "docs/mirror-realm/ch06.md",
     "docs/GameVictory/第四章_世嘉的五百萬美元善款_v1.md",
-    "docs/GameVictory/第三章_微軟的恐懼與 Xbox 的誕生.md",
-    "docs/GameVictory/第二章_特洛伊木馬_v3.md",
-    "docs/GameVictory/第一章_神仙打架的DOS時代_v4.md",
-    "docs/GameVictory/序章_看不見的代價_v1.md",
-    "docs/mirror-realm/ch18.md",
-    "docs/mirror-realm/ch17.md",
-    "docs/mirror-realm/ch16.md",
-    "docs/mirror-realm/ch15.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.md",
-    "docs/TechNotes/人寫還是AI寫，其實是個假問題.md",
-    "docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.md"
+    "docs/GameVictory/第三章_微軟的恐懼與 Xbox 的誕生.md"
   ]
 }

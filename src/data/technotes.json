@@ -1,6 +1,74 @@
 {
   "zh-Hant": [
     {
+      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
+      "title": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "date": "2026-05-26T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "護城河",
+          "商業模式",
+          "算力競賽",
+          "NVIDIA",
+          "出口管制"
+        ],
+        "en": [
+          "moat",
+          "business-model",
+          "compute-race",
+          "nvidia",
+          "export-control"
+        ]
+      },
+      "keywords": [
+        "HBM",
+        "台積電",
+        "SK Hynix",
+        "記憶體週期",
+        "半導體產業結構"
+      ],
+      "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "「識」和「做到」，從來都不是同一件事",
+      "date": "2026-05-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
+        ]
+      },
+      "keywords": [
+        "超級 Builder",
+        "判斷力",
+        "CUDA",
+        "DirectX",
+        "活版印刷"
+      ],
+      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
+      "status": "published",
+      "reading_time": 4
+    },
+    {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
       "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
       "title": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -34,41 +102,6 @@
       "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量的醬板鴨，拆解 AI 時代內容工業化的真正結構。",
       "status": "draft",
       "reading_time": 10
-    },
-    {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "認知與判斷——AI 時代人類最後的不可取代性",
-      "date": "2026-05-20T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "t-education",
-      "tags": {
-        "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
-          "教育產業化",
-          "人機協作"
-        ],
-        "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
-          "education-industrialization",
-          "human-ai-collaboration"
-        ]
-      },
-      "keywords": [
-        "認知力",
-        "判斷力",
-        "遊戲至勝",
-        "世嘉",
-        "框架意識"
-      ],
-      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
-      "status": "published",
-      "reading_time": 20
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -176,41 +209,6 @@
       "reading_time": 18
     },
     {
-      "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
-      "title": "人寫還是AI寫，其實是個假問題",
-      "date": "2026-05-04T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "AI 寫作判定",
-          "媒體素養"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "ai-writing-detection",
-          "media-literacy"
-        ]
-      },
-      "keywords": [
-        "遊戲至勝",
-        "鏡界",
-        "統計偏見",
-        "霍金",
-        "判斷力"
-      ],
-      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
-      "status": "published",
-      "reading_time": 10
-    },
-    {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
       "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
@@ -244,6 +242,91 @@
       "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
       "status": "published",
       "reading_time": 15
+    },
+    {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
+      ],
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
+      "title": "人寫還是AI寫，其實是個假問題",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "遊戲至勝",
+        "鏡界",
+        "統計偏見",
+        "霍金",
+        "判斷力"
+      ],
+      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
+      "status": "published",
+      "reading_time": 10
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -350,21 +433,6 @@
       "summary": "以「龍蝦」比喻AI Agent，拆解三波市場演進與模型吞噬中間層的趨勢。",
       "status": "published",
       "reading_time": 6
-    },
-    {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0
     },
     {
       "id": "20260409AIJobWave",
@@ -441,6 +509,74 @@
   ],
   "zh-HK": [
     {
+      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
+      "title": "HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝",
+      "date": "2026-05-26T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "護城河",
+          "商業模式",
+          "算力競賽",
+          "NVIDIA",
+          "出口管制"
+        ],
+        "en": [
+          "moat",
+          "business-model",
+          "compute-race",
+          "nvidia",
+          "export-control"
+        ]
+      },
+      "keywords": [
+        "HBM",
+        "台積電",
+        "SK Hynix",
+        "內存週期",
+        "半導體產業結構"
+      ],
+      "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "「識」和「做到」，從來都不是同一件事",
+      "date": "2026-05-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
+        ]
+      },
+      "keywords": [
+        "超級 Builder",
+        "判斷力",
+        "CUDA",
+        "DirectX",
+        "活版印刷"
+      ],
+      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
+      "status": "published",
+      "reading_time": 4
+    },
+    {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
       "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
       "title": "AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？",
@@ -474,41 +610,6 @@
       "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。",
       "status": "draft",
       "reading_time": 10
-    },
-    {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "認知與判斷——AI 時代人類最後的不可取代性",
-      "date": "2026-05-20T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-education",
-      "tags": {
-        "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
-          "教育產業化",
-          "人機協作"
-        ],
-        "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
-          "education-industrialization",
-          "human-ai-collaboration"
-        ]
-      },
-      "keywords": [
-        "認知力",
-        "判斷力",
-        "遊戲至勝",
-        "世嘉",
-        "框架意識"
-      ],
-      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
-      "status": "published",
-      "reading_time": 20
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -616,41 +717,6 @@
       "reading_time": 18
     },
     {
-      "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
-      "title": "人寫還是AI寫，其實是個假問題",
-      "date": "2026-05-04T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "AI 寫作判定",
-          "媒體素養"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "ai-writing-detection",
-          "media-literacy"
-        ]
-      },
-      "keywords": [
-        "遊戲至勝",
-        "鏡界",
-        "統計偏見",
-        "霍金",
-        "判斷力"
-      ],
-      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
-      "status": "published",
-      "reading_time": 10
-    },
-    {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
       "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
@@ -684,6 +750,91 @@
       "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
       "status": "published",
       "reading_time": 15
+    },
+    {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
+      ],
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
+      "title": "人寫還是AI寫，其實是個假問題",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "遊戲至勝",
+        "鏡界",
+        "統計偏見",
+        "霍金",
+        "判斷力"
+      ],
+      "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
+      "status": "published",
+      "reading_time": 10
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -792,21 +943,6 @@
       "reading_time": 6
     },
     {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0
-    },
-    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
@@ -881,6 +1017,74 @@
   ],
   "en": [
     {
+      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
+      "title": "HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic",
+      "date": "2026-05-26T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "護城河",
+          "商業模式",
+          "算力競賽",
+          "NVIDIA",
+          "出口管制"
+        ],
+        "en": [
+          "moat",
+          "business-model",
+          "compute-race",
+          "nvidia",
+          "export-control"
+        ]
+      },
+      "keywords": [
+        "HBM",
+        "TSMC",
+        "SK Hynix",
+        "memory cycle",
+        "semiconductor industry structure"
+      ],
+      "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
+      "date": "2026-05-25T00:00:00.000Z",
+      "lang": "en",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
+        ]
+      },
+      "keywords": [
+        "Super Builder",
+        "judgment",
+        "CUDA",
+        "DirectX",
+        "letterpress printing"
+      ],
+      "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
+      "status": "published",
+      "reading_time": 4
+    },
+    {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
       "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
       "title": "The New Species of the AI Era: Why Many Companies Are No Longer Looking for \"Engineers\"?",
@@ -914,41 +1118,6 @@
       "summary": "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.",
       "status": "draft",
       "reading_time": 10
-    },
-    {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
-      "date": "2026-05-20T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-education",
-      "tags": {
-        "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
-          "教育產業化",
-          "人機協作"
-        ],
-        "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
-          "education-industrialization",
-          "human-ai-collaboration"
-        ]
-      },
-      "keywords": [
-        "Cognition",
-        "Judgment",
-        "GameVictory",
-        "Sega",
-        "Frame Awareness"
-      ],
-      "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
-      "status": "published",
-      "reading_time": 20
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -1056,41 +1225,6 @@
       "reading_time": 18
     },
     {
-      "id": "人寫還是AI寫，其實是個假問題",
-      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
-      "title": "Deciding whether an article is written by a human or by AI is actually a false question.",
-      "date": "2026-05-04T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "AI 寫作判定",
-          "媒體素養"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "ai-writing-detection",
-          "media-literacy"
-        ]
-      },
-      "keywords": [
-        "GameVictory",
-        "Mirror Realm",
-        "Statistical Bias",
-        "Stephen Hawking",
-        "Judgment"
-      ],
-      "summary": "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment.",
-      "status": "published",
-      "reading_time": 10
-    },
-    {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
       "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
       "title": "Google Is No Longer Designed for You Either: When Free Models Become the Gateway to Enterprise Cloud",
@@ -1124,6 +1258,91 @@
       "summary": "Analyzing Google Cloud Next 2026 to show how free AI models serve as a customer acquisition funnel for enterprise cloud revenue.",
       "status": "published",
       "reading_time": 15
+    },
+    {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "Lucid Record",
+      "date": null,
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-education",
+      "tags": {
+        "zh": [
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
+        ],
+        "en": [
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "Cognition",
+        "Judgment",
+        "GameVictory",
+        "Sega",
+        "Frame Awareness"
+      ],
+      "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
+      "id": "人寫還是AI寫，其實是個假問題",
+      "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
+      "title": "Deciding whether an article is written by a human or by AI is actually a false question.",
+      "date": "2026-05-04T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "AI 寫作判定",
+          "媒體素養"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "ai-writing-detection",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "GameVictory",
+        "Mirror Realm",
+        "Statistical Bias",
+        "Stephen Hawking",
+        "Judgment"
+      ],
+      "summary": "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment.",
+      "status": "published",
+      "reading_time": 10
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -1230,21 +1449,6 @@
       "summary": "Using 'lobsters' as a metaphor for AI Agents to break down the three waves of market evolution and the trend of models devouring the middleware layer.",
       "status": "published",
       "reading_time": 6
-    },
-    {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "Lucid Record",
-      "date": null,
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0
     },
     {
       "id": "20260409AIJobWave",

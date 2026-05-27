@@ -15,6 +15,7 @@ description: 自動為 Mythogen Engine 網站的 Markdown 文章生成 YAML fron
 4. **歸類板塊** — 對應到網站的五大板塊之一
 5. **生成標籤** — 從標籤庫中選取匹配的標籤（參見 `references/tag-library.md`）
 6. **輸出 YAML** — 在文章頂部插入完整的 front matter
+新文章的檔名不要加日期前綴，日期只放在 frontmatter 裡。其餘照常操作就好。
 
 ## 網站板塊定義
 

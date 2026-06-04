@@ -1,3 +1,35 @@
+---
+title: "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單"
+date: 2026-05-28
+lang: zh-Hant
+section: sober-record
+topic: t-hardware
+article_tags:
+  zh:
+    - 記憶體
+    - 遊戲機
+    - NVIDIA
+    - AI 浪潮
+    - 供應鏈
+  en:
+    - memory
+    - console-gaming
+    - nvidia
+    - ai-wave
+    - supply-chain
+keywords:
+  - 900層 V-NAND
+  - Switch 2
+  - Steam Deck
+  - HBM
+  - 記憶體短缺
+summary: "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。"
+status: published
+reading_time: 10
+sidebar_label: "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單"
+sidebar_position: 20260528
+---
+
 # 900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單
 
 ## 兩則新聞，同一個星期

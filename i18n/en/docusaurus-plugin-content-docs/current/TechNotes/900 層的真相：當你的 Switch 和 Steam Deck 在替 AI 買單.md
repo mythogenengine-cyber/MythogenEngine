@@ -1,3 +1,35 @@
+---
+title: "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI"
+date: 2026-05-28
+lang: en
+section: sober-record
+topic: t-hardware
+article_tags:
+  zh:
+    - 記憶體
+    - 遊戲機
+    - NVIDIA
+    - AI 浪潮
+    - 供應鏈
+  en:
+    - memory
+    - console-gaming
+    - nvidia
+    - ai-wave
+    - supply-chain
+keywords:
+  - 900-layer V-NAND
+  - Switch 2
+  - Steam Deck
+  - HBM
+  - memory shortage
+summary: "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution."
+status: published
+reading_time: 10
+sidebar_label: "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI"
+sidebar_position: 20260528
+---
+
 # The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI
 
 ## Two Headlines, One Week

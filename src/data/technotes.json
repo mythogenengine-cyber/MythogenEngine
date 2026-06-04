@@ -1,6 +1,42 @@
 {
   "zh-Hant": [
     {
+      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
+      "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "date": "2026-05-28T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "記憶體",
+          "遊戲機",
+          "NVIDIA",
+          "AI 浪潮",
+          "供應鏈"
+        ],
+        "en": [
+          "memory",
+          "console-gaming",
+          "nvidia",
+          "ai-wave",
+          "supply-chain"
+        ]
+      },
+      "keywords": [
+        "900層 V-NAND",
+        "Switch 2",
+        "Steam Deck",
+        "HBM",
+        "記憶體短缺"
+      ],
+      "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20260528
+    },
+    {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
       "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
       "title": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -104,74 +140,39 @@
       "reading_time": 10
     },
     {
-      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
-      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
-      "date": "2026-05-19T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Buzzword 通脹",
-          "焦慮套利",
-          "賣課經濟",
-          "開發者生態",
-          "AI Agent"
-        ],
-        "en": [
-          "buzzword-inflation",
-          "anxiety-arbitrage",
-          "course-selling-economy",
-          "developer-ecosystem",
-          "ai-agent"
-        ]
-      },
-      "keywords": [
-        "orchestration",
-        "agentic",
-        "過度設計",
-        "術語通脹",
-        "命名"
-      ],
-      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
-      "status": "published",
-      "reading_time": 5
-    },
-    {
-      "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
-      "title": "當「教育」變成一門不可能翻車的生意",
-      "date": "2026-05-15T00:00:00.000Z",
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "賣課經濟",
-          "焦慮套利",
-          "教育產業化",
+          "人文教育",
+          "文理分科",
           "媒體素養",
-          "AI 影片生成"
+          "教育產業化",
+          "人機協作"
         ],
         "en": [
-          "course-selling-economy",
-          "anxiety-arbitrage",
-          "education-industrialization",
+          "humanities-education",
+          "arts-science-divide",
           "media-literacy",
-          "ai-video-generation"
+          "education-industrialization",
+          "human-ai-collaboration"
         ]
       },
       "keywords": [
-        "霍去病",
-        "AI短劇",
-        "打書釘",
-        "明買明賣",
-        "判斷力"
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
       ],
-      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 20
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -259,39 +260,74 @@
       "sidebar_position": 0
     },
     {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "認知與判斷——AI 時代人類最後的不可取代性",
-      "date": "2026-05-20T00:00:00.000Z",
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
+      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
+      "date": "2026-05-19T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "orchestration",
+        "agentic",
+        "過度設計",
+        "術語通脹",
+        "命名"
+      ],
+      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
+      "title": "當「教育」變成一門不可能翻車的生意",
+      "date": "2026-05-15T00:00:00.000Z",
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
+          "賣課經濟",
+          "焦慮套利",
           "教育產業化",
-          "人機協作"
+          "媒體素養",
+          "AI 影片生成"
         ],
         "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
+          "course-selling-economy",
+          "anxiety-arbitrage",
           "education-industrialization",
-          "human-ai-collaboration"
+          "media-literacy",
+          "ai-video-generation"
         ]
       },
       "keywords": [
-        "認知力",
-        "判斷力",
-        "遊戲至勝",
-        "世嘉",
-        "框架意識"
+        "霍去病",
+        "AI短劇",
+        "打書釘",
+        "明買明賣",
+        "判斷力"
       ],
-      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 10
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
@@ -509,6 +545,42 @@
   ],
   "zh-HK": [
     {
+      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
+      "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "date": "2026-05-28T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "記憶體",
+          "遊戲機",
+          "NVIDIA",
+          "AI 浪潮",
+          "供應鏈"
+        ],
+        "en": [
+          "memory",
+          "console-gaming",
+          "nvidia",
+          "ai-wave",
+          "supply-chain"
+        ]
+      },
+      "keywords": [
+        "900層 V-NAND",
+        "Switch 2",
+        "Steam Deck",
+        "HBM",
+        "記憶體短缺"
+      ],
+      "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20260528
+    },
+    {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
       "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
       "title": "HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝",
@@ -612,74 +684,39 @@
       "reading_time": 10
     },
     {
-      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
-      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
-      "date": "2026-05-19T00:00:00.000Z",
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "認知與判斷——AI 時代人類最後的不可取代性",
+      "date": "2026-05-20T00:00:00.000Z",
       "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Buzzword 通脹",
-          "焦慮套利",
-          "賣課經濟",
-          "開發者生態",
-          "AI Agent"
-        ],
-        "en": [
-          "buzzword-inflation",
-          "anxiety-arbitrage",
-          "course-selling-economy",
-          "developer-ecosystem",
-          "ai-agent"
-        ]
-      },
-      "keywords": [
-        "orchestration",
-        "agentic",
-        "過度設計",
-        "術語通脹",
-        "命名"
-      ],
-      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
-      "status": "published",
-      "reading_time": 5
-    },
-    {
-      "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
-      "title": "當「教育」變成一門不可能翻車的生意",
-      "date": "2026-05-15T00:00:00.000Z",
-      "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "賣課經濟",
-          "焦慮套利",
-          "教育產業化",
+          "人文教育",
+          "文理分科",
           "媒體素養",
-          "AI 影片生成"
+          "教育產業化",
+          "人機協作"
         ],
         "en": [
-          "course-selling-economy",
-          "anxiety-arbitrage",
-          "education-industrialization",
+          "humanities-education",
+          "arts-science-divide",
           "media-literacy",
-          "ai-video-generation"
+          "education-industrialization",
+          "human-ai-collaboration"
         ]
       },
       "keywords": [
-        "霍去病",
-        "AI短劇",
-        "打書釘",
-        "明買明賣",
-        "判斷力"
+        "認知力",
+        "判斷力",
+        "遊戲至勝",
+        "世嘉",
+        "框架意識"
       ],
-      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
+      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 20
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -767,39 +804,74 @@
       "sidebar_position": 0
     },
     {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "認知與判斷——AI 時代人類最後的不可取代性",
-      "date": "2026-05-20T00:00:00.000Z",
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
+      "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
+      "date": "2026-05-19T00:00:00.000Z",
       "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "orchestration",
+        "agentic",
+        "過度設計",
+        "術語通脹",
+        "命名"
+      ],
+      "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
+      "title": "當「教育」變成一門不可能翻車的生意",
+      "date": "2026-05-15T00:00:00.000Z",
+      "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
+          "賣課經濟",
+          "焦慮套利",
           "教育產業化",
-          "人機協作"
+          "媒體素養",
+          "AI 影片生成"
         ],
         "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
+          "course-selling-economy",
+          "anxiety-arbitrage",
           "education-industrialization",
-          "human-ai-collaboration"
+          "media-literacy",
+          "ai-video-generation"
         ]
       },
       "keywords": [
-        "認知力",
-        "判斷力",
-        "遊戲至勝",
-        "世嘉",
-        "框架意識"
+        "霍去病",
+        "AI短劇",
+        "打書釘",
+        "明買明賣",
+        "判斷力"
       ],
-      "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
+      "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 10
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
@@ -1017,6 +1089,42 @@
   ],
   "en": [
     {
+      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
+      "title": "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI",
+      "date": "2026-05-28T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "記憶體",
+          "遊戲機",
+          "NVIDIA",
+          "AI 浪潮",
+          "供應鏈"
+        ],
+        "en": [
+          "memory",
+          "console-gaming",
+          "nvidia",
+          "ai-wave",
+          "supply-chain"
+        ]
+      },
+      "keywords": [
+        "900-layer V-NAND",
+        "Switch 2",
+        "Steam Deck",
+        "HBM",
+        "memory shortage"
+      ],
+      "summary": "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution.",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20260528
+    },
+    {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
       "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
       "title": "HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic",
@@ -1120,74 +1228,39 @@
       "reading_time": 10
     },
     {
-      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
-      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
-      "title": "Buzzword Inflation: The Economics of Over-Engineering in the AI Era",
-      "date": "2026-05-19T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Buzzword 通脹",
-          "焦慮套利",
-          "賣課經濟",
-          "開發者生態",
-          "AI Agent"
-        ],
-        "en": [
-          "buzzword-inflation",
-          "anxiety-arbitrage",
-          "course-selling-economy",
-          "developer-ecosystem",
-          "ai-agent"
-        ]
-      },
-      "keywords": [
-        "Orchestration",
-        "Agentic",
-        "Over-engineering",
-        "Jargon Inflation",
-        "Naming"
-      ],
-      "summary": "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity.",
-      "status": "published",
-      "reading_time": 5
-    },
-    {
-      "id": "當「教育」變成一門不可能翻車的生意",
-      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
-      "title": "When \"Education\" Becomes a Business That Cannot Fail",
-      "date": "2026-05-17T00:00:00.000Z",
+      "id": "認知與判斷——AI 時代人類最後的不可取代性",
+      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
+      "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
+      "date": "2026-05-20T00:00:00.000Z",
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "焦慮套利",
-          "賣課經濟",
-          "技能焦慮",
-          "資訊不對稱",
-          "媒體素養"
+          "人文教育",
+          "文理分科",
+          "媒體素養",
+          "教育產業化",
+          "人機協作"
         ],
         "en": [
-          "anxiety-arbitrage",
-          "course-selling-economy",
-          "skill-anxiety",
-          "information-asymmetry",
-          "media-literacy"
+          "humanities-education",
+          "arts-science-divide",
+          "media-literacy",
+          "education-industrialization",
+          "human-ai-collaboration"
         ]
       },
       "keywords": [
-        "Selling Courses",
-        "Anxiety Arbitrage",
-        "Unfalsifiable",
-        "Huo Qubing",
-        "Clear-cut Transaction"
+        "Cognition",
+        "Judgment",
+        "GameVictory",
+        "Sega",
+        "Frame Awareness"
       ],
-      "summary": "Deconstructing the business logic behind AI courses that sell 'simplicity' and how they shift the responsibility of failure entirely onto the learner.",
+      "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 20
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -1275,39 +1348,74 @@
       "sidebar_position": 0
     },
     {
-      "id": "認知與判斷——AI 時代人類最後的不可取代性",
-      "slug": "/docs/TechNotes/%E8%AA%8D%E7%9F%A5%E8%88%87%E5%88%A4%E6%96%B7%E2%80%94%E2%80%94AI%20%E6%99%82%E4%BB%A3%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%BE%8C%E7%9A%84%E4%B8%8D%E5%8F%AF%E5%8F%96%E4%BB%A3%E6%80%A7",
-      "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
-      "date": "2026-05-20T00:00:00.000Z",
+      "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
+      "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
+      "title": "Buzzword Inflation: The Economics of Over-Engineering in the AI Era",
+      "date": "2026-05-19T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Buzzword 通脹",
+          "焦慮套利",
+          "賣課經濟",
+          "開發者生態",
+          "AI Agent"
+        ],
+        "en": [
+          "buzzword-inflation",
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "developer-ecosystem",
+          "ai-agent"
+        ]
+      },
+      "keywords": [
+        "Orchestration",
+        "Agentic",
+        "Over-engineering",
+        "Jargon Inflation",
+        "Naming"
+      ],
+      "summary": "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity.",
+      "status": "published",
+      "reading_time": 5
+    },
+    {
+      "id": "當「教育」變成一門不可能翻車的生意",
+      "slug": "/docs/TechNotes/%E7%95%B6%E3%80%8C%E6%95%99%E8%82%B2%E3%80%8D%E8%AE%8A%E6%88%90%E4%B8%80%E9%96%80%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BB%8A%E7%9A%84%E7%94%9F%E6%84%8F",
+      "title": "When \"Education\" Becomes a Business That Cannot Fail",
+      "date": "2026-05-17T00:00:00.000Z",
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
       "tags": {
         "zh": [
-          "人文教育",
-          "文理分科",
-          "媒體素養",
-          "教育產業化",
-          "人機協作"
+          "焦慮套利",
+          "賣課經濟",
+          "技能焦慮",
+          "資訊不對稱",
+          "媒體素養"
         ],
         "en": [
-          "humanities-education",
-          "arts-science-divide",
-          "media-literacy",
-          "education-industrialization",
-          "human-ai-collaboration"
+          "anxiety-arbitrage",
+          "course-selling-economy",
+          "skill-anxiety",
+          "information-asymmetry",
+          "media-literacy"
         ]
       },
       "keywords": [
-        "Cognition",
-        "Judgment",
-        "GameVictory",
-        "Sega",
-        "Frame Awareness"
+        "Selling Courses",
+        "Anxiety Arbitrage",
+        "Unfalsifiable",
+        "Huo Qubing",
+        "Clear-cut Transaction"
       ],
-      "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
+      "summary": "Deconstructing the business logic behind AI courses that sell 'simplicity' and how they shift the responsibility of failure entirely onto the learner.",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 10
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",

@@ -1,0 +1,554 @@
+{
+  "zh-Hant": [
+    {
+      "id": "index",
+      "slug": "/docs/Diary/index",
+      "title": "隨心書寫",
+      "date": null,
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
+      "id": "中國的「高速工業化系統」與全球競爭的真正問題",
+      "slug": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C",
+      "title": "中國的「高速工業化系統」與全球競爭的真正問題",
+      "date": "2026-06-01T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "中國",
+          "產業政策",
+          "垂直整合",
+          "AI",
+          "台灣"
+        ],
+        "en": [
+          "china",
+          "industrial-policy",
+          "vertical-integration",
+          "artificial-intelligence",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "高速工業化",
+        "供應鏈",
+        "系統級平台",
+        "台積電",
+        "DeepSeek"
+      ],
+      "summary": "拆解中國高效率工業化系統的結構性優勢與代價，以及這套模式若成為全球主流的真正問題。",
+      "status": "draft",
+      "reading_time": 5,
+      "sidebar_position": 20260601
+    },
+    {
+      "id": "01-樂風集團案的食物鏈結構",
+      "slug": "/docs/Diary/01-%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E7%9A%84%E9%A3%9F%E7%89%A9%E9%8F%88%E7%B5%90%E6%A7%8B",
+      "title": "一層食一層——樂風集團案的食物鏈結構",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "專業服務"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "professional-services"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "事務律師",
+        "獨立律師",
+        "沉沒成本"
+      ],
+      "summary": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
+      "status": "draft",
+      "reading_time": 15,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "02-收費結構決定言論自由",
+      "slug": "/docs/Diary/02-%E6%94%B6%E8%B2%BB%E7%B5%90%E6%A7%8B%E6%B1%BA%E5%AE%9A%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1",
+      "title": "收費結構決定言論自由——從獨立律師到獨立創作者的商業模型",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "商業模式",
+          "獨立創作",
+          "利益衝突",
+          "創作者經濟"
+        ],
+        "en": [
+          "business-model",
+          "independent-creator",
+          "conflict-of-interest",
+          "creator-economy"
+        ]
+      },
+      "keywords": [
+        "獨立律師",
+        "美食YouTuber",
+        "收費結構",
+        "一人公司",
+        "創作者經濟"
+      ],
+      "summary": "從獨立律師的超然商業模型，延伸至美食YouTuber困境與獨立創作者的收費結構設計。",
+      "status": "draft",
+      "reading_time": 7,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+      "slug": "/docs/Diary/03-%E5%90%88%E6%B3%95%E7%9A%84%E4%B8%8D%E5%85%AC%E5%B9%B3%E8%88%87%E4%B8%8D%E5%90%88%E6%B3%95%E7%9A%84%E6%AC%BA%E7%9E%9E%E2%80%94%E2%80%94%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E4%B8%AD%E5%85%A9%E7%A8%AE%E3%80%8C%E6%AC%BA%E8%A9%90%E3%80%8D%E7%9A%84%E5%88%86%E7%95%8C%E7%B7%9A",
+      "title": "合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "合約法",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "contract-law",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "欺詐",
+        "知情權",
+        "輕資產",
+        "天使投資",
+        "創業融資",
+        "風險投資"
+      ],
+      "summary": "以正規創業融資為對照組，拆解樂風集團案中PE合約的合法壓制與樂風對投資者的資訊不對稱之間的分界線，以及所有做生意的人必須知道的PG風險。",
+      "status": "draft",
+      "reading_time": 12,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "看不見的暴力，和一本沒人要求我寫的書",
+      "slug": "/docs/Diary/%E7%9C%8B%E4%B8%8D%E8%A6%8B%E7%9A%84%E6%9A%B4%E5%8A%9B%EF%BC%8C%E5%92%8C%E4%B8%80%E6%9C%AC%E6%B2%92%E4%BA%BA%E8%A6%81%E6%B1%82%E6%88%91%E5%AF%AB%E7%9A%84%E6%9B%B8",
+      "title": "看不見的暴力，和一本沒人要求我寫的書",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "就業收縮",
+          "焦慮套利",
+          "人機協作"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "job-market-contraction",
+          "anxiety-arbitrage",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "職場暴力",
+        "鏡界",
+        "林昭明",
+        "靈韻合成",
+        "七日書"
+      ],
+      "summary": "七日書計劃系列：一個工程師在三間公司、三個地區看見的職場系統性暴力，以及他為什麼決定寫下來。",
+      "status": "draft",
+      "reading_time": 35,
+      "sidebar_position": 20260520
+    }
+  ],
+  "zh-HK": [
+    {
+      "id": "中國的「高速工業化系統」與全球競爭的真正問題",
+      "slug": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C",
+      "title": "中國的「高速工業化系統」與全球競爭的真正問題",
+      "date": "2026-06-01T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "中國",
+          "產業政策",
+          "垂直整合",
+          "AI",
+          "台灣"
+        ],
+        "en": [
+          "china",
+          "industrial-policy",
+          "vertical-integration",
+          "artificial-intelligence",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "高速工業化",
+        "供應鏈",
+        "系統級平台",
+        "台積電",
+        "DeepSeek"
+      ],
+      "summary": "拆解中國高效率工業化系統的結構性優勢與代價，以及這套模式若成為全球主流的真正問題。",
+      "status": "draft",
+      "reading_time": 5,
+      "sidebar_position": 20260601
+    },
+    {
+      "id": "01-樂風集團案的食物鏈結構",
+      "slug": "/docs/Diary/01-%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E7%9A%84%E9%A3%9F%E7%89%A9%E9%8F%88%E7%B5%90%E6%A7%8B",
+      "title": "一層食一層——樂風集團案的食物鏈結構",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "專業服務"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "professional-services"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "事務律師",
+        "獨立律師",
+        "沉沒成本"
+      ],
+      "summary": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
+      "status": "draft",
+      "reading_time": 15,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "02-收費結構決定言論自由",
+      "slug": "/docs/Diary/02-%E6%94%B6%E8%B2%BB%E7%B5%90%E6%A7%8B%E6%B1%BA%E5%AE%9A%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1",
+      "title": "收費結構決定言論自由——從獨立律師到獨立創作者的商業模型",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "商業模式",
+          "獨立創作",
+          "利益衝突",
+          "創作者經濟"
+        ],
+        "en": [
+          "business-model",
+          "independent-creator",
+          "conflict-of-interest",
+          "creator-economy"
+        ]
+      },
+      "keywords": [
+        "獨立律師",
+        "美食YouTuber",
+        "收費結構",
+        "一人公司",
+        "創作者經濟"
+      ],
+      "summary": "從獨立律師的超然商業模型，延伸至美食YouTuber困境與獨立創作者的收費結構設計。",
+      "status": "draft",
+      "reading_time": 7,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+      "slug": "/docs/Diary/03-%E5%90%88%E6%B3%95%E7%9A%84%E4%B8%8D%E5%85%AC%E5%B9%B3%E8%88%87%E4%B8%8D%E5%90%88%E6%B3%95%E7%9A%84%E6%AC%BA%E7%9E%9E%E2%80%94%E2%80%94%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E4%B8%AD%E5%85%A9%E7%A8%AE%E3%80%8C%E6%AC%BA%E8%A9%90%E3%80%8D%E7%9A%84%E5%88%86%E7%95%8C%E7%B7%9A",
+      "title": "合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "合約法",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "contract-law",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "欺詐",
+        "知情權",
+        "輕資產",
+        "天使投資",
+        "創業融資",
+        "風險投資"
+      ],
+      "summary": "以正規創業融資為對照組，拆解樂風集團案中PE合約的合法壓制與樂風對投資者的資訊不對稱之間的分界線，以及所有做生意的人必須知道的PG風險。",
+      "status": "draft",
+      "reading_time": 12,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "看不見的暴力，和一本沒人要求我寫的書",
+      "slug": "/docs/Diary/%E7%9C%8B%E4%B8%8D%E8%A6%8B%E7%9A%84%E6%9A%B4%E5%8A%9B%EF%BC%8C%E5%92%8C%E4%B8%80%E6%9C%AC%E6%B2%92%E4%BA%BA%E8%A6%81%E6%B1%82%E6%88%91%E5%AF%AB%E7%9A%84%E6%9B%B8",
+      "title": "看不見的暴力，和一本沒人要求我寫的書",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "就業收縮",
+          "焦慮套利",
+          "人機協作"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "job-market-contraction",
+          "anxiety-arbitrage",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "職場暴力",
+        "鏡界",
+        "林昭明",
+        "靈韻合成",
+        "七日書"
+      ],
+      "summary": "七日書計劃系列：一個工程師在三間公司、三個地區看見的職場系統性暴力，以及他為什麼決定寫下來。",
+      "status": "draft",
+      "reading_time": 35,
+      "sidebar_position": 20260520
+    }
+  ],
+  "en": [
+    {
+      "id": "中國的「高速工業化系統」與全球競爭的真正問題",
+      "slug": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C",
+      "title": "China's 'High-Speed Industrialisation System' and the Real Problem of Global Competition",
+      "date": "2026-06-01T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "中國",
+          "產業政策",
+          "垂直整合",
+          "AI",
+          "台灣"
+        ],
+        "en": [
+          "china",
+          "industrial-policy",
+          "vertical-integration",
+          "artificial-intelligence",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "high-speed industrialisation",
+        "supply chain",
+        "system-level platform",
+        "TSMC",
+        "DeepSeek"
+      ],
+      "summary": "Dissecting the structural advantages and costs of China's high-efficiency industrialisation system, and the real problem if this model becomes the global mainstream.",
+      "status": "draft",
+      "reading_time": 5,
+      "sidebar_position": 20260601
+    },
+    {
+      "id": "01-樂風集團案的食物鏈結構",
+      "slug": "/docs/Diary/01-%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E7%9A%84%E9%A3%9F%E7%89%A9%E9%8F%88%E7%B5%90%E6%A7%8B",
+      "title": "Layer Eats Layer — The Food Chain Structure of the Lofter Group Case",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "專業服務"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "professional-services"
+        ]
+      },
+      "keywords": [
+        "Lofter Group",
+        "PE fund",
+        "Personal Guarantee",
+        "solicitor",
+        "independent counsel",
+        "sunk cost"
+      ],
+      "summary": "Dissecting the multi-layered harvesting structure among PE funds, developers, and retail investors in the Lofter Group case, and how the lawyer food chain stripped the entire system of its braking mechanism.",
+      "status": "draft",
+      "reading_time": 15,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "02-收費結構決定言論自由",
+      "slug": "/docs/Diary/02-%E6%94%B6%E8%B2%BB%E7%B5%90%E6%A7%8B%E6%B1%BA%E5%AE%9A%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1",
+      "title": "Fee Structure Determines Freedom of Speech — From Independent Counsel to Independent Creators' Business Models",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "商業模式",
+          "獨立創作",
+          "利益衝突",
+          "創作者經濟"
+        ],
+        "en": [
+          "business-model",
+          "independent-creator",
+          "conflict-of-interest",
+          "creator-economy"
+        ]
+      },
+      "keywords": [
+        "independent counsel",
+        "food YouTuber",
+        "fee structure",
+        "one-person company",
+        "creator economy"
+      ],
+      "summary": "Extending from the transcendent business model of independent counsel to the food YouTuber dilemma and the fee-structure design of independent creators.",
+      "status": "draft",
+      "reading_time": 7,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+      "slug": "/docs/Diary/03-%E5%90%88%E6%B3%95%E7%9A%84%E4%B8%8D%E5%85%AC%E5%B9%B3%E8%88%87%E4%B8%8D%E5%90%88%E6%B3%95%E7%9A%84%E6%AC%BA%E7%9E%9E%E2%80%94%E2%80%94%E6%A8%82%E9%A2%A8%E9%9B%86%E5%9C%98%E6%A1%88%E4%B8%AD%E5%85%A9%E7%A8%AE%E3%80%8C%E6%AC%BA%E8%A9%90%E3%80%8D%E7%9A%84%E5%88%86%E7%95%8C%E7%B7%9A",
+      "title": "Lawful Unfairness and Unlawful Deception — The Dividing Line Between Two Kinds of 'Fraud' in the Lofter Group Case",
+      "date": "2026-05-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-financial",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "合約法",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "contract-law",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "Lofter Group",
+        "PE fund",
+        "Personal Guarantee",
+        "fraud",
+        "right to information",
+        "asset-light",
+        "angel investment",
+        "startup financing",
+        "venture capital"
+      ],
+      "summary": "Using standard startup financing as a control group, this article dissects the dividing line between PE contracts' lawful suppression and Lofter's information asymmetry toward investors, along with what everyone in business must know about PG risk.",
+      "status": "draft",
+      "reading_time": 12,
+      "sidebar_position": 20260529
+    },
+    {
+      "id": "看不見的暴力，和一本沒人要求我寫的書",
+      "slug": "/docs/Diary/%E7%9C%8B%E4%B8%8D%E8%A6%8B%E7%9A%84%E6%9A%B4%E5%8A%9B%EF%BC%8C%E5%92%8C%E4%B8%80%E6%9C%AC%E6%B2%92%E4%BA%BA%E8%A6%81%E6%B1%82%E6%88%91%E5%AF%AB%E7%9A%84%E6%9B%B8",
+      "title": "Invisible Violence, and a Book No One Asked Me to Write",
+      "date": "2026-05-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "敘事操控",
+          "就業收縮",
+          "焦慮套利",
+          "人機協作"
+        ],
+        "en": [
+          "narrative-manipulation",
+          "job-market-contraction",
+          "anxiety-arbitrage",
+          "human-ai-collaboration"
+        ]
+      },
+      "keywords": [
+        "workplace violence",
+        "Mirror Realm",
+        "Lin Zhaoming",
+        "Lingyun Synthesis",
+        "7-day writing"
+      ],
+      "summary": "7-Day Writing series: an engineer's account of systemic workplace violence across three companies and three regions, and why he decided to write it down.",
+      "status": "draft",
+      "reading_time": 35,
+      "sidebar_position": 20260520
+    }
+  ]
+}

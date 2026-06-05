@@ -76,7 +76,7 @@ const config = {
             label: 'Lucid Record',
           },
           {
-            to: 'docs/category/diary',
+            to: '/docs/Diary',
             position: 'left',
             label: 'Diary',
           },

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mythogenengine-cyber.github.io/MythogenEngine/sitemap.xml

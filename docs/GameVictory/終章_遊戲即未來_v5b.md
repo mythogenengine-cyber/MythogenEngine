@@ -1,3 +1,8 @@
+---
+title: "終章：遊戲即未來"
+description: "凌晨兩點。 序章開場的那個時刻。手邊的 Steam Deck 還在跑一款 Windows 遊戲——Linux 系統上的 Proton 翻譯層，把 DirectX 的每一個呼叫轉成 Vulkan，第六章的故事。iPhone 的通知亮了又暗——晶片出自台積電 3 奈米產線，第八章的故事。"
+summary: "凌晨兩點。 序章開場的那個時刻。手邊的 Steam Deck 還在跑一款 Windows 遊戲——Linux 系統上的 Proton 翻譯層，把 DirectX 的每一個呼叫轉成 Vulkan，第六章的故事。iPhone 的通知亮了又暗——晶片出自台積電 3 奈米產線，第八章的故事。"
+---
 # 終章：遊戲即未來
 
 ---

@@ -1,3 +1,8 @@
+---
+title: "Chapter 6: Gabe Newell's Prison Break"
+description: "In March 2026, Linux's market share in the Steam Hardware Survey quietly climbed to 5.33%—an all-time high. This number looks insignificant."
+summary: "In March 2026, Linux's market share in the Steam Hardware Survey quietly climbed to 5.33%—an all-time high. This number looks insignificant."
+---
 # Chapter 6: Gabe Newell's Prison Break
 
 In March 2026, Linux's market share in the Steam Hardware Survey quietly climbed to 5.33%—an all-time high. This number looks insignificant. But standing behind it are over five million Steam Decks—a handheld game console running Arch Linux, yet capable of playing over a hundred thousand Windows games on Steam.

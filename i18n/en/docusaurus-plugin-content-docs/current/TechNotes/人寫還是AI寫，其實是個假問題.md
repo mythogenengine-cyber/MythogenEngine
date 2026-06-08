@@ -26,8 +26,8 @@ keywords:
 summary: "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment."
 status: published
 reading_time: 10
+description: "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment."
 ---
-
 **Deciding whether an article is written by a human or by AI is actually a false question.**
 
 Author: 星忘塵 Nebula Walker

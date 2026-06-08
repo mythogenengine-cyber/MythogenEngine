@@ -27,8 +27,8 @@ summary: "Deconstructing three common misinterpretations of Jensen Huang's 'libe
 status: published
 reading_time: 6
 sidebar_position: 1
+description: "Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era."
 ---
-
 ![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
 ![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)

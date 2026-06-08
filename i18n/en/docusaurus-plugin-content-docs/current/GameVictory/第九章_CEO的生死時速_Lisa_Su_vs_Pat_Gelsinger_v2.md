@@ -1,3 +1,8 @@
+---
+title: "Chapter 9: A Tale of Two CEOs — Lisa Su vs. Pat Gelsinger"
+description: "On December 1, 2024, Pat Gelsinger \"retired\" from his position as CEO of Intel. \"Retired\" is the official wording."
+summary: "On December 1, 2024, Pat Gelsinger \"retired\" from his position as CEO of Intel. \"Retired\" is the official wording."
+---
 # Chapter 9: A Tale of Two CEOs — Lisa Su vs. Pat Gelsinger
 
 On December 1, 2024, Pat Gelsinger "retired" from his position as CEO of Intel.

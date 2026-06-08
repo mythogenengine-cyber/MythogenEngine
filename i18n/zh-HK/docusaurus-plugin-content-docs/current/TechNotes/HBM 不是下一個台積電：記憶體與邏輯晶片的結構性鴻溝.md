@@ -26,6 +26,7 @@ keywords:
 summary: "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。"
 status: published
 reading_time: 18
+description: "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。"
 ---
 ![](ChatGPT%20Image%202026年5月27日%20上午10_15_57.png)
 

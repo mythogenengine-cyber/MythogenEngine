@@ -1,3 +1,8 @@
+---
+title: "Chapter 1: The DOS Era: A Clash of Gods"
+description: "In 2025, you buy a game on Steam. You click \"Install,\" the progress bar finishes, and you click \"Play."
+summary: "In 2025, you buy a game on Steam. You click \"Install,\" the progress bar finishes, and you click \"Play."
+---
 # Chapter 1: The DOS Era: A Clash of Gods
 
 In 2025, you buy a game on Steam. You click "Install," the progress bar finishes, and you click "Play." The visuals appear, the audio kicks in, and the controller vibrates. The whole process takes ninety seconds.

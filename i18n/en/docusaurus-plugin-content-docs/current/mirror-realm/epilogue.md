@@ -1,3 +1,8 @@
+---
+title: "Epilogue"
+description: "I anticipated they might be this kind of people. I chose to assume they weren't. Just get the work done."
+summary: "I anticipated they might be this kind of people. I chose to assume they weren't. Just get the work done."
+---
 # Epilogue
 ## Taiwan Edition v3.5 (Added 〈Two and a Half: Before〉: Pengguang Industrial cross-company observation)
 

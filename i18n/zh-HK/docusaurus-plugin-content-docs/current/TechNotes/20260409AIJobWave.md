@@ -27,8 +27,8 @@ summary: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是�
 status: published
 reading_time: 9
 sidebar_position: 20260409
+description: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。"
 ---
-
 # 不是轉型，是收縮：AI 就業潮的另一種讀法
 
 ![](./images/Gemini_Generated_Image_kq4joikq4joikq4j.png)

@@ -1,3 +1,8 @@
+---
+title: "Chapter 5: The Wild Growth of AI and Wintel's Blind Spot"
+description: "In 2025, a Stanford PhD student sits in her lab, preparing to train her language model."
+summary: "In 2025, a Stanford PhD student sits in her lab, preparing to train her language model."
+---
 # Chapter 5: The Wild Growth of AI and Wintel's Blind Spot
 
 In 2025, a Stanford PhD student sits in her lab, preparing to train her language model.

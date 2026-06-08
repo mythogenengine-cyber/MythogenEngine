@@ -26,8 +26,8 @@ keywords:
 summary: "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。"
 status: published
 reading_time: 15
+description: "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。"
 ---
-
 作者：星忘塵 Nebula Walker
 Date: 03MAY2026
 創象引擎 Mythogen Engine

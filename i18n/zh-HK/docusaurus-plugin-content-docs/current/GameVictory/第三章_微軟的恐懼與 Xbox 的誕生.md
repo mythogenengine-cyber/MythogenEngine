@@ -1,3 +1,8 @@
+---
+title: "第三章 微軟的恐懼與 Xbox 的誕生"
+description: "2024 年 1 月,微軟宣佈裁撤遊戲部門 1,900 人。三個月前,它剛花了 690 億美元完成人類商業史上最大宗遊戲業收購——Activision Blizzard。同年春天,幾款 Xbox 獨佔遊戲安靜地上架 PlayStation 5 商店。"
+summary: "2024 年 1 月,微軟宣佈裁撤遊戲部門 1,900 人。三個月前,它剛花了 690 億美元完成人類商業史上最大宗遊戲業收購——Activision Blizzard。同年春天,幾款 Xbox 獨佔遊戲安靜地上架 PlayStation 5 商店。"
+---
 ## 第三章:微軟的恐懼與 Xbox 的誕生
 
 2024 年 1 月,微軟宣佈裁撤遊戲部門 1,900 人。三個月前,它剛花了 690 億美元完成人類商業史上最大宗遊戲業收購——Activision Blizzard。同年春天,幾款 Xbox 獨佔遊戲安靜地上架 PlayStation 5 商店。到了秋天,Phil Spencer——Xbox 品牌最後一位被玩家信任的代言人——交出了經營權。

@@ -1,3 +1,8 @@
+---
+title: "Theme 04: Microsoft's Four Tightening Spells—The Deadlocked AI Empire"
+description: "On the surface, Microsoft is the biggest winner of the AI craze."
+summary: "On the surface, Microsoft is the biggest winner of the AI craze."
+---
 # Theme 04: Microsoft's Four Tightening Spells—The Deadlocked AI Empire
 
 ## Core Argument

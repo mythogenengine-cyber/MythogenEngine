@@ -26,8 +26,8 @@ keywords:
 summary: "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills."
 status: published
 reading_time: 20
+description: "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills."
 ---
-
 # Cognition and Judgment—The Last Thing AI Cannot Replace
 
 ## Foreword

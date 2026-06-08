@@ -254,7 +254,7 @@
       "topic": "",
       "tags": {},
       "keywords": [],
-      "summary": "",
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0
@@ -798,7 +798,7 @@
       "topic": "",
       "tags": {},
       "keywords": [],
-      "summary": "",
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0
@@ -1342,7 +1342,7 @@
       "topic": "",
       "tags": {},
       "keywords": [],
-      "summary": "",
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0

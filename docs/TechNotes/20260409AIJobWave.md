@@ -27,8 +27,8 @@ summary: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是�
 status: published
 reading_time: 9
 sidebar_position: 20260409
+description: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。"
 ---
-
 作者：星忘塵 Nebula Walker
 Date: 09APR2026
 創象引擎 Mythogen Engine

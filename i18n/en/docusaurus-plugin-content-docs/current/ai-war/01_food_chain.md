@@ -1,3 +1,8 @@
+---
+title: "Theme 01: The Class Game of the AI Food Chain—Who is the Landlord, Who is the Tenant?"
+description: "The competition in the AI industry is not about \"whose model is smarter,\" but who commands structural cost advantages and distribution channels."
+summary: "The competition in the AI industry is not about \"whose model is smarter,\" but who commands structural cost advantages and distribution channels."
+---
 # Theme 01: The Class Game of the AI Food Chain—Who is the Landlord, Who is the Tenant?
 
 ## Core Argument

@@ -1,3 +1,8 @@
+---
+title: "Side Story (Upper): The Prison Breaker — Google's Soulless Gamble and the TPU Closed Loop"
+description: "On September 29, 2022, Google Vice President Phil Harrison announced in an official blog post: Stadia would permanently shut down on January 18, 2023."
+summary: "On September 29, 2022, Google Vice President Phil Harrison announced in an official blog post: Stadia would permanently shut down on January 18, 2023."
+---
 # Side Story (Upper): The Prison Breaker — Google's Soulless Gamble and the TPU Closed Loop
 
 On September 29, 2022, Google Vice President Phil Harrison announced in an official blog post: Stadia would permanently shut down on January 18, 2023.

@@ -27,8 +27,8 @@ summary: "Dismantling the anxiety narrative surrounding the AI job wave, arguing
 status: published
 reading_time: 9
 sidebar_position: 20260409
+description: "Dismantling the anxiety narrative surrounding the AI job wave, arguing that the software industry is undergoing structural contraction, not transformation."
 ---
-
 # Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave
 
 ![](./images/Gemini_Generated_Image_3h2kd43h2kd43h2k.png)

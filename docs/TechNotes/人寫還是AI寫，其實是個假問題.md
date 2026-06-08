@@ -26,8 +26,8 @@ keywords:
 summary: "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。"
 status: published
 reading_time: 10
+description: "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。"
 ---
-
 **判斷一篇文章是人寫還是AI寫，其實是個假問題。**
 
 作者：星忘塵 Nebula Walker

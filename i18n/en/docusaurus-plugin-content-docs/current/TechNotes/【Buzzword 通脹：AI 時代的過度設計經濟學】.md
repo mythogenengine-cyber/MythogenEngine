@@ -26,8 +26,8 @@ keywords:
 summary: "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity."
 status: published
 reading_time: 5
+description: "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity."
 ---
-
 # Buzzword Inflation: The Economics of Over-Engineering in the AI Era
 
 Author: Nebula Walker

@@ -1,3 +1,8 @@
+---
+title: "外傳上篇：逃獄者——Google 的無魂豪賭與 TPU 閉環"
+description: "2022 年 9 月 29 日，Google 副總裁 Phil Harrison 在一篇官方部落格文章裡宣佈：Stadia 將於 2023 年 1 月 18 日永久關閉。"
+summary: "2022 年 9 月 29 日，Google 副總裁 Phil Harrison 在一篇官方部落格文章裡宣佈：Stadia 將於 2023 年 1 月 18 日永久關閉。"
+---
 # 外傳上篇：逃獄者——Google 的無魂豪賭與 TPU 閉環
 
 2022 年 9 月 29 日，Google 副總裁 Phil Harrison 在一篇官方部落格文章裡宣佈：Stadia 將於 2023 年 1 月 18 日永久關閉。

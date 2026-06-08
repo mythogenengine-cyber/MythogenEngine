@@ -1,3 +1,8 @@
+---
+title: "Theme 05: The Two-Pronged Attack on the Developer Ecosystem—Claude Code and Google's Joint Disruption"
+description: "This is the dimension completely omitted from the original series, yet it posed the biggest shock to Microsoft in 2025-2026."
+summary: "This is the dimension completely omitted from the original series, yet it posed the biggest shock to Microsoft in 2025-2026."
+---
 # Theme 05: The Two-Pronged Attack on the Developer Ecosystem—Claude Code and Google's Joint Disruption
 
 ## Core Argument

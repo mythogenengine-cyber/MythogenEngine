@@ -27,8 +27,8 @@ summary: "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論�
 status: published
 reading_time: 6
 sidebar_position: 1
+description: "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。"
 ---
-
 ![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
 
 ![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)

@@ -1,3 +1,8 @@
+---
+title: "第六章：Gabe Newell 的越獄行動"
+description: "2026 年 3 月,Steam 的月度硬體調查報告裡,Linux 的市佔率悄悄爬上 5.33%——歷史新高。這個數字看起來微不足道。但它背後站著超過五百萬台 Steam Deck——一台掌上型遊戲機,跑的是 Arch Linux,卻能玩 Steam 上超過十萬款 Windows 遊戲。"
+summary: "2026 年 3 月,Steam 的月度硬體調查報告裡,Linux 的市佔率悄悄爬上 5.33%——歷史新高。這個數字看起來微不足道。但它背後站著超過五百萬台 Steam Deck——一台掌上型遊戲機,跑的是 Arch Linux,卻能玩 Steam 上超過十萬款 Windows 遊戲。"
+---
 # 第六章：Gabe Newell 的越獄行動
 
 2026 年 3 月,Steam 的月度硬體調查報告裡,Linux 的市佔率悄悄爬上 5.33%——歷史新高。這個數字看起來微不足道。但它背後站著超過五百萬台 Steam Deck——一台掌上型遊戲機,跑的是 Arch Linux,卻能玩 Steam 上超過十萬款 Windows 遊戲。

@@ -1,3 +1,8 @@
+---
+title: "Chapter 7: The CUDA Gamble and the Gamers' \"R&D Tax\""
+description: "In the spring of 2026, a machine learning engineer who had just gotten his master's degree was making technology choices for his first job."
+summary: "In the spring of 2026, a machine learning engineer who had just gotten his master's degree was making technology choices for his first job."
+---
 # Chapter 7: The CUDA Gamble and the Gamers' "R&D Tax"
 
 In the spring of 2026, a machine learning engineer who had just gotten his master's degree was making technology choices for his first job. The task was simple: train a mid-sized language model. He opened PyTorch, wrote a few lines of code, called `torch.cuda.is_available()` to confirm the GPU was online, and started training.

@@ -1,3 +1,8 @@
+---
+title: "第五章：AI 的野蠻生長與 Wintel 的盲區"
+description: "2025 年,一位史丹佛博士生坐在實驗室裡,準備訓練她的語言模型。 她打開筆電——MacBook,跑的是 macOS。她連上遠端 GPU 叢集——八台伺服器,每台插著八張 NVIDIA H100,跑的是 Ubuntu Linux。"
+summary: "2025 年,一位史丹佛博士生坐在實驗室裡,準備訓練她的語言模型。 她打開筆電——MacBook,跑的是 macOS。她連上遠端 GPU 叢集——八台伺服器,每台插著八張 NVIDIA H100,跑的是 Ubuntu Linux。"
+---
 # 第五章：AI 的野蠻生長與 Wintel 的盲區
 
 2025 年,一位史丹佛博士生坐在實驗室裡,準備訓練她的語言模型。

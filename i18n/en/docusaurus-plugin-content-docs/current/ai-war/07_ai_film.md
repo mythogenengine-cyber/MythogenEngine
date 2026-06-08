@@ -1,3 +1,8 @@
+---
+title: "Theme 07: The Route Dispute of AI Film and Television—2D Generation vs. 3D World Simulation"
+description: "Sora's exit doesn't signify the death of AI film and television;"
+summary: "Sora's exit doesn't signify the death of AI film and television;"
+---
 # Theme 07: The Route Dispute of AI Film and Television—2D Generation vs. 3D World Simulation
 
 ## Core Argument

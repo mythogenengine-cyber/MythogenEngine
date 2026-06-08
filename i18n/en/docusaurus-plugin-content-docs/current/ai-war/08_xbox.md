@@ -1,3 +1,8 @@
+---
+title: "Theme 08: The Xbox Gamble and Crisis—Strategic Value of an AI Testing Ground vs. Commercialization Risks"
+description: "Xbox is the only business line within Microsoft to completely shed the historical baggage of Windows and achieve a closed-loop hardware/software ecosy..."
+summary: "Xbox is the only business line within Microsoft to completely shed the historical baggage of Windows and achieve a closed-loop hardware/software ecosy..."
+---
 # Theme 08: The Xbox Gamble and Crisis—Strategic Value of an AI Testing Ground vs. Commercialization Risks
 
 ## Core Argument

@@ -1,3 +1,8 @@
+---
+title: "第九章：CEO 的生死時速——Lisa Su vs. Pat Gelsinger"
+description: "2024 年 12 月 1 日，Pat Gelsinger 從 Intel CEO 的位置上「退休」了。 退休是官方措辭。業界所有人都知道真相：董事會給了他兩個選項——自己走，或者被推走。他選了前者。"
+summary: "2024 年 12 月 1 日，Pat Gelsinger 從 Intel CEO 的位置上「退休」了。 退休是官方措辭。業界所有人都知道真相：董事會給了他兩個選項——自己走，或者被推走。他選了前者。"
+---
 # 第九章：CEO 的生死時速——Lisa Su vs. Pat Gelsinger
 
 2024 年 12 月 1 日，Pat Gelsinger 從 Intel CEO 的位置上「退休」了。

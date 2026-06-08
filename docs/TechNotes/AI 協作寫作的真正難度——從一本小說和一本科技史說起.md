@@ -26,8 +26,8 @@ keywords:
 summary: "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。"
 status: published
 reading_time: 18
+description: "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。"
 ---
-
 我用 AI 寫了一本小說，再寫一本科技史。
 
 小說那邊，AI 出錯我感覺得到。

@@ -1,3 +1,8 @@
+---
+title: "Chapter 12B: Beneath the Floorboards"
+description: "Location: Mirror Realm · Emerald Isle / Mainland Manufacturing Zone / Study Time: 1024 (Intersecting Timelines) Perspectives: A-Qiang / Lin Zhao-ming"
+summary: "Location: Mirror Realm · Emerald Isle / Mainland Manufacturing Zone / Study Time: 1024 (Intersecting Timelines) Perspectives: A-Qiang / Lin Zhao-ming"
+---
 # Chapter 12B: Beneath the Floorboards
 ### Taiwan Edition v1
 

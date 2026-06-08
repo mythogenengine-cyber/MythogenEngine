@@ -1,3 +1,8 @@
+---
+title: "Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle"
+description: "The AI industry is operating an intricate \"capital perpetual motion machine\": investors pour money into AI companies, AI companies immediately spend i..."
+summary: "The AI industry is operating an intricate \"capital perpetual motion machine\": investors pour money into AI companies, AI companies immediately spend i..."
+---
 # Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle
 
 ## Core Argument

@@ -26,8 +26,8 @@ keywords:
 summary: "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。"
 status: published
 reading_time: 20
+description: "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。"
 ---
-
 # 認知與判斷——AI 時代人類最後的不可取代性
 
 ## 前言

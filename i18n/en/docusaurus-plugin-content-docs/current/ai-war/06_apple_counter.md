@@ -1,3 +1,8 @@
+---
+title: "Theme 06: Apple's Quiet Counterkill—More Than Just Chips"
+description: "Apple has consistently been mocked for moving \"too slowly\" in AI."
+summary: "Apple has consistently been mocked for moving \"too slowly\" in AI."
+---
 # Theme 06: Apple's Quiet Counterkill—More Than Just Chips
 
 ## Core Argument

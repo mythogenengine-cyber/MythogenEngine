@@ -24,8 +24,8 @@ keywords:
 summary: "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses."
 status: published
 reading_time: 4
+description: "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses."
 ---
-
 # "Knowing" and "Doing" Were Never the Same Thing
 
 Someone used a beautiful analogy: a 15th-century letterpress printer was simultaneously a typesetter, ink blender, bookbinder, and bookseller. Industrialization spent three hundred years splitting him into ten different professions. Now, AI is compressing those ten professions back into one person.

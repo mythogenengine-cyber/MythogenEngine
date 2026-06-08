@@ -10,7 +10,7 @@
       "topic": "",
       "tags": {},
       "keywords": [],
-      "summary": "",
+      "summary": "import DiaryList from '@site/src/components/DiaryList';",
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0

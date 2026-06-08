@@ -1,3 +1,8 @@
+---
+title: "Final Chapter: Games Are the Future (v5b)"
+description: "Two in the morning. The same moment that opened the prologue."
+summary: "Two in the morning. The same moment that opened the prologue."
+---
 # Final Chapter: Games Are the Future (v5b)
 
 Two in the morning.

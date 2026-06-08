@@ -28,8 +28,8 @@ status: published
 reading_time: 18
 sidebar_label: "AI 模型不是變笨了，是不再為你而設計"
 sidebar_position: 20260429
+description: "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。"
 ---
-
 # AI 模型不是變笨了，是不再為你而設計
 
 ## 當 300 億美元的年化營收告訴你，你不是目標客戶

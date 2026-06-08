@@ -1,3 +1,8 @@
+---
+title: "第三章 微軟的恐懼與 Xbox 的誕生"
+description: "In January 2024, Microsoft announced the layoff of 1,900 people from its gaming division."
+summary: "In January 2024, Microsoft announced the layoff of 1,900 people from its gaming division."
+---
 ## Chapter 3: Microsoft's Fear and the Birth of Xbox
 
 In January 2024, Microsoft announced the layoff of 1,900 people from its gaming division. Three months earlier, it had just spent $69 billion to complete the largest acquisition in the history of human commerce—Activision Blizzard. In the spring of the same year, several Xbox exclusive games quietly appeared on the PlayStation 5 store. By autumn, Phil Spencer—the last spokesperson of the Xbox brand trusted by gamers—handed over the reins.

@@ -141,18 +141,26 @@ function CategoryCards() {
                   <Sparkles size={36} strokeWidth={1.5} />
                 </div>
                 <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  Mirror Realm <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isZh ? '(科幻小說)' : '(Sci-Fi Novel)'}
-                  </span>
+                  Mirror Realm
                 </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '長篇連載科幻小說。一個由故障天體引擎渲染的世界，融合半自傳經歷、虛構世界觀與個人日記碎片。'
-                    : isZhHK
-                    ? '長篇連載科幻小說。一個由故障天體引擎渲染嘅世界，融合半自傳經歷、虛構世界觀同個人日記碎片。'
-                    : 'A serialized sci-fi novel. A world rendered by a malfunctioning celestial engine, weaving together semi-autobiographical experience, fictional worldbuilding, and personal diary fragments.'}
-                </p>
+                <div style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
+                  {isZhTW ? (
+                    <>
+                      <p>一個工程師走進設計好讓你輸的系統。說的、寫的、做的，從來都不是同一套——他花了四年才聽到這句話的重量。</p>
+                      <p>如果你在一間大公司裡，覺得有些事情不對勁，但說不清楚哪裡不對——這本書試圖替你命名。以虛構島嶼為舞台，解剖制度如何在不需要壞人的情況下，把人磨碎。</p>
+                    </>
+                  ) : isZhHK ? (
+                    <>
+                      <p>一個工程師走進設計好要你輸嘅系統。講嘅、寫嘅、做嘅，從來都唔係同一套——佢用咗四年先聽到呢句話嘅重量。</p>
+                      <p>如果你喺一間大公司入面，覺得有啲嘢唔對路，但講唔清楚邊度唔對——呢本書試圖幫你命名。以虛構島嶼為舞台，解剖制度點樣喺唔需要壞人嘅情況下，將人磨碎。</p>
+                    </>
+                  ) : (
+                    <>
+                      <p>An engineer walks into a system designed to make you lose. What is said, written, and done are never the same—it took him four years to hear the weight of these words.</p>
+                      <p>If you're in a large corporation and feel something is wrong but can't articulate what it is—this book attempts to name it for you. Set on a fictional island, it dissects how institutions grind people down without needing villains.</p>
+                    </>
+                  )}
+                </div>
               </div>
               <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
                 <Link to="/docs/mirror-realm/prologue" style={{ color: 'var(--color-secondary-container)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
@@ -285,7 +293,7 @@ function CategoryCards() {
                 </p>
               </div>
               <div className="margin-left--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/category/diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                <Link to="/docs/Diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Diary' : '閱讀隨筆'} <ArrowRight size={20} />
                 </Link>
               </div>

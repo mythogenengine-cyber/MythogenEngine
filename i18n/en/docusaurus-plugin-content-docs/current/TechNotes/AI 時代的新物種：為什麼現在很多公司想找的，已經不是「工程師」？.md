@@ -3,7 +3,7 @@ title: "The New Species of the AI Era: Why Many Companies Are No Longer Looking 
 date: 2026-05-23
 lang: en
 section: sober-record
-topic: ai-labour-market
+topic: t-labor
 article_tags:
   zh:
     - AI 內容工業化

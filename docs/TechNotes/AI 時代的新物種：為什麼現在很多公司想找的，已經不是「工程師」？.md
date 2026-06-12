@@ -3,7 +3,7 @@ title: "AI 時代的新物種：為什麼現在很多公司想找的，已經不
 date: 2026-05-23
 lang: zh-Hant
 section: sober-record
-topic: ai-labour-market
+topic: t-labor
 article_tags:
   zh:
     - AI 內容工業化

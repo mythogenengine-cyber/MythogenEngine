@@ -1,6 +1,39 @@
 {
   "zh-Hant": [
     {
+      "id": "一場豪賭的正常與不正常",
+      "slug": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",
+      "title": "後記：一場豪賭的正常與不正常",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "槓桿",
+        "願賭服輸"
+      ],
+      "summary": "以「願賭服輸」的視角重新審視樂風集團案：對賭正常、PG正常、高槓桿正常——唯一不正常的，是誰被推上了賭桌。",
+      "status": "draft",
+      "reading_time": 7
+    },
+    {
       "id": "index",
       "slug": "/docs/Diary/index",
       "title": "隨心書寫",
@@ -14,6 +47,33 @@
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0
+    },
+    {
+      "id": "七日書_無用之用_道",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8_%E7%84%A1%E7%94%A8%E4%B9%8B%E7%94%A8_%E9%81%93",
+      "title": "七日書：無用之用・道",
+      "date": "2026-06-05T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "人文教育"
+        ],
+        "en": [
+          "personal-essay",
+          "humanities-education"
+        ]
+      },
+      "keywords": [
+        "七日書",
+        "無用之用",
+        "道"
+      ],
+      "summary": "探討無用之用與道的個人隨筆紀錄。",
+      "status": "published",
+      "reading_time": 15
     },
     {
       "id": "中國的「高速工業化系統」與全球競爭的真正問題",
@@ -195,6 +255,39 @@
   ],
   "zh-HK": [
     {
+      "id": "一場豪賭的正常與不正常",
+      "slug": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",
+      "title": "後記：一場豪賭的正常與不正常",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "樂風集團",
+        "PE基金",
+        "Personal Guarantee",
+        "槓桿",
+        "願賭服輸"
+      ],
+      "summary": "以「願賭服輸」的視角重新審視樂風集團案：對賭正常、PG正常、高槓桿正常——唯一不正常的，是誰被推上了賭桌。",
+      "status": "draft",
+      "reading_time": 7
+    },
+    {
       "id": "中國的「高速工業化系統」與全球競爭的真正問題",
       "slug": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C",
       "title": "中國的「高速工業化系統」與全球競爭的真正問題",
@@ -373,6 +466,40 @@
     }
   ],
   "en": [
+    {
+      "id": "一場豪賭的正常與不正常",
+      "slug": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",
+      "title": "Postscript: The Normal and the Abnormal in a High-Stakes Gamble",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-platform",
+      "tags": {
+        "zh": [
+          "利益衝突",
+          "資訊不對稱",
+          "風險轉嫁",
+          "投資者保護"
+        ],
+        "en": [
+          "conflict-of-interest",
+          "information-asymmetry",
+          "risk-transfer",
+          "investor-protection"
+        ]
+      },
+      "keywords": [
+        "Lofter Group",
+        "PE fund",
+        "Personal Guarantee",
+        "leverage",
+        "you bet you lose"
+      ],
+      "summary": "Re-examining the Lofter Group case through the lens of 'you bet, you lose': the gamble was normal, the PG was normal, the high leverage was normal — the only thing that was not normal was who got pushed onto the gambling table.",
+      "status": "draft",
+      "reading_time": 7,
+      "sidebar_position": 20260612
+    },
     {
       "id": "中國的「高速工業化系統」與全球競爭的真正問題",
       "slug": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C",

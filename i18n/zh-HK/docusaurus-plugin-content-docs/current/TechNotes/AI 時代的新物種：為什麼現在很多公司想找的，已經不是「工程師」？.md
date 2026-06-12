@@ -3,7 +3,7 @@ title: "AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係
 date: 2026-05-23
 lang: zh-HK
 section: sober-record
-topic: ai-labour-market
+topic: t-labor
 article_tags:
   zh:
     - AI 內容工業化

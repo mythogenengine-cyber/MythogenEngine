@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第四次搶灘的真相_v2.md",
+                "file": "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/間章_全面性的消亡_v1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第四次搶灘的真相_v2"
+              "title": "間章_全面性的消亡_v1"
             }
           }
         ],
@@ -214,6 +214,11 @@
   },
   "active": "a4e69a5f250838a9",
   "lastOpenFiles": [
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3.md",
+    "docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.md",
+    "docs/Diary/Gemini_Generated_Image_ga05wxga05wxga05.png",
+    "第四次搶灘的真相_v2.md",
     "build/zh-HK/docs/mirror-realm/epilogue.html",
     "build/zh-HK/docs/mirror-realm/prologue.html",
     "build/zh-HK/docs/mirror-realm/ch19.html",
@@ -224,7 +229,6 @@
     "build/zh-HK/docs/mirror-realm/ch14.html",
     "build/zh-HK/docs/mirror-realm/ch12b.html",
     "build/zh-HK/docs/mirror-realm/ch13.html",
-    "build/zh-HK/docs/mirror-realm/ch12.html",
     "build/zh-HK/img/cover-tw.png",
     "build/zh-HK/img/cover-hk.png",
     "build/zh-HK/assets/images/Opus47_06-246ad7e19a0e11ced23122a4ee8f1cfa.png",
@@ -234,7 +238,6 @@
     "build/zh-HK/assets/images/Opus47_03-87097f53be6ff1f413c6c016ee119ec4.png",
     "build/zh-HK/assets/images/Opus47_02-b2b0934a187027504243ce48ab915558.png",
     "build/zh-HK/assets/images/gemini_test1-3aadbc7753c1aa519f74e76d8f931f8e.png",
-    "build/zh-HK/assets/images/Opus47_01-2d062fcc64019c86075bf8da401bc215.png",
     "docs/Diary/04-一場豪賭的正常與不正常.md",
     "docs/Diary/看不見的暴力，和一本沒人要求我寫的書.md",
     "docs/Diary/中國的「高速工業化系統」與全球競爭的真正問題.md",
@@ -242,7 +245,6 @@
     "i18n/en/docusaurus-plugin-content-docs/current/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md",
     "i18n/en/docusaurus-plugin-content-docs/current/Diary/01-樂風集團案的食物鏈結構.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/遊戲之勝_微軟與世嘉的跨國糾纏.md",
-    "docs/TechNotes/遊戲之勝_微軟與世嘉的跨國糾纏.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/04-一場豪賭的正常與不正常.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md",
     "i18n/en/docusaurus-plugin-content-docs/current/Diary/02-收費結構決定言論自由.md",
@@ -250,7 +252,6 @@
     "docs/TechNotes/資訊封建主義 (1).md",
     "docs/TechNotes/當 AI 拆穿了「文筆」的幻覺.md",
     "docs/TechNotes/送得到未來的書.md",
-    "第四次搶灘的真相_v2.md",
     "docs/TechNotes/AI開始自己寫自己_但帳單寄給了遊戲玩家_v2.md",
     "docs/Diary/02-收費結構決定言論自由.md",
     "docs/Diary/七日書_無用之用_道.md",
@@ -258,7 +259,6 @@
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/02-收費結構決定言論自由.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/01-樂風集團案的食物鏈結構.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/中國的「高速工業化系統」與全球競爭的真正問題.md",
-    "docs/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md",
-    "樂風集團案的食物鏈結構.md"
+    "docs/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md"
   ]
 }

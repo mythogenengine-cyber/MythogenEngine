@@ -2,8 +2,8 @@
 const config = {
   title: 'Mythogen Engine',
   tagline: 'Refining AI and Speculative Narratives',
-  url: 'https://mythogenengine-cyber.github.io',
-  baseUrl: '/MythogenEngine/', // Target repository name
+  url: 'https://mythogenengine.com',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

@@ -71,6 +71,12 @@ const config = {
             label: 'GameVictory',
           },
           {
+            type: 'doc',
+            docId: 'AI_TAO/INFO_PAGE',
+            position: 'left',
+            label: 'The Invisible Path',
+          },
+          {
             to: '/docs/TechNotes',
             position: 'left',
             label: 'Lucid Record',

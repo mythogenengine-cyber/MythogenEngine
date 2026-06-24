@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/間章_全面性的消亡_v1.md",
+                "file": "docs/AI_TAO/INFO_PAGE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "間章_全面性的消亡_v1"
+              "title": "INFO_PAGE"
             }
           }
         ],
@@ -214,6 +214,13 @@
   },
   "active": "a4e69a5f250838a9",
   "lastOpenFiles": [
+    "book_info_page_svg_大道無形.png",
+    "book_back_cover_v2_大道無形.png",
+    "ChatGPT Image 2026年6月24日 下午04_28_52.png",
+    "docs/AI_TAO/prologue.md",
+    "docs/AI_TAO/intro.md",
+    "docs/AI_TAO/epilogue.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/間章_全面性的消亡_v1.md",
     "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2.md",
     "i18n/en/docusaurus-plugin-content-docs/current/GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3.md",
     "docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.md",
@@ -236,8 +243,6 @@
     "build/zh-HK/assets/images/Opus47_04-6578cc0cda2e34f6ab580d93b1cef425.png",
     "build/zh-HK/assets/images/Opus47_05-e720b001d4727ead58ac4fe7018ebd7a.png",
     "build/zh-HK/assets/images/Opus47_03-87097f53be6ff1f413c6c016ee119ec4.png",
-    "build/zh-HK/assets/images/Opus47_02-b2b0934a187027504243ce48ab915558.png",
-    "build/zh-HK/assets/images/gemini_test1-3aadbc7753c1aa519f74e76d8f931f8e.png",
     "docs/Diary/04-一場豪賭的正常與不正常.md",
     "docs/Diary/看不見的暴力，和一本沒人要求我寫的書.md",
     "docs/Diary/中國的「高速工業化系統」與全球競爭的真正問題.md",
@@ -254,11 +259,6 @@
     "docs/TechNotes/送得到未來的書.md",
     "docs/TechNotes/AI開始自己寫自己_但帳單寄給了遊戲玩家_v2.md",
     "docs/Diary/02-收費結構決定言論自由.md",
-    "docs/Diary/七日書_無用之用_道.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/Diary/中國的「高速工業化系統」與全球競爭的真正問題.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/02-收費結構決定言論自由.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/01-樂風集團案的食物鏈結構.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/中國的「高速工業化系統」與全球競爭的真正問題.md",
-    "docs/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md"
+    "docs/Diary/七日書_無用之用_道.md"
   ]
 }

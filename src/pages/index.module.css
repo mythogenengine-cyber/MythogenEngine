@@ -1,0 +1,189 @@
+/* ===========================
+   Hero Book Section Layout
+   =========================== */
+
+.heroBookSection {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 0 4rem;
+}
+
+.heroContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.heroCoverWrap {
+  flex-shrink: 0;
+  width: 280px;
+  perspective: 1000px;
+}
+
+.heroCoverImg {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(0, 243, 255, 0.08),
+    0 0 80px rgba(182, 0, 248, 0.05);
+  animation: coverFloat 6s ease-in-out infinite;
+  transition: transform 0.4s ease;
+}
+
+.heroCoverImg:hover {
+  transform: rotateY(-5deg) scale(1.02);
+}
+
+/* Gold sentence */
+.heroHeadline {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 3.2rem;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: #e3fdff;
+  margin-bottom: 0.5rem;
+}
+
+.heroHeadlineAccent {
+  background: linear-gradient(135deg, #00f3ff 0%, #b600f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Covering structure lines */
+.coveringLines {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.coveringLine {
+  font-family: var(--ifm-font-family-base);
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--color-on-surface-variant);
+  opacity: 0;
+  animation: revealLine 0.6s ease forwards;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.coveringLine::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background: var(--ifm-color-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
+}
+
+.coveringLine:nth-child(1) { animation-delay: 0.3s; }
+.coveringLine:nth-child(2) { animation-delay: 0.6s; }
+.coveringLine:nth-child(3) { animation-delay: 0.9s; }
+
+/* Dash sentence */
+.heroDash {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--ifm-color-primary);
+  margin: 1.5rem 0 0.5rem;
+  opacity: 0;
+  animation: revealLine 0.8s ease forwards;
+  animation-delay: 1.2s;
+}
+
+/* Closing sentence */
+.heroClosing {
+  font-family: var(--ifm-font-family-base);
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--color-on-surface-variant);
+  margin: 0.75rem 0 2rem;
+  opacity: 0;
+  animation: revealLine 0.8s ease forwards;
+  animation-delay: 1.5s;
+  line-height: 1.7;
+}
+
+/* Buttons */
+.heroActions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: revealLine 0.6s ease forwards;
+  animation-delay: 1.8s;
+}
+
+/* ===========================
+   Keyframes
+   =========================== */
+
+@keyframes coverFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes revealLine {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+
+@media (max-width: 996px) {
+  .heroBookSection {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 3rem 0 2rem;
+    text-align: center;
+  }
+
+  .heroCoverWrap {
+    width: 200px;
+  }
+
+  .heroHeadline {
+    font-size: 2.4rem;
+  }
+
+  .coveringLine {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .coveringLine::before {
+    display: none;
+  }
+
+  .heroActions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroHeadline {
+    font-size: 1.8rem;
+  }
+
+  .heroCoverWrap {
+    width: 160px;
+  }
+}

@@ -15,6 +15,10 @@
     "message": "GameVictory",
     "description": "Navbar item with label GameVictory"
   },
+  "item.label.The Invisible Path": {
+    "message": "The Invisible Path",
+    "description": "Navbar item with label The Invisible Path"
+  },
   "item.label.Lucid Record": {
     "message": "Lucid Record",
     "description": "Navbar item with label Lucid Record"

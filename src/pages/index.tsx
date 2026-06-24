@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee } from 'lucide-react';
+import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield } from 'lucide-react';
 
 function HeroSection() {
   const { i18n } = useDocusaurusContext();
@@ -12,54 +12,87 @@ function HeroSection() {
   const isZhHK = locale === 'zh-HK';
   const isEn = locale === 'en';
 
-  const tagline = isZhTW
-    ? 'AI 產業深度分析 ✕ 科幻敘事 ✕ 科技歷史'
-    : isZhHK
-    ? 'AI 產業深度分析 ✕ 科幻敘事 ✕ 科技歷史'
-    : 'AI Industry Analysis ✕ Sci-Fi Fiction ✕ Tech History';
+  // Core headline
+  const headline1 = isEn ? "AI isn't the problem." : 'AI 不是問題，';
+  const headline2 = isEn ? 'The coverings are.' : '遮蓋物才是。';
 
-  const subtitle = isZhTW
-    ? '一個跨越產業評論、長篇小說與遊戲科技史的寫作計劃。不賣課、不販焦慮，只做清醒的記錄。'
+  // Covering structure lines
+  const coveringLines = isZhTW
+    ? ['文筆遮蓋空洞', '證書遮蓋缺席', '企業話術遮蓋權力運作']
     : isZhHK
-    ? '一個跨越產業評論、長篇小說同遊戲科技史嘅寫作計劃。唔賣課、唔販焦慮，只做清醒嘅記錄。'
-    : 'A writing project spanning industry commentary, serialized fiction, and the hidden history of gaming technology. No courses. No hype. Just clear-eyed documentation.';
+    ? ['文筆遮蓋空洞', '證書遮蓋缺席', '企業話術遮蓋權力運作']
+    : ['Prose covers emptiness', 'Credentials cover absence', 'Corporate rhetoric covers power dynamics'];
 
-  const startReading = isEn ? 'Start Reading' : '開始閱讀';
+  // Dash sentence
+  const dashLine = isZhTW
+    ? '——AI 只是把它們一次性掀開。'
+    : isZhHK
+    ? '——AI 只係將佢哋一次過掀開。'
+    : '— AI just rips them all off at once.';
+
+  // Closing sentence
+  const closingLine = isZhTW
+    ? '從敘事的製造、成本的轉嫁、焦慮的套利，一路追到意識的結構。不賣焦慮，不賣工具，拆的是底層力學。技術會變，平台會換，但驅動這一切的機制不會變——看懂了力學，技術怎麼變都不怕。'
+    : isZhHK
+    ? '從敘事嘅製造、成本嘅轉嫁、焦慮嘅套利，一路追到意識嘅結構。唔賣焦慮，唔賣工具，拆嘅係底層力學。技術會變，平台會換，但驅動呢一切嘅機制唔會變——睇明咗力學，技術點變都唔使驚。'
+    : 'From the manufacturing of narratives, to the passing of costs, to the arbitrage of anxiety — all the way to the structure of consciousness. No anxiety to sell. No tools to peddle. What it dismantles is the underlying mechanics. Technology changes, platforms shift, but the mechanisms driving it all remain — understand the mechanics, and no change can catch you off guard.';
+
+  const readBook = isEn ? 'Read the Book' : '閱讀全書';
   const sponsor = isEn ? 'Sponsor' : '贊助支持';
 
   return (
     <header className="hero-banner">
       <div className="container-wide">
-        <div className="row">
-          <div className="col col--8">
-            <h1 className="hero-title text-8xl font-extralight tracking-tighter leading-none mb-8" style={{ fontSize: '5rem', lineHeight: '1.1' }}>
-              Mythogen Engine
+        <div className={styles.heroBookSection}>
+          {/* Left: Text content */}
+          <div className={styles.heroContent}>
+            <div style={{ marginBottom: '0.5rem' }}>
+              <span className="badge" style={{ background: 'linear-gradient(135deg, #00f3ff, #b600f8)', border: 'none', color: 'black', fontWeight: 600, fontSize: '0.7rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                {isEn ? 'NEW BOOK · 2026' : '全新出版 · 2026'}
+              </span>
+            </div>
+            <h1 className={styles.heroHeadline}>
+              {headline1}<br />
+              <span className={styles.heroHeadlineAccent}>{headline2}</span>
             </h1>
-            <p className="hero-subtitle text-xl font-light leading-relaxed max-w-2xl mb-4" style={{ color: 'var(--ifm-color-primary)', fontSize: '1.1rem', fontWeight: 300 }}>
-              {tagline}
-            </p>
-            <p className="hero-subtitle text-xl font-light leading-relaxed max-w-2xl mb-12" style={{ color: 'var(--color-on-surface-variant)', fontSize: '1.1rem' }}>
-              {subtitle}
-            </p>
-            <div className="flex space-x-4">
+            <div className={styles.coveringLines}>
+              {coveringLines.map((line, i) => (
+                <div key={i} className={styles.coveringLine}>{line}</div>
+              ))}
+            </div>
+            <p className={styles.heroDash}>{dashLine}</p>
+            <p className={styles.heroClosing}>{closingLine}</p>
+            <div className={styles.heroActions}>
               <Link
                 className="button button--outline button--primary button--lg"
-                to="/docs/ai-war/guide">
-                {startReading}
+                to="/docs/AI_TAO/INFO_PAGE"
+                style={{ borderWidth: '2px', fontWeight: 500 }}>
+                {readBook} <ArrowRight size={18} style={{ marginLeft: '0.4rem' }} />
               </Link>
               <Link
                 className="button button--outline button--lg"
                 to="https://portaly.cc/Mythogen"
-                style={{ marginLeft: '1rem', borderColor: 'var(--color-secondary-container)', color: 'var(--color-secondary-container)' }}>
+                style={{ borderColor: 'var(--color-secondary-container)', color: 'var(--color-secondary-container)' }}>
                 {sponsor}
               </Link>
               <Link
                 className="button button--outline button--lg"
                 to="https://matters.town/@mythogenengine"
-                style={{ marginLeft: '1rem', borderColor: 'var(--ifm-color-warning)', color: 'var(--ifm-color-warning)' }}>
+                style={{ borderColor: 'var(--ifm-color-warning)', color: 'var(--ifm-color-warning)' }}>
                 MATTERS
               </Link>
             </div>
+          </div>
+
+          {/* Right: Book cover */}
+          <div className={styles.heroCoverWrap}>
+            <Link to="/docs/AI_TAO/INFO_PAGE">
+              <img
+                src="/img/book_cover_invisible_path.png"
+                alt={isEn ? 'The Invisible Path — Book Cover' : '大道無形 — 書封面'}
+                className={styles.heroCoverImg}
+              />
+            </Link>
           </div>
         </div>
       </div>
@@ -79,6 +112,54 @@ function CategoryCards() {
     <section className="padding-vert--xl" style={{ borderTop: '1px solid rgba(255, 255, 255, 0.05)' }}>
       <div className="container-wide">
         <div className="row">
+          {/* The Invisible Path (col-12) */}
+          <div className="col col--12 margin-bottom--lg">
+            <div className="card shadow--md" style={{ 
+              background: 'var(--color-surface-container-lowest)', 
+              padding: '3rem', 
+              borderRadius: '0.25rem',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              border: 'none',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              <div style={{ position: 'absolute', top: 0, right: 0, width: '400px', height: '300px', background: 'linear-gradient(135deg, #00f3ff, #b600f8)', filter: 'blur(120px)', opacity: 0.12, borderRadius: '50%' }}></div>
+              <div style={{ position: 'relative', zIndex: 1, flex: 1, paddingRight: '2rem' }}>
+                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-primary)', display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                  <Shield size={36} strokeWidth={1.5} />
+                  <Sparkles size={36} strokeWidth={1.5} />
+                  <BookOpen size={36} strokeWidth={1.5} />
+                  <span className="badge" style={{ background: 'linear-gradient(135deg, #00f3ff, #b600f8)', border: 'none', color: 'black', fontWeight: 600, fontSize: '0.75rem', padding: '0.25rem 0.75rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    {isEn ? 'NEW RELEASE' : '全新上架'}
+                  </span>
+                </div>
+                <h2 className="text-4xl font-headline mb-4" style={{ fontSize: '2.5rem', color: 'white', fontWeight: 200 }}>
+                  {isEn ? 'The Invisible Path' : '大道無形'} <br />
+                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.4rem', display: 'block', marginTop: '0.5rem', color: 'var(--color-on-surface-variant)' }}>
+                    {isEn ? 'Narrative, Tools, and the Last Line of Defence' : '敘事、工具與意識的最後防線'}
+                  </span>
+                </h2>
+                <div style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300, lineHeight: 1.7, fontSize: '1.05rem' }}>
+                  {isZhTW ? (
+                    <p>AI 不是問題，遮蓋物才是。文筆遮蓋空洞，證書遮蓋缺席，企業話術遮蓋權力運作——AI 只是把它們一次性掀開。從敘事的製造、成本的轉嫁、焦慮的套利，一路追到意識的結構。不賣焦慮，不賣工具，拆的是底層力學。</p>
+                  ) : isZhHK ? (
+                    <p>AI 唔係問題，遮蓋物先係。文筆遮蓋空洞，證書遮蓋缺席，企業話術遮蓋權力運作——AI 只係將佢哋一次過掀開。從敘事嘅製造、成本嘅轉嫁、焦慮嘅套利，一路追到意識嘅結構。唔賣焦慮，唔賣工具，拆嘅係底層力學。</p>
+                  ) : (
+                    <p>AI isn't the problem — the coverings are. Prose covers emptiness, credentials cover absence, corporate rhetoric covers power dynamics. AI just rips them all off at once. From narrative manufacturing to cost displacement to anxiety arbitrage — all the way to the structure of consciousness. No anxiety to sell. No tools to peddle. It dismantles the underlying mechanics.</p>
+                  )}
+                </div>
+              </div>
+              <div className="margin-left--lg" style={{ position: 'relative', zIndex: 1, minWidth: '160px', textAlign: 'right' }}>
+                <Link to="/docs/AI_TAO/INFO_PAGE" className="button button--outline button--primary button--lg" style={{ borderWidth: '2px', fontWeight: 500, display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                  {isEn ? 'Read Book' : '閱讀全書'} <ArrowRight size={18} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* AI Ecosystem War */}
           <div className="col col--6 margin-bottom--lg">
             <div className="card shadow--md" style={{ 

@@ -3,6 +3,10 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.docs.category.大道無形": {
+    "message": "The Invisible Path",
+    "description": "The label for category 大道無形 in sidebar docs"
+  },
   "sidebar.docs.category.AI Ecosystem War": {
     "message": "AI Ecosystem War",
     "description": "The label for category AI Ecosystem War in sidebar docs"

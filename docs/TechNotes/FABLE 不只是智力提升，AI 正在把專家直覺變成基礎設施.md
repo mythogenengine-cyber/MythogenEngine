@@ -1,3 +1,28 @@
+---
+title: "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施"
+date: 2026-07-01
+lang: zh-Hant
+section: sober-record
+topic: t-ai
+article_tags:
+  zh:
+    - AI
+    - FABLE
+    - 專家直覺
+  en:
+    - ai
+    - fable
+    - expert-intuition
+keywords:
+  - FABLE
+  - AI
+  - 專家直覺
+summary: "每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。"
+status: published
+reading_time: 8
+sidebar_position: 1
+description: "每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。"
+---
 # FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施
 
 每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。

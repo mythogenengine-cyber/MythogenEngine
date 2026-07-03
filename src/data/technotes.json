@@ -1,6 +1,70 @@
 {
   "zh-Hant": [
     {
+      "id": "殺死創新的標準作業程序",
+      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
+      "title": "殺死創新的標準作業程序",
+      "date": "2026-07-02T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "創新",
+          "遊戲產業",
+          "資本運作",
+          "效率優化"
+        ],
+        "en": [
+          "innovation",
+          "game-industry",
+          "capitalism",
+          "efficiency-optimization"
+        ]
+      },
+      "keywords": [
+        "殺死創新",
+        "標準作業程序",
+        "遊戲業",
+        "資本",
+        "優化"
+      ],
+      "summary": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 2
+    },
+    {
+      "id": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
+      "slug": "/docs/TechNotes/FABLE%20%E4%B8%8D%E5%8F%AA%E6%98%AF%E6%99%BA%E5%8A%9B%E6%8F%90%E5%8D%87%EF%BC%8CAI%20%E6%AD%A3%E5%9C%A8%E6%8A%8A%E5%B0%88%E5%AE%B6%E7%9B%B4%E8%A6%BA%E8%AE%8A%E6%88%90%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD",
+      "title": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
+      "date": "2026-07-01T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai",
+      "tags": {
+        "zh": [
+          "AI",
+          "FABLE",
+          "專家直覺"
+        ],
+        "en": [
+          "ai",
+          "fable",
+          "expert-intuition"
+        ]
+      },
+      "keywords": [
+        "FABLE",
+        "AI",
+        "專家直覺"
+      ],
+      "summary": "每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 1
+    },
+    {
       "id": "當所有人都在學AI",
       "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
       "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
@@ -32,6 +96,36 @@
       "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
       "status": "published",
       "reading_time": 12
+    },
+    {
+      "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
+      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
+      "title": "遊戲致勝：微軟與世嘉的跨國糾纏",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "平台生態戰",
+          "主機戰爭"
+        ],
+        "en": [
+          "game-industry",
+          "platform-ecosystem-war",
+          "console-war"
+        ]
+      },
+      "keywords": [
+        "Xbox",
+        "Sega",
+        "Dreamcast",
+        "Microsoft"
+      ],
+      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
+      "status": "published",
+      "reading_time": 10
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -208,121 +302,6 @@
       "reading_time": 20
     },
     {
-      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
-      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "date": "2026-05-10T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "事實查核",
-          "世界觀設定"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "fact-checking",
-          "worldbuilding"
-        ]
-      },
-      "keywords": [
-        "遊戲致勝",
-        "鏡界",
-        "認知位置",
-        "擴散型鎖定",
-        "任天堂"
-      ],
-      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
-      "status": "published",
-      "reading_time": 18
-    },
-    {
-      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
-      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "date": "2026-05-03T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Google",
-          "商業模式",
-          "平台壟斷",
-          "API 定價",
-          "垂直整合"
-        ],
-        "en": [
-          "google",
-          "business-model",
-          "platform-monopoly",
-          "api-pricing",
-          "vertical-integration"
-        ]
-      },
-      "keywords": [
-        "Google Cloud Next",
-        "A2A 協議",
-        "Gemini",
-        "企業雲端",
-        "免費模型"
-      ],
-      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
-      "status": "published",
-      "reading_time": 15
-    },
-    {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0
-    },
-    {
-      "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
-      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
-      "title": "遊戲致勝：微軟與世嘉的跨國糾纏",
-      "date": "2026-06-12T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "gamevictory",
-      "topic": "t-game-history",
-      "tags": {
-        "zh": [
-          "遊戲產業",
-          "平台生態戰",
-          "主機戰爭"
-        ],
-        "en": [
-          "game-industry",
-          "platform-ecosystem-war",
-          "console-war"
-        ]
-      },
-      "keywords": [
-        "Xbox",
-        "Sega",
-        "Dreamcast",
-        "Microsoft"
-      ],
-      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
-      "status": "published",
-      "reading_time": 10
-    },
-    {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
       "slug": "/docs/TechNotes/%E3%80%90Buzzword%20%E9%80%9A%E8%84%B9%EF%BC%9AAI%20%E6%99%82%E4%BB%A3%E7%9A%84%E9%81%8E%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%B6%93%E6%BF%9F%E5%AD%B8%E3%80%91",
       "title": "Buzzword 通脹：AI 時代的過度設計經濟學",
@@ -393,6 +372,41 @@
       "reading_time": 10
     },
     {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
+      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "遊戲致勝",
+        "鏡界",
+        "認知位置",
+        "擴散型鎖定",
+        "任天堂"
+      ],
+      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
+      "status": "published",
+      "reading_time": 18
+    },
+    {
       "id": "人寫還是AI寫，其實是個假問題",
       "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
       "title": "人寫還是AI寫，其實是個假問題",
@@ -426,6 +440,41 @@
       "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
       "status": "published",
       "reading_time": 10
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
+      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A 協議",
+        "Gemini",
+        "企業雲端",
+        "免費模型"
+      ],
+      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
+      "status": "published",
+      "reading_time": 15
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -534,6 +583,21 @@
       "reading_time": 6
     },
     {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0
+    },
+    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
@@ -607,6 +671,40 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "殺死創新的標準作業程序",
+      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
+      "title": "殺死創新的標準作業程序",
+      "date": "2026-07-02T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "創新",
+          "遊戲產業",
+          "資本運作",
+          "效率優化"
+        ],
+        "en": [
+          "innovation",
+          "game-industry",
+          "capitalism",
+          "efficiency-optimization"
+        ]
+      },
+      "keywords": [
+        "殺死創新",
+        "標準作業程序",
+        "遊戲業",
+        "資本",
+        "優化"
+      ],
+      "summary": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 2
+    },
     {
       "id": "當所有人都在學AI",
       "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
@@ -710,39 +808,6 @@
       "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
       "status": "published",
       "reading_time": 18
-    },
-    {
-      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
-      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
-      "title": "「識」和「做到」，從來都不是同一件事",
-      "date": "2026-05-25T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "gamevictory",
-      "topic": "t-game-history",
-      "tags": {
-        "zh": [
-          "AI",
-          "開發者生態",
-          "算力霸權",
-          "遊戲產業"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "developer-ecosystem",
-          "compute-hegemony",
-          "game-industry"
-        ]
-      },
-      "keywords": [
-        "超級 Builder",
-        "判斷力",
-        "CUDA",
-        "DirectX",
-        "活版印刷"
-      ],
-      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
-      "status": "published",
-      "reading_time": 4
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -898,6 +963,39 @@
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "「識」和「做到」，從來都不是同一件事",
+      "date": "2026-05-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
+        ]
+      },
+      "keywords": [
+        "超級 Builder",
+        "判斷力",
+        "CUDA",
+        "DirectX",
+        "活版印刷"
+      ],
+      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
+      "status": "published",
+      "reading_time": 4
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -1185,6 +1283,40 @@
   ],
   "en": [
     {
+      "id": "殺死創新的標準作業程序",
+      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
+      "title": "The Standard Operating Procedure for Killing Innovation",
+      "date": "2026-07-02T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "創新",
+          "遊戲產業",
+          "資本運作",
+          "效率優化"
+        ],
+        "en": [
+          "innovation",
+          "game-industry",
+          "capitalism",
+          "efficiency-optimization"
+        ]
+      },
+      "keywords": [
+        "killing innovation",
+        "standard operating procedure",
+        "games industry",
+        "capital",
+        "optimization"
+      ],
+      "summary": "The same script—when capital learns how to kill innovation, every industry becomes the games industry.",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 2
+    },
+    {
       "id": "當所有人都在學AI",
       "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
       "title": "The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?",
@@ -1216,6 +1348,36 @@
       "summary": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
       "status": "published",
       "reading_time": 12
+    },
+    {
+      "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
+      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E4%B9%8B%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
+      "title": "遊戲之勝：微軟與世嘉的跨國糾纏",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "en",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "平台生態戰",
+          "主機戰爭"
+        ],
+        "en": [
+          "game-industry",
+          "platform-ecosystem-war",
+          "console-war"
+        ]
+      },
+      "keywords": [
+        "Xbox",
+        "Sega",
+        "Dreamcast",
+        "Microsoft"
+      ],
+      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
+      "status": "published",
+      "reading_time": 10
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -1287,39 +1449,6 @@
       "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
       "status": "published",
       "reading_time": 18
-    },
-    {
-      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
-      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
-      "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
-      "date": "2026-05-25T00:00:00.000Z",
-      "lang": "en",
-      "section": "gamevictory",
-      "topic": "t-game-history",
-      "tags": {
-        "zh": [
-          "AI",
-          "開發者生態",
-          "算力霸權",
-          "遊戲產業"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "developer-ecosystem",
-          "compute-hegemony",
-          "game-industry"
-        ]
-      },
-      "keywords": [
-        "Super Builder",
-        "judgment",
-        "CUDA",
-        "DirectX",
-        "letterpress printing"
-      ],
-      "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
-      "status": "published",
-      "reading_time": 4
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -1477,34 +1606,37 @@
       "sidebar_position": 0
     },
     {
-      "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
-      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E4%B9%8B%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
-      "title": "遊戲之勝：微軟與世嘉的跨國糾纏",
-      "date": "2026-06-12T00:00:00.000Z",
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
+      "date": "2026-05-25T00:00:00.000Z",
       "lang": "en",
       "section": "gamevictory",
       "topic": "t-game-history",
       "tags": {
         "zh": [
-          "遊戲產業",
-          "平台生態戰",
-          "主機戰爭"
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
         ],
         "en": [
-          "game-industry",
-          "platform-ecosystem-war",
-          "console-war"
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
         ]
       },
       "keywords": [
-        "Xbox",
-        "Sega",
-        "Dreamcast",
-        "Microsoft"
+        "Super Builder",
+        "judgment",
+        "CUDA",
+        "DirectX",
+        "letterpress printing"
       ],
-      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
+      "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 4
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",

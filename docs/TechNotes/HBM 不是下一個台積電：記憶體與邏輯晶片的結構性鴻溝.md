@@ -28,13 +28,13 @@ status: published
 reading_time: 18
 description: "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。"
 ---
-![](ChatGPT%20Image%202026年5月27日%20上午10_15_57.png)
+![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.png)
 
-![](ChatGPT%20Image%202026年5月27日%20上午10_10_05.png)
+![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.png)
 
-![](Gemini_Generated_Image_fr320bfr320bfr32.png)
+![](./images/Gemini_Generated_Image_fr320bfr320bfr32.png)
 
-![](Gemini_Generated_Image_sgkitasgkitasgki.png)
+![](./images/Gemini_Generated_Image_sgkitasgkitasgki.png)
 
 
 # HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝

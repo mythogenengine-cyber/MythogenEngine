@@ -28,13 +28,13 @@ status: published
 reading_time: 18
 description: "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak."
 ---
-![](ChatGPT%20Image%202026年5月27日%20上午10_15_57.png)
+![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.png)
 
-![](ChatGPT%20Image%202026年5月27日%20上午10_10_05.png)
+![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.png)
 
-![](Gemini_Generated_Image_fr320bfr320bfr32.png)
+![](./images/Gemini_Generated_Image_fr320bfr320bfr32.png)
 
-![](Gemini_Generated_Image_sgkitasgkitasgki.png)
+![](./images/Gemini_Generated_Image_sgkitasgkitasgki.png)
 
 # HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic
 Author: Nebula Walker

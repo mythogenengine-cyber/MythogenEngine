@@ -28,15 +28,15 @@ description: "If efficiency gains don't create new demand, they're just compress
 ---
 
 # The Efficiency Trap: When Everyone Is Learning AI, Who Is Creating New Demand?
-![](Gemini_Generated_Image_28joct28joct28jo.png)
+![](./images/Gemini_Generated_Image_28joct28joct28jo.png)
 
-![](Gemini_Generated_Image_fgl8gsfgl8gsfgl8.png)
+![](./images/Gemini_Generated_Image_fgl8gsfgl8gsfgl8.png)
 
-![](Gemini_Generated_Image_1c1v271c1v271c1v.png)
+![](./images/Gemini_Generated_Image_1c1v271c1v271c1v.png)
 
-![](Gemini_Generated_Image_e3wivce3wivce3wi.png)
+![](./images/Gemini_Generated_Image_e3wivce3wivce3wi.png)
 
-![](Gemini_Generated_Image_abuoyuabuoyuabuo.png)
+![](./images/Gemini_Generated_Image_abuoyuabuoyuabuo.png)
 ## Three Days to Finish Four Months of Work
 
 A post has been making the rounds in AI circles recently. A developer used ChatGPT paired with Claude Code and completed an entire internal system in twenty hours — the feature list came out to over two hundred modules. She said that when she'd previously asked engineers for a quote, the estimate was at least three to four months.

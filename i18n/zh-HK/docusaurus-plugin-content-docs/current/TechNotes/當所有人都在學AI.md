@@ -27,15 +27,15 @@ reading_time: 12
 ---
 
 # 效率陷阱：當所有人都在學AI，誰在創造新需求？
-![](Gemini_Generated_Image_28joct28joct28jo.png)
+![](./images/Gemini_Generated_Image_28joct28joct28jo.png)
 
-![](Gemini_Generated_Image_fgl8gsfgl8gsfgl8.png)
+![](./images/Gemini_Generated_Image_fgl8gsfgl8gsfgl8.png)
 
-![](Gemini_Generated_Image_1c1v271c1v271c1v.png)
+![](./images/Gemini_Generated_Image_1c1v271c1v271c1v.png)
 
-![](Gemini_Generated_Image_e3wivce3wivce3wi.png)
+![](./images/Gemini_Generated_Image_e3wivce3wivce3wi.png)
 
-![](Gemini_Generated_Image_abuoyuabuoyuabuo.png)
+![](./images/Gemini_Generated_Image_abuoyuabuoyuabuo.png)
 ## 三天做完四個月的工作
 
 最近 AI 圈流傳一篇文章。一個開發者用 ChatGPT 搭配 Claude Code，二十個小時完成了一套內部系統，功能清單列出來超過兩百個模塊。她說以前問工程師報價，至少要三到四個月。

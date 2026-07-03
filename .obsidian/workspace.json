@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.md",
+                "file": "docs/AI_TAO/ch16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "遊戲致勝_微軟與世嘉的跨國糾纏"
+              "title": "ch16"
+            }
+          },
+          {
+            "id": "fcc40c5b8ca0fc6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕"
+            }
+          },
+          {
+            "id": "c6c4db48bafa4144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/殺死創新的標準作業程序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "殺死創新的標準作業程序"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -198,22 +226,39 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "ff5b46a2d94e1df2",
+  "active": "c6c4db48bafa4144",
   "lastOpenFiles": [
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_eck9akeck9akeck9.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_4477e44477e44477.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_7sx2957sx2957sx2.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_1j661h1j661h1j66.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_vj5c20vj5c20vj5c.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_8cgnb78cgnb78cgn.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_zengyhzengyhzeng.png",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/Gemini_Generated_Image_eck9akeck9akeck9.png",
-    "build/assets/js/0058b4c6.0c55e4fa.js",
-    "build/assets/js/runtime~main.b74cd8c2.js",
-    "build/assets/images/Gemini_Generated_Image_4477e44477e44477-9d8a98177db07edffa92a2b3122d3498.png",
-    "build/server.bundle.js",
-    "build/assets/images/Gemini_Generated_Image_eck9akeck9akeck9-382adcab65b14e1876fa15a261d0e4c2.png",
-    "build/assets/images/Gemini_Generated_Image_8cgnb78cgnb78cgn-4a6c74bcd52db18fb77cc66dc64bdc86.png",
+    "build/zh-HK/assets/files/mirror-realm-hk-3009dcd9c67ef2ed8098fb206d9db9db.epub",
+    "build/zh-HK/assets/images/Opus47_07-d73243965e631738ed6a9815d3c7209b.png",
+    "build/zh-HK/assets/files/GameVictory_TC-e21ebd2d822303a719b410f73d481eaf.epub",
+    "build/zh-HK/assets/files/GameVictory_EN-da96586a9e0c1dfcb7944b7910afee49.epub",
+    "build/zh-HK/assets/images/Opus47_06-246ad7e19a0e11ced23122a4ee8f1cfa.png",
+    "build/zh-HK/assets/images/Opus47_05-e720b001d4727ead58ac4fe7018ebd7a.png",
+    "build/zh-HK/assets/images/Opus47_04-6578cc0cda2e34f6ab580d93b1cef425.png",
+    "build/zh-HK/assets/images/Opus47_03-87097f53be6ff1f413c6c016ee119ec4.png",
+    "build/zh-HK/assets/images/Opus47_02-b2b0934a187027504243ce48ab915558.png",
+    "build/zh-HK/assets/images/Opus47_01-2d062fcc64019c86075bf8da401bc215.png",
+    "build/zh-HK/assets/images/gemini_test1-3aadbc7753c1aa519f74e76d8f931f8e.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_zengyhzengyhzeng-ceb78a7e558dffe629604c454d04ccee.png",
+    "build/zh-HK/assets/images/Gemini_Generated_Image_ya0usjya0usjya0u-589b99c3cb2c9e5c446c7c8116bc6c38.png",
+    "build/zh-HK/assets/css/styles.f7510b59.css",
+    "build/zh-HK/assets/images",
+    "build/zh-HK/assets/files",
+    "build/zh-HK/assets/css",
+    "build/zh-HK/assets",
+    "build/zh-HK/assets/js/0823bedf.2d334b99.js",
+    "build/zh-HK/assets/js/runtime~main.688aaa08.js",
+    "build/zh-HK/assets/js/main.34977bdc.js.LICENSE.txt",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/殺死創新的標準作業程序.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/殺死創新的標準作業程序.md",
+    "docs/AI_TAO/epilogue.md",
+    "docs/AI_TAO/ch18.md",
+    "docs/AI_TAO/ch17.md",
+    "docs/TechNotes/殺死創新的標準作業程序.md",
+    "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.md",
+    "docs/AI_TAO/ch16.md",
+    "docs/AI_TAO/ch15.md",
+    "docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施.md",
     "docs/TechNotes/FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施.md",
@@ -226,25 +271,8 @@
     "docs/AI_TAO/INFO_PAGE.md",
     "docs/AI_TAO/intro.md",
     "docs/AI_TAO/prologue.md",
-    "docs/AI_TAO/epilogue.md",
-    "docs/AI_TAO/ch18.md",
-    "docs/AI_TAO/ch17.md",
-    "docs/AI_TAO/ch16.md",
-    "docs/AI_TAO/ch15.md",
     "docs/AI_TAO/ch14.md",
     "docs/AI_TAO/ch13.md",
-    "docs/AI_TAO/ch01.md",
-    "docs/TechNotes/當所有人都在學AI.md",
-    "build/docs/TechNotes.html",
-    "build/docs/TechNotes/當「教育」變成一門不可能翻車的生意.html",
-    "build/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
-    "build/docs/TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單.html",
-    "build/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
-    "build/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
-    "build/docs/TechNotes/當所有人都在學AI.html",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/當所有人都在學AI.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/當所有人都在學AI.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/AI_TAO/INFO_PAGE.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/AI_TAO/appendix.md"
+    "docs/AI_TAO/ch01.md"
   ]
 }

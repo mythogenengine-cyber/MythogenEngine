@@ -20,7 +20,7 @@
 
 醒來之後我意識到，這個夢的機制，跟我最近一直在想的一件事是同一個結構。
 
-![](Gemini_Generated_Image_eck9akeck9akeck9.png)
+![](./images/Gemini_Generated_Image_eck9akeck9akeck9.png)
 
 ---
 
@@ -60,8 +60,8 @@ Google 生圖模型真正改變的，不是能力本身。
 
 這種進步很難用 benchmark 表達。它不是從八十分進步到九十分，而是把某種原本稀缺的技巧，變成人人都能用的基礎能力。
 
-![](Gemini_Generated_Image_zengyhzengyhzeng.png)
-![](Gemini_Generated_Image_8cgnb78cgnb78cgn.png)
+![](./images/Gemini_Generated_Image_zengyhzengyhzeng.png)
+![](./images/Gemini_Generated_Image_8cgnb78cgnb78cgn.png)
 
 ---
 
@@ -107,7 +107,7 @@ FABLE 給我的感覺很像。但我想講的不是排行榜。
 
 但過去幾年，它沒有。
 
-![](Gemini_Generated_Image_vj5c20vj5c20vj5c.png)
+![](./images/Gemini_Generated_Image_vj5c20vj5c20vj5c.png)
 
 ---
 
@@ -149,7 +149,7 @@ AI 讀論文的幻覺問題比日常對話嚴重得多。聊天問錯了可以�
 
 但漁網是設計來捕大魚的。如果你要找的不是大魚，而是某種特定的微生物——一個藏在海底淤泥裡、肉眼看不見、但可能改寫整個領域的東西——那麼網織得再密也沒有用。你需要的不是更好的網，是顯微鏡。
 
-![](Gemini_Generated_Image_1j661h1j661h1j66.png)
+![](./images/Gemini_Generated_Image_1j661h1j661h1j66.png)
 
 ---
 
@@ -181,7 +181,7 @@ FABLE 讓人第一次覺得，也許可以不只是撒網，而是看見網捕�
 
 但你的眼睛變多了。
 
-![](Gemini_Generated_Image_7sx2957sx2957sx2.png)
+![](./images/Gemini_Generated_Image_7sx2957sx2957sx2.png)
 
 ---
 
@@ -215,4 +215,4 @@ AlphaGo 的價值不是下棋更便宜。Google 生圖的價值不是出圖更�
 
 而 AI 正在學習怎麼幫你想起來。
 
-![](Gemini_Generated_Image_4477e44477e44477.png)
+![](./images/Gemini_Generated_Image_4477e44477e44477.png)

@@ -144,17 +144,17 @@ _This article is the third in the "Memory Myth" series. The first, [Did Jensen H
 
 _If you want to know how gamers became the unwitting financiers of the AI revolution, step by step — from DirectX locking in developers, to CUDA locking in the entire AI industry, to TSMC using gaming GPU orders to hone advanced process yields — [*Game Victory: From Pixels to AI, How Entertainment Secretly Reshaped Global Tech Supremacy*](https://mythogenengine-cyber.github.io/MythogenEngine/en/) traces the complete forty-year causal chain. Memory price hikes are not where the story begins, nor even where it ends. They are simply the invoice on this chain that is closest to you._
 
-![](01.png)
+![](./images/01.png)
 
-![](02%201.png)
+![](./images/02%201.png)
 
-![](03%201.png)
+![](./images/03%201.png)
 
-![](04%201.png)
+![](./images/04%201.png)
 
-![](05%201.png)
+![](./images/05%201.png)
 
-![](06%201.png)
+![](./images/06%201.png)
 
 
 

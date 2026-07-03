@@ -113,4 +113,4 @@ Written by Xing Wangchen ｜ Produced by MYTHOGEN ENGINE
 
 📖 https://mythogenengine-cyber.github.io/MythogenEngine/
 
-![](Gemini_Generated_Image_iytlphiytlphiytl.png)![](Gemini_Generated_Image_1dlqmx1dlqmx1dlq.png)
+![](./images/Gemini_Generated_Image_iytlphiytlphiytl.png)![](./images/Gemini_Generated_Image_1dlqmx1dlqmx1dlq.png)

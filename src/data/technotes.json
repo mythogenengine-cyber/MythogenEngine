@@ -1,6 +1,44 @@
 {
   "zh-Hant": [
     {
+      "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
+      "slug": "/docs/TechNotes/%E6%BB%85%E7%81%AB%E5%99%A8%E7%B6%93%E6%BF%9F%E5%AD%B8%E2%80%94%E2%80%94%E5%BE%AE%E8%BB%9F%20ASD%20%E8%88%87%E4%B8%80%E5%A0%B4%E4%B8%89%E5%8D%81%E5%B9%B4%E8%80%81%E6%88%B2%E7%9A%84%E6%9C%80%E6%96%B0%E4%B8%80%E5%B9%95",
+      "title": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
+      "date": "2026-07-08T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "平台生態戰",
+          "商業競爭",
+          "微軟",
+          "著色器編譯"
+        ],
+        "en": [
+          "game-industry",
+          "platform-ecosystem-war",
+          "business-competition",
+          "microsoft",
+          "shader-compilation"
+        ]
+      },
+      "keywords": [
+        "滅火器經濟學",
+        "Advanced Shader Delivery",
+        "ASD",
+        "Xbox",
+        "DirectX 12",
+        "Steam Deck",
+        "平台鎖定"
+      ],
+      "summary": "從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 20260708
+    },
+    {
       "id": "當 AI 產生質變，為什麼大家還在討論量？",
       "slug": "/docs/TechNotes/%E7%95%B6%20AI%20%E7%94%A2%E7%94%9F%E8%B3%AA%E8%AE%8A%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%A4%A7%E5%AE%B6%E9%82%84%E5%9C%A8%E8%A8%8E%E8%AB%96%E9%87%8F%EF%BC%9F",
       "title": "當 AI 產生質變，為什麼大家還在討論量？",
@@ -708,39 +746,41 @@
   ],
   "zh-HK": [
     {
-      "id": "當 AI 產生質變，為什麼大家還在討論量？",
-      "slug": "/docs/TechNotes/%E7%95%B6%20AI%20%E7%94%A2%E7%94%9F%E8%B3%AA%E8%AE%8A%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%A4%A7%E5%AE%B6%E9%82%84%E5%9C%A8%E8%A8%8E%E8%AB%96%E9%87%8F%EF%BC%9F",
-      "title": "當 AI 產生質變，為什麼大家還在討論量？",
+      "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
+      "slug": "/docs/TechNotes/%E6%BB%85%E7%81%AB%E5%99%A8%E7%B6%93%E6%BF%9F%E5%AD%B8%E2%80%94%E2%80%94%E5%BE%AE%E8%BB%9F%20ASD%20%E8%88%87%E4%B8%80%E5%A0%B4%E4%B8%89%E5%8D%81%E5%B9%B4%E8%80%81%E6%88%B2%E7%9A%84%E6%9C%80%E6%96%B0%E4%B8%80%E5%B9%95",
+      "title": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
       "date": "2026-07-08T00:00:00.000Z",
       "lang": "zh-HK",
       "section": "sober-record",
-      "topic": "t-ai",
+      "topic": "t-game-history",
       "tags": {
         "zh": [
-          "AI",
-          "FABLE",
-          "質變與量變",
-          "破壞性創新",
-          "系統思考"
+          "遊戲產業",
+          "平台生態戰",
+          "商業競爭",
+          "微軟",
+          "著色器編譯"
         ],
         "en": [
-          "ai",
-          "fable",
-          "qualitative-vs-quantitative",
-          "disruptive-innovation",
-          "systems-thinking"
+          "game-industry",
+          "platform-ecosystem-war",
+          "business-competition",
+          "microsoft",
+          "shader-compilation"
         ]
       },
       "keywords": [
-        "AI",
-        "FABLE",
-        "質變",
-        "量變",
-        "破壞性創新"
+        "滅火器經濟學",
+        "Advanced Shader Delivery",
+        "ASD",
+        "Xbox",
+        "DirectX 12",
+        "Steam Deck",
+        "平台鎖定"
       ],
-      "summary": "每一次 AI 的智力跨過臨界點，都會產生量變與質變兩種變化。雖然量變更容易被衡量和變現，但歷史上真正改變格局的，往往是那些以前做不到、現在被實現的質變。",
+      "summary": "從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。",
       "status": "published",
-      "reading_time": 6,
+      "reading_time": 8,
       "sidebar_position": 20260708
     },
     {
@@ -776,39 +816,6 @@
       "status": "published",
       "reading_time": 5,
       "sidebar_position": 2
-    },
-    {
-      "id": "當所有人都在學AI",
-      "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
-      "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
-      "date": "2026-06-27T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "ai-industry-critique",
-      "tags": {
-        "zh": [
-          "焦慮套利",
-          "AI 教育",
-          "效率迷思",
-          "結構性壓縮"
-        ],
-        "en": [
-          "anxiety-arbitrage",
-          "ai-education",
-          "efficiency-myth",
-          "structural-compression"
-        ]
-      },
-      "keywords": [
-        "效率提升",
-        "新需求",
-        "AI教育市場",
-        "壓縮循環",
-        "決策疲勞"
-      ],
-      "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
-      "status": "published",
-      "reading_time": 12
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -880,39 +887,6 @@
       "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
       "status": "published",
       "reading_time": 18
-    },
-    {
-      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
-      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
-      "title": "「識」和「做到」，從來都不是同一件事",
-      "date": "2026-05-25T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "gamevictory",
-      "topic": "t-game-history",
-      "tags": {
-        "zh": [
-          "AI",
-          "開發者生態",
-          "算力霸權",
-          "遊戲產業"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "developer-ecosystem",
-          "compute-hegemony",
-          "game-industry"
-        ]
-      },
-      "keywords": [
-        "超級 Builder",
-        "判斷力",
-        "CUDA",
-        "DirectX",
-        "活版印刷"
-      ],
-      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
-      "status": "published",
-      "reading_time": 4
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -1033,6 +1007,108 @@
       "status": "draft",
       "reading_time": 0,
       "sidebar_position": 0
+    },
+    {
+      "id": "當 AI 產生質變，為什麼大家還在討論量？",
+      "slug": "/docs/TechNotes/%E7%95%B6%20AI%20%E7%94%A2%E7%94%9F%E8%B3%AA%E8%AE%8A%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%A4%A7%E5%AE%B6%E9%82%84%E5%9C%A8%E8%A8%8E%E8%AB%96%E9%87%8F%EF%BC%9F",
+      "title": "當 AI 產生質變，為什麼大家還在討論量？",
+      "date": "2026-07-08T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai",
+      "tags": {
+        "zh": [
+          "AI",
+          "FABLE",
+          "質變與量變",
+          "破壞性創新",
+          "系統思考"
+        ],
+        "en": [
+          "ai",
+          "fable",
+          "qualitative-vs-quantitative",
+          "disruptive-innovation",
+          "systems-thinking"
+        ]
+      },
+      "keywords": [
+        "AI",
+        "FABLE",
+        "質變",
+        "量變",
+        "破壞性創新"
+      ],
+      "summary": "每一次 AI 的智力跨過臨界點，都會產生量變與質變兩種變化。雖然量變更容易被衡量和變現，但歷史上真正改變格局的，往往是那些以前做不到、現在被實現的質變。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20260708
+    },
+    {
+      "id": "當所有人都在學AI",
+      "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
+      "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
+      "date": "2026-06-27T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "AI 教育",
+          "效率迷思",
+          "結構性壓縮"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "ai-education",
+          "efficiency-myth",
+          "structural-compression"
+        ]
+      },
+      "keywords": [
+        "效率提升",
+        "新需求",
+        "AI教育市場",
+        "壓縮循環",
+        "決策疲勞"
+      ],
+      "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
+      "status": "published",
+      "reading_time": 12
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "「識」和「做到」，從來都不是同一件事",
+      "date": "2026-05-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
+        ]
+      },
+      "keywords": [
+        "超級 Builder",
+        "判斷力",
+        "CUDA",
+        "DirectX",
+        "活版印刷"
+      ],
+      "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
+      "status": "published",
+      "reading_time": 4
     },
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
@@ -1355,39 +1431,41 @@
   ],
   "en": [
     {
-      "id": "當 AI 產生質變，為什麼大家還在討論量？",
-      "slug": "/docs/TechNotes/%E7%95%B6%20AI%20%E7%94%A2%E7%94%9F%E8%B3%AA%E8%AE%8A%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%A4%A7%E5%AE%B6%E9%82%84%E5%9C%A8%E8%A8%8E%E8%AB%96%E9%87%8F%EF%BC%9F",
-      "title": "When AI Undergoes Qualitative Change, Why Is Everyone Still Talking About Quantity?",
+      "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
+      "slug": "/docs/TechNotes/%E6%BB%85%E7%81%AB%E5%99%A8%E7%B6%93%E6%BF%9F%E5%AD%B8%E2%80%94%E2%80%94%E5%BE%AE%E8%BB%9F%20ASD%20%E8%88%87%E4%B8%80%E5%A0%B4%E4%B8%89%E5%8D%81%E5%B9%B4%E8%80%81%E6%88%B2%E7%9A%84%E6%9C%80%E6%96%B0%E4%B8%80%E5%B9%95",
+      "title": "Fire Extinguisher Economics — Microsoft's ASD and the Latest Act of a Thirty-Year-Old Play",
       "date": "2026-07-08T00:00:00.000Z",
       "lang": "en",
       "section": "sober-record",
-      "topic": "t-ai",
+      "topic": "t-game-history",
       "tags": {
         "zh": [
-          "AI",
-          "FABLE",
-          "質變與量變",
-          "破壞性創新",
-          "系統思考"
+          "遊戲產業",
+          "平台生態戰",
+          "商業競爭",
+          "微軟",
+          "著色器編譯"
         ],
         "en": [
-          "ai",
-          "fable",
-          "qualitative-vs-quantitative",
-          "disruptive-innovation",
-          "systems-thinking"
+          "game-industry",
+          "platform-ecosystem-war",
+          "business-competition",
+          "microsoft",
+          "shader-compilation"
         ]
       },
       "keywords": [
-        "AI",
-        "FABLE",
-        "qualitative change",
-        "quantitative change",
-        "disruptive innovation"
+        "fire extinguisher economics",
+        "Advanced Shader Delivery",
+        "ASD",
+        "Xbox",
+        "DirectX 12",
+        "Steam Deck",
+        "platform lock-in"
       ],
-      "summary": "Every time AI's intelligence crosses a threshold, it produces both quantitative and qualitative change. While quantitative change is easier to measure and monetize, what truly reshapes the landscape throughout history has always been qualitative change — things that were previously impossible, now made real.",
+      "summary": "Starting from Microsoft's newly announced Advanced Shader Delivery (ASD) technology, this essay dissects how Microsoft uses problem-solving as a pretext for platform lock-in, and the strategic contradictions of dismantling Xbox — its only consumer base — in the AI era.",
       "status": "published",
-      "reading_time": 6,
+      "reading_time": 8,
       "sidebar_position": 20260708
     },
     {
@@ -1425,37 +1503,34 @@
       "sidebar_position": 2
     },
     {
-      "id": "當所有人都在學AI",
-      "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
-      "title": "The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?",
-      "date": "2026-06-27T00:00:00.000Z",
+      "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
+      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E4%B9%8B%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
+      "title": "遊戲之勝：微軟與世嘉的跨國糾纏",
+      "date": "2026-06-12T00:00:00.000Z",
       "lang": "en",
-      "section": "sober-record",
-      "topic": "ai-industry-critique",
+      "section": "gamevictory",
+      "topic": "t-game-history",
       "tags": {
         "zh": [
-          "焦慮套利",
-          "AI 教育",
-          "效率迷思",
-          "結構性壓縮"
+          "遊戲產業",
+          "平台生態戰",
+          "主機戰爭"
         ],
         "en": [
-          "anxiety-arbitrage",
-          "ai-education",
-          "efficiency-myth",
-          "structural-compression"
+          "game-industry",
+          "platform-ecosystem-war",
+          "console-war"
         ]
       },
       "keywords": [
-        "Efficiency Gains",
-        "New Demand",
-        "AI Education Market",
-        "Compression Cycle",
-        "Decision Fatigue"
+        "Xbox",
+        "Sega",
+        "Dreamcast",
+        "Microsoft"
       ],
-      "summary": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
+      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 10
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -1527,39 +1602,6 @@
       "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
       "status": "published",
       "reading_time": 18
-    },
-    {
-      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
-      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
-      "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
-      "date": "2026-05-25T00:00:00.000Z",
-      "lang": "en",
-      "section": "gamevictory",
-      "topic": "t-game-history",
-      "tags": {
-        "zh": [
-          "AI",
-          "開發者生態",
-          "算力霸權",
-          "遊戲產業"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "developer-ecosystem",
-          "compute-hegemony",
-          "game-industry"
-        ]
-      },
-      "keywords": [
-        "Super Builder",
-        "judgment",
-        "CUDA",
-        "DirectX",
-        "letterpress printing"
-      ],
-      "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
-      "status": "published",
-      "reading_time": 4
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -1682,34 +1724,106 @@
       "sidebar_position": 0
     },
     {
-      "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
-      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E4%B9%8B%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
-      "title": "遊戲之勝：微軟與世嘉的跨國糾纏",
-      "date": "2026-06-12T00:00:00.000Z",
+      "id": "當 AI 產生質變，為什麼大家還在討論量？",
+      "slug": "/docs/TechNotes/%E7%95%B6%20AI%20%E7%94%A2%E7%94%9F%E8%B3%AA%E8%AE%8A%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%A4%A7%E5%AE%B6%E9%82%84%E5%9C%A8%E8%A8%8E%E8%AB%96%E9%87%8F%EF%BC%9F",
+      "title": "When AI Undergoes Qualitative Change, Why Is Everyone Still Talking About Quantity?",
+      "date": "2026-07-08T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai",
+      "tags": {
+        "zh": [
+          "AI",
+          "FABLE",
+          "質變與量變",
+          "破壞性創新",
+          "系統思考"
+        ],
+        "en": [
+          "ai",
+          "fable",
+          "qualitative-vs-quantitative",
+          "disruptive-innovation",
+          "systems-thinking"
+        ]
+      },
+      "keywords": [
+        "AI",
+        "FABLE",
+        "qualitative change",
+        "quantitative change",
+        "disruptive innovation"
+      ],
+      "summary": "Every time AI's intelligence crosses a threshold, it produces both quantitative and qualitative change. While quantitative change is easier to measure and monetize, what truly reshapes the landscape throughout history has always been qualitative change — things that were previously impossible, now made real.",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20260708
+    },
+    {
+      "id": "當所有人都在學AI",
+      "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
+      "title": "The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?",
+      "date": "2026-06-27T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "AI 教育",
+          "效率迷思",
+          "結構性壓縮"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "ai-education",
+          "efficiency-myth",
+          "structural-compression"
+        ]
+      },
+      "keywords": [
+        "Efficiency Gains",
+        "New Demand",
+        "AI Education Market",
+        "Compression Cycle",
+        "Decision Fatigue"
+      ],
+      "summary": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
+      "status": "published",
+      "reading_time": 12
+    },
+    {
+      "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
+      "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
+      "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
+      "date": "2026-05-25T00:00:00.000Z",
       "lang": "en",
       "section": "gamevictory",
       "topic": "t-game-history",
       "tags": {
         "zh": [
-          "遊戲產業",
-          "平台生態戰",
-          "主機戰爭"
+          "AI",
+          "開發者生態",
+          "算力霸權",
+          "遊戲產業"
         ],
         "en": [
-          "game-industry",
-          "platform-ecosystem-war",
-          "console-war"
+          "artificial-intelligence",
+          "developer-ecosystem",
+          "compute-hegemony",
+          "game-industry"
         ]
       },
       "keywords": [
-        "Xbox",
-        "Sega",
-        "Dreamcast",
-        "Microsoft"
+        "Super Builder",
+        "judgment",
+        "CUDA",
+        "DirectX",
+        "letterpress printing"
       ],
-      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
+      "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 4
     },
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",

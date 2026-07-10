@@ -22,5 +22,9 @@
   "item.label.Lucid Record": {
     "message": "清醒記錄",
     "description": "Navbar item with label Lucid Record"
+  },
+  "item.label.資本遊戲玩什麼": {
+    "message": "資本遊戲玩什麼",
+    "description": "Navbar item with label 資本遊戲玩什麼"
   }
 }

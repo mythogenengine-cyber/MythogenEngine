@@ -374,7 +374,7 @@ function CategoryCards() {
                 </p>
               </div>
               <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                <Link to="/docs/capital-game" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Article' : '閱讀全文'} <ArrowRight size={20} />
                 </Link>
               </div>

@@ -125,7 +125,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: true, // Force dark mode for experimental feel
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
     }),

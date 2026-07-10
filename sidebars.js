@@ -97,6 +97,11 @@ module.exports = {
       ],
     },
     {
+      type: 'doc',
+      id: '資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）',
+      label: '資本遊戲玩什麼',
+    },
+    {
       type: 'category',
       label: 'Lucid Record',
       link: {

@@ -85,7 +85,6 @@ const config = {
             type: 'doc',
             docId: '資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）',
             position: 'left',
-            label: '資本遊戲',
           },
           {
             to: '/docs/Diary',

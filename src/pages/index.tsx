@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield } from 'lucide-react';
+import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield, Briefcase, Building2, TrendingDown } from 'lucide-react';
 
 function HeroSection() {
   const { i18n } = useDocusaurusContext();
@@ -338,22 +338,65 @@ function CategoryCards() {
         </div>
 
         <div className="row">
-          {/* Diary */}
-          <div className="col col--12 margin-bottom--lg">
+          {/* Capital Game */}
+          <div className="col col--6 margin-bottom--lg">
             <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
+              background: 'var(--color-surface-container-low)', 
               padding: '3rem', 
               borderRadius: '0.25rem',
+              height: '100%',
               display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
+              flexDirection: 'column',
               justifyContent: 'space-between',
               border: 'none',
               position: 'relative',
               overflow: 'hidden'
             }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '300px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(120px)', opacity: 0.08, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1, flex: 1 }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '200px', height: '200px', background: '#f44336', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
+              <div style={{ position: 'relative', zIndex: 1 }}>
+                <div className="flex space-x-4 mb-8" style={{ color: '#f44336', display: 'flex', gap: '1rem' }}>
+                  <Briefcase size={36} strokeWidth={1.5} />
+                  <Building2 size={36} strokeWidth={1.5} />
+                  <TrendingDown size={36} strokeWidth={1.5} />
+                </div>
+                <h2 className="text-4xl font-headline mb-4">
+                  {isEn ? 'Capital Game' : '資本遊戲'} <br />
+                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
+                    {isEn ? '(Case Study: Gaming Industry)' : '（實例檔案：遊戲業）'}
+                  </span>
+                </h2>
+                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
+                  {isZhTW
+                    ? '科技業大裁員背後的系統性操作：從遊戲業的拆骨實錄，看資本如何為了 AI 敘事騰出資金。你的行業沒被看見，只會更隱閉、更殘酷。'
+                    : isZhHK
+                    ? '科技業大裁員背後嘅系統性操作：從遊戲業嘅拆骨實錄，睇資本點樣為咗 AI 敘事騰出資金。你嘅行業冇被看見，只會更隱蔽、更殘酷。'
+                    : 'The systemic operation behind massive tech layoffs: using the gaming industry\'s dismemberment as a window to see how capital frees up funds for the AI narrative. Your industry isn\'t an exception—it\'s just more hidden and cruel.'}
+                </p>
+              </div>
+              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
+                <Link to="/docs/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
+                  {isEn ? 'Read Article' : '閱讀全文'} <ArrowRight size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Diary */}
+          <div className="col col--6 margin-bottom--lg">
+            <div className="card shadow--md" style={{ 
+              background: 'var(--color-surface-container-lowest)', 
+              padding: '3rem', 
+              borderRadius: '0.25rem',
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              border: 'none',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '200px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(100px)', opacity: 0.08, borderRadius: '50%' }}></div>
+              <div style={{ position: 'relative', zIndex: 1 }}>
                 <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'flex', gap: '1rem' }}>
                   <PenLine size={36} strokeWidth={1.5} />
                   <Heart size={36} strokeWidth={1.5} />
@@ -373,7 +416,7 @@ function CategoryCards() {
                     : 'No framework, no plan, just writing. About the workplace, about the system, about how one person finds their own language within institutions.'}
                 </p>
               </div>
-              <div className="margin-left--lg" style={{ position: 'relative', zIndex: 1 }}>
+              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
                 <Link to="/docs/Diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Diary' : '閱讀隨筆'} <ArrowRight size={20} />
                 </Link>

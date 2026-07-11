@@ -49,6 +49,34 @@
       "sidebar_position": 0
     },
     {
+      "id": "七日書｜傳奇一曲",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2",
+      "title": "七日書：傳奇一曲",
+      "date": "2026-07-11T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "流行音樂"
+        ],
+        "en": [
+          "personal-essay",
+          "pop-music"
+        ]
+      },
+      "keywords": [
+        "七日書",
+        "傳奇一曲",
+        "千千闋歌",
+        "夕陽之歌"
+      ],
+      "summary": "藉由《千千闋歌》與《夕陽之歌》兩首經典歌曲，探討香港的離別潮、集體記憶與歷史改寫。",
+      "status": "published",
+      "reading_time": 20
+    },
+    {
       "id": "七日書_無用之用_道",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8_%E7%84%A1%E7%94%A8%E4%B9%8B%E7%94%A8_%E9%81%93",
       "title": "七日書：無用之用・道",
@@ -254,6 +282,34 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "七日書｜傳奇一曲",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2",
+      "title": "七日書：傳奇一曲",
+      "date": "2026-07-11T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "流行音樂"
+        ],
+        "en": [
+          "personal-essay",
+          "pop-music"
+        ]
+      },
+      "keywords": [
+        "七日書",
+        "傳奇一曲",
+        "千千闋歌",
+        "夕陽之歌"
+      ],
+      "summary": "藉由《千千闋歌》與《夕陽之歌》兩首經典歌曲，探討香港的離別潮、集體記憶與歷史改寫。",
+      "status": "published",
+      "reading_time": 20
+    },
     {
       "id": "一場豪賭的正常與不正常",
       "slug": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",

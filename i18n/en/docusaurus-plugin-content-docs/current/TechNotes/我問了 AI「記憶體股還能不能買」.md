@@ -4,6 +4,13 @@ date: 2026-07-13
 lang: en
 section: sober-record
 topic: t-media
+tags:
+  - artificial-intelligence
+  - information-asymmetry
+  - narrative-manipulation
+  - media-literacy
+  - memory
+  - retail-investors
 article_tags:
   zh:
     - AI

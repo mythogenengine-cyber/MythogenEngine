@@ -4,6 +4,13 @@ date: 2026-07-13
 lang: zh-Hant
 section: sober-record
 topic: t-media
+tags:
+  - AI
+  - 資訊不對稱
+  - 敘事操控
+  - 媒體素養
+  - 記憶體
+  - 散戶
 article_tags:
   zh:
     - AI

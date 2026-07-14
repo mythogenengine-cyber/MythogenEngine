@@ -120,7 +120,7 @@ h1, h2, h3, h4 {
 
 /* Navbar Icons */
 .header-icon-link {
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
@@ -138,6 +138,7 @@ h1, h2, h3, h4 {
 @media (max-width: 996px) {
   /* Show icon labels in the mobile menu drawer */
   .menu__list .header-icon-link {
+    display: flex !important;
     justify-content: flex-start;
     width: auto;
     padding: 0.5rem 1rem;

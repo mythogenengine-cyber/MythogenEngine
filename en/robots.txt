@@ -1,4 +1,13 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 User-agent: *
 Allow: /
 
-Sitemap: https://mythogenengine-cyber.github.io/MythogenEngine/sitemap.xml
+Sitemap: https://mythogenengine.com/sitemap.xml

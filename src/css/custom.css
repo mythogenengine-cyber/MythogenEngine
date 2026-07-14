@@ -142,6 +142,12 @@ h1, h2, h3, h4 {
 
 /* Mobile Navbar Convenience */
 @media (max-width: 996px) {
+  /* Force the mobile sidebar to cover the full screen in case of containing block bugs */
+  .navbar-sidebar {
+    height: 100vh !important;
+    height: 100dvh !important;
+  }
+  
   /* Show icon labels in the mobile menu drawer */
   .menu__list .header-icon-link {
     display: flex !important;

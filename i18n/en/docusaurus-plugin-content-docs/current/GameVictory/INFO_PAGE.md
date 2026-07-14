@@ -18,7 +18,7 @@ summary: "&nbsp; Author 星忘塵 Nebula Walker First Edition Date 23 APR 2026 E
 
 **Engine** MYTHOGEN ENG
 
-**Website:** https://mythogenengine-cyber.github.io/MythogenEngine/
+**Website:** https://mythogenengine.com/
 **Facebook:** https://www.facebook.com/mythogenengine
 
 &nbsp;

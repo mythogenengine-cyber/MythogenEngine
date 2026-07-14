@@ -122,4 +122,4 @@ AI 給你事實，但不會給你態度。沒有態度的文章，不值得讀�
 
 ---
 
-_星忘塵 著｜MYTHOGEN ENGINE_ _[https://mythogenengine-cyber.github.io/MythogenEngine/](https://mythogenengine-cyber.github.io/MythogenEngine/)_
+_星忘塵 著｜MYTHOGEN ENGINE_ _[https://mythogenengine.com/](https://mythogenengine.com/)_

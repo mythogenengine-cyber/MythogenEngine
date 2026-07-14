@@ -1,7 +1,7 @@
 ---
 title: "GameVictory — Book Info Page"
-description: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine-cyber.github.io/MythogenEngine/ Facebook https://www.facebook."
-summary: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine-cyber.github.io/MythogenEngine/ Facebook https://www.facebook."
+description: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine.com/ Facebook https://www.facebook."
+summary: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine.com/ Facebook https://www.facebook."
 ---
 # GAMEVICTORY
 ## 遊戲即未來：四十年科技霸權的隱藏算術
@@ -18,7 +18,7 @@ summary: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 
 
 **引擎** MYTHOGEN ENG
 
-**網頁** https://mythogenengine-cyber.github.io/MythogenEngine/
+**網頁** https://mythogenengine.com/
 **Facebook** https://www.facebook.com/mythogenengine
 
 &nbsp;

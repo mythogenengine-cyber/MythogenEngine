@@ -111,7 +111,7 @@ John Carmack 知道。黃仁勳知道。Lisa Su 知道。
 **《遊戲致勝：四十年科技霸權的隱藏算術》**
 星忘塵 著 ｜ MYTHOGEN ENGINE 出品
 
-📖 https://mythogenengine-cyber.github.io/MythogenEngine/
+📖 https://mythogenengine.com/
 
 ![](./images/Gemini_Generated_Image_eopup5eopup5eopu.png)
 

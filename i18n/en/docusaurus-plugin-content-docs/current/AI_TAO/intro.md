@@ -110,4 +110,4 @@ But if you are willing to spend an hour or two, follow the arguments through, an
 ---
 
 > © Nebula Walker 星忘塵 · MYTHOGEN ENGINE · 2026  
-> [mythogenengine-cyber.github.io/MythogenEngine](https://mythogenengine-cyber.github.io/MythogenEngine)
+> [mythogenengine.com](https://mythogenengine.com)

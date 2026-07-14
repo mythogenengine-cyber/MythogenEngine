@@ -136,17 +136,6 @@ h1, h2, h3, h4 {
 
 /* Mobile Navbar Convenience */
 @media (max-width: 996px) {
-  /* Show the right navbar items on mobile */
-  .navbar__items--right {
-    display: flex !important;
-    align-items: center;
-  }
-  
-  /* Hide the social icons in the top right navbar to save space */
-  .navbar__items--right .header-icon-link {
-    display: none !important;
-  }
-  
   /* Show icon labels in the mobile menu drawer */
   .menu__list .header-icon-link {
     justify-content: flex-start;
@@ -156,23 +145,5 @@ h1, h2, h3, h4 {
   .menu__list .mobile-icon-label {
     display: inline-block;
     margin-left: 12px;
-  }
-
-  /* Make the title smaller on mobile to fit the language and theme toggles */
-  .navbar__brand {
-    margin-right: auto;
-  }
-  .navbar__title {
-    font-size: 1rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 120px;
-  }
-
-  /* Reduce padding on the dropdown to save space */
-  .navbar__items--right .dropdown > .navbar__link {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.8rem;
   }
 }

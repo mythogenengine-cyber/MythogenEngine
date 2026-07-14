@@ -191,9 +191,9 @@ Yes, shredded chicken breast. A Dragon Ball-style male protagonist holding a pla
 
 But it had absolutely nothing to do with my Chapter 11. It simply did not understand my input content at all.
 
-https://mythogenengine-cyber.github.io/MythogenEngine/docs/GameVictory/INFO_PAGE
+https://mythogenengine.com/docs/GameVictory/INFO_PAGE
 
-https://mythogenengine-cyber.github.io/MythogenEngine/docs/GameVictory/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0_%E7%B5%A6%E9%81%8A%E6%88%B2%E7%8E%A9%E5%AE%B6%E7%9A%84%E6%83%85%E6%9B%B8_v4
+https://mythogenengine.com/docs/GameVictory/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0_%E7%B5%A6%E9%81%8A%E6%88%B2%E7%8E%A9%E5%AE%B6%E7%9A%84%E6%83%85%E6%9B%B8_v4
 
 Fig_07: Since Gemini's results were consistent across multiple file formats, I'm only posting the Markdown version (plus, reading it directly via the Gemini NotebookLM plug-in was exponentially more convenient!)
 Fig_08-10: HTML, Markdown, JSON. It only somewhat grasped the topic from the JSON, but the results were entirely irrelevant.

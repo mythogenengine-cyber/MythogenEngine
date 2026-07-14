@@ -191,9 +191,9 @@ Fig_06: Gemini product comparison chart for 3 wireless earbuds
 
 但與我的第十一章完全無關。它根本沒有讀懂我的輸入內容。
 
-https://mythogenengine-cyber.github.io/MythogenEngine/docs/GameVictory/INFO_PAGE
+https://mythogenengine.com/docs/GameVictory/INFO_PAGE
 
-https://mythogenengine-cyber.github.io/MythogenEngine/docs/GameVictory/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0_%E7%B5%A6%E9%81%8A%E6%88%B2%E7%8E%A9%E5%AE%B6%E7%9A%84%E6%83%85%E6%9B%B8_v4
+https://mythogenengine.com/docs/GameVictory/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0_%E7%B5%A6%E9%81%8A%E6%88%B2%E7%8E%A9%E5%AE%B6%E7%9A%84%E6%83%85%E6%9B%B8_v4
 
 Fig_07 由於Gemini 對於多種檔案效果都一致我就只貼md(而且是從Gemini NotebookLM  plug-in 直讀的實際操作方便很多倍！) 
 Fig_08-10 html md json，基本只有JSON大概知道主題，但都是牛風馬不搭。

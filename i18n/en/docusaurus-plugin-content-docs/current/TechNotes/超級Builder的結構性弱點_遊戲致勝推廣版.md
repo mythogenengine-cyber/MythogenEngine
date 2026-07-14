@@ -111,6 +111,6 @@ _This pattern—from DOS-era engineers to CUDA lock-in to the Super Builder's bo
 **《GameVictory: The Hidden Arithmetic of Forty Years of Tech Hegemony》**
 Written by Xing Wangchen ｜ Produced by MYTHOGEN ENGINE
 
-📖 https://mythogenengine-cyber.github.io/MythogenEngine/
+📖 https://mythogenengine.com/
 
 ![](./images/Gemini_Generated_Image_iytlphiytlphiytl.png)![](./images/Gemini_Generated_Image_1dlqmx1dlqmx1dlq.png)

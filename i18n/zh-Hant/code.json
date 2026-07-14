@@ -207,7 +207,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "本頁導覽",
+    "message": "📄 本篇文章段落 (全書目錄請點左上角)",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.breadcrumbs.home": {

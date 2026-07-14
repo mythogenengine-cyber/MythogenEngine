@@ -129,6 +129,11 @@ h1, h2, h3, h4 {
   opacity: 0.7;
 }
 
+/* Mobile Icon Labels (hidden by default) */
+.mobile-icon-label {
+  display: none;
+}
+
 /* Mobile Navbar Convenience */
 @media (max-width: 996px) {
   /* Show the right navbar items on mobile */
@@ -140,6 +145,17 @@ h1, h2, h3, h4 {
   /* Hide the social icons in the top right navbar to save space */
   .navbar__items--right .header-icon-link {
     display: none !important;
+  }
+  
+  /* Show icon labels in the mobile menu drawer */
+  .menu__list .header-icon-link {
+    justify-content: flex-start;
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+  .menu__list .mobile-icon-label {
+    display: inline-block;
+    margin-left: 12px;
   }
 
   /* Make the title smaller on mobile to fit the language and theme toggles */

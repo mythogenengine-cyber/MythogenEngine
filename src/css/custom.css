@@ -39,8 +39,14 @@
 
 /* Glassmorphism Effect */
 .navbar {
-  backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* backdrop-filter breaks position: fixed children (like the mobile drawer), so only apply on desktop */
+@media (min-width: 997px) {
+  .navbar {
+    backdrop-filter: blur(16px);
+  }
 }
 
 .footer {

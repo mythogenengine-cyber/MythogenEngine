@@ -44,3 +44,6 @@ yarn-error.log*
 # temporary scratch scripts
 scratch/
 
+# archived root files (AI-generated images, drafts, etc.)
+_archive/
+

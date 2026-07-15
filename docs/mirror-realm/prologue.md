@@ -8,7 +8,7 @@ summary: "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) �
 
 ![](cover_B_tw.png)
 
-⬇️ **[下載《鏡界：假面系統殺人事件》電子書 (EPUB)](/epub/mirror-realm-tw.epub)**
+⬇️ **[下載《鏡界：假面系統殺人事件》電子書 (EPUB)](/downloads/mirror-realm-tw.epub)**
 
 ---
 

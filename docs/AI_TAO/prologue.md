@@ -8,7 +8,7 @@
 
 ---
 
-![Gemini_Generated_Image_ha7o0zha7o0zha7o.png](./Gemini_Generated_Image_ha7o0zha7o0zha7o.png)
+![Gemini_Generated_Image_ha7o0zha7o0zha7o.jpg](./Gemini_Generated_Image_ha7o0zha7o0zha7o.jpg)
 
 讀完了？
 

@@ -169,4 +169,4 @@ Then this book is a user's manual. For the next person who, at two in the mornin
 
 (End)
 
-![](ch12_zh%201.png)
+![](ch12_zh%201.jpg)

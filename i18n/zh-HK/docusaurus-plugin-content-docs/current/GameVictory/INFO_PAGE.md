@@ -6,7 +6,7 @@ summary: "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 
 # GAMEVICTORY
 ## 遊戲即未來：四十年科技霸權的隱藏算術
 
-![GameVictory Cover](./gamevictory_cover_lock_front.png)
+![GameVictory Cover](./gamevictory_cover_lock_front.jpg)
 
 ---
 

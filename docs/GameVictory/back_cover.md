@@ -5,4 +5,4 @@ summary: ""
 ---
 # 封底
 
-![Back Cover](./Cover_BACK.png)
+![Back Cover](./Cover_BACK.jpg)

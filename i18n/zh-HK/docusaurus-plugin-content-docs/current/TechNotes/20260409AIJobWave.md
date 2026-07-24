@@ -31,7 +31,7 @@ description: "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的�
 ---
 # 不是轉型，是收縮：AI 就業潮的另一種讀法
 
-![](./images/Gemini_Generated_Image_kq4joikq4joikq4j.png)
+![](./images/Gemini_Generated_Image_kq4joikq4joikq4j.jpg)
 
 這一年，關於 AI 跟軟體就業，市場上同時流傳兩套故事。
 

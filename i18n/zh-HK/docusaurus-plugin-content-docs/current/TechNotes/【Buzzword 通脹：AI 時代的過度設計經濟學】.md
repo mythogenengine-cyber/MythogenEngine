@@ -116,4 +116,4 @@ Buzzword 的密度與一個概念的實際技術含量，傾向於呈反比。�
 
 不是 token 的價格，而是語言的價格。
 
-![](./images/Gemini_Generated_Image_1xgcjw1xgcjw1xgc%201.png)
+![](./images/Gemini_Generated_Image_1xgcjw1xgcjw1xgc%201.jpg)

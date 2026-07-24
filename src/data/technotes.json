@@ -1,6 +1,202 @@
 {
   "zh-Hant": [
     {
+      "id": "異常報告裡的讀者・後記——我以為門關了",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
+      "title": "異常報告裡的讀者・後記——我以為門關了",
+      "date": "2026-07-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook社團",
+        "無聲封鎖",
+        "影子禁言",
+        "認知封鎖",
+        "AI搜尋引擎"
+      ],
+      "summary": "當你以為是平台故障或演算法不推時，真相可能是你已被無聲地從場域中封鎖。一個需要僥倖才能揭穿的排除機制，是最完美的消音。",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 3,
+        "total": 5
+      }
+    },
+    {
+      "id": "半個鐘頭的生產線",
+      "slug": "/docs/TechNotes/%E5%8D%8A%E5%80%8B%E9%90%98%E9%A0%AD%E7%9A%84%E7%94%9F%E7%94%A2%E7%B7%9A",
+      "title": "半個鐘頭的生產線——當內容農場不需要敵人就能打贏一場信息戰",
+      "date": "2026-07-21T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容農場",
+          "演算法推薦",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-farm",
+          "algorithmic-recommendation",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook 帳號矩陣",
+        "Novel PD",
+        "AI 生成小說",
+        "digital scrip",
+        "信息淹沒"
+      ],
+      "summary": "半個鐘頭、三個帳號、同一篇文——一條由 AI 生產到 AI 消費的完整工業鏈，不需要敵人就能打贏一場信息戰。",
+      "status": "draft",
+      "reading_time": 15,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 5,
+        "total": 5
+      }
+    },
+    {
+      "id": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
+      "slug": "/docs/TechNotes/%E9%9B%B6%E9%81%95%E8%A6%8F%EF%BC%8C%E6%AF%8F%E7%AF%87%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%80%8B%E6%9B%9D%E5%85%89%E2%80%94%E2%80%94%E4%B8%80%E5%80%8B%E5%B8%B3%E8%99%9F%E7%9A%84%E5%88%86%E7%99%BC%E5%B8%B3%E6%9C%AC",
+      "title": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
+      "date": "2026-07-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "演算法壓制",
+          "平台治理",
+          "內容審核",
+          "廣告經濟"
+        ],
+        "en": [
+          "algorithmic-suppression",
+          "platform-governance",
+          "content-moderation",
+          "ad-economy"
+        ]
+      },
+      "keywords": [
+        "自然觸及",
+        "影子禁言",
+        "審核疲勞",
+        "Opportunity Score",
+        "廣告定價"
+      ],
+      "summary": "零違規帳號,每篇二十四次曝光。垃圾洪水令一刀切成為必然,而稀缺被標價出售——防洪與生意共用同一把刀。",
+      "status": "draft",
+      "reading_time": 24,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 4,
+        "total": 5
+      }
+    },
+    {
+      "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
+      "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
+      "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "media-literacy",
+      "tags": {
+        "zh": [
+          "語言政治",
+          "集體記憶",
+          "語料庫偏差",
+          "AI審查"
+        ],
+        "en": [
+          "language-politics",
+          "collective-memory",
+          "corpus-bias",
+          "ai-censorship"
+        ]
+      },
+      "keywords": [
+        "廣東話",
+        "0243 聲調系統",
+        "perplexity",
+        "蘋果日報檔案",
+        "移民存古",
+        "贗品保存"
+      ],
+      "summary": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
+      "status": "published",
+      "reading_time": 20,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
+      "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Matters",
+        "垃圾訊息",
+        "觸及率",
+        "暢銷書機制",
+        "認知封鎖"
+      ],
+      "summary": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 2,
+        "total": 5
+      }
+    },
+    {
       "id": "我問了 AI「記憶體股還能不能買」",
       "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
       "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
@@ -35,7 +231,13 @@
       ],
       "summary": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
       "status": "published",
-      "reading_time": 9
+      "reading_time": 9,
+      "series": {
+        "id": "memory-trilogy",
+        "name": "記憶體與 AI 算力週期三部曲",
+        "order": 3,
+        "total": 3
+      }
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -73,7 +275,8 @@
       "summary": "從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。",
       "status": "published",
       "reading_time": 8,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
     },
     {
       "id": "當 AI 產生質變，為什麼大家還在討論量？",
@@ -109,7 +312,8 @@
       "summary": "每一次 AI 的智力跨過臨界點，都會產生量變與質變兩種變化。雖然量變更容易被衡量和變現，但歷史上真正改變格局的，往往是那些以前做不到、現在被實現的質變。",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
     },
     {
       "id": "殺死創新的標準作業程序",
@@ -143,7 +347,8 @@
       "summary": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
       "status": "published",
       "reading_time": 5,
-      "sidebar_position": 2
+      "sidebar_position": 2,
+      "series": null
     },
     {
       "id": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
@@ -173,7 +378,8 @@
       "summary": "每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。",
       "status": "published",
       "reading_time": 8,
-      "sidebar_position": 1
+      "sidebar_position": 1,
+      "series": null
     },
     {
       "id": "當所有人都在學AI",
@@ -206,7 +412,8 @@
       ],
       "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
     },
     {
       "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
@@ -236,7 +443,8 @@
       ],
       "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -272,7 +480,13 @@
       "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
       "status": "published",
       "reading_time": 10,
-      "sidebar_position": 20260528
+      "sidebar_position": 20260528,
+      "series": {
+        "id": "memory-trilogy",
+        "name": "記憶體與 AI 算力週期三部曲",
+        "order": 2,
+        "total": 3
+      }
     },
     {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -307,7 +521,13 @@
       ],
       "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": {
+        "id": "memory-trilogy",
+        "name": "記憶體與 AI 算力週期三部曲",
+        "order": 1,
+        "total": 3
+      }
     },
     {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
@@ -340,7 +560,8 @@
       ],
       "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
       "status": "published",
-      "reading_time": 4
+      "reading_time": 4,
+      "series": null
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -375,7 +596,8 @@
       ],
       "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量的醬板鴨，拆解 AI 時代內容工業化的真正結構。",
       "status": "draft",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
@@ -410,7 +632,8 @@
       ],
       "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 20,
+      "series": null
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -445,7 +668,8 @@
       ],
       "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
       "status": "published",
-      "reading_time": 5
+      "reading_time": 5,
+      "series": null
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
@@ -480,7 +704,8 @@
       ],
       "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -515,7 +740,8 @@
       ],
       "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": null
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
@@ -550,7 +776,8 @@
       ],
       "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
@@ -585,7 +812,8 @@
       ],
       "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
       "status": "published",
-      "reading_time": 15
+      "reading_time": 15,
+      "series": null
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -621,7 +849,8 @@
       "summary": "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。",
       "status": "published",
       "reading_time": 18,
-      "sidebar_position": 20260429
+      "sidebar_position": 20260429,
+      "series": null
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
@@ -656,7 +885,8 @@
       ],
       "summary": "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
     },
     {
       "id": "CLAW",
@@ -691,7 +921,8 @@
       ],
       "summary": "以「龍蝦」比喻AI Agent，拆解三波市場演進與模型吞噬中間層的趨勢。",
       "status": "published",
-      "reading_time": 6
+      "reading_time": 6,
+      "series": null
     },
     {
       "id": "index",
@@ -706,7 +937,8 @@
       "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
-      "sidebar_position": 0
+      "sidebar_position": 0,
+      "series": null
     },
     {
       "id": "20260409AIJobWave",
@@ -742,7 +974,8 @@
       "summary": "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。",
       "status": "published",
       "reading_time": 9,
-      "sidebar_position": 20260409
+      "sidebar_position": 20260409,
+      "series": null
     },
     {
       "id": "NvidaAllInPodcast",
@@ -778,10 +1011,167 @@
       "summary": "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 1
+      "sidebar_position": 1,
+      "series": null
     }
   ],
   "zh-HK": [
+    {
+      "id": "異常報告裡的讀者・後記——我以為門關了",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
+      "title": "異常報告裡的讀者・後記——我以為門關了",
+      "date": "2026-07-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook社團",
+        "無聲封鎖",
+        "影子禁言",
+        "認知封鎖",
+        "AI搜尋引擎"
+      ],
+      "summary": "當你以為是平台故障或演算法不推時，真相可能是你已被無聲地從場域中封鎖。一個需要僥倖才能揭穿的排除機制，是最完美的消音。",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 3,
+        "total": 5
+      }
+    },
+    {
+      "id": "半個鐘頭的生產線",
+      "slug": "/docs/TechNotes/%E5%8D%8A%E5%80%8B%E9%90%98%E9%A0%AD%E7%9A%84%E7%94%9F%E7%94%A2%E7%B7%9A",
+      "title": "半個鐘頭的生產線——當內容農場不需要敵人就能打贏一場信息戰",
+      "date": "2026-07-21T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容農場",
+          "演算法推薦",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-farm",
+          "algorithmic-recommendation",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook 帳號矩陣",
+        "Novel PD",
+        "AI 生成小說",
+        "digital scrip",
+        "信息淹沒"
+      ],
+      "summary": "半個鐘頭、三個帳號、同一篇文——一條由 AI 生產到 AI 消費的完整工業鏈，不需要敵人就能打贏一場信息戰。",
+      "status": "draft",
+      "reading_time": 15,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 5,
+        "total": 5
+      }
+    },
+    {
+      "id": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
+      "slug": "/docs/TechNotes/%E9%9B%B6%E9%81%95%E8%A6%8F%EF%BC%8C%E6%AF%8F%E7%AF%87%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%80%8B%E6%9B%9D%E5%85%89%E2%80%94%E2%80%94%E4%B8%80%E5%80%8B%E5%B8%B3%E8%99%9F%E7%9A%84%E5%88%86%E7%99%BC%E5%B8%B3%E6%9C%AC",
+      "title": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
+      "date": "2026-07-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "演算法壓制",
+          "平台治理",
+          "內容審核",
+          "廣告經濟"
+        ],
+        "en": [
+          "algorithmic-suppression",
+          "platform-governance",
+          "content-moderation",
+          "ad-economy"
+        ]
+      },
+      "keywords": [
+        "自然觸及",
+        "影子禁言",
+        "審核疲勞",
+        "Opportunity Score",
+        "廣告定價"
+      ],
+      "summary": "零違規帳號,每篇二十四次曝光。垃圾洪水令一刀切成為必然,而稀缺被標價出售——防洪與生意共用同一把刀。",
+      "status": "draft",
+      "reading_time": 24,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 4,
+        "total": 5
+      }
+    },
+    {
+      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
+      "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Matters",
+        "垃圾訊息",
+        "觸及率",
+        "暢銷書機制",
+        "認知封鎖"
+      ],
+      "summary": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 2,
+        "total": 5
+      }
+    },
     {
       "id": "我問了 AI「記憶體股還能不能買」",
       "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
@@ -817,41 +1207,8 @@
       ],
       "summary": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
       "status": "published",
-      "reading_time": 9
-    },
-    {
-      "id": "殺死創新的標準作業程序",
-      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
-      "title": "殺死創新的標準作業程序",
-      "date": "2026-07-02T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "ai-industry-critique",
-      "tags": {
-        "zh": [
-          "創新",
-          "遊戲產業",
-          "資本運作",
-          "效率優化"
-        ],
-        "en": [
-          "innovation",
-          "game-industry",
-          "capitalism",
-          "efficiency-optimization"
-        ]
-      },
-      "keywords": [
-        "殺死創新",
-        "標準作業程序",
-        "遊戲業",
-        "資本",
-        "優化"
-      ],
-      "summary": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
-      "status": "published",
-      "reading_time": 5,
-      "sidebar_position": 2
+      "reading_time": 9,
+      "series": null
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -887,7 +1244,8 @@
       "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
       "status": "published",
       "reading_time": 10,
-      "sidebar_position": 20260528
+      "sidebar_position": 20260528,
+      "series": null
     },
     {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -922,7 +1280,8 @@
       ],
       "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": null
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -957,7 +1316,8 @@
       ],
       "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。",
       "status": "draft",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -992,7 +1352,8 @@
       ],
       "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": null
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
@@ -1027,7 +1388,8 @@
       ],
       "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
       "status": "published",
-      "reading_time": 15
+      "reading_time": 15,
+      "series": null
     },
     {
       "id": "index",
@@ -1042,7 +1404,48 @@
       "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
-      "sidebar_position": 0
+      "sidebar_position": 0,
+      "series": null
+    },
+    {
+      "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
+      "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
+      "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "media-literacy",
+      "tags": {
+        "zh": [
+          "語言政治",
+          "集體記憶",
+          "語料庫偏差",
+          "AI審查"
+        ],
+        "en": [
+          "language-politics",
+          "collective-memory",
+          "corpus-bias",
+          "ai-censorship"
+        ]
+      },
+      "keywords": [
+        "廣東話",
+        "0243 聲調系統",
+        "perplexity",
+        "蘋果日報檔案",
+        "移民存古",
+        "贗品保存"
+      ],
+      "summary": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
+      "status": "published",
+      "reading_time": 20,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 1,
+        "total": 5
+      }
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -1080,7 +1483,8 @@
       "summary": "從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。",
       "status": "published",
       "reading_time": 8,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
     },
     {
       "id": "當 AI 產生質變，為什麼大家還在討論量？",
@@ -1116,7 +1520,43 @@
       "summary": "每一次 AI 的智力跨過臨界點，都會產生量變與質變兩種變化。雖然量變更容易被衡量和變現，但歷史上真正改變格局的，往往是那些以前做不到、現在被實現的質變。",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
+    },
+    {
+      "id": "殺死創新的標準作業程序",
+      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
+      "title": "殺死創新的標準作業程序",
+      "date": "2026-07-02T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "創新",
+          "遊戲產業",
+          "資本運作",
+          "效率優化"
+        ],
+        "en": [
+          "innovation",
+          "game-industry",
+          "capitalism",
+          "efficiency-optimization"
+        ]
+      },
+      "keywords": [
+        "殺死創新",
+        "標準作業程序",
+        "遊戲業",
+        "資本",
+        "優化"
+      ],
+      "summary": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 2,
+      "series": null
     },
     {
       "id": "當所有人都在學AI",
@@ -1149,7 +1589,39 @@
       ],
       "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
+    },
+    {
+      "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
+      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
+      "title": "遊戲致勝：微軟與世嘉的跨國糾纏",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "平台生態戰",
+          "主機戰爭"
+        ],
+        "en": [
+          "game-industry",
+          "platform-ecosystem-war",
+          "console-war"
+        ]
+      },
+      "keywords": [
+        "Xbox",
+        "Sega",
+        "Dreamcast",
+        "Microsoft"
+      ],
+      "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
+      "status": "published",
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
@@ -1182,7 +1654,8 @@
       ],
       "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
       "status": "published",
-      "reading_time": 4
+      "reading_time": 4,
+      "series": null
     },
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
@@ -1217,7 +1690,8 @@
       ],
       "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 20,
+      "series": null
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -1252,7 +1726,8 @@
       ],
       "summary": "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。",
       "status": "published",
-      "reading_time": 5
+      "reading_time": 5,
+      "series": null
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
@@ -1287,7 +1762,8 @@
       ],
       "summary": "拆解AI教育課程的焦慮變現結構，論證「簡單」比「月入十萬」更毒。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
@@ -1322,7 +1798,8 @@
       ],
       "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -1358,7 +1835,8 @@
       "summary": "從財務數據論證AI模型正從消費者產品轉向企業元件，個人用戶體感變差是商業決策。",
       "status": "published",
       "reading_time": 18,
-      "sidebar_position": 20260429
+      "sidebar_position": 20260429,
+      "series": null
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
@@ -1393,7 +1871,8 @@
       ],
       "summary": "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
     },
     {
       "id": "CLAW",
@@ -1428,7 +1907,8 @@
       ],
       "summary": "以「龍蝦」比喻AI Agent，拆解三波市場演進與模型吞噬中間層的趨勢。",
       "status": "published",
-      "reading_time": 6
+      "reading_time": 6,
+      "series": null
     },
     {
       "id": "20260409AIJobWave",
@@ -1464,7 +1944,8 @@
       "summary": "拆解AI就業潮的焦慮敘事，論證軟體業正在經歷的是結構性收縮而非轉型。",
       "status": "published",
       "reading_time": 9,
-      "sidebar_position": 20260409
+      "sidebar_position": 20260409,
+      "series": null
     },
     {
       "id": "NvidaAllInPodcast",
@@ -1500,10 +1981,167 @@
       "summary": "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 1
+      "sidebar_position": 1,
+      "series": null
     }
   ],
   "en": [
+    {
+      "id": "異常報告裡的讀者・後記——我以為門關了",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
+      "title": "The Reader in the Anomaly Report · Postscript — I Thought the Door Was Closed",
+      "date": "2026-07-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook group",
+        "silent blocking",
+        "shadow ban",
+        "cognitive blockade",
+        "AI search engine"
+      ],
+      "summary": "When you think it's a platform glitch or the algorithm not promoting you, the truth may be that you've already been silently blocked from the field. An exclusion mechanism that requires luck to uncover is the perfect silencing.",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 3,
+        "total": 5
+      }
+    },
+    {
+      "id": "半個鐘頭的生產線",
+      "slug": "/docs/TechNotes/%E5%8D%8A%E5%80%8B%E9%90%98%E9%A0%AD%E7%9A%84%E7%94%9F%E7%94%A2%E7%B7%9A",
+      "title": "Half an Hour on the Assembly Line — When Content Farms Don't Need an Enemy to Win an Information War",
+      "date": "2026-07-21T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容農場",
+          "演算法推薦",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-farm",
+          "algorithmic-recommendation",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Facebook account matrix",
+        "Novel PD",
+        "AI-generated fiction",
+        "digital scrip",
+        "information flooding"
+      ],
+      "summary": "Half an hour, three accounts, the same article — a complete industrial chain from AI production to AI consumption, winning an information war without needing an enemy.",
+      "status": "draft",
+      "reading_time": 15,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 5,
+        "total": 5
+      }
+    },
+    {
+      "id": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
+      "slug": "/docs/TechNotes/%E9%9B%B6%E9%81%95%E8%A6%8F%EF%BC%8C%E6%AF%8F%E7%AF%87%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%80%8B%E6%9B%9D%E5%85%89%E2%80%94%E2%80%94%E4%B8%80%E5%80%8B%E5%B8%B3%E8%99%9F%E7%9A%84%E5%88%86%E7%99%BC%E5%B8%B3%E6%9C%AC",
+      "title": "Zero Violations, Twenty-Four Impressions Per Post — A Distribution Ledger of One Account",
+      "date": "2026-07-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "演算法壓制",
+          "平台治理",
+          "內容審核",
+          "廣告經濟"
+        ],
+        "en": [
+          "algorithmic-suppression",
+          "platform-governance",
+          "content-moderation",
+          "ad-economy"
+        ]
+      },
+      "keywords": [
+        "organic reach",
+        "shadow ban",
+        "moderation fatigue",
+        "Opportunity Score",
+        "ad pricing"
+      ],
+      "summary": "A zero-violation account, twenty-four impressions per post. The spam flood makes across-the-board cuts inevitable, and scarcity is manufactured, priced, and sold back to you — flood control and commerce share the same blade.",
+      "status": "draft",
+      "reading_time": 24,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 4,
+        "total": 5
+      }
+    },
+    {
+      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
+      "title": "The Reader in the Anomaly Report — When Truth and Garbage Enter Through the Same Channel",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Matters",
+        "spam",
+        "reach rate",
+        "bestseller mechanism",
+        "cognitive blockade"
+      ],
+      "summary": "Truth and garbage enter through the same channel, and the machine can't tell them apart. But person-to-person reputation endorsement can still crack open a gap within a triple blockade.",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 2,
+        "total": 5
+      }
+    },
     {
       "id": "我問了 AI「記憶體股還能不能買」",
       "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
@@ -1539,41 +2177,8 @@
       ],
       "summary": "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.",
       "status": "published",
-      "reading_time": 9
-    },
-    {
-      "id": "殺死創新的標準作業程序",
-      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
-      "title": "The Standard Operating Procedure for Killing Innovation",
-      "date": "2026-07-02T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "ai-industry-critique",
-      "tags": {
-        "zh": [
-          "創新",
-          "遊戲產業",
-          "資本運作",
-          "效率優化"
-        ],
-        "en": [
-          "innovation",
-          "game-industry",
-          "capitalism",
-          "efficiency-optimization"
-        ]
-      },
-      "keywords": [
-        "killing innovation",
-        "standard operating procedure",
-        "games industry",
-        "capital",
-        "optimization"
-      ],
-      "summary": "The same script—when capital learns how to kill innovation, every industry becomes the games industry.",
-      "status": "published",
-      "reading_time": 5,
-      "sidebar_position": 2
+      "reading_time": 9,
+      "series": null
     },
     {
       "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
@@ -1609,7 +2214,8 @@
       "summary": "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution.",
       "status": "published",
       "reading_time": 10,
-      "sidebar_position": 20260528
+      "sidebar_position": 20260528,
+      "series": null
     },
     {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -1644,7 +2250,8 @@
       ],
       "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": null
     },
     {
       "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
@@ -1679,7 +2286,8 @@
       ],
       "summary": "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.",
       "status": "draft",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
@@ -1714,7 +2322,8 @@
       ],
       "summary": "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment.",
       "status": "published",
-      "reading_time": 18
+      "reading_time": 18,
+      "series": null
     },
     {
       "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
@@ -1749,7 +2358,8 @@
       ],
       "summary": "Analyzing Google Cloud Next 2026 to show how free AI models serve as a customer acquisition funnel for enterprise cloud revenue.",
       "status": "published",
-      "reading_time": 15
+      "reading_time": 15,
+      "series": null
     },
     {
       "id": "index",
@@ -1764,7 +2374,48 @@
       "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
       "status": "draft",
       "reading_time": 0,
-      "sidebar_position": 0
+      "sidebar_position": 0,
+      "series": null
+    },
+    {
+      "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
+      "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
+      "title": "How the Machine Helps Execute a Deletion That Has Already Happened",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "media-literacy",
+      "tags": {
+        "zh": [
+          "語言政治",
+          "集體記憶",
+          "語料庫偏差",
+          "AI審查"
+        ],
+        "en": [
+          "language-politics",
+          "collective-memory",
+          "corpus-bias",
+          "ai-censorship"
+        ]
+      },
+      "keywords": [
+        "Cantonese",
+        "0243 tonal system",
+        "perplexity",
+        "Apple Daily archive",
+        "immigrant linguistic preservation",
+        "counterfeit preservation"
+      ],
+      "summary": "AI generation and AI detection share the same statistical machine: the corpus's centre of gravity is power. Once the archives have been cleansed, the machine perpetuates the deletion at industrial scale.",
+      "status": "published",
+      "reading_time": 20,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 1,
+        "total": 5
+      }
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -1802,7 +2453,8 @@
       "summary": "Starting from Microsoft's newly announced Advanced Shader Delivery (ASD) technology, this essay dissects how Microsoft uses problem-solving as a pretext for platform lock-in, and the strategic contradictions of dismantling Xbox — its only consumer base — in the AI era.",
       "status": "published",
       "reading_time": 8,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
     },
     {
       "id": "當 AI 產生質變，為什麼大家還在討論量？",
@@ -1838,7 +2490,43 @@
       "summary": "Every time AI's intelligence crosses a threshold, it produces both quantitative and qualitative change. While quantitative change is easier to measure and monetize, what truly reshapes the landscape throughout history has always been qualitative change — things that were previously impossible, now made real.",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 20260708
+      "sidebar_position": 20260708,
+      "series": null
+    },
+    {
+      "id": "殺死創新的標準作業程序",
+      "slug": "/docs/TechNotes/%E6%AE%BA%E6%AD%BB%E5%89%B5%E6%96%B0%E7%9A%84%E6%A8%99%E6%BA%96%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F",
+      "title": "The Standard Operating Procedure for Killing Innovation",
+      "date": "2026-07-02T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-industry-critique",
+      "tags": {
+        "zh": [
+          "創新",
+          "遊戲產業",
+          "資本運作",
+          "效率優化"
+        ],
+        "en": [
+          "innovation",
+          "game-industry",
+          "capitalism",
+          "efficiency-optimization"
+        ]
+      },
+      "keywords": [
+        "killing innovation",
+        "standard operating procedure",
+        "games industry",
+        "capital",
+        "optimization"
+      ],
+      "summary": "The same script—when capital learns how to kill innovation, every industry becomes the games industry.",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 2,
+      "series": null
     },
     {
       "id": "當所有人都在學AI",
@@ -1871,7 +2559,8 @@
       ],
       "summary": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
     },
     {
       "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
@@ -1901,7 +2590,39 @@
       ],
       "summary": "《遊戲致勝》未收錄的一章：微軟與世嘉的 WinCE 糾纏，以及 Xbox 如何從 Dreamcast 的屍體上誕生。",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
+    },
+    {
+      "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
+      "slug": "/docs/TechNotes/%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D_%E5%BE%AE%E8%BB%9F%E8%88%87%E4%B8%96%E5%98%89%E7%9A%84%E8%B7%A8%E5%9C%8B%E7%B3%BE%E7%BA%8F",
+      "title": "Game Victory: The Transnational Entanglement of Microsoft and Sega",
+      "date": "2026-06-12T00:00:00.000Z",
+      "lang": "en",
+      "section": "gamevictory",
+      "topic": "t-game-history",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "平台生態戰",
+          "主機戰爭"
+        ],
+        "en": [
+          "game-industry",
+          "platform-ecosystem-war",
+          "console-war"
+        ]
+      },
+      "keywords": [
+        "Xbox",
+        "Sega",
+        "Dreamcast",
+        "Microsoft"
+      ],
+      "summary": "The unwritten chapter of Game Victory: Microsoft and Sega's WinCE entanglement, and how Xbox was born from Dreamcast's corpse.",
+      "status": "published",
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
@@ -1934,7 +2655,8 @@
       ],
       "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
       "status": "published",
-      "reading_time": 4
+      "reading_time": 4,
+      "series": null
     },
     {
       "id": "認知與判斷——AI 時代人類最後的不可取代性",
@@ -1969,7 +2691,8 @@
       ],
       "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
       "status": "published",
-      "reading_time": 20
+      "reading_time": 20,
+      "series": null
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -2004,7 +2727,8 @@
       ],
       "summary": "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity.",
       "status": "published",
-      "reading_time": 5
+      "reading_time": 5,
+      "series": null
     },
     {
       "id": "當「教育」變成一門不可能翻車的生意",
@@ -2039,7 +2763,8 @@
       ],
       "summary": "Deconstructing the business logic behind AI courses that sell 'simplicity' and how they shift the responsibility of failure entirely onto the learner.",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "人寫還是AI寫，其實是個假問題",
@@ -2074,7 +2799,8 @@
       ],
       "summary": "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment.",
       "status": "published",
-      "reading_time": 10
+      "reading_time": 10,
+      "series": null
     },
     {
       "id": "AI 模型不是變笨了，是不再為你而設計",
@@ -2110,7 +2836,8 @@
       "summary": "Using financial data to prove AI models are shifting from consumer products to enterprise components, explaining why individual user experience is degrading.",
       "status": "published",
       "reading_time": 18,
-      "sidebar_position": 20260429
+      "sidebar_position": 20260429,
+      "series": null
     },
     {
       "id": "chatgpt-images2-vs-nanoBanana2",
@@ -2145,7 +2872,8 @@
       ],
       "summary": "Reverse-testing ChatGPT Images 2.0 using Google's official prompts, revealing the vast gap between visual quality and factual accuracy.",
       "status": "published",
-      "reading_time": 12
+      "reading_time": 12,
+      "series": null
     },
     {
       "id": "CLAW",
@@ -2180,7 +2908,8 @@
       ],
       "summary": "Using 'lobsters' as a metaphor for AI Agents to break down the three waves of market evolution and the trend of models devouring the middleware layer.",
       "status": "published",
-      "reading_time": 6
+      "reading_time": 6,
+      "series": null
     },
     {
       "id": "20260409AIJobWave",
@@ -2216,7 +2945,8 @@
       "summary": "Dismantling the anxiety narrative surrounding the AI job wave, arguing that the software industry is undergoing structural contraction, not transformation.",
       "status": "published",
       "reading_time": 9,
-      "sidebar_position": 20260409
+      "sidebar_position": 20260409,
+      "series": null
     },
     {
       "id": "NvidaAllInPodcast",
@@ -2252,7 +2982,8 @@
       "summary": "Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era.",
       "status": "published",
       "reading_time": 6,
-      "sidebar_position": 1
+      "sidebar_position": 1,
+      "series": null
     }
   ]
 }

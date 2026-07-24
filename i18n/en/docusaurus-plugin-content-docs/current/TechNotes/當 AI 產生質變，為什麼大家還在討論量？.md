@@ -49,7 +49,7 @@ These reactions are perfectly reasonable. Product builders have deadlines. Freel
 But I want to say one more thing.
 
 Not that those things aren't important. Rather, there may be another layer worth paying attention to.
-![](./images/Gemini_Generated_Image_g9neyhg9neyhg9ne.png)
+![](./images/Gemini_Generated_Image_g9neyhg9neyhg9ne.jpg)
 
 ---
 
@@ -92,7 +92,7 @@ If this capability is real, its applications extend far beyond writing code:
 What all of these have in common: they're not a matter of "doing it faster" — they're a matter of "it couldn't be done before."
 
 ---
-![](./images/Gemini_Generated_Image_xq48txq48txq48tx.png)
+![](./images/Gemini_Generated_Image_xq48txq48txq48tx.jpg)
 ## Survival Comes First, but Qualitative Change Kills
 
 I'm not saying everyone should put down their work and contemplate philosophy.
@@ -138,7 +138,7 @@ But the things beneath the frameworks:
 These can't be crash-coursed, and they won't be made obsolete. They don't exempt you from learning frameworks — they ensure that when frameworks change generations, you don't have to start from zero.
 
 This is the other face of qualitative change. It's not just "being able to do new things" — it also means "old things will disappear." Choosing not to think about qualitative change doesn't mean qualitative change won't come for you.
-![](./images/Gemini_Generated_Image_gxay3dgxay3dgxay%20(1).png)
+![](./images/Gemini_Generated_Image_gxay3dgxay3dgxay%20(1).jpg)
 
 ---
 ## Closing: Opening Up Previously Unimaginable Thinking
@@ -154,7 +154,7 @@ But if, after finishing your work, you have a bit of margin left, perhaps it's w
 Perhaps the most interesting thing about FABLE isn't what it helped you finish.  
 It's that, for the first time, it lets you begin to imagine — what things were previously so unthinkable that you never even thought to think about them.
 
-![](./images/Gemini_Generated_Image_f56u2af56u2af56u.png)
+![](./images/Gemini_Generated_Image_f56u2af56u2af56u.jpg)
 
 ---
 

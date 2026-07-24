@@ -216,4 +216,4 @@ Two worldviews.
 
 And AI is pulling the distance between these two worldviews further apart than ever before.
 
-![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.png)
+![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.jpg)

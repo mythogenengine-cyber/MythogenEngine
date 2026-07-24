@@ -131,4 +131,4 @@ It didn't. It paid its final $5 million to a young man who had made a fatal mist
 
 That company was Sega. That young man was Jensen Huang.
 
-![](ch03_en%201.png)
+![](ch03_en%201.jpg)

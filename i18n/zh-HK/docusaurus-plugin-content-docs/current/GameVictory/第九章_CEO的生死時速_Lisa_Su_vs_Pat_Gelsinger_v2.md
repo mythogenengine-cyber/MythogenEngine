@@ -251,4 +251,4 @@ Intel 的回扣戰→ AMD 被逼到破產邊緣 → AMD 甩掉晶圓廠 → AMD 
 
 那是下一章的故事。
 
-![](ch09_zh.png)
+![](ch09_zh.jpg)

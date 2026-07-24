@@ -255,4 +255,4 @@ GitHub（8000 萬+開發者）和 VS Code（全球最流行的 IDE）是微軟�
 **微軟必須在 Suleyman 的五年計劃結出果實之前，找到一種方法讓自己的平台優勢不被 Agentic 浪潮沖走。在 Google 和 Anthropic 的兩面夾擊下，時間比想像中更少了。**
 
 👉 [主題六：Apple 的靜悄悄反殺](06_apple_counter.md)
-![](./Gemini_Generated_Image_2cfayt2cfayt2cfa.png)
+![](./Gemini_Generated_Image_2cfayt2cfayt2cfa.jpg)

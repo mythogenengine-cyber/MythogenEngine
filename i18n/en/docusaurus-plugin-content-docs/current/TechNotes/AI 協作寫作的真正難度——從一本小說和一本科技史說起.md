@@ -42,7 +42,7 @@ Two kinds of writing, two kinds of judgment, two entirely different ways to fail
 AI amplifies the depth you already possess.
 Your blind spots are its blind spots.
 
-![](./images/Gemini_Generated_Image_dvbyj9dvbyj9dvby.png)
+![](./images/Gemini_Generated_Image_dvbyj9dvbyj9dvby.jpg)
 
 Full text:
 

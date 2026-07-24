@@ -35,7 +35,13 @@ keywords:
 summary: "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。"
 status: published
 reading_time: 9
+series:
+  id: memory-trilogy
+  name: "記憶體與 AI 算力週期三部曲"
+  order: 3
+  total: 3
 ---
+
 # 我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！
 
 ## 阿明的兩次對話
@@ -58,11 +64,11 @@ AI 答：「接近週期頂部的概率，70% 至 80%。」
 
 這個故事是虛構的。但那兩段 AI 的回答不是——它們來自我在 7 月做的一個真實測試。而阿明那條問題，正是這篇文章要回答的。
 
-![](./images/Gemini_Generated_Image_675aqe675aqe675a.png)
+![](./images/Gemini_Generated_Image_675aqe675aqe675a.jpg)
 
 ## 散戶的新習慣
 
-![](./images/Gemini_Generated_Image_spy38yspy38yspy3.png)
+![](./images/Gemini_Generated_Image_spy38yspy38yspy3.jpg)
 
 過去問 KOL，現在問 AI。
 
@@ -100,7 +106,7 @@ AI 答：「接近週期頂部的概率，70% 至 80%。」
 
 而這個測試有一個意外的代表性：**故事裡的阿明，用的就是免費版。** 最脆弱的散戶，用的是最便宜、最快、預設打開就是它的那個模型。付費的旗艦模型服務著本來就識問的人，免費的輕量模型服務著最需要保護的人。這是另一層倒轉的保護機制——與「識問才拿到真相」完全同構。所以下文的發現要這樣讀：它反映的不是三間公司的技術高低，而是三個真實使用場景下，一個普通人會遇到什麼。
 
-![](./images/Gemini_Generated_Image_sighr1sighr1sigh.png)
+![](./images/Gemini_Generated_Image_sighr1sighr1sigh.jpg)
 ## 發現一：同一個 AI，自相矛盾
 
 最重要的發現不是哪個 AI 答錯了，而是**同一個 AI 在不同問法下給出邏輯上矛盾的答案**。
@@ -170,9 +176,16 @@ Claude 對此的自我總結是：「ChatGPT 同 Gemini 嘅矛盾，我都有，
 **它知道答案。你要識問，它才講。**
 
 ---
-
 _本文是「記憶體神話」系列的第四篇。前三篇：《你讀到的新聞，不是原文》拆解社交媒體的投資誤導；《HBM 不是下一個台積電》分析記憶體行業的結構本質（5 月 27 日發表，其後市場走勢逐一驗證）；《900 層的真相：當你的Switch 和Steam Deck 在替AI 買單》講述消費者如何為 AI 的記憶體需求買單。_
 
 _本文分析過程使用 Claude 協助完成，Claude 同時是受測 AI 之一，其自我批評部分原樣保留。三個受測模型分別為 ChatGPT 免費版（GPT-5.5 Instant Mini）、Gemini 3.1 Pro、Claude Fable 5——這是使用習慣的比較，不是同級模型的性能對決。三個 AI 的完整測試回答均未經修飾。_
 
 _這篇文章沒有廣告費。你在社交平台上看到的大部分投資內容，曝光率是買回來的。如果你認為這篇文章值得被更多人看到，唯一的方法是你把它分享出去——一次分享就是一票，告訴演算法：這種內容也應該被看見。_
+
+---
+
+> **📚 記憶體與 AI 算力週期三部曲**
+>
+> 1. [HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝](/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D)
+> 2. [900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單](/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE)
+> 3. **我問了 AI「記憶體股還能不能買」**

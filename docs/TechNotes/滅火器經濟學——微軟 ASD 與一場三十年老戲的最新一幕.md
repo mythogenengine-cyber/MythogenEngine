@@ -61,8 +61,8 @@ ASD 要求:Windows 11 24H2 或更新版本。Xbox Gaming Services 更新至指�
 便利是真的。鎖定也是真的。
 
 這個結構你如果覺得眼熟,那是因為它三十年前就出現過。
-![](./images/Gemini_Generated_Image_h8l3tqh8l3tqh8l3.png)
-![](./images/Gemini_Generated_Image_wd2nhxwd2nhxwd2n.png)
+![](./images/Gemini_Generated_Image_h8l3tqh8l3tqh8l3.jpg)
+![](./images/Gemini_Generated_Image_wd2nhxwd2nhxwd2n.jpg)
 
 ---
 
@@ -84,8 +84,8 @@ DX11 時代,驅動程式會替開發者處理大量著色器編譯和排列組�
 
 **自己製造的問題,做成平台專屬的解決方案。先放火,再賣滅火器——而且滅火器只賣給住在自己大樓裡的房客。**
 
-![](./images/Gemini_Generated_Image_7737sq7737sq7737.png)
-![](./images/Gemini_Generated_Image_4aujcr4aujcr4auj.png)
+![](./images/Gemini_Generated_Image_7737sq7737sq7737.jpg)
+![](./images/Gemini_Generated_Image_4aujcr4aujcr4auj.jpg)
 
 ---
 
@@ -109,8 +109,8 @@ DX11 時代,驅動程式會替開發者處理大量著色器編譯和排列組�
 
 工程資源沒有花在改善遊戲引擎上,沒有花在遊戲 AI 上。工程資源花在建設平台鎖定的基礎設施上。遊戲品質是手段,平台黏性才是目的。
 
-![](./images/Gemini_Generated_Image_ot21t9ot21t9ot21.png)
-![](./images/Gemini_Generated_Image_ndwbrfndwbrfndwb 1.png)
+![](./images/Gemini_Generated_Image_ot21t9ot21t9ot21.jpg)
+![](./images/Gemini_Generated_Image_ndwbrfndwbrfndwb 1.jpg)
 
 ---
 
@@ -128,8 +128,8 @@ Windows 曾經是整棟大樓的業主。現在它正在變成租客——一個
 
 這是在沉沒的船上安裝更好的門鎖。
 
-![](./images/Gemini_Generated_Image_4k5zc44k5zc44k5z.png)
-![](./images/Gemini_Generated_Image_hlw6h2hlw6h2hlw6.png)
+![](./images/Gemini_Generated_Image_4k5zc44k5zc44k5z.jpg)
+![](./images/Gemini_Generated_Image_hlw6h2hlw6h2hlw6.jpg)
 
 ---
 
@@ -159,8 +159,8 @@ ASD 把著色器的分發管線綁定在 Xbox PC 應用程式上。就算 Proton
 
 DirectX 殺死了 Steam Machine 1.0。ASD 是射向 Steam Machine 2.0 的第一顆子彈——在它出生之前。
 
-![](./images/Gemini_Generated_Image_5prf1u5prf1u5prf.png)
-![](./images/Gemini_Generated_Image_cv01jscv01jscv01.png)
+![](./images/Gemini_Generated_Image_5prf1u5prf1u5prf.jpg)
+![](./images/Gemini_Generated_Image_cv01jscv01jscv01.jpg)
 
 ---
 
@@ -198,8 +198,8 @@ Seamus Blackley——第一台 Xbox 的共同創造者——給了一個詞:pall
 
 這是用繃帶貼在動脈上。
 
-![](./images/Gemini_Generated_Image_1tvpwq1tvpwq1tvp.png)
-![](./images/Gemini_Generated_Image_z55hwwz55hwwz55h.png)
+![](./images/Gemini_Generated_Image_1tvpwq1tvpwq1tvp.jpg)
+![](./images/Gemini_Generated_Image_z55hwwz55hwwz55h.jpg)
 
 ---
 
@@ -227,8 +227,8 @@ ASD 不是新技術。它是一個三十年老戲碼的最新一幕——先用�
 
 而一切的起點,是它從第一天起就沒有學會的一件事:**把遊戲當作目的,而不是手段。把玩家當作顧客,而不是籌碼。**
 
-![](./images/Gemini_Generated_Image_c4v8lkc4v8lkc4v8.png)
-![](./images/Gemini_Generated_Image_iu5iz0iu5iz0iu5i.png)
+![](./images/Gemini_Generated_Image_c4v8lkc4v8lkc4v8.jpg)
+![](./images/Gemini_Generated_Image_iu5iz0iu5iz0iu5i.jpg)
 
 ---
 
@@ -242,8 +242,8 @@ ASD 不是新技術。它是一個三十年老戲碼的最新一幕——先用�
 
 帳單還沒結清。利息還在滾。
 
-![](./images/Gemini_Generated_Image_nfnhfknfnhfknfnh.png)
-![](./images/Gemini_Generated_Image_4deyxz4deyxz4dey.png)
+![](./images/Gemini_Generated_Image_nfnhfknfnhfknfnh.jpg)
+![](./images/Gemini_Generated_Image_4deyxz4deyxz4dey.jpg)
 
 ---
 

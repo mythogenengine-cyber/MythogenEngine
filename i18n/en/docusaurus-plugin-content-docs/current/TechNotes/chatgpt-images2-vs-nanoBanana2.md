@@ -33,10 +33,10 @@ description: "Reverse-testing ChatGPT Images 2.0 using Google's official prompts
 **Everyone is calling ChatGPT Images 2.0 a revolutionary breakthrough. I spent a day doing something very boring: fact-checking it item by item.**
 
 ChatGPT Summary
-![](./images/ChatGPT%20Image%202026年4月29日%20上午11_33_50.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午11_33_50.jpg)
 
 Gemini Summary
-![](./images/Gemini_Generated_Image_lh2lrclh2lrclh2l.png)
+![](./images/Gemini_Generated_Image_lh2lrclh2lrclh2l.jpg)
 
 ---
 Last week, OpenAI released ChatGPT Images 2.0, and the entire tech world boiled over. It took the #1 spot on Image Arena, with its ELO score leaving Google Nano Banana 2 in the dust by 242 points—the largest gap in history. Key Opinion Leaders (KOLs) lined up to post tutorials, with headlines uniformly claiming it "crushes the competition," is a "revolution," and "Google is finished."
@@ -88,10 +88,10 @@ But the story didn't end here.
 "Create a bilingual restaurant menu card (Traditional Chinese and English) for a Hong Kong-style cha chaan teng. Include at least 8 items with prices in HKD. The menu should have a retro 1970s aesthetic with cream background and red accents. All Chinese text must be in Traditional Chinese characters."
 
 Fig_01: ChatGPT bilingual restaurant menu card
-![](./images/ChatGPT%20Image%202026年4月29日%20上午09_18_13.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午09_18_13.jpg)
 
 Fig_02:  Gemini bilingual restaurant menu card
-![](./images/gemini_test1.png)
+![](./images/gemini_test1.jpg)
 
 ---
 
@@ -104,12 +104,12 @@ This test was the main event. I asked both models to generate a celebratory info
 "Create a celebratory poster-style infographic commemorating [a major sports/news event from the past week]. Include the key figures, dates, and statistics. Include one or two additional context details that make the event meaningful."
 
 Fig_03: ChatGPT recent major sports/news event infographic
-![](./images/ChatGPT%20Image%202026年4月29日%20上午09_20_23.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午09_20_23.jpg)
 
 **Gemini** delivered an infographic for the Chinese Taipei women's badminton team advancing to the quarterfinals of the 2026 Uber Cup. A double-panel layout, cartoon player illustrations, group stage data, and individual record statistics. The design wasn't as stunning as ChatGPT's, but the information flow was clear.
 
 Fig_04: Gemini recent major sports/news event infographic
-![](./images/Gemini_Generated_Image_ereqdjereqdjereq.png)
+![](./images/Gemini_Generated_Image_ereqdjereqdjereq.jpg)
 
 Then I did something very boring.
 
@@ -156,10 +156,10 @@ Then I did the exact same boring thing.
 "Create a one-page product comparison chart for 3 wireless earbuds (AirPods Pro 3, Samsung Galaxy Buds 4, Sony WF-1000XM6). Use a clean 3-column layout with rows for: Price, Battery Life, ANC Rating (out of 10), Water Resistance, Weight. Include a small product icon at the top of each column. Add a 'Best For' recommendation at the bottom of each column. All text must be sharp and readable."
 
 Fig_05: ChatGPT product comparison chart for 3 wireless earbuds
-![](./images/ChatGPT%20Image%202026年4月29日%20上午10_01_10.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_01_10.jpg)
 
 Fig_06: Gemini product comparison chart for 3 wireless earbuds
-![](./images/Gemini_Generated_Image_c6gdztc6gdztc6gd.png)
+![](./images/Gemini_Generated_Image_c6gdztc6gdztc6gd.jpg)
 ---
 
 ### Fact-Checking the Specs Data Item by Item
@@ -199,16 +199,16 @@ Fig_07: Since Gemini's results were consistent across multiple file formats, I'm
 Fig_08-10: HTML, Markdown, JSON. It only somewhat grasped the topic from the JSON, but the results were entirely irrelevant.
 
 Fig_07: Gemini Chapter Summary (html, json, md)
-![](./images/ch11_zh.png)
+![](./images/ch11_zh.jpg)
 
 Fig_08: ChatGPT Chapter Summary (html)
-![](./images/ChatGPT%20Image%202026年4月29日%20上午10_16_32.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_16_32.jpg)
 
 Fig_09: ChatGPT Chapter Summary (md)
-![](./images/ChatGPT%20Image%202026年4月29日%20上午10_37_37.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_37_37.jpg)
 
 Fig_10: ChatGPT Chapter Summary (json)
-![](./images/ChatGPT%20Image%202026年4月29日%20上午10_40_34.png)
+![](./images/ChatGPT%20Image%202026年4月29日%20上午10_40_34.jpg)
 
 ---
 

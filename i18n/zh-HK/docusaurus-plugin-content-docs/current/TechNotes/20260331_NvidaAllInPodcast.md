@@ -29,9 +29,9 @@ reading_time: 6
 sidebar_position: 1
 description: "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。"
 ---
-![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.png)
+![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.jpg)
 
-![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.png)
+![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.jpg)
 作者：星忘塵 Nebula Walker
 Date: 31MAR2026
 創象引擎 Mythogen Engine
@@ -120,5 +120,5 @@ AI 三秒給你十種方案。「產出」不再稀缺，稀缺的是「識貨�
 這不是文科的勝利，是**思考者的時代**。
 
 ---
-![](./images/Gemini_Generated_Image_iugy1oiugy1oiugy%201.png)
-![](./images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e.png)
+![](./images/Gemini_Generated_Image_iugy1oiugy1oiugy%201.jpg)
+![](./images/Gemini_Generated_Image_7m9eqk7m9eqk7m9e.jpg)

@@ -1,11 +1,11 @@
 ---
 title: "大道無形 — INFO PAGE"
 ---
-![](ChatGPT%20Image%202026年6月24日%20下午04_28_52.png)
+![](ChatGPT%20Image%202026年6月24日%20下午04_28_52.jpg)
 
 
-![](book_back_cover_v2_大道無形.png)
-![](book_info_page_svg_大道無形.png)
+![](book_back_cover_v2_大道無形.jpg)
+![](book_info_page_svg_大道無形.jpg)
 
 
 # 大道無形

@@ -113,5 +113,5 @@ John Carmack 知道。黃仁勳知道。Lisa Su 知道。
 
 📖 https://mythogenengine.com/
 
-![](./images/Gemini_Generated_Image_eopup5eopup5eopu.png)
+![](./images/Gemini_Generated_Image_eopup5eopup5eopu.jpg)
 

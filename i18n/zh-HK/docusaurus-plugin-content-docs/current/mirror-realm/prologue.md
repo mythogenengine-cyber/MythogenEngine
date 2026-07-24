@@ -6,7 +6,7 @@ summary: "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) �
 # 序章〈消失的方式〉
 ## 港版
 
-![](cover_B_hk.png)
+![](cover_B_hk.jpg)
 
 ⬇️ **[下載《鏡界：假面系統殺人事件》電子書 (EPUB)](/downloads/mirror-realm-hk.epub)**
 

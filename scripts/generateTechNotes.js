@@ -54,6 +54,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         status: parsed.data.status || 'draft',
         reading_time: parsed.data.reading_time || 0,
         sidebar_position: parsed.data.sidebar_position,
+        series: parsed.data.series || null,
       });
     }
   }

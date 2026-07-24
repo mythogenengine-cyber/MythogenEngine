@@ -116,4 +116,4 @@ This is perhaps the most dangerous inflation of the AI era.
 
 Not the price of tokens, but the price of language.
 
-![](./images/Gemini_Generated_Image_3ixddb3ixddb3ixd.png)
+![](./images/Gemini_Generated_Image_3ixddb3ixddb3ixd.jpg)

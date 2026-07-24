@@ -231,4 +231,4 @@ This contradiction is the question this book must answer head-on as it reaches i
 
 The main text pauses here. The pages that follow will no longer discuss corporations or business wars. What they will discuss is a kind of person who is disappearing.
 
-![](ch06_en.png)
+![](ch06_en.jpg)

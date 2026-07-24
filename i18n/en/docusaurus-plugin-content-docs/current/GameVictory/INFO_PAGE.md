@@ -6,7 +6,7 @@ summary: "&nbsp; Author 星忘塵 Nebula Walker First Edition Date 23 APR 2026 E
 # GAMEVICTORY
 ## Gaming is the Future: The Hidden Arithmetic of Forty Years of Tech Hegemony
 
-![GameVictory Cover](./gamevictory_cover_lock_front.png)
+![GameVictory Cover](./gamevictory_cover_lock_front.jpg)
 
 ---
 

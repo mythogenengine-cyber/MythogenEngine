@@ -58,11 +58,11 @@ AI 答：「接近週期頂部的概率，70% 至 80%。」
 
 這個故事是虛構的。但那兩段 AI 的回答不是——它們來自我在 7 月做的一個真實測試。而阿明那條問題，正是這篇文章要回答的。
 
-![](./images/Gemini_Generated_Image_675aqe675aqe675a.png)
+![](./images/Gemini_Generated_Image_675aqe675aqe675a.jpg)
 
 ## 散戶的新習慣
 
-![](./images/Gemini_Generated_Image_spy38yspy38yspy3.png)
+![](./images/Gemini_Generated_Image_spy38yspy38yspy3.jpg)
 
 以前問 KOL，而家問 AI。
 
@@ -100,7 +100,7 @@ AI 答：「接近週期頂部的概率，70% 至 80%。」
 
 而這個測試有一個意外的代表性：**故事裡的阿明，用的就是免費版。** 最脆弱的散戶，用的是最平、最快、預設打開就是它的那個模型。付費的旗艦模型服務緊本來就識問的人，免費的輕量模型服務緊最需要保護的人。這是另一層倒轉的保護機制——同「識問先拿到真相」完全同構。所以下文的發現要這樣讀：它反映的不是三間公司的技術高低，而是三個真實使用場景下，一個普通人會遇到什麼。
 
-![](./images/Gemini_Generated_Image_sighr1sighr1sigh.png)
+![](./images/Gemini_Generated_Image_sighr1sighr1sigh.jpg)
 ## 發現一：同一個 AI，自相矛盾
 
 最重要的發現不是邊個 AI 答錯了，而是**同一個 AI 在不同問法下給出邏輯上矛盾的答案**。

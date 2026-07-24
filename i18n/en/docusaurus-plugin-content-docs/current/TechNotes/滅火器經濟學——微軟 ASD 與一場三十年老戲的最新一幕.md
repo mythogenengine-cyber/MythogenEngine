@@ -61,8 +61,8 @@ Is there any technical reason the Steam version can't use the same pre-compiled 
 The convenience is real. The lock-in is also real.
 
 If this structure looks familiar, it's because it appeared thirty years ago.
-![](./images/Gemini_Generated_Image_h8l3tqh8l3tqh8l3.png)
-![](./images/Gemini_Generated_Image_wd2nhxwd2nhxwd2n.png)
+![](./images/Gemini_Generated_Image_h8l3tqh8l3tqh8l3.jpg)
+![](./images/Gemini_Generated_Image_wd2nhxwd2nhxwd2n.jpg)
 
 ---
 
@@ -84,8 +84,8 @@ But the fix isn't to repair DX12's shader pipeline design, isn't to make local c
 
 **A problem of its own making, turned into a platform-exclusive solution. Start the fire, then sell the fire extinguisher — and only sell it to tenants living in your own building.**
 
-![](./images/Gemini_Generated_Image_7737sq7737sq7737.png)
-![](./images/Gemini_Generated_Image_4aujcr4aujcr4auj.png)
+![](./images/Gemini_Generated_Image_7737sq7737sq7737.jpg)
+![](./images/Gemini_Generated_Image_4aujcr4aujcr4auj.jpg)
 
 ---
 
@@ -109,8 +109,8 @@ Because what ASD is meant to demonstrate isn't "improved game quality" but "the 
 
 Engineering resources were not spent on improving the game engine, nor on game AI. Engineering resources were spent on building the infrastructure for platform lock-in. Game quality is the means; platform stickiness is the end.
 
-![](./images/Gemini_Generated_Image_ot21t9ot21t9ot21.png)
-![](./images/Gemini_Generated_Image_ndwbrfndwbrfndwb%201.png)
+![](./images/Gemini_Generated_Image_ot21t9ot21t9ot21.jpg)
+![](./images/Gemini_Generated_Image_ndwbrfndwbrfndwb%201.jpg)
 
 ---
 
@@ -128,8 +128,8 @@ Microsoft is pouring massive engineering effort into deepening lock-in on a plat
 
 This is installing better locks on a sinking ship.
 
-![](./images/Gemini_Generated_Image_4k5zc44k5zc44k5z.png)
-![](./images/Gemini_Generated_Image_hlw6h2hlw6h2hlw6.png)
+![](./images/Gemini_Generated_Image_4k5zc44k5zc44k5z.jpg)
+![](./images/Gemini_Generated_Image_hlw6h2hlw6h2hlw6.jpg)
 
 ---
 
@@ -159,8 +159,8 @@ This is how monopoly operates: **when the old lock is picked, install a new lock
 
 DirectX killed Steam Machine 1.0. ASD is the first bullet aimed at Steam Machine 2.0 — before it is even born.
 
-![](./images/Gemini_Generated_Image_5prf1u5prf1u5prf.png)
-![](./images/Gemini_Generated_Image_cv01jscv01jscv01.png)
+![](./images/Gemini_Generated_Image_5prf1u5prf1u5prf.jpg)
+![](./images/Gemini_Generated_Image_cv01jscv01jscv01.jpg)
 
 ---
 
@@ -198,8 +198,8 @@ And ASD is the remedial action taken after the dismantling. Xbox hardware has wi
 
 This is applying a bandage to an artery.
 
-![](./images/Gemini_Generated_Image_1tvpwq1tvpwq1tvp.png)
-![](./images/Gemini_Generated_Image_z55hwwz55hwwz55h.png)
+![](./images/Gemini_Generated_Image_1tvpwq1tvpwq1tvp.jpg)
+![](./images/Gemini_Generated_Image_z55hwwz55hwwz55h.jpg)
 
 ---
 
@@ -227,8 +227,8 @@ Microsoft won't collapse. It's too big. But it is sliding from "the front-runner
 
 And the starting point of it all is something it never learned from day one: **treat games as the end, not the means. Treat players as customers, not as bargaining chips.**
 
-![](./images/Gemini_Generated_Image_c4v8lkc4v8lkc4v8.png)
-![](./images/Gemini_Generated_Image_iu5iz0iu5iz0iu5i.png)
+![](./images/Gemini_Generated_Image_c4v8lkc4v8lkc4v8.jpg)
+![](./images/Gemini_Generated_Image_iu5iz0iu5iz0iu5i.jpg)
 
 ---
 
@@ -242,8 +242,8 @@ Every thread begins with a reality you took for granted, then rewinds to the dec
 
 The bill hasn't been settled. The interest is still compounding.
 
-![](./images/Gemini_Generated_Image_nfnhfknfnhfknfnh.png)
-![](./images/Gemini_Generated_Image_4deyxz4deyxz4dey.png)
+![](./images/Gemini_Generated_Image_nfnhfknfnhfknfnh.jpg)
+![](./images/Gemini_Generated_Image_4deyxz4deyxz4dey.jpg)
 
 ---
 

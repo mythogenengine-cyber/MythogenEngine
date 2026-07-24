@@ -49,7 +49,7 @@ FABLE 5 出了。
 但我想多說一件事。
 
 不是說那些事不重要。而是說，也許還有另一層東西值得注意。
-![](./images/Gemini_Generated_Image_g9neyhg9neyhg9ne.png)
+![](./images/Gemini_Generated_Image_g9neyhg9neyhg9ne.jpg)
 
 ---
 
@@ -92,7 +92,7 @@ FABLE 5 出了。
 這些事的共同點是：它們不是「做得更快」的問題，而是「以前做不到」的問題。
 
 ---
-![](./images/Gemini_Generated_Image_xq48txq48txq48tx.png)
+![](./images/Gemini_Generated_Image_xq48txq48txq48tx.jpg)
 ## 生存是第一步，但質變會「死人」
 
 我不是說大家應該放下手上的工作來思考哲學。
@@ -138,7 +138,7 @@ FABLE 5 出了。
 這些不能速成，也不會被淘汰。它們不是讓你不用學框架，而是讓你在框架換代的時候，不用從零開始。
 
 這就是質變的另一面。它不只是「可以做新的事」，它還意味著「舊的事會消失」。你不去想質變，不代表質變不會來找你。
-![](./images/Gemini_Generated_Image_gxay3dgxay3dgxay%20(1).png)
+![](./images/Gemini_Generated_Image_gxay3dgxay3dgxay%20(1).jpg)
 
 ---
 ## 結語：開啟以前無法想像的思考
@@ -154,7 +154,7 @@ FABLE 5 出了。
 也許 FABLE 最有意思的地方，不是它幫你做完了什麼。  
 而是它讓你第一次可以開始想，有哪些事情是以前連想都不會去想的。
 
-![](./images/Gemini_Generated_Image_f56u2af56u2af56u.png)
+![](./images/Gemini_Generated_Image_f56u2af56u2af56u.jpg)
 
 ---
 

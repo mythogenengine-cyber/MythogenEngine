@@ -144,4 +144,4 @@ Anthropic 也在準備 IPO，可能在 2026 年 10 月。兩家公司共同上�
 **這台永動機最多再轉 1-2 年，真相就會浮出水面。**
 
 👉 [主題四：微軟的四道緊箍咒](04_limitations.md)
-![](./Gemini_Generated_Image_%20(1).png)
+![](./Gemini_Generated_Image_%20(1).jpg)

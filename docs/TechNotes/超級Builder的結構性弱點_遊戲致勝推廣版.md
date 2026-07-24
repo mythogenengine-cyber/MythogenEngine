@@ -113,6 +113,6 @@ John Carmack 知道。黃仁勳知道。Lisa Su 知道。
 
 📖 https://mythogenengine.com/
 
-![](./images/Gemini_Generated_Image_eopup5eopup5eopu.png)
+![](./images/Gemini_Generated_Image_eopup5eopup5eopu.jpg)
 
-![](./images/Gemini_Generated_Image_wr5gcrwr5gcrwr5g%201.png)
+![](./images/Gemini_Generated_Image_wr5gcrwr5gcrwr5g%201.jpg)

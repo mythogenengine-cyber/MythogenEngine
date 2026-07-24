@@ -216,4 +216,4 @@ Meta 在 2026 年 3 月確實更新了「原創內容指南」，聲稱要獎勵
 
 而 AI 正在讓這兩種世界觀之間的距離，拉得比以往任何時候都大。
 
-![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.png)
+![](./images/Gemini_Generated_Image_udmrh1udmrh1udmr.jpg)

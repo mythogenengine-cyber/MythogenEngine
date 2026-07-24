@@ -20,7 +20,7 @@ This isn't the logic of search. This is the logic of recognition.
 
 After waking up, I realized that the mechanism of this dream had the same structure as something I'd been thinking about for a while.
 
-![](./images/Gemini_Generated_Image_eck9akeck9akeck9.png)
+![](./images/Gemini_Generated_Image_eck9akeck9akeck9.jpg)
 
 ---
 
@@ -60,8 +60,8 @@ Of course, ComfyUI hasn't been replaced. Local generation still has its value �
 
 This kind of progress is hard to express with benchmarks. It's not going from eighty to ninety points. It's turning a skill that was once scarce into a foundational capability anyone can use.
 
-![](./images/Gemini_Generated_Image_zengyhzengyhzeng.png)
-![](./images/Gemini_Generated_Image_8cgnb78cgnb78cgn.png)
+![](./images/Gemini_Generated_Image_zengyhzengyhzeng.jpg)
+![](./images/Gemini_Generated_Image_8cgnb78cgnb78cgn.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Many people have long felt that AI should be able to solve this.
 
 But over the past few years, it hasn't.
 
-![](./images/Gemini_Generated_Image_vj5c20vj5c20vj5c.png)
+![](./images/Gemini_Generated_Image_vj5c20vj5c20vj5c.jpg)
 
 ---
 
@@ -149,7 +149,7 @@ This is weaving a finer fishing net.
 
 But fishing nets are designed to catch big fish. If what you're looking for isn't a big fish, but a specific kind of microorganism — something hidden in the silt at the ocean floor, invisible to the naked eye, but potentially capable of rewriting an entire field — then no matter how fine the net, it's useless. What you need isn't a better net. It's a microscope.
 
-![](./images/Gemini_Generated_Image_1j661h1j661h1j66.png)
+![](./images/Gemini_Generated_Image_1j661h1j661h1j66.jpg)
 
 ---
 
@@ -181,7 +181,7 @@ The library hasn't shrunk — it's expanding at unprecedented speed. It's just t
 
 But you have more eyes now.
 
-![](./images/Gemini_Generated_Image_7sx2957sx2957sx2.png)
+![](./images/Gemini_Generated_Image_7sx2957sx2957sx2.jpg)
 
 ---
 
@@ -215,4 +215,4 @@ You just need to remember.
 
 And AI is learning how to help you remember.
 
-![](./images/Gemini_Generated_Image_4477e44477e44477.png)
+![](./images/Gemini_Generated_Image_4477e44477e44477.jpg)

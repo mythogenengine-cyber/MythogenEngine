@@ -251,4 +251,4 @@ What does this situation turn into when the two giants decide they "no longer wa
 
 That is the story of the next chapter.
 
-![](ch09_en.png)
+![](ch09_en.jpg)

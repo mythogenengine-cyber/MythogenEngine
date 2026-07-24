@@ -253,4 +253,4 @@ His name was Gabe Newell. His plan required a team of full-stack engineers who c
 
 This, according to all reasonable engineering judgment, was impossible to achieve.
 
-![](ch05_en.png)
+![](ch05_en.jpg)

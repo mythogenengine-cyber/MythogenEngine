@@ -42,7 +42,7 @@ I've spent years studying the underlying mechanics of the tech industry. I wrote
 
 ---
 
-## I. Knowledge Has Depreciated. Most People Are Still Stockpiling It.![](./images/Gemini_Generated_Image_b7qtg8b7qtg8b7qt.png)
+## I. Knowledge Has Depreciated. Most People Are Still Stockpiling It.![](./images/Gemini_Generated_Image_b7qtg8b7qtg8b7qt.jpg)
 
 In the industrial age and the early information age, memorizing more, calculating faster, knowing the standard answer—these had enormous value. Society needed engineers, clerks, accountants, administrators, mid-level technical workers by the millions. The core of those jobs was reliable execution of existing knowledge. The education system became a standardized knowledge factory. At the time, that made sense.
 
@@ -56,7 +56,7 @@ What actually holds its value? Asking the right question. Assessing the credibil
 
 ---
 
-## II. Cognition and Judgment: Not Equals, but a Pipeline![](./images/Gemini_Generated_Image_61b5da61b5da61b5.png)
+## II. Cognition and Judgment: Not Equals, but a Pipeline![](./images/Gemini_Generated_Image_61b5da61b5da61b5.jpg)
 
 Before going further, I need to separate these two concepts. People conflate them constantly.
 
@@ -73,7 +73,7 @@ And right now, both are being eroded by three forces at once.
 ---
 
 ## III. The First Erosion—Education Turned Learning into Insurance
-![](./images/Gemini_Generated_Image_q75hmfq75hmfq75h.png)
+![](./images/Gemini_Generated_Image_q75hmfq75hmfq75h.jpg)
 
 The anxiety driving modern education isn't the fear of not learning. It's the fear of falling behind.
 
@@ -102,7 +102,7 @@ Judgment doesn't come from memorization. It's a compressed form of high-order ex
 ---
 
 ## IV. The Second Erosion—Algorithms Reward Emotion, Not Truth
-![](./images/Gemini_Generated_Image_jla5j9jla5j9jla5.png)
+![](./images/Gemini_Generated_Image_jla5j9jla5j9jla5.jpg)
 
 If the education system undermines cognition at the source, information platforms poison judgment in the daily flow.
 
@@ -114,7 +114,7 @@ Clickbait has always existed. Under algorithmic amplification, its reach is ten,
 
 ---
 
-## V. The Third Erosion—AI Is Not the Truth Either![](./images/Gemini_Generated_Image_c8vxllc8vxllc8vx.png)
+## V. The Third Erosion—AI Is Not the Truth Either![](./images/Gemini_Generated_Image_c8vxllc8vxllc8vx.jpg)
 
 Many people think having AI means having a reliable source of knowledge. That's a dangerous mistake.
 
@@ -144,7 +144,7 @@ Knowing how to use AI isn't enough. You also need to know how to push back again
 
 ---
 
-## VI. So How Do You Actually Build Judgment?![](./images/Gemini_Generated_Image_g3sn29g3sn29g3sn.png)
+## VI. So How Do You Actually Build Judgment?![](./images/Gemini_Generated_Image_g3sn29g3sn29g3sn.jpg)
 
 Almost every piece I've written ends in the same place: judgment matters. *"When Education Became an Unfailable Business"* concluded with "learn to learn on your own first." *"Human or AI—It's Actually a False Question"* ended with "that dissatisfaction is the human element." *"The True Difficulty of AI Collaborative Writing"* landed on "domain knowledge can't be outsourced." Every time, I stopped there. Never expanded.
 
@@ -188,7 +188,7 @@ Ecosystems, evolution, gene expression—none of these are simple linear causali
 
 ---
 
-## VII. So What Should You Actually Do?![](./images/Gemini_Generated_Image_njgzt2njgzt2njgz.png)
+## VII. So What Should You Actually Do?![](./images/Gemini_Generated_Image_njgzt2njgzt2njgz.jpg)
 
 
 Pull all these subjects together and you find a common thread: **the value in these disciplines isn't the knowledge—AI has all of it—it's the different cognitive muscles each one trains.**

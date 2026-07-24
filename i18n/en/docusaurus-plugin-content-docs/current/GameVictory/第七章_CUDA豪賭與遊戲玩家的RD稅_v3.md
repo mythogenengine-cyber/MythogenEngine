@@ -267,4 +267,4 @@ In 2026, there is only one company that manufactures these chips. It is not in S
 
 It is in Hsinchu.
 
-![](ch07_en.png)
+![](ch07_en.jpg)

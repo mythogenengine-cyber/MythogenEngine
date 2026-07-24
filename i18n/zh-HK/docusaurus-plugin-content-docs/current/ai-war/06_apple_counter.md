@@ -192,4 +192,4 @@ Apple 不需要贏得雲端的戰爭。它只需要做到一件事：**讓用户
 如果 Apple 成功了，微軟會發現：它花了數百億美元在雲端建立的 AI 帝國，正在被一個完全不跟它搶雲端的對手，從終端用户的口袋裏一點一點地搶走。
 
 👉 [主題七：AI 影視的路線之爭](07_ai_film.md)
-![](./Gemini_Generated_Image_rk2y2xrk2y2xrk2y.png)
+![](./Gemini_Generated_Image_rk2y2xrk2y2xrk2y.jpg)

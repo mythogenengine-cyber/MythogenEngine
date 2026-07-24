@@ -58,11 +58,11 @@ The chat window displayed: "Typing…"
 
 This story is fictional. But those two AI responses are not — they come from a real test I conducted in July. And Ming's question is precisely what this article sets out to answer.
 
-![](./images/Gemini_Generated_Image_675aqe675aqe675a.png)
+![](./images/Gemini_Generated_Image_675aqe675aqe675a.jpg)
 
 ## Retail Investors' New Habit
 
-![](./images/Gemini_Generated_Image_spy38yspy38yspy3.png)
+![](./images/Gemini_Generated_Image_spy38yspy38yspy3.jpg)
 
 They used to ask influencers. Now they ask AI.
 
@@ -100,7 +100,7 @@ A truly fair comparison would be expensive: include both paid and free versions 
 
 And this test has an unexpected representativeness: **Ming, in the story, was using the free version.** The most vulnerable retail investors use the cheapest, fastest, default-open model. The premium flagship model serves people who already know how to ask; the free lightweight model serves those who need protection the most. This is another layer of inverted safeguarding — structurally identical to "you only get the truth if you know how to ask." So the findings below should be read this way: they don't reflect the technical superiority of any company, but rather what an ordinary person encounters across three real usage scenarios.
 
-![](./images/Gemini_Generated_Image_sighr1sighr1sigh.png)
+![](./images/Gemini_Generated_Image_sighr1sighr1sigh.jpg)
 ## Finding One: The Same AI, Contradicting Itself
 
 The most important finding isn't which AI got it wrong — it's that **the same AI gave logically contradictory answers depending on how the question was asked.**

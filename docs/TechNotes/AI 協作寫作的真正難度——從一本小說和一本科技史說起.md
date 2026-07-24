@@ -42,7 +42,7 @@ description: "從小說與科技史的AI協作經驗，論證兩種寫作需要�
 AI 放大的是你已有的深度。
 你的盲區，就是它的盲區。
 
-![](./images/Gemini_Generated_Image_dvbyj9dvbyj9dvby.png)
+![](./images/Gemini_Generated_Image_dvbyj9dvbyj9dvby.jpg)
 
 全文：
 

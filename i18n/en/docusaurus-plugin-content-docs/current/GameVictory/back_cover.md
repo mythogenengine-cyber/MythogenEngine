@@ -5,4 +5,4 @@ summary: ""
 ---
 # Back Cover
 
-![Back Cover](./Cover_BACK.png)
+![Back Cover](./Cover_BACK.jpg)

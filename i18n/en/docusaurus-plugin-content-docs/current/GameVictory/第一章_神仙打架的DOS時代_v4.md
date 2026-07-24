@@ -111,4 +111,4 @@ To coax and deceive John Carmack, and the entire faction behind him that "distru
 
 His name was Alex St. John. The battle he was about to launch wouldn't just rewrite the fate of PC gaming—it would inadvertently drive the first stake into the deepest lock of the entire tech industry for the next thirty years.
 
-![](ch01_en%201.png)
+![](ch01_en%201.jpg)

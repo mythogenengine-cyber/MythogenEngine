@@ -88,7 +88,7 @@ function HeroSection() {
           <div className={styles.heroCoverWrap}>
             <Link to="/docs/AI_TAO/INFO_PAGE">
               <img
-                src="/img/book_cover_invisible_path.png"
+                src="/img/book_cover_invisible_path.jpg"
                 alt={isEn ? 'The Invisible Path — Book Cover' : '大道無形 — 書封面'}
                 className={styles.heroCoverImg}
               />

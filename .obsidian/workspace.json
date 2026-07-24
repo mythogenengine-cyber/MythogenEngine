@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "35354c94106f6369",
+        "id": "bfb1845bdf85b684",
         "type": "tabs",
         "children": [
           {
-            "id": "ef2ceb8eb6468b81",
+            "id": "7cedc6558a8eceb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "七日書｜傳奇一曲.md",
+                "file": "architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "七日書｜傳奇一曲"
-            }
-          },
-          {
-            "id": "5aeaee8b911ce1ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "七日書｜傳奇一曲.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "七日書｜傳奇一曲"
-            }
-          },
-          {
-            "id": "79bb47d8a336803d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Diary/七日書｜傳奇一曲.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "七日書｜傳奇一曲"
-            }
-          },
-          {
-            "id": "a44607b290185682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/TechNotes/我問了 AI「記憶體股還能不能買」.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "我問了 AI「記憶體股還能不能買」"
+              "title": "architecture"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 630.5
+    "width": 200
   },
   "right": {
     "id": "101fdeb056d2baa7",
@@ -226,53 +183,53 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "a44607b290185682",
+  "active": "7cedc6558a8eceb1",
   "lastOpenFiles": [
+    "build/zh-HK/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.html",
     "build/zh-HK/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
+    "build/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
+    "build/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
     "build/zh-HK/docs/TechNotes/當所有人都在學AI.html",
     "build/zh-HK/docs/TechNotes/當「教育」變成一門不可能翻車的生意.html",
-    "build/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
-    "build/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
-    "build/zh-HK/docs/TechNotes/滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.html",
     "build/zh-HK/docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.html",
-    "build/zh-HK/docs/TechNotes/人寫還是AI寫，其實是個假問題.html",
-    "build/zh-HK/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.html",
+    "build/zh-HK/docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場.html",
+    "build/zh-HK/docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.html",
+    "build/zh-HK/docs/TechNotes/滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.html",
     "build/zh-HK/docs/TechNotes/殺死創新的標準作業程序.html",
-    "build/zh-HK/docs/TechNotes/我問了 AI「記憶體股還能不能買」.html",
-    "build/zh-HK/img/cover-tw.png",
-    "build/zh-HK/img/book_cover_invisible_path.png",
-    "build/zh-HK/img/cover-hk.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_x17qf2x17qf2x17q-3abd31b43b45292552ec6759323ebff0.png",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_vqq41fvqq41fvqq4-3ae27ef212e95e949ad09f230673cc71.png",
-    "build/zh-HK/assets/images/Opus47_07-d73243965e631738ed6a9815d3c7209b.png",
-    "build/zh-HK/assets/images/Opus47_06-246ad7e19a0e11ced23122a4ee8f1cfa.png",
-    "build/zh-HK/assets/images/Opus47_03-87097f53be6ff1f413c6c016ee119ec4.png",
-    "build/zh-HK/assets/images/Opus47_05-e720b001d4727ead58ac4fe7018ebd7a.png",
-    "build/zh-HK/assets/images/Opus47_04-6578cc0cda2e34f6ab580d93b1cef425.png",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/我問了 AI「記憶體股還能不能買」.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/我問了 AI「記憶體股還能不能買」.md",
-    "docs/TechNotes/I Asked AI Should I Buy Memory Stocks.en.md",
-    "docs/TechNotes/我問了 AI「記憶體股還能不能買」.hk.md",
-    "docs/TechNotes/當「教育」變成一門不可能翻車的生意.md",
-    "docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 110153-1d47f421def7dcba68fb0adf3d3152cc.png",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 103721-5998b4bd5230837b8beb46af0a6963ab.png",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 103509-2173e353b724dd99bc23c2130e828d46.png",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 101959-ae577a5b4212475998d16261f852bda7.png",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102918-5f8f4eb06f3637068bb9565d6f7e8bcd.png",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102452-f177b7e5cf2b62f4fc5430a7b7fbe282.png",
+    "build/zh-HK/assets/images/production_line_flow-e0c8035cee6816897a6115e028879b95.png",
+    "build/zh-HK/assets/images/preview-620658c6689afd315b860f27b3b759de.webp",
+    "build/zh-HK/assets/images/preview (3)-512e4f1e2a622a30ab3bd8b21bd82636.webp",
+    "build/zh-HK/assets/images/preview (1)-226d27109c1881bff00684467046caa8.webp",
+    "《鏡界：假面系統殺人事件》留言節錄.md",
+    "docs/TechNotes/半個鐘頭的生產線.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/半個鐘頭的生產線.md",
+    "docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.md",
+    "docs/TechNotes/20260413_CLAW.md",
+    "docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場.md",
+    "docs/TechNotes/殺死創新的標準作業程序.md",
     "docs/TechNotes/我問了 AI「記憶體股還能不能買」.md",
-    "docs/Diary/七日書｜傳奇一曲.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/七日書｜傳奇一曲.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/temp.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）.md",
-    "我如何用AI寫出和主流不一樣的文.md",
-    "資本遊戲玩什麼（實例檔案：遊戲業）.md",
-    "資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）.md",
     "docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
-    "docs/TechNotes/FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施.md",
-    "docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口.md",
-    "docs/TechNotes/chatgpt-images2-vs-nanoBanana2.md",
-    "docs/TechNotes/AI 模型不是變笨了，是不再為你而設計.md",
-    "docs/TechNotes/AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？.md",
-    "docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起.md",
-    "docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.md",
-    "docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.md"
+    "docs/TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單.md",
+    "docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.md",
+    "docs/TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除.md",
+    "docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.md",
+    "docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
+    "零違規，每篇二十四個曝光——一個帳號的分發帳本.md",
+    "scratch/recovered_machine_deletion.md",
+    "docs/TechNotes/異常報告裡的讀者-後記-我以為門關了.md",
+    "半個鐘頭的生產線-v3.md",
+    "機器點樣幫手執行一場已經發生咗嘅刪除.md",
+    "異常報告裡的讀者・後記——我以為門關了.md",
+    "異常報告裡的讀者——當真話與垃圾走同一條通道入場.md",
+    "architecture.md",
+    "docs/Diary/03-合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線.md",
+    "docs/Diary/02-收費結構決定言論自由.md",
+    "docs/Diary/七日書｜傳奇一曲.md"
   ]
 }

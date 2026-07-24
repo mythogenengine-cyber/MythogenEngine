@@ -100,7 +100,7 @@ i18n/<locale>/
 | 路徑 | 用途 | 引用方式 |
 |---|---|---|
 | `static/downloads/` | 所有可下載檔案（epub、pdf 等） | `/downloads/GameVictory_EN.epub` |
-| `static/img/` | 全站共用圖片（favicon、書封） | `/img/book_cover_invisible_path.png` |
+| `static/img/` | 全站共用圖片（favicon、書封） | `/img/book_cover_invisible_path.jpg` |
 | `static/CNAME` | GitHub Pages 自訂域名 | 自動使用 |
 | `static/robots.txt` | 搜尋引擎爬蟲規則 | 自動使用 |
 
@@ -220,7 +220,7 @@ src/
 | React 元件目錄 | PascalCase | `DiaryList/`, `Forum/` |
 | CSS Modules | `*.module.css` | `styles.module.css` |
 | 靜態資源子目錄 | kebab-case | `static/downloads/`, `static/aigame/` |
-| 圖片檔名 | 描述性 kebab-case（避免 AI hash 名） | `cover-hk.png`（理想）vs `Gemini_Generated_Image_xxx.png`（現狀，逐步改善） |
+| 圖片檔名 | 描述性 kebab-case（避免 AI hash 名） | `cover-hk.jpg`（理想）vs `Gemini_Generated_Image_xxx.png`（現狀，逐步改善） |
 
 ---
 

@@ -1,6 +1,48 @@
 {
   "zh-Hant": [
     {
+      "id": "效率陷阱續章・續章：你以為你贏了",
+      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
+      "title": "效率陷阱・續章：你以為你贏了",
+      "date": "2026-07-28T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "labor-market",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "勞動市場",
+          "資本退場",
+          "敘事操作",
+          "認證經濟"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "labor-market",
+          "capital-exit",
+          "narrative-operations",
+          "credential-economy"
+        ]
+      },
+      "keywords": [
+        "自然流失",
+        "估值倍數",
+        "AI裁員",
+        "股票回購",
+        "賣盤拆骨",
+        "認證標籤"
+      ],
+      "summary": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
+      "status": "draft",
+      "reading_time": 42,
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 4,
+        "total": 4
+      }
+    },
+    {
       "id": "異常報告裡的讀者・後記——我以為門關了",
       "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
       "title": "異常報告裡的讀者・後記——我以為門關了",
@@ -348,7 +390,12 @@
       "status": "published",
       "reading_time": 5,
       "sidebar_position": 2,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 3,
+        "total": 4
+      }
     },
     {
       "id": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
@@ -413,7 +460,12 @@
       "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
       "status": "published",
       "reading_time": 12,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 2,
+        "total": 4
+      }
     },
     {
       "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
@@ -633,7 +685,12 @@
       "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
       "reading_time": 20,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 1,
+        "total": 4
+      }
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -1134,45 +1191,6 @@
       }
     },
     {
-      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
-      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
-      "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
-      "date": "2026-07-17T00:00:00.000Z",
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "platform-economics",
-      "tags": {
-        "zh": [
-          "平台治理",
-          "內容審核",
-          "演算法壓制",
-          "媒體素養"
-        ],
-        "en": [
-          "platform-governance",
-          "content-moderation",
-          "algorithmic-suppression",
-          "media-literacy"
-        ]
-      },
-      "keywords": [
-        "Matters",
-        "垃圾訊息",
-        "觸及率",
-        "暢銷書機制",
-        "認知封鎖"
-      ],
-      "summary": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
-      "status": "draft",
-      "reading_time": 10,
-      "series": {
-        "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 2,
-        "total": 5
-      }
-    },
-    {
       "id": "我問了 AI「記憶體股還能不能買」",
       "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
       "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
@@ -1408,6 +1426,48 @@
       "series": null
     },
     {
+      "id": "效率陷阱續章・續章：你以為你贏了",
+      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
+      "title": "效率陷阱・續章：你以為你贏了",
+      "date": "2026-07-28T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "labor-market",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "勞動市場",
+          "資本退場",
+          "敘事操作",
+          "認證經濟"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "labor-market",
+          "capital-exit",
+          "narrative-operations",
+          "credential-economy"
+        ]
+      },
+      "keywords": [
+        "自然流失",
+        "估值倍數",
+        "AI裁員",
+        "股票回購",
+        "賣盤拆骨",
+        "認證標籤"
+      ],
+      "summary": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
+      "status": "draft",
+      "reading_time": 42,
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 4,
+        "total": 4
+      }
+    },
+    {
       "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
       "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
       "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
@@ -1444,6 +1504,45 @@
         "id": "platform-silencing",
         "name": "平台消音與認知封鎖五部曲",
         "order": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
+      "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Matters",
+        "垃圾訊息",
+        "觸及率",
+        "暢銷書機制",
+        "認知封鎖"
+      ],
+      "summary": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "平台消音與認知封鎖五部曲",
+        "order": 2,
         "total": 5
       }
     },
@@ -1556,7 +1655,12 @@
       "status": "published",
       "reading_time": 5,
       "sidebar_position": 2,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 3,
+        "total": 4
+      }
     },
     {
       "id": "當所有人都在學AI",
@@ -1590,7 +1694,12 @@
       "summary": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
       "status": "published",
       "reading_time": 12,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 2,
+        "total": 4
+      }
     },
     {
       "id": "遊戲致勝_微軟與世嘉的跨國糾纏",
@@ -1691,7 +1800,12 @@
       "summary": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
       "status": "published",
       "reading_time": 20,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 1,
+        "total": 4
+      }
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",
@@ -2104,45 +2218,6 @@
       }
     },
     {
-      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
-      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
-      "title": "The Reader in the Anomaly Report — When Truth and Garbage Enter Through the Same Channel",
-      "date": "2026-07-17T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "platform-economics",
-      "tags": {
-        "zh": [
-          "平台治理",
-          "內容審核",
-          "演算法壓制",
-          "媒體素養"
-        ],
-        "en": [
-          "platform-governance",
-          "content-moderation",
-          "algorithmic-suppression",
-          "media-literacy"
-        ]
-      },
-      "keywords": [
-        "Matters",
-        "spam",
-        "reach rate",
-        "bestseller mechanism",
-        "cognitive blockade"
-      ],
-      "summary": "Truth and garbage enter through the same channel, and the machine can't tell them apart. But person-to-person reputation endorsement can still crack open a gap within a triple blockade.",
-      "status": "draft",
-      "reading_time": 10,
-      "series": {
-        "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 2,
-        "total": 5
-      }
-    },
-    {
       "id": "我問了 AI「記憶體股還能不能買」",
       "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
       "title": "I Asked AI 'Should I Still Buy Memory Stocks?' — And Discovered a Much Bigger Problem",
@@ -2378,6 +2453,48 @@
       "series": null
     },
     {
+      "id": "效率陷阱續章・續章：你以為你贏了",
+      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
+      "title": "The Efficiency Trap · Sequel: You Thought You Won",
+      "date": "2026-07-28T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "labor-market",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "勞動市場",
+          "資本退場",
+          "敘事操作",
+          "認證經濟"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "labor-market",
+          "capital-exit",
+          "narrative-operations",
+          "credential-economy"
+        ]
+      },
+      "keywords": [
+        "natural attrition",
+        "valuation multiple",
+        "AI layoffs",
+        "stock buybacks",
+        "asset stripping",
+        "credential labels"
+      ],
+      "summary": "Layoffs and record profits happening simultaneously. AI isn't the cause; it's the license. One exit, two sales: upstream to the hand pushing the button, downstream to the people under the button.",
+      "status": "draft",
+      "reading_time": 42,
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "order": 4,
+        "total": 4
+      }
+    },
+    {
       "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
       "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
       "title": "How the Machine Helps Execute a Deletion That Has Already Happened",
@@ -2414,6 +2531,45 @@
         "id": "platform-silencing",
         "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
         "order": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+      "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E2%80%94%E2%80%94%E7%95%B6%E7%9C%9F%E8%A9%B1%E8%88%87%E5%9E%83%E5%9C%BE%E8%B5%B0%E5%90%8C%E4%B8%80%E6%A2%9D%E9%80%9A%E9%81%93%E5%85%A5%E5%A0%B4",
+      "title": "The Reader in the Anomaly Report — When Truth and Garbage Enter Through the Same Channel",
+      "date": "2026-07-17T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-economics",
+      "tags": {
+        "zh": [
+          "平台治理",
+          "內容審核",
+          "演算法壓制",
+          "媒體素養"
+        ],
+        "en": [
+          "platform-governance",
+          "content-moderation",
+          "algorithmic-suppression",
+          "media-literacy"
+        ]
+      },
+      "keywords": [
+        "Matters",
+        "spam",
+        "reach rate",
+        "bestseller mechanism",
+        "cognitive blockade"
+      ],
+      "summary": "Truth and garbage enter through the same channel, and the machine can't tell them apart. But person-to-person reputation endorsement can still crack open a gap within a triple blockade.",
+      "status": "draft",
+      "reading_time": 10,
+      "series": {
+        "id": "platform-silencing",
+        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
+        "order": 2,
         "total": 5
       }
     },
@@ -2526,7 +2682,12 @@
       "status": "published",
       "reading_time": 5,
       "sidebar_position": 2,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "order": 3,
+        "total": 4
+      }
     },
     {
       "id": "當所有人都在學AI",
@@ -2560,7 +2721,12 @@
       "summary": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
       "status": "published",
       "reading_time": 12,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "order": 2,
+        "total": 4
+      }
     },
     {
       "id": "遊戲之勝_微軟與世嘉的跨國糾纏",
@@ -2692,7 +2858,12 @@
       "summary": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
       "status": "published",
       "reading_time": 20,
-      "series": null
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "order": 1,
+        "total": 4
+      }
     },
     {
       "id": "【Buzzword 通脹：AI 時代的過度設計經濟學】",

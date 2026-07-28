@@ -119,6 +119,16 @@ module.exports = {
         },
         {
           type: 'category',
+          label: '效率陷阱與認知侵蝕四部曲',
+          items: [
+            'TechNotes/認知與判斷——AI 時代人類最後的不可取代性',
+            'TechNotes/當所有人都在學AI',
+            'TechNotes/殺死創新的標準作業程序',
+            'TechNotes/效率陷阱續章・續章：你以為你贏了',
+          ],
+        },
+        {
+          type: 'category',
           label: '平台消音五部曲',
           items: [
             'TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除',

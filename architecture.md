@@ -220,7 +220,7 @@ src/
 | React 元件目錄 | PascalCase | `DiaryList/`, `Forum/` |
 | CSS Modules | `*.module.css` | `styles.module.css` |
 | 靜態資源子目錄 | kebab-case | `static/downloads/`, `static/aigame/` |
-| 圖片檔名 | 描述性 kebab-case（避免 AI hash 名） | `cover-hk.jpg`（理想）vs `Gemini_Generated_Image_xxx.png`（現狀，逐步改善） |
+| 圖片檔名 | 描述性 kebab-case（避免 AI hash 名） | `cover-hk.jpg`（理想）vs `Gemini_Generated_Image_xxx.jpg`（現狀，逐步改善） |
 
 ---
 

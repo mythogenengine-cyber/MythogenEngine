@@ -25,6 +25,11 @@ summary: "If efficiency gains don't create new demand, they're just compression 
 status: published
 reading_time: 12
 description: "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale."
+series:
+  id: efficiency-trap-cognition-erosion
+  name: "The Efficiency Trap and Cognitive Erosion Quartet"
+  order: 2
+  total: 4
 ---
 
 # The Efficiency Trap: When Everyone Is Learning AI, Who Is Creating New Demand?
@@ -302,3 +307,12 @@ This question has no standard answer.
 But at least the person who asked this question has already done the one thing that almost nobody in the entire compression cycle does —
 
 Stop.
+
+---
+
+> **📚 The Efficiency Trap and Cognitive Erosion Quartet**
+>
+> 1. [Cognition and Judgment—The Last Thing AI Cannot Replace](./認知與判斷——AI%20時代人類最後的不可取代性.md)
+> 2. **The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?**
+> 3. [The Standard Operating Procedure for Killing Innovation](./殺死創新的標準作業程序.md)
+> 4. [The Efficiency Trap · Sequel: You Thought You Won](./效率陷阱續章・續章：你以為你贏了.md)

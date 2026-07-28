@@ -27,6 +27,11 @@ summary: "Systematically exploring how cognition and judgment are formed, and ho
 status: published
 reading_time: 20
 description: "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills."
+series:
+  id: efficiency-trap-cognition-erosion
+  name: "The Efficiency Trap and Cognitive Erosion Quartet"
+  order: 1
+  total: 4
 ---
 # Cognition and Judgment—The Last Thing AI Cannot Replace
 
@@ -224,3 +229,12 @@ You can. You can read a seemingly airtight analysis and suddenly feel something 
 That *wait*—it's not a feature. It's a cognitive capacity.
 
 And that capacity is the last thing AI cannot replace.
+
+---
+
+> **📚 The Efficiency Trap and Cognitive Erosion Quartet**
+>
+> 1. **Cognition and Judgment—The Last Thing AI Cannot Replace**
+> 2. [The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?](./當所有人都在學AI.md)
+> 3. [The Standard Operating Procedure for Killing Innovation](./殺死創新的標準作業程序.md)
+> 4. [The Efficiency Trap · Sequel: You Thought You Won](./效率陷阱續章・續章：你以為你贏了.md)

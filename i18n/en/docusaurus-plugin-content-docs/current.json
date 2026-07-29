@@ -22,5 +22,25 @@
   "sidebar.docs.category.Lucid Record": {
     "message": "Lucid Record",
     "description": "The label for category Lucid Record in sidebar docs"
+  },
+  "sidebar.docs.category.資本遊戲玩什麼（實例檔案：遊戲業）": {
+    "message": "What the Capital Game Plays (Case Study: Gaming Industry)",
+    "description": "The label for category 資本遊戲玩什麼（實例檔案：遊戲業） in sidebar docs"
+  },
+  "sidebar.docs.category.記憶體三部曲": {
+    "message": "Memory Trilogy",
+    "description": "The label for category 記憶體三部曲 in sidebar docs"
+  },
+  "sidebar.docs.category.效率陷阱與認知侵蝕五部曲": {
+    "message": "Efficiency Trap & Cognitive Erosion Quintet",
+    "description": "The label for category 效率陷阱與認知侵蝕五部曲 in sidebar docs"
+  },
+  "sidebar.docs.category.平台消音五部曲": {
+    "message": "Platform Silencing Quintet",
+    "description": "The label for category 平台消音五部曲 in sidebar docs"
+  },
+  "sidebar.docs.category.Diary": {
+    "message": "Diary",
+    "description": "The label for category Diary in sidebar docs"
   }
 }

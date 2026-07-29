@@ -26,5 +26,9 @@
   "item.label.資本遊戲玩什麼": {
     "message": "資本遊戲玩什麼",
     "description": "Navbar item with label 資本遊戲玩什麼"
+  },
+  "item.label.Diary": {
+    "message": "Diary",
+    "description": "Navbar item with label Diary"
   }
 }

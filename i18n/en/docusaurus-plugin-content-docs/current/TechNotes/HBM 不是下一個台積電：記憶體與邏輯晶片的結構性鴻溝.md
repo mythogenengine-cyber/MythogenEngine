@@ -29,17 +29,17 @@ reading_time: 18
 description: "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak."
 ---
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.jpg)
-
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.jpg)
-
 ![](./images/Gemini_Generated_Image_fr320bfr320bfr32.jpg)
-
 ![](./images/Gemini_Generated_Image_sgkitasgkitasgki.jpg)
 
-# HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic
 Author: Nebula Walker
-Date: 26 MAY 2026
-Mythogen Engine
+Date: 26MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.**
+
+# HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic
 
 ## Introduction: A Seductive Analogy That Falls Apart Under Scrutiny
 

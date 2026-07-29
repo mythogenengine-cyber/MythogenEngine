@@ -30,6 +30,11 @@ series:
   order: 2
   total: 4
 ---
+作者：星忘塵 Nebula Walker
+Date: 27JUN2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。**
 
 # 效率陷阱：當所有人都在學AI，誰在創造新需求？
 ![](./images/Gemini_Generated_Image_28joct28joct28jo.jpg)

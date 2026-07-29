@@ -26,6 +26,12 @@ status: published
 reading_time: 4
 description: "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses."
 ---
+Author: Nebula Walker
+Date: 25MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.**
+
 # "Knowing" and "Doing" Were Never the Same Thing
 
 Someone used a beautiful analogy: a 15th-century letterpress printer was simultaneously a typesetter, ink blender, bookbinder, and bookseller. Industrialization spent three hundred years splitting him into ten different professions. Now, AI is compressing those ten professions back into one person.
@@ -109,7 +115,6 @@ _This pattern—from DOS-era engineers to CUDA lock-in to the Super Builder's bo
 ---
 
 **《GameVictory: The Hidden Arithmetic of Forty Years of Tech Hegemony》**
-Written by Xing Wangchen ｜ Produced by MYTHOGEN ENGINE
 
 📖 https://mythogenengine.com/
 

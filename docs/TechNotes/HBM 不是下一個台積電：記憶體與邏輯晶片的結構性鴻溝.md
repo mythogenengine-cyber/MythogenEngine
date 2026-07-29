@@ -33,20 +33,18 @@ series:
   order: 1
   total: 3
 ---
-
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.jpg)
-
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.jpg)
-
 ![](./images/Gemini_Generated_Image_fr320bfr320bfr32.jpg)
-
 ![](./images/Gemini_Generated_Image_sgkitasgkitasgki.jpg)
 
+作者：星忘塵 Nebula Walker
+Date: 26MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。**
 
 # HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝
-作者：星忘塵 Nebula Walker
-Date: 26 MAY 2026
-創象引擎 Mythogen Engine
 
 ## 引言：一句被反覆傳頌的錯誤類比
 

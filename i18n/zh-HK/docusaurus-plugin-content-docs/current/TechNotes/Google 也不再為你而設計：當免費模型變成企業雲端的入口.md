@@ -30,7 +30,9 @@ description: "從Google Cloud Next 2026論證免費模型是企業雲端收入�
 ---
 作者：星忘塵 Nebula Walker
 Date: 03MAY2026
-創象引擎 Mythogen Engine
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。**
 
 Google 也不再為你而設計：當免費模型變成企業雲端的入口
 

@@ -30,13 +30,13 @@ sidebar_position: 1
 description: "Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era."
 ---
 ![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.jpg)
-
 ![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.jpg)
+
 Author: Nebula Walker
 Date: 31MAR2026
-Mythogen Engine
+MYTHOGEN ENGINE (mythogenengine.com)
 
-**📌 Did Jensen Huang Say "Liberal Arts Students Won"? You Got Fooled by the Clickbait.**
+**📌 Deconstructing three common misinterpretations of Jensen Huang's 'liberal arts' comment and analyzing the four core abilities truly needed in the AI era.**
 
 Recently, Jensen Huang appeared on the All-In Podcast, and his quote "English majors might be the most successful group" went viral. The media unanimously spun it with headlines like "The Liberal Arts Counterattack" and "Engineers are Going to Lose Their Jobs." The comment sections exploded, devolving into a war of words over the superiority of different college majors.
 

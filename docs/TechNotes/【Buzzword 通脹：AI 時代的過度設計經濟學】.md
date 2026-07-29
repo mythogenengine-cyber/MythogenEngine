@@ -28,11 +28,14 @@ status: published
 reading_time: 5
 description: "論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 19MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 論證AI術語的三階段膨脹機制，以及如何分辨必要結構與多餘複雜度。**
+
 # 【Buzzword 通脹：AI 時代的過度設計經濟學】
 
-作者：星忘塵 Nebula Walker
-Date: 19 MAY 2026
-創象引擎 Mythogen Engine
 
 **AI 的終極價值是什麼？**
 

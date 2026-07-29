@@ -41,6 +41,11 @@ series:
   order: 3
   total: 3
 ---
+作者：星忘塵 Nebula Walker
+Date: 13JUL2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。**
 
 # 我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！
 

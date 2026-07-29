@@ -33,6 +33,12 @@ series:
   order: 1
   total: 4
 ---
+作者：星忘塵 Nebula Walker
+Date: 20MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。**
+
 # 認知與判斷——AI 時代人類最後的不可取代性
 
 ## 前言

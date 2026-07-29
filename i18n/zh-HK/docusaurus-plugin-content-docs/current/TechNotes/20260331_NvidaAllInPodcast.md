@@ -30,13 +30,13 @@ sidebar_position: 1
 description: "拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。"
 ---
 ![](./images/Gemini_Generated_Image_jlnhaljlnhaljlnh.jpg)
-
 ![](./images/Gemini_Generated_Image_bvbtjrbvbtjrbvbt.jpg)
+
 作者：星忘塵 Nebula Walker
 Date: 31MAR2026
-創象引擎 Mythogen Engine
+創象引擎 Mythogen Engine (mythogenengine.com)
 
-**📌 黃仁勳說「文科生贏了」？你被標題騙了。**
+**📌 拆解黃仁勳「文科生贏了」言論的三個錯誤解讀，論證AI時代真正需要的四種能力。**
 
 最近黃仁勳上 All-In Podcast，一句「英文系可能是最成功的群體」被媒體瘋傳，標題清一色寫成「文科生逆襲」「工程師要失業」。留言區也跟著炸鍋，變成了科系優劣的口水戰。
 

@@ -30,15 +30,18 @@ sidebar_label: "AI Models Haven't Gotten Dumber—They're Just No Longer Designe
 sidebar_position: 20260429
 description: "Using financial data to prove AI models are shifting from consumer products to enterprise components, explaining why individual user experience is degrading."
 ---
+Author: Nebula Walker
+Date: 29APR2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Using financial data to prove AI models are shifting from consumer products to enterprise components, explaining why individual user experience is degrading.**
+
 # AI Models Haven't Gotten Dumber—They're Just No Longer Designed for You
 
 ## When $30 Billion in Annualized Revenue Tells You That You're Not the Target Customer
 
 ---
 
-Author: 星忘塵 Nebula Walker
-Date: 29APR2026
-Mythogen Engine
 
 
 In April 2026, Anthropic released Claude Opus 4.7. The community's reaction was nearly unanimous: **hard to use, expensive, dry output**.

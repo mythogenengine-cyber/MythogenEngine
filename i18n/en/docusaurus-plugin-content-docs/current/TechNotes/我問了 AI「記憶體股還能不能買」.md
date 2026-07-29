@@ -36,6 +36,12 @@ summary: "Testing three major AI models reveals their default responses can misl
 status: published
 reading_time: 9
 ---
+Author: Nebula Walker
+Date: 13JUL2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.**
+
 # I Asked AI "Should I Still Buy Memory Stocks?" — And Discovered a Much Bigger Problem
 
 ## Ming's Two Conversations

@@ -28,6 +28,12 @@ status: draft
 reading_time: 10
 description: "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 23MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。**
+
 # AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？
 
 最近睇到一篇好有代表性嘅招聘文。

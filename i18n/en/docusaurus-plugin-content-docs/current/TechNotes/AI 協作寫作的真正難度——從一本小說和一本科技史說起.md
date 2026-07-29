@@ -28,6 +28,12 @@ status: published
 reading_time: 18
 description: "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment."
 ---
+Author: Nebula Walker
+Date: 10MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment.**
+
 I wrote a novel using AI, and then a history of technology.
 
 With the novel, I could feel it when the AI made a mistake.

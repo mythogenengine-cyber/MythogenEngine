@@ -29,10 +29,14 @@ reading_time: 6
 sidebar_position: 20260708
 description: "Exploring the quantitative and qualitative shifts brought by AI intelligence breakthroughs, and the choice between foundational capabilities (systems thinking, abstraction) and framework churn (n8n, MCP)."
 ---
+Author: Nebula Walker
+Date: 08JUL2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Every time AI's intelligence crosses a threshold, it produces both quantitative and qualitative change. While quantitative change is easier to measure and monetize, what truly reshapes the landscape throughout history has always been qualitative change — things that were previously impossible, now made real.**
 
 # When AI Undergoes Qualitative Change, Why Is Everyone Still Talking About Quantity?
 
-Nebula Walker · MYTHOGEN ENGINE
 
 ---
 

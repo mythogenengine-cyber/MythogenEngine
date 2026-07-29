@@ -28,6 +28,12 @@ status: draft
 reading_time: 10
 description: "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era."
 ---
+Author: Nebula Walker
+Date: 23MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.**
+
 # The New Species of the AI Era: Why Many Companies Are No Longer Looking for "Engineers"?
 
 Recently, I saw a highly representative job posting.

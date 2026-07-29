@@ -28,6 +28,12 @@ status: published
 reading_time: 12
 description: "用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 29APR2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 用Google官方prompt反向測試ChatGPT Images 2.0，揭示視覺品質與事實準確度的鴻溝。**
+
 # 我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實
 
 **所有人都說 ChatGPT Images 2.0 是革命性突破。我花了一天做了一件很無聊的事：逐項 fact-check。**

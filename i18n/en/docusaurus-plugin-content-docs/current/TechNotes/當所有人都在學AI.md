@@ -31,6 +31,11 @@ series:
   order: 2
   total: 4
 ---
+Author: Nebula Walker
+Date: 27JUN2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.**
 
 # The Efficiency Trap: When Everyone Is Learning AI, Who Is Creating New Demand?
 ![](./images/Gemini_Generated_Image_28joct28joct28jo.jpg)

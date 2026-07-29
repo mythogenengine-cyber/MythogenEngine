@@ -32,9 +32,14 @@ sidebar_label: "Fire Extinguisher Economics — Microsoft's ASD and the Latest A
 sidebar_position: 20260708
 description: "Starting from Microsoft's newly announced Advanced Shader Delivery (ASD) technology, this essay dissects how Microsoft uses problem-solving as a pretext for platform lock-in, and the strategic contradictions of dismantling Xbox — its only consumer base — in the AI era."
 ---
+Author: Nebula Walker
+Date: 08JUL2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Starting from Microsoft's newly announced Advanced Shader Delivery (ASD) technology, this essay dissects how Microsoft uses problem-solving as a pretext for platform lock-in, and the strategic contradictions of dismantling Xbox — its only consumer base — in the AI era.**
+
 # Fire Extinguisher Economics — Microsoft's ASD and the Latest Act of a Thirty-Year-Old Play
 
-**Nebula Walker｜MYTHOGEN ENGINE**
 
 ---
 
@@ -247,4 +252,3 @@ The bill hasn't been settled. The interest is still compounding.
 
 ---
 
-_Written by Nebula Walker｜MYTHOGEN ENGINE https://mythogenengine.com/

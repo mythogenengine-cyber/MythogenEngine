@@ -28,11 +28,14 @@ status: published
 reading_time: 5
 description: "Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity."
 ---
+Author: Nebula Walker
+Date: 19MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Examining the three stages of AI terminology inflation and how to distinguish necessary technical structure from gratuitous complexity.**
+
 # Buzzword Inflation: The Economics of Over-Engineering in the AI Era
 
-Author: Nebula Walker
-Date: 19 MAY 2026
-Mythogen Engine
 
 **What is the ultimate value of AI?**
 

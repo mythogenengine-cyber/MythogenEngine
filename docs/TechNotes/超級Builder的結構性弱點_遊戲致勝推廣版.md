@@ -26,6 +26,12 @@ status: published
 reading_time: 4
 description: "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 25MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。**
+
 # 「識」和「做到」，從來都不是同一件事
 
 有人用了一個漂亮的類比：十五世紀的活版印刷師，同時是排版工、墨水調配師、裝訂師、書商。工業化花了三百年把他拆成十個工種。現在 AI 正在把十個工種壓縮回一個人。
@@ -109,7 +115,6 @@ John Carmack 知道。黃仁勳知道。Lisa Su 知道。
 ---
 
 **《遊戲致勝：四十年科技霸權的隱藏算術》**
-星忘塵 著 ｜ MYTHOGEN ENGINE 出品
 
 📖 https://mythogenengine.com/
 

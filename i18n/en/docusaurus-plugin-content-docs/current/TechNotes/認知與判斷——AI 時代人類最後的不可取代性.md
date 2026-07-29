@@ -33,6 +33,12 @@ series:
   order: 1
   total: 4
 ---
+Author: Nebula Walker
+Date: 20MAY2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.**
+
 # Cognition and Judgment—The Last Thing AI Cannot Replace
 
 ## Foreword

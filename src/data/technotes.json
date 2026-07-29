@@ -1074,6 +1074,48 @@
   ],
   "zh-HK": [
     {
+      "id": "效率陷阱續章・續章：你以為你贏了",
+      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
+      "title": "效率陷阱・續章：你以為你贏了",
+      "date": "2026-07-28T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "labor-market",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "勞動市場",
+          "資本退場",
+          "敘事操作",
+          "認證經濟"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "labor-market",
+          "capital-exit",
+          "narrative-operations",
+          "credential-economy"
+        ]
+      },
+      "keywords": [
+        "自然流失",
+        "估值倍數",
+        "AI裁員",
+        "股票回購",
+        "賣盤拆骨",
+        "認證標籤"
+      ],
+      "summary": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
+      "status": "draft",
+      "reading_time": 42,
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "效率陷阱與認知侵蝕四部曲",
+        "order": 4,
+        "total": 4
+      }
+    },
+    {
       "id": "異常報告裡的讀者・後記——我以為門關了",
       "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
       "title": "異常報告裡的讀者・後記——我以為門關了",
@@ -1191,283 +1233,6 @@
       }
     },
     {
-      "id": "我問了 AI「記憶體股還能不能買」",
-      "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
-      "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
-      "date": "2026-07-13T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-media",
-      "tags": {
-        "zh": [
-          "AI",
-          "資訊不對稱",
-          "敘事操控",
-          "媒體素養",
-          "記憶體",
-          "散戶"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "information-asymmetry",
-          "narrative-manipulation",
-          "media-literacy",
-          "memory",
-          "retail-investors"
-        ]
-      },
-      "keywords": [
-        "記憶體週期",
-        "散戶行為",
-        "AI預設模式",
-        "提問能力",
-        "安慰劑效應"
-      ],
-      "summary": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
-      "status": "published",
-      "reading_time": 9,
-      "series": null
-    },
-    {
-      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
-      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
-      "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
-      "date": "2026-05-28T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-hardware",
-      "tags": {
-        "zh": [
-          "記憶體",
-          "遊戲機",
-          "NVIDIA",
-          "AI 浪潮",
-          "供應鏈"
-        ],
-        "en": [
-          "memory",
-          "console-gaming",
-          "nvidia",
-          "ai-wave",
-          "supply-chain"
-        ]
-      },
-      "keywords": [
-        "900層 V-NAND",
-        "Switch 2",
-        "Steam Deck",
-        "HBM",
-        "記憶體短缺"
-      ],
-      "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
-      "status": "published",
-      "reading_time": 10,
-      "sidebar_position": 20260528,
-      "series": null
-    },
-    {
-      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
-      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
-      "title": "HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝",
-      "date": "2026-05-26T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-hardware",
-      "tags": {
-        "zh": [
-          "護城河",
-          "商業模式",
-          "算力競賽",
-          "NVIDIA",
-          "出口管制"
-        ],
-        "en": [
-          "moat",
-          "business-model",
-          "compute-race",
-          "nvidia",
-          "export-control"
-        ]
-      },
-      "keywords": [
-        "HBM",
-        "台積電",
-        "SK Hynix",
-        "內存週期",
-        "半導體產業結構"
-      ],
-      "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
-      "status": "published",
-      "reading_time": 18,
-      "series": null
-    },
-    {
-      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
-      "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
-      "title": "AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？",
-      "date": "2026-05-23T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-labor",
-      "tags": {
-        "zh": [
-          "AI 內容工業化",
-          "超級個體",
-          "流量素材與作品",
-          "AI 短劇",
-          "人才結構轉變"
-        ],
-        "en": [
-          "ai-content-industrialization",
-          "super-individual",
-          "traffic-content-vs-craft",
-          "ai-short-drama",
-          "talent-structure-shift"
-        ]
-      },
-      "keywords": [
-        "醬板鴨",
-        "雪山救狐狸",
-        "AI 短劇",
-        "MVP",
-        "流量實驗工廠"
-      ],
-      "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。",
-      "status": "draft",
-      "reading_time": 10,
-      "series": null
-    },
-    {
-      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
-      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "date": "2026-05-10T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "事實查核",
-          "世界觀設定"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "fact-checking",
-          "worldbuilding"
-        ]
-      },
-      "keywords": [
-        "遊戲致勝",
-        "鏡界",
-        "認知位置",
-        "擴散型鎖定",
-        "任天堂"
-      ],
-      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
-      "status": "published",
-      "reading_time": 18,
-      "series": null
-    },
-    {
-      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
-      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "date": "2026-05-03T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Google",
-          "商業模式",
-          "平台壟斷",
-          "API 定價",
-          "垂直整合"
-        ],
-        "en": [
-          "google",
-          "business-model",
-          "platform-monopoly",
-          "api-pricing",
-          "vertical-integration"
-        ]
-      },
-      "keywords": [
-        "Google Cloud Next",
-        "A2A 協議",
-        "Gemini",
-        "企業雲端",
-        "免費模型"
-      ],
-      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
-      "status": "published",
-      "reading_time": 15,
-      "series": null
-    },
-    {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0,
-      "series": null
-    },
-    {
-      "id": "效率陷阱續章・續章：你以為你贏了",
-      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
-      "title": "效率陷阱・續章：你以為你贏了",
-      "date": "2026-07-28T00:00:00.000Z",
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "labor-market",
-      "tags": {
-        "zh": [
-          "焦慮套利",
-          "勞動市場",
-          "資本退場",
-          "敘事操作",
-          "認證經濟"
-        ],
-        "en": [
-          "anxiety-arbitrage",
-          "labor-market",
-          "capital-exit",
-          "narrative-operations",
-          "credential-economy"
-        ]
-      },
-      "keywords": [
-        "自然流失",
-        "估值倍數",
-        "AI裁員",
-        "股票回購",
-        "賣盤拆骨",
-        "認證標籤"
-      ],
-      "summary": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
-      "status": "draft",
-      "reading_time": 42,
-      "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 4,
-        "total": 4
-      }
-    },
-    {
       "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
       "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
       "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
@@ -1545,6 +1310,44 @@
         "order": 2,
         "total": 5
       }
+    },
+    {
+      "id": "我問了 AI「記憶體股還能不能買」",
+      "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
+      "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
+      "date": "2026-07-13T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "記憶體",
+          "散戶"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "memory",
+          "retail-investors"
+        ]
+      },
+      "keywords": [
+        "記憶體週期",
+        "散戶行為",
+        "AI預設模式",
+        "提問能力",
+        "安慰劑效應"
+      ],
+      "summary": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
+      "status": "published",
+      "reading_time": 9,
+      "series": null
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -1663,6 +1466,37 @@
       }
     },
     {
+      "id": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
+      "slug": "/docs/TechNotes/FABLE%20%E4%B8%8D%E5%8F%AA%E6%98%AF%E6%99%BA%E5%8A%9B%E6%8F%90%E5%8D%87%EF%BC%8CAI%20%E6%AD%A3%E5%9C%A8%E6%8A%8A%E5%B0%88%E5%AE%B6%E7%9B%B4%E8%A6%BA%E8%AE%8A%E6%88%90%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD",
+      "title": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
+      "date": "2026-07-01T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai",
+      "tags": {
+        "zh": [
+          "AI",
+          "FABLE",
+          "專家直覺"
+        ],
+        "en": [
+          "ai",
+          "fable",
+          "expert-intuition"
+        ]
+      },
+      "keywords": [
+        "FABLE",
+        "AI",
+        "專家直覺"
+      ],
+      "summary": "每一次 AI 的智力提升到某個臨界點，都會產生質變——不是做同樣的事做得更好，而是突然做到以前根本做不到的事。",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 1,
+      "series": null
+    },
+    {
       "id": "當所有人都在學AI",
       "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
       "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
@@ -1733,6 +1567,79 @@
       "series": null
     },
     {
+      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
+      "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "date": "2026-05-28T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "記憶體",
+          "遊戲機",
+          "NVIDIA",
+          "AI 浪潮",
+          "供應鏈"
+        ],
+        "en": [
+          "memory",
+          "console-gaming",
+          "nvidia",
+          "ai-wave",
+          "supply-chain"
+        ]
+      },
+      "keywords": [
+        "900層 V-NAND",
+        "Switch 2",
+        "Steam Deck",
+        "HBM",
+        "記憶體短缺"
+      ],
+      "summary": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20260528,
+      "series": null
+    },
+    {
+      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
+      "title": "HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝",
+      "date": "2026-05-26T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "護城河",
+          "商業模式",
+          "算力競賽",
+          "NVIDIA",
+          "出口管制"
+        ],
+        "en": [
+          "moat",
+          "business-model",
+          "compute-race",
+          "nvidia",
+          "export-control"
+        ]
+      },
+      "keywords": [
+        "HBM",
+        "台積電",
+        "SK Hynix",
+        "內存週期",
+        "半導體產業結構"
+      ],
+      "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
       "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
       "title": "「識」和「做到」，從來都不是同一件事",
@@ -1764,6 +1671,42 @@
       "summary": "AI 工具造就了超級 Builder，但隱藏的底層原理與失去的判斷力，才是致命的結構性弱點。",
       "status": "published",
       "reading_time": 4,
+      "series": null
+    },
+    {
+      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
+      "title": "AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？",
+      "date": "2026-05-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "tags": {
+        "zh": [
+          "AI 內容工業化",
+          "超級個體",
+          "流量素材與作品",
+          "AI 短劇",
+          "人才結構轉變"
+        ],
+        "en": [
+          "ai-content-industrialization",
+          "super-individual",
+          "traffic-content-vs-craft",
+          "ai-short-drama",
+          "talent-structure-shift"
+        ]
+      },
+      "keywords": [
+        "醬板鴨",
+        "雪山救狐狸",
+        "AI 短劇",
+        "MVP",
+        "流量實驗工廠"
+      ],
+      "summary": "從一篇招聘文、一部 AI 短劇、到 50 億播放量嘅醬板鴨，拆解 AI 時代內容工業化嘅真正結構。",
+      "status": "draft",
+      "reading_time": 10,
       "series": null
     },
     {
@@ -1880,6 +1823,42 @@
       "series": null
     },
     {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
+      "title": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "遊戲致勝",
+        "鏡界",
+        "認知位置",
+        "擴散型鎖定",
+        "任天堂"
+      ],
+      "summary": "從小說與科技史的AI協作經驗，論證兩種寫作需要完全不同的判斷力。",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "人寫還是AI寫，其實是個假問題",
       "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
       "title": "人寫還是AI寫，其實是個假問題",
@@ -1913,6 +1892,42 @@
       "summary": "論證「人寫還是AI寫」是假問題，真正的問題是內容裡有沒有人的思考與判斷。",
       "status": "published",
       "reading_time": 10,
+      "series": null
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
+      "title": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A 協議",
+        "Gemini",
+        "企業雲端",
+        "免費模型"
+      ],
+      "summary": "從Google Cloud Next 2026論證免費模型是企業雲端收入的獲客漏斗，而非慈善。",
+      "status": "published",
+      "reading_time": 15,
       "series": null
     },
     {
@@ -2025,6 +2040,22 @@
       "series": null
     },
     {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "清醒記錄",
+      "date": null,
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0,
+      "series": null
+    },
+    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
@@ -2100,6 +2131,48 @@
     }
   ],
   "en": [
+    {
+      "id": "效率陷阱續章・續章：你以為你贏了",
+      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
+      "title": "The Efficiency Trap · Sequel: You Thought You Won",
+      "date": "2026-07-28T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "labor-market",
+      "tags": {
+        "zh": [
+          "焦慮套利",
+          "勞動市場",
+          "資本退場",
+          "敘事操作",
+          "認證經濟"
+        ],
+        "en": [
+          "anxiety-arbitrage",
+          "labor-market",
+          "capital-exit",
+          "narrative-operations",
+          "credential-economy"
+        ]
+      },
+      "keywords": [
+        "natural attrition",
+        "valuation multiple",
+        "AI layoffs",
+        "stock buybacks",
+        "asset stripping",
+        "credential labels"
+      ],
+      "summary": "Layoffs and record profits happening simultaneously. AI isn't the cause; it's the license. One exit, two sales: upstream to the hand pushing the button, downstream to the people under the button.",
+      "status": "draft",
+      "reading_time": 42,
+      "series": {
+        "id": "efficiency-trap-cognition-erosion",
+        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "order": 4,
+        "total": 4
+      }
+    },
     {
       "id": "異常報告裡的讀者・後記——我以為門關了",
       "slug": "/docs/TechNotes/%E7%95%B0%E5%B8%B8%E5%A0%B1%E5%91%8A%E8%A3%A1%E7%9A%84%E8%AE%80%E8%80%85%E3%83%BB%E5%BE%8C%E8%A8%98%E2%80%94%E2%80%94%E6%88%91%E4%BB%A5%E7%82%BA%E9%96%80%E9%97%9C%E4%BA%86",
@@ -2218,283 +2291,6 @@
       }
     },
     {
-      "id": "我問了 AI「記憶體股還能不能買」",
-      "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
-      "title": "I Asked AI 'Should I Still Buy Memory Stocks?' — And Discovered a Much Bigger Problem",
-      "date": "2026-07-13T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-media",
-      "tags": {
-        "zh": [
-          "AI",
-          "資訊不對稱",
-          "敘事操控",
-          "媒體素養",
-          "記憶體",
-          "散戶"
-        ],
-        "en": [
-          "artificial-intelligence",
-          "information-asymmetry",
-          "narrative-manipulation",
-          "media-literacy",
-          "memory",
-          "retail-investors"
-        ]
-      },
-      "keywords": [
-        "memory cycle",
-        "retail investor behavior",
-        "AI default mode",
-        "questioning ability",
-        "placebo effect"
-      ],
-      "summary": "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.",
-      "status": "published",
-      "reading_time": 9,
-      "series": null
-    },
-    {
-      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
-      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
-      "title": "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI",
-      "date": "2026-05-28T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-hardware",
-      "tags": {
-        "zh": [
-          "記憶體",
-          "遊戲機",
-          "NVIDIA",
-          "AI 浪潮",
-          "供應鏈"
-        ],
-        "en": [
-          "memory",
-          "console-gaming",
-          "nvidia",
-          "ai-wave",
-          "supply-chain"
-        ]
-      },
-      "keywords": [
-        "900-layer V-NAND",
-        "Switch 2",
-        "Steam Deck",
-        "HBM",
-        "memory shortage"
-      ],
-      "summary": "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution.",
-      "status": "published",
-      "reading_time": 10,
-      "sidebar_position": 20260528,
-      "series": null
-    },
-    {
-      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
-      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
-      "title": "HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic",
-      "date": "2026-05-26T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-hardware",
-      "tags": {
-        "zh": [
-          "護城河",
-          "商業模式",
-          "算力競賽",
-          "NVIDIA",
-          "出口管制"
-        ],
-        "en": [
-          "moat",
-          "business-model",
-          "compute-race",
-          "nvidia",
-          "export-control"
-        ]
-      },
-      "keywords": [
-        "HBM",
-        "TSMC",
-        "SK Hynix",
-        "memory cycle",
-        "semiconductor industry structure"
-      ],
-      "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
-      "status": "published",
-      "reading_time": 18,
-      "series": null
-    },
-    {
-      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
-      "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
-      "title": "The New Species of the AI Era: Why Many Companies Are No Longer Looking for \"Engineers\"?",
-      "date": "2026-05-23T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-labor",
-      "tags": {
-        "zh": [
-          "AI 內容工業化",
-          "超級個體",
-          "流量素材與作品",
-          "AI 短劇",
-          "人才結構轉變"
-        ],
-        "en": [
-          "ai-content-industrialization",
-          "super-individual",
-          "traffic-content-vs-craft",
-          "ai-short-drama",
-          "talent-structure-shift"
-        ]
-      },
-      "keywords": [
-        "Jiangban Duck",
-        "Rescue Fox in Snow Mountain",
-        "AI Short Drama",
-        "MVP",
-        "Traffic Experiment Factory"
-      ],
-      "summary": "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.",
-      "status": "draft",
-      "reading_time": 10,
-      "series": null
-    },
-    {
-      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
-      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
-      "title": "Two Kinds of Judgment: The True Difficulty of AI Collaborative Writing—Starting from a Novel and a History of Technology",
-      "date": "2026-05-10T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-ai-writing",
-      "tags": {
-        "zh": [
-          "人機協作",
-          "AI 輔助寫作",
-          "編輯判斷力",
-          "事實查核",
-          "世界觀設定"
-        ],
-        "en": [
-          "human-ai-collaboration",
-          "ai-assisted-writing",
-          "editorial-judgment",
-          "fact-checking",
-          "worldbuilding"
-        ]
-      },
-      "keywords": [
-        "GameVictory",
-        "Mirror Realm",
-        "Cognitive Position",
-        "Diffusive Lock-in",
-        "Nintendo"
-      ],
-      "summary": "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment.",
-      "status": "published",
-      "reading_time": 18,
-      "series": null
-    },
-    {
-      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
-      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
-      "title": "Google Is No Longer Designed for You Either: When Free Models Become the Gateway to Enterprise Cloud",
-      "date": "2026-05-03T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "t-ai-industry",
-      "tags": {
-        "zh": [
-          "Google",
-          "商業模式",
-          "平台壟斷",
-          "API 定價",
-          "垂直整合"
-        ],
-        "en": [
-          "google",
-          "business-model",
-          "platform-monopoly",
-          "api-pricing",
-          "vertical-integration"
-        ]
-      },
-      "keywords": [
-        "Google Cloud Next",
-        "A2A Protocol",
-        "Gemini",
-        "Enterprise Cloud",
-        "Free Models"
-      ],
-      "summary": "Analyzing Google Cloud Next 2026 to show how free AI models serve as a customer acquisition funnel for enterprise cloud revenue.",
-      "status": "published",
-      "reading_time": 15,
-      "series": null
-    },
-    {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "Lucid Record",
-      "date": null,
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0,
-      "series": null
-    },
-    {
-      "id": "效率陷阱續章・續章：你以為你贏了",
-      "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
-      "title": "The Efficiency Trap · Sequel: You Thought You Won",
-      "date": "2026-07-28T00:00:00.000Z",
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "labor-market",
-      "tags": {
-        "zh": [
-          "焦慮套利",
-          "勞動市場",
-          "資本退場",
-          "敘事操作",
-          "認證經濟"
-        ],
-        "en": [
-          "anxiety-arbitrage",
-          "labor-market",
-          "capital-exit",
-          "narrative-operations",
-          "credential-economy"
-        ]
-      },
-      "keywords": [
-        "natural attrition",
-        "valuation multiple",
-        "AI layoffs",
-        "stock buybacks",
-        "asset stripping",
-        "credential labels"
-      ],
-      "summary": "Layoffs and record profits happening simultaneously. AI isn't the cause; it's the license. One exit, two sales: upstream to the hand pushing the button, downstream to the people under the button.",
-      "status": "draft",
-      "reading_time": 42,
-      "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
-        "order": 4,
-        "total": 4
-      }
-    },
-    {
       "id": "機器點樣幫手執行一場已經發生咗嘅刪除",
       "slug": "/docs/TechNotes/%E6%A9%9F%E5%99%A8%E9%BB%9E%E6%A8%A3%E5%B9%AB%E6%89%8B%E5%9F%B7%E8%A1%8C%E4%B8%80%E5%A0%B4%E5%B7%B2%E7%B6%93%E7%99%BC%E7%94%9F%E5%92%97%E5%98%85%E5%88%AA%E9%99%A4",
       "title": "How the Machine Helps Execute a Deletion That Has Already Happened",
@@ -2572,6 +2368,44 @@
         "order": 2,
         "total": 5
       }
+    },
+    {
+      "id": "我問了 AI「記憶體股還能不能買」",
+      "slug": "/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D",
+      "title": "I Asked AI 'Should I Still Buy Memory Stocks?' — And Discovered a Much Bigger Problem",
+      "date": "2026-07-13T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "記憶體",
+          "散戶"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "memory",
+          "retail-investors"
+        ]
+      },
+      "keywords": [
+        "memory cycle",
+        "retail investor behavior",
+        "AI default mode",
+        "questioning ability",
+        "placebo effect"
+      ],
+      "summary": "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.",
+      "status": "published",
+      "reading_time": 9,
+      "series": null
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -2690,6 +2524,37 @@
       }
     },
     {
+      "id": "FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施",
+      "slug": "/docs/TechNotes/FABLE%20%E4%B8%8D%E5%8F%AA%E6%98%AF%E6%99%BA%E5%8A%9B%E6%8F%90%E5%8D%87%EF%BC%8CAI%20%E6%AD%A3%E5%9C%A8%E6%8A%8A%E5%B0%88%E5%AE%B6%E7%9B%B4%E8%A6%BA%E8%AE%8A%E6%88%90%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD",
+      "title": "FABLE: It's Not Just About Smarter AI — It's Turning Expert Intuition into Infrastructure",
+      "date": "2026-07-01T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai",
+      "tags": {
+        "zh": [
+          "AI",
+          "FABLE",
+          "專家直覺"
+        ],
+        "en": [
+          "ai",
+          "fable",
+          "expert-intuition"
+        ]
+      },
+      "keywords": [
+        "FABLE",
+        "AI",
+        "Expert Intuition"
+      ],
+      "summary": "Every time AI's intelligence reaches a certain threshold, a qualitative shift occurs — not doing the same things better, but suddenly doing things that were previously impossible.",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 1,
+      "series": null
+    },
+    {
       "id": "當所有人都在學AI",
       "slug": "/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI",
       "title": "The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?",
@@ -2791,6 +2656,79 @@
       "series": null
     },
     {
+      "id": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+      "slug": "/docs/TechNotes/900%20%E5%B1%A4%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E7%95%B6%E4%BD%A0%E7%9A%84%20Switch%20%E5%92%8C%20Steam%20Deck%20%E5%9C%A8%E6%9B%BF%20AI%20%E8%B2%B7%E5%96%AE",
+      "title": "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI",
+      "date": "2026-05-28T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "記憶體",
+          "遊戲機",
+          "NVIDIA",
+          "AI 浪潮",
+          "供應鏈"
+        ],
+        "en": [
+          "memory",
+          "console-gaming",
+          "nvidia",
+          "ai-wave",
+          "supply-chain"
+        ]
+      },
+      "keywords": [
+        "900-layer V-NAND",
+        "Switch 2",
+        "Steam Deck",
+        "HBM",
+        "memory shortage"
+      ],
+      "summary": "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution.",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20260528,
+      "series": null
+    },
+    {
+      "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+      "slug": "/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D",
+      "title": "HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic",
+      "date": "2026-05-26T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-hardware",
+      "tags": {
+        "zh": [
+          "護城河",
+          "商業模式",
+          "算力競賽",
+          "NVIDIA",
+          "出口管制"
+        ],
+        "en": [
+          "moat",
+          "business-model",
+          "compute-race",
+          "nvidia",
+          "export-control"
+        ]
+      },
+      "keywords": [
+        "HBM",
+        "TSMC",
+        "SK Hynix",
+        "memory cycle",
+        "semiconductor industry structure"
+      ],
+      "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
       "slug": "/docs/TechNotes/%E8%B6%85%E7%B4%9ABuilder%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E5%BC%B1%E9%BB%9E_%E9%81%8A%E6%88%B2%E8%87%B4%E5%8B%9D%E6%8E%A8%E5%BB%A3%E7%89%88",
       "title": "\"Knowing\" and \"Doing\" Were Never the Same Thing",
@@ -2822,6 +2760,42 @@
       "summary": "AI tools created the Super Builder, but hidden underlying principles and lost judgment are fatal structural weaknesses.",
       "status": "published",
       "reading_time": 4,
+      "series": null
+    },
+    {
+      "id": "AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？",
+      "slug": "/docs/TechNotes/AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E6%96%B0%E7%89%A9%E7%A8%AE%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E7%8F%BE%E5%9C%A8%E5%BE%88%E5%A4%9A%E5%85%AC%E5%8F%B8%E6%83%B3%E6%89%BE%E7%9A%84%EF%BC%8C%E5%B7%B2%E7%B6%93%E4%B8%8D%E6%98%AF%E3%80%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E3%80%8D%EF%BC%9F",
+      "title": "The New Species of the AI Era: Why Many Companies Are No Longer Looking for \"Engineers\"?",
+      "date": "2026-05-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "tags": {
+        "zh": [
+          "AI 內容工業化",
+          "超級個體",
+          "流量素材與作品",
+          "AI 短劇",
+          "人才結構轉變"
+        ],
+        "en": [
+          "ai-content-industrialization",
+          "super-individual",
+          "traffic-content-vs-craft",
+          "ai-short-drama",
+          "talent-structure-shift"
+        ]
+      },
+      "keywords": [
+        "Jiangban Duck",
+        "Rescue Fox in Snow Mountain",
+        "AI Short Drama",
+        "MVP",
+        "Traffic Experiment Factory"
+      ],
+      "summary": "From a job posting, an AI short drama, to the 5 billion-viewed Jiangban Duck, dismantling the true structure of content industrialization in the AI era.",
+      "status": "draft",
+      "reading_time": 10,
       "series": null
     },
     {
@@ -2938,6 +2912,42 @@
       "series": null
     },
     {
+      "id": "AI 協作寫作的真正難度——從一本小說和一本科技史說起",
+      "slug": "/docs/TechNotes/AI%20%E5%8D%94%E4%BD%9C%E5%AF%AB%E4%BD%9C%E7%9A%84%E7%9C%9F%E6%AD%A3%E9%9B%A3%E5%BA%A6%E2%80%94%E2%80%94%E5%BE%9E%E4%B8%80%E6%9C%AC%E5%B0%8F%E8%AA%AA%E5%92%8C%E4%B8%80%E6%9C%AC%E7%A7%91%E6%8A%80%E5%8F%B2%E8%AA%AA%E8%B5%B7",
+      "title": "Two Kinds of Judgment: The True Difficulty of AI Collaborative Writing—Starting from a Novel and a History of Technology",
+      "date": "2026-05-10T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-writing",
+      "tags": {
+        "zh": [
+          "人機協作",
+          "AI 輔助寫作",
+          "編輯判斷力",
+          "事實查核",
+          "世界觀設定"
+        ],
+        "en": [
+          "human-ai-collaboration",
+          "ai-assisted-writing",
+          "editorial-judgment",
+          "fact-checking",
+          "worldbuilding"
+        ]
+      },
+      "keywords": [
+        "GameVictory",
+        "Mirror Realm",
+        "Cognitive Position",
+        "Diffusive Lock-in",
+        "Nintendo"
+      ],
+      "summary": "Comparing AI collaboration in fiction and non-fiction to argue that different genres demand entirely different forms of human editorial judgment.",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "人寫還是AI寫，其實是個假問題",
       "slug": "/docs/TechNotes/%E4%BA%BA%E5%AF%AB%E9%82%84%E6%98%AFAI%E5%AF%AB%EF%BC%8C%E5%85%B6%E5%AF%A6%E6%98%AF%E5%80%8B%E5%81%87%E5%95%8F%E9%A1%8C",
       "title": "Deciding whether an article is written by a human or by AI is actually a false question.",
@@ -2971,6 +2981,42 @@
       "summary": "Arguing that the 'human vs. AI writing' debate misses the point; the real question is whether the content contains human thinking and judgment.",
       "status": "published",
       "reading_time": 10,
+      "series": null
+    },
+    {
+      "id": "Google 也不再為你而設計：當免費模型變成企業雲端的入口",
+      "slug": "/docs/TechNotes/Google%20%E4%B9%9F%E4%B8%8D%E5%86%8D%E7%82%BA%E4%BD%A0%E8%80%8C%E8%A8%AD%E8%A8%88%EF%BC%9A%E7%95%B6%E5%85%8D%E8%B2%BB%E6%A8%A1%E5%9E%8B%E8%AE%8A%E6%88%90%E4%BC%81%E6%A5%AD%E9%9B%B2%E7%AB%AF%E7%9A%84%E5%85%A5%E5%8F%A3",
+      "title": "Google Is No Longer Designed for You Either: When Free Models Become the Gateway to Enterprise Cloud",
+      "date": "2026-05-03T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-ai-industry",
+      "tags": {
+        "zh": [
+          "Google",
+          "商業模式",
+          "平台壟斷",
+          "API 定價",
+          "垂直整合"
+        ],
+        "en": [
+          "google",
+          "business-model",
+          "platform-monopoly",
+          "api-pricing",
+          "vertical-integration"
+        ]
+      },
+      "keywords": [
+        "Google Cloud Next",
+        "A2A Protocol",
+        "Gemini",
+        "Enterprise Cloud",
+        "Free Models"
+      ],
+      "summary": "Analyzing Google Cloud Next 2026 to show how free AI models serve as a customer acquisition funnel for enterprise cloud revenue.",
+      "status": "published",
+      "reading_time": 15,
       "series": null
     },
     {
@@ -3080,6 +3126,22 @@
       "summary": "Using 'lobsters' as a metaphor for AI Agents to break down the three waves of market evolution and the trend of models devouring the middleware layer.",
       "status": "published",
       "reading_time": 6,
+      "series": null
+    },
+    {
+      "id": "index",
+      "slug": "/docs/TechNotes/index",
+      "title": "Lucid Record",
+      "date": null,
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "",
+      "tags": {},
+      "keywords": [],
+      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
+      "status": "draft",
+      "reading_time": 0,
+      "sidebar_position": 0,
       "series": null
     },
     {

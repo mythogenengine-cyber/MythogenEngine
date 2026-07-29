@@ -30,6 +30,12 @@ sidebar_label: "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買
 sidebar_position: 20260528
 description: "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 28MAY2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。**
+
 # 900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單
 
 ## 兩則新聞，同一個星期

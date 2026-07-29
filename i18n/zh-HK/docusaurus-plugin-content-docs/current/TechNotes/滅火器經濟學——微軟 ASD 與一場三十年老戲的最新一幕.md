@@ -32,9 +32,14 @@ sidebar_label: "滅火器經濟學——微軟 ASD 與一場三十年老戲的�
 sidebar_position: 20260708
 description: "從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 08JUL2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 從微軟最新推出的 Advanced Shader Delivery (ASD) 技術切入，剖析微軟如何以解決問題為名行平台鎖定之實，以及在 AI 時代親手拆解 Xbox 消費者基座的戰略矛盾與困境。**
+
 # 滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕
 
-**星忘塵 Nebula Walker｜MYTHOGEN ENGINE**
 
 ---
 
@@ -247,4 +252,3 @@ ASD 唔係新技術。佢係一個三十年老戲碼嘅最新一幕——先用�
 
 ---
 
-_星忘塵 著｜MYTHOGEN ENGINE https://mythogenengine.com/

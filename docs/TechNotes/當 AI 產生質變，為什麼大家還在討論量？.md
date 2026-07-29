@@ -29,10 +29,14 @@ reading_time: 6
 sidebar_position: 20260708
 description: "探討 AI 智力提升帶來的量變與質變，以及在底層能力（如系統思考、抽象能力）和框架換代（如 n8n, MCP）之間的抉擇。"
 ---
+作者：星忘塵 Nebula Walker
+Date: 08JUL2026
+創象引擎 Mythogen Engine (mythogenengine.com)
+
+**📌 每一次 AI 的智力跨過臨界點，都會產生量變與質變兩種變化。雖然量變更容易被衡量和變現，但歷史上真正改變格局的，往往是那些以前做不到、現在被實現的質變。**
 
 # 當 AI 產生質變，為什麼大家還在討論量？
 
-星忘塵 Nebula Walker · 創象引擎 MYTHOGEN ENGINE
 
 ---
 

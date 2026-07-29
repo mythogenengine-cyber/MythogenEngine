@@ -28,6 +28,12 @@ status: published
 reading_time: 12
 description: "Reverse-testing ChatGPT Images 2.0 using Google's official prompts, revealing the vast gap between visual quality and factual accuracy."
 ---
+Author: Nebula Walker
+Date: 29APR2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 Reverse-testing ChatGPT Images 2.0 using Google's official prompts, revealing the vast gap between visual quality and factual accuracy.**
+
 # I Tested ChatGPT Images 2.0 Using Google's Own Prompts—The Results Were So Beautiful You'll Want to Fact-Check Every Detail
 
 **Everyone is calling ChatGPT Images 2.0 a revolutionary breakthrough. I spent a day doing something very boring: fact-checking it item by item.**

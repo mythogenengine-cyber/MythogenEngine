@@ -32,9 +32,23 @@
               "icon": "lucide-file",
               "title": "認知與判斷——AI 時代人類最後的不可取代性"
             }
+          },
+          {
+            "id": "47e64d2d21df09fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/TechNotes/環境如何令人變蠢——認知與判斷（後記）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "環境如何令人變蠢——認知與判斷（後記）"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,29 +210,33 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "f595146a43c5cdc1",
+  "active": "76882750d854c412",
   "lastOpenFiles": [
-    "build/zh-HK/sitemap.xml",
-    "build/zh-HK/docs/TechNotes.html",
-    "build/zh-HK/docs/GameVictory/back_cover.html",
-    "build/zh-HK/docs/GameVictory/INFO_PAGE.html",
-    "build/zh-HK/docs/GameVictory/間章_全面性的消亡_v1.html",
-    "build/zh-HK/docs/GameVictory/終章_遊戲即未來_v5b.html",
-    "build/zh-HK/docs/GameVictory/第四章_世嘉的五百萬美元善款_v1.html",
-    "build/zh-HK/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.html",
-    "build/zh-HK/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
-    "build/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
-    "build/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
-    "build/zh-HK/img/cover-hk.jpg",
-    "build/zh-HK/img/book_cover_invisible_path.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_2ae5382ae5382ae5-eb1a60585e63042959f286d643b00844.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_1yduwq1yduwq1ydu-7dec756339cfb15bfc7f7280a00736be.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_svxag6svxag6svxa-eb317f8ca8e54f807f5441a0cf2da3cc.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_1ar68w1ar68w1ar6-767487074fae6248962bd8b9536b056e.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_gmse58gmse58gmse-1c362c3c0ff4a469cde1502806d1c16f.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_lzk1b1lzk1b1lzk1-d4cf2493738b2bbb428c485bd5fc5d3d.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_ftemmgftemmgftem-c012470b5ba7a29b1bb63ed51b19a858.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_rxllj9rxllj9rxll-ff7dbbb6ca6bad6fa171b9147f1d9f7f.jpg",
+    "build/en/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.html",
+    "build/en/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
+    "build/en/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
+    "build/en/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
+    "build/en/docs/TechNotes/當「教育」變成一門不可能翻車的生意.html",
+    "build/en/docs/TechNotes/當所有人都在學AI.html",
+    "build/en/docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.html",
+    "build/en/docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.html",
+    "build/en/docs/TechNotes/環境如何令人變蠢——認知與判斷（後記）.html",
+    "build/en/docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場.html",
+    "build/en/docs/TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除.html",
+    "build/en/img/cover-hk.jpg",
+    "build/en/img/book_cover_invisible_path.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-20 110153-0c6aaf9e1987b46a3d3961ea9fb3db9e.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-14 103509-434b050ca8bcfb26de0eba5820f6577a.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-20 103721-c00d20948ef79cdf086b0418cbb0df22.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-14 102918-d317ff09c84739eb126ce5b5e8ac43d8.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-14 101959-5ace7c86702531940d843a2726fec891.jpg",
+    "build/en/assets/images/螢幕擷取畫面 2026-07-14 102452-b9156309c5699038c91aad7ec8bf89e2.jpg",
+    "build/en/assets/images/production_line_flow-1b35b06d8b5c270a8354a07b93a44284.jpg",
+    "build/en/assets/images/preview (4)-0d43073027ff41d0cf226420fdce5e1c.webp",
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/環境如何令人變蠢——認知與判斷（後記）.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/環境如何令人變蠢——認知與判斷（後記）.md",
+    "docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.md",
+    "docs/TechNotes/環境如何令人變蠢——認知與判斷（後記）.md",
     "docs/TechNotes/當「教育」變成一門不可能翻車的生意.md",
     "docs/TechNotes/效率陷阱續章・續章：你以為你贏了.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/效率陷阱續章・續章：你以為你贏了.md",
@@ -231,7 +249,6 @@
     "docs/TechNotes/20260413_CLAW.md",
     "docs/TechNotes/滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.md",
     "docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
-    "docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.md",
     "docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.md",
     "architecture.md",
     "《鏡界：假面系統殺人事件》留言節錄.md",
@@ -240,9 +257,6 @@
     "docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.md",
     "docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場.md",
     "docs/TechNotes/我問了 AI「記憶體股還能不能買」.md",
-    "docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md",
-    "docs/TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單.md",
-    "docs/TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除.md",
-    "docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.md"
+    "docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝.md"
   ]
 }

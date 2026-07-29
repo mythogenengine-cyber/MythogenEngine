@@ -119,7 +119,7 @@ module.exports = {
         },
         {
           type: 'category',
-          label: '效率陷阱與認知侵蝕四部曲',
+          label: '效率陷阱與認知侵蝕五部曲',
           items: [
             'TechNotes/認知與判斷——AI 時代人類最後的不可取代性',
             'TechNotes/環境如何令人變蠢——認知與判斷（後記）',

@@ -37,9 +37,9 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 4,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 5,
+        "total": 5
       }
     },
     {
@@ -392,9 +392,9 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 3,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 4,
+        "total": 5
       }
     },
     {
@@ -462,9 +462,9 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 2,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 3,
+        "total": 5
       }
     },
     {
@@ -532,9 +532,9 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
+        "name": "效率陷阱與認知侵蝕五部曲",
         "order": 2,
-        "total": 4
+        "total": 5
       }
     },
     {
@@ -726,9 +726,9 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
+        "name": "效率陷阱與認知侵蝕五部曲",
         "order": 1,
-        "total": 4
+        "total": 5
       }
     },
     {
@@ -1149,9 +1149,9 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 4,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 5,
+        "total": 5
       }
     },
     {
@@ -1499,9 +1499,9 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 3,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 4,
+        "total": 5
       }
     },
     {
@@ -1569,9 +1569,9 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
-        "order": 2,
-        "total": 4
+        "name": "效率陷阱與認知侵蝕五部曲",
+        "order": 3,
+        "total": 5
       }
     },
     {
@@ -1639,9 +1639,9 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
+        "name": "效率陷阱與認知侵蝕五部曲",
         "order": 2,
-        "total": 4
+        "total": 5
       }
     },
     {
@@ -1823,9 +1823,9 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
+        "name": "效率陷阱與認知侵蝕五部曲",
         "order": 1,
-        "total": 4
+        "total": 5
       }
     },
     {
@@ -2246,9 +2246,9 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
-        "order": 4,
-        "total": 4
+        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
+        "order": 5,
+        "total": 5
       }
     },
     {
@@ -2596,9 +2596,9 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
-        "order": 3,
-        "total": 4
+        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
+        "order": 4,
+        "total": 5
       }
     },
     {
@@ -2666,9 +2666,9 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
-        "order": 2,
-        "total": 4
+        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
+        "order": 3,
+        "total": 5
       }
     },
     {
@@ -2767,9 +2767,9 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕四部曲",
+        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
         "order": 2,
-        "total": 4
+        "total": 5
       }
     },
     {
@@ -2951,9 +2951,10 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quartet",
+        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
         "order": 1,
-        "total": 4
+        "total": 5,
+        "postscript": "This article serves as the foundational inquiry for the series."
       }
     },
     {

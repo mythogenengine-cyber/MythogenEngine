@@ -44,9 +44,9 @@ reading_time: 10
 description: "Those who have never experienced immense pressure rarely realize that human judgment can be systematically eroded by environments. Gaslighting, peer pressure, and artificial urgency are not exclusive to scams, but cognitive traps present in daily life."
 series:
   id: efficiency-trap-cognition-erosion
-  name: "效率陷阱與認知侵蝕四部曲"
+  name: "效率陷阱與認知侵蝕五部曲"
   order: 2
-  total: 4
+  total: 5
 ---
 Author: Nebula Walker
 Date: 02JUN2026

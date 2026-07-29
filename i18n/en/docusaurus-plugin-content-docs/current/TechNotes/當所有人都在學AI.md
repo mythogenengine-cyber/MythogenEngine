@@ -27,9 +27,9 @@ reading_time: 12
 description: "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale."
 series:
   id: efficiency-trap-cognition-erosion
-  name: "The Efficiency Trap and Cognitive Erosion Quartet"
-  order: 2
-  total: 4
+  name: "The Efficiency Trap and Cognitive Erosion Quintet"
+  order: 3
+  total: 5
 ---
 Author: Nebula Walker
 Date: 27JUN2026
@@ -315,9 +315,10 @@ Stop.
 
 ---
 
-> **📚 The Efficiency Trap and Cognitive Erosion Quartet**
+> **📚 The Efficiency Trap and Cognitive Erosion Quintet**
 >
 > 1. [Cognition and Judgment—The Last Thing AI Cannot Replace](./認知與判斷——AI%20時代人類最後的不可取代性.md)
-> 2. **The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?**
-> 3. [The Standard Operating Procedure for Killing Innovation](./殺死創新的標準作業程序.md)
-> 4. [The Efficiency Trap · Sequel: You Thought You Won](./效率陷阱續章・續章：你以為你贏了.md)
+> 2. [How Environments Make People Foolish—Cognition and Judgment (Postscript)](./環境如何令人變蠢——認知與判斷（後記）.md)
+> 3. **The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?**
+> 4. [The Standard Operating Procedure for Killing Innovation](./殺死創新的標準作業程序.md)
+> 5. [The Efficiency Trap · Sequel: You Thought You Won](./效率陷阱續章・續章：你以為你贏了.md)

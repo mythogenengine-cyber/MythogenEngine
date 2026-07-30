@@ -30,5 +30,9 @@
   "item.label.Diary": {
     "message": "Diary",
     "description": "Navbar item with label Diary"
+  },
+  "item.label.About": {
+    "message": "關於作者",
+    "description": "Navbar item with label About"
   }
 }

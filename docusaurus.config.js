@@ -93,6 +93,11 @@ const config = {
             label: 'Diary',
           },
           {
+            to: '/about',
+            position: 'left',
+            label: 'About',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },

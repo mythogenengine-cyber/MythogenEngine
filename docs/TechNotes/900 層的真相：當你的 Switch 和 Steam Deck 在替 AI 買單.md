@@ -30,10 +30,10 @@ sidebar_label: "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買
 sidebar_position: 20260528
 description: "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。"
 series:
-  id: memory-trilogy
-  name: "記憶體與 AI 算力週期三部曲"
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
   order: 2
-  total: 3
+  total: 4
 ---
 作者：星忘塵 Nebula Walker
 Date: 28MAY2026
@@ -162,8 +162,9 @@ _如果你想知道遊戲玩家是怎麼一步一步變成 AI 革命的不自覺
 
 ---
 
-> **📚 記憶體與 AI 算力週期三部曲**
+> **📚 記憶體與 AI 算力週期系列**
 >
 > 1. [HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝](/docs/TechNotes/HBM%20%E4%B8%8D%E6%98%AF%E4%B8%8B%E4%B8%80%E5%80%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%9A%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%E9%82%8F%E8%BC%AF%E6%99%B6%E7%89%87%E7%9A%84%E7%B5%90%E6%A7%8B%E6%80%A7%E9%B4%BB%E6%BA%9D)
 > 2. **900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單**
 > 3. [我問了 AI「記憶體股還能不能買」](/docs/TechNotes/%E6%88%91%E5%95%8F%E4%BA%86%20AI%E3%80%8C%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1%E9%82%84%E8%83%BD%E4%B8%8D%E8%83%BD%E8%B2%B7%E3%80%8D)
+> 4. [真話是付費功能：AI 定價結構如何決定真相的分配](/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D)

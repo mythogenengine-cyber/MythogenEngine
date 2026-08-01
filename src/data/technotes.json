@@ -1,6 +1,52 @@
 {
   "zh-Hant": [
     {
+      "id": "真話是付費功能：AI 定價結構如何決定真相的分配",
+      "slug": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+      "title": "真話是付費功能：AI 定價結構如何決定真相的分配",
+      "date": "2026-07-31T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "記憶體",
+          "散戶",
+          "定價結構"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "memory",
+          "retail-investors",
+          "pricing-structure"
+        ]
+      },
+      "keywords": [
+        "AI定價結構",
+        "免費層",
+        "訂閱層",
+        "API層",
+        "真話是付費功能",
+        "資訊分層"
+      ],
+      "summary": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
+      "status": "published",
+      "reading_time": 7,
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 4,
+        "total": 4
+      }
+    },
+    {
       "id": "效率陷阱續章・續章：你以為你贏了",
       "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
       "title": "效率陷阱・續章：你以為你贏了",
@@ -275,10 +321,10 @@
       "status": "published",
       "reading_time": 9,
       "series": {
-        "id": "memory-trilogy",
-        "name": "記憶體與 AI 算力週期三部曲",
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
         "order": 3,
-        "total": 3
+        "total": 4
       }
     },
     {
@@ -573,10 +619,10 @@
       "reading_time": 10,
       "sidebar_position": 20260528,
       "series": {
-        "id": "memory-trilogy",
-        "name": "記憶體與 AI 算力週期三部曲",
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
         "order": 2,
-        "total": 3
+        "total": 4
       }
     },
     {
@@ -614,10 +660,10 @@
       "status": "published",
       "reading_time": 18,
       "series": {
-        "id": "memory-trilogy",
-        "name": "記憶體與 AI 算力週期三部曲",
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
         "order": 1,
-        "total": 3
+        "total": 4
       }
     },
     {
@@ -1112,6 +1158,47 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "真話是付費功能：AI 定價結構如何決定真相的分配",
+      "slug": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+      "title": "真話是付費功能：AI 定價結構如何決定真相的分配",
+      "date": "2026-07-31T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "記憶體",
+          "散戶",
+          "定價結構"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "memory",
+          "retail-investors",
+          "pricing-structure"
+        ]
+      },
+      "keywords": [
+        "AI定價結構",
+        "免費層",
+        "訂閱層",
+        "API層",
+        "真話是付費功能",
+        "資訊分層"
+      ],
+      "summary": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
+      "status": "published",
+      "reading_time": 7,
+      "series": null
+    },
     {
       "id": "效率陷阱續章・續章：你以為你贏了",
       "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
@@ -2209,6 +2296,47 @@
     }
   ],
   "en": [
+    {
+      "id": "真話是付費功能：AI 定價結構如何決定真相的分配",
+      "slug": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+      "title": "Truth Is a Paid Feature: How AI Pricing Structures Determine the Distribution of Truth",
+      "date": "2026-07-31T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-media",
+      "tags": {
+        "zh": [
+          "AI",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "記憶體",
+          "散戶",
+          "定價結構"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "memory",
+          "retail-investors",
+          "pricing-structure"
+        ]
+      },
+      "keywords": [
+        "AI pricing structure",
+        "free tier",
+        "subscription tier",
+        "API tier",
+        "truth is a paid feature",
+        "information stratification"
+      ],
+      "summary": "Dissecting the three-tier AI product pyramid (free/subscription/API), revealing how ability to pay compounds with ability to ask, ensuring the most vulnerable users receive the most dangerous answers.",
+      "status": "published",
+      "reading_time": 7,
+      "series": null
+    },
     {
       "id": "效率陷阱續章・續章：你以為你贏了",
       "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",

@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "aeada85d87518c15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
             "id": "5d737db71cb41500",
             "type": "leaf",
             "state": {
@@ -34,8 +48,21 @@
               "icon": "lucide-file",
               "title": "誰說遊戲做不起"
             }
+          },
+          {
+            "id": "2b036a03d62be7f0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "發行記錄 1.13.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -55,7 +82,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -197,36 +226,40 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "47e64d2d21df09fe",
+  "active": "2b036a03d62be7f0",
   "lastOpenFiles": [
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/Gemini_Generated_Image_y2u0s8y2u0s8y2u0.jpg",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/Gemini_Generated_Image_wgddtewgddtewgdd.jpg",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/Gemini_Generated_Image_tenxjxtenxjxtenx.jpg",
-    "build/zh-HK/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
-    "build/zh-HK/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.html",
-    "build/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
-    "build/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
-    "build/zh-HK/docs/TechNotes/當所有人都在學AI.html",
-    "build/zh-HK/docs/TechNotes/當「教育」變成一門不可能翻車的生意.html",
-    "build/zh-HK/docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.html",
-    "build/zh-HK/docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.html",
-    "build/zh-HK/docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場.html",
-    "build/zh-HK/docs/TechNotes/環境如何令人變蠢——認知與判斷（後記）.html",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_13goe913goe913go 1-82a9f9826e981a2f95e9a99cc474867a.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_spy38yspy38yspy3-e42f8c5573af5c9f982fb08b56467045.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_wgddtewgddtewgdd-f097d57593679944cec1920dc6b8297e.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_sighr1sighr1sigh-8058dcadfa3d08d01974f1ed186468fa.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_n366g1n366g1n366-7950dd1a6aecc04777cde53d9c9af6ff.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_ok3ul3ok3ul3ok3u-107bdcff071fd0b3e196a50be39ac0c4.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_jfbw6ajfbw6ajfbw-b7d324e91894050b352f90a1aa11e1ab.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_jfbw6ajfbw6ajfbw (1)-c03639cd16965a9dfb6069bcd1bce042.jpg",
+    "真話是付費功能：AI 定價結構如何決定真相的分配.md",
+    "docs/TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配.md",
+    "未命名.md",
+    "build/zh-HK/assets/js/main.155c3cf9.js.LICENSE.txt",
+    "build/zh-HK/assets/js/runtime~main.330bbe19.js",
+    "build/zh-HK/assets/js/fde830e6.a5dec345.js",
+    "build/zh-HK/assets/js/main.155c3cf9.js",
+    "build/zh-HK/assets/js/f951b102.700b3112.js",
+    "build/zh-HK/assets/js/fc012f4b.60dbb299.js",
+    "build/zh-HK/assets/js/faaf5cc3.65ad8148.js",
+    "build/zh-HK/assets/js/f6c62eef.202bc0fb.js",
+    "build/zh-HK/assets/js/f7dec7ed.9a61537f.js",
+    "build/zh-HK/assets/js/f4c8a0f6.4ed909ba.js",
+    "build/zh-HK/img/cover-hk.jpg",
+    "build/zh-HK/img/book_cover_invisible_path.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 110153-0c6aaf9e1987b46a3d3961ea9fb3db9e.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 103509-434b050ca8bcfb26de0eba5820f6577a.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 103721-c00d20948ef79cdf086b0418cbb0df22.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102918-d317ff09c84739eb126ce5b5e8ac43d8.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 101959-5ace7c86702531940d843a2726fec891.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102452-b9156309c5699038c91aad7ec8bf89e2.jpg",
+    "build/zh-HK/assets/images/production_line_flow-1b35b06d8b5c270a8354a07b93a44284.jpg",
+    "build/zh-HK/assets/images/preview-620658c6689afd315b860f27b3b759de.webp",
+    "about-en.md",
+    "about-zh.md",
+    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起.md",
     "i18n/en/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起.md",
     "i18n/en/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起_part3.md",
     "i18n/en/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起_part2.md",
     "i18n/en/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起_part1.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起.md",
     "docs/資本遊戲玩什麼（實例檔案：遊戲業）/資本遊戲玩什麼（實例檔案：遊戲業）.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰說遊戲做不起.md",
     "docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.md",
     "bdd_guidelines.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/環境如何令人變蠢——認知與判斷（後記）.md",
@@ -240,10 +273,6 @@
     "docs/TechNotes/效率陷阱續章：你以為你贏了.md",
     "docs/TechNotes/效率陷阱・續章：你以為你贏了.md",
     "docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.md",
-    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/效率陷阱・續章：你以為你贏了.md",
-    "docs/TechNotes/20260413_CLAW.md",
-    "docs/TechNotes/滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕.md",
-    "docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.md",
-    "docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.md"
+    "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/效率陷阱・續章：你以為你贏了.md"
   ]
 }

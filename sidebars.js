@@ -115,11 +115,12 @@ module.exports = {
       items: [
         {
           type: 'category',
-          label: '記憶體三部曲',
+          label: '記憶體四部曲',
           items: [
             'TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝',
             'TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單',
             'TechNotes/我問了 AI「記憶體股還能不能買」',
+            'TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配',
           ],
         },
         {

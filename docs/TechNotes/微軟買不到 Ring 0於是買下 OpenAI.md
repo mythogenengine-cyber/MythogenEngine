@@ -4,7 +4,7 @@ date: 2026-08-10
 lang: zh-Hant
 section: ai-archive
 topic: platform-monopoly
-tags:
+article_tags:
   zh:
     - 平台壟斷
     - 生態系戰爭

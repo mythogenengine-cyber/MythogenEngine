@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="zh-HK" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-TechNotes/微軟買不到 Ring 0於是買下 OpenAI" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">微軟買唔到 Ring 0，於是買低 OpenAI——出資型依賴，與一種需要每年續期嘅護城河 | Mythogen Engine</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mythogenengine.com/zh-HK/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI"><meta data-rh="true" property="og:locale" content="zh_HK"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh-HK"><meta data-rh="true" name="docsearch:language" content="zh-HK"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="微軟買唔到 Ring 0，於是買低 OpenAI——出資型依賴，與一種需要每年續期嘅護城河 | Mythogen Engine"><meta data-rh="true" name="description" content="微軟買唔到 Ring 0，於是改用出資製造依賴——而成個 AI 產業，都喺用同一種需要續期嘅護城河。"><meta data-rh="true" property="og:description" content="微軟買唔到 Ring 0，於是改用出資製造依賴——而成個 AI 產業，都喺用同一種需要續期嘅護城河。"><meta data-rh="true" name="keywords" content="Ring 0,TPM 2.0,出資型依賴,循環融資,dilution gain,開放權重,Kimi K3,機密運算"><link data-rh="true" rel="icon" href="/zh-HK/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mythogenengine.com/zh-HK/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI"><link data-rh="true" rel="alternate" href="https://mythogenengine.com/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://mythogenengine.com/en/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" hreflang="en"><link data-rh="true" rel="alternate" href="https://mythogenengine.com/zh-HK/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" hreflang="zh-HK"><link data-rh="true" rel="alternate" href="https://mythogenengine.com/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" hreflang="x-default"><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C089DF9NW5"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-C089DF9NW5",{anonymize_ip:!0})</script><link rel="stylesheet" href="/zh-HK/assets/css/styles.d11d804e.css">
+<script src="/zh-HK/assets/js/runtime~main.7ec154d9.js" defer="defer"></script>
+<script src="/zh-HK/assets/js/main.9a7e66ae.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳至主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳至主要内容</a></div><nav aria-label="主導航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切換導覽列" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/zh-HK/"><b class="navbar__title text--truncate">Mythogen Engine</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/ai-war/guide">AI Archive</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/mirror-realm/prologue">Mirror Realm</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/GameVictory/INFO_PAGE">GameVictory</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/AI_TAO/INFO_PAGE">大道無形</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/TechNotes">清醒記錄</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/zh-HK/docs/capital-game">資本遊戲玩什麼</a><a class="navbar__item navbar__link" href="/zh-HK/docs/Diary">Diary</a><a class="navbar__item navbar__link" href="/zh-HK/about">關於作者</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>繁體中文 (香港)</a><ul class="dropdown__menu"><li><a href="/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文 (台灣)</a></li><li><a href="/en/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">English</a></li><li><a href="/zh-HK/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-HK">繁體中文 (香港)</a></li></ul></div><a href="https://matters.town/@mythogenengine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Matters"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><span class="mobile-icon-label">Matters</span></a><a href="https://portaly.cc/Mythogen" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Sponsor"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-secondary-container);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span class="mobile-icon-label">支持/Sponsor</span></a><a href="https://www.facebook.com/MythogenEngine" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-icon-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" style="fill: var(--color-on-surface);"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span class="mobile-icon-label">Facebook</span></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="切換淺色/深色模式（當前為深色模式）" aria-label="切換淺色/深色模式（當前為深色模式）" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到頂部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="文件側邊欄" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/zh-HK/docs/AI_TAO/INFO_PAGE">大道無形</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/zh-HK/docs/ai-war/guide">AI Ecosystem War</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/zh-HK/docs/mirror-realm/prologue">Mirror Realm</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/zh-HK/docs/GameVictory/INFO_PAGE">GameVictory</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/zh-HK/docs/capital-game">資本遊戲玩什麼（實例檔案：遊戲業）</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/capital-game">資本遊戲玩什麼</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/why-games-cant-be-made">誰說遊戲做不起</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/zh-HK/docs/TechNotes">清醒記錄</a><button aria-label="收起側邊欄分類 &#x27;清醒記錄&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/zh-HK/docs/TechNotes/HBM 不是下一個台 積電：記憶體與邏輯晶片的結構性鴻溝">記憶體四部曲</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性">效率陷阱與認知侵蝕五部曲</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/zh-HK/docs/TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除">平台消音五部曲</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes">清醒記錄</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/NvidaAllInPodcast">黃仁勳說「文科生贏了」？你被標題騙了。</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施">FABLE 不只是智力提升，AI 正在把專家直覺變成基礎設施</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/殺死創新的標準作業程序">殺死創新的標準作業程序</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/20260409AIJobWave">不是轉型，是收縮：AI 就業潮的另一種讀法</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/CLAW">當大家還在學怎樣『養龍蝦』，模型公司正在學怎樣『不需要龍蝦』。</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/AI 模型不是變笨了，是不再為你而設計">AI 模型不是變笨了，是不再為你而設計</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單">900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕">滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？">當 AI 產生質變，為什麼大家還在討論量？</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西">探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/zh-HK/docs/TechNotes/微軟買不到 Ring 0於是買下 OpenAI">微軟買唔到 Ring 0於是買低 OpenAI</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起">AI 協作寫作的真正難度——從一本小說和一本科技史說起</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/AI 時代的新物種：為什麼現在很多公司想找的，已經不是「工程師」？">AI 時代嘅新物種：點解依家好多公司想搵嘅，已經唔係「工程師」？</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/Google 也不再為你而設計：當免費模型變成企業雲端的入口">Google 也不再為你而設計：當免費模型變成企業雲端的入口</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝">HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/chatgpt-images2-vs-nanoBanana2">我用 Google 自己的 prompt 測試 ChatGPT Images 2.0——結果，漂亮到你想逐項核實</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】">Buzzword 通脹：AI 時代的過度設計經濟學</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/人寫還是AI寫，其實是個假問題">人寫還是AI寫，其實是個假問題</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/半個鐘頭的生產線">半個鐘頭的生產線——當內容農場不需要敵人就能打贏一場信息戰</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/我問了 AI「記憶體股還能不能買」">我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/效率陷阱續章・續章：你以為你贏了">效率陷阱・續章：你以為你贏了</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除">機器點樣幫手執行一場已經發生咗嘅刪除</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/環境如何令人變蠢——認知與判斷（後記）">環境如何令人變蠢——認知與判斷（後記）</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場">異常報告裡的讀者——當真話與垃圾走同一條通道入場</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/異常報告裡的讀者・後記——我以為門關了">異常 報告裡的讀者・後記——我以為門關了</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/當「教育」變成一門不可能翻車的生意">當「教育」變成一門不可能翻車的生意</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/當所有人都在學AI">效率陷阱：當所有人都在學壓縮，誰在創造新需求？</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配">真話是付費功能：AI 定價結構如何決定真相的分配</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性">認知與判斷——AI 時代人類最後的不可取代性</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版">「識」和「做到」，從來都不是同一件事</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏">遊戲致勝：微軟與世嘉的跨國糾纏</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/zh-HK/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本">零違規，每篇二十四個曝光——一個帳號的分發帳本</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/zh-HK/docs/Diary">Diary</a><button aria-label="展開側邊欄分類 &#x27;Diary&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="頁面路徑"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主頁面" class="breadcrumbs__link" href="/zh-HK/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/zh-HK/docs/TechNotes"><span itemprop="name">清醒記錄</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">微軟買唔到 Ring 0於是買低 OpenAI</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">📄 本篇文章段落 (全書目錄請點左上角)</button></div><div class="theme-doc-markdown markdown"><header><h1>微軟買唔到 Ring 0，於是買低 OpenAI</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="出資型依賴與一種需要每年續期嘅護城河">出資型依賴，與一種需要每年續期嘅護城河<a href="#出資型依賴與一種需要每年續期嘅護城河" class="hash-link" aria-label="出資型依賴，與一種需要每年續期嘅護城河的直接連結" title="出資型依賴，與一種需要每年續期嘅護城河的直接連結">​</a></h2>
+<blockquote>
+<p><a href="https://mythogenengine.com/docs/ai-war/guide" target="_blank" rel="noopener noreferrer">《AI 戰爭》</a>延伸篇．<a href="https://mythogenengine.com/docs/AI_TAO/ch06" target="_blank" rel="noopener noreferrer">《大道無形》第六章</a>續論</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><strong>本文三個判斷</strong></p>
+<p>一、微軟喺 AI 世界起唔到 Ring 0，於是改用出資製造依賴——一種技術上可以換、資金上唔可以斷嘅新型鎖定。</p>
+<p>二、當一個對手方同時出現喺收入、應收帳款、股權同投資損益四個位置，改變嘅唔係風險係數，係公司嘅性質。</p>
+<p>三、呢個唔係微軟一家嘅處境。成個產業都喺用同一種需要續期嘅護城河，而且到期日係同一日——而開放權重每行前一步，就將嗰個日子撥前少少。</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="一六個禮拜兩個價錢">一、六個禮拜，兩個價錢<a href="#一六個禮拜兩個價錢" class="hash-link" aria-label="一、六個禮拜，兩個價錢的直接連結" title="一、六個禮拜，兩個價錢的直接連結">​</a></h2>
+<p>2026 年 7 月 6 日，微軟收報 386.74 美元。六月二十五日錄得 34.91% 嘅最大回撤，係「七巨頭」入面表現最差嘅一隻。市場嘅判斷當時好清楚：資本開支失控、AI 變現太慢、Copilot 嗰個付費故事撐唔起呢個倍數。</p>
+<p>三個星期之後，一份季度財報，三個交易日，股價升咗大約 25%，市值增加約 7,500 億美元。全年跌幅，一次抹平。</p>
+<p>七千五百億係咩概念？ 台積電 2026 年全年嘅資本支出預算係 600 至 640 億美元。即係話，微軟三日之內增加嘅市值，約等於台積電十二年嘅起廠買設備錢。</p>
+<p>同一盤生意，同一批資產，同一個管理層。中間冇新產品，冇新市場，冇任何技術突破。改變嘅淨係一件事：市場肯為同一個故事畀幾多錢。</p>
+<p>大部分評論停喺呢度，然後開始爭論嗰個數字係貴定平。</p>
+<p>但真正值得問嘅唔係價格。係——<strong>點解呢盤生意嘅價格，可以喺六個禮拜入面差三成？</strong></p>
+<p>答案唔喺估值模型入面。喺結構入面。</p>
+<p>而呢個結構，最後唔只係微軟嘅問題。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二ring-0-係時間嘅產物唔係策略嘅產物">二、Ring 0 係時間嘅產物，唔係策略嘅產物<a href="#二ring-0-係時間嘅產物唔係策略嘅產物" class="hash-link" aria-label="二、Ring 0 係時間嘅產物，唔係策略嘅產物的直接連結" title="二、Ring 0 係時間嘅產物，唔係策略嘅產物的直接連結">​</a></h2>
+<p>《大道無形》第六章講過一件事：Windows 真正嘅護城河，從來唔係佢好用。</p>
+<p>係世界上有大量嘢，離唔開佢。</p>
+<p>Win32 應用程式、硬體驅動、企業內部系統、EDR 資安工具、工控軟體、CAD、遊戲。呢啲嘢冇一樣係微軟寫嘅。佢哋係四十年間，由幾十萬家公司、幾百萬名工程師，一行一行寫入一套特定嘅系統呼叫慣例入面嘅。</p>
+<p>每一行都係其他人畀嘅成本。每一行最後都變成微軟嘅資產。</p>
+<p>嗰一章嘅結論係：Ring 3 可以翻譯，Ring 0 翻譯唔到。</p>
+<p>我而家想將呢句說話推到更遠嘅地方——</p>
+<p><strong>Ring 0 唔可以被建造，只可以被等待。</strong></p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/ChatGPT Image 2026年8月10日 下午03_55_17-42da2e22381a080887ce38d3450682da.png" width="1672" height="941" class="img_ev3q"></p>
+<p>佢唔係策略部門開會決定嘅嘢。佢係時間嘅沉澱物。你唔可以喺 2026 年宣布「我哋要建立一個 Ring 0」，就好似你唔可以宣布「我哋要有四十年歷史」。</p>
+<p>呢個係微軟今日真正嘅困境。而市場完全冇喺度討論佢。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="三ai-世界嘅結構性事實每一層都可以換">三、AI 世界嘅結構性事實：每一層都可以換<a href="#三ai-世界嘅結構性事實每一層都可以換" class="hash-link" aria-label="三、AI 世界嘅結構性事實：每一層都可以換的直接連結" title="三、AI 世界嘅結構性事實：每一層都可以換的直接連結">​</a></h2>
+<p>將 AI 嘅堆疊攤開嚟睇：</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Model</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ↓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Agent / Harness</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ↓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Tool / MCP</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ↓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">API</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ↓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Data</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ↓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Cloud</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="複製程式碼至剪貼簿" title="複製" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>每一層都係可以換嘅。模型可以換，框架可以換，雲可以換，甚至可以成個落沉到本地推論。</p>
+<p>呢度冇 Win32。冇四十年嘅相容性包袱。冇一個「換走就會整壞一萬樣嘢」嘅地基。</p>
+<p>而最有力嘅證據，嚟自微軟自己。</p>
+<p>2026 財年第四季法說會上，UBS 分析師 Karl Keirstead 直接問到開源同閉源之爭。Nadella 嘅回答分兩句：</p>
+<blockquote>
+<p>「目標係令每一間公司掌握自己嘅命運。」</p>
+<p>「我哋對平台嘅架構設計非常、非常清楚——你必須將 harness 同模型分開……呢個代表任何模型喺任何時間點都係可以換嘅。」</p>
+</blockquote>
+<p>佢嘅用意好明確：勸企業唔好將 agent 層交畀模型供應商，唔好畀單一模型綁死。而微軟啱啱兩樣都賣——成條 Copilot 產品線係 harness，MAI 系列係模型。</p>
+<p>呢句說話喺媒體上被寫成「微軟嘅多模型策略」，被當成靈活、開放、唔押注單一供應商嘅表現。</p>
+<p>但如果你用第六章嘅框架去讀，佢係一份供詞。</p>
+<p><strong>佢承認咗：喺呢個新世界入面，微軟手上冇任何一層係不可替代嘅。</strong></p>
+<p>Windows 年代，微軟從來唔使講呢種說話。</p>
+<p>冇人會喺 1998  年話「Win32 喺任何時間點都係可以換嘅」。因為嗰個係假嘅，而且全世界都知道嗰個係假嘅。</p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/ChatGPT Image 2026年8月10日 下午03_55_23-d3e84cf24efb0dbe82d28d22b5120a97.png" width="1672" height="941" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="四嗰粒晶片微軟最後一次號令天下">四、嗰粒晶片：微軟最後一次號令天下<a href="#四嗰粒晶片微軟最後一次號令天下" class="hash-link" aria-label="四、嗰粒晶片：微軟最後一次號令天下的直接連結" title="四、嗰粒晶片：微軟最後一次號令天下的直接連結">​</a></h2>
+<p>要睇清楚微軟今日失去咗啲咩，最好嘅方法唔係睇佢而家做緊咩，係睇佢上一次做咗咩。</p>
+<p>2021 年 6 月 24 日，微軟公布 Windows 11 嘅系統需求，入面有一行：主機板必須具備 TPM 2.0。</p>
+<p>一粒獨立嘅硬體安全晶片，平時零售價大約二十美元。</p>
+<p>然後全世界照做。</p>
+<p>Intel 照做。AMD 照做。所有 OEM 照做。所有企業 IT 部門將換機預算提前。</p>
+<p>而喺消費端，效果更直接：發表會之後十二個鐘頭內，eBay 上一款 TPM 2.0 擴充模組嘅價格由 24.90 美元跳到 99.90 美元；Newegg 同 Amazon 嘅主要型號全面缺貨；有賣家將要價開到 175 美元。一塊比拇指大唔咗幾多、上一年仲喺賣八蚊九毫九嘅板仔。</p>
+<p>代價微軟唔係唔知：幾百萬部功能完好嘅機器一夜之間變成「唔受支援」，電子垃圾爭議、用戶反彈、Windows 11 初期市佔率爬唔上去。</p>
+<p><strong>佢照樣付得起。因為佢有能力強制。</strong></p>
+<p>呢件事嘅技術意義，比大部分人理解嘅更深。TPM 唔係防盜版工具——微軟自己嘅文件將佢定位成安全基礎元件，實際用途係 BitLocker 金鑰保護、Windows Hello、Credential Guard、裝置證明。</p>
+<p>佢真正做嘅嘢係：<strong>將信任根由作業系統，搬落去矽入面。</strong></p>
+<p>Ring 0 之下仲有一層。微軟去佔咗。</p>
+<p>而佢能夠佔，係因為喺 PC 呢個世界入面，微軟講一句說話，供應鏈就要轉向。</p>
+<p>嗰個唔係產品力。嗰個係<strong>協定權力</strong>。</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="而五年之後同一件事變成咗噉">而五年之後，同一件事變成咗噉<a href="#而五年之後同一件事變成咗噉" class="hash-link" aria-label="而五年之後，同一件事變成咗噉的直接連結" title="而五年之後，同一件事變成咗噉的直接連結">​</a></h3>
+<p>2026 年 7 月，微軟宣布一個叫「KMS Hardware-Secured」嘅機制：企業嘅 KMS 啟用主機，必須通過 TPM 認證先可以發放授權。</p>
+<p>網上即刻傳成「微軟要用 TPM 一次過終結所有盜版 Windows」。</p>
+<p>三日之內被更正得乾乾淨淨。</p>
+<p>實情係：呢件事淨係影響企業機房入面嗰一台 KMS 主機。Windows Server 2025 由 2026 年 8 月開始跳準備提示，強制執行要等下一個 Server LTSC 版本，日期未定，虛擬主機嘅規則甚至仲未公布。而破解圈最常用嘅 HWID 同 TSforge 根本唔經過 KMS 主機；Online KMS 係自己架一台假伺服器答「可以」，連一個 TPM 檢查都掂唔到。零售金鑰、數位授權，全部照舊。</p>
+<p>即係話：<strong>現有嘅破解方法，一個都冇受影響。</strong></p>
+<p>將呢兩件事擺埋一齊睇，嗰個對比幾乎有啲殘忍。</p>
+<p>同一粒晶片。2021 年，微軟用佢喺十二個鐘頭內改寫咗全球 PC 供應鏈嘅規格。2026 年，微軟用佢加固咗機房角落入面嘅一台伺服器，仲要被誤傳成核彈，然後花三日澄清自己其實冇咁勁。</p>
+<p><strong>協定權力就係噉消失嘅。唔係被打敗。係慢慢冇咗可以落令嘅對象。</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="五核心命題買唔到嘅依賴就出資 製造">五、核心命題：買唔到嘅依賴，就出資製造<a href="#五核心命題買唔到嘅依賴就出資製造" class="hash-link" aria-label="五、核心命題：買唔到嘅依賴，就出資製造的直接連結" title="五、核心命題：買唔到嘅依賴，就出資製造的直接連結">​</a></h2>
+<p>如果依賴唔可以靠時間沉澱，亦唔可以再靠一紙規格強制，而生意又必須建立喺依賴之上——</p>
+<p>咁仲剩低咩辦法？</p>
+<p><strong>出資。</strong></p>
+<p>呢個就係我認為今日成件事嘅結構核心。</p>
+<p>傳統護城河嘅定義係：<strong>客戶離唔開你，因為換走嘅成本太高。</strong></p>
+<p>微軟而家建立嘅係另一種嘢：<strong>客戶離唔開你，因為你係佢嘅資金來源之一。</strong></p>
+<p>睇清楚呢個結構：</p>
+<ul>
+<li>微軟持有 OpenAI 大約 27%（財年報告以全面轉換基礎揭露約 25%），累計投資承諾 130 億美元</li>
+<li>OpenAI 承諾採購 2,500 億美元嘅 Azure 服務</li>
+<li>OpenAI 嘅收入按比例分潤畀微軟，至 2030 年，設有總額上限</li>
+<li>2025 年 11 月，微軟投資 Anthropic 最多 50 億美元；Anthropic 承諾採購 300 億美元 Azure 服務；同一筆交易入面，NVIDIA 投資 Anthropic 最多 100 億</li>
+<li>而微軟喺應用層，同時同呢兩家正面競爭</li>
+</ul>
+<p>喺同一組關係入面，微軟同時係：<strong>股東、房東、分潤方、競爭對手。</strong></p>
+<p>四個身分，一個對手方。</p>
+<p>我將呢個結構叫做——<strong>出資型依賴。</strong></p>
+<p>佢嘅特徵係：<strong>技術上完全可以換，資金上唔可以斷。</strong></p>
+<p>OpenAI 聽日可以宣布將主要負載搬去 AWS。技術上做得到，合約上都早就允許咗——首次拒絕權喺 2025 年嘅重組入面已經取消。</p>
+<p>但佢唔可以宣布唔使嗰 130 億。唔可以宣布唔履行嗰 2,500 億嘅採購承諾。亦唔可以宣布自己嘅估值唔再需要一個持股四分之一嘅  美股巨頭，喺財報入面替佢背書。</p>
+<p><strong>呢個係一種新嘅鎖定。佢唔鎖技術，鎖現金流。</strong></p>
+<p>TPM 嗰條路係向下鑽，鑽入矽入面。呢條路係向旁邊生，生入對手嘅資產負債表。</p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/Gemini_Generated_Image_ir70jkir70jkir70-82a76814873d2dcb0cf3fb62dd7fee99.png" width="2752" height="1536" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="六結構後果一個對手方佔據財報四個位置">六、結構後果：一個對手方，佔據財報四個位置<a href="#六結構後果一個對手方佔據財報四個位置" class="hash-link" aria-label="六、結構後果：一個對手方，佔據財報四個位置的直接連結" title="六、結構後果：一個對手方，佔據財報四個位置的直接連結">​</a></h2>
+<p>出資型依賴會產生一個好特別嘅財務形狀。</p>
+<p>喺微軟 2026 財年嘅揭露入面，OpenAI 呢一個交易對手，同時出現喺四個位置：</p>
+<table><thead><tr><th>財報位置</th><th>內容</th></tr></thead><tbody><tr><td>收入</td><td>2026 財年由與 OpenAI 嘅商業安排取得 241 億美元（含分潤）</td></tr><tr><td>應收帳款</td><td>2026 年 6 月 30 日止，仲有 60 億美元未收</td></tr><tr><td>股權投資</td><td>以全面轉換基礎約 25%；投資承諾 130 億，已撥付 119 億</td></tr><tr><td>其他收入淨額</td><td>持股稀釋收益與估值變動</td></tr></tbody></table>
+<p>前三項係微軟 10-K 首度依 ASC 850 關係人揭露規定寫出嘅原文數字。第四項散見於各季報表。</p>
+<p>241 億相當於微軟 2026 財年總營收 3,318 億嘅大約 7.3%。而佢喺 AI 業務入面嘅佔比，微軟冇揭露——彭博根據微軟自報嘅年化 370 至 400 億 AI 營收推估，OpenAI 佔其中一半以上，可能接近七成。<strong>呢個七成係推估，唔係揭露，行文時必須分清楚。</strong></p>
+<p>外界對呢組數字嘅標  準反應係三個字：<strong>集中度風險。</strong></p>
+<p>意思係「如果 OpenAI 出事，微軟會好麻煩」。呢個係風控語言——將佢當成一個機率、一個尾部事件、一個要喺模型入面加嘅折價因子。</p>
+<p>我認為呢個讀法錯咗。</p>
+<p>因為佢假設微軟仍然係一間軟體公司，只不過碰啱有一個特別大嘅客戶。</p>
+<p>但當一間公司嘅 AI 收入有一半以上——好可能接近七成——嚟自一個<strong>佢自己出錢、自己持股、自己為其估值背書、同時又向佢收租</strong>嘅對手方嘅時候——</p>
+<p>改變嘅唔係佢嘅風險係數。</p>
+<p><strong>改變嘅係佢嘅性質。</strong></p>
+<p>佢已經唔係一間將軟體賣畀市場嘅公司。佢係一間<strong>同時擔任房東、股東與莊家</strong>嘅資產運營商。而市場仍然喺用軟體公司嘅邏輯替佢定價。</p>
+<p>呢一句係成篇文章嘅重心。下面所有數字，只係用嚟證明佢。</p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/Gemini_Generated_Image_kqhfygkqhfygkqhf-d795cd7298fe9e8aa07a5ea09446ad4f.png" width="2752" height="1536" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="七證據層盈利嘅來源正在由營運轉向估值">七、證據層：盈利嘅來源，正在由營運轉向估值<a href="#七證據層盈利嘅來源正在由營運轉向估值" class="hash-link" aria-label="七、證據層：盈利嘅來源，正在由營運轉向估值的直接連結" title="七、證據層：盈利嘅來源，正在由營運轉向估值的直接連結">​</a></h2>
+<p>先講清楚：以下嘅機制全部合規，全部有揭露，冇一項係造假。</p>
+<p>問題唔喺合法性。喺性質。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="稀釋收益被溝淡反而入帳賺錢">稀釋收益：被溝淡，反而入帳賺錢<a href="#稀釋收益被溝淡反而入帳賺錢" class="hash-link" aria-label="稀釋收益：被溝淡，反而入帳  賺錢的直接連結" title="稀釋收益：被溝淡，反而入帳賺錢的直接連結">​</a></h3>
+<p>2025 年 10 月，OpenAI 完成資本重組，轉為公益公司（PBC）。微軟持股由 32.5% 降到大約 27%。</p>
+<p>但因為估值上升嘅幅度，遠大於持股比例下降嘅幅度，會計上產生一筆<strong>稀釋收益（dilution gain）</strong>，計入「其他收入淨額」。</p>
+<p>被溝淡咗，反而賺咗一筆。</p>
+<p>微軟採用權益法，以假設清算帳面價值法（HLBV）認列。重組之後，帳面損益唔再反映 OpenAI 嘅經營結果，而係反映<strong>微軟應佔淨資產份額嘅變動</strong>——每一次融資、每一次估值調整，都會直接入微軟嘅損益表。</p>
+<p>於是 2026 財年出現噉嘅一組數字：</p>
+<table><thead><tr><th>季度</th><th style="text-align:right">OpenAI 投資損益</th></tr></thead><tbody><tr><td>Q1</td><td style="text-align:right">−31 億美元</td></tr><tr><td>Q2</td><td style="text-align:right">+76 億美元</td></tr><tr><td>Q3</td><td style="text-align:right">−0.14 億美元</td></tr><tr><td>Q4</td><td style="text-align:right">+4.8 億美元</td></tr><tr><td><strong>全年</strong></td><td style="text-align:right"><strong>+49.63 億（EPS +0.67 美元）</strong></td></tr></tbody></table>
+<p>對照 2025 財年：全年 −36.2 億，EPS −0.49 美元。</p>
+<p>一年之內，同一筆投資，由每股拖累五毫，變成每股貢獻六毫七。</p>
+<p>中間 OpenAI 並冇開始賺錢。</p>
+<p><strong>一句講晒：OpenAI 蝕錢唔再令微軟蝕錢；OpenAI 融資反而令微軟賺錢。</strong></p>
+<p>呢部引擎嘅燃料唔係產品。係一級市場肯畀嘅價。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="第二部引擎anthropic">第二部引擎：Anthropic<a href="#第二部引擎anthropic" class="hash-link" aria-label="第二部引擎：Anthropic的直接連結" title="第二部引擎：Anthropic的直接連結">​</a></h3>
+<p>2026 財年第四季，微軟認列 Anthropic 投資收益 32 億美元，約當稀釋每股盈餘 0.33 美元——佔當季 4.81 美元 EPS 嘅近 7%。</p>
+<p>換句話講，呢個被市場歡呼為「全面超標」嘅季度入面，有相當一部分唔係賣軟體賺返嚟嘅。</p>
+<p>係自己投資嘅公司，估值上升。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="呈現層嘅兩個小動作">呈現層嘅兩個小動作<a href="#呈現層嘅兩個小動作" class="hash-link" aria-label="呈現層嘅兩個小動作的直接連結" title="呈現層嘅兩個小動作的直接連結">​</a></h3>
+<p><strong>其一，資本開支嘅表外化。</strong> 2026 日曆年嘅資本開支指引由 1,900 億美元下修到大約 1,750 億——唔係少買咗嘢，係部分建築物嘅估計耐用年限被拉長，加上相當一部分未來租賃義務由融資租賃改列為營業租賃。後者同時影響資本開支同自由現金流兩個指標嘅解讀。</p>
+<p>數字細咗。機櫃一部都冇少。</p>
+<p><strong>其二，雙軌敘事。</strong> 微軟自己設計咗一套排除 OpenAI 影響嘅 non-GAAP 指標。蝕錢嘅季度請睇 non-GAAP，賺錢嘅季度 GAAP EPS 年增 32% 照樣見報。</p>
+<p>兩邊都講得。而且兩邊都係真嘅。</p>
+<p>呢啲加埋，指向同一個結論：<strong>微軟盈利嘅邊際來源，正在由營運轉向估值。</strong></p>
+<p>而估值，唔係微軟可以生產嘅嘢。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="八時間差收益前置成本後置">八、時間差：收益前置，成本後置<a href="#八時間差收益前置成本後置" class="hash-link" aria-label="八、時間差：收益前置，成本後置的直接連結" title="八、時間差：收益前置，成本後置的直接連結">​</a></h2>
+<p>先睇一組數字點樣被講出嚟，再睇佢點樣被改口。</p>
+<p><strong>四月。</strong> 微軟畀出 2026 日曆年嘅資本開支指引：1,900 億美元。市場預期只有大約 1,550 億。</p>
+<p>但同一場電話會議上，財務長 Amy Hood 講咗一句更值得記住嘅說話：呢 1,900 億入面，大約有 <strong>250 億係組件價格上漲</strong>——唔係買到更多算力，係同樣嘅嘢變貴咗。</p>
+<p>同一季嘅資本開支 319 億，其中大約三分之二投向 GPU 同 CPU 呢類<strong>短命資產</strong>。</p>
+<p><strong>七月。</strong> 同一個指引被改成大約 1,750 億。少咗 150 億——唔係少買咗嘢，係部分建築物嘅估計耐用年限被拉長，加上相當一部分未來租賃義務由融資租賃改列營業租賃。後者同時影響資本開支同自由現金流兩個指標嘅解讀。</p>
+<p>將三件事擺埋一齊：</p>
+<p><strong>一個大數字，其中一截根本唔係算力；然後嗰個數字又被會計處理改細。</strong></p>
+<p>而底下嗰批真正買返嚟嘅嘢，係壽命最短嗰種。</p>
+<p>呢度有一個所有人都知、但好少人擺入同一句說話入面嘅事實：</p>
+<p><strong>今日入帳嘅係收入同估值收益。今日買嘅 GPU，要到未來幾年先至會全額入損益表。</strong></p>
+<p>折舊嘅高峰仲未上台。拉長耐用年限，只係將嗰個高峰向後推，唔係取消佢。</p>
+<p>出資型依賴嘅成個結構，就建立喺呢個時間差上面。</p>
+<p>佢唔係騙局。佢係一場賭注——賭喺成本全面上台之前，真實嘅使用強度已經追上嚟。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="九對照組cuda-嘅黏性由下而上">九、對照組：CUDA 嘅黏性由下而上<a href="#九對照組cuda-嘅黏性由下而上" class="hash-link" aria-label="九、對照組：CUDA 嘅黏性由下而上的直接連結" title="九、對照組：CUDA 嘅黏性由下而上的直接連結">​</a></h2>
+<p>第六章曾經將微軟同 NVIDIA 並列，話兩家都係「用多年其他人付出嘅成本，將自己擺喺中間」。</p>
+<p>但兩者嘅方向係相反嘅。</p>
+<p><strong>NVIDIA：</strong> 硬體 → CUDA → 開發者 → AI。黏性由下而上生出嚟，用咗差唔多二十年。歷史沉澱型。</p>
+<p><strong>微軟：</strong> M365 → Copilot → Agent → Azure，再加一條橫向嘅資本線，將模型公司綁入嚟。黏性由上而下鋪出去，用咗三年。出資構築型。</p>
+<p>最關鍵嘅差別唔喺深淺。</p>
+<p><strong>喺於：歷史沉澱型嘅護城河唔使續期。出資構築型嘅要。</strong></p>
+<p>Win32 唔使微軟每年花錢維持。佢就喺度，因為佢已經喺度。</p>
+<p>但 2,500 億嘅採購承諾，需要對手方有能力履約。帳面收益需要下一輪估值繼續向上。資金型鎖定需要資金持續流動。</p>
+<p><strong>呢個唔係一道護城河。呢個係一份需要每年重新簽嘅租約。</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十我可能錯喺邊度gpu-上嘅信任根">十、我可能錯喺邊度：GPU 上嘅信任根<a href="#十我可能錯喺邊度gpu-上嘅信任根" class="hash-link" aria-label="十、我可能錯喺邊度：GPU 上嘅信任根的直接連結" title="十、我可能錯喺邊度：GPU 上嘅信任根的直接連結">​</a></h2>
+<p>寫到呢度，我必須將自己呢套論證入面最脆弱嘅地方指出嚟。否則佢就只係一個立場，唔係一個分析。</p>
+<p>我話 AI 世界冇 Ring 0，因為每一層都可以換。</p>
+<p>但有一個地方，可能生得出嚟。</p>
+<p><strong>機密運算（confidential computing），以及 GPU 級嘅執行證明（attested inference）。</strong></p>
+<p>邏輯係噉嘅：企業最終唔會肯將最敏感嘅資料，交畀一個證明唔到自己狀態嘅執行環境。佢哋會要求——呢段推論喺邊粒晶片上面跑、跑嘅係唔係我指定嗰個模型、有冇被竄改、記憶體有冇被第三方讀取——全部要有一條可驗證嘅信任鏈，而且呢條鏈嘅起點必須喺硬體。</p>
+<p>如果呢個要求變成企業採購嘅硬條件，咁 AI 世界就會突然生出一個「唔可以被軟體模擬」嘅層。</p>
+<p>而「唔可以被軟體模擬」，正正就係 TPM 當年成立嘅全部理由。</p>
+<p>睇到嗰個對稱未？</p>
+<p><strong>微軟上一次成功建立信任根，係喺 PC。佢下一次嘗試建立信任根，會喺 GPU。</strong></p>
+<p>如果佢喺呢條線上面做到不可繞過——如果企業 AI 嘅執行證明鏈，最後必須經過 Azure 嘅機密運算環境同 Entra 嘅身分層——咁佢就唔係用資本買依賴。</p>
+<p>佢係真正重新起咗一個 Ring 0。</p>
+<p>到嗰陣，呢篇文章嘅結論要改。</p>
+<p>我目前嘅判斷係：呢條路存在，但佢面對嘅唔係四十年嘅歷史包袱，而係三家雲、兩家晶片商、以及一堆仲喺制定中嘅開放標準。同一個證明鏈，AWS 同 Google 都喺做，NVIDIA 自己都喺做。<strong>能夠被三家同時提供嘅嘢，好難成為邊個嘅 Ring 0。</strong></p>
+<p>但呢個係我最願意被推翻嘅一段。邊個想反駁呢篇文章，應該由呢度入嚟，唔好由股價入嚟。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十一微軟唔係特例係樣本">十一、微軟唔係特例，係樣本<a href="#十一微軟唔係特例係樣本" class="hash-link" aria-label="十一、微軟唔係特例，係樣本的直接連結" title="十一、微軟唔係特例，係樣本的直接連結">​</a></h2>
+<p>到呢度為止，呢篇文章睇落好似喺講一間公司。</p>
+<p>唔係。</p>
+<p>出資型依賴唔係微軟嘅發明，亦唔係微軟嘅專利。佢係 2025 至 2026 呢一輪 AI 建設嘅<strong>預設結構</strong>。</p>
+<p>將 OpenAI 一家對外嘅名義承諾攤開（各家統計口徑唔一，以下為媒體整理嘅常見版本）：</p>
+<table><thead><tr><th>對象</th><th style="text-align:right">名義承諾規模</th></tr></thead><tbody><tr><td>Broadcom</td><td style="text-align:right">3,500 億美元</td></tr><tr><td>Oracle</td><td style="text-align:right">3,000 億美元</td></tr><tr><td>Microsoft</td><td style="text-align:right">2,500 億美元</td></tr><tr><td>NVIDIA</td><td style="text-align:right">上  限 1,000 億美元</td></tr><tr><td>AMD</td><td style="text-align:right">900 億美元</td></tr><tr><td>CoreWeave</td><td style="text-align:right">220 億美元</td></tr></tbody></table>
+<p>七家供應商，2025 至 2035 年，合計大約 1.15 兆美元。而 2026 年嘅多份第三方估算，將成個產業「循環融資」嘅規模放喺 8,000 億美元以上。</p>
+<p>呢啲唔係普通嘅採購合約。佢哋嘅共同形狀係：<strong>賣算力嘅人，出錢畀買算力嘅人，去買自己嘅算力。</strong></p>
+<ul>
+<li>NVIDIA 投資 OpenAI、Anthropic、Mistral，以及 CoreWeave 呢類新雲業者，然後呢啲公司調返轉頭買 NVIDIA 嘅晶片；NVIDIA 自己都向新雲業者租算力</li>
+<li>Amazon 投入 OpenAI 同 Anthropic 合計超過 830 億，兩家承諾回買 AWS 算力嘅規模更大</li>
+<li>微軟投 Anthropic 最多 50 億，Anthropic 承諾買 300 億 Azure；同一筆交易入面 NVIDIA 再投最多 100 億</li>
+<li>2026 年 7 月，多家媒體報導 NVIDIA 正在評估為 OpenAI 嘅俄亥俄資料中心提供大約 2,500 億美元擔保，另外再融資 3,500 億嘅晶片採購（截至 2026 年 8 月，呢單嘢仲未定案）。消息當日，NVIDIA 自己嘅股價跌咗 4.5%——市場好清楚呢個代表啲咩</li>
+</ul>
+<p>想像一張圓枱。每個人都喺替隔籬嗰個人畀帳，然後將同一筆錢，記入自己嘅營業額。</p>
+<p>微軟只係呢張枱上面，帳單攤得最開嘅嗰一位。佢每季要向 SEC 交代，所以睇得到。其他人唔使按季拆畀你睇，唔代表結構唔同。</p>
+<p><strong>呢個先至係呢篇文章真正嘅規模。</strong></p>
+<p>於是有三件事，值得放大嚟睇。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-入場費嘅性質變咗">① 入場費嘅性質變咗<a href="#-入場費嘅性質變咗" class="hash-link" aria-label="① 入場費嘅性質變咗的直接連結" title="① 入場費嘅性質變咗的直接連結">​</a></h3>
+<p>當算力靠股權交易分配，而唔係靠採購分配，決定邊個可以競爭嘅就唔再係「你買唔買得起」，而係「你值唔值得被投資」。</p>
+<p>模型層收斂到三四家，唔係因為技術護城河築起咗，係因為<strong>只有三四家喺循環入面</strong>。</p>
+<p>中間嗰一層唔係因為做得差而死。係因為企喺圈外面而死。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-風險由創投搬入咗指數">② 風險由創投搬入咗指數<a href="#-風險由創投搬入咗指數" class="hash-link" aria-label="② 風險由創投搬入咗指數的直接連結" title="② 風險由創投搬入咗指數的直接連結">​</a></h3>
+<p>呢個係我認為最大嘅一項，而且被討論得最少。</p>
+<p>2000 年嗰次，泡沫嘅風險喺 dot-com 股票上面——你要主動去買，先至會持有。</p>
+<p>2026 年呢次，一批<strong>私人公司</strong>嘅估值變動，直接寫喺全球最大幾間上市公司嘅損益表入面。</p>
+<p>冇人揀過持有 OpenAI 嘅估值波動。但每一個買咗指數基金嘅退休帳戶，都已經持有咗。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-分散嘅係名冊唔係風險">③ 分散嘅係名冊，唔係風險<a href="#-分散嘅係名冊唔係風險" class="hash-link" aria-label="③ 分散嘅係名冊，唔係風險的直接連結" title="③ 分散嘅係名冊，唔係風險的直接連結">​</a></h3>
+<p>微軟、Amazon、Google、NVIDIA 各自都可以話自己嘅投資組合分散。</p>
+<p>但攤開嚟睇，係同一組對手方，出現喺多張資產負債表上面。</p>
+<p>佢唔會逐間出事。佢會同時出事。</p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/Gemini_Generated_Image_r6128qr6128qr612-4a494659873448351d9037ef0bc57b1c.png" width="2752" height="1536" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十二但係結構崩潰唔等於技術失敗">十二、但係：結構崩潰唔等於技術失敗<a href="#十二但係結構崩潰唔等於技術失敗" class="hash-link" aria-label="十二、但係：結構崩潰唔等於技術失敗的直接連結" title="十二、但係：結構崩潰唔等於技術失敗的直接連結">​</a></h2>
+<p>如果只寫到上面嗰一節，呢篇文章就會變成又一篇「AI 泡沫論」。咁我寧願唔寫。</p>
+<p>所以要將反面講清楚。</p>
+<p><strong>需求係真嘅。</strong> NVIDIA 2027 財年第一季營收 816 億美元，年增 85%。台積電將 2026 年資本支出由 520–560 億上調到 600–640 億，理由係包括代理式 AI 在內嘅結構性需求。應用層絕大多數公司係正常嘅 SaaS 生意，有真實付費客戶，同循環融資完全冇關。</p>
+<p><strong>而且 vendor financing 起過真嘢。</strong></p>
+<p>1990 年代嘅電訊業就係同一個劇本：設備商放貸畀營運商去鋪光纖，需求唔似預期嗰陣，高槓桿嘅營運商斬支出、部分破產，產能閒置多年，產業重整。</p>
+<p>但嗰段歷史真正嘅結論，唔係「泡沫爆咗」。</p>
+<p>係——<strong>嗰啲光纖後來全部用上咗。只不過股東換咗人。</strong></p>
+<p>鐵路都係。運河都係。</p>
+<p><strong>結構崩潰唔等於技術失敗。呢個分辨，比睇空睇多重要一百倍。</strong></p>
+<p>而佢同時說明咗：判斷呢件事嘅正確問題，從來唔係「AI 得唔得」，係「<strong>呢一輪嘅成本，最後由邊個承擔</strong>」。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十三循環之外嘅嗰一手開放權重">十三、循環之外嘅嗰一手：開放權重<a href="#十三循環之外嘅嗰一手開放權重" class="hash-link" aria-label="十三、循環之外嘅嗰一手：開放權重的直接連結" title="十三、循環之外嘅嗰一手：開放權重的直接連結">​</a></h2>
+<p>如果成套結構需要估值持續上升先至可以運轉，咁最值得盯嘅變數，就係<strong>企喺循環外面嘅嘢</strong>。</p>
+<p>目前只有一樣：開放權重生態。</p>
+<p>佢唔使融資  輪嚟定價，唔使採購承諾嚟背書，亦唔使任何人嘅資產負債表替佢擔保。</p>
+<p>佢嘅存在意味住——<strong>成套結構嘅定價，隨時可以被一個效率數字改寫。</strong></p>
+<p>2025 年 1 月已經示範過一次。</p>
+<p>DeepSeek 喺 1 月 20 日公開 R1，宣稱訓練成本大約 560 萬美元。市場隨即重新計算「達到同一水準需要幾多算力」呢件事。1 月 27 日，NVIDIA 單日跌大約 17%，收報 118.58 美元，市值蒸發 5,890 億——美股史上單一公司單日最大市值損失，前一個紀錄係 NVIDIA 自己喺 2024 年 9 月創落嘅 2,790 億。同日 Broadcom 跌 17%，台積電跌 13%。</p>
+<p>嗰日冇任何一份財報出問題。改變嘅只係一個關於成本嘅假設。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="而-2026-年-7-月佢示範咗第二次">而 2026 年 7 月，佢示範咗第二次<a href="#而-2026-年-7-月佢示範咗第二次" class="hash-link" aria-label="而 2026 年 7 月，佢示範咗第二次的直接連結" title="而 2026 年 7 月，佢示範咗第二次的直接連結">​</a></h3>
+<p>七月十六日，中國新創月之暗面喺上海嘅世界人工智慧大會發表 Kimi K3。十一日之後，二點八兆參數嘅完整權重上咗 HuggingFace——九十六個權重分片、技術報告、授權條款，一次到齊。同一週，DeepSeek 都發布咗 V4 穩定版。</p>
+<p>規格上，K3 係混合專家架構，每個 token 只啟動總參數嘅一小部分，上下文一百萬 token。獨立評測將佢放喺頂尖閉源模型後面少少嘅位置：整體仍然落後於 Claude Fable 5 同 GPT-5.6，但喺程式同代理任務上贏過上一代嘅旗艦閉源模型。</p>
+<p>市場嘅反應同十八個月前同一個形狀：發表後兩個星期內，費城半導體指數跌幅達兩成，相對高點進入技術性熊市。</p>
+<p><strong>兩次，十八個月。呢個就唔再係異常，係機制。</strong></p>
+<p>而且 K3 呢次比 DeepSeek 嗰次更貼近本文 嘅命題。</p>
+<p>DeepSeek 動搖嘅係一個關於<strong>成本</strong>嘅假設——訓練一個前沿模型要花幾多錢。嗰個係一個關於過去嘅宣稱，可以爭論，可以質疑，可以話「佢哋用咗其他人嘅模型蒸餾」。</p>
+<p>K3 動搖嘅係一件更硬嘅事：<strong>模型可以被搬走。</strong></p>
+<p>權重瞓喺 HuggingFace 上面，任何有足夠硬體嘅企業都可以下載、檢查、微調、自行部署。呢件事冇辦法爭論，因為檔案就喺嗰度。</p>
+<p>於是企業對閉源供應商嘅嗰句說話，由——</p>
+<p>「我哋冇其他選擇。」</p>
+<p>變成——</p>
+<p>「你如果加價，我就將同一個等級嘅嘢搬去其他地方跑。」</p>
+<p><strong>改變嘅唔係價格。係議價權。</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="但開源呢兩個字會呃人">但「開源」呢兩個字會呃人<a href="#但開源呢兩個字會呃人" class="hash-link" aria-label="但「開源」呢兩個字會呃人的直接連結" title="但「開源」呢兩個字會呃人的直接連結">​</a></h3>
+<p>要將說話講完整，否則呢一節就變成幫開源吹哨。</p>
+<p><strong>權重免費，但你要有地方擺。</strong> K3 喺四位元精度下，淨係權重就需要大約 1.4TB 嘅高速記憶體；Moonshot 自己建議最少六十四張加速器起跳。開放權重降低嘅係供應商依賴，唔係基礎設施成本。能夠真正自建嘅，仍然只有大企業同雲端業者——而雲端業者，啱啱就係呢篇文章入面嗰幾家。</p>
+<p><strong>而且採用摩擦係真嘅。</strong> 獨立測試對 K3 嘅幻覺率提出過相當唔客氣嘅數字；今年四月 Kimi 發生過一次跨用戶資料隔離失誤；而中國《國家情報法》第七條嘅義務，唔會因為推論跑喺邊一台伺服器上面而消失。呢啲唔係政治修辭，係企業法遵部門會真係擋落嚟嘅嘢。</p>
+<p>所以短期內，開放前沿模型唔會取代閉源。</p>
+<p>但呢個唔影響結 論——因為**壓縮定價權，唔使取代任何人。**只要令「仲有其他選擇」呢句說話變成真嘅就得。</p>
+<p>所以嗰條開源路線唔只係競爭手段。佢喺結構上，反向站位於一套<strong>必須靠估值不斷向上先至可以維持嘅體系</strong>。</p>
+<p>一樣唔使被投資嘅嘢，係呢套體系唯一收編唔到嘅嘢。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十四k3-之後微軟嘅雙面暴露">十四、K3 之後：微軟嘅雙面暴露<a href="#十四k3-之後微軟嘅雙面暴露" class="hash-link" aria-label="十四、K3 之後：微軟嘅雙面暴露的直接連結" title="十四、K3 之後：微軟嘅雙面暴露的直接連結">​</a></h2>
+<p>寫到呢度，必須將呢篇文章嘅主角，擺入啱啱嗰個新變數入面再測一次。</p>
+<p>因為開放前沿模型對微軟嘅影響，係兩邊相反嘅。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="產品層佢證實咗微軟係啱嘅">產品層：佢證實咗微軟係啱嘅<a href="#產品層佢證實咗微軟係啱嘅" class="hash-link" aria-label="產品層：佢證實咗微軟係啱嘅的直接連結" title="產品層：佢證實咗微軟係啱嘅的直接連結">​</a></h3>
+<p>返去第三節嗰句供詞。</p>
+<p>Nadella 話「任何模型喺任何時間點都係可以換嘅」，勸企業將 harness 同模型分開、唔好畀單一模型商綁死。當時聽落好似一個賣 harness 嘅人喺度推銷 harness。</p>
+<p>三個禮拜之後，一個能力接近頂尖、權重完全公開嘅模型出現咗。</p>
+<p><strong>佢講啱咗。而且佢早就將間公司押喺呢句說話上面。</strong></p>
+<p>Foundry 上一萬幾個模型、自研 MAI 系列、多模型路由——呢套佈局喺一個模型商品化嘅世界入面，係順風局。K3 放出權重嗰個禮拜，一封支持開放權重嘅政策公開信上面，署名者入面就有微軟。</p>
+<p>微軟好清楚自己企喺邊一邊。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="財務層同一件事直接威脅佢">財務層：同一件事，直接威脅佢<a href="#財務層同一件事直接威脅佢" class="hash-link" aria-label="財務層：同一件事，直接威脅佢的直接連結" title="財務層：同一件事，直接威脅佢的直接連結">​</a></h3>
+<p>但第七節嗰兩部引擎，需要嘅係相反嘅嘢。</p>
+<p>稀釋收益要靠 OpenAI 下一輪估值更高。Anthropic 嗰筆三十二億要靠 Anthropic 估值繼續上升。而開放前沿模型壓縮嘅，正正就係閉源模型嘅定價權——定價權一鬆，估值就難再向上疊。</p>
+<p>更直接嘅係嗰 2,500 億採購承諾同 241 億收入：佢哋嘅可回收性，取決於 OpenAI 能唔能夠持續以更高估值融到錢。</p>
+<p><strong>同一件事，令微軟嘅產品部門鬆一口氣，令微軟嘅財務部門瞓唔著。</strong></p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/Gemini_Generated_Image_l9dfbdl9dfbdl9df-c5721cbe00fcd8543ba46b6a697950c5.png" width="2752" height="1536" class="img_ev3q"></p>
+<p>呢個就係出資型依賴最尷尬嘅地方。當你嘅護城河係「我出錢畀你」，咁<strong>任何削弱對方定價權嘅嘢，都會調返轉頭削弱你自己嘅帳面盈利</strong>——即使你嘅產品策略完全正確。</p>
+<p>歷史沉澱型嘅護城河唔會有呢個問題。Win32 從來唔使在意邊個嘅估值。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="而呢個令第十節嗰條路更加重要">而呢個令第十節嗰條路更加重要<a href="#而呢個令第十節嗰條路更加重要" class="hash-link" aria-label="而呢個令第十節嗰條路更加重要的直接連結" title="而呢個令第十節嗰條路更加重要的直接連結">​</a></h3>
+<p>如果模型層真係走向商品化，咁微軟能夠重新建立不可替代性嘅地方，就更加淨係剩低機密運算同執行證明嗰一條。</p>
+<p>模型免費，權重公開，推論可以喺任何地方跑——咁仲有啲咩係「唔可以被軟體模擬」嘅？</p>
+<p>淨返一件事：<strong>證明佢跑喺邊度。</strong></p>
+<p>我喺第十節話嗰條路好難行，因為三家雲都喺做。我而家要補一句：<strong>佢同時亦係唯一剩低嘅路。</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十五五條生死線">十五、五條生死線<a href="#十五五條生死線" class="hash-link" aria-label="十五、五條生死線的直接連結" title="十五、五條生死線的直接連結">​</a></h2>
+<p>如果上面嘅結構判斷成立，咁要觀察嘅就唔係「幾時崩」，而係「呢個結構幾時失去續期能力」。</p>
+<p><strong>公司層面三條：</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-續期能力">① 續期能力<a href="#-續期能力" class="hash-link" aria-label="① 續期能力的直接連結" title="① 續期能力的直接連結">​</a></h3>
+<p>OpenAI 同 Anthropic 嘅下一輪融資估值。持平或者下修，帳面收益引擎立刻歸零——2026 財年第三季只認列 1,400 萬美元，已經示範過一次。</p>
+<p>同時睇 OpenAI 嘅上市進程：截至 2026 年 8 月，機密送件已於 6 月完成，但傾向推遲到 2027，管理層堅持唔接受低過一兆美元嘅估值。</p>
+<p><strong>推遲本身就係訊號：一級市場已經到咗頂唔上去嘅位置。</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-性質檢驗">② 性質檢驗<a href="#-性質檢驗" class="hash-link" aria-label="② 性質檢驗的直接連結" title="② 性質檢驗的直接連結">​</a></h3>
+<p>每一季「其他收入淨額」佔 EPS 增幅嘅比重。呢個比例向上走，代表盈利嘅邊際來源越來越依賴估值而非營運。</p>
+<p>最直接嘅性質指標，而且每季都對得到。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-成本上台">③ 成本上台<a href="#-成本上台" class="hash-link" aria-label="③ 成本上台的直接連結" title="③ 成本上台的直接連結">​</a></h3>
+<p>折  舊佔收入嘅比重、Microsoft Cloud 毛利率、以及自由現金流增速同 Azure 增速之間嘅缺口。三條同時轉向，時間差就用完。</p>
+<p><strong>產業層面兩條：</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-第一個下修輪">④ 第一個下修輪<a href="#-第一個下修輪" class="hash-link" aria-label="④ 第一個下修輪的直接連結" title="④ 第一個下修輪的直接連結">​</a></h3>
+<p>唔係崩盤，係任何一家主要模型公司以持平或者更低估值完成融資。嗰一刻開始，所有持股方嘅帳面收益引擎同步失效。</p>
+<p>而 K3 補上咗一條原本唔喺呢條線上面嘅路徑：**估值壓力唔一定嚟自融資市場冷卻，亦可以直接嚟自技術面。**開放前沿模型每行前一步，閉源模型嘅定價權就窄一分，而定價權係估值嘅地基。要盯嘅因此唔只係下一輪融資，仲有開放權重同閉源之間嘅能力差距——嗰個差距收窄嘅速度，就係呢條生死線推進嘅速度。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-債嘅嗰一端">⑤ 債嘅嗰一端<a href="#-債嘅嗰一端" class="hash-link" aria-label="⑤ 債嘅嗰一端的直接連結" title="⑤ 債嘅嗰一端的直接連結">​</a></h3>
+<p>盯放貸嘅人，唔好盯簽約嘅人。基礎設施供應商嘅負債水位同信用利差，比任何一份合約公告都早畀訊號。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="十六結論唔係玩完係續期">十六、結論：唔係玩完，係續期<a href="#十六結論唔係玩完係續期" class="hash-link" aria-label="十六、結論：唔係玩完，係續期的直接連結" title="十六、結論：唔係玩完，係續期的直接連結">​</a></h2>
+<p>我唔認為微軟呢盤生意會做唔落去。Azure 年收入突破一千億、M365、資安、開發工具，呢啲係真實嘅收入同真實嘅客戶。</p>
+<p>我亦唔打算加入「泡沫要爆喇」嘅合唱。嗰個立場喺 2026 年上半年已經錯過兩次，而且佢有一個致命缺陷：**佢冇失效條件。**永遠可以話「仲未到」。</p>
+<p>我想留低嘅係另一句判斷。</p>
+<p>微軟喺 AI 時代面對嘅，唔係「能唔能夠賺錢」嘅問題。佢已經喺度賺緊。</p>
+<p>佢面對嘅係一次<strong>護城河型態嘅降級</strong>：</p>
+<p>由「其他人離唔開我，因為歷史將佢哋鎖喺呢度」——</p>
+<p>到「其他人離唔開我，因為我可以規定佢哋要裝咩晶片」——</p>
+<p>再到「其他人離唔開我，因為我仲喺度出緊錢」。</p>
+<p>三十年，三個階段。每一個階段嘅鎖定強度，都比上一個弱。</p>
+<p>而呢一次，佢唔係一間公司嘅處境。<strong>成個產業都喺用同一種需要續期嘅護城河，而且到期日係同一日。</strong></p>
+<p>至於嗰個日子幾時到——七月嗰兩個禮拜已經畀過提示。當一個接近頂尖嘅模型可以被任何人下載，續期嘅利率就唔再只由出錢嘅人決定。</p>
+<p>第六章寫過一句說話：Win32 唔使消失，佢只需要由業主變成租客。</p>
+<p>今日輪到微軟自己。</p>
+<p>佢冇失去 Windows。冇失去 Azure。冇失去任何嘢。</p>
+<p><strong>佢只不過需要每一年，重新將自己嘅不可替代性，再買返嚟一次。</strong></p>
+<p>而續期嘅利率，唔喺 Redmond 決定。</p>
+<p>喺一級市場決定。</p>
+<p><img decoding="async" loading="lazy" src="/zh-HK/assets/images/Gemini_Generated_Image_hgguywhgguywhggu-89aba96419a8aedb19a3afb6e793eec8.png" width="2752" height="1536" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="資料來源與說明">資料來源與說明<a href="#資料來源與說明" class="hash-link" aria-label="資料來源與說明的直接連結" title="資料來源與說明的直接連結">​</a></h2>
+<p><strong>微軟財務數據</strong>：2026 財年第四季財報新聞稿與 8-K（2026 年 7 月 29 日）、2026 財年 10-K、截至 2026 年 3 月 31 日之 10-Q，以及法 說會逐字紀錄。</p>
+<p><strong>TPM 與 KMS Hardware-Secured</strong>：微軟支援文件、Windows IT Pro Blog 公告，以及 2021 年 6 月 Tom&#x27;s Hardware、Windows Central、PCWorld 對 TPM 模組價格與缺貨嘅報導。</p>
+<p><strong>產業數據</strong>：OpenAI 對外承諾規模與「循環融資」總額，均為第三方媒體與研究機構嘅整理與估算，各家統計口徑唔一，非官方揭露，本文取常見版本並已喺文中標明。NVIDIA 對 OpenAI 俄亥俄專案嘅擔保與晶片融資，截至本文完成時仍屬「報導指出正在評估」，尚未成為已簽定案。</p>
+<p><strong>資本開支相關</strong>：1,900 億美元嘅 2026 日曆年指引、其中約 250 億歸因於組件價格上漲、當季 319 億中約三分之二投向短命資產，取自 2026 年 4 月底微軟 FY26 第三季法說會同多家科技財經媒體嘅同步報導；下修至約 1,750 億與相關會計處理，取自 7 月底嘅第四季財報與年報。</p>
+<p><strong>開放權重相關</strong>：Kimi K3 嘅發表日期、權重釋出日期、架構規格與評測位置，取自 Moonshot 官方發布、HuggingFace 頁面同多家獨立技術評測；每 token 活躍參數量各家推算唔一，本文因此只作定性描述。費城半導體指數嘅兩週跌幅取自財經媒體報導。關於蒸餾同晶片出口管制嘅指控，均為指控，被點名方未承認，本文唔予採信亦唔予複述細節。</p>
+<p><strong>關於原創性嘅說明</strong>：稀釋收益機制、循環交易結構、折舊與租賃處理、循環融資嘅系統性風險，英文同中文財經社群均已有大量論述；電訊光纖嘅類比亦已被多家媒體使用。本文唔主張呢啲機制嘅發現權。</p>
+<p>本文自認嘅原創部分在於：協定權力嘅消退（第四節）、「出資型依賴」呢個命名同定義（第五節）、財報四個位置代表性質改變而非風險上升（第六節）、GPU 信任根嘅自我反駁（第十節），以及開放權  重作為結構性對沖（第十三節）。</p>
+<p>歡迎由第十節反駁。</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件選項卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/zh-HK/docs/TechNotes/探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西"><div class="pagination-nav__sublabel">上一頁</div><div class="pagination-nav__label">探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/zh-HK/docs/TechNotes/AI 協作寫作的真正難度——從一本小說和一本科技史說起"><div class="pagination-nav__sublabel">下一頁</div><div class="pagination-nav__label">AI 協作寫作的真正難度——從一本小說和一本科技史說起</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#出資型依賴與一種需要每年續期嘅護城河" class="table-of-contents__link toc-highlight">出資型依賴，與一種需要每年續期嘅護城河</a></li><li><a href="#一六個禮拜兩個價錢" class="table-of-contents__link toc-highlight">一、六個禮拜，兩個價錢</a></li><li><a href="#二ring-0-係時間嘅產物唔係策略嘅產物" class="table-of-contents__link toc-highlight">二、Ring 0 係時間嘅產物，唔係策略嘅產物</a></li><li><a href="#三ai-世界嘅結構性事實每一層都可以換" class="table-of-contents__link toc-highlight">三、AI 世界嘅結構性事實：每一層都可以換</a></li><li><a href="#四嗰粒晶片微軟最後一次號令天下" class="table-of-contents__link toc-highlight">四、嗰粒晶片：微軟最後一次號令天下</a><ul><li><a href="#而五年之後同一件事變成咗噉" class="table-of-contents__link toc-highlight">而五年之後，同一件事變成咗噉</a></li></ul></li><li><a href="#五核心命題買唔到嘅依賴就出資製造" class="table-of-contents__link toc-highlight">五、核心命題：買唔到嘅依賴，就出資製造</a></li><li><a href="#六結構後果一個對手方佔據財報四個位置" class="table-of-contents__link toc-highlight">六、結構後果：一個對手方，佔據財報四個位置</a></li><li><a href="#七證據層盈利嘅來源正在由營運轉向估值" class="table-of-contents__link toc-highlight">七、證據層：盈利嘅來源，正在由營運轉向估值</a><ul><li><a href="#稀釋收益被溝淡反而入帳賺錢" class="table-of-contents__link toc-highlight">稀釋收益：被溝淡，反而入帳賺錢</a></li><li><a href="#第二部引擎anthropic" class="table-of-contents__link toc-highlight">第二部引擎：Anthropic</a></li><li><a href="#呈現層嘅兩個小動作" class="table-of-contents__link toc-highlight">呈現層嘅兩個小動作</a></li></ul></li><li><a href="#八時間差收益前置成本後置" class="table-of-contents__link toc-highlight">八、時間差：收益前置，成本後置</a></li><li><a href="#九對照組cuda-嘅黏性由下而上" class="table-of-contents__link toc-highlight">九、對照組：CUDA 嘅黏性由下而上</a></li><li><a href="#十我可能錯喺邊度gpu-上嘅信任根" class="table-of-contents__link toc-highlight">十、我可能錯喺邊度：GPU 上嘅信任根</a></li><li><a href="#十一微軟唔係特例係樣本" class="table-of-contents__link toc-highlight">十一、微軟唔係特例，係樣本</a><ul><li><a href="#-入場費嘅性質變咗" class="table-of-contents__link toc-highlight">① 入場費嘅性質變咗</a></li><li><a href="#-風險由創投搬入咗指數" class="table-of-contents__link toc-highlight">② 風險由創投搬入咗指數</a></li><li><a href="#-分散嘅係名冊唔係風險" class="table-of-contents__link toc-highlight">③ 分散嘅係名冊，唔係風險</a></li></ul></li><li><a href="#十二但係結構崩潰唔等於技術失敗" class="table-of-contents__link toc-highlight">十二、但係：結構崩潰唔等於技術失敗</a></li><li><a href="#十三循環之外嘅嗰一手開放權重" class="table-of-contents__link toc-highlight">十三、循環之外嘅嗰一手：開放權重</a><ul><li><a href="#而-2026-年-7-月佢示範咗第二次" class="table-of-contents__link toc-highlight">而 2026 年 7 月，佢示範咗第二次</a></li><li><a href="#但開源呢兩個字會呃人" class="table-of-contents__link toc-highlight">但「開源」呢兩個字會呃人</a></li></ul></li><li><a href="#十四k3-之後微軟嘅雙面暴露" class="table-of-contents__link toc-highlight">十四、K3 之後：微軟嘅雙面暴露</a><ul><li><a href="#產品層佢證實咗微軟係啱嘅" class="table-of-contents__link toc-highlight">產品層：佢證實咗微軟係啱嘅</a></li><li><a href="#財務層同一件事直接威脅佢" class="table-of-contents__link toc-highlight">財務層：同一件事，直接威脅佢</a></li><li><a href="#而呢個令第十節嗰條路更加重要" class="table-of-contents__link toc-highlight">而呢個令第十節嗰條路更加重要</a></li></ul></li><li><a href="#十五五條生死線" class="table-of-contents__link toc-highlight">十五、五條生死線</a><ul><li><a href="#-續期能力" class="table-of-contents__link toc-highlight">① 續期能力</a></li><li><a href="#-性質檢驗" class="table-of-contents__link toc-highlight">② 性質檢驗</a></li><li><a href="#-成本上台" class="table-of-contents__link toc-highlight">③ 成本上台</a></li><li><a href="#-第一個下修輪" class="table-of-contents__link toc-highlight">④ 第一個下修輪</a></li><li><a href="#-債嘅嗰一端" class="table-of-contents__link toc-highlight">⑤ 債嘅嗰一端</a></li></ul></li><li><a href="#十六結論唔係玩完係續期" class="table-of-contents__link toc-highlight">十六、結論：唔係玩完，係續期</a></li><li><a href="#資料來源與說明" class="table-of-contents__link toc-highlight">資料來源與說明</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Mythogen Engine. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

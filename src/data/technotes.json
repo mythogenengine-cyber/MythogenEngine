@@ -38,6 +38,129 @@
       "series": null
     },
     {
+      "id": "01-批准之後沒有人看見",
+      "slug": "/docs/TechNotes/01-%E6%89%B9%E5%87%86%E4%B9%8B%E5%BE%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E7%9C%8B%E8%A6%8B",
+      "title": "批准之後，沒有人看見——一項專利如何讓消音不留下證據",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "平台壟斷",
+          "演算法治理",
+          "內容審查",
+          "資訊不對稱",
+          "焦慮套利"
+        ],
+        "en": [
+          "platform-monopoly",
+          "algorithmic-governance",
+          "content-moderation",
+          "information-asymmetry",
+          "anxiety-arbitrage"
+        ]
+      },
+      "keywords": [
+        "專利 10356024",
+        "降權",
+        "內容分發指引",
+        "DSA 第17條",
+        "製造共識"
+      ],
+      "summary": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
+      "status": "final",
+      "reading_time": 19,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "02-最不像AI的文章反而是AI寫的",
+      "slug": "/docs/TechNotes/02-%E6%9C%80%E4%B8%8D%E5%83%8FAI%E7%9A%84%E6%96%87%E7%AB%A0%E5%8F%8D%E8%80%8C%E6%98%AFAI%E5%AF%AB%E7%9A%84",
+      "title": "最不像 AI 的文章，反而是 AI 寫的——一場認知盲區的即時實驗",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "認知偏誤",
+          "AI 偵測",
+          "逆向淘汰",
+          "演算法治理",
+          "資訊不對稱"
+        ],
+        "en": [
+          "cognitive-bias",
+          "ai-detection",
+          "reverse-selection",
+          "algorithmic-governance",
+          "information-asymmetry"
+        ]
+      },
+      "keywords": [
+        "零件清單與組裝圖",
+        "偵測器逆向淘汰",
+        "不是X而是Y",
+        "專利 10356024",
+        "正回饋迴圈"
+      ],
+      "summary": "偵測器建立在模仿者的失敗模式上，於是最像原版的受罰最重。",
+      "status": "draft",
+      "reading_time": 18,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 2,
+        "total": 3
+      }
+    },
+    {
+      "id": "03-一個讚一分一場罵戰三十分",
+      "slug": "/docs/TechNotes/03-%E4%B8%80%E5%80%8B%E8%AE%9A%E4%B8%80%E5%88%86%E4%B8%80%E5%A0%B4%E7%BD%B5%E6%88%B0%E4%B8%89%E5%8D%81%E5%88%86",
+      "title": "一個讚一分，一場罵戰三十分——論壇消失之後，複雜性沒有了位置",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "公共討論",
+          "演算法治理",
+          "香港網絡生態",
+          "兩極化",
+          "平台壟斷"
+        ],
+        "en": [
+          "public-discourse",
+          "algorithmic-governance",
+          "hong-kong-internet",
+          "polarization",
+          "platform-monopoly"
+        ]
+      },
+      "keywords": [
+        "MSI 計分",
+        "高登 連登",
+        "Uwants",
+        "溫和內容降權",
+        "容納複雜性的空間"
+      ],
+      "summary": "真正被消失的，未必是某一種立場，而是容納複雜性的空間。",
+      "status": "draft",
+      "reading_time": 22,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西",
       "slug": "/docs/TechNotes/%E6%8E%A2%E7%85%A7%E7%87%88%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%A4%9C%E8%A6%96%E9%8F%A1%E2%80%94%E2%80%94%E4%B8%80%E5%A0%B4%E8%A8%AA%E5%95%8F%E8%88%87%E4%B8%80%E7%AF%87%E6%95%B4%E7%90%86%E4%B9%8B%E9%96%93%EF%BC%8C%E8%A2%AB%E7%9C%81%E7%95%A5%E6%8E%89%E7%9A%84%E6%9D%B1%E8%A5%BF",
       "title": "探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西",
@@ -1269,6 +1392,129 @@
       "series": null
     },
     {
+      "id": "01-批准之後沒有人看見",
+      "slug": "/docs/TechNotes/01-%E6%89%B9%E5%87%86%E4%B9%8B%E5%BE%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E7%9C%8B%E8%A6%8B",
+      "title": "批准之後，沒有人看見——一項專利如何讓消音不留下證據",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "平台壟斷",
+          "演算法治理",
+          "內容審查",
+          "資訊不對稱",
+          "焦慮套利"
+        ],
+        "en": [
+          "platform-monopoly",
+          "algorithmic-governance",
+          "content-moderation",
+          "information-asymmetry",
+          "anxiety-arbitrage"
+        ]
+      },
+      "keywords": [
+        "專利 10356024",
+        "降權",
+        "內容分發指引",
+        "DSA 第17條",
+        "製造共識"
+      ],
+      "summary": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
+      "status": "final",
+      "reading_time": 19,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "02-最不像AI的文章反而是AI寫的",
+      "slug": "/docs/TechNotes/02-%E6%9C%80%E4%B8%8D%E5%83%8FAI%E7%9A%84%E6%96%87%E7%AB%A0%E5%8F%8D%E8%80%8C%E6%98%AFAI%E5%AF%AB%E7%9A%84",
+      "title": "最不像 AI 的文章，反而是 AI 寫的——一場認知盲區的即時實驗",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "認知偏誤",
+          "AI 偵測",
+          "逆向淘汰",
+          "演算法治理",
+          "資訊不對稱"
+        ],
+        "en": [
+          "cognitive-bias",
+          "ai-detection",
+          "reverse-selection",
+          "algorithmic-governance",
+          "information-asymmetry"
+        ]
+      },
+      "keywords": [
+        "零件清單與組裝圖",
+        "偵測器逆向淘汰",
+        "不是X而是Y",
+        "專利 10356024",
+        "正回饋迴圈"
+      ],
+      "summary": "偵測器建立在模仿者的失敗模式上，於是最像原版的受罰最重。",
+      "status": "draft",
+      "reading_time": 18,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 2,
+        "total": 3
+      }
+    },
+    {
+      "id": "03-一個讚一分一場罵戰三十分",
+      "slug": "/docs/TechNotes/03-%E4%B8%80%E5%80%8B%E8%AE%9A%E4%B8%80%E5%88%86%E4%B8%80%E5%A0%B4%E7%BD%B5%E6%88%B0%E4%B8%89%E5%8D%81%E5%88%86",
+      "title": "一個讚一分，一場罵戰三十分——論壇消失之後，複雜性沒有了位置",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "公共討論",
+          "演算法治理",
+          "香港網絡生態",
+          "兩極化",
+          "平台壟斷"
+        ],
+        "en": [
+          "public-discourse",
+          "algorithmic-governance",
+          "hong-kong-internet",
+          "polarization",
+          "platform-monopoly"
+        ]
+      },
+      "keywords": [
+        "MSI 計分",
+        "高登 連登",
+        "Uwants",
+        "溫和內容降權",
+        "容納複雜性的空間"
+      ],
+      "summary": "真正被消失的，未必是某一種立場，而是容納複雜性的空間。",
+      "status": "draft",
+      "reading_time": 22,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "衰減：可見度如何被分配",
+        "order": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西",
       "slug": "/docs/TechNotes/%E6%8E%A2%E7%85%A7%E7%87%88%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%A4%9C%E8%A6%96%E9%8F%A1%E2%80%94%E2%80%94%E4%B8%80%E5%A0%B4%E8%A8%AA%E5%95%8F%E8%88%87%E4%B8%80%E7%AF%87%E6%95%B4%E7%90%86%E4%B9%8B%E9%96%93%EF%BC%8C%E8%A2%AB%E7%9C%81%E7%95%A5%E6%8E%89%E7%9A%84%E6%9D%B1%E8%A5%BF",
       "title": "探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西",
@@ -2478,6 +2724,129 @@
       "reading_time": 22,
       "sidebar_position": 20260810,
       "series": null
+    },
+    {
+      "id": "01-批准之後沒有人看見",
+      "slug": "/docs/TechNotes/01-%E6%89%B9%E5%87%86%E4%B9%8B%E5%BE%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E7%9C%8B%E8%A6%8B",
+      "title": "Approved, Then Unseen — How a Patent Made Silencing Leave No Evidence",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "平台壟斷",
+          "演算法治理",
+          "內容審查",
+          "資訊不對稱",
+          "焦慮套利"
+        ],
+        "en": [
+          "platform-monopoly",
+          "algorithmic-governance",
+          "content-moderation",
+          "information-asymmetry",
+          "anxiety-arbitrage"
+        ]
+      },
+      "keywords": [
+        "Patent 10356024",
+        "demotion",
+        "content distribution guidelines",
+        "DSA Article 17",
+        "manufactured consensus"
+      ],
+      "summary": "Demotion is not a gentler version of censorship — it is attenuation designed to produce no evidence.",
+      "status": "final",
+      "reading_time": 19,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "Attenuation: How Visibility Is Allocated",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "02-最不像AI的文章反而是AI寫的",
+      "slug": "/docs/TechNotes/02-%E6%9C%80%E4%B8%8D%E5%83%8FAI%E7%9A%84%E6%96%87%E7%AB%A0%E5%8F%8D%E8%80%8C%E6%98%AFAI%E5%AF%AB%E7%9A%84",
+      "title": "The Least AI-Like Article Was Actually Written by AI — A Real-Time Experiment in Cognitive Blind Spots",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "認知偏誤",
+          "AI 偵測",
+          "逆向淘汰",
+          "演算法治理",
+          "資訊不對稱"
+        ],
+        "en": [
+          "cognitive-bias",
+          "ai-detection",
+          "reverse-selection",
+          "algorithmic-governance",
+          "information-asymmetry"
+        ]
+      },
+      "keywords": [
+        "parts list vs assembly diagram",
+        "detector reverse selection",
+        "not X but Y",
+        "Patent 10356024",
+        "positive feedback loop"
+      ],
+      "summary": "The detector is built on the failure modes of imitators — so the one who most resembles the original is punished most severely.",
+      "status": "draft",
+      "reading_time": 18,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "Attenuation: How Visibility Is Allocated",
+        "order": 2,
+        "total": 3
+      }
+    },
+    {
+      "id": "03-一個讚一分一場罵戰三十分",
+      "slug": "/docs/TechNotes/03-%E4%B8%80%E5%80%8B%E8%AE%9A%E4%B8%80%E5%88%86%E4%B8%80%E5%A0%B4%E7%BD%B5%E6%88%B0%E4%B8%89%E5%8D%81%E5%88%86",
+      "title": "One Like, One Point; One Flame War, Thirty Points — After the Forums Disappeared, Complexity Lost Its Place",
+      "date": "2026-08-06T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-silencing",
+      "tags": {
+        "zh": [
+          "公共討論",
+          "演算法治理",
+          "香港網絡生態",
+          "兩極化",
+          "平台壟斷"
+        ],
+        "en": [
+          "public-discourse",
+          "algorithmic-governance",
+          "hong-kong-internet",
+          "polarization",
+          "platform-monopoly"
+        ]
+      },
+      "keywords": [
+        "MSI scoring",
+        "HKGolden LIHKG",
+        "Uwants",
+        "moderate content demotion",
+        "space for complexity"
+      ],
+      "summary": "What truly disappeared was not any particular stance, but the space that could accommodate complexity.",
+      "status": "draft",
+      "reading_time": 22,
+      "series": {
+        "id": "attenuation-visibility",
+        "name": "Attenuation: How Visibility Is Allocated",
+        "order": 3,
+        "total": 3
+      }
     },
     {
       "id": "探照燈下面的夜視鏡——一場訪問與一篇整理之間，被省略掉的東西",

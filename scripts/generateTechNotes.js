@@ -37,6 +37,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
       let id = parsed.data.id || file.replace(/\.mdx?$/, '');
       if (!parsed.data.id) {
         id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
+        id = id.replace(/^\d+[-_]/, '');
       }
       const slug = parsed.data.slug || `/docs/TechNotes/${encodeURIComponent(id)}`;
       

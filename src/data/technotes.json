@@ -1,6 +1,43 @@
 {
   "zh-Hant": [
     {
+      "id": "沒有人選過的版本",
+      "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
+      "title": "沒有人選過的版本——當「去 AI 味」成為一門生意，判準還剩下什麼",
+      "date": "2026-08-30T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "ai-writing-authorship",
+      "tags": {
+        "zh": [
+          "AI 寫作",
+          "內容分發",
+          "平台機制",
+          "認知侵蝕",
+          "逆向淘汰"
+        ],
+        "en": [
+          "ai-writing",
+          "content-distribution",
+          "platform-mechanics",
+          "cognitive-erosion",
+          "reverse-selection"
+        ]
+      },
+      "keywords": [
+        "去 AI 味",
+        "歸屬",
+        "AI 偵測",
+        "演算法分發",
+        "迭代修正"
+      ],
+      "summary": "AI 味量錯了變數；真正的判準是歸屬，而歸屬在文本裡不留痕跡。",
+      "status": "draft",
+      "reading_time": 14,
+      "sidebar_position": 20260830,
+      "series": null
+    },
+    {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",
       "slug": "/docs/TechNotes/%E5%BE%AE%E8%BB%9F%E8%B2%B7%E4%B8%8D%E5%88%B0%20Ring%200%E6%96%BC%E6%98%AF%E8%B2%B7%E4%B8%8B%20OpenAI",
       "title": "微軟買不到 Ring 0，於是買下 OpenAI——出資型依賴，與一種需要每年續期的護城河",
@@ -1354,6 +1391,43 @@
   ],
   "zh-HK": [
     {
+      "id": "沒有人選過的版本",
+      "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
+      "title": "沒有人選過的版本——當「去 AI 味」成為一門生意，判準還剩下什麼",
+      "date": "2026-08-30T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-writing-authorship",
+      "tags": {
+        "zh": [
+          "AI 寫作",
+          "內容分發",
+          "平台機制",
+          "認知侵蝕",
+          "逆向淘汰"
+        ],
+        "en": [
+          "ai-writing",
+          "content-distribution",
+          "platform-mechanics",
+          "cognitive-erosion",
+          "reverse-selection"
+        ]
+      },
+      "keywords": [
+        "去 AI 味",
+        "歸屬",
+        "AI 偵測",
+        "演算法分發",
+        "迭代修正"
+      ],
+      "summary": "AI 味量錯了變數；真正的判準是歸屬，而歸屬在文本裡不留痕跡。",
+      "status": "draft",
+      "reading_time": 14,
+      "sidebar_position": 20260830,
+      "series": null
+    },
+    {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",
       "slug": "/docs/TechNotes/%E5%BE%AE%E8%BB%9F%E8%B2%B7%E4%B8%8D%E5%88%B0%20Ring%200%E6%96%BC%E6%98%AF%E8%B2%B7%E4%B8%8B%20OpenAI",
       "title": "微軟買唔到 Ring 0，於是買低 OpenAI——出資型依賴，與一種需要每年續期嘅護城河",
@@ -2687,6 +2761,43 @@
     }
   ],
   "en": [
+    {
+      "id": "沒有人選過的版本",
+      "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
+      "title": "The Unselected Version — When \"De-AI-ing\" Becomes an Industry, What Remains of Criterion?",
+      "date": "2026-08-30T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-writing-authorship",
+      "tags": {
+        "zh": [
+          "AI 寫作",
+          "內容分發",
+          "平台機制",
+          "認知侵蝕",
+          "逆向淘汰"
+        ],
+        "en": [
+          "ai-writing",
+          "content-distribution",
+          "platform-mechanics",
+          "cognitive-erosion",
+          "reverse-selection"
+        ]
+      },
+      "keywords": [
+        "De-AI-ing",
+        "Authorship",
+        "AI Detection",
+        "Algorithmic Distribution",
+        "Iterative Revision"
+      ],
+      "summary": "The concept of \"AI flavor\" measures the wrong variable; the true criterion is authorship, and authorship leaves no trace in the text.",
+      "status": "draft",
+      "reading_time": 14,
+      "sidebar_position": 20260830,
+      "series": null
+    },
     {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",
       "slug": "/docs/TechNotes/%E5%BE%AE%E8%BB%9F%E8%B2%B7%E4%B8%8D%E5%88%B0%20Ring%200%E6%96%BC%E6%98%AF%E8%B2%B7%E4%B8%8B%20OpenAI",

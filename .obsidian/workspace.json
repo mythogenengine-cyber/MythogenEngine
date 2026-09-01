@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3ebf188667019082",
+        "id": "ebd75925613b93c8",
         "type": "tabs",
         "children": [
           {
-            "id": "40fd3f0850e8be8f",
+            "id": "e47c4ed878f9248c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "六十四卦六十四頁-合併版.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "六十四卦六十四頁-合併版"
+              "title": "新分頁"
             }
           }
         ]
@@ -185,29 +181,40 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "40fd3f0850e8be8f",
+  "active": "e47c4ed878f9248c",
   "lastOpenFiles": [
-    "build/zh-HK/docs/tags/記憶體.html",
-    "build/zh-HK/docs/tags/散戶.html",
-    "build/zh-HK/docs/TechNotes/【Buzzword 通脹：AI 時代的過度設計經濟學】.html",
-    "build/zh-HK/docs/tags/資訊不對稱.html",
-    "build/zh-HK/docs/tags/敘事操控.html",
-    "build/zh-HK/docs/tags/媒體素養.html",
-    "build/zh-HK/docs/tags/定價結構.html",
-    "build/zh-HK/docs/tags/ai.html",
-    "build/zh-HK/docs/mirror-realm/prologue.html",
-    "build/zh-HK/docs/mirror-realm/epilogue.html",
-    "build/zh-HK/docs/mirror-realm/ch19.html",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_e13qg4e13qg4e13q (2)-1c1119892d89500167810eeae5da5e61.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_qy7qiqqy7qiqqy7q (1)-f74bddfb4ea0a73600bee6bb71574c26.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_qy7qiqqy7qiqqy7q-4c1d3b362abf02eb79ce8ad0820b02ca.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_hgguywhgguywhggu-89aba96419a8aedb19a3afb6e793eec8.png",
+    "build/zh-HK/docs/TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本.html",
+    "build/zh-HK/docs/TechNotes/錢不走，人也不走.html",
+    "build/zh-HK/docs/TechNotes/遊戲致勝_微軟與世嘉的跨國糾纏.html",
+    "build/zh-HK/docs/TechNotes/退出機制三部曲.html",
+    "build/zh-HK/docs/TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配.html",
+    "build/zh-HK/docs/TechNotes/超級Builder的結構性弱點_遊戲致勝推廣版.html",
+    "build/zh-HK/docs/TechNotes/認知與判斷——AI 時代人類最後的不可取代性.html",
+    "build/zh-HK/docs/TechNotes/當所有人都在學AI.html",
+    "build/zh-HK/docs/TechNotes/當「教育」變成一門不可能翻車的生意.html",
+    "build/zh-HK/docs/TechNotes/當 AI 產生質變，為什麼大家還在討論量？.html",
+    "build/zh-HK/docs/TechNotes/異常報告裡的讀者・後記——我以為門關了.html",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 103721-c00d20948ef79cdf086b0418cbb0df22.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 110153-0c6aaf9e1987b46a3d3961ea9fb3db9e.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102918-d317ff09c84739eb126ce5b5e8ac43d8.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 103509-434b050ca8bcfb26de0eba5820f6577a.jpg",
+    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102452-b9156309c5699038c91aad7ec8bf89e2.jpg",
     "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 101959-5ace7c86702531940d843a2726fec891.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_dvbyj9dvbyj9dvby-1e98b8bf6db1fdbe46b6f613219387e4.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_n53r8un53r8un53r-a17924a5685141525fc0a012446b7db5.jpg",
-    "build/zh-HK/assets/images/02 1-488bb7b4064a92497e79cd8ae9c7168e.jpg",
-    "build/zh-HK/assets/images/Gemini_Generated_Image_1xgcjw1xgcjw1xgc 1-5de6350d921a7747db99b1f229d1dca2.jpg",
-    "build/zh-HK/assets/images/ch06_zh-d7ba2efc4791304890a8842efd16abbe.jpg",
+    "build/zh-HK/assets/images/preview-620658c6689afd315b860f27b3b759de.webp",
+    "build/zh-HK/assets/images/production_line_flow-1b35b06d8b5c270a8354a07b93a44284.jpg",
+    "build/zh-HK/assets/images/preview (4)-0d43073027ff41d0cf226420fdce5e1c.webp",
+    "build/zh-HK/assets/images/preview (2)-ddf6ada5aa0aacc99dfb76db68d21862.webp",
+    "i18n/en/docusaurus-plugin-content-docs/current/Diary/七日書｜身心靈.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary/七日書｜身心靈.md",
+    "七日書｜身心靈.md",
+    "docs/Diary/七日書｜身心靈.md",
+    "docs/Diary/七日書｜傳奇一曲.md",
+    "docs/Diary/七日書_無用之用_道.md",
+    "docs/TechNotes/退出機制三部曲.md",
+    "docs/TechNotes/四個地方，沒有一個人拿到那筆便宜.md",
+    "docs/TechNotes/錢不走，人也不走.md",
+    "docs/TechNotes/你的定期存款，補貼了德國人買車.md",
+    "六十四卦六十四頁-合併版.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/錢不走，人也不走.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/四個地方，沒有一個人拿到那筆便宜.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/你的定期存款，補貼了德國人買車.md",
@@ -216,22 +223,11 @@
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/四個地方，沒有一個人拿到那筆便宜.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/你的定期存款，補貼了德國人買車.md",
     "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/退出機制三部曲.md",
-    "docs/TechNotes/錢不走，人也不走.md",
-    "docs/TechNotes/四個地方，沒有一個人拿到那筆便宜.md",
-    "docs/TechNotes/你的定期存款，補貼了德國人買車.md",
-    "docs/TechNotes/退出機制三部曲.md",
     "nobody-can-leave.md",
     "four-places-nobody-got-cheap.md",
     "subsidy-to-german-cars.md",
     "docs/TechNotes/沒有人選過的版本.md",
     "i18n/en/docusaurus-plugin-content-docs/current/TechNotes/沒有人選過的版本.md",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/沒有人選過的版本.md",
-    "六十四卦六十四頁-合併版.md",
-    "六十四卦-六十四頁.md",
-    "architecture.md",
-    "未命名 1.md",
-    "bdd_guidelines.md",
-    "未命名.md",
-    "批准之後沒有人看見.md"
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes/沒有人選過的版本.md"
   ]
 }

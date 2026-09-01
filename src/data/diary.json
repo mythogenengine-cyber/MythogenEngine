@@ -49,6 +49,38 @@
       "sidebar_position": 0
     },
     {
+      "id": "七日書｜身心靈",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",
+      "title": "七日書：身心靈",
+      "date": "2026-09-01T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "身心靈",
+          "成長紀錄"
+        ],
+        "en": [
+          "personal-essay",
+          "mind-body-spirit",
+          "personal-growth"
+        ]
+      },
+      "keywords": [
+        "七日書",
+        "身心靈",
+        "阿卡西圖書館",
+        "不必同情",
+        "結構分析",
+        "大道至簡"
+      ],
+      "summary": "七天的書寫，從「不必同情」的顧問歲月、看見銀河的農莊、阿卡西圖書館的空白支票，到一年的停頓與老花眼的對焦。一場穿透身心靈表象、直面內心混亂空間的自我剖白。",
+      "status": "published",
+      "reading_time": 25
+    },
+    {
       "id": "七日書｜傳奇一曲",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2",
       "title": "七日書：傳奇一曲",
@@ -282,6 +314,38 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "七日書｜身心靈",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",
+      "title": "七日書：身心靈",
+      "date": "2026-09-01T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "身心靈",
+          "成長紀錄"
+        ],
+        "en": [
+          "personal-essay",
+          "mind-body-spirit",
+          "personal-growth"
+        ]
+      },
+      "keywords": [
+        "七日書",
+        "身心靈",
+        "阿卡西圖書館",
+        "不必同情",
+        "結構分析",
+        "大道至簡"
+      ],
+      "summary": "七天的書寫，從「不必同情」的顧問歲月、看見銀河的農莊、阿卡西圖書館的空白支票，到一年的停頓與老花眼的對焦。一場穿透身心靈表象、直面內心混亂空間的自我剖白。",
+      "status": "published",
+      "reading_time": 25
+    },
     {
       "id": "七日書｜傳奇一曲",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2",
@@ -522,6 +586,38 @@
     }
   ],
   "en": [
+    {
+      "id": "七日書｜身心靈",
+      "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",
+      "title": "Seven-Day Book: Body, Mind, and Spirit",
+      "date": "2026-09-01T00:00:00.000Z",
+      "lang": "en",
+      "section": "freewrite",
+      "topic": "t-personal",
+      "tags": {
+        "zh": [
+          "個人隨筆",
+          "身心靈",
+          "成長紀錄"
+        ],
+        "en": [
+          "personal-essay",
+          "mind-body-spirit",
+          "personal-growth"
+        ]
+      },
+      "keywords": [
+        "Seven-Day Book",
+        "Mind Body Spirit",
+        "Akashic Records",
+        "No Sympathy",
+        "Structural Analysis",
+        "Simplicity and Nature"
+      ],
+      "summary": "Seven days of writing, from the 'no sympathy' years of corporate consulting, a farm under the Milky Way, a blank check from the Akashic Records, to a year of quiet standstill and the readjustment of presbyopic eyes. A candid introspection piercing the veneer of spirituality to confront an unorganized inner space.",
+      "status": "published",
+      "reading_time": 25
+    },
     {
       "id": "一場豪賭的正常與不正常",
       "slug": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",

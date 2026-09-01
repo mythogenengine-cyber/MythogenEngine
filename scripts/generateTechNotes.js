@@ -49,7 +49,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         lang: parsed.data.lang || locale,
         section: parsed.data.section || 'sober-record',
         topic: parsed.data.topic || '',
-        tags: parsed.data.article_tags || {},
+        tags: parsed.data.article_tags || parsed.data.tags || {},
         keywords: parsed.data.keywords || [],
         summary: parsed.data.summary || '',
         status: parsed.data.status || 'draft',

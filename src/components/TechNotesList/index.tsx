@@ -79,8 +79,8 @@ export default function TechNotesList() {
         <h1>{locale.startsWith('en') ? 'Lucid Record' : '清醒記錄'}</h1>
         <p className={styles.subtitle}>
           {locale.startsWith('en') 
-            ? 'Independent AI industry commentary and social observation. Dissecting anxiety arbitrage, structural market shifts, tech giant narratives, and the real underlying trends.' 
-            : '獨立的 AI 產業評論與社會觀察。拆解賣課經濟的焦慮套利、AI 就業市場的結構性收縮、科技巨頭的敘事操作，以及被忽略的真實趨勢。'}<br/>
+            ? 'Commentary on industry, capital structures, technology, and social observation. Dissecting price signal breakdowns, market exit mechanisms, capital cycles, rent extraction, and the real underlying trends.' 
+            : '產業與資本結構評論、科技與社會觀察。拆解價格訊號失靈與退出機制、資本週期與地租截流、賣課經濟的焦慮套利，以及被忽略的真實趨勢。'}<br/>
           <span>{locale.startsWith('en') ? '// No course selling, no anxiety mongering, just lucid records.' : '// 不賣課、不販焦慮，只做清醒的記錄。'}</span>
         </p>
       </div>

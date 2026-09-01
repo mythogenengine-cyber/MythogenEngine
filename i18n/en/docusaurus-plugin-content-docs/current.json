@@ -39,6 +39,10 @@
     "message": "Platform Silencing Quintet",
     "description": "The label for category 平台消音五部曲 in sidebar docs"
   },
+  "sidebar.docs.category.退出機制三部曲": {
+    "message": "Exit Mechanism Trilogy",
+    "description": "The label for category 退出機制三部曲 in sidebar docs"
+  },
   "sidebar.docs.category.Diary": {
     "message": "Diary",
     "description": "The label for category Diary in sidebar docs"

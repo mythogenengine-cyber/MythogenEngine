@@ -322,10 +322,10 @@ function CategoryCards() {
                 </h2>
                 <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
                   {isZhTW
-                    ? '獨立的 AI 產業評論與社會觀察。拆解賣課經濟的焦慮套利、AI 就業市場的結構性收縮、科技巨頭的敘事操作，以及被忽略的真實趨勢。'
+                    ? '產業與資本結構評論、科技與社會觀察。拆解價格訊號失靈與退出機制、資本週期與地租截流、賣課經濟的焦慮套利、就業市場的結構性收縮，以及被忽略的真實趨勢。'
                     : isZhHK
-                    ? '獨立嘅 AI 產業評論同社會觀察。拆解賣課經濟嘅焦慮套利、AI 就業市場嘅結構性收縮、科技巨頭嘅敘事操作，以及被忽略嘅真實趨勢。'
-                    : 'Independent AI industry commentary and social observation. Dissecting the anxiety arbitrage of the course-selling economy, structural contraction in AI job markets, tech giants\' narrative manipulation, and the real trends being overlooked.'}
+                    ? '產業與資本結構評論、科技與社會觀察。拆解價格訊號失靈與退出機制、資本週期與地租截流、賣課經濟嘅焦慮套利、就業市場嘅結構性收縮，以及被忽略嘅真實趨勢。'
+                    : 'Commentary on industry, capital structures, technology, and social observation. Dissecting price signal breakdowns and market exit mechanisms, capital cycles, rent extraction, anxiety arbitrage, and the real underlying trends.'}
                 </p>
               </div>
               <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>

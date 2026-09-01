@@ -1,6 +1,91 @@
 {
   "zh-Hant": [
     {
+      "id": "退出機制三部曲",
+      "slug": "/docs/TechNotes/%E9%80%80%E5%87%BA%E6%A9%9F%E5%88%B6%E4%B8%89%E9%83%A8%E6%9B%B2",
+      "title": "退出機制三部曲：便宜的代價",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "產能過剩",
+          "地租",
+          "喪屍企業",
+          "價格訊號",
+          "資本結構"
+        ],
+        "en": [
+          "market-exit",
+          "overcapacity",
+          "land-rent",
+          "zombie-firms",
+          "price-signals",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "便宜的代價",
+        "退出機制三部曲",
+        "價格訊號失靈",
+        "軟預算約束",
+        "金融抑制",
+        "地租",
+        "喪屍企業"
+      ],
+      "summary": "三篇共用同一句話：價格訊號被壓住，所以該退出的都沒有退出。從全球產能供給的扭曲，到地租對便宜紅利的截留，再到資本與勞動市場的互相鎖死。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "錢不走，人也不走",
+      "slug": "/docs/TechNotes/%E9%8C%A2%E4%B8%8D%E8%B5%B0%EF%BC%8C%E4%BA%BA%E4%B9%9F%E4%B8%8D%E8%B5%B0",
+      "title": "錢不走，人也不走",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "喪屍企業",
+          "退出機制",
+          "逆向淘汰",
+          "軟預算約束",
+          "勞動市場"
+        ],
+        "en": [
+          "zombie-firms",
+          "market-exit",
+          "adverse-selection",
+          "soft-budget-constraint",
+          "labour-market"
+        ]
+      },
+      "keywords": [
+        "job hugging",
+        "extend and pretend",
+        "利息保障倍數",
+        "創造性破壞"
+      ],
+      "summary": "一個經濟體真正的健康指標不是增長率，是退出率。而現在資本與人同時失去了離開的能力。",
+      "status": "published",
+      "reading_time": 11,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "沒有人選過的版本",
       "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
       "title": "沒有人選過的版本——當「去 AI 味」成為一門生意，判準還剩下什麼",
@@ -36,6 +121,93 @@
       "reading_time": 14,
       "sidebar_position": 20260830,
       "series": null
+    },
+    {
+      "id": "你的定期存款，補貼了德國人買車",
+      "slug": "/docs/TechNotes/%E4%BD%A0%E7%9A%84%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%EF%BC%8C%E8%A3%9C%E8%B2%BC%E4%BA%86%E5%BE%B7%E5%9C%8B%E4%BA%BA%E8%B2%B7%E8%BB%8A",
+      "title": "你的定期存款，補貼了德國人買車",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "產能過剩",
+          "金融抑制",
+          "過度積累",
+          "資本錯配",
+          "全球分工",
+          "全球失衡",
+          "土地財政"
+        ],
+        "en": [
+          "overcapacity",
+          "financial-repression",
+          "over-accumulation",
+          "capital-misallocation",
+          "global-division-of-labor",
+          "global-imbalances",
+          "land-rent"
+        ]
+      },
+      "keywords": [
+        "絕對優勢經濟",
+        "軟預算約束",
+        "分稅制",
+        "資產負債表衰退",
+        "抽走梯子",
+        "全球儲蓄過剩"
+      ],
+      "summary": "中國的過度積累與美國的金融化不是兩種病，是一個系統的兩個器官——過去二十年，兩個體制一直在互相替對方拖延結帳。",
+      "status": "published",
+      "reading_time": 13,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "四個地方，沒有一個人拿到那筆便宜",
+      "slug": "/docs/TechNotes/%E5%9B%9B%E5%80%8B%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%B2%92%E6%9C%89%E4%B8%80%E5%80%8B%E4%BA%BA%E6%8B%BF%E5%88%B0%E9%82%A3%E7%AD%86%E4%BE%BF%E5%AE%9C",
+      "title": "四個地方，沒有一個人拿到那筆便宜",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "地租",
+          "產能過剩",
+          "金融抑制",
+          "台灣",
+          "香港"
+        ],
+        "en": [
+          "land-rent",
+          "overcapacity",
+          "financial-repression",
+          "taiwan",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "淘寶",
+        "土地財政",
+        "囤房稅",
+        "買方壟斷",
+        "抽走梯子"
+      ],
+      "summary": "全世界最便宜的東西就在隔壁生產，而香港、深圳、內陸、台灣沒有一個地方的人拿到那筆便宜。它去了哪裡？",
+      "status": "published",
+      "reading_time": 14,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 2,
+        "total": 3
+      }
     },
     {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",
@@ -1391,6 +1563,91 @@
   ],
   "zh-HK": [
     {
+      "id": "退出機制三部曲",
+      "slug": "/docs/TechNotes/%E9%80%80%E5%87%BA%E6%A9%9F%E5%88%B6%E4%B8%89%E9%83%A8%E6%9B%B2",
+      "title": "退出機制三部曲：便宜的代價",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "產能過剩",
+          "地租",
+          "喪屍企業",
+          "價格訊號",
+          "資本結構"
+        ],
+        "en": [
+          "market-exit",
+          "overcapacity",
+          "land-rent",
+          "zombie-firms",
+          "price-signals",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "便宜的代價",
+        "退出機制三部曲",
+        "價格訊號失靈",
+        "軟預算約束",
+        "金融抑制",
+        "地租",
+        "喪屍企業"
+      ],
+      "summary": "三篇共用同一句話：價格訊號被壓住，所以該退出的都沒有退出。從全球產能供給的扭曲，到地租對便宜紅利的截留，再到資本與勞動市場的互相鎖死。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "錢不走，人也不走",
+      "slug": "/docs/TechNotes/%E9%8C%A2%E4%B8%8D%E8%B5%B0%EF%BC%8C%E4%BA%BA%E4%B9%9F%E4%B8%8D%E8%B5%B0",
+      "title": "錢不走，人也不走",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "喪屍企業",
+          "退出機制",
+          "逆向淘汰",
+          "軟預算約束",
+          "勞動市場"
+        ],
+        "en": [
+          "zombie-firms",
+          "market-exit",
+          "adverse-selection",
+          "soft-budget-constraint",
+          "labour-market"
+        ]
+      },
+      "keywords": [
+        "job hugging",
+        "extend and pretend",
+        "利息保障倍數",
+        "創造性破壞"
+      ],
+      "summary": "一個經濟體真正的健康指標不是增長率，是退出率。而現在資本與人同時失去了離開的能力。",
+      "status": "published",
+      "reading_time": 11,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "沒有人選過的版本",
       "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
       "title": "沒有人選過的版本——當「去 AI 味」成為一門生意，判準還剩下什麼",
@@ -1426,6 +1683,93 @@
       "reading_time": 14,
       "sidebar_position": 20260830,
       "series": null
+    },
+    {
+      "id": "你的定期存款，補貼了德國人買車",
+      "slug": "/docs/TechNotes/%E4%BD%A0%E7%9A%84%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%EF%BC%8C%E8%A3%9C%E8%B2%BC%E4%BA%86%E5%BE%B7%E5%9C%8B%E4%BA%BA%E8%B2%B7%E8%BB%8A",
+      "title": "你的定期存款，補貼了德國人買車",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "產能過剩",
+          "金融抑制",
+          "過度積累",
+          "資本錯配",
+          "全球分工",
+          "全球失衡",
+          "土地財政"
+        ],
+        "en": [
+          "overcapacity",
+          "financial-repression",
+          "over-accumulation",
+          "capital-misallocation",
+          "global-division-of-labor",
+          "global-imbalances",
+          "land-rent"
+        ]
+      },
+      "keywords": [
+        "絕對優勢經濟",
+        "軟預算約束",
+        "分稅制",
+        "資產負債表衰退",
+        "抽走梯子",
+        "全球儲蓄過剩"
+      ],
+      "summary": "中國的過度積累與美國的金融化不是兩種病，是一個系統的兩個器官——過去二十年，兩個體制一直在互相替對方拖延結帳。",
+      "status": "published",
+      "reading_time": 13,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "四個地方，沒有一個人拿到那筆便宜",
+      "slug": "/docs/TechNotes/%E5%9B%9B%E5%80%8B%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%B2%92%E6%9C%89%E4%B8%80%E5%80%8B%E4%BA%BA%E6%8B%BF%E5%88%B0%E9%82%A3%E7%AD%86%E4%BE%BF%E5%AE%9C",
+      "title": "四個地方，沒有一個人拿到那筆便宜",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "地租",
+          "產能過剩",
+          "金融抑制",
+          "台灣",
+          "香港"
+        ],
+        "en": [
+          "land-rent",
+          "overcapacity",
+          "financial-repression",
+          "taiwan",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "淘寶",
+        "土地財政",
+        "囤房稅",
+        "買方壟斷",
+        "抽走梯子"
+      ],
+      "summary": "全世界最便宜的東西就在隔壁生產，而香港、深圳、內陸、台灣沒有一個地方的人拿到那筆便宜。它去了哪裡？",
+      "status": "published",
+      "reading_time": 14,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 2,
+        "total": 3
+      }
     },
     {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",
@@ -2762,6 +3106,91 @@
   ],
   "en": [
     {
+      "id": "退出機制三部曲",
+      "slug": "/docs/TechNotes/%E9%80%80%E5%87%BA%E6%A9%9F%E5%88%B6%E4%B8%89%E9%83%A8%E6%9B%B2",
+      "title": "Exit Mechanism Trilogy: The Cost of Cheapness",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "產能過剩",
+          "地租",
+          "喪屍企業",
+          "價格訊號",
+          "資本結構"
+        ],
+        "en": [
+          "market-exit",
+          "overcapacity",
+          "land-rent",
+          "zombie-firms",
+          "price-signals",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "The Cost of Cheapness",
+        "Exit Mechanism Trilogy",
+        "Price Signal Failure",
+        "Soft Budget Constraint",
+        "Financial Repression",
+        "Land Rent",
+        "Zombie Firms"
+      ],
+      "summary": "Three essays sharing one sentence: When price signals are suppressed, actors that should exit fail to do so. From distortions in global supply, to land rent intercepting the dividend of cheapness, to the mutual lock-in of capital and labor.",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "錢不走，人也不走",
+      "slug": "/docs/TechNotes/%E9%8C%A2%E4%B8%8D%E8%B5%B0%EF%BC%8C%E4%BA%BA%E4%B9%9F%E4%B8%8D%E8%B5%B0",
+      "title": "Capital Won't Leave, People Won't Leave",
+      "date": "2026-08-31T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "喪屍企業",
+          "退出機制",
+          "逆向淘汰",
+          "軟預算約束",
+          "勞動市場"
+        ],
+        "en": [
+          "zombie-firms",
+          "market-exit",
+          "adverse-selection",
+          "soft-budget-constraint",
+          "labour-market"
+        ]
+      },
+      "keywords": [
+        "job hugging",
+        "extend and pretend",
+        "interest coverage ratio",
+        "creative destruction"
+      ],
+      "summary": "The true health metric of an economy is not its growth rate, but its exit rate. Today, capital and labor have simultaneously lost the ability to leave.",
+      "status": "published",
+      "reading_time": 11,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "沒有人選過的版本",
       "slug": "/docs/TechNotes/%E6%B2%92%E6%9C%89%E4%BA%BA%E9%81%B8%E9%81%8E%E7%9A%84%E7%89%88%E6%9C%AC",
       "title": "The Unselected Version — When \"De-AI-ing\" Becomes an Industry, What Remains of Criterion?",
@@ -2797,6 +3226,93 @@
       "reading_time": 14,
       "sidebar_position": 20260830,
       "series": null
+    },
+    {
+      "id": "你的定期存款，補貼了德國人買車",
+      "slug": "/docs/TechNotes/%E4%BD%A0%E7%9A%84%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%EF%BC%8C%E8%A3%9C%E8%B2%BC%E4%BA%86%E5%BE%B7%E5%9C%8B%E4%BA%BA%E8%B2%B7%E8%BB%8A",
+      "title": "Your Fixed Deposits Subsidized German Car Buyers",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "產能過剩",
+          "金融抑制",
+          "過度積累",
+          "資本錯配",
+          "全球分工",
+          "全球失衡",
+          "土地財政"
+        ],
+        "en": [
+          "overcapacity",
+          "financial-repression",
+          "over-accumulation",
+          "capital-misallocation",
+          "global-division-of-labor",
+          "global-imbalances",
+          "land-rent"
+        ]
+      },
+      "keywords": [
+        "Absolute Advantage Economy",
+        "Soft Budget Constraint",
+        "Tax Sharing System",
+        "Balance Sheet Recession",
+        "Kicking Away the Ladder",
+        "Global Savings Glut"
+      ],
+      "summary": "China's over-accumulation and America's financialization are not two distinct illnesses — they are two organs of a single system. For the past twenty years, both regimes have been postponing each other's day of reckoning.",
+      "status": "published",
+      "reading_time": 13,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "四個地方，沒有一個人拿到那筆便宜",
+      "slug": "/docs/TechNotes/%E5%9B%9B%E5%80%8B%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%B2%92%E6%9C%89%E4%B8%80%E5%80%8B%E4%BA%BA%E6%8B%BF%E5%88%B0%E9%82%A3%E7%AD%86%E4%BE%BF%E5%AE%9C",
+      "title": "Four Places Where No One Captured the Cheapness",
+      "date": "2026-08-26T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "capital-structure",
+      "tags": {
+        "zh": [
+          "地租",
+          "產能過剩",
+          "金融抑制",
+          "台灣",
+          "香港"
+        ],
+        "en": [
+          "land-rent",
+          "overcapacity",
+          "financial-repression",
+          "taiwan",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "Taobao",
+        "Land Finance",
+        "Hoarding Tax",
+        "Monopsony",
+        "Kicking Away the Ladder"
+      ],
+      "summary": "The cheapest goods in history are produced right next door, yet in Hong Kong, Shenzhen, inland China, and Taiwan, no one captured that cheapness. Where did it go?",
+      "status": "published",
+      "reading_time": 14,
+      "series": {
+        "id": "exit-mechanism",
+        "name": "退出機制三部曲",
+        "order": 2,
+        "total": 3
+      }
     },
     {
       "id": "微軟買不到 Ring 0於是買下 OpenAI",

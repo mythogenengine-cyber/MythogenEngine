@@ -28,6 +28,16 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
   
   for (const file of files) {
     if (file === 'index.mdx' || file === 'index.md') continue;
+
+    // Skip orphan i18n files that have no counterpart in default locale docs/
+    if (locale !== 'zh-Hant') {
+      const defaultLocalePath = path.join(projectRoot, targetDirs['zh-Hant'], file);
+      if (!fs.existsSync(defaultLocalePath)) {
+        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${file}`);
+        continue;
+      }
+    }
+
     const filePath = path.join(dirPath, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     const parsed = matter(content);

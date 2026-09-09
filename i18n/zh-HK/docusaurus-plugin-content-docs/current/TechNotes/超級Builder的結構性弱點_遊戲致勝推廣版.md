@@ -6,7 +6,7 @@ section: gamevictory
 topic: t-game-history
 article_tags:
   zh:
-    - AI
+    - AI 產業
     - 開發者生態
     - 算力霸權
     - 遊戲產業

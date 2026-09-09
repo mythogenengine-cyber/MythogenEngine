@@ -9,7 +9,7 @@ article_tags:
     - 記憶體
     - 遊戲機
     - NVIDIA
-    - AI 浪潮
+    - AI 產業
     - 供應鏈
   en:
     - memory

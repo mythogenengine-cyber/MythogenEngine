@@ -6,10 +6,10 @@ section: sober-record
 topic: t-ai-industry
 article_tags:
   zh:
-    - AI
+    - AI 產業
     - Anthropic
     - 商業模式
-    - 資金結構
+    - 資本結構
     - 開發者生態
   en:
     - artificial-intelligence

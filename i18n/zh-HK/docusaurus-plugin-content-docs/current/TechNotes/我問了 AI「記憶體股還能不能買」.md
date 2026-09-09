@@ -13,7 +13,7 @@ tags:
   - 散戶
 article_tags:
   zh:
-    - AI
+    - AI 產業
     - 資訊不對稱
     - 敘事操控
     - 媒體素養

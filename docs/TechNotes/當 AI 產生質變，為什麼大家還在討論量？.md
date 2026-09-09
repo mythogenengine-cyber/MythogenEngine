@@ -6,7 +6,7 @@ section: sober-record
 topic: t-ai
 article_tags:
   zh:
-    - AI
+    - AI 產業
     - FABLE
     - 質變與量變
     - 破壞性創新

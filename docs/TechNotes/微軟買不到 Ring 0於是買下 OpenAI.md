@@ -9,7 +9,7 @@ article_tags:
     - 平台壟斷
     - 生態系戰爭
     - 資本結構
-    - 敘事操作
+    - 敘事操控
   en:
     - platform-monopoly
     - ecosystem-war

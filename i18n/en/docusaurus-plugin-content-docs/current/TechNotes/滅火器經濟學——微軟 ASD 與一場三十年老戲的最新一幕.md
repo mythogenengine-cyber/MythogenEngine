@@ -7,7 +7,7 @@ topic: t-game-history
 article_tags:
   zh:
     - 遊戲產業
-    - 平台生態戰
+    - 平台壟斷
     - 商業競爭
     - 微軟
     - 著色器編譯

@@ -6,7 +6,7 @@ section: sober-record
 topic: t-media
 article_tags:
   zh:
-    - AI 影像生成
+    - AI 生成內容
     - 事實查核
     - 資訊不對稱
     - Google

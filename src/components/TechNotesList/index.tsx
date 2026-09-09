@@ -7,6 +7,24 @@ import styles from './styles.module.css';
 // We import the generated JSON. It's generated pre-build.
 import techNotesData from '@site/src/data/technotes.json';
 
+const CATEGORIES = [
+  '資本與退出機制',
+  '半導體週期',
+  '平台與分發',
+  '產業與資本競爭',
+  '認知與敘事',
+  '教育與勞動',
+] as const;
+
+const CATEGORY_NAMES_EN: Record<string, string> = {
+  '資本與退出機制': 'Capital & Exit',
+  '半導體週期': 'Semiconductor Cycles',
+  '平台與分發': 'Platforms & Distribution',
+  '產業與資本競爭': 'Industry & Capital Competition',
+  '認知與敘事': 'Cognition & Narratives',
+  '教育與勞動': 'Education & Labor',
+};
+
 // Simple hash function to assign stable colors to dynamic tags
 function getTagClass(tag) {
   const hash = tag.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
@@ -28,16 +46,6 @@ export default function TechNotesList() {
   // Determine which tag sub-array to use based on locale
   const tagLang = locale.startsWith('en') ? 'en' : 'zh';
 
-  // Extract all unique tags
-  const allTags = useMemo(() => {
-    const tagsSet = new Set();
-    articles.forEach(article => {
-      const articleTags = article.tags && article.tags[tagLang] ? article.tags[tagLang] : [];
-      articleTags.forEach(t => tagsSet.add(t));
-    });
-    return Array.from(tagsSet);
-  }, [articles, tagLang]);
-
   // Filter articles
   const filteredArticles = useMemo(() => {
     const filtered = articles.filter(article => {
@@ -48,11 +56,10 @@ export default function TechNotesList() {
         article.title.toLowerCase().includes(searchLower) || 
         (article.summary && article.summary.toLowerCase().includes(searchLower));
 
-      // Tag filter
-      const articleTags = article.tags && article.tags[tagLang] ? article.tags[tagLang] : [];
-      const matchesTag = activeFilter === 'ALL' || articleTags.includes(activeFilter);
+      // Category filter
+      const matchesCategory = activeFilter === 'ALL' || article.category === activeFilter;
 
-      return matchesSearch && matchesTag;
+      return matchesSearch && matchesCategory;
     });
 
     // Sort by date
@@ -61,12 +68,17 @@ export default function TechNotesList() {
       const dateB = b.date ? new Date(b.date).getTime() : 0;
       return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
     });
-  }, [articles, searchQuery, activeFilter, tagLang, sortOrder]);
+  }, [articles, searchQuery, activeFilter, sortOrder]);
 
-  // Determine featured (we just use the first item that matches, or just the very first item overall)
-  // Let's use the first item in the FULL list as featured, if it matches the current filter.
-  // Actually, keeping the featured article stable unless searched is better.
-  const featuredArticle = articles.length > 0 && searchQuery === '' && activeFilter === 'ALL' ? articles[0] : null;
+  // Determine featured: latest published article with a date, only when no search and ALL filter
+  const featuredArticle = useMemo(() => {
+    if (searchQuery !== '' || activeFilter !== 'ALL') return null;
+
+    const published = articles.filter(a => a.status === 'published' && a.date);
+    if (published.length === 0) return null;
+
+    return [...published].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+  }, [articles, searchQuery, activeFilter]);
   
   // Articles for the grid
   const gridArticles = featuredArticle 
@@ -140,13 +152,13 @@ export default function TechNotesList() {
         >
           {locale.startsWith('en') ? 'All' : '全部'}
         </button>
-        {allTags.map(tag => (
+        {CATEGORIES.map(cat => (
           <button 
-            key={tag}
-            className={`${styles.filterBtn} ${activeFilter === tag ? styles.filterBtnActive : ''}`}
-            onClick={() => setActiveFilter(tag)}
+            key={cat}
+            className={`${styles.filterBtn} ${activeFilter === cat ? styles.filterBtnActive : ''}`}
+            onClick={() => setActiveFilter(cat)}
           >
-            {tag}
+            {locale.startsWith('en') ? (CATEGORY_NAMES_EN[cat] || cat) : cat}
           </button>
         ))}
       </div>

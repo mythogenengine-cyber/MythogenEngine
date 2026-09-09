@@ -4,6 +4,7 @@ date: 2026-04-09
 lang: zh-HK
 section: sober-record
 topic: t-labor
+category: 教育與勞動
 article_tags:
   zh:
     - 就業收縮

@@ -4,6 +4,7 @@ date: 2026-05-19
 lang: en
 section: sober-record
 topic: t-ai-industry
+category: 教育與勞動
 article_tags:
   zh:
     - Buzzword 通脹

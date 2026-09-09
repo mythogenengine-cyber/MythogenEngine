@@ -4,6 +4,7 @@ date: 2026-05-04
 lang: zh-Hant
 section: sober-record
 topic: t-ai-writing
+category: 認知與敘事
 article_tags:
   zh:
     - 人機協作

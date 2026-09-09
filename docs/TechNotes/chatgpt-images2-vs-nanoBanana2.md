@@ -4,6 +4,7 @@ date: 2026-04-29
 lang: zh-Hant
 section: sober-record
 topic: t-media
+category: 產業與資本競爭
 article_tags:
   zh:
     - AI 生成內容

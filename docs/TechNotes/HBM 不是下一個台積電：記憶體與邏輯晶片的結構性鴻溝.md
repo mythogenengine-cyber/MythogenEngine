@@ -4,6 +4,7 @@ date: 2026-05-26
 lang: zh-Hant
 section: sober-record
 topic: t-hardware
+category: 半導體週期
 article_tags:
   zh:
     - 護城河

@@ -4,6 +4,7 @@ date: 2026-05-28
 lang: en
 section: sober-record
 topic: t-hardware
+category: 半導體週期
 article_tags:
   zh:
     - 記憶體
@@ -29,6 +30,11 @@ reading_time: 10
 sidebar_label: "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI"
 sidebar_position: 20260528
 description: "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution."
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 2
+  total: 4
 ---
 Author: Nebula Walker
 Date: 28MAY2026

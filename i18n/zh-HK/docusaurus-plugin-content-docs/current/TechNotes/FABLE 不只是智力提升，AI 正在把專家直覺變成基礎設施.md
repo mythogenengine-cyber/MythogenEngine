@@ -4,6 +4,7 @@ date: 2026-07-01
 lang: zh-HK
 section: sober-record
 topic: t-ai
+category: 產業與資本競爭
 article_tags:
   zh:
     - AI 產業

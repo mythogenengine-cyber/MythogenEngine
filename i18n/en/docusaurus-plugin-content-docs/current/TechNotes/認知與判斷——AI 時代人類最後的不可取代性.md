@@ -4,6 +4,7 @@ date: 2026-05-20
 lang: en
 section: sober-record
 topic: t-education
+category: 教育與勞動
 article_tags:
   zh:
     - 人文教育

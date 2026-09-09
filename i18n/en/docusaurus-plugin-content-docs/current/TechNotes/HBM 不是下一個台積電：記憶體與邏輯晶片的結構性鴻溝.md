@@ -4,6 +4,7 @@ date: 2026-05-26
 lang: en
 section: sober-record
 topic: t-hardware
+category: 半導體週期
 article_tags:
   zh:
     - 護城河
@@ -27,6 +28,11 @@ summary: "Dismantling the 'HBM = next TSMC' narrative across three dimensions �
 status: published
 reading_time: 18
 description: "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak."
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 1
+  total: 4
 ---
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.jpg)
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.jpg)

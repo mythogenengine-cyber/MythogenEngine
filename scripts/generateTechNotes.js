@@ -27,6 +27,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
   const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
   
   for (const file of files) {
+    if (file === 'index.mdx' || file === 'index.md') continue;
     const filePath = path.join(dirPath, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     const parsed = matter(content);
@@ -49,6 +50,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         lang: parsed.data.lang || locale,
         section: parsed.data.section || 'sober-record',
         topic: parsed.data.topic || '',
+        category: parsed.data.category || '',
         tags: parsed.data.article_tags || parsed.data.tags || {},
         keywords: parsed.data.keywords || [],
         summary: parsed.data.summary || '',

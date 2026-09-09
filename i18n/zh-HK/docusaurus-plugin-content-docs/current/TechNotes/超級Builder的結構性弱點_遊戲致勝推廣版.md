@@ -4,6 +4,7 @@ date: 2026-05-25
 lang: zh-Hant
 section: gamevictory
 topic: t-game-history
+category: 產業與資本競爭
 article_tags:
   zh:
     - AI 產業

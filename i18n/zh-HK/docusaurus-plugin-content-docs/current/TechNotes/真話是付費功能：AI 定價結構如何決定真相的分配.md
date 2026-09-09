@@ -4,6 +4,7 @@ date: 2026-07-31
 lang: zh-HK
 section: sober-record
 topic: t-media
+category: 半導體週期
 tags:
   - AI
   - 資訊不對稱
@@ -39,6 +40,11 @@ keywords:
 summary: "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。"
 status: published
 reading_time: 7
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 4
+  total: 4
 ---
 
 # 真話是付費功能：AI 定價結構如何決定真相的分配

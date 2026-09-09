@@ -4,6 +4,7 @@ date: 2026-06-27
 lang: en
 section: sober-record
 topic: ai-industry-critique
+category: 教育與勞動
 article_tags:
   zh:
     - 焦慮套利

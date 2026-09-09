@@ -4,6 +4,7 @@ date: 2026-05-23
 lang: zh-HK
 section: sober-record
 topic: t-labor
+category: 教育與勞動
 article_tags:
   zh:
     - AI 內容工業化

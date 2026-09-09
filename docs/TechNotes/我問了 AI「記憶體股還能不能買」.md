@@ -4,6 +4,7 @@ date: 2026-07-13
 lang: zh-Hant
 section: sober-record
 topic: t-media
+category: 半導體週期
 tags:
   - AI
   - 資訊不對稱

@@ -8,6 +8,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "退出機制",
@@ -53,6 +54,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "喪屍企業",
@@ -93,6 +95,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "ai-writing-authorship",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "AI 寫作",
@@ -130,6 +133,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "產能過剩",
@@ -176,6 +180,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "地租",
@@ -217,6 +222,7 @@
       "lang": "zh-Hant",
       "section": "ai-archive",
       "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -254,6 +260,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -295,6 +302,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "認知偏誤",
@@ -336,6 +344,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "公共討論",
@@ -377,6 +386,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "媒體素養",
@@ -412,6 +422,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -458,6 +469,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "labor-market",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -500,6 +512,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -539,6 +552,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "AI依賴",
@@ -574,6 +588,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -613,6 +628,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "演算法治理",
@@ -652,6 +668,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "語言政治",
@@ -692,6 +709,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -731,6 +749,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -774,6 +793,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -813,6 +833,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -850,6 +871,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "創新",
@@ -890,6 +912,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -921,6 +944,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -960,6 +984,7 @@
       "lang": "zh-Hant",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -991,6 +1016,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "認知與判斷",
@@ -1030,6 +1056,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "記憶體",
@@ -1072,6 +1099,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "護城河",
@@ -1113,6 +1141,7 @@
       "lang": "zh-Hant",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -1147,6 +1176,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "AI 內容工業化",
@@ -1183,6 +1213,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "人文教育",
@@ -1224,6 +1255,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "Buzzword 通脹",
@@ -1260,6 +1292,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "賣課經濟",
@@ -1296,6 +1329,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -1332,6 +1366,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -1368,6 +1403,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "Google",
@@ -1404,6 +1440,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -1441,6 +1478,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 生成內容",
@@ -1477,6 +1515,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI Agent",
@@ -1506,22 +1545,6 @@
       "series": null
     },
     {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-Hant",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0,
-      "series": null
-    },
-    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
@@ -1529,6 +1552,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "就業收縮",
@@ -1566,6 +1590,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "敘事操控",
@@ -1605,6 +1630,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "退出機制",
@@ -1650,6 +1676,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "喪屍企業",
@@ -1690,6 +1717,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "ai-writing-authorship",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "AI 寫作",
@@ -1727,6 +1755,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "產能過剩",
@@ -1773,6 +1802,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "地租",
@@ -1814,6 +1844,7 @@
       "lang": "zh-HK",
       "section": "ai-archive",
       "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -1852,6 +1883,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -1893,6 +1925,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "認知偏誤",
@@ -1934,6 +1967,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "公共討論",
@@ -1975,6 +2009,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "媒體素養",
@@ -2010,6 +2045,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -2041,7 +2077,12 @@
       "summary": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
       "status": "published",
       "reading_time": 7,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 4,
+        "total": 4
+      }
     },
     {
       "id": "效率陷阱續章・續章：你以為你贏了",
@@ -2051,6 +2092,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "labor-market",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -2093,6 +2135,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -2132,6 +2175,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "AI依賴",
@@ -2167,6 +2211,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -2206,6 +2251,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "演算法治理",
@@ -2245,6 +2291,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "語言政治",
@@ -2285,6 +2332,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -2324,6 +2372,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -2352,7 +2401,12 @@
       "summary": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
       "status": "published",
       "reading_time": 9,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 3,
+        "total": 4
+      }
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -2362,6 +2416,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -2401,6 +2456,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -2438,6 +2494,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "創新",
@@ -2478,6 +2535,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -2509,6 +2567,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -2548,6 +2607,7 @@
       "lang": "zh-Hant",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -2579,6 +2639,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "認知與判斷",
@@ -2618,6 +2679,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "記憶體",
@@ -2645,7 +2707,12 @@
       "status": "published",
       "reading_time": 10,
       "sidebar_position": 20260528,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 2,
+        "total": 4
+      }
     },
     {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -2655,6 +2722,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "護城河",
@@ -2681,7 +2749,12 @@
       "summary": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
       "status": "published",
       "reading_time": 18,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 1,
+        "total": 4
+      }
     },
     {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
@@ -2691,6 +2764,7 @@
       "lang": "zh-Hant",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -2725,6 +2799,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "AI 內容工業化",
@@ -2761,6 +2836,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "人文教育",
@@ -2802,6 +2878,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "Buzzword 通脹",
@@ -2838,6 +2915,7 @@
       "lang": "zh-Hant",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "賣課經濟",
@@ -2874,6 +2952,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -2910,6 +2989,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -2946,6 +3026,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "Google",
@@ -2982,6 +3063,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -3019,6 +3101,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 生成內容",
@@ -3055,6 +3138,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI Agent",
@@ -3084,22 +3168,6 @@
       "series": null
     },
     {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "清醒記錄",
-      "date": null,
-      "lang": "zh-HK",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0,
-      "series": null
-    },
-    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "不是轉型，是收縮：AI 就業潮的另一種讀法",
@@ -3107,6 +3175,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "就業收縮",
@@ -3144,6 +3213,7 @@
       "lang": "zh-HK",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "敘事操控",
@@ -3183,6 +3253,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "退出機制",
@@ -3228,6 +3299,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "喪屍企業",
@@ -3268,6 +3340,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "ai-writing-authorship",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "AI 寫作",
@@ -3305,6 +3378,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "產能過剩",
@@ -3351,6 +3425,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "capital-structure",
+      "category": "資本與退出機制",
       "tags": {
         "zh": [
           "地租",
@@ -3392,6 +3467,7 @@
       "lang": "en",
       "section": "ai-archive",
       "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -3430,6 +3506,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台壟斷",
@@ -3471,6 +3548,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "認知偏誤",
@@ -3512,6 +3590,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-silencing",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "公共討論",
@@ -3553,6 +3632,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "媒體素養",
@@ -3588,6 +3668,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -3619,7 +3700,12 @@
       "summary": "Dissecting the three-tier AI product pyramid (free/subscription/API), revealing how ability to pay compounds with ability to ask, ensuring the most vulnerable users receive the most dangerous answers.",
       "status": "published",
       "reading_time": 7,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 4,
+        "total": 4
+      }
     },
     {
       "id": "效率陷阱續章・續章：你以為你贏了",
@@ -3629,6 +3715,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "labor-market",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -3671,6 +3758,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -3710,7 +3798,14 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "認知與敘事",
       "tags": {
+        "zh": [
+          "AI依賴",
+          "知識壓縮",
+          "判斷力",
+          "語言政治"
+        ],
         "en": [
           "ai-dependence",
           "knowledge-compression",
@@ -3739,6 +3834,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -3778,6 +3874,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "演算法治理",
@@ -3817,6 +3914,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "media-literacy",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "語言政治",
@@ -3857,6 +3955,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "platform-economics",
+      "category": "平台與分發",
       "tags": {
         "zh": [
           "平台治理",
@@ -3896,6 +3995,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "AI 產業",
@@ -3924,7 +4024,12 @@
       "summary": "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.",
       "status": "published",
       "reading_time": 9,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 3,
+        "total": 4
+      }
     },
     {
       "id": "滅火器經濟學——微軟 ASD 與一場三十年老戲的最新一幕",
@@ -3934,6 +4039,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -3973,6 +4079,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -4010,6 +4117,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "創新",
@@ -4050,6 +4158,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -4081,6 +4190,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "ai-industry-critique",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -4120,6 +4230,7 @@
       "lang": "en",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -4151,6 +4262,7 @@
       "lang": "en",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "遊戲產業",
@@ -4182,6 +4294,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "認知與判斷",
@@ -4221,6 +4334,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "記憶體",
@@ -4248,7 +4362,12 @@
       "status": "published",
       "reading_time": 10,
       "sidebar_position": 20260528,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 2,
+        "total": 4
+      }
     },
     {
       "id": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -4258,6 +4377,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-hardware",
+      "category": "半導體週期",
       "tags": {
         "zh": [
           "護城河",
@@ -4284,7 +4404,12 @@
       "summary": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
       "status": "published",
       "reading_time": 18,
-      "series": null
+      "series": {
+        "id": "memory-series",
+        "name": "記憶體與 AI 算力週期系列",
+        "order": 1,
+        "total": 4
+      }
     },
     {
       "id": "超級Builder的結構性弱點_遊戲致勝推廣版",
@@ -4294,6 +4419,7 @@
       "lang": "en",
       "section": "gamevictory",
       "topic": "t-game-history",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -4328,6 +4454,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "AI 內容工業化",
@@ -4364,6 +4491,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "人文教育",
@@ -4406,6 +4534,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "Buzzword 通脹",
@@ -4442,6 +4571,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "焦慮套利",
@@ -4478,6 +4608,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -4514,6 +4645,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-writing",
+      "category": "認知與敘事",
       "tags": {
         "zh": [
           "人機協作",
@@ -4550,6 +4682,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "Google",
@@ -4586,6 +4719,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 產業",
@@ -4623,6 +4757,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-media",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI 生成內容",
@@ -4659,6 +4794,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-ai-industry",
+      "category": "產業與資本競爭",
       "tags": {
         "zh": [
           "AI Agent",
@@ -4688,22 +4824,6 @@
       "series": null
     },
     {
-      "id": "index",
-      "slug": "/docs/TechNotes/index",
-      "title": "Lucid Record",
-      "date": null,
-      "lang": "en",
-      "section": "sober-record",
-      "topic": "",
-      "tags": {},
-      "keywords": [],
-      "summary": "import TechNotesList from '@site/src/components/TechNotesList';",
-      "status": "draft",
-      "reading_time": 0,
-      "sidebar_position": 0,
-      "series": null
-    },
-    {
       "id": "20260409AIJobWave",
       "slug": "/docs/TechNotes/20260409AIJobWave",
       "title": "Not a Transformation, But a Contraction: Another Way to Read the AI Job Wave",
@@ -4711,6 +4831,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-labor",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "就業收縮",
@@ -4748,6 +4869,7 @@
       "lang": "en",
       "section": "sober-record",
       "topic": "t-education",
+      "category": "教育與勞動",
       "tags": {
         "zh": [
           "敘事操控",

@@ -4,6 +4,7 @@ date: 2026-07-13
 lang: en
 section: sober-record
 topic: t-media
+category: 半導體週期
 tags:
   - artificial-intelligence
   - information-asymmetry
@@ -35,6 +36,11 @@ keywords:
 summary: "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions."
 status: published
 reading_time: 9
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 3
+  total: 4
 ---
 Author: Nebula Walker
 Date: 13JUL2026

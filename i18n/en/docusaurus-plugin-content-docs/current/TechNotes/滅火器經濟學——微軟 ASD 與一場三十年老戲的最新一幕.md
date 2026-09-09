@@ -4,6 +4,7 @@ date: 2026-07-08
 lang: en
 section: sober-record
 topic: t-game-history
+category: 產業與資本競爭
 article_tags:
   zh:
     - 遊戲產業

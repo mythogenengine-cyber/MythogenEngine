@@ -4,6 +4,7 @@ date: 2026-04-29
 lang: zh-Hant
 section: sober-record
 topic: t-ai-industry
+category: 產業與資本競爭
 article_tags:
   zh:
     - AI 產業

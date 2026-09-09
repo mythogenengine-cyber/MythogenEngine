@@ -4,6 +4,7 @@ date: 2026-08-10
 lang: zh-HK
 section: ai-archive
 topic: platform-monopoly
+category: 產業與資本競爭
 article_tags:
   zh:
     - 平台壟斷

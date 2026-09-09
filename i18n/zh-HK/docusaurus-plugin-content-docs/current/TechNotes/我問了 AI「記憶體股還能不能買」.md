@@ -4,6 +4,7 @@ date: 2026-07-13
 lang: zh-HK
 section: sober-record
 topic: t-media
+category: 半導體週期
 tags:
   - AI
   - 資訊不對稱
@@ -35,6 +36,11 @@ keywords:
 summary: "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。"
 status: published
 reading_time: 9
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 3
+  total: 4
 ---
 作者：星忘塵 Nebula Walker
 Date: 13JUL2026

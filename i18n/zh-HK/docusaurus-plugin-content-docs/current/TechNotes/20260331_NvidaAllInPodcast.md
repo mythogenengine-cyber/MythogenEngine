@@ -4,6 +4,7 @@ date: 2026-03-31
 lang: zh-HK
 section: sober-record
 topic: t-education
+category: 教育與勞動
 article_tags:
   zh:
     - 敘事操控

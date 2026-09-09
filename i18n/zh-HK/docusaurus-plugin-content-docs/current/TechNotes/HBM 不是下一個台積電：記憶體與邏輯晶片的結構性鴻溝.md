@@ -4,6 +4,7 @@ date: 2026-05-26
 lang: zh-HK
 section: sober-record
 topic: t-hardware
+category: 半導體週期
 article_tags:
   zh:
     - 護城河
@@ -27,6 +28,11 @@ summary: "從商業模式、產業週期、地緣政治三個維度，拆解「H
 status: published
 reading_time: 18
 description: "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。"
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 1
+  total: 4
 ---
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_15_57.jpg)
 ![](./images/ChatGPT%20Image%202026年5月27日%20上午10_10_05.jpg)

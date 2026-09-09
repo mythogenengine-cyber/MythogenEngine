@@ -4,6 +4,7 @@ date: 2026-07-31
 lang: en
 section: sober-record
 topic: t-media
+category: 半導體週期
 tags:
   - artificial-intelligence
   - information-asymmetry
@@ -39,6 +40,11 @@ keywords:
 summary: "Dissecting the three-tier AI product pyramid (free/subscription/API), revealing how ability to pay compounds with ability to ask, ensuring the most vulnerable users receive the most dangerous answers."
 status: published
 reading_time: 7
+series:
+  id: memory-series
+  name: "記憶體與 AI 算力週期系列"
+  order: 4
+  total: 4
 ---
 Author: Nebula Walker
 Date: 31JUL2026

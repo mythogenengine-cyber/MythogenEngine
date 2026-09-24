@@ -1,0 +1,3 @@
+# Exclude private content from Docusaurus build
+客房/**
+**/客房/**

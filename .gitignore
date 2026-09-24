@@ -47,3 +47,10 @@ scratch/
 # archived root files (AI-generated images, drafts, etc.)
 _archive/
 
+# 私密項目（不進 Git、不公開至網頁）
+客房/
+TEMP.md
+TEMP*
+
+
+

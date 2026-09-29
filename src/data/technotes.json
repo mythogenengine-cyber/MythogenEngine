@@ -1,6 +1,45 @@
 {
   "zh-Hant": [
     {
+      "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+      "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+      "title": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+      "date": "2026-09-29T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "前線部署工程師",
+          "FDE",
+          "FAE",
+          "資本邏輯",
+          "勞動結構"
+        ],
+        "en": [
+          "forward-deployed-engineer",
+          "fde",
+          "fae",
+          "capital-logic",
+          "labor-structure"
+        ]
+      },
+      "keywords": [
+        "前線部署工程師",
+        "Forward Deployed Engineer",
+        "FDE",
+        "FAE",
+        "Palantir",
+        "資本邏輯",
+        "兩把尺"
+      ],
+      "summary": "從一則臉書貼文出發，以親身 FAE 經歷拆解 FDE 這個「新職缺」的真實面貌：它不是劃時代的新物種，而是舊角色的重新包裝。真正值得追問的，不是機器會不會取代人，而是效率收益被誰拿走、代價由誰承擔。",
+      "status": "published",
+      "reading_time": 15,
+      "series": null
+    },
+    {
       "id": "每一句都是真話：一堂 AI 影片課的成本帳",
       "slug": "/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3",
       "title": "每一句都是真話：一堂 AI 影片課的成本帳",
@@ -1661,6 +1700,45 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+      "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+      "title": "JD 好豐滿，現實好骨感：前線部署工程師呢個「新職缺」",
+      "date": "2026-09-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "前線部署工程師",
+          "FDE",
+          "FAE",
+          "資本邏輯",
+          "勞動結構"
+        ],
+        "en": [
+          "forward-deployed-engineer",
+          "fde",
+          "fae",
+          "capital-logic",
+          "labor-structure"
+        ]
+      },
+      "keywords": [
+        "前線部署工程師",
+        "Forward Deployed Engineer",
+        "FDE",
+        "FAE",
+        "Palantir",
+        "資本邏輯",
+        "兩把尺"
+      ],
+      "summary": "由一則 Facebook 帖文出發，以親身 FAE 經歷拆解 FDE 呢個「新職缺」嘅真實面貌：佢唔係劃時代嘅新物種，而係舊角色嘅重新包裝。真正值得追問嘅，唔係機器會唔會取代人，而係效率收益畀咗邊個攞、代價由邊個孭。",
+      "status": "published",
+      "reading_time": 15,
+      "series": null
+    },
     {
       "id": "每一句都是真話：一堂 AI 影片課的成本帳",
       "slug": "/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3",
@@ -3323,6 +3401,44 @@
     }
   ],
   "en": [
+    {
+      "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+      "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+      "title": "The JD Looks Great on Paper — The Reality of the 'Forward Deployed Engineer' Role",
+      "date": "2026-09-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "前線部署工程師",
+          "FDE",
+          "FAE",
+          "資本邏輯",
+          "勞動結構"
+        ],
+        "en": [
+          "forward-deployed-engineer",
+          "fde",
+          "fae",
+          "capital-logic",
+          "labor-structure"
+        ]
+      },
+      "keywords": [
+        "Forward Deployed Engineer",
+        "FDE",
+        "FAE",
+        "Palantir",
+        "Capital Logic",
+        "Two Rulers"
+      ],
+      "summary": "Starting from a Facebook post, this article draws on firsthand FAE experience to dissect the reality behind the 'Forward Deployed Engineer' role: it's not a groundbreaking new species, but old roles repackaged. The real question isn't whether machines will replace people, but who captures the efficiency gains and who bears the cost.",
+      "status": "published",
+      "reading_time": 15,
+      "series": null
+    },
     {
       "id": "每一句都是真話：一堂 AI 影片課的成本帳",
       "slug": "/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3",

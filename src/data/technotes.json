@@ -40,6 +40,48 @@
       "series": null
     },
     {
+      "id": "倖存者教你生存",
+      "slug": "/docs/TechNotes/%E5%80%96%E5%AD%98%E8%80%85%E6%95%99%E4%BD%A0%E7%94%9F%E5%AD%98",
+      "title": "倖存者教你生存",
+      "date": "2026-09-28T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "倖存者偏差",
+          "職場法則",
+          "HR",
+          "獵頭",
+          "敘事操控",
+          "內捲"
+        ],
+        "en": [
+          "survivorship-bias",
+          "workplace-rules",
+          "hr",
+          "headhunter",
+          "narrative-control",
+          "involution"
+        ]
+      },
+      "keywords": [
+        "倖存者偏差",
+        "六十條法則",
+        "HR",
+        "獵頭",
+        "厚黑學",
+        "裁員",
+        "內捲化",
+        "壓力私有化"
+      ],
+      "summary": "一位 HR 兼獵頭的六十條職場法則，承認制度不獎勵老實人、社會說一套做一套、乾淨的錢不夠用——然後教你在壞制度裏站對邊。當倖存者教你生存，他教的不是怎樣活，而是怎樣被逼得體面一點。",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "每一句都是真話：一堂 AI 影片課的成本帳",
       "slug": "/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3",
       "title": "每一句都是真話：一堂 AI 影片課的成本帳",
@@ -1740,6 +1782,48 @@
       "series": null
     },
     {
+      "id": "倖存者教你生存",
+      "slug": "/docs/TechNotes/%E5%80%96%E5%AD%98%E8%80%85%E6%95%99%E4%BD%A0%E7%94%9F%E5%AD%98",
+      "title": "倖存者教你生存",
+      "date": "2026-09-28T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "倖存者偏差",
+          "職場法則",
+          "HR",
+          "獵頭",
+          "敘事操控",
+          "內捲"
+        ],
+        "en": [
+          "survivorship-bias",
+          "workplace-rules",
+          "hr",
+          "headhunter",
+          "narrative-control",
+          "involution"
+        ]
+      },
+      "keywords": [
+        "倖存者偏差",
+        "六十條法則",
+        "HR",
+        "獵頭",
+        "厚黑學",
+        "裁員",
+        "內捲化",
+        "壓力私有化"
+      ],
+      "summary": "一位 HR 兼獵頭嘅六十條職場法則，承認制度唔獎勵老實人、社會講一套做一套、乾淨嘅錢唔夠用——然後教你喺壞制度入面企啱邊。當倖存者教你生存，佢教嘅唔係點樣活，而係點樣俾人逼得體面啲。",
+      "status": "published",
+      "reading_time": 18,
+      "series": null
+    },
+    {
       "id": "每一句都是真話：一堂 AI 影片課的成本帳",
       "slug": "/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3",
       "title": "每一句都是真話：一堂 AI 影片課的成本帳",
@@ -3437,6 +3521,48 @@
       "summary": "Starting from a Facebook post, this article draws on firsthand FAE experience to dissect the reality behind the 'Forward Deployed Engineer' role: it's not a groundbreaking new species, but old roles repackaged. The real question isn't whether machines will replace people, but who captures the efficiency gains and who bears the cost.",
       "status": "published",
       "reading_time": 15,
+      "series": null
+    },
+    {
+      "id": "倖存者教你生存",
+      "slug": "/docs/TechNotes/%E5%80%96%E5%AD%98%E8%80%85%E6%95%99%E4%BD%A0%E7%94%9F%E5%AD%98",
+      "title": "The Survivor Teaches You to Survive",
+      "date": "2026-09-28T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-labor",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "倖存者偏差",
+          "職場法則",
+          "HR",
+          "獵頭",
+          "敘事操控",
+          "內捲"
+        ],
+        "en": [
+          "survivorship-bias",
+          "workplace-rules",
+          "hr",
+          "headhunter",
+          "narrative-control",
+          "involution"
+        ]
+      },
+      "keywords": [
+        "survivorship bias",
+        "sixty rules",
+        "HR",
+        "headhunter",
+        "thick black theory",
+        "layoffs",
+        "involution",
+        "privatization of stress"
+      ],
+      "summary": "An HR professional turned headhunter distills sixty workplace survival rules that acknowledge the system doesn't reward honest people, society says one thing and does another, and clean money is never enough—then teaches you to pick the right side in a broken system. When the survivor teaches you to survive, what he's really teaching is how to be crushed with a little more dignity.",
+      "status": "published",
+      "reading_time": 18,
       "series": null
     },
     {

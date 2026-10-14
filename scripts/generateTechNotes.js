@@ -74,11 +74,11 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
 
   // Sort by date descending, or by sidebar_position
   outputData[locale].sort((a, b) => {
-    // If date exists, sort descending
-    if (a.date && b.date) {
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    const timeA = a.date ? new Date(a.date).getTime() : 0;
+    const timeB = b.date ? new Date(b.date).getTime() : 0;
+    if (timeA !== timeB) {
+      return timeB - timeA;
     }
-    // Fallback to sidebar position if available
     if (a.sidebar_position !== undefined && b.sidebar_position !== undefined) {
       return a.sidebar_position - b.sidebar_position;
     }

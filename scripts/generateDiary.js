@@ -27,6 +27,17 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
   const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
   
   for (const file of files) {
+    if (file === 'index.mdx' || file === 'index.md') continue;
+
+    // Skip orphan i18n files that have no counterpart in default locale docs/
+    if (locale !== 'zh-Hant') {
+      const defaultLocalePath = path.join(projectRoot, targetDirs['zh-Hant'], file);
+      if (!fs.existsSync(defaultLocalePath)) {
+        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${file}`);
+        continue;
+      }
+    }
+
     const filePath = path.join(dirPath, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     const parsed = matter(content);
@@ -49,7 +60,8 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         lang: parsed.data.lang || locale,
         section: parsed.data.section || 'freewrite',
         topic: parsed.data.topic || '',
-        tags: parsed.data.article_tags || {},
+        category: parsed.data.category || '',
+        tags: parsed.data.article_tags || parsed.data.tags || {},
         keywords: parsed.data.keywords || [],
         summary: parsed.data.summary || '',
         status: parsed.data.status || 'draft',
@@ -61,11 +73,11 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
 
   // Sort by date descending, or by sidebar_position
   outputData[locale].sort((a, b) => {
-    // If date exists, sort descending
-    if (a.date && b.date) {
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    const timeA = a.date ? new Date(a.date).getTime() : 0;
+    const timeB = b.date ? new Date(b.date).getTime() : 0;
+    if (timeA !== timeB) {
+      return timeB - timeA;
     }
-    // Fallback to sidebar position if available
     if (a.sidebar_position !== undefined && b.sidebar_position !== undefined) {
       return a.sidebar_position - b.sidebar_position;
     }

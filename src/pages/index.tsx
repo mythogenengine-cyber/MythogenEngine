@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield, Briefcase, Building2, TrendingDown } from 'lucide-react';
+import RecentUpdates from '@site/src/components/RecentUpdates';
 
 function HeroSection() {
   const { i18n } = useDocusaurusContext();
@@ -437,6 +438,7 @@ export default function Home() {
       description="Refining the intersection of AI and speculative fiction.">
       <main>
         <HeroSection />
+        <RecentUpdates />
         <CategoryCards />
       </main>
     </Layout>

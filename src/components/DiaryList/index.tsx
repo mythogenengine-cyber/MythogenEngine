@@ -63,8 +63,15 @@ export default function DiaryList() {
     });
   }, [articles, searchQuery, activeFilter, tagLang, sortOrder]);
 
-  // Determine featured (we just use the first item that matches, or just the very first item overall)
-  const featuredArticle = articles.length > 0 && searchQuery === '' && activeFilter === 'ALL' ? articles[0] : null;
+  // Determine featured: latest published article with a date, only when no search and ALL filter
+  const featuredArticle = useMemo(() => {
+    if (searchQuery !== '' || activeFilter !== 'ALL') return null;
+
+    const published = articles.filter(a => a.status === 'published' && a.date);
+    if (published.length === 0) return articles[0] || null;
+
+    return [...published].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+  }, [articles, searchQuery, activeFilter]);
   
   // Articles for the grid
   const gridArticles = featuredArticle 

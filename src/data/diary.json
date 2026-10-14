@@ -49,6 +49,43 @@
       "sidebar_position": 0
     },
     {
+      "id": "名偵探柯南 vs 命運石之門",
+      "slug": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80",
+      "title": "名偵探柯南 vs 命運石之門",
+      "date": "2026-10-07T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "freewrite",
+      "topic": "fiction-critique",
+      "tags": {
+        "zh": [
+          "動漫評論",
+          "角色塑造",
+          "敘事結構",
+          "愛情與抉擇",
+          "理論框架批判"
+        ],
+        "en": [
+          "anime-review",
+          "character-writing",
+          "narrative-structure",
+          "love-and-choice",
+          "framework-critique"
+        ]
+      },
+      "keywords": [
+        "名偵探柯南",
+        "命運石之門",
+        "灰原哀",
+        "牧瀨紅莉栖",
+        "岡部倫太郎",
+        "世界線"
+      ],
+      "summary": "零件相同，結構倒轉：一部用時間停止迴避選擇，一部讓選擇真正有代價。談愛情與人心，《命運石之門》細緻、全面、立體得多。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261007
+    },
+    {
       "id": "七日書｜身心靈",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",
       "title": "七日書：身心靈",
@@ -314,6 +351,43 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "名偵探柯南 vs 命運石之門",
+      "slug": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80",
+      "title": "名偵探柯南 vs 命運石之門",
+      "date": "2026-10-07T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "freewrite",
+      "topic": "fiction-critique",
+      "tags": {
+        "zh": [
+          "動漫評論",
+          "角色塑造",
+          "敘事結構",
+          "愛情與抉擇",
+          "理論框架批判"
+        ],
+        "en": [
+          "anime-review",
+          "character-writing",
+          "narrative-structure",
+          "love-and-choice",
+          "framework-critique"
+        ]
+      },
+      "keywords": [
+        "名偵探柯南",
+        "命運石之門",
+        "灰原哀",
+        "牧瀨紅莉栖",
+        "岡部倫太郎",
+        "世界線"
+      ],
+      "summary": "零件相同，結構倒轉：一部用時間停止迴避選擇，一部讓選擇真正有代價。談愛情與人心，《命運石之門》細緻、全面、立體得多。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261007
+    },
     {
       "id": "七日書｜身心靈",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",
@@ -586,6 +660,43 @@
     }
   ],
   "en": [
+    {
+      "id": "名偵探柯南 vs 命運石之門",
+      "slug": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80",
+      "title": "Detective Conan vs Steins;Gate",
+      "date": "2026-10-07T00:00:00.000Z",
+      "lang": "en",
+      "section": "freewrite",
+      "topic": "fiction-critique",
+      "tags": {
+        "zh": [
+          "動漫評論",
+          "角色塑造",
+          "敘事結構",
+          "愛情與抉擇",
+          "理論框架批判"
+        ],
+        "en": [
+          "anime-review",
+          "character-writing",
+          "narrative-structure",
+          "love-and-choice",
+          "framework-critique"
+        ]
+      },
+      "keywords": [
+        "Detective Conan",
+        "Steins;Gate",
+        "Ai Haibara",
+        "Kurisu Makise",
+        "Rintaro Okabe",
+        "World Lines"
+      ],
+      "summary": "Same parts, inverted structure: one story freezes time to avoid a choice; the other makes the choice carry real weight. On love and the inner life, Steins;Gate is far more nuanced, complete, and three-dimensional.",
+      "status": "published",
+      "reading_time": 12,
+      "sidebar_position": 20261007
+    },
     {
       "id": "七日書｜身心靈",
       "slug": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88",

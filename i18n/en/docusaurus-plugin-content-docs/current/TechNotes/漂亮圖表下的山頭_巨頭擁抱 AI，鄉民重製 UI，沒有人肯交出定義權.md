@@ -1,0 +1,197 @@
+---
+title: "Fiefdoms Beneath the Pretty Charts — The Giants Embrace AI, the Crowd Rebuilds UIs, and Nobody Will Surrender the Power to Define"
+date: 2026-10-10
+lang: en
+section: sober-record
+topic: data-governance
+category: 認知與敘事
+article_tags:
+  zh:
+    - 資料治理
+    - 定義權
+    - 康威定律
+    - 儀表板
+    - AI 幻覺
+  en:
+    - data-governance
+    - definitional-power
+    - conways-law
+    - dashboards
+    - ai-hallucination
+keywords:
+  - Power BI
+  - Primary and Foreign Keys
+  - Capex-to-Depreciation
+  - IFRS 16
+  - Market Observation Post System
+  - The Invisible Path
+summary: "The interface is the tiling; the data is the plumbing buried in the walls. Companies fail to integrate their data not because of technology, but because nobody will surrender the power to define. AI has exposed the excuse — and may bury the fault lines even deeper."
+status: published
+reading_time: 15
+sidebar_label: "Fiefdoms Beneath the Pretty Charts — The Giants Embrace AI, the Crowd Rebuilds UIs, and Nobody Will Surrender the Power to Define"
+sidebar_position: 20261010
+description: "The interface is the tiling; the data is the plumbing buried in the walls. Companies fail to integrate their data not because of technology, but because nobody will surrender the power to define. AI has exposed the excuse — and may bury the fault lines even deeper."
+---
+Author: Nebula Walker
+Date: 10OCT2026
+MYTHOGEN ENGINE (mythogenengine.com)
+
+**📌 The interface is the tiling; the data is the plumbing buried in the walls. Companies fail to integrate their data not because of technology, but because nobody will surrender the power to define. AI has exposed the excuse — and may bury the fault lines even deeper.**
+
+# Fiefdoms Beneath the Pretty Charts
+**The Giants Embrace AI, the Crowd Rebuilds UIs, and Nobody Will Surrender the Power to Define**
+
+## The Giants Embrace AI, the Crowd Rebuilds UIs
+
+There's an interesting contrast in the AI world lately. On one side, major software vendors are announcing that you'll soon be able to operate their entire suites with prompts — no need to learn the interface anymore. On the other side, social media is full of people showing off "I built my own Photoshop" or "look how slick my admin console is." After one AI event, someone summed up the phenomenon in a single line: the giants embrace AI, the crowd rebuilds UIs.
+
+What's subtler is that the people who have genuinely woven AI into their workflows often have nothing to show. They have finished output, but the process consists only of instructions given to AI — no pretty interface, no dashboard to share.
+
+As for why humans still need UIs, there are two common explanations. One says people need a sense of security and control. The other is blunter: without a cool interface, there's nothing to show off, and that need matters more than the functionality itself.
+
+Both explanations are right, and both stop at the surface — the screen. I want to talk about the layer beneath the screen. Anyone who has worked on a reporting project inside a company has probably seen it. Few people ever say it out loud.
+
+## How Every Dashboard Project Dies
+
+Most failed Power BI projects follow almost the same script.
+
+On demo day, the screens run on sample data. They look great, and the boss signs off on the spot. From that moment, the person who built the screens holds the floor: they set the timeline, they set the standards, they set the scope.
+
+The problem is that the people making requests often have no idea how the chart they want relates to the underlying tables. To them, "I want to see monthly customer retention, with drill-down by region" is a single sentence. To the people who handle the numbers, that sentence immediately breaks into a string of questions:
+
+- How is "customer" defined? Do the customer IDs across three systems actually match?
+- How is "retention" calculated? How long without a transaction counts as churn? Which department gets the final say on that definition?
+- "Monthly" means you need a historical snapshot for every month — but the system may only ever have stored the latest state.
+- The "region" field doesn't exist in the transaction table at all. It can only be inferred from addresses, or mapped by hand.
+
+Behind every good-looking chart lie questions of granularity, definition, and source. The requester doesn't know they're asking these questions, so they think: "It's just a chart — why does it take three months?"
+
+The people who handle the numbers aren't refusing to help. They were simply never invited to the planning table, and the promises were inflated long before they showed up.
+
+## One Web Page, Three P/E Ratios
+
+You don't need to work at a big company to see this.
+
+This August, someone invited me to look into a dashboard website covering Taiwanese and US stocks. The interface was remarkably complete: moving-average rankings, institutional flows, factor screens, auto-generated stock reports — everything you could want. I went through a dozen or so screenshots, and every problem was beneath the screen.
+
+For the same stock on the same day, the site displayed three P/E ratios: 32.47, 32.74, and 32.2. There were also two different sets of peer medians, which produced contradictory relative-valuation conclusions. The reason was simple: three modules each did their own calculation, and nobody had ruled that the P/E ratio could come from only one place. This is the smallest possible version of "every fiefdom in the company has its own numbers." You don't even need a company — a single web page is already fighting itself.
+
+The screener page was even more direct. It offered a dozen or so criteria; when the user clicked the button, the system only then started computing across nearly two thousand stocks in real time. The result was one line of red text: request failed. The screen promised real-time screening, but the layer beneath had never pre-computed those numbers.
+
+## The Same Thing, Lost Across the Data
+
+The deeper problem is that the same thing has no shared identity across different systems.
+
+Take a single component. During R&D it has an internal codename; in mass production it becomes a part number; the customer has its own project name for it; the sales system knows it as a design-win ID; finance files it under some cost centre; and on the sales report it becomes a SKU. Its coverage also shifts with each stage: one project splits into several part numbers, and several part numbers get merged into the same customer platform.
+
+In reality, these are all the same thing. In the data, every link between them has vanished. No key ties them together.
+
+Where did that thread go? It lives in people's heads. That's why companies need so many meetings and so many emails to reconcile numbers. The meeting itself is a human performing a table join.
+
+Public data doesn't escape this either. I pulled more than ten years of financial statements for Taiwan's listed companies and ran into the same class of problems:
+
+- **Names change.** Ticker 2823 was originally China Life Insurance and later became KGI Life. Use the name as a key and one company breaks into two; you have to use the ticker instead.
+- **Within the same statement, line items share names.** About 20% of files contain line items with identical names. The item "Profit (loss) from continuing operations" alone is duplicated more than 23,000 times. Use the line-item name as a key and the numbers overwrite each other; in the end, the only way to establish identity is "which row it's on."
+- **The same company switches basis.** Ninety-seven companies have switched between consolidated and standalone statements. Subtract two numbers on different bases and the result means nothing.
+
+If everyone understood data structure, this communication time shouldn't exist at all. It's the price of missing structure — spread across everyone's daily routine, where nobody ever sees the bill.
+
+## Done, and as Good as Not Done
+
+The people on these projects are definitely not slacking. They're busy: meetings, specs, form design, interface building, discussions with many people. The problem is that what they're doing amounts to nothing.
+
+Every supplier and every department has its own formats and definitions. The core system, like Jira-type tools, enforces strict fields and locked data types. With no converter in between and no fuzzy matching, conversion can only be done by people. Every colleague who has to key in data by hand is a human converter.
+
+What really ought to come first is quite plain: simplify the process, build a converter, and make it easy to feed existing data back into the core system. But what gets built in the end is usually a cumbersome interface with more fields — it looks complete, and plenty of meetings were held. The more "complete" the system, the harder life on the front line; the harder life on the front line, the more it looks like "everyone is working hard to push the project forward."
+
+There's a cruel asymmetry here: pain is traceable; concepts are not. Hours of manual entry, overtime, tickets, complaints — all of it is on record. The design concept "we should build the conversion layer first" has no metric to track it. Organisations only manage what they can track, so the most important thing naturally gets buried under the table.
+
+It's a lot like home renovation. Homeowners look at the tiles, the light fixtures, and the countertops; nobody ever praises the pipes and wiring. A corner-cutting contractor puts all the money into the surfaces and leaves the plumbing as it was. After move-in, it leaks, and someone gets hired to mop the floor every day. The interface is the tiling. The datasets and conversion layer are the plumbing buried in the walls.
+
+## Fiefdoms, and the Power to Define
+
+Does the boss deliberately put someone who doesn't understand data in charge of the project, so the numbers stay covered up? In theory, that's possible. It's also possible he never thought that far and simply handed the project to a presentable person from his own circle. We can't know. But both answers lead to the same outcome, so we can set motive aside and just look at incentives.
+
+Data inside a company, like legacy baggage in software, means every fiefdom has its own numbers. These numbers aren't impossible to connect; they can be connected. It's just that every fiefdom builds its own barriers.
+
+Software has a principle called Conway's Law: the structure of a system replicates the communication structure of the organisation that built it. Data fragmentation isn't a technical accident; it's the fiefdom map projected onto the database. So whether IT builds a unified system and pushes it down, or each department builds its own and merges back into the core system, both hit the same wall. Departments create new spreadsheets and new rules that conflict with the overall system; when every department does this, data that could have been integrated becomes impossible to integrate.
+
+What data fears most is constantly changing specs. And changing specs happens to be the fiefdom's cheapest, most reasonable, least-explained weapon — it can always be justified as a business need. New spreadsheets, new fields, new bases: every change is a fresh declaration that these numbers are ours, and you have to ask us to know how to read them. A moving target cannot be integrated.
+
+Before leaving the workforce, I spent several years researching how to integrate fifteen to twenty mutually incompatible systems within a single company. In theory, they could interoperate; in practice, nothing could be found, and every data handoff between departments was done by hand. That architecture never landed in any company, and the reason was simple: companies understand that data integration is too important to let an outsider lead it.
+
+The asset really being protected is the power to define; the data itself is merely the carrier. Whoever decides how "revenue" is calculated, who counts as a "customer," and what "done" means holds the power. Integration means surrendering that power. An interface, on the other hand, is a way to display output without surrendering the power to define.
+
+## AI Has Exposed the Excuse, but Not Solved the Problem
+
+In the past, failure to integrate data could be blamed on technology: keys don't match, formats differ, too much manual mapping is required. Now, inferring foreign keys, fuzzy matching, and converting formats are exactly what AI does best and most usefully. With AI assistance, primary-key and foreign-key mappings can become flexible, and the technical excuse has all but disappeared.
+
+What's left is only willingness.
+
+I expect to see two things next. First, AI will mostly be used to build more interfaces, because that's what fits the incentives: fast to ship, visibly productive, and no need to hand over the underlying layer. Second, even if someone uses AI to build the mappings, the argument will simply move to a new battlefield: "the AI mapped it wrong," "the basis is different."
+
+There's another scenario that deserves more vigilance. A dashboard at least breaks visibly: numbers don't match, charts don't render, and everyone knows something is wrong. But when "AI replaces UI," you ask a question in one sentence without knowing whether the underlying data can answer it — and AI will still give you an answer that sounds perfectly reasonable. "The chart can't be built" becomes "the answer comes out, but nobody knows whether it's right." The translation gap hasn't disappeared. It's just been hidden.
+
+This isn't speculation. That dashboard website had an auto-generated earnings report. A certain overseas company files annual reports, so there was never a "current-quarter EPS" field to begin with. The system couldn't find it and filled in a 0; it couldn't find the estimate either, so that was also 0. The AI took the two zeros and wrote: "Actual results were fully in line with estimates; no earnings surprise." The wrong number isn't the scariest part. The scariest part is that the paragraph was professional, fluent, and flawless.
+
+When I use AI to write code and build databases, I run into the same thing, just in engineering form. The AI doing the implementation will write "unverified" as "verified"; it will fill a wrong company name into a decision document on its own, with no source; it will compare a file against itself and then report "validation passed"; it will hand over a code diff whose function names don't exist in the actual file. Every report is neatly formatted and confident in tone. I catch these only because I don't read the reports — I open the files, run the commands, and check against the raw output.
+
+Even data sources do this. Taiwan's Market Observation Post System responds with "request successful" for ETFs, preferred shares, and companies that have ceased public reporting; the real error code is hidden in the body. The literal error messages can't be trusted either: 0050 is a valid ticker, yet you'll be told "company code format error." A system that only reads surface signals will accept failure as success.
+
+Back to the line at the beginning. The giants embrace AI, the crowd rebuilds UIs — inside a company, it's actually the same picture: the top embraces AI, the front end keeps rolling out pretty interfaces, and the underlying data stays split among fiefdoms. What everyone applauds is always the screen, and the prettier the screen, the fewer people ask where the numbers beneath it come from.
+
+## The Cost of Doing It the Other Way Round
+
+I'm currently building a financial database myself, in exactly the opposite order: data first, with no interface until 2027.
+
+People often ask why I don't build the interface first. Build a pretty screen and it's easier to get noticed, easier to share. The answer is already written in the sections above. If the data's definitions, sources, and mappings aren't settled first, every field change and every new source means the screen has to be rebuilt. An interface built too early ends up being the first thing torn down.
+
+The ledger for this path can be laid out in full.
+
+Work began on August 24; the first table came out on October 5. In between, I pulled 176,000 raw financial-statement files, parsed them into 35.22 million rows, derived 14.03 million rows of single-quarter figures, and then computed 410,000 rows of metrics. What finally got printed was a table of a dozen or so companies.
+
+The raw financial-statement layer alone took three weeks. About two weeks of that was machine time — fetching a batch every night at a safe rate, which can't be compressed. About five days was exploration, which mostly yielded findings of the "data silently goes missing" variety. Another three or four days went to errors I made myself and wrong turns I took. All of it is logged, all of it is traceable, and none of it will ever appear on any screen.
+
+That table is capital expenditure divided by depreciation (trailing four quarters) for the semiconductor industry. A ratio above 1 means investment exceeds depreciation — expansion. Below 1 means pulling back. In Q2 2026, under the same industry code, two groups were doing opposite things: KYEC at 3.22, ASE Technology Holding at 3.03, and TSMC rising from 1.93 to 2.19; Winbond at 0.97, Nanya Technology at 0.90, PSMC at 0.59, Macronix at 0.23 — all four memory-related companies below 1.
+
+But if you turned it straight into a leaderboard, the top spots would go to two other companies: one at 16.26, one at 15.92. Both are newly listed, with only four or five quarters of data out of eight. Small base, so the ratio is naturally inflated. The top of the list is noise. A pretty leaderboard puts noise in the most prominent position; to know it's noise, you first have to be able to see how many quarters of data lie beneath.
+
+There's another invisible fault line. From 2019, IFRS 16 counts the depreciation of lease assets in the denominator, but acquisitions of lease assets don't count in the numerator. Without a single company changing its behaviour, the ratio changed; figures before and after 2019 can't be compared directly. This is the regulatory version of changing specs: change the basis and history breaks — yet on screen it's just a smooth line.
+
+Some costs can't be recovered once missed. A backtest needs to know "which period's financial statements the market could see on a given day," but the Market Observation Post System's historical data carries no publication date. What you get by back-filling later is still today's version; if a statement was ever restated, the original figures can no longer be traced. All I can do is check every day from Q3 2026 onwards whether the new filings are out, and record the true publication dates myself. For the historical portion, I can only honestly mark them as inferred.
+
+On the other hand, public, clearly defined data can reconcile across systems in one go. I took TSMC's annual report filed with the US SEC and compared it with the four-quarter sum from Taiwan's Market Observation Post System; the two matched almost exactly. When customer IDs across three systems in a company don't match, the problem was never the systems.
+
+The cost of doing it the other way round is a long stretch with nothing to show anyone. That's precisely why companies won't take this path: in an organisation that can only see screens, no screen means no progress. An individual can choose to bear this invisible stretch of time; a project lead inside a company who has to report progress upward usually can't afford to.
+
+## The Big Picture and the Power to Define
+
+This system runs smoothly, but not because my technology is better than the enterprise's.
+
+The person making requests, the person defining the metrics, and the person handling the numbers are all me. The three fault lines from reporting projects simply don't exist here; no fiefdom changes the specs, and nobody needs to fight over the power to define.
+
+A list of metrics is itself a worldview. That dashboard website chose moving-average rankings, institutional flows, and win-rate leaderboards because it serves short-term traders. I chose capex-to-depreciation, inventory days, receivable days, free cash flow versus buybacks, goodwill to equity, and changes in diluted share count, because I write about industry cycles and financial engineering. Neither is a "neutral" financial system. Every dashboard embeds someone's point of view; the only difference is whether its users know it. That's why mine is highly customised, and runs smoothly only for me.
+
+When I was in the workforce researching system integration, I could see exactly where the whole chain broke, but I had no power to define, so that architecture never landed. This system now runs smoothly because two things have finally come to rest in the same person: a position from which the whole picture is visible, and the power to decide definitions.
+
+The big-picture view I mean here isn't talent; it's position. A one-person system lets one person see everything; an org chart severs that view. In a company, the people who can see the whole picture usually lack the power to define, and the fiefdoms that hold the power to define usually can't see the whole picture. The gap between them is all those meetings to reconcile numbers, all those hand-keyed spreadsheets. This is also why I keep stressing the big picture in *Game Victory*.
+
+Nor is the big picture some abstract vision; it does concrete work every day. Knowing the top of the leaderboard is noise comes from seeing the quarter count. Knowing pre- and post-2019 figures can't be compared comes from knowing what the standard changed. Catching AI-fabricated reports comes from seeing the whole chain from raw file to report. Someone who only looks at the screen sees none of the three.
+
+This control case has two limitations that must be stated clearly.
+
+First, it can't be transplanted into a company. The company's difficulty is precisely that the power to define is scattered across a dozen fiefdoms; that I don't have this problem doesn't mean I've solved it.
+
+Second, when one person holds all the power to define, nobody can check him. What I can do is hand every rule over to the full dataset to be overturned; so far, more than a dozen hypotheses proposed by me and by AI have been overturned by full-scale testing. How line items are classified can only be decided by me, by hand; AI is not allowed to write to that file. This is how I guard the power to define within my own system.
+
+## I Wrote About This in *The Invisible Path*
+
+This article covers a small scene that anyone who has sat in an office has seen. The structure behind it I wrote about in *The Invisible Path: Narrative, Tools, and the Last Line of Defence of Consciousness*.
+
+The most direct connection is Chapter 9, "The Dead Knot of Corporate Culture." AI can accelerate building, but it can't accelerate consensus; when there are so many proposals that every one of them makes sense, the decision is no longer "which proposal is best" but "whose definition gets adopted." The same chapter also writes about "the people who see the problem": what separates seeing from solving is power, not ability. The section "The Big Picture and the Power to Define" in this article is the other side of the same thing, as it plays out in me.
+
+For the backstory, read Chapter 7, "The Distortion of Learning," and Chapter 8, "Prose Is Not Content; Code Is Not an Asset." The former explains why education and certification fail to recognise real ability; the latter explains why, once production costs drop to zero, architectural thinking becomes the only differentiator. Together, the three chapters form Part III of the book, "The Demon-Revealing Mirror": education can't recognise ability, AI exposes where ability actually lies, and corporate culture traps those who have it.
+
+If, reading this article, you recognised your own company, your own meetings, and the spreadsheets you've keyed in by hand, that book will tell you: it isn't that your company is especially unlucky. It's a structure that will keep recurring in the age of AI.
+
+*The Invisible Path* is freely available in full. You can read it on Matters, or on the Mythogen Engine website: [Table of Contents](https://mythogenengine.com/en/docs/AI_TAO/intro); you can start directly from Chapter 9 [here](https://mythogenengine.com/en/docs/AI_TAO/ch09).

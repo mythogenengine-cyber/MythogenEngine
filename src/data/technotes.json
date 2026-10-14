@@ -1,6 +1,45 @@
 {
   "zh-Hant": [
     {
+      "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
+      "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",
+      "title": "漂亮圖表下的山頭——巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
+      "date": "2026-10-10T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "data-governance",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "資料治理",
+          "定義權",
+          "康威定律",
+          "儀表板",
+          "AI 幻覺"
+        ],
+        "en": [
+          "data-governance",
+          "definitional-power",
+          "conways-law",
+          "dashboards",
+          "ai-hallucination"
+        ]
+      },
+      "keywords": [
+        "Power BI",
+        "主鍵與外鍵",
+        "資本支出對折舊",
+        "IFRS 16",
+        "公開資訊觀測站",
+        "大道無形"
+      ],
+      "summary": "介面是磁磚，資料是埋在牆裡的管線。企業整合不了資料，問題從來不在技術，而在沒有人肯交出定義權；AI 拆穿了藉口，卻可能把斷層藏得更深。",
+      "status": "published",
+      "reading_time": 13,
+      "sidebar_position": 20261010,
+      "series": null
+    },
+    {
       "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
       "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
       "title": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
@@ -1742,6 +1781,45 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
+      "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",
+      "title": "漂亮圖表下的山頭——巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
+      "date": "2026-10-10T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "data-governance",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "資料治理",
+          "定義權",
+          "康威定律",
+          "儀表板",
+          "AI 幻覺"
+        ],
+        "en": [
+          "data-governance",
+          "definitional-power",
+          "conways-law",
+          "dashboards",
+          "ai-hallucination"
+        ]
+      },
+      "keywords": [
+        "Power BI",
+        "主鍵與外鍵",
+        "資本支出對折舊",
+        "IFRS 16",
+        "公開資訊觀測站",
+        "大道無形"
+      ],
+      "summary": "介面是磁磚，資料是埋在牆裡的管線。企業整合不了資料，問題從來不在技術，而在沒有人肯交出定義權；AI 拆穿了藉口，卻可能把斷層藏得更深。",
+      "status": "published",
+      "reading_time": 13,
+      "sidebar_position": 20261010,
+      "series": null
+    },
     {
       "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
       "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
@@ -3485,6 +3563,45 @@
     }
   ],
   "en": [
+    {
+      "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
+      "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",
+      "title": "Fiefdoms Beneath the Pretty Charts — The Giants Embrace AI, the Crowd Rebuilds UIs, and Nobody Will Surrender the Power to Define",
+      "date": "2026-10-10T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "data-governance",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "資料治理",
+          "定義權",
+          "康威定律",
+          "儀表板",
+          "AI 幻覺"
+        ],
+        "en": [
+          "data-governance",
+          "definitional-power",
+          "conways-law",
+          "dashboards",
+          "ai-hallucination"
+        ]
+      },
+      "keywords": [
+        "Power BI",
+        "Primary and Foreign Keys",
+        "Capex-to-Depreciation",
+        "IFRS 16",
+        "Market Observation Post System",
+        "The Invisible Path"
+      ],
+      "summary": "The interface is the tiling; the data is the plumbing buried in the walls. Companies fail to integrate their data not because of technology, but because nobody will surrender the power to define. AI has exposed the excuse — and may bury the fault lines even deeper.",
+      "status": "published",
+      "reading_time": 15,
+      "sidebar_position": 20261010,
+      "series": null
+    },
     {
       "id": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
       "slug": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",

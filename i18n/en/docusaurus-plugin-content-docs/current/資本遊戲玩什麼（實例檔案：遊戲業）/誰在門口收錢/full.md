@@ -1618,11 +1618,7 @@ Whether they take part or not, there is at least one thing I hope they remember:
 
 Very often, the answer has already been given three times. It's just that no one heard it.
 
----
 
-# Notes
-
-### Chapter 1: What Financialization Cuts Is Not R&D, but the Word "No"
 
 [^1-1]: FASB, ASC 730-10-50-1 (disclosure of total R&D costs for each period); ASC 730-10-55-2 (activities that are not R&D, including routine improvements, troubleshooting, and adapting existing capability for a customer). Text quoted in Internal Revenue Service, ["FAQs – IRC 41 QREs and ASC 730 LB&I Directive"](https://www.irs.gov/node/89971).
 [^1-2]: William Lazonick, "Profits Without Prosperity," *Harvard Business Review*, September 2014.
@@ -1643,8 +1639,6 @@ Very often, the answer has already been given three times. It's just that no one
 [^1-17]: Marco Vivarelli, "Innovation, Employment and Skills in Advanced and Developing Countries: A Survey of Economic Literature," *Journal of Economic Issues*, 48(1), 2014, pp. 123–154.
 [^1-18]: David H. Autor & David Dorn, "The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market," *American Economic Review*, 103(5), 2013, pp. 1553–1597.
 [^1-19]: Daron Acemoglu & Pascual Restrepo, "Automation and New Tasks: How Technology Displaces and Reinstates Labor," *Journal of Economic Perspectives*, 33(2), 2019, pp. 3–30.
-
-### Chapter 2: Maxim's
 
 [^2-1]: [Hong Kong Internet Encyclopedia (香港網絡大典), "Chua Lam" (蔡瀾), entry on "the biscuit tastes of biscuit"](https://evchk.fandom.com/zh/wiki/%E8%94%A1%E7%80%BE) [in Chinese].
 [^2-2]: [Aha Moment, "Chicken Tastes of Chicken: Just a Joke?" (〈雞有雞味，只是笑話一句？〉), 2021](https://www.ahamomenthk.com/%E9%9B%9E%E6%9C%89%E9%9B%9E%E5%91%B3%EF%BC%8C%E5%8F%AA%E6%98%AF%E7%AC%91%E8%A9%B1%E4%B8%80%E5%8F%A5%EF%BC%9F/) [in Chinese].
@@ -1676,8 +1670,6 @@ Very often, the answer has already been given three times. It's just that no one
 [^2-28]: [Commercial Times (工商時報), "Reports of a Wave of Xibei Closures," January 15, 2026](https://www.ctee.com.tw/news/20260115701589-430804) [in Chinese].
 [^2-29]: Daniel Pauly, "Anecdotes and the Shifting Baseline Syndrome of Fisheries," *Trends in Ecology & Evolution*, 10(10), 1995, p. 430.
 
-### Chapter 3: Every Exit Charges the Same Entry Fee, and It Is Called a Floor
-
 [^3-1]: Bryan Caplan, *The Case against Education: Why the Education System Is a Waste of Time and Money*, Princeton University Press, 2018.
 [^3-2]: Randall Collins, *The Credential Society: An Historical Sociology of Education and Stratification*, Academic Press, 1979.
 [^3-3]: Fred Hirsch, *Social Limits to Growth*, Harvard University Press, 1976.
@@ -1690,8 +1682,6 @@ Very often, the answer has already been given three times. It's just that no one
 [^3-10]: Kenichi Ohmae (大前研一), *Low-Desire Society* (『低欲望社会』), Japanese original 2016. [Publication details to be checked]
 [^3-11]: Japan Policy Council, Subcommittee on Population Decline (chaired by Hiroya Masuda), "Stop the Declining Birthrate: A Strategy for Revitalizing the Regions" (「ストップ少子化・地方元気戦略」), May 2014.
 
-### Chapter 4: Ten Lunch Boxes, a Hundred Students
-
 [^4-1]: Raymond J. Deneckere & R. Preston McAfee, "Damaged Goods," *Journal of Economics & Management Strategy*, 5(2), 1996.
 [^4-2]: Michael J. Sandel, *What Money Can't Buy: The Moral Limits of Markets*, Farrar, Straus and Giroux, 2012, Chapter 1, "Jumping the Queue." Taiwanese Chinese edition: 《錢買不到的東西：金錢與正義的攻防》. [Chinese edition details to be checked]
 [^4-3]: EVA Air, "Infinity MileageLands Diamond Card Member Privileges," https://www.evaair.com/zh-tw/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/membership-benefit/diamond-card/ (accessed October 2026) [in Chinese].
@@ -1700,11 +1690,7 @@ Very often, the answer has already been given three times. It's just that no one
 [^4-6]: Anatole France, *Le Lys rouge* (*The Red Lily*), 1894.
 [^4-7]: *Night King* (《夜王》), directed by Ng Wai-lun (吳煒倫), starring Dayo Wong and Sammi Cheng, 2026. The dialogue is paraphrased by the author, not quoted verbatim.
 
-### Chapter 5: You Didn't Meet a Villain, You Met a Structure With No Money to Share
-
 [^5-1]: *CommonWealth Magazine* (《天下雜誌》), translated workplace article (original from CNBC and Inc.), October 2026. Quotations follow the version accessed on October 4, 2026. [Title, link and original source to be added]
-
-### Chapter 6: How to Lie With Statistics
 
 [^6-1]: Darrell Huff, *How to Lie with Statistics*, W. W. Norton, 1954. Taiwanese translations: [《統計操控的真相與謊言》, trans. Wen Yi-chun (聞翊均), Lohas Culture (樂金文化), 2024](https://www.books.com.tw/products/0010982774); [《別讓統計數字騙了你》, trans. Cheng Wei-hou (鄭惟厚), CommonWealth Publishing (天下文化), 2005](https://www.taaze.tw/products/11100033687.html). Mainland Chinese translation: [《統計數字會撒謊》, trans. Liao Yinglin (廖穎林), China City Press, 2009](https://book.douban.com/subject/3595095/).
 [^6-2]: Peverill Squire, "Why the 1936 Literary Digest Poll Failed," *Public Opinion Quarterly*, 52(1), 1988, pp. 125–133.
@@ -1714,13 +1700,9 @@ Very often, the answer has already been given three times. It's just that no one
 [^6-6]: Tim Harford, ["Cigarettes, Damn Cigarettes and Statistics,"](https://timharford.com/2015/04/cigarettes-damn-cigarettes-and-statistics/) April 2015.
 [^6-7]: Bertram R. Forer, "The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility," *Journal of Abnormal and Social Psychology*, 44(1), 1949, pp. 118–123.
 
-### Chapter 7: Psychological Manhunt: The Answer Was Given Three Times, and No One Heard It
-
 [^7-1]: Cheung Wai-man (張慧敏, "Sister Son"), *Conversations with Son* (《與Son對話》), interview with Theresa Fu Po-yee (傅寶誼), YouTube, premiered September 29, 2026. Quotations in this chapter follow the episode transcript; translations from Cantonese are the author's. [Episode number and link to be added]
 [^7-2]: [Criminal Code of the Republic of China (Taiwan), Article 57, Laws & Regulations Database of the Republic of China](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0000001&flno=57) [in Chinese].
 [^7-3]: [Nebula Walker (星忘塵), "Survivors Teach You to Survive" (〈倖存者教你生存〉), Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E5%80%96%E5%AD%98%E8%80%85%E6%95%99%E4%BD%A0%E7%94%9F%E5%AD%98) [in Chinese], September 28, 2026.
-
-### Chapter 8: Who Bought the Mainstream
 
 [^8-1]: [Nebula Walker (星忘塵), "The Efficiency Trap: When Everyone Is Learning AI, Who Is Creating New Demand?" (〈效率陷阱：當所有人都在學AI，誰在創造新需求？〉), Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI) [in Chinese], June 27, 2026.
 [^8-2]: [Nebula Walker (星忘塵), "Every Sentence Is True: The Cost Ledger of an AI Video Course" (〈每一句都是真話：一堂 AI 影片課的成本帳〉), Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3) [in Chinese], September 24, 2026.
@@ -1729,8 +1711,6 @@ Very often, the answer has already been given three times. It's just that no one
 [^8-5]: [iThome, "Meta Launches Paid Subscription Service Meta Verified," February 21, 2023](https://www.ithome.com.tw/news/155599) [in Chinese].
 [^8-6]: [Ministry of Labor (Taiwan), "I Want to Take Vocational Training" (training for employed workers: Industrial Talent Investment Program)](https://www.mol.gov.tw/1607/28690/87707/) [in Chinese].
 [^8-7]: [Nebula Walker (星忘塵), "The Efficiency Trap: Sequel — You Think You Won" (〈效率陷阱・續章：你以為你贏了〉), Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86) [in Chinese], July 28, 2026.
-
-### Chapter 9: One Bridge Apart
 
 [^9-1]: Tingdian Studio (停電工作室), ["Has the Myth of Taiwan's Young 'Micro-Entrepreneurs' Collapsed?" (〈台灣年輕人的「微創業」神話破滅？〉)](https://www.youtube.com/watch?v=YQf7xD5zytA), YouTube, October 2026 [in Chinese].
 [^9-2]: Ah Ju (阿豬), ["How to Teach Your Kids to Survive in the Age of AI" (〈點樣教仔女喺AI時代生存〉)](https://www.youtube.com/watch?v=yJarS3nXxGs), YouTube, October 2026 [in Cantonese].

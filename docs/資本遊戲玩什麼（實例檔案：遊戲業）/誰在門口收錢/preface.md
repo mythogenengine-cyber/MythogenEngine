@@ -7,7 +7,9 @@ description: "假設在2026年10月的某一天，你打開手機，看到四則
 keywords: ["誰在門口收錢", "金融化", "星忘塵"]
 ---
 
-> [誰在門口收錢](/who-collects-at-the-door) · [📖 返回目錄](/who-collects-at-the-door#章節目錄--table-of-contents) · [📖 單頁完整版](/who-collects-at-the-door/full)
+[📖 誰在門口收錢](./INFO_PAGE.md) ｜ [📖 單頁完整版](./full.md)
+
+---
 
 # 序　結構不需要壞人
 
@@ -69,8 +71,6 @@ keywords: ["誰在門口收錢", "金融化", "星忘塵"]
 
 ---
 
-<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem", margin: "2rem 0"}}>
-  <span />
-  <a href="/who-collects-at-the-door" className="button button--outline button--primary button--sm">📖 返回目錄</a>
-  <a href="ch01.md" className="button button--secondary button--sm">第一章　金融化裁走的不是研發，是「不行」這個字 →</a>
-</div>
+|  | [📖 返回目錄](./INFO_PAGE.md) | [第一章　金融化裁走的不是研發，是「不行」這個字 →](./ch01.md) |
+| :--- | :---: | ---: |
+

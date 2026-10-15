@@ -7,7 +7,9 @@ description: "回看這本書，九章裡的人處境各不相同。"
 keywords: ["誰在門口收錢", "金融化", "星忘塵"]
 ---
 
-> [誰在門口收錢](/who-collects-at-the-door) · [📖 返回目錄](/who-collects-at-the-door#章節目錄--table-of-contents) · [📖 單頁完整版](/who-collects-at-the-door/full)
+[📖 誰在門口收錢](./INFO_PAGE.md) ｜ [📖 單頁完整版](./full.md)
+
+---
 
 # 終章　不是缺陷
 
@@ -81,8 +83,6 @@ keywords: ["誰在門口收錢", "金融化", "星忘塵"]
 
 ---
 
-<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem", margin: "2rem 0"}}>
-  <a href="ch09.md" className="button button--secondary button--sm">← 第九章　一橋之隔</a>
-  <a href="/who-collects-at-the-door" className="button button--outline button--primary button--sm">📖 返回目錄</a>
-  <span />
-</div>
+| [← 第九章　一橋之隔](./ch09.md) | [📖 返回目錄](./INFO_PAGE.md) |  |
+| :--- | :---: | ---: |
+

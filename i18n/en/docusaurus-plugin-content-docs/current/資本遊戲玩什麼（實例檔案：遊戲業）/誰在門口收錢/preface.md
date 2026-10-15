@@ -7,7 +7,9 @@ description: "Imagine that one day in October 2026 you pick up your phone and se
 keywords: ["Who's Collecting at the Door", "financialization", "Nebula Walker"]
 ---
 
-> [Who's Collecting at the Door](/who-collects-at-the-door) · [📖 Back to Contents](/who-collects-at-the-door#章節目錄--table-of-contents) · [📖 Full Edition](/who-collects-at-the-door/full)
+[📖 Who's Collecting at the Door](./INFO_PAGE.md) ｜ [📖 Full Edition](./full.md)
+
+---
 
 # Preface: Structures Don't Need Villains
 
@@ -69,8 +71,6 @@ The title comes from a question in Chapter 9: whichever exit you take, who is st
 
 ---
 
-<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem", margin: "2rem 0"}}>
-  <span />
-  <a href="/who-collects-at-the-door" className="button button--outline button--primary button--sm">📖 Back to Contents</a>
-  <a href="ch01.md" className="button button--secondary button--sm">Chapter 1: What Financialization Cuts Is Not R&D, but the Word "No" →</a>
-</div>
+|  | [📖 Back to Contents](./INFO_PAGE.md) | [Chapter 1: What Financialization Cuts Is Not R&D, but the Word "No" →](./ch01.md) |
+| :--- | :---: | ---: |
+

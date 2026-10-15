@@ -1618,11 +1618,7 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 
 很多時候，答案已經講了三次。只是沒有人聽見。
 
----
 
-# 全書注釋
-
-### 第一章　金融化裁走的不是研發，是「不行」這個字
 
 [^1-1]: FASB, ASC 730-10-50-1（揭露每期研發費用總額）；ASC 730-10-55-2（不屬研發的活動，包括例行改良、排除故障、為客戶調整既有能力）。條文引述見美國國稅局，["FAQs – IRC 41 QREs and ASC 730 LB&I Directive"](https://www.irs.gov/node/89971)。
 [^1-2]: William Lazonick, "Profits Without Prosperity," *Harvard Business Review*, September 2014.
@@ -1643,8 +1639,6 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^1-17]: Marco Vivarelli, "Innovation, Employment and Skills in Advanced and Developing Countries: A Survey of Economic Literature," *Journal of Economic Issues*, 48(1), 2014, pp. 123–154.
 [^1-18]: David H. Autor & David Dorn, "The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market," *American Economic Review*, 103(5), 2013, pp. 1553–1597.
 [^1-19]: Daron Acemoglu & Pascual Restrepo, "Automation and New Tasks: How Technology Displaces and Reinstates Labor," *Journal of Economic Perspectives*, 33(2), 2019, pp. 3–30.
-
-### 第二章　美心
 
 [^2-1]: [香港網絡大典：〈蔡瀾〉（「食餅有餅味」條）](https://evchk.fandom.com/zh/wiki/%E8%94%A1%E7%80%BE)。
 [^2-2]: [Aha Moment：〈雞有雞味，只是笑話一句？〉，2021年](https://www.ahamomenthk.com/%E9%9B%9E%E6%9C%89%E9%9B%9E%E5%91%B3%EF%BC%8C%E5%8F%AA%E6%98%AF%E7%AC%91%E8%A9%B1%E4%B8%80%E5%8F%A5%EF%BC%9F/)。
@@ -1676,8 +1670,6 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^2-28]: [工商時報：〈網傳西貝爆關店潮〉，2026年1月15日](https://www.ctee.com.tw/news/20260115701589-430804)。
 [^2-29]: Daniel Pauly, "Anecdotes and the Shifting Baseline Syndrome of Fisheries," *Trends in Ecology & Evolution*, 10(10), 1995, p. 430.
 
-### 第三章　每一條出路，入場費都叫做「底」
-
 [^3-1]: Bryan Caplan, *The Case against Education: Why the Education System Is a Waste of Time and Money*, Princeton University Press, 2018.
 [^3-2]: Randall Collins, *The Credential Society: An Historical Sociology of Education and Stratification*, Academic Press, 1979.
 [^3-3]: Fred Hirsch, *Social Limits to Growth*, Harvard University Press, 1976.
@@ -1690,8 +1682,6 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^3-10]: 大前研一，《低欲望社會》，日文原著2016年。（待核出版資料）
 [^3-11]: 日本創成會議人口減少問題檢討分科會（增田寬也主持），〈ストップ少子化・地方元気戦略〉，2014年5月。
 
-### 第四章　十個便當，一百個學生
-
 [^4-1]: Raymond J. Deneckere & R. Preston McAfee, "Damaged Goods," *Journal of Economics & Management Strategy*, 5(2), 1996.
 [^4-2]: Michael J. Sandel, *What Money Can't Buy: The Moral Limits of Markets*, Farrar, Straus and Giroux, 2012。第一章〈插隊〉（Jumping the Queue）。台灣中譯本《錢買不到的東西：金錢與正義的攻防》。（待核中譯本出版資料）
 [^4-3]: 長榮航空，〈無限萬哩遊鑽石卡會員禮遇〉，https://www.evaair.com/zh-tw/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/membership-benefit/diamond-card/ （2026年10月查閱）
@@ -1700,11 +1690,7 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^4-6]: Anatole France, *Le Lys rouge*（《紅百合》），1894。
 [^4-7]: 《夜王》，吳煒倫導演，黃子華、鄭秀文主演，2026年。對白為作者轉述，非逐字引用。
 
-### 第五章　你遇到的不是壞人，是一個沒錢可分的結構
-
 [^5-1]: 《天下雜誌》編譯職場文章（原文來自 CNBC 與 Inc），2026年10月。引文依2026年10月4日查閱時的版本。（待補標題、連結與原文出處）
-
-### 第六章　統計數字會撒謊
 
 [^6-1]: Darrell Huff, *How to Lie with Statistics*, W. W. Norton, 1954。台灣譯本：[《統計操控的真相與謊言》，聞翊均譯，樂金文化，2024年](https://www.books.com.tw/products/0010982774)；[《別讓統計數字騙了你》，鄭惟厚譯，天下文化，2005年](https://www.taaze.tw/products/11100033687.html)。中國大陸譯本：[《統計數字會撒謊》，廖穎林譯，中國城市出版社，2009年](https://book.douban.com/subject/3595095/)。
 [^6-2]: Peverill Squire, "Why the 1936 Literary Digest Poll Failed," *Public Opinion Quarterly*, 52(1), 1988, pp. 125–133.
@@ -1714,13 +1700,9 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^6-6]: Tim Harford, ["Cigarettes, Damn Cigarettes and Statistics,"](https://timharford.com/2015/04/cigarettes-damn-cigarettes-and-statistics/) 2015年4月。
 [^6-7]: Bertram R. Forer, "The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility," *Journal of Abnormal and Social Psychology*, 44(1), 1949, pp. 118–123.
 
-### 第七章　心理追兇：答案講了三次，沒有人聽見
-
 [^7-1]: 張慧敏（Son姐），《與Son對話》，傅寶誼訪問，YouTube，2026年9月29日首播。本章引文依節目逐字稿。（待補集數與連結）
 [^7-2]: [《中華民國刑法》第57條，全國法規資料庫](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0000001&flno=57)。
 [^7-3]: [星忘塵，〈倖存者教你生存〉，Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E5%80%96%E5%AD%98%E8%80%85%E6%95%99%E4%BD%A0%E7%94%9F%E5%AD%98)，2026年9月28日。
-
-### 第八章　誰買下了主流
 
 [^8-1]: [星忘塵，〈效率陷阱：當所有人都在學AI，誰在創造新需求？〉，Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E7%95%B6%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%AD%B8AI)，2026年6月27日。
 [^8-2]: [星忘塵，〈每一句都是真話：一堂 AI 影片課的成本帳〉，Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E6%AF%8F%E4%B8%80%E5%8F%A5%E9%83%BD%E6%98%AF%E7%9C%9F%E8%A9%B1%EF%BC%9A%E4%B8%80%E5%A0%82%20AI%20%E5%BD%B1%E7%89%87%E8%AA%B2%E7%9A%84%E6%88%90%E6%9C%AC%E5%B8%B3)，2026年9月24日。
@@ -1729,8 +1711,6 @@ Meta 在2023年2月推出付費的藍勾認證 Meta Verified。按官方說法�
 [^8-5]: [iThome：〈Meta 推出付費訂閱服務 Meta Verified〉，2023年2月21日](https://www.ithome.com.tw/news/155599)。
 [^8-6]: [勞動部：〈我想要參加職業訓練〉（在職勞工訓練：產業人才投資方案）](https://www.mol.gov.tw/1607/28690/87707/)。
 [^8-7]: [星忘塵，〈效率陷阱・續章：你以為你贏了〉，Mythogen Engine](https://mythogenengine.com/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86)，2026年7月28日。
-
-### 第九章　一橋之隔
 
 [^9-1]: 停電工作室，[〈台灣年輕人的「微創業」神話破滅？〉](https://www.youtube.com/watch?v=YQf7xD5zytA)，YouTube，2026年10月。
 [^9-2]: 阿豬 Ah Ju，[〈點樣教仔女喺AI時代生存〉](https://www.youtube.com/watch?v=yJarS3nXxGs)，YouTube，2026年10月。

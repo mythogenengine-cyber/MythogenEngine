@@ -219,8 +219,8 @@ const META = {
     fullTitle: '誰在門口收錢：全書單頁完整版',
     fullSidebar: '📖 單頁完整版（全文）',
     fullDesc: '《誰在門口收錢：金融化時代，不是你不夠好》全書單頁完整版，包含序、第一至三部共九章、終章與全部注釋。',
-    backToToc: '📖 返回目錄',
-    fullLinkText: '📖 單頁完整版',
+    backToToc: '返回目錄',
+    fullLinkText: '單頁完整版',
     preface: '序',
     conclusion: '終章',
   },
@@ -258,8 +258,8 @@ const META = {
     fullTitle: "Who's Collecting at the Door: Complete Edition",
     fullSidebar: '📖 Complete Full Edition',
     fullDesc: "Complete manuscript of Who's Collecting at the Door: In the Age of Financialization, You Are Not the Problem. Includes Preface, Parts 1-3 (Chapters 1-9), Conclusion and Notes.",
-    backToToc: '📖 Back to Contents',
-    fullLinkText: '📖 Full Edition',
+    backToToc: 'Back to Contents',
+    fullLinkText: 'Full Edition',
     preface: 'Preface',
     conclusion: 'Conclusion',
   },
@@ -297,13 +297,13 @@ function build(lang) {
     let body = cleanBody(ch.lines);
     const [withRefs, defs] = footnotes(body, book.notes[ch.num], `Ch${ch.num}(${lang})`, '', warn);
     body = cfg.linkXrefs(withRefs);
-    body = `*${ch.part}*\n\n${body}${defs ? `\n\n---\n\n### ${lang === 'en' ? 'Notes' : '本章注釋'}\n\n${defs}` : ''}`;
     pages[`ch${pad(ch.num)}`] = {
       num: ch.num,
       title: ch.title,
       label: lang === 'en' ? enShortLabel(ch.title) : ch.title,
       slug: `ch${pad(ch.num)}`,
       body,
+      defs,
       part: ch.part,
       thesis: thesis[ch.num] || '',
     };
@@ -331,12 +331,12 @@ function build(lang) {
     const [withPrefixRefs, defs] = footnotes(rawBody, book.notes[ch.num], `Full-Ch${ch.num}(${lang})`, `${ch.num}-`, warn);
     fullBlocks.push(`---\n\n*${ch.part}*\n\n## ${ch.title}\n\n${withPrefixRefs}`);
     if (defs) {
-      fullNoteDefs.push(`### ${ch.title}\n\n${defs}`);
+      fullNoteDefs.push(defs);
     }
   }
   fullBlocks.push(`---\n\n## ${pages.conclusion.title}\n\n${cleanBody(book.conclusion.lines)}`);
   if (fullNoteDefs.length) {
-    fullBlocks.push(`---\n\n# ${lang === 'en' ? 'Notes' : '全書注釋'}\n\n${fullNoteDefs.join('\n\n')}`);
+    fullBlocks.push(`\n\n${fullNoteDefs.join('\n\n')}`);
   }
   const fullBody = cfg.linkXrefs(fullBlocks.join('\n\n'));
 
@@ -454,16 +454,19 @@ function build(lang) {
     const prevKey = i > 0 ? chapterKeys[i - 1] : null;
     const nextKey = i < chapterKeys.length - 1 ? chapterKeys[i + 1] : null;
 
-    const navTop = `> [${M.bookTitle}](${SLUG}) · [${M.backToToc}](${SLUG}#章節目錄--table-of-contents) · [${M.fullLinkText}](${SLUG}/full)\n\n`;
+    // 頂部導航指示：使用純 Markdown 相對連結，Docusaurus 會正確轉譯為當前語言的完整路徑
+    const navTop = p.part
+      ? `*${p.part}* ｜ [📖 ${M.bookTitle}](./INFO_PAGE.md) ｜ [📖 ${M.fullLinkText}](./full.md)\n\n---\n\n`
+      : `[📖 ${M.bookTitle}](./INFO_PAGE.md) ｜ [📖 ${M.fullLinkText}](./full.md)\n\n---\n\n`;
+
+    // 底部導航：使用 Markdown 表格，連結到相對 md 檔案，由 Docusaurus 自動轉譯為正確路由
     const navBottom = [
       '',
       '---',
       '',
-      '<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem", margin: "2rem 0"}}>',
-      prevKey ? `  <a href="${pages[prevKey].slug}.md" className="button button--secondary button--sm">← ${pages[prevKey].title}</a>` : '  <span />',
-      `  <a href="${SLUG}" className="button button--outline button--primary button--sm">${M.backToToc}</a>`,
-      nextKey ? `  <a href="${pages[nextKey].slug}.md" className="button button--secondary button--sm">${pages[nextKey].title} →</a>` : '  <span />',
-      '</div>',
+      `| ${prevKey ? `[← ${pages[prevKey].title}](./${pages[prevKey].slug}.md)` : ''} | [📖 ${M.backToToc}](./INFO_PAGE.md) | ${nextKey ? `[${pages[nextKey].title} →](./${pages[nextKey].slug}.md)` : ''} |`,
+      '| :--- | :---: | ---: |',
+      '',
     ].join('\n');
 
     files[key] =
@@ -471,13 +474,13 @@ function build(lang) {
         title: p.title,
         sidebar_label: p.label,
         slug: `${SLUG}/${p.slug}`,
-        description: excerpt(p.body.replace(/^\*[^*\n]+\*\n/, ''), 140),
+        description: excerpt(p.body, 140),
         keywords: [M.bookTitle, ...M.keywords.slice(1, 3)],
       }) +
       navTop +
       `# ${p.title}\n\n${p.body}\n` +
       navBottom +
-      '\n';
+      (p.defs ? `\n\n${p.defs}\n` : '\n');
   }
 
   return { files, warnings };

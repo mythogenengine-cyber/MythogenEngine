@@ -7,7 +7,9 @@ description: "Looking back over this book, the people in its nine chapters are i
 keywords: ["Who's Collecting at the Door", "financialization", "Nebula Walker"]
 ---
 
-> [Who's Collecting at the Door](/who-collects-at-the-door) · [📖 Back to Contents](/who-collects-at-the-door#章節目錄--table-of-contents) · [📖 Full Edition](/who-collects-at-the-door/full)
+[📖 Who's Collecting at the Door](./INFO_PAGE.md) ｜ [📖 Full Edition](./full.md)
+
+---
 
 # Conclusion: Not a Flaw
 
@@ -81,8 +83,6 @@ Very often, the answer has already been given three times. It's just that no one
 
 ---
 
-<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem", margin: "2rem 0"}}>
-  <a href="ch09.md" className="button button--secondary button--sm">← Chapter 9: One Bridge Apart</a>
-  <a href="/who-collects-at-the-door" className="button button--outline button--primary button--sm">📖 Back to Contents</a>
-  <span />
-</div>
+| [← Chapter 9: One Bridge Apart](./ch09.md) | [📖 Back to Contents](./INFO_PAGE.md) |  |
+| :--- | :---: | ---: |
+

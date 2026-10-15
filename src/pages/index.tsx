@@ -355,28 +355,34 @@ function CategoryCards() {
             }}>
               <div style={{ position: 'absolute', top: 0, left: 0, width: '200px', height: '200px', background: '#f44336', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
               <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: '#f44336', display: 'flex', gap: '1rem' }}>
+                <div className="flex space-x-4 mb-8" style={{ color: '#f44336', display: 'flex', gap: '1rem', alignItems: 'center' }}>
                   <Briefcase size={36} strokeWidth={1.5} />
                   <Building2 size={36} strokeWidth={1.5} />
                   <TrendingDown size={36} strokeWidth={1.5} />
+                  <span className="badge" style={{ background: '#f44336', color: 'white', fontWeight: 600, fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    {isEn ? 'OCT 2026 BOOK' : '全新出版 · 2026'}
+                  </span>
                 </div>
-                <h2 className="text-4xl font-headline mb-4">
-                  {isEn ? 'Capital Game' : '資本遊戲'} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? '(Case Study: Gaming Industry)' : '（實例檔案：遊戲業）'}
+                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
+                  {isEn ? "Who's Collecting at the Door" : '誰在門口收錢'} <br />
+                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
+                    {isEn ? 'In the Age of Financialization, You Are Not the Problem' : '金融化時代，不是你不夠好'}
                   </span>
                 </h2>
                 <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
                   {isZhTW
-                    ? '科技業大裁員背後的系統性操作：從遊戲業的拆骨實錄，看資本如何為了 AI 敘事騰出資金。你的行業沒被看見，只會更隱閉、更殘酷。'
+                    ? '九章層層拆解資本如何把結構的代價轉化為個人的缺陷：從研發裁撤、餐飲縮水、賣課焦慮到房租地租。博弈不可怕，可怕的是你不知道規則由誰定、每局抽水的又是誰。無論你往哪個出口走，站在門口收錢的是誰？'
                     : isZhHK
-                    ? '科技業大裁員背後嘅系統性操作：從遊戲業嘅拆骨實錄，睇資本點樣為咗 AI 敘事騰出資金。你嘅行業冇被看見，只會更隱蔽、更殘酷。'
-                    : 'The systemic operation behind massive tech layoffs: using the gaming industry\'s dismemberment as a window to see how capital frees up funds for the AI narrative. Your industry isn\'t an exception—it\'s just more hidden and cruel.'}
+                    ? '九章層層拆解資本點樣將結構嘅代價轉化為個人嘅缺陷：從研發裁撤、餐飲縮水、賣課焦慮到房租地租。博弈不可怕，可怕嘅係你唔知規則由邊個定、每局抽水嘅又係邊個。無論你向邊個出口行，企喺門口收錢嘅係邊個？'
+                    : 'Nine chapters dissecting how capital turns systemic costs into personal flaws: from R&D cuts and shrinkflation to course-peddling anxiety and real estate rent. Whichever exit you take, who is standing at the door collecting?'}
                 </p>
               </div>
-              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/capital-game" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Read Article' : '閱讀全文'} <ArrowRight size={20} />
+              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', position: 'relative', zIndex: 1 }}>
+                <Link to="/docs/who-collects-at-the-door" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 400 }}>
+                  {isEn ? 'Read Book' : '閱讀全書'} <ArrowRight size={20} />
+                </Link>
+                <Link to="/docs/who-collects-at-the-door/full" style={{ color: 'var(--color-on-surface-variant)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.9rem', fontWeight: 300 }}>
+                  {isEn ? 'Single Page Edition' : '單頁完整版'}
                 </Link>
               </div>
             </div>

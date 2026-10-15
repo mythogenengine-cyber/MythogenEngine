@@ -40,6 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 
 *.epub
+# 公開下載用的 EPUB 要入 Git，否則網站下載連結會 404
+!static/downloads/*.epub
 
 # temporary scratch scripts
 scratch/

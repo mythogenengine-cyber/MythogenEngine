@@ -14,6 +14,8 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
+  scripts: [{ src: '/js/me.js', async: false }],
+
   i18n: {
     defaultLocale: 'zh-Hant',
     locales: ['zh-Hant', 'en', 'zh-HK'],

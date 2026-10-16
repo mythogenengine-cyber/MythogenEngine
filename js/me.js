@@ -1,0 +1,1 @@
+!function(){try{var e=new URLSearchParams(window.location.search);"1"===e.get("me")&&localStorage.setItem("mythogen_me","1"),"0"===e.get("me")&&localStorage.removeItem("mythogen_me"),"1"===localStorage.getItem("mythogen_me")&&(window["ga-disable-G-C089DF9NW5"]=!0)}catch(t){}}();

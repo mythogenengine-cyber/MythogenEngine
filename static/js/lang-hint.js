@@ -1,138 +1,86 @@
+/**
+ * lang-hint.js — "This page is also available in English." banner.
+ *
+ * Shown only when ALL of the following hold:
+ *   a. no entry in navigator.languages starts with "zh"
+ *   b. the current path is not under /en/
+ *   c. localStorage["mythogen_lang_hint"] !== "dismissed"
+ *
+ * The banner is inserted as the first child of <body>, i.e. OUTSIDE the
+ * React root (#__docusaurus), so it never interferes with hydration and
+ * never covers the sticky navbar (it sits above it and scrolls away).
+ *
+ * Docusaurus is an SPA, so we re-evaluate on history.pushState /
+ * replaceState, popstate and hashchange.
+ */
 (function () {
   'use strict';
 
   var STORAGE_KEY = 'mythogen_lang_hint';
   var HINT_ID = 'mythogen-lang-hint';
+  var LINK_ID = 'mythogen-lang-hint-link';
+  var CLOSE_ID = 'mythogen-lang-hint-close';
   var STYLE_ID = 'mythogen-lang-hint-styles';
 
-  function injectStyles() {
-    if (document.getElementById(STYLE_ID)) return;
-    var css = [
-      '.mythogen-lang-hint {',
-      '  position: sticky;',
-      '  top: 60px;',
-      '  z-index: 99;',
-      '  width: 100%;',
-      '  box-sizing: border-box;',
-      '  background: rgba(14, 14, 14, 0.96);',
-      '  backdrop-filter: blur(12px);',
-      '  -webkit-backdrop-filter: blur(12px);',
-      '  border-bottom: 1px solid rgba(0, 243, 255, 0.25);',
-      '  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);',
-      '  color: #e5e2e1;',
-      '  font-family: var(--ifm-font-family-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);',
-      '  font-size: 0.85rem;',
-      '  line-height: 1.4;',
-      '}',
-      '.mythogen-lang-hint-inner {',
-      '  max-width: 1400px;',
-      '  margin: 0 auto;',
-      '  padding: 8px 44px 8px 16px;',
-      '  display: flex;',
-      '  align-items: center;',
-      '  justify-content: center;',
-      '  gap: 12px;',
-      '  flex-wrap: wrap;',
-      '  text-align: center;',
-      '  position: relative;',
-      '  min-height: 38px;',
-      '  box-sizing: border-box;',
-      '}',
-      '.mythogen-lang-hint-text {',
-      '  color: #e5e2e1;',
-      '  font-weight: 300;',
-      '  letter-spacing: 0.02em;',
-      '}',
-      '.mythogen-lang-hint-link {',
-      '  color: #00f3ff;',
-      '  font-weight: 500;',
-      '  text-decoration: none;',
-      '  display: inline-flex;',
-      '  align-items: center;',
-      '  gap: 4px;',
-      '  white-space: nowrap;',
-      '  transition: color 0.2s ease, text-decoration 0.2s ease;',
-      '}',
-      '.mythogen-lang-hint-link:hover {',
-      '  color: #73faff;',
-      '  text-decoration: underline;',
-      '}',
-      '.mythogen-lang-hint-close {',
-      '  position: absolute;',
-      '  right: 12px;',
-      '  top: 50%;',
-      '  transform: translateY(-50%);',
-      '  background: transparent;',
-      '  border: none;',
-      '  color: #b9cacb;',
-      '  font-size: 1.35rem;',
-      '  line-height: 1;',
-      '  cursor: pointer;',
-      '  padding: 4px 8px;',
-      '  border-radius: 4px;',
-      '  display: flex;',
-      '  align-items: center;',
-      '  justify-content: center;',
-      '  transition: color 0.2s ease, background 0.2s ease;',
-      '}',
-      '.mythogen-lang-hint-close:hover {',
-      '  color: #ffffff;',
-      '  background: rgba(255, 255, 255, 0.1);',
-      '}',
-      '@media (max-width: 600px) {',
-      '  .mythogen-lang-hint-inner {',
-      '    padding: 6px 38px 6px 12px;',
-      '    gap: 4px 8px;',
-      '    font-size: 0.8rem;',
-      '  }',
-      '  .mythogen-lang-hint-link {',
-      '    font-size: 0.8rem;',
-      '  }',
-      '}'
-    ].join('\n');
-
-    var style = document.createElement('style');
-    style.id = STYLE_ID;
-    style.textContent = css;
-    (document.head || document.documentElement).appendChild(style);
-  }
+  var CSS = [
+    '#' + HINT_ID + '{',
+    '  position:relative;z-index:199;width:100%;box-sizing:border-box;',
+    '  background:linear-gradient(90deg,rgba(0,243,255,.10),rgba(182,0,248,.10)),#0e0e0e;',
+    '  border-bottom:1px solid rgba(0,243,255,.25);',
+    '  color:#e5e2e1;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;',
+    '  font-size:.875rem;line-height:1.4;',
+    '}',
+    '#' + HINT_ID + ' .lh-inner{',
+    '  max-width:1400px;margin:0 auto;box-sizing:border-box;',
+    '  padding:8px 48px;min-height:40px;',
+    '  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;',
+    '  gap:4px 12px;text-align:center;position:relative;',
+    '}',
+    '#' + HINT_ID + ' .lh-text{font-weight:300;letter-spacing:.02em;min-width:0;overflow-wrap:anywhere;}',
+    '#' + HINT_ID + ' a{',
+    '  color:#00f3ff;font-weight:500;text-decoration:none;white-space:nowrap;',
+    '  transition:color .2s ease;',
+    '}',
+    '#' + HINT_ID + ' a:hover,#' + HINT_ID + ' a:focus-visible{color:#73faff;text-decoration:underline;}',
+    '#' + HINT_ID + ' button{',
+    '  position:absolute;right:8px;top:50%;transform:translateY(-50%);',
+    '  width:32px;height:32px;padding:0;border:0;border-radius:6px;',
+    '  background:transparent;color:#b9cacb;font-size:1.4rem;line-height:1;cursor:pointer;',
+    '  transition:color .2s ease,background .2s ease;',
+    '}',
+    '#' + HINT_ID + ' button:hover,#' + HINT_ID + ' button:focus-visible{color:#fff;background:rgba(255,255,255,.1);}',
+    '[data-theme="light"] #' + HINT_ID + '{',
+    '  background:linear-gradient(90deg,rgba(0,171,183,.10),rgba(182,0,248,.08)),#f6f7f8;',
+    '  color:#1c1b1b;border-bottom-color:rgba(0,171,183,.35);',
+    '}',
+    '[data-theme="light"] #' + HINT_ID + ' a{color:#00808a;}',
+    '[data-theme="light"] #' + HINT_ID + ' button{color:#444;}',
+    '@media (max-width:600px){',
+    '  #' + HINT_ID + '{font-size:.8125rem;}',
+    '  #' + HINT_ID + ' .lh-inner{padding:6px 44px 6px 12px;}',
+    '}',
+  ].join('\n');
 
   function hasChineseLanguage() {
     try {
-      // Testing helpers: ?test_lang=en or window.__MYTHOGEN_LANG_OVERRIDE__ = 'en'
-      if (typeof window !== 'undefined' && window.__MYTHOGEN_LANG_OVERRIDE__) {
-        return window.__MYTHOGEN_LANG_OVERRIDE__.toLowerCase().indexOf('zh') === 0;
-      }
-      if (typeof window !== 'undefined' && window.location && window.location.search) {
-        var testParam = new URLSearchParams(window.location.search).get('test_lang');
-        if (testParam === 'en') return false;
-        if (testParam && testParam.toLowerCase().indexOf('zh') === 0) return true;
-      }
-
-      var langs = (navigator.languages && navigator.languages.length)
+      var langs = navigator.languages && navigator.languages.length
         ? navigator.languages
-        : [navigator.language || navigator.userLanguage || ''];
-
+        : [navigator.language || ''];
       for (var i = 0; i < langs.length; i++) {
-        var lang = String(langs[i] || '').toLowerCase().trim();
-        if (lang.indexOf('zh') === 0) {
-          return true;
-        }
+        if (String(langs[i] || '').toLowerCase().indexOf('zh') === 0) return true;
       }
-    } catch (e) {
-      return false;
-    }
+    } catch (e) {}
     return false;
   }
 
   function isEnglishPath() {
-    var pathname = window.location.pathname || '';
-    return pathname === '/en' || pathname.indexOf('/en/') === 0;
+    var p = window.location.pathname || '/';
+    return p === '/en' || p.indexOf('/en/') === 0;
   }
 
   function isDismissed() {
     try {
-      return !!(window.localStorage && window.localStorage.getItem(STORAGE_KEY) === 'dismissed');
+      return window.localStorage.getItem(STORAGE_KEY) === 'dismissed';
     } catch (e) {
       return false;
     }
@@ -140,196 +88,108 @@
 
   function setDismissed() {
     try {
-      if (window.localStorage) {
-        window.localStorage.setItem(STORAGE_KEY, 'dismissed');
-      }
+      window.localStorage.setItem(STORAGE_KEY, 'dismissed');
     } catch (e) {}
   }
 
   function getEnglishUrl() {
-    var pathname = window.location.pathname || '/';
-    var cleanPath = pathname;
-
-    if (cleanPath === '/zh-HK') {
-      cleanPath = '/';
-    } else if (cleanPath.indexOf('/zh-HK/') === 0) {
-      cleanPath = cleanPath.slice('/zh-HK'.length);
-    }
-
-    if (!cleanPath || cleanPath.charAt(0) !== '/') {
-      cleanPath = '/' + cleanPath;
-    }
-
-    var enPath = cleanPath === '/' ? '/en/' : '/en' + cleanPath;
-    var search = window.location.search || '';
-    var hash = window.location.hash || '';
-
-    return enPath + search + hash;
+    var p = window.location.pathname || '/';
+    if (p === '/zh-HK') p = '/';
+    else if (p.indexOf('/zh-HK/') === 0) p = p.slice('/zh-HK'.length);
+    var enPath = p === '/' ? '/en/' : '/en' + p;
+    return enPath + (window.location.search || '') + (window.location.hash || '');
   }
 
-  function shouldShowHint() {
-    // a. navigator.languages 中沒有任何以 'zh' 開頭的語言
-    if (hasChineseLanguage()) return false;
-
-    // b. 目前路徑不是以 /en/ 開頭
-    if (isEnglishPath()) return false;
-
-    // c. localStorage 的 'mythogen_lang_hint' 不是 'dismissed'
-    if (isDismissed()) return false;
-
-    return true;
+  function shouldShow() {
+    return !hasChineseLanguage() && !isEnglishPath() && !isDismissed();
   }
 
-  function dismiss() {
-    setDismissed();
+  function injectStyles() {
+    if (document.getElementById(STYLE_ID)) return;
+    var style = document.createElement('style');
+    style.id = STYLE_ID;
+    style.textContent = CSS;
+    (document.head || document.documentElement).appendChild(style);
+  }
+
+  function removeBanner() {
     var el = document.getElementById(HINT_ID);
-    if (el) {
-      el.remove();
-    }
+    if (el && el.parentNode) el.parentNode.removeChild(el);
   }
 
   function createBanner() {
     var el = document.createElement('div');
     el.id = HINT_ID;
-    el.className = 'mythogen-lang-hint';
     el.setAttribute('role', 'region');
-    el.setAttribute('aria-label', 'English translation available');
+    el.setAttribute('aria-label', 'Language');
+    el.setAttribute('lang', 'en');
 
     var inner = document.createElement('div');
-    inner.className = 'mythogen-lang-hint-inner';
+    inner.className = 'lh-inner';
 
     var text = document.createElement('span');
-    text.className = 'mythogen-lang-hint-text';
+    text.className = 'lh-text';
     text.textContent = 'This page is also available in English.';
 
     var link = document.createElement('a');
-    link.id = 'mythogen-lang-hint-link';
-    link.className = 'mythogen-lang-hint-link';
+    link.id = LINK_ID;
+    link.hreflang = 'en';
     link.textContent = 'Read in English \u2192';
-    link.href = getEnglishUrl();
-    link.addEventListener('click', function () {
-      setDismissed();
-    });
+    // Full page navigation to /en/... (outside React router); remember choice.
+    link.addEventListener('click', setDismissed);
 
-    var closeBtn = document.createElement('button');
-    closeBtn.id = 'mythogen-lang-hint-close';
-    closeBtn.className = 'mythogen-lang-hint-close';
-    closeBtn.setAttribute('type', 'button');
-    closeBtn.setAttribute('aria-label', 'Close');
-    closeBtn.innerHTML = '&times;';
-    closeBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      dismiss();
+    var close = document.createElement('button');
+    close.id = CLOSE_ID;
+    close.type = 'button';
+    close.setAttribute('aria-label', 'Dismiss');
+    close.textContent = '\u00d7';
+    close.addEventListener('click', function () {
+      setDismissed();
+      removeBanner();
     });
 
     inner.appendChild(text);
     inner.appendChild(link);
-    inner.appendChild(closeBtn);
+    inner.appendChild(close);
     el.appendChild(inner);
-
     return el;
   }
 
-  function updateBanner() {
-    var show = shouldShowHint();
-    var existing = document.getElementById(HINT_ID);
-
-    if (!show) {
-      if (existing) {
-        existing.remove();
-      }
+  function update() {
+    if (!document.body) return;
+    if (!shouldShow()) {
+      removeBanner();
       return;
     }
-
     injectStyles();
-
-    var nav = document.querySelector('.navbar');
-    if (!nav || !nav.parentNode) {
-      return;
+    var el = document.getElementById(HINT_ID);
+    if (!el) {
+      el = createBanner();
+      document.body.insertBefore(el, document.body.firstChild);
     }
-
-    var banner = existing;
-    if (!banner) {
-      banner = createBanner();
-      nav.parentNode.insertBefore(banner, nav.nextSibling);
-    } else if (banner.parentNode !== nav.parentNode || banner.previousSibling !== nav) {
-      nav.parentNode.insertBefore(banner, nav.nextSibling);
-    }
-
-    var navHeight = nav.offsetHeight || 60;
-    banner.style.top = navHeight + 'px';
-
-    var link = banner.querySelector('#mythogen-lang-hint-link');
-    if (link) {
-      link.href = getEnglishUrl();
-    }
+    document.getElementById(LINK_ID).href = getEnglishUrl();
   }
 
-  // Expose global updater for testing/programmatic use
-  if (typeof window !== 'undefined') {
-    window.__mythogen_update_lang_hint__ = updateBanner;
+  function scheduleUpdate() {
+    setTimeout(update, 0);
   }
 
-  function init() {
-    updateBanner();
-
-    // Hook SPA navigation: history.pushState and replaceState
-    if (window.history) {
-      var origPushState = window.history.pushState;
-      if (origPushState) {
-        window.history.pushState = function () {
-          var res = origPushState.apply(this, arguments);
-          setTimeout(updateBanner, 0);
-          return res;
-        };
-      }
-
-      var origReplaceState = window.history.replaceState;
-      if (origReplaceState) {
-        window.history.replaceState = function () {
-          var res = origReplaceState.apply(this, arguments);
-          setTimeout(updateBanner, 0);
-          return res;
-        };
-      }
-    }
-
-    window.addEventListener('popstate', function () {
-      setTimeout(updateBanner, 0);
-    });
-
-    window.addEventListener('resize', function () {
-      var banner = document.getElementById(HINT_ID);
-      var nav = document.querySelector('.navbar');
-      if (banner && nav) {
-        banner.style.top = (nav.offsetHeight || 60) + 'px';
-      }
-    });
-
-    // MutationObserver to watch for route transitions where navbar or main container updates
-    if (window.MutationObserver) {
-      var observer = new MutationObserver(function () {
-        var banner = document.getElementById(HINT_ID);
-        var nav = document.querySelector('.navbar');
-        if (shouldShowHint()) {
-          if (!banner || (nav && banner.previousSibling !== nav)) {
-            updateBanner();
-          }
-        } else if (banner) {
-          banner.remove();
-        }
-      });
-
-      var target = document.getElementById('__docusaurus') || document.body;
-      if (target) {
-        observer.observe(target, { childList: true, subtree: false });
-      }
-    }
-  }
+  // Hook SPA navigation as early as possible (before React's router loads).
+  ['pushState', 'replaceState'].forEach(function (method) {
+    var orig = window.history && window.history[method];
+    if (typeof orig !== 'function') return;
+    window.history[method] = function () {
+      var result = orig.apply(this, arguments);
+      scheduleUpdate();
+      return result;
+    };
+  });
+  window.addEventListener('popstate', scheduleUpdate);
+  window.addEventListener('hashchange', scheduleUpdate);
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', update);
   } else {
-    init();
+    update();
   }
 })();

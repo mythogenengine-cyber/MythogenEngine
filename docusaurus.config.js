@@ -1,3 +1,23 @@
+// Docusaurus sets DOCUSAURUS_CURRENT_LOCALE before building each locale
+// (see facebook/docusaurus#4542). It may be unset or the literal string
+// "undefined", so whitelist known values. It must be read inside the exported
+// function below: the config module itself is evaluated only once and reused
+// for every locale, but the exported function is called once per locale.
+const KNOWN_LOCALES = ['zh-Hant', 'en', 'zh-HK'];
+function getCurrentLocale() {
+  const env = process.env.DOCUSAURUS_CURRENT_LOCALE;
+  return KNOWN_LOCALES.includes(env) ? env : 'zh-Hant';
+}
+
+// Always-visible link to the other language. The href is a safe fallback
+// (home page); static/js/lang-hint.js rewrites it to the same article.
+function getLangSwitchHtml(locale) {
+  return locale === 'en'
+    ? '<a href="/" class="navbar__link nav-lang-switch" lang="zh-Hant" hreflang="zh-Hant">中文</a>'
+    : '<a href="/en/" class="navbar__link nav-lang-switch" lang="en" hreflang="en">English</a>';
+}
+const LANG_SWITCH_ITEM_CLASS = 'nav-lang-switch-item';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mythogen Engine',
@@ -103,6 +123,12 @@ const config = {
             label: 'About',
           },
           {
+            type: 'html',
+            position: 'right',
+            className: LANG_SWITCH_ITEM_CLASS,
+            value: getLangSwitchHtml('zh-Hant'), // replaced per locale below
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
@@ -141,4 +167,19 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = function createConfig() {
+  const value = getLangSwitchHtml(getCurrentLocale());
+  const { navbar } = config.themeConfig;
+  return {
+    ...config,
+    themeConfig: {
+      ...config.themeConfig,
+      navbar: {
+        ...navbar,
+        items: navbar.items.map((item) =>
+          item.className === LANG_SWITCH_ITEM_CLASS ? { ...item, value } : item,
+        ),
+      },
+    },
+  };
+};

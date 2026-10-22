@@ -12,6 +12,11 @@
  *
  * Docusaurus is an SPA, so we re-evaluate on history.pushState /
  * replaceState, popstate and hashchange.
+ *
+ * It also rewrites every navbar `.nav-lang-switch` link ("English" / "中文",
+ * defined in docusaurus.config.js) so it points to the SAME article in the
+ * other language. This applies to all readers, independent of the banner
+ * conditions. If anything fails, the link keeps its config href (home page).
  */
 (function () {
   'use strict';
@@ -100,6 +105,31 @@
     return enPath + (window.location.search || '') + (window.location.hash || '');
   }
 
+  // /en/docs/x -> /docs/x (default zh-Hant locale), keeping search + hash.
+  function getChineseUrl() {
+    var p = window.location.pathname || '/';
+    if (p === '/en') p = '/';
+    else if (p.indexOf('/en/') === 0) p = p.slice('/en'.length);
+    return (p || '/') + (window.location.search || '') + (window.location.hash || '');
+  }
+
+  function getSwitchUrl() {
+    return isEnglishPath() ? getChineseUrl() : getEnglishUrl();
+  }
+
+  function updateLangSwitch() {
+    try {
+      var links = document.querySelectorAll('a.nav-lang-switch');
+      if (!links.length) return;
+      var url = getSwitchUrl();
+      for (var i = 0; i < links.length; i++) {
+        if (links[i].getAttribute('href') !== url) links[i].setAttribute('href', url);
+      }
+    } catch (e) {
+      /* keep config fallback href */
+    }
+  }
+
   function shouldShow() {
     return !hasChineseLanguage() && !isEnglishPath() && !isDismissed();
   }
@@ -155,7 +185,7 @@
     return el;
   }
 
-  function update() {
+  function updateBanner() {
     if (!document.body) return;
     if (!shouldShow()) {
       removeBanner();
@@ -168,6 +198,13 @@
       document.body.insertBefore(el, document.body.firstChild);
     }
     document.getElementById(LINK_ID).href = getEnglishUrl();
+  }
+
+  function update() {
+    updateLangSwitch();
+    try {
+      updateBanner();
+    } catch (e) {}
   }
 
   function scheduleUpdate() {
@@ -187,9 +224,34 @@
   window.addEventListener('popstate', scheduleUpdate);
   window.addEventListener('hashchange', scheduleUpdate);
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', update);
-  } else {
+  // Safety net: fix the href right before the browser follows the link
+  // (covers anything rendered between route events).
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (t && t.closest && t.closest('a.nav-lang-switch')) updateLangSwitch();
+  }, true);
+
+  function init() {
     update();
+    // The mobile sidebar renders its own copy of the link only when opened,
+    // so watch for newly inserted nodes (attribute changes are not observed,
+    // hence no feedback loop).
+    if (window.MutationObserver && document.body) {
+      var queued = false;
+      new MutationObserver(function () {
+        if (queued) return;
+        queued = true;
+        setTimeout(function () {
+          queued = false;
+          updateLangSwitch();
+        }, 30);
+      }).observe(document.body, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();

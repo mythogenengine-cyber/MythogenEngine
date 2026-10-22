@@ -160,3 +160,70 @@ h1, h2, h3, h4 {
     margin-left: 12px;
   }
 }
+
+/* Navbar: never break a label onto two lines (e.g. "AI / ARCHIVE") */
+.navbar__link,
+.navbar__title {
+  white-space: nowrap;
+}
+
+/* Compact desktop navbar between the mobile breakpoint and 1440px */
+@media (min-width: 997px) and (max-width: 1439px) {
+  .navbar {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .navbar__brand {
+    margin-right: 0.35rem;
+  }
+  .navbar__inner .navbar__item {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .navbar__inner .navbar__link {
+    font-size: 13px; /* floor: do not go below 13px */
+    letter-spacing: 0;
+  }
+  .navbar__inner .header-icon-link {
+    width: 28px;
+  }
+}
+
+/* Always-visible language switch ("English" / "中文"), see docusaurus.config.js */
+.nav-lang-switch {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+}
+.navbar__item > .nav-lang-switch {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid rgba(0, 243, 255, 0.45);
+  border-radius: 999px;
+  line-height: 1.4;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.navbar__item > .nav-lang-switch:hover,
+.navbar__item > .nav-lang-switch:focus-visible {
+  color: var(--ifm-color-primary-lightest);
+  background: rgba(0, 243, 255, 0.1);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+@media (min-width: 997px) and (max-width: 1439px) {
+  .navbar__inner .navbar__item > .nav-lang-switch {
+    padding: 0.15rem 0.55rem;
+  }
+}
+/* Mobile drawer: render as a regular, standalone menu row */
+.menu__list-item > .nav-lang-switch {
+  display: block;
+  padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+}
+.menu__list-item > .nav-lang-switch:hover {
+  background: var(--ifm-menu-color-background-hover);
+  text-decoration: none;
+}

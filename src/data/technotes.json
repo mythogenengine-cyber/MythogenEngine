@@ -1,6 +1,258 @@
 {
   "zh-Hant": [
     {
+      "id": "beggars-bowl/prologue",
+      "slug": "/docs/beggars-bowl",
+      "title": "序篇：從乞丐碗裡搶飯",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "分配",
+          "不平等",
+          "勞工份額",
+          "福利",
+          "香港"
+        ],
+        "en": [
+          "distribution",
+          "inequality",
+          "labour-share",
+          "welfare",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "從乞丐碗裡搶飯",
+        "絕命大平台",
+        "不患寡而患不均",
+        "世界不平等報告",
+        "勞工份額"
+      ],
+      "summary": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 0,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/finale",
+      "slug": "/docs/beggars-bowl/after-the-counting",
+      "title": "終篇：數得清楚之後",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "land-rent",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "地租",
+          "中產",
+          "房價",
+          "財政",
+          "台灣"
+        ],
+        "en": [
+          "land-rent",
+          "middle-class",
+          "housing-prices",
+          "public-finance",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "房價所得比",
+        "負資產",
+        "房地合一稅",
+        "土地收入",
+        "住宅自有率"
+      ],
+      "summary": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 5,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part3",
+      "slug": "/docs/beggars-bowl/visible-fraud-unmeasured-numbers",
+      "title": "看得見的騙，量不到的數",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "public-housing",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "公屋",
+          "入息審查",
+          "統計",
+          "地租",
+          "社會保障"
+        ],
+        "en": [
+          "public-housing",
+          "means-test",
+          "statistics",
+          "land-rent",
+          "social-security"
+        ]
+      },
+      "keywords": [
+        "公屋輪候",
+        "入息限額",
+        "境外資產",
+        "房委會",
+        "綜援"
+      ],
+      "summary": "公屋在香港行之有效幾十年，今天卻像無故全面失效。審查量得到糧單，量不到現金和境外資產；被剔走的，是老實報糧的人。騙福利是執法問題，不是保障本身的問題。",
+      "status": "published",
+      "reading_time": 7,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 3,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part4",
+      "slug": "/docs/beggars-bowl/those-who-leave-and-arrive",
+      "title": "走的和來的",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "population",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "人口統計",
+          "單程證",
+          "人才計劃",
+          "移民",
+          "租金"
+        ],
+        "en": [
+          "population-statistics",
+          "one-way-permit",
+          "talent-schemes",
+          "migration",
+          "rent"
+        ]
+      },
+      "keywords": [
+        "淨移民",
+        "單程證",
+        "人才計劃",
+        "統計處",
+        "人口統計"
+      ],
+      "summary": "統計處只公布淨數；單程證、雙非、人才計劃住滿七年就一律計作「本地」，來路從此消失。要數據不是歧視；不是量不到，而是不去量。",
+      "status": "published",
+      "reading_time": 12,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 4,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part2",
+      "slug": "/docs/beggars-bowl/global-top-local-bottom",
+      "title": "全球前一成，交完租沒有錢：分配問題裡，我們站在哪裡",
+      "date": "2026-10-21T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "全球不平等",
+          "真確",
+          "地租",
+          "資本流動",
+          "分配"
+        ],
+        "en": [
+          "global-inequality",
+          "factfulness",
+          "land-rent",
+          "capital-mobility",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "世界不平等報告",
+        "大象曲線",
+        "真確",
+        "勞工份額",
+        "全球最低稅"
+      ],
+      "summary": "月薪兩萬二的行政主任，在全球排名表上排前四分之一，交完租卻買不起一部手機。罪疚與恐懼兩個陷阱，把目光引向下層；切走大半塊餅的人，從來不在比較之內。",
+      "status": "published",
+      "reading_time": 22,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 2,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part1",
+      "slug": "/docs/beggars-bowl/more-work-more-pay",
+      "title": "不做就該受苦？從綜援到 UBI，「多勞多得」是誰的原則",
+      "date": "2026-10-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "綜援",
+          "UBI",
+          "濟貧法",
+          "安全網",
+          "勞工份額"
+        ],
+        "en": [
+          "cssa",
+          "ubi",
+          "poor-law",
+          "safety-net",
+          "labour-share"
+        ]
+      },
+      "keywords": [
+        "綜援",
+        "全民基本收入",
+        "多勞多得",
+        "新濟貧法",
+        "安全網"
+      ],
+      "summary": "「不工作的人就應該過得更慘」這個前提，來自 1834 年英國的濟貧法，功能從來是壓低工資。社會需要有人工作，不等於人要工作才配活；安全網的高度，決定的是每一層的地板。",
+      "status": "published",
+      "reading_time": 33,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 1,
+        "total": 6
+      }
+    },
+    {
       "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
       "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",
       "title": "漂亮圖表下的山頭——巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
@@ -1781,6 +2033,258 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "beggars-bowl/prologue",
+      "slug": "/docs/beggars-bowl",
+      "title": "序篇：從乞丐碗裡搶飯",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "分配",
+          "不平等",
+          "勞工份額",
+          "福利",
+          "香港"
+        ],
+        "en": [
+          "distribution",
+          "inequality",
+          "labour-share",
+          "welfare",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "從乞丐碗裡搶飯",
+        "絕命大平台",
+        "不患寡而患不均",
+        "世界不平等報告",
+        "勞工份額"
+      ],
+      "summary": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 0,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/finale",
+      "slug": "/docs/beggars-bowl/after-the-counting",
+      "title": "終篇：數得清楚之後",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "land-rent",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "地租",
+          "中產",
+          "房價",
+          "財政",
+          "台灣"
+        ],
+        "en": [
+          "land-rent",
+          "middle-class",
+          "housing-prices",
+          "public-finance",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "房價所得比",
+        "負資產",
+        "房地合一稅",
+        "土地收入",
+        "住宅自有率"
+      ],
+      "summary": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
+      "status": "published",
+      "reading_time": 5,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 5,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part3",
+      "slug": "/docs/beggars-bowl/visible-fraud-unmeasured-numbers",
+      "title": "看得見的騙，量不到的數",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "public-housing",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "公屋",
+          "入息審查",
+          "統計",
+          "地租",
+          "社會保障"
+        ],
+        "en": [
+          "public-housing",
+          "means-test",
+          "statistics",
+          "land-rent",
+          "social-security"
+        ]
+      },
+      "keywords": [
+        "公屋輪候",
+        "入息限額",
+        "境外資產",
+        "房委會",
+        "綜援"
+      ],
+      "summary": "公屋在香港行之有效幾十年，今天卻像無故全面失效。審查量得到糧單，量不到現金和境外資產；被剔走的，是老實報糧的人。騙福利是執法問題，不是保障本身的問題。",
+      "status": "published",
+      "reading_time": 7,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 3,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part4",
+      "slug": "/docs/beggars-bowl/those-who-leave-and-arrive",
+      "title": "走的和來的",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "population",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "人口統計",
+          "單程證",
+          "人才計劃",
+          "移民",
+          "租金"
+        ],
+        "en": [
+          "population-statistics",
+          "one-way-permit",
+          "talent-schemes",
+          "migration",
+          "rent"
+        ]
+      },
+      "keywords": [
+        "淨移民",
+        "單程證",
+        "人才計劃",
+        "統計處",
+        "人口統計"
+      ],
+      "summary": "統計處只公布淨數；單程證、雙非、人才計劃住滿七年就一律計作「本地」，來路從此消失。要數據不是歧視；不是量不到，而是不去量。",
+      "status": "published",
+      "reading_time": 12,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 4,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part2",
+      "slug": "/docs/beggars-bowl/global-top-local-bottom",
+      "title": "全球前一成，交完租沒有錢：分配問題裡，我們站在哪裡",
+      "date": "2026-10-21T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "全球不平等",
+          "真確",
+          "地租",
+          "資本流動",
+          "分配"
+        ],
+        "en": [
+          "global-inequality",
+          "factfulness",
+          "land-rent",
+          "capital-mobility",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "世界不平等報告",
+        "大象曲線",
+        "真確",
+        "勞工份額",
+        "全球最低稅"
+      ],
+      "summary": "月薪兩萬二的行政主任，在全球排名表上排前四分之一，交完租卻買不起一部手機。罪疚與恐懼兩個陷阱，把目光引向下層；切走大半塊餅的人，從來不在比較之內。",
+      "status": "published",
+      "reading_time": 22,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 2,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part1",
+      "slug": "/docs/beggars-bowl/more-work-more-pay",
+      "title": "不做就該受苦？從綜援到 UBI，「多勞多得」是誰的原則",
+      "date": "2026-10-20T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "綜援",
+          "UBI",
+          "濟貧法",
+          "安全網",
+          "勞工份額"
+        ],
+        "en": [
+          "cssa",
+          "ubi",
+          "poor-law",
+          "safety-net",
+          "labour-share"
+        ]
+      },
+      "keywords": [
+        "綜援",
+        "全民基本收入",
+        "多勞多得",
+        "新濟貧法",
+        "安全網"
+      ],
+      "summary": "「不工作的人就應該過得更慘」這個前提，來自 1834 年英國的濟貧法，功能從來是壓低工資。社會需要有人工作，不等於人要工作才配活；安全網的高度，決定的是每一層的地板。",
+      "status": "published",
+      "reading_time": 33,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 1,
+        "total": 6
+      }
+    },
     {
       "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
       "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",
@@ -3563,6 +4067,258 @@
     }
   ],
   "en": [
+    {
+      "id": "beggars-bowl/prologue",
+      "slug": "/docs/beggars-bowl",
+      "title": "Prologue: Snatching Rice from the Beggar's Bowl",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "分配",
+          "不平等",
+          "勞工份額",
+          "福利",
+          "香港"
+        ],
+        "en": [
+          "distribution",
+          "inequality",
+          "labour-share",
+          "welfare",
+          "hong-kong"
+        ]
+      },
+      "keywords": [
+        "Snatching Rice from the Beggar's Bowl",
+        "The Platform",
+        "World Inequality Report",
+        "labour share",
+        "distribution"
+      ],
+      "summary": "Money keeps flowing to the top, the share left below shrinks year after year, and everyone else is steered into fighting the people beside them. Four essays, one pie cut thinner every year.",
+      "status": "published",
+      "reading_time": 7,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 0,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/finale",
+      "slug": "/docs/beggars-bowl/after-the-counting",
+      "title": "Final Part: After the Counting",
+      "date": "2026-10-24T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "land-rent",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "地租",
+          "中產",
+          "房價",
+          "財政",
+          "台灣"
+        ],
+        "en": [
+          "land-rent",
+          "middle-class",
+          "housing-prices",
+          "public-finance",
+          "taiwan"
+        ]
+      },
+      "keywords": [
+        "house price to income ratio",
+        "negative equity",
+        "land value",
+        "land revenue",
+        "home ownership rate"
+      ],
+      "summary": "Taiwan already counts clearly, yet wages stagnate and homes remain out of reach. The middle class are both victims and beneficiaries, and land prices are chained to public finance, the tax base and capital: any single policy is pulled back by the whole chain.",
+      "status": "published",
+      "reading_time": 7,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 5,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part3",
+      "slug": "/docs/beggars-bowl/visible-fraud-unmeasured-numbers",
+      "title": "The Fraud You Can See, the Numbers Nobody Measures",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "public-housing",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "公屋",
+          "入息審查",
+          "統計",
+          "地租",
+          "社會保障"
+        ],
+        "en": [
+          "public-housing",
+          "means-test",
+          "statistics",
+          "land-rent",
+          "social-security"
+        ]
+      },
+      "keywords": [
+        "public housing waiting time",
+        "income limit",
+        "offshore assets",
+        "Housing Authority",
+        "CSSA"
+      ],
+      "summary": "Public housing worked in Hong Kong for decades and now seems to have failed for no stated reason. Means tests see payslips but not cash or offshore assets, so those screened out are the ones who declare honestly. Welfare fraud is an enforcement problem, not a problem with protection itself.",
+      "status": "published",
+      "reading_time": 11,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 3,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part4",
+      "slug": "/docs/beggars-bowl/those-who-leave-and-arrive",
+      "title": "Those Who Leave and Those Who Arrive",
+      "date": "2026-10-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "population",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "人口統計",
+          "單程證",
+          "人才計劃",
+          "移民",
+          "租金"
+        ],
+        "en": [
+          "population-statistics",
+          "one-way-permit",
+          "talent-schemes",
+          "migration",
+          "rent"
+        ]
+      },
+      "keywords": [
+        "net migration",
+        "one-way permit",
+        "talent schemes",
+        "Census and Statistics Department",
+        "population statistics"
+      ],
+      "summary": "Hong Kong's statistics department publishes only net figures; one-way permit holders and talent-scheme arrivals count as “local” after seven years, and where they came from disappears. Asking for data is not discrimination: it is not that it cannot be measured, but that no one measures it.",
+      "status": "published",
+      "reading_time": 18,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 4,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part2",
+      "slug": "/docs/beggars-bowl/global-top-local-bottom",
+      "title": "Global Top, Local Bottom",
+      "date": "2026-10-21T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "distribution",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "全球不平等",
+          "真確",
+          "地租",
+          "資本流動",
+          "分配"
+        ],
+        "en": [
+          "global-inequality",
+          "factfulness",
+          "land-rent",
+          "capital-mobility",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "World Inequality Report",
+        "elephant chart",
+        "Factfulness",
+        "labour share",
+        "global minimum tax"
+      ],
+      "summary": "An office administrator on HK$22,000 a month ranks in the global top quarter, yet after rent she cannot afford a phone. Guilt and fear steer attention downward; those who take most of the pie are never part of the comparison.",
+      "status": "published",
+      "reading_time": 25,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 2,
+        "total": 6
+      }
+    },
+    {
+      "id": "beggars-bowl/part1",
+      "slug": "/docs/beggars-bowl/more-work-more-pay",
+      "title": "Suffer If You Don't Work? From CSSA to UBI, Whose Principle Is “More Work, More Pay”?",
+      "date": "2026-10-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "綜援",
+          "UBI",
+          "濟貧法",
+          "安全網",
+          "勞工份額"
+        ],
+        "en": [
+          "cssa",
+          "ubi",
+          "poor-law",
+          "safety-net",
+          "labour-share"
+        ]
+      },
+      "keywords": [
+        "CSSA",
+        "universal basic income",
+        "more work more pay",
+        "Poor Law",
+        "safety net"
+      ],
+      "summary": "The premise that people who don't work should live worse comes from England's 1834 Poor Law, and its function has always been to hold down wages. A society needing work done does not mean people must work to deserve to live; the height of the safety net sets the floor for every level.",
+      "status": "published",
+      "reading_time": 38,
+      "series": {
+        "id": "beggars-bowl",
+        "name": "從乞丐碗裡搶飯",
+        "order": 1,
+        "total": 6
+      }
+    },
     {
       "id": "漂亮圖表下的山頭_巨頭擁抱 AI，鄉民重製 UI，沒有人肯交出定義權",
       "slug": "/docs/TechNotes/%E6%BC%82%E4%BA%AE%E5%9C%96%E8%A1%A8%E4%B8%8B%E7%9A%84%E5%B1%B1%E9%A0%AD_%E5%B7%A8%E9%A0%AD%E6%93%81%E6%8A%B1%20AI%EF%BC%8C%E9%84%89%E6%B0%91%E9%87%8D%E8%A3%BD%20UI%EF%BC%8C%E6%B2%92%E6%9C%89%E4%BA%BA%E8%82%AF%E4%BA%A4%E5%87%BA%E5%AE%9A%E7%BE%A9%E6%AC%8A",

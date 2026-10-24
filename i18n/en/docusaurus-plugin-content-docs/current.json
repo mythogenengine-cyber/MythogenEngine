@@ -23,13 +23,17 @@
     "message": "Lucid Record",
     "description": "The label for category Lucid Record in sidebar docs"
   },
-  "sidebar.docs.category.資本遊戲玩什麼（實例檔案：遊戲業）": {
-    "message": "What the Capital Game Plays (Case Study: Gaming Industry)",
-    "description": "The label for category 資本遊戲玩什麼（實例檔案：遊戲業） in sidebar docs"
+  "sidebar.docs.category.資本遊戲玩什麼": {
+    "message": "Capital Game",
+    "description": "The label for category 資本遊戲玩什麼 in sidebar docs"
   },
   "sidebar.docs.category.誰在門口收錢": {
     "message": "Who's Collecting at the Door",
     "description": "The label for category 誰在門口收錢 in sidebar docs"
+  },
+  "sidebar.docs.category.從乞丐碗裡搶飯": {
+    "message": "Snatching Rice from the Beggar's Bowl",
+    "description": "The label for category 從乞丐碗裡搶飯 in sidebar docs"
   },
   "sidebar.docs.category.記憶體四部曲": {
     "message": "Memory Tetralogy",

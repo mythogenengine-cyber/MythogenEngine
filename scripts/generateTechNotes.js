@@ -2,11 +2,19 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 
-const targetDirs = {
-  'zh-Hant': 'docs/TechNotes',
-  'zh-HK': 'i18n/zh-HK/docusaurus-plugin-content-docs/current/TechNotes',
-  'en': 'i18n/en/docusaurus-plugin-content-docs/current/TechNotes'
+const LOCALE_ROOTS = {
+  'zh-Hant': 'docs',
+  'zh-HK': 'i18n/zh-HK/docusaurus-plugin-content-docs/current',
+  'en': 'i18n/en/docusaurus-plugin-content-docs/current'
 };
+
+// Folders (relative to each locale root) whose articles appear in the
+// Lucid Record preview grid. Series published elsewhere in docs/ can be
+// listed here; their ids get a prefix so they never collide with TechNotes.
+const SOURCES = [
+  { dir: 'TechNotes', idPrefix: '' },
+  { dir: 'capital-game/從乞丐碗裡搶飯', idPrefix: 'beggars-bowl/' },
+];
 
 const outputData = {
   'zh-Hant': [],
@@ -16,8 +24,15 @@ const outputData = {
 
 const projectRoot = path.resolve(__dirname, '..');
 
-for (const [locale, relativePath] of Object.entries(targetDirs)) {
-  const dirPath = path.join(projectRoot, relativePath);
+// A frontmatter slug is relative to the docs route (/docs).
+function toDocsUrl(slug) {
+  const s = slug.startsWith('/') ? slug : `/${slug}`;
+  return s.startsWith('/docs/') ? s : `/docs${s}`;
+}
+
+for (const [locale, localeRoot] of Object.entries(LOCALE_ROOTS)) {
+for (const source of SOURCES) {
+  const dirPath = path.join(projectRoot, localeRoot, source.dir);
   
   if (!fs.existsSync(dirPath)) {
     console.warn(`Directory not found: ${dirPath}`);
@@ -31,9 +46,9 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
 
     // Skip orphan i18n files that have no counterpart in default locale docs/
     if (locale !== 'zh-Hant') {
-      const defaultLocalePath = path.join(projectRoot, targetDirs['zh-Hant'], file);
+      const defaultLocalePath = path.join(projectRoot, LOCALE_ROOTS['zh-Hant'], source.dir, file);
       if (!fs.existsSync(defaultLocalePath)) {
-        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${file}`);
+        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${source.dir}/${file}`);
         continue;
       }
     }
@@ -50,7 +65,10 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
         id = id.replace(/^\d+[-_]/, '');
       }
-      const slug = parsed.data.slug || `/docs/TechNotes/${encodeURIComponent(id)}`;
+      const slug = parsed.data.slug
+        ? toDocsUrl(parsed.data.slug)
+        : `/docs/${source.dir}/${encodeURIComponent(id)}`;
+      id = source.idPrefix + id;
       
       outputData[locale].push({
         id,
@@ -71,6 +89,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
       });
     }
   }
+}
 
   // Sort by date descending, or by sidebar_position
   outputData[locale].sort((a, b) => {
@@ -78,6 +97,10 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
     const timeB = b.date ? new Date(b.date).getTime() : 0;
     if (timeA !== timeB) {
       return timeB - timeA;
+    }
+    // Same day, same series: keep reading order (prologue before finale).
+    if (a.series && b.series && a.series.id === b.series.id) {
+      return (a.series.order || 0) - (b.series.order || 0);
     }
     if (a.sidebar_position !== undefined && b.sidebar_position !== undefined) {
       return a.sidebar_position - b.sidebar_position;

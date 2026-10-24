@@ -388,10 +388,10 @@ function CategoryCards() {
             </div>
           </div>
 
-          {/* Diary */}
+          {/* Snatching Rice from the Beggar's Bowl */}
           <div className="col col--6 margin-bottom--lg">
             <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
+              background: 'var(--color-surface-container-low)', 
               padding: '3rem', 
               borderRadius: '0.25rem',
               height: '100%',
@@ -402,20 +402,69 @@ function CategoryCards() {
               position: 'relative',
               overflow: 'hidden'
             }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '200px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(100px)', opacity: 0.08, borderRadius: '50%' }}></div>
+              <div style={{ position: 'absolute', top: 0, right: 0, width: '200px', height: '200px', background: '#ff9800', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
               <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'flex', gap: '1rem' }}>
-                  <PenLine size={36} strokeWidth={1.5} />
-                  <Heart size={36} strokeWidth={1.5} />
-                  <Coffee size={36} strokeWidth={1.5} />
+                <div className="flex space-x-4 mb-8" style={{ color: '#ff9800', display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                  <Layers size={36} strokeWidth={1.5} />
+                  <TrendingDown size={36} strokeWidth={1.5} />
+                  <span className="badge" style={{ background: '#ff9800', color: 'black', fontWeight: 600, fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    {isEn ? 'NEW SERIES · 2026' : '全新系列 · 2026'}
+                  </span>
                 </div>
                 <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  {isEn ? 'Diary' : '隨心書寫'} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? '(Personal Reflections)' : '（隨筆與日記）'}
+                  {isEn ? "Snatching Rice from the Beggar's Bowl" : '從乞丐碗裡搶飯'} <br />
+                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
+                    {isEn ? 'One Pie Cut Thinner Every Year' : '同一塊愈切愈細的餅'}
                   </span>
                 </h2>
                 <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
+                  {isZhTW
+                    ? '錢一直流向頂層，留在底層的份額年年縮減，其餘所有人卻被引導去跟身邊的人搶。從綜援到 UBI、從全球前一成到香港公屋與人口統計，五章拆解資本分配與制度的隱藏算術。'
+                    : isZhHK
+                    ? '錢一直流向頂層，留喺底層嘅份額年年縮細，其餘所有人卻被引導去同身邊嘅人爭。從綜援到 UBI、從全球前一成到香港公屋與人口統計，五章拆解資本分配與制度嘅隱藏算術。'
+                    : 'Money keeps flowing to the top while the share left below shrinks every year—and everyone else is steered into fighting the people beside them. From welfare and UBI to global rankings, public housing, and population statistics.'}
+                </p>
+              </div>
+              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', position: 'relative', zIndex: 1 }}>
+                <Link to="/docs/beggars-bowl" style={{ color: '#ff9800', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 400 }}>
+                  {isEn ? 'Read Series' : '閱讀系列'} <ArrowRight size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          {/* Diary */}
+          <div className="col col--12 margin-bottom--lg">
+            <div className="card shadow--md" style={{ 
+              background: 'var(--color-surface-container-lowest)', 
+              padding: '2.5rem 3rem', 
+              borderRadius: '0.25rem',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              border: 'none',
+              position: 'relative',
+              overflow: 'hidden',
+              flexWrap: 'wrap',
+              gap: '2rem'
+            }}>
+              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '200px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(100px)', opacity: 0.08, borderRadius: '50%' }}></div>
+              <div style={{ position: 'relative', zIndex: 1, flex: 1, minWidth: '280px' }}>
+                <div className="flex space-x-4 mb-4" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'flex', gap: '1rem' }}>
+                  <PenLine size={32} strokeWidth={1.5} />
+                  <Heart size={32} strokeWidth={1.5} />
+                  <Coffee size={32} strokeWidth={1.5} />
+                </div>
+                <h2 className="text-3xl font-headline mb-2" style={{ color: 'white' }}>
+                  {isEn ? 'Diary' : '隨心書寫'}{' '}
+                  <span className="text-on-surface-variant font-light text-xl italic" style={{ fontSize: '1.2rem', marginLeft: '0.5rem' }}>
+                    {isEn ? '(Personal Reflections)' : '（隨筆與日記）'}
+                  </span>
+                </h2>
+                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300, marginBottom: 0 }}>
                   {isZhTW
                     ? '沒有框架，沒有計劃，只是寫。關於職場、關於系統、關於一個人怎麼在體制裡找到自己的語言。'
                     : isZhHK
@@ -423,7 +472,7 @@ function CategoryCards() {
                     : 'No framework, no plan, just writing. About the workplace, about the system, about how one person finds their own language within institutions.'}
                 </p>
               </div>
-              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
+              <div style={{ position: 'relative', zIndex: 1 }}>
                 <Link to="/docs/Diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
                   {isEn ? 'Read Diary' : '閱讀隨筆'} <ArrowRight size={20} />
                 </Link>

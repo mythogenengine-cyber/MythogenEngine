@@ -18,7 +18,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const REF = path.join(ROOT, 'REF', '誰在門口收錢');
-const SERIES = '資本遊戲玩什麼（實例檔案：遊戲業）';
+const SERIES = 'capital-game';
 const BOOK_DIR = '誰在門口收錢';
 const SLUG = '/who-collects-at-the-door';
 const DL = 'pathname:///downloads/who-collects-at-the-door';

@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ebd75925613b93c8",
+        "id": "9682421da8785cf1",
         "type": "tabs",
         "children": [
           {
-            "id": "e47c4ed878f9248c",
+            "id": "214163d2d5dcd485",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/TechNotes/六十四卦六十四頁-合併版.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "六十四卦六十四頁-合併版"
-            }
-          },
-          {
-            "id": "c9b3e534851777dc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Gemini_Generated_Image_gbw0s6gbw0s6gbw0 (1).jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Gemini_Generated_Image_gbw0s6gbw0s6gbw0 (1)"
+              "title": "新分頁"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,53 +181,53 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "76882750d854c412",
+  "active": "214163d2d5dcd485",
   "lastOpenFiles": [
-    "build/zh-HK/docs/who-collects-at-the-door/full.html",
-    "build/zh-HK/docs/who-collects-at-the-door/preface.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch09.html",
-    "build/zh-HK/docs/who-collects-at-the-door/conclusion.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch08.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch07.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch05.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch06.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch03.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch04.html",
-    "build/zh-HK/docs/who-collects-at-the-door/ch01.html",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 103509-434b050ca8bcfb26de0eba5820f6577a.jpg",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 103721-c00d20948ef79cdf086b0418cbb0df22.jpg",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-20 110153-0c6aaf9e1987b46a3d3961ea9fb3db9e.jpg",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102918-d317ff09c84739eb126ce5b5e8ac43d8.jpg",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 102452-b9156309c5699038c91aad7ec8bf89e2.jpg",
-    "build/zh-HK/assets/images/production_line_flow-1b35b06d8b5c270a8354a07b93a44284.jpg",
-    "build/zh-HK/assets/images/螢幕擷取畫面 2026-07-14 101959-5ace7c86702531940d843a2726fec891.jpg",
-    "build/zh-HK/assets/images/preview (4)-0d43073027ff41d0cf226420fdce5e1c.webp",
-    "build/zh-HK/assets/images/preview-620658c6689afd315b860f27b3b759de.webp",
-    "build/zh-HK/assets/images/preview (3)-512e4f1e2a622a30ab3bd8b21bd82636.webp",
-    "i18n/zh-HK/docusaurus-plugin-content-docs/current/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/INFO_PAGE.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/full.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/conclusion.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch09.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch08.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch07.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch06.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch05.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch04.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch03.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch02.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/ch01.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/preface.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/INFO_PAGE.md",
-    "REF/誰在門口收錢/Who's Collecting at the Door (manuscript).md",
-    "REF/誰在門口收錢/誰在門口收錢（書稿）.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/誰在門口收錢（書稿）.md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/誰在門口收錢/Who's Collecting at the Door (manuscript).md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/未命名/Who's Collecting at the Door (manuscript).md",
-    "docs/資本遊戲玩什麼（實例檔案：遊戲業）/未命名/誰在門口收錢（書稿）.md",
-    "《鏡界：假面系統殺人事件》留言節錄.md",
-    "about-en.md",
-    "about-zh.md",
-    "architecture.md",
-    "bdd_guidelines.md"
+    "build/en/docs/TechNotes/效率陷阱續章・續章：你以為你贏了.html",
+    "build/en/docs/TechNotes/倖存者教你生存.html",
+    "build/en/docs/TechNotes/沒有人選過的版本.html",
+    "build/en/docs/TechNotes/每一句都是真話：一堂 AI 影片課的成本帳.html",
+    "build/en/docs/TechNotes/批准之後沒有人看見.html",
+    "build/en/docs/TechNotes/我問了 AI「記憶體股還能不能買」.html",
+    "build/en/docs/TechNotes/你的定期存款，補貼了德國人買車.html",
+    "build/en/docs/TechNotes/四個地方，沒有一個人拿到那筆便宜.html",
+    "build/en/docs/TechNotes/半個鐘頭的生產線.html",
+    "build/en/docs/TechNotes/一個讚一分一場罵戰三十分.html",
+    "build/en/docs/TechNotes/六十四卦六十四頁.html",
+    "build/en/img/cover-hk.jpg",
+    "build/en/img/book_cover_invisible_path.jpg",
+    "build/en/assets/images/Pasted image 20260722170716-35d89381b3eabe22abb64fbe3e89af12.jpg",
+    "build/en/assets/images/Pasted image 20260722171022-badb7fe5b0ac4c0141ec1bea1dfef8a5.jpg",
+    "build/en/assets/images/Pasted image 20260722170957-3deb5c62c76bf4b5af86d08f34aff012.jpg",
+    "build/en/assets/images/Pasted image 20260722170907-12802d276726984d1c09677b8994d188.jpg",
+    "build/en/assets/images/production_line_flow-1b35b06d8b5c270a8354a07b93a44284.jpg",
+    "build/en/assets/images/Pasted image 20260722170839-ef195f32205dfbf9b366c4afa0a412e0.jpg",
+    "build/en/assets/images/Gemini_Generated_Image_787x4k787x4k787x-0630f75cd1b1c4bdcff2c317bd07bf58.jpg",
+    "build/en/assets/images/Gemini_Generated_Image_nx6ekjnx6ekjnx6e (1)-827bcca7b6806e63c96c87e4311df847.jpg",
+    "docs/capital-game/從乞丐碗裡搶飯/part1.md",
+    "docs/capital-game/從乞丐碗裡搶飯/prologue.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/prologue.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part4.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part3.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part2.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part1.md",
+    "i18n/en/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/finale.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part2.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/prologue.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part4.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part3.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/part1.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/從乞丐碗裡搶飯/finale.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/INFO_PAGE.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/preface.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/full.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/conclusion.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch09.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch08.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch05.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch07.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch06.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch02.md",
+    "i18n/zh-HK/docusaurus-plugin-content-docs/current/capital-game/誰在門口收錢/ch04.md"
   ]
 }

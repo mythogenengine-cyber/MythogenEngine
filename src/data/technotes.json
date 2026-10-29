@@ -1,6 +1,49 @@
 {
   "zh-Hant": [
     {
+      "id": "我很少談心理學",
+      "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",
+      "title": "我很少談心理學",
+      "date": "2026-10-29T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "psychology-critique",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "心理學批判",
+          "標籤化",
+          "MBTI",
+          "榮格心理學",
+          "結構性問題",
+          "煤氣燈效應"
+        ],
+        "en": [
+          "psychology-critique",
+          "labeling",
+          "mbti",
+          "jungian-psychology",
+          "structural-problems",
+          "gaslighting"
+        ]
+      },
+      "keywords": [
+        "顧修全",
+        "MBTI",
+        "榮格",
+        "標籤化",
+        "Walter Mischel",
+        "煤氣燈效應",
+        "結構問題",
+        "心理分析"
+      ],
+      "summary": "真正的心理學問的是「這個人為什麼會變成這樣」，濫用的心理學只問「這個人屬於哪一類」。從顧修全的個案追蹤，到學校貼標籤、職場 MBTI 表演與網紅的萬能榮格詮釋，拆解心理學如何從理解人的工具，被異化成免除結構責任、剝奪申辯權的判決武器。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261029,
+      "series": null
+    },
+    {
       "id": "beggars-bowl/prologue",
       "slug": "/docs/beggars-bowl",
       "title": "序篇：從乞丐碗裡搶飯",
@@ -2033,6 +2076,49 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "我很少談心理學",
+      "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",
+      "title": "我很少談心理學",
+      "date": "2026-10-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "psychology-critique",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "心理學批判",
+          "標籤化",
+          "MBTI",
+          "榮格心理學",
+          "結構性問題",
+          "煤氣燈效應"
+        ],
+        "en": [
+          "psychology-critique",
+          "labeling",
+          "mbti",
+          "jungian-psychology",
+          "structural-problems",
+          "gaslighting"
+        ]
+      },
+      "keywords": [
+        "顧修全",
+        "MBTI",
+        "榮格",
+        "標籤化",
+        "Walter Mischel",
+        "煤氣燈效應",
+        "結構問題",
+        "心理分析"
+      ],
+      "summary": "真正嘅心理學問嘅係「呢個人點解會變成咁」，濫用嘅心理學只問「呢個人屬於邊一類」。從顧修全嘅個案追蹤，到學校貼標籤、職場 MBTI 表演與網紅嘅萬能榮格詮釋，拆解心理學點樣由理解人嘅工具，被異化成免除結構責任、剝奪申辯權嘅判決武器。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261029,
+      "series": null
+    },
     {
       "id": "beggars-bowl/prologue",
       "slug": "/docs/beggars-bowl",
@@ -4067,6 +4153,49 @@
     }
   ],
   "en": [
+    {
+      "id": "我很少談心理學",
+      "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",
+      "title": "Why I Rarely Write About Psychology",
+      "date": "2026-10-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "psychology-critique",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "心理學批判",
+          "標籤化",
+          "MBTI",
+          "榮格心理學",
+          "結構性問題",
+          "煤氣燈效應"
+        ],
+        "en": [
+          "psychology-critique",
+          "labeling",
+          "mbti",
+          "jungian-psychology",
+          "structural-problems",
+          "gaslighting"
+        ]
+      },
+      "keywords": [
+        "Koo Hsiu-chuan",
+        "MBTI",
+        "Carl Jung",
+        "labeling",
+        "Walter Mischel",
+        "gaslighting",
+        "structural problems",
+        "psychological analysis"
+      ],
+      "summary": "Real psychology asks 'how did this person become who they are?' Abused psychology asks 'which category does this person belong to?' From Koo Hsiu-chuan's case analysis to school labeling, workplace MBTI theater, and unfalsifiable Jungian pop psychology online, this essay dissects how psychology shifts from understanding individuals into a weapon for passing verdicts, shifting blame from broken structures to individuals.",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261029,
+      "series": null
+    },
     {
       "id": "beggars-bowl/prologue",
       "slug": "/docs/beggars-bowl",

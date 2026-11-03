@@ -131,7 +131,7 @@
       },
       {
         "id": "memory-series",
-        "title": "記憶體四部曲",
+        "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
         "itemsCount": 4,
         "dateRange": "2026-05-26 ~ 2026-07-31",
@@ -221,7 +221,7 @@
       },
       {
         "id": "platform-silencing",
-        "title": "平台消音五部曲",
+        "title": "平台消音與認知封鎖五部曲",
         "description": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
         "itemsCount": 5,
         "dateRange": "2026-07-17 ~ 2026-07-23",
@@ -270,7 +270,7 @@
       },
       {
         "id": "attenuation-visibility",
-        "title": "衰減：可見度如何被分配三部曲",
+        "title": "衰減：可見度如何被分配",
         "description": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
         "itemsCount": 3,
         "dateRange": "2026-08-06",
@@ -628,7 +628,7 @@
       },
       {
         "id": "memory-series",
-        "title": "記憶體四部曲",
+        "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
         "itemsCount": 4,
         "dateRange": "2026-05-26 ~ 2026-07-31",
@@ -718,7 +718,7 @@
       },
       {
         "id": "platform-silencing",
-        "title": "平台消音五部曲",
+        "title": "平台消音與認知封鎖五部曲",
         "description": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
         "itemsCount": 5,
         "dateRange": "2026-07-17 ~ 2026-07-23",
@@ -767,7 +767,7 @@
       },
       {
         "id": "attenuation-visibility",
-        "title": "衰減：可見度如何被分配三部曲",
+        "title": "衰減：可見度如何被分配",
         "description": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
         "itemsCount": 3,
         "dateRange": "2026-08-06",
@@ -1125,7 +1125,7 @@
       },
       {
         "id": "memory-series",
-        "title": "Memory Tetralogy",
+        "title": "Memory and AI Compute Cycle Series",
         "description": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
         "itemsCount": 4,
         "dateRange": "2026-05-26 ~ 2026-07-31",

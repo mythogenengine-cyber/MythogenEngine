@@ -125,7 +125,7 @@ i18n/<locale>/
 | 檔案 | 重點內容 |
 |---|---|
 | `docusaurus.config.js` | 網站標題、URL、i18n 語系、navbar 項目（書、系列、清醒記錄、散文、關於）、footer、gtag |
-| `sidebars.js` | 側邊欄結構，拆分為 9 個獨立 sidebar（`aiTao`, `mirrorRealm`, `gameVictory`, `capitalGame`, `whoCollects`, `aiWar`, `beggarsBowl`, `lucidRecord`, `essays`）；清醒記錄與散文透過動態 fs 掃描歸入獨立篇與隨筆 |
+| `sidebars.js` | 側邊欄結構，拆分為 9 個獨立 sidebar（`aiTao`, `mirrorRealm`, `gameVictory`, `capitalGame`, `whoCollects`, `aiWar`, `beggarsBowl`, `lucidRecord`, `essays`）；系列與獨立篇、隨筆全部透過動態掃描文章 front matter 生成 |
 | `package.json` | 建置腳本：`start` / `build` / `deploy` 均先跑 generateHubs, generateTechNotes, generateDiary 腳本再執行 docusaurus |
 
 ---
@@ -138,7 +138,7 @@ i18n/<locale>/
 2. 填寫 frontmatter（`title`, `date`, `section`, `topic`, `article_tags`, `summary`...）
 3. 圖片放在 `docs/TechNotes/images/`，以相對路徑引用
 4. 若需多語版本，在 `i18n/<locale>/docusaurus-plugin-content-docs/current/TechNotes/` 鏡像建立翻譯
-5. **系列與 Hubs 關聯**：若文章屬於某系列（如記憶體、平台消音等），需在 `src/data/hubs.config.json` 與 `sidebars.js` 對應系列中加入該 docId；若為獨立篇，`sidebars.js` 的動態掃描會自動歸入清醒記錄的「獨立篇」
+5. **系列與 Hubs 關聯**：文章加入系列：只需在 YAML 寫 `series: { id, name, order }`，不需修改 `sidebars.js` 或 `hubs.config.json`。若為獨立篇（無 series），`sidebars.js` 的動態掃描會自動歸入清醒記錄的「獨立篇」
 6. 執行 `node scripts/generateHubs.js` 驗證並更新 `hubs.json`
 
 ### 新增一本書的章節

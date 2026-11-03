@@ -4,6 +4,90 @@ const matter = require('gray-matter');
 
 const projectRoot = __dirname;
 
+function getDocId(relFilePath, parsedData) {
+  const dir = path.dirname(relFilePath).replace(/\\/g, '/');
+  let base = path.basename(relFilePath).replace(/\.mdx?$/, '');
+  if (parsedData && parsedData.id) {
+    base = parsedData.id;
+  } else {
+    base = base
+      .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
+      .replace(/^\d{8}[-_]/, '')
+      .replace(/^\d+[-_]/, '');
+  }
+  if (base === 'index') {
+    return dir;
+  }
+  return dir === '.' ? base : `${dir}/${base}`;
+}
+
+let _seriesCache = null;
+function getSeriesMap() {
+  if (_seriesCache) return _seriesCache;
+  const docsDir = path.join(projectRoot, 'docs');
+  function scan(dir) {
+    let results = [];
+    const entries = fs.readdirSync(dir);
+    for (const entry of entries) {
+      const full = path.join(dir, entry);
+      const stat = fs.statSync(full);
+      if (stat.isDirectory()) {
+        results = results.concat(scan(full));
+      } else if (entry.endsWith('.md') || entry.endsWith('.mdx')) {
+        results.push(full);
+      }
+    }
+    return results;
+  }
+  const files = scan(docsDir);
+  const map = {};
+  for (const f of files) {
+    const content = fs.readFileSync(f, 'utf8');
+    const parsed = matter(content);
+    if (parsed.data && parsed.data.series && parsed.data.series.id) {
+      const s = parsed.data.series;
+      if (!map[s.id]) map[s.id] = [];
+      const relPath = path.relative(docsDir, f).replace(/\\/g, '/');
+      const docId = getDocId(relPath, parsed.data);
+      map[s.id].push({
+        docId,
+        name: s.name,
+        order: typeof s.order === 'number' ? s.order : 999,
+      });
+    }
+  }
+  for (const sid of Object.keys(map)) {
+    map[sid].sort((a, b) => a.order - b.order);
+  }
+  _seriesCache = map;
+  return map;
+}
+
+function getSeriesCategory(seriesId, options = {}) {
+  const map = getSeriesMap();
+  const list = map[seriesId] || [];
+  if (list.length === 0) {
+    throw new Error(`[sidebars.js] No articles found for series "${seriesId}"`);
+  }
+  const label = list[0].name;
+  const guideItem = list.find((it) => it.order === 0);
+  const subItems = list.filter((it) => it.order !== 0).map((it) => it.docId);
+
+  const category = {
+    type: 'category',
+    label,
+    ...options,
+  };
+  if (guideItem) {
+    category.link = {
+      type: 'doc',
+      id: guideItem.docId,
+    };
+  }
+  category.items = subItems;
+  return category;
+}
+
 function getQuarterLabel(date) {
   if (!date) return null;
   let dateStr = '';
@@ -31,30 +115,6 @@ function getLucidRecordStandaloneCategories() {
   const dir = path.join(projectRoot, 'docs', 'TechNotes');
   const items = [];
 
-  const knownSeriesDocs = new Set([
-    'TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝',
-    'TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單',
-    'TechNotes/我問了 AI「記憶體股還能不能買」',
-    'TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配',
-    'TechNotes/認知與判斷——AI 時代人類最後的不可取代性',
-    'TechNotes/環境如何令人變蠢——認知與判斷（後記）',
-    'TechNotes/當所有人都在學AI',
-    'TechNotes/殺死創新的標準作業程序',
-    'TechNotes/效率陷阱續章・續章：你以為你贏了',
-    'TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除',
-    'TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場',
-    'TechNotes/異常報告裡的讀者・後記——我以為門關了',
-    'TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本',
-    'TechNotes/半個鐘頭的生產線',
-    'TechNotes/批准之後沒有人看見',
-    'TechNotes/最不像AI的文章反而是AI寫的',
-    'TechNotes/一個讚一分一場罵戰三十分',
-    'TechNotes/退出機制三部曲',
-    'TechNotes/你的定期存款，補貼了德國人買車',
-    'TechNotes/四個地方，沒有一個人拿到那筆便宜',
-    'TechNotes/錢不走，人也不走',
-  ]);
-
   if (fs.existsSync(dir)) {
     const files = fs.readdirSync(dir).filter(
       (f) =>
@@ -67,6 +127,9 @@ function getLucidRecordStandaloneCategories() {
       const full = path.join(dir, f);
       const fileContent = fs.readFileSync(full, 'utf8');
       const parsed = matter(fileContent);
+      if (parsed.data && parsed.data.series) {
+        continue;
+      }
       let id = parsed.data.id || f.replace(/\.mdx?$/, '');
       if (!parsed.data.id) {
         id = id
@@ -75,22 +138,20 @@ function getLucidRecordStandaloneCategories() {
           .replace(/^\d+[-_]/, '');
       }
       const docId = 'TechNotes/' + id;
-      if (!knownSeriesDocs.has(docId)) {
-        const rawDate = parsed.data.date;
-        const dateStr =
-          rawDate instanceof Date
-            ? rawDate.toISOString().slice(0, 10)
-            : rawDate
-            ? String(rawDate).slice(0, 10)
-            : '';
-        items.push({
-          docId,
-          title: parsed.data.title || id,
-          file: f,
-          date: dateStr,
-          dateTime: dateStr ? new Date(dateStr).getTime() : 0,
-        });
-      }
+      const rawDate = parsed.data.date;
+      const dateStr =
+        rawDate instanceof Date
+          ? rawDate.toISOString().slice(0, 10)
+          : rawDate
+          ? String(rawDate).slice(0, 10)
+          : '';
+      items.push({
+        docId,
+        title: parsed.data.title || id,
+        file: f,
+        date: dateStr,
+        dateTime: dateStr ? new Date(dateStr).getTime() : 0,
+      });
     }
   }
 
@@ -169,14 +230,10 @@ function getDiaryRemainingDocs() {
       f !== 'index.md'
   );
 
-  const knownDocs = new Set([
+  const knownSevenDaysDocs = new Set([
     'Diary/七日書｜身心靈',
     'Diary/七日書｜傳奇一曲',
     'Diary/七日書_無用之用_道',
-    'Diary/樂風集團案的食物鏈結構',
-    'Diary/收費結構決定言論自由',
-    'Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線',
-    'Diary/一場豪賭的正常與不正常',
   ]);
 
   const items = [];
@@ -184,6 +241,9 @@ function getDiaryRemainingDocs() {
     const full = path.join(dir, f);
     const content = fs.readFileSync(full, 'utf8');
     const parsed = matter(content);
+    if (parsed.data && parsed.data.series) {
+      continue;
+    }
     let id = parsed.data.id || f.replace(/\.mdx?$/, '');
     if (!parsed.data.id) {
       id = id
@@ -192,7 +252,7 @@ function getDiaryRemainingDocs() {
         .replace(/^\d+[-_]/, '');
     }
     const docId = 'Diary/' + id;
-    if (!knownDocs.has(docId)) {
+    if (!knownSevenDaysDocs.has(docId)) {
       items.push({
         docId,
         date: parsed.data.date ? new Date(parsed.data.date).getTime() : 0,
@@ -341,97 +401,21 @@ const sidebars = {
 
   // 6. AI War
   aiWar: [
-    {
-      type: 'category',
-      label: 'AI Ecosystem War',
-      collapsible: false,
-      items: [
-        'ai-war/guide',
-        'ai-war/food_chain',
-        'ai-war/ms_openai',
-        'ai-war/perpetual_motion',
-        'ai-war/limitations',
-        'ai-war/claude_code',
-        'ai-war/apple_counter',
-        'ai-war/ai_film',
-        'ai-war/xbox',
-      ],
-    },
+    getSeriesCategory('ai-war', { collapsible: false }),
   ],
 
   // 7. 從乞丐碗裡搶飯
   beggarsBowl: [
-    {
-      type: 'category',
-      label: '從乞丐碗裡搶飯',
-      collapsible: false,
-      items: [
-        'capital-game/從乞丐碗裡搶飯/prologue',
-        'capital-game/從乞丐碗裡搶飯/part1',
-        'capital-game/從乞丐碗裡搶飯/part2',
-        'capital-game/從乞丐碗裡搶飯/part3',
-        'capital-game/從乞丐碗裡搶飯/part4',
-        'capital-game/從乞丐碗裡搶飯/finale',
-      ],
-    },
+    getSeriesCategory('beggars-bowl', { collapsible: false }),
   ],
 
   // 8. 清醒記錄 (lucidRecord)
   lucidRecord: [
-    {
-      type: 'category',
-      label: '記憶體四部曲',
-      items: [
-        'TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝',
-        'TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單',
-        'TechNotes/我問了 AI「記憶體股還能不能買」',
-        'TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配',
-      ],
-    },
-    {
-      type: 'category',
-      label: '效率陷阱與認知侵蝕五部曲',
-      items: [
-        'TechNotes/認知與判斷——AI 時代人類最後的不可取代性',
-        'TechNotes/環境如何令人變蠢——認知與判斷（後記）',
-        'TechNotes/當所有人都在學AI',
-        'TechNotes/殺死創新的標準作業程序',
-        'TechNotes/效率陷阱續章・續章：你以為你贏了',
-      ],
-    },
-    {
-      type: 'category',
-      label: '平台消音五部曲',
-      items: [
-        'TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除',
-        'TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場',
-        'TechNotes/異常報告裡的讀者・後記——我以為門關了',
-        'TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本',
-        'TechNotes/半個鐘頭的生產線',
-      ],
-    },
-    {
-      type: 'category',
-      label: '衰減：可見度如何被分配三部曲',
-      items: [
-        'TechNotes/批准之後沒有人看見',
-        'TechNotes/最不像AI的文章反而是AI寫的',
-        'TechNotes/一個讚一分一場罵戰三十分',
-      ],
-    },
-    {
-      type: 'category',
-      label: '退出機制三部曲',
-      link: {
-        type: 'doc',
-        id: 'TechNotes/退出機制三部曲',
-      },
-      items: [
-        'TechNotes/你的定期存款，補貼了德國人買車',
-        'TechNotes/四個地方，沒有一個人拿到那筆便宜',
-        'TechNotes/錢不走，人也不走',
-      ],
-    },
+    getSeriesCategory('memory-series'),
+    getSeriesCategory('efficiency-trap-cognition-erosion'),
+    getSeriesCategory('platform-silencing'),
+    getSeriesCategory('attenuation-visibility'),
+    getSeriesCategory('exit-mechanism'),
     {
       type: 'category',
       label: '獨立篇',
@@ -450,16 +434,7 @@ const sidebars = {
         'Diary/七日書_無用之用_道',
       ],
     },
-    {
-      type: 'category',
-      label: '合法傷害權',
-      items: [
-        'Diary/樂風集團案的食物鏈結構',
-        'Diary/收費結構決定言論自由',
-        'Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線',
-        'Diary/一場豪賭的正常與不正常',
-      ],
-    },
+    getSeriesCategory('legal-harm'),
     {
       type: 'category',
       label: '隨筆',

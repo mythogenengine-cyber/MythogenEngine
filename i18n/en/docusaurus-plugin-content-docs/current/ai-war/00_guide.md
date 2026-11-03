@@ -2,6 +2,10 @@
 title: "Microsoft and Apple's Covert AI Ecosystem War: A Panoramic Industry Research"
 description: "A detailed analysis report on the AI industry food chain, the perpetual motion machine of capital, the fission of the developer ecosystem, and the qui..."
 summary: "A detailed analysis report on the AI industry food chain, the perpetual motion machine of capital, the fission of the developer ecosystem, and the qui..."
+series:
+  id: ai-war
+  name: AI Ecosystem War
+  order: 0
 ---
 # Microsoft and Apple's Covert AI Ecosystem War: A Panoramic Industry Research
 

@@ -42,7 +42,7 @@ status: published
 reading_time: 7
 series:
   id: memory-series
-  name: "記憶體與 AI 算力週期系列"
+  name: "Memory and AI Compute Cycle Series"
   order: 4
   total: 4
 ---

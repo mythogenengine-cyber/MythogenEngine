@@ -35,10 +35,6 @@
     "message": "Snatching Rice from the Beggar's Bowl",
     "description": "The label for category 從乞丐碗裡搶飯 in sidebar docs"
   },
-  "sidebar.docs.category.記憶體四部曲": {
-    "message": "Memory Tetralogy",
-    "description": "The label for category 記憶體四部曲 in sidebar docs"
-  },
   "sidebar.docs.category.效率陷阱與認知侵蝕五部曲": {
     "message": "Efficiency Trap & Cognitive Erosion Quintet",
     "description": "The label for category 效率陷阱與認知侵蝕五部曲 in sidebar docs"
@@ -83,21 +79,9 @@
     "message": "Snatching Rice from the Beggar's Bowl",
     "description": "The label for category 從乞丐碗裡搶飯 in sidebar beggarsBowl"
   },
-  "sidebar.lucidRecord.category.記憶體四部曲": {
-    "message": "Memory Tetralogy",
-    "description": "The label for category 記憶體四部曲 in sidebar lucidRecord"
-  },
   "sidebar.lucidRecord.category.效率陷阱與認知侵蝕五部曲": {
     "message": "Efficiency Trap & Cognitive Erosion Quintet",
     "description": "The label for category 效率陷阱與認知侵蝕五部曲 in sidebar lucidRecord"
-  },
-  "sidebar.lucidRecord.category.平台消音五部曲": {
-    "message": "Platform Silencing Quintet",
-    "description": "The label for category 平台消音五部曲 in sidebar lucidRecord"
-  },
-  "sidebar.lucidRecord.category.衰減：可見度如何被分配三部曲": {
-    "message": "Attenuation: How Visibility is Allocated Trilogy",
-    "description": "The label for category 衰減：可見度如何被分配三部曲 in sidebar lucidRecord"
   },
   "sidebar.lucidRecord.category.退出機制三部曲": {
     "message": "Exit Mechanism Trilogy",
@@ -138,5 +122,14 @@
   "sidebar.lucidRecord.category.未標日期": {
     "message": "未標日期",
     "description": "The label for category 未標日期 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.記憶體與 AI 算力週期系列": {
+    "message": "Memory and AI Compute Cycle Series"
+  },
+  "sidebar.lucidRecord.category.平台消音與認知封鎖五部曲": {
+    "message": "Platform Silencing and Cognitive Blockade: A Five-Part Series"
+  },
+  "sidebar.lucidRecord.category.衰減：可見度如何被分配": {
+    "message": "Attenuation: How Visibility Is Allocated"
   }
 }

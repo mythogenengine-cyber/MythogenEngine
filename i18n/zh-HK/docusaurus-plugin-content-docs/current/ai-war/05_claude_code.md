@@ -2,6 +2,10 @@
 title: "主題五：開發者生態的兩面夾擊——Claude Code 與 Google 的聯合瓦解"
 description: "這是原系列完全遺漏、但在 2025-2026 年對微軟衝擊最大的一個維度。"
 summary: "這是原系列完全遺漏、但在 2025-2026 年對微軟衝擊最大的一個維度。"
+series:
+  id: ai-war
+  name: AI Ecosystem War
+  order: 5
 ---
 # 主題五：開發者生態的兩面夾擊——Claude Code 與 Google 的聯合瓦解
 

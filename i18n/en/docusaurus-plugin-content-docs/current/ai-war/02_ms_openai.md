@@ -2,6 +2,10 @@
 title: "Theme 02: The Dangerous Dance Between Microsoft and OpenAI—Mutual Hostage-Taking, The Century's Open Conspiracy, and Exit Plans"
 description: "The relationship between Microsoft and OpenAI is the most complex and deformed commercial marriage in tech history."
 summary: "The relationship between Microsoft and OpenAI is the most complex and deformed commercial marriage in tech history."
+series:
+  id: ai-war
+  name: AI Ecosystem War
+  order: 2
 ---
 # Theme 02: The Dangerous Dance Between Microsoft and OpenAI—Mutual Hostage-Taking, The Century's Open Conspiracy, and Exit Plans
 

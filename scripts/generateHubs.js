@@ -45,8 +45,8 @@ const SERIES_TITLE_MAP = {
     en: 'AI Ecosystem War',
   },
   'memory-series': {
-    'zh-Hant': '記憶體四部曲',
-    'zh-HK': '記憶體四部曲',
+    'zh-Hant': '記憶體與 AI 算力週期系列',
+    'zh-HK': '記憶體與 AI 算力週期系列',
     en: 'Memory Tetralogy',
   },
   'efficiency-trap-cognition-erosion': {
@@ -55,13 +55,13 @@ const SERIES_TITLE_MAP = {
     en: 'Efficiency Trap & Cognitive Erosion Quintet',
   },
   'platform-silencing': {
-    'zh-Hant': '平台消音五部曲',
-    'zh-HK': '平台消音五部曲',
+    'zh-Hant': '平台消音與認知封鎖五部曲',
+    'zh-HK': '平台消音與認知封鎖五部曲',
     en: 'Platform Silencing Quintet',
   },
   'attenuation-visibility': {
-    'zh-Hant': '衰減：可見度如何被分配三部曲',
-    'zh-HK': '衰減：可見度如何被分配三部曲',
+    'zh-Hant': '衰減：可見度如何被分配',
+    'zh-HK': '衰減：可見度如何被分配',
     en: 'Attenuation: How Visibility is Allocated Trilogy',
   },
   'exit-mechanism': {
@@ -135,6 +135,72 @@ function resolveDocFile(locale, docId) {
   return null;
 }
 
+function getDocId(relFilePath, parsedData) {
+  const dir = path.dirname(relFilePath).replace(/\\/g, '/');
+  let base = path.basename(relFilePath).replace(/\.mdx?$/, '');
+  if (parsedData && parsedData.id) {
+    base = parsedData.id;
+  } else {
+    base = base
+      .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
+      .replace(/^\d{8}[-_]/, '')
+      .replace(/^\d+[-_]/, '');
+  }
+  if (base === 'index') {
+    return dir;
+  }
+  return dir === '.' ? base : `${dir}/${base}`;
+}
+
+let _cachedSeriesDocs = null;
+function getAllSeriesDocs() {
+  if (_cachedSeriesDocs) return _cachedSeriesDocs;
+  const docsDir = path.join(projectRoot, 'docs');
+  function scan(dir) {
+    let results = [];
+    const entries = fs.readdirSync(dir);
+    for (const entry of entries) {
+      const full = path.join(dir, entry);
+      const stat = fs.statSync(full);
+      if (stat.isDirectory()) {
+        results = results.concat(scan(full));
+      } else if (entry.endsWith('.md') || entry.endsWith('.mdx')) {
+        results.push(full);
+      }
+    }
+    return results;
+  }
+  const files = scan(docsDir);
+  const map = {};
+  for (const f of files) {
+    const content = fs.readFileSync(f, 'utf8');
+    const parsed = matter(content);
+    if (parsed.data && parsed.data.series && parsed.data.series.id) {
+      const s = parsed.data.series;
+      if (!map[s.id]) map[s.id] = [];
+      const relPath = path.relative(docsDir, f).replace(/\\/g, '/');
+      const docId = getDocId(relPath, parsed.data);
+      map[s.id].push({
+        docId,
+        name: s.name,
+        order: typeof s.order === 'number' ? s.order : 999,
+        file: path.relative(projectRoot, f).replace(/\\/g, '/'),
+      });
+    }
+  }
+  for (const sid of Object.keys(map)) {
+    map[sid].sort((a, b) => a.order - b.order);
+  }
+  _cachedSeriesDocs = map;
+  return map;
+}
+
+function getSeriesDocIds(seriesId) {
+  const map = getAllSeriesDocs();
+  const list = map[seriesId] || [];
+  return list.map((item) => item.docId);
+}
+
 function extractFirstH1(content) {
   const match = content.match(/^#\s+(.+)$/m);
   return match ? match[1].trim() : '';
@@ -197,6 +263,7 @@ function generateHubs() {
   const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
   // 主要檢查（失敗即 exit 1）：hubs.config.json 內每個 doc id 都必須對應到 docs/ 下真實存在的 .md / .mdx 檔案
+  // 並且每個 series id 至少有一篇文章且 order 不重複
   const docCheckResult = checkDocFiles(config);
 
   // Load sidebars for sidebar counts
@@ -228,9 +295,10 @@ function generateHubs() {
       });
     }
 
-    // 2. Series
+    // 2. Series (成員由 docs/ front matter 取得)
     for (const s of config.series) {
-      const docs = s.docs.map((docId) => parseDoc(locale, docId));
+      const seriesDocIds = getSeriesDocIds(s.id);
+      const docs = seriesDocIds.map((docId) => parseDoc(locale, docId));
       const firstDoc = docs[0];
 
       let seriesTitle =
@@ -293,20 +361,20 @@ function generateHubs() {
       .readdirSync(diaryDir)
       .filter((f) => (f.endsWith('.md') || f.endsWith('.mdx')) && f !== 'index.mdx' && f !== 'index.md');
 
-    const knownEssayDocs = new Set([
+    const knownSevenDaysDocs = new Set([
       'Diary/七日書｜身心靈',
       'Diary/七日書｜傳奇一曲',
       'Diary/七日書_無用之用_道',
-      'Diary/樂風集團案的食物鏈結構',
-      'Diary/收費結構決定言論自由',
-      'Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線',
-      'Diary/一場豪賭的正常與不正常',
     ]);
 
     const restDocs = [];
     for (const f of diaryFiles) {
       const content = fs.readFileSync(path.join(diaryDir, f), 'utf8');
       const parsed = matter(content);
+      // 跳過有 series 的文章（如 legal-harm）
+      if (parsed.data && parsed.data.series) {
+        continue;
+      }
       let id = parsed.data.id || f.replace(/\.mdx?$/, '');
       if (!parsed.data.id) {
         id = id
@@ -315,7 +383,7 @@ function generateHubs() {
           .replace(/^\d+[-_]/, '');
       }
       const docId = 'Diary/' + id;
-      if (!knownEssayDocs.has(docId)) {
+      if (!knownSevenDaysDocs.has(docId)) {
         restDocs.push(parseDoc(locale, docId));
       }
     }
@@ -362,13 +430,13 @@ function extractConfigDocIds(config) {
     }
   }
 
-  // 2. Series
+  // 2. Series (read from front matter)
+  const seriesMap = getAllSeriesDocs();
   if (Array.isArray(config.series)) {
     for (const s of config.series) {
-      if (Array.isArray(s.docs)) {
-        for (const id of s.docs) {
-          docEntries.push({ docId: id, source: `Series: ${s.id}` });
-        }
+      const list = seriesMap[s.id] || [];
+      for (const item of list) {
+        docEntries.push({ docId: item.docId, source: `Series: ${s.id}` });
       }
     }
   }
@@ -388,6 +456,25 @@ function extractConfigDocIds(config) {
 }
 
 function checkDocFiles(config) {
+  // 自我檢查 1：config 內每個 series id 至少有一篇文章；同一系列 order 不可重複
+  const seriesMap = getAllSeriesDocs();
+  if (Array.isArray(config.series)) {
+    for (const s of config.series) {
+      const list = seriesMap[s.id] || [];
+      if (list.length === 0) {
+        console.error(`\n[Self-Check ERROR] Series "${s.id}" in hubs.config.json has no corresponding articles in docs/.`);
+        process.exit(1);
+      }
+      const orders = list.map((it) => it.order);
+      const duplicates = list.filter((it, idx) => orders.indexOf(it.order) !== idx);
+      if (duplicates.length > 0) {
+        console.error(`\n[Self-Check ERROR] Series "${s.id}" has duplicate order(s): ${duplicates.map((d) => d.order).join(', ')}`);
+        process.exit(1);
+      }
+    }
+  }
+
+  // 自我檢查 2：所有 docId 必須存在於 docs/
   const docEntries = extractConfigDocIds(config);
   const missing = [];
 
@@ -399,14 +486,14 @@ function checkDocFiles(config) {
   }
 
   if (missing.length > 0) {
-    console.error(`\n[Self-Check ERROR] Found ${missing.length} doc ID(s) in hubs.config.json with no corresponding file in docs/:`);
+    console.error(`\n[Self-Check ERROR] Found ${missing.length} doc ID(s) with no corresponding file in docs/:`);
     missing.forEach((m) => {
       console.error(`  - [${m.source}] ${m.docId}`);
     });
     process.exit(1);
   }
 
-  const checkMessage = `[Self-Check] Doc file verification PASSED! All ${docEntries.length} doc IDs in hubs.config.json exist in docs/. Zero missing files.`;
+  const checkMessage = `[Self-Check] Doc file verification PASSED! All ${docEntries.length} doc IDs in hubs verified in docs/. All series validated with unique orders.`;
   console.log(checkMessage);
   return {
     passed: true,
@@ -520,7 +607,7 @@ function runSelfCheck(zhHantData, config, options = {}) {
     sitemapResult ? sitemapResult.message : '',
   ]
     .filter(Boolean)
-    .join("\n");
+    .join('\n');
 
   return {
     passed: true,
@@ -684,11 +771,11 @@ function generateReportTables(hubsData) {
     },
     {
       oldKey: 'sidebar.docs.category.記憶體四部曲',
-      newKey: 'sidebar.lucidRecord.category.記憶體四部曲',
-      zhHant: '記憶體四部曲',
-      en: enCurrent['sidebar.docs.category.記憶體四部曲']?.message || 'Memory Tetralogy',
-      zhHK: zhHKCurrent['sidebar.docs.category.記憶體四部曲']?.message || '記憶體四部曲',
-      note: '清醒記錄子 category 遷移',
+      newKey: 'sidebar.lucidRecord.category.記憶體與 AI 算力週期系列',
+      zhHant: '記憶體與 AI 算力週期系列',
+      en: enCurrent['sidebar.lucidRecord.category.記憶體與 AI 算力週期系列']?.message || 'Memory Tetralogy',
+      zhHK: zhHKCurrent['sidebar.lucidRecord.category.記憶體與 AI 算力週期系列']?.message || '記憶體與 AI 算力週期系列',
+      note: '清醒記錄子 category 遷移並更名',
     },
     {
       oldKey: 'sidebar.docs.category.效率陷阱與認知侵蝕五部曲',
@@ -700,19 +787,19 @@ function generateReportTables(hubsData) {
     },
     {
       oldKey: 'sidebar.docs.category.平台消音五部曲',
-      newKey: 'sidebar.lucidRecord.category.平台消音五部曲',
-      zhHant: '平台消音五部曲',
-      en: enCurrent['sidebar.docs.category.平台消音五部曲']?.message || 'Platform Silencing Quintet',
-      zhHK: zhHKCurrent['sidebar.docs.category.平台消音五部曲']?.message || '平台消音五部曲',
-      note: '清醒記錄子 category 遷移',
+      newKey: 'sidebar.lucidRecord.category.平台消音與認知封鎖五部曲',
+      zhHant: '平台消音與認知封鎖五部曲',
+      en: enCurrent['sidebar.lucidRecord.category.平台消音與認知封鎖五部曲']?.message || 'Platform Silencing and Cognitive Blockade: A Five-Part Series',
+      zhHK: zhHKCurrent['sidebar.lucidRecord.category.平台消音與認知封鎖五部曲']?.message || '平台消音與認知封鎖五部曲',
+      note: '清醒記錄子 category 遷移並更名',
     },
     {
       oldKey: '(原無 key，補齊)',
-      newKey: 'sidebar.lucidRecord.category.衰減：可見度如何被分配三部曲',
-      zhHant: '衰減：可見度如何被分配三部曲',
-      en: 'Attenuation: How Visibility is Allocated Trilogy',
-      zhHK: '衰減：可見度如何被分配三部曲',
-      note: '清醒記錄新補 category',
+      newKey: 'sidebar.lucidRecord.category.衰減：可見度如何被分配',
+      zhHant: '衰減：可見度如何被分配',
+      en: enCurrent['sidebar.lucidRecord.category.衰減：可見度如何被分配']?.message || 'Attenuation: How Visibility Is Allocated',
+      zhHK: zhHKCurrent['sidebar.lucidRecord.category.衰減：可見度如何被分配']?.message || '衰減：可見度如何被分配',
+      note: '清醒記錄新補 category 並更名',
     },
     {
       oldKey: 'sidebar.docs.category.退出機制三部曲',

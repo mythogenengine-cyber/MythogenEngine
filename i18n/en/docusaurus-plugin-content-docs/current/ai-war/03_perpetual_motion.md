@@ -2,6 +2,10 @@
 title: "Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle"
 description: "The AI industry is operating an intricate \"capital perpetual motion machine\": investors pour money into AI companies, AI companies immediately spend i..."
 summary: "The AI industry is operating an intricate \"capital perpetual motion machine\": investors pour money into AI companies, AI companies immediately spend i..."
+series:
+  id: ai-war
+  name: AI Ecosystem War
+  order: 3
 ---
 # Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle
 

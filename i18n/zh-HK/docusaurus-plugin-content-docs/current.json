@@ -83,21 +83,9 @@
     "message": "從乞丐碗裡搶飯",
     "description": "The label for category 從乞丐碗裡搶飯 in sidebar beggarsBowl"
   },
-  "sidebar.lucidRecord.category.記憶體四部曲": {
-    "message": "記憶體四部曲",
-    "description": "The label for category 記憶體四部曲 in sidebar lucidRecord"
-  },
   "sidebar.lucidRecord.category.效率陷阱與認知侵蝕五部曲": {
     "message": "效率陷阱與認知侵蝕五部曲",
     "description": "The label for category 效率陷阱與認知侵蝕五部曲 in sidebar lucidRecord"
-  },
-  "sidebar.lucidRecord.category.平台消音五部曲": {
-    "message": "平台消音五部曲",
-    "description": "The label for category 平台消音五部曲 in sidebar lucidRecord"
-  },
-  "sidebar.lucidRecord.category.衰減：可見度如何被分配三部曲": {
-    "message": "衰減：可見度如何被分配三部曲",
-    "description": "The label for category 衰減：可見度如何被分配三部曲 in sidebar lucidRecord"
   },
   "sidebar.lucidRecord.category.退出機制三部曲": {
     "message": "退出機制三部曲",
@@ -138,5 +126,14 @@
   "sidebar.lucidRecord.category.未標日期": {
     "message": "未標日期",
     "description": "The label for category 未標日期 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.記憶體與 AI 算力週期系列": {
+    "message": "記憶體與 AI 算力週期系列"
+  },
+  "sidebar.lucidRecord.category.平台消音與認知封鎖五部曲": {
+    "message": "平台消音與認知封鎖五部曲"
+  },
+  "sidebar.lucidRecord.category.衰減：可見度如何被分配": {
+    "message": "衰減：可見度如何被分配"
   }
 }

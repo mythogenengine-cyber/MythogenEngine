@@ -54,5 +54,9 @@ _archive/
 TEMP.md
 TEMP*
 
+# 報告產出目錄（不進 Git、不公開至網頁）
+_reports/
+
+
 
 

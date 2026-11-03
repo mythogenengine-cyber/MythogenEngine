@@ -1,0 +1,191 @@
+.pageWrapper {
+  padding: 4rem 0 6rem;
+  min-height: 80vh;
+  background-color: var(--ifm-background-color);
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 200;
+  margin-bottom: 1rem;
+  color: var(--color-on-surface, #e5e2e1);
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 1.15rem;
+  color: var(--color-on-surface-variant, #b9cacb);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 4rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.sectionHeader {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 400;
+  color: var(--color-on-surface, #e5e2e1);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.pinnedBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: rgba(182, 0, 248, 0.15);
+  color: #d67dff;
+  border: 1px solid rgba(182, 0, 248, 0.3);
+  font-family: var(--ifm-font-family-base);
+}
+
+.sectionDesc {
+  font-size: 1rem;
+  color: var(--color-on-surface-variant, #b9cacb);
+  margin: 0;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.essayCard {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-container-low, #1c1b1b);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s ease;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.essayCard:hover {
+  transform: translateY(-3px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 10px 25px rgba(0, 243, 255, 0.1);
+  color: inherit;
+  text-decoration: none;
+}
+
+.essayMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.essayDate {
+  font-size: 0.8rem;
+  font-family: var(--ifm-code-font-family);
+  color: var(--color-on-surface-variant, #b9cacb);
+  opacity: 0.8;
+}
+
+.essayTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: var(--ifm-heading-font-family);
+  color: var(--color-on-surface, #e5e2e1);
+  margin: 0 0 0.75rem;
+  line-height: 1.35;
+}
+
+.essayDesc {
+  font-size: 0.9rem;
+  color: var(--color-on-surface-variant, #b9cacb);
+  line-height: 1.6;
+  flex-grow: 1;
+  margin: 0 0 1.25rem;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.readLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+}
+
+@media (max-width: 640px) {
+  .pageWrapper {
+    padding: 2.5rem 0 4rem;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+    padding: 0 0.75rem;
+  }
+
+  .section {
+    margin-bottom: 2.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .essayCard {
+    padding: 1.25rem;
+  }
+}
+

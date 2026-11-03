@@ -305,5 +305,65 @@
   "theme.tags.tagsPageTitle": {
     "message": "標籤",
     "description": "The title of the tag list page"
+  },
+  "page.books.title": {
+    "message": "書",
+    "description": "Books page title"
+  },
+  "page.books.description": {
+    "message": "專題完整著作與架構體系",
+    "description": "Books page description"
+  },
+  "page.series.title": {
+    "message": "系列",
+    "description": "Series page title"
+  },
+  "page.series.description": {
+    "message": "主題式深入剖析與專題連載",
+    "description": "Series page description"
+  },
+  "page.essays.title": {
+    "message": "散文",
+    "description": "Essays page title"
+  },
+  "page.essays.description": {
+    "message": "個人隨筆、七日書與思考筆記",
+    "description": "Essays page description"
+  },
+  "hubs.chaptersCount": {
+    "message": "{count} 章",
+    "description": "Chapters count badge"
+  },
+  "hubs.articlesCount": {
+    "message": "{count} 篇",
+    "description": "Articles count badge"
+  },
+  "hubs.readBook": {
+    "message": "閱讀本書",
+    "description": "Read book button label"
+  },
+  "hubs.readSeries": {
+    "message": "閱讀系列",
+    "description": "Read series button label"
+  },
+  "hubs.sevenDays": {
+    "message": "七日書",
+    "description": "Seven days section title"
+  },
+  "hubs.sevenDaysDesc": {
+    "message": "置頂專欄・七日的心智與寫作探索",
+    "description": "Seven days section description"
+  },
+  "hubs.allEssays": {
+    "message": "隨筆",
+    "description": "Essays section title"
+  },
+  "hubs.pinnedBadge": {
+    "message": "置頂",
+    "description": "Pinned badge"
+  },
+  "hubs.readArticle": {
+    "message": "閱讀文章",
+    "description": "Read article link"
   }
 }

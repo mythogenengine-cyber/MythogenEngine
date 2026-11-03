@@ -54,5 +54,69 @@
   "sidebar.docs.category.Diary": {
     "message": "Diary",
     "description": "The label for category Diary in sidebar docs"
+  },
+  "sidebar.aiTao.category.大道無形": {
+    "message": "大道無形",
+    "description": "The label for category 大道無形 in sidebar aiTao"
+  },
+  "sidebar.aiWar.category.AI Ecosystem War": {
+    "message": "AI Ecosystem War",
+    "description": "The label for category AI Ecosystem War in sidebar aiWar"
+  },
+  "sidebar.mirrorRealm.category.鏡界": {
+    "message": "鏡界",
+    "description": "The label for category 鏡界 in sidebar mirrorRealm"
+  },
+  "sidebar.gameVictory.category.遊戲致勝": {
+    "message": "遊戲致勝",
+    "description": "The label for category 遊戲致勝 in sidebar gameVictory"
+  },
+  "sidebar.capitalGame.category.資本遊戲玩什麼": {
+    "message": "資本遊戲玩什麼",
+    "description": "The label for category 資本遊戲玩什麼 in sidebar capitalGame"
+  },
+  "sidebar.whoCollects.category.誰在門口收錢": {
+    "message": "誰在門口收錢",
+    "description": "The label for category 誰在門口收錢 in sidebar whoCollects"
+  },
+  "sidebar.beggarsBowl.category.從乞丐碗裡搶飯": {
+    "message": "從乞丐碗裡搶飯",
+    "description": "The label for category 從乞丐碗裡搶飯 in sidebar beggarsBowl"
+  },
+  "sidebar.lucidRecord.category.記憶體四部曲": {
+    "message": "記憶體四部曲",
+    "description": "The label for category 記憶體四部曲 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.效率陷阱與認知侵蝕五部曲": {
+    "message": "效率陷阱與認知侵蝕五部曲",
+    "description": "The label for category 效率陷阱與認知侵蝕五部曲 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.平台消音五部曲": {
+    "message": "平台消音五部曲",
+    "description": "The label for category 平台消音五部曲 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.衰減：可見度如何被分配三部曲": {
+    "message": "衰減：可見度如何被分配三部曲",
+    "description": "The label for category 衰減：可見度如何被分配三部曲 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.退出機制三部曲": {
+    "message": "退出機制三部曲",
+    "description": "The label for category 退出機制三部曲 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.獨立篇": {
+    "message": "獨立篇",
+    "description": "The label for category 獨立篇 in sidebar lucidRecord"
+  },
+  "sidebar.essays.category.七日書": {
+    "message": "七日書",
+    "description": "The label for category 七日書 in sidebar essays"
+  },
+  "sidebar.essays.category.合法傷害權": {
+    "message": "合法傷害權",
+    "description": "The label for category 合法傷害權 in sidebar essays"
+  },
+  "sidebar.essays.category.隨筆": {
+    "message": "隨筆",
+    "description": "The label for category 隨筆 in sidebar essays"
   }
 }

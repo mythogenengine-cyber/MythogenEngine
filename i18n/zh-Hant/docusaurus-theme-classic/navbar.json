@@ -3,32 +3,24 @@
     "message": "Mythogen Engine",
     "description": "The title in the navbar"
   },
-  "item.label.AI Archive": {
-    "message": "AI Archive",
-    "description": "Navbar item with label AI Archive"
+  "item.label.書": {
+    "message": "書",
+    "description": "Navbar item with label 書"
   },
-  "item.label.Mirror Realm": {
-    "message": "Mirror Realm",
-    "description": "Navbar item with label Mirror Realm"
+  "item.label.系列": {
+    "message": "系列",
+    "description": "Navbar item with label 系列"
   },
-  "item.label.GameVictory": {
-    "message": "GameVictory",
-    "description": "Navbar item with label GameVictory"
-  },
-  "item.label.The Invisible Path": {
-    "message": "大道無形",
-    "description": "Navbar item with label The Invisible Path"
-  },
-  "item.label.Lucid Record": {
+  "item.label.清醒記錄": {
     "message": "清醒記錄",
-    "description": "Navbar item with label Lucid Record"
+    "description": "Navbar item with label 清醒記錄"
   },
-  "item.label.資本遊戲玩什麼": {
-    "message": "資本遊戲玩什麼",
-    "description": "Navbar item with label 資本遊戲玩什麼"
+  "item.label.散文": {
+    "message": "散文",
+    "description": "Navbar item with label 散文"
   },
-  "item.label.About": {
-    "message": "關於作者",
-    "description": "Navbar item with label About"
+  "item.label.關於": {
+    "message": "關於",
+    "description": "Navbar item with label 關於"
   }
 }

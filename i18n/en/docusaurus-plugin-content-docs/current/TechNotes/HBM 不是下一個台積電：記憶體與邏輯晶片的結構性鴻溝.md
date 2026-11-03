@@ -30,7 +30,7 @@ reading_time: 18
 description: "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak."
 series:
   id: memory-series
-  name: "記憶體與 AI 算力週期系列"
+  name: "Memory and AI Compute Cycle Series"
   order: 1
   total: 4
 ---

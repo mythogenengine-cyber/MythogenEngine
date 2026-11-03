@@ -47,7 +47,7 @@ const SERIES_TITLE_MAP = {
   'memory-series': {
     'zh-Hant': '記憶體與 AI 算力週期系列',
     'zh-HK': '記憶體與 AI 算力週期系列',
-    en: 'Memory Tetralogy',
+    en: 'Memory and AI Compute Cycle Series',
   },
   'efficiency-trap-cognition-erosion': {
     'zh-Hant': '效率陷阱與認知侵蝕五部曲',
@@ -773,7 +773,7 @@ function generateReportTables(hubsData) {
       oldKey: 'sidebar.docs.category.記憶體四部曲',
       newKey: 'sidebar.lucidRecord.category.記憶體與 AI 算力週期系列',
       zhHant: '記憶體與 AI 算力週期系列',
-      en: enCurrent['sidebar.lucidRecord.category.記憶體與 AI 算力週期系列']?.message || 'Memory Tetralogy',
+      en: enCurrent['sidebar.lucidRecord.category.記憶體與 AI 算力週期系列']?.message || 'Memory and AI Compute Cycle Series',
       zhHK: zhHKCurrent['sidebar.lucidRecord.category.記憶體與 AI 算力週期系列']?.message || '記憶體與 AI 算力週期系列',
       note: '清醒記錄子 category 遷移並更名',
     },

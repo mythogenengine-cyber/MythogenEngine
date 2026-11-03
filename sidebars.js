@@ -4,15 +4,32 @@ const matter = require('gray-matter');
 
 const projectRoot = __dirname;
 
-function getTechNotesStandaloneDocs() {
+function getQuarterLabel(date) {
+  if (!date) return null;
+  let dateStr = '';
+  if (date instanceof Date) {
+    dateStr = date.toISOString().slice(0, 10);
+  } else {
+    dateStr = String(date).slice(0, 10);
+  }
+  const parts = dateStr.split('-');
+  if (parts.length < 2) return null;
+  const year = parts[0];
+  const month = parseInt(parts[1], 10);
+  if (!year || isNaN(month) || month < 1 || month > 12) return null;
+  const q = Math.ceil(month / 3);
+  return `${year} Q${q}`;
+}
+
+function quarterToOrder(label) {
+  const match = label.match(/^(\d{4})\s*Q(\d)$/i);
+  if (!match) return 0;
+  return parseInt(match[1], 10) * 10 + parseInt(match[2], 10);
+}
+
+function getLucidRecordStandaloneCategories() {
   const dir = path.join(projectRoot, 'docs', 'TechNotes');
-  if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter(
-    (f) =>
-      (f.endsWith('.md') || f.endsWith('.mdx')) &&
-      f !== 'index.mdx' &&
-      f !== 'index.md'
-  );
+  const items = [];
 
   const knownSeriesDocs = new Set([
     'TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝',
@@ -38,29 +55,108 @@ function getTechNotesStandaloneDocs() {
     'TechNotes/錢不走，人也不走',
   ]);
 
-  const items = [];
-  for (const f of files) {
-    const full = path.join(dir, f);
-    const content = fs.readFileSync(full, 'utf8');
-    const parsed = matter(content);
-    let id = parsed.data.id || f.replace(/\.mdx?$/, '');
-    if (!parsed.data.id) {
-      id = id
-        .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
-        .replace(/^\d{8}[-_]/, '')
-        .replace(/^\d+[-_]/, '');
-    }
-    const docId = 'TechNotes/' + id;
-    if (!knownSeriesDocs.has(docId)) {
-      items.push({
-        docId,
-        date: parsed.data.date ? new Date(parsed.data.date).getTime() : 0,
-      });
+  if (fs.existsSync(dir)) {
+    const files = fs.readdirSync(dir).filter(
+      (f) =>
+        (f.endsWith('.md') || f.endsWith('.mdx')) &&
+        f !== 'index.mdx' &&
+        f !== 'index.md'
+    );
+
+    for (const f of files) {
+      const full = path.join(dir, f);
+      const fileContent = fs.readFileSync(full, 'utf8');
+      const parsed = matter(fileContent);
+      let id = parsed.data.id || f.replace(/\.mdx?$/, '');
+      if (!parsed.data.id) {
+        id = id
+          .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
+          .replace(/^\d{8}[-_]/, '')
+          .replace(/^\d+[-_]/, '');
+      }
+      const docId = 'TechNotes/' + id;
+      if (!knownSeriesDocs.has(docId)) {
+        const rawDate = parsed.data.date;
+        const dateStr =
+          rawDate instanceof Date
+            ? rawDate.toISOString().slice(0, 10)
+            : rawDate
+            ? String(rawDate).slice(0, 10)
+            : '';
+        items.push({
+          docId,
+          title: parsed.data.title || id,
+          file: f,
+          date: dateStr,
+          dateTime: dateStr ? new Date(dateStr).getTime() : 0,
+        });
+      }
     }
   }
 
-  items.sort((a, b) => b.date - a.date);
-  return items.map((it) => it.docId);
+  // capital-game/誰說遊戲做不起.md
+  const cgPath = path.join(projectRoot, 'docs', 'capital-game', '誰說遊戲做不起.md');
+  if (fs.existsSync(cgPath)) {
+    const cgContent = fs.readFileSync(cgPath, 'utf8');
+    const parsed = matter(cgContent);
+    const rawDate = parsed.data.date;
+    const dateStr =
+      rawDate instanceof Date
+        ? rawDate.toISOString().slice(0, 10)
+        : rawDate
+        ? String(rawDate).slice(0, 10)
+        : '';
+    items.push({
+      docId: 'capital-game/誰說遊戲做不起',
+      title: parsed.data.title || '誰說遊戲做不起',
+      file: 'capital-game/誰說遊戲做不起.md',
+      date: dateStr,
+      dateTime: dateStr ? new Date(dateStr).getTime() : 0,
+    });
+  }
+
+  // 按季度分組
+  const quartersMap = {};
+  const undatedItems = [];
+
+  for (const item of items) {
+    const q = getQuarterLabel(item.date);
+    if (!q) {
+      undatedItems.push(item);
+    } else {
+      if (!quartersMap[q]) quartersMap[q] = [];
+      quartersMap[q].push(item);
+    }
+  }
+
+  // 季度由新到舊
+  const sortedQuarters = Object.keys(quartersMap).sort((a, b) => quarterToOrder(b) - quarterToOrder(a));
+
+  const categories = sortedQuarters.map((q, idx) => {
+    // 季度內文章由新到舊
+    quartersMap[q].sort((a, b) => b.dateTime - a.dateTime);
+    return {
+      type: 'category',
+      label: q,
+      collapsed: idx !== 0, // 最新一個季度 collapsed: false，其餘 collapsed: true
+      items: quartersMap[q].map((it) => it.docId),
+    };
+  });
+
+  // 沒有 date 的文章歸入最後一組「未標日期」，build 時 console 印出警告列出檔名
+  if (undatedItems.length > 0) {
+    console.warn(
+      `[WARN] TechNotes 獨立篇發現未標記 date 之檔案：\n${undatedItems.map((it) => '  - ' + it.file).join('\n')}`
+    );
+    categories.push({
+      type: 'category',
+      label: '未標日期',
+      collapsed: true,
+      items: undatedItems.map((it) => it.docId),
+    });
+  }
+
+  return categories;
 }
 
 function getDiaryRemainingDocs() {
@@ -339,10 +435,7 @@ const sidebars = {
     {
       type: 'category',
       label: '獨立篇',
-      items: [
-        'capital-game/誰說遊戲做不起',
-        ...getTechNotesStandaloneDocs(),
-      ],
+      items: getLucidRecordStandaloneCategories(),
     },
   ],
 

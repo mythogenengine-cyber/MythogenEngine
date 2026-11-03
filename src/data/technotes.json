@@ -916,6 +916,42 @@
       }
     },
     {
+      "id": "capital-game/誰說遊戲做不起",
+      "slug": "/docs/why-games-cant-be-made",
+      "title": "誰說遊戲做不起",
+      "date": "2026-07-29T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "資本結構",
+          "商業模式",
+          "商業競爭",
+          "AI 產業"
+        ],
+        "en": [
+          "game-industry",
+          "capital-structure",
+          "business-model",
+          "business-competition",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "遊戲業",
+        "資本",
+        "資本邏輯",
+        "AI"
+      ],
+      "summary": "70 人、二十年、十五款遊戲，對上四億美元、697 人在線、十四天關服。成本不是漲了，是被灌了水；而 AI 這個放水的工具，正在被制度性打壓。",
+      "status": "published",
+      "reading_time": 45,
+      "series": null
+    },
+    {
       "id": "效率陷阱續章・續章：你以為你贏了",
       "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
       "title": "效率陷阱・續章：你以為你贏了",
@@ -2993,6 +3029,42 @@
       }
     },
     {
+      "id": "capital-game/誰說遊戲做不起",
+      "slug": "/docs/why-games-cant-be-made",
+      "title": "誰說遊戲做不起",
+      "date": "2026-07-29T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "資本結構",
+          "商業模式",
+          "商業競爭",
+          "AI 產業"
+        ],
+        "en": [
+          "game-industry",
+          "capital-structure",
+          "business-model",
+          "business-competition",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "遊戲業",
+        "資本",
+        "資本邏輯",
+        "AI"
+      ],
+      "summary": "70 人、二十年、十五款遊戲，對上四億美元、697 人在線、十四天關服。成本不是漲了，是被灌了水；而 AI 這個放水的工具，正在被制度性打壓。",
+      "status": "published",
+      "reading_time": 45,
+      "series": null
+    },
+    {
       "id": "效率陷阱續章・續章：你以為你贏了",
       "slug": "/docs/TechNotes/%E6%95%88%E7%8E%87%E9%99%B7%E9%98%B1%E7%BA%8C%E7%AB%A0%E3%83%BB%E7%BA%8C%E7%AB%A0%EF%BC%9A%E4%BD%A0%E4%BB%A5%E7%82%BA%E4%BD%A0%E8%B4%8F%E4%BA%86",
       "title": "效率陷阱・續章：你以為你贏了",
@@ -5067,6 +5139,42 @@
         "order": 4,
         "total": 4
       }
+    },
+    {
+      "id": "capital-game/誰說遊戲做不起",
+      "slug": "/docs/why-games-cant-be-made",
+      "title": "Who Says Games Are Too Expensive to Make",
+      "date": "2026-07-29T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "遊戲產業",
+          "資本結構",
+          "商業模式",
+          "商業競爭",
+          "AI 產業"
+        ],
+        "en": [
+          "game-industry",
+          "capital-structure",
+          "business-model",
+          "business-competition",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "遊戲業",
+        "資本",
+        "資本邏輯",
+        "AI"
+      ],
+      "summary": "70 people, twenty years, fifteen games, versus 400 million dollars, 697 concurrent players, and server closure in fourteen days. Costs haven't just risen; they've been artificially inflated; and AI, the tool that could drain this inflation, is being systematically suppressed.",
+      "status": "published",
+      "reading_time": 45,
+      "series": null
     },
     {
       "id": "效率陷阱續章・續章：你以為你贏了",

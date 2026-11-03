@@ -118,5 +118,25 @@
   "sidebar.essays.category.隨筆": {
     "message": "隨筆",
     "description": "The label for category 隨筆 in sidebar essays"
+  },
+  "sidebar.lucidRecord.category.2026 Q4": {
+    "message": "2026 Q4",
+    "description": "The label for category 2026 Q4 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.2026 Q3": {
+    "message": "2026 Q3",
+    "description": "The label for category 2026 Q3 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.2026 Q2": {
+    "message": "2026 Q2",
+    "description": "The label for category 2026 Q2 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.2026 Q1": {
+    "message": "2026 Q1",
+    "description": "The label for category 2026 Q1 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.未標日期": {
+    "message": "未標日期",
+    "description": "The label for category 未標日期 in sidebar lucidRecord"
   }
 }

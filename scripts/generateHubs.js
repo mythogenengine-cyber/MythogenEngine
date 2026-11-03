@@ -450,7 +450,20 @@ function generateReportTables(hubsData) {
   }
 
   // Standalone Articles
-  const standaloneDocIds = sidebars.lucidRecord.find((cat) => cat.label === '獨立篇').items;
+  const standaloneCategory = sidebars.lucidRecord.find((cat) => cat.label === '獨立篇');
+  const standaloneDocIds = [];
+  function extractDocIds(arr) {
+    for (const it of arr) {
+      if (typeof it === 'string') {
+        standaloneDocIds.push(it);
+      } else if (it && it.items) {
+        extractDocIds(it.items);
+      }
+    }
+  }
+  if (standaloneCategory && standaloneCategory.items) {
+    extractDocIds(standaloneCategory.items);
+  }
   let standaloneTable = `### 獨立篇清單（共 ${standaloneDocIds.length} 篇，歸入清醒記錄 sidebar 獨立篇）\n\n`;
   standaloneTable += `| 序號 | Doc ID | 標題 | 日期 | 分類 | URL |\n`;
   standaloneTable += `| :---: | :--- | :--- | :---: | :--- | :--- |\n`;

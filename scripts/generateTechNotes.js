@@ -8,12 +8,13 @@ const LOCALE_ROOTS = {
   'en': 'i18n/en/docusaurus-plugin-content-docs/current'
 };
 
-// Folders (relative to each locale root) whose articles appear in the
+// Folders or files (relative to each locale root) whose articles appear in the
 // Lucid Record preview grid. Series published elsewhere in docs/ can be
 // listed here; their ids get a prefix so they never collide with TechNotes.
 const SOURCES = [
   { dir: 'TechNotes', idPrefix: '' },
   { dir: 'capital-game/從乞丐碗裡搶飯', idPrefix: 'beggars-bowl/' },
+  { file: 'capital-game/誰說遊戲做不起.md', idPrefix: 'capital-game/' },
 ];
 
 const outputData = {
@@ -31,65 +32,84 @@ function toDocsUrl(slug) {
 }
 
 for (const [locale, localeRoot] of Object.entries(LOCALE_ROOTS)) {
-for (const source of SOURCES) {
-  const dirPath = path.join(projectRoot, localeRoot, source.dir);
-  
-  if (!fs.existsSync(dirPath)) {
-    console.warn(`Directory not found: ${dirPath}`);
-    continue;
-  }
+  for (const source of SOURCES) {
+    const fileEntries = [];
 
-  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
-  
-  for (const file of files) {
-    if (file === 'index.mdx' || file === 'index.md') continue;
-
-    // Skip orphan i18n files that have no counterpart in default locale docs/
-    if (locale !== 'zh-Hant') {
-      const defaultLocalePath = path.join(projectRoot, LOCALE_ROOTS['zh-Hant'], source.dir, file);
-      if (!fs.existsSync(defaultLocalePath)) {
-        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${source.dir}/${file}`);
+    if (source.dir) {
+      const dirPath = path.join(projectRoot, localeRoot, source.dir);
+      if (!fs.existsSync(dirPath)) {
+        console.warn(`Directory not found: ${dirPath}`);
         continue;
       }
-    }
-
-    const filePath = path.join(dirPath, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const parsed = matter(content);
-    
-    // Ignore category index or info pages if needed, but we will list everything that has a title.
-    if (parsed.data.title) {
-      // Calculate id / slug based on filename, same as Docusaurus defaults
-      let id = parsed.data.id || file.replace(/\.mdx?$/, '');
-      if (!parsed.data.id) {
-        id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
-        id = id.replace(/^\d+[-_]/, '');
+      const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+      for (const file of files) {
+        if (file === 'index.mdx' || file === 'index.md') continue;
+        fileEntries.push({
+          fileName: file,
+          filePath: path.join(dirPath, file),
+          sourceDir: source.dir,
+          defaultLocalePath: path.join(projectRoot, LOCALE_ROOTS['zh-Hant'], source.dir, file),
+        });
       }
-      const slug = parsed.data.slug
-        ? toDocsUrl(parsed.data.slug)
-        : `/docs/${source.dir}/${encodeURIComponent(id)}`;
-      id = source.idPrefix + id;
-      
-      outputData[locale].push({
-        id,
-        slug,
-        title: parsed.data.title,
-        date: parsed.data.date || null,
-        lang: parsed.data.lang || locale,
-        section: parsed.data.section || 'sober-record',
-        topic: parsed.data.topic || '',
-        category: parsed.data.category || '',
-        tags: parsed.data.article_tags || parsed.data.tags || {},
-        keywords: parsed.data.keywords || [],
-        summary: parsed.data.summary || '',
-        status: parsed.data.status || 'draft',
-        reading_time: parsed.data.reading_time || 0,
-        sidebar_position: parsed.data.sidebar_position,
-        series: parsed.data.series || null,
+    } else if (source.file) {
+      const filePath = path.join(projectRoot, localeRoot, source.file);
+      if (!fs.existsSync(filePath)) {
+        console.warn(`File not found: ${filePath}`);
+        continue;
+      }
+      fileEntries.push({
+        fileName: path.basename(source.file),
+        filePath,
+        sourceDir: path.dirname(source.file),
+        defaultLocalePath: path.join(projectRoot, LOCALE_ROOTS['zh-Hant'], source.file),
       });
     }
+
+    for (const entry of fileEntries) {
+      // Skip orphan i18n files that have no counterpart in default locale docs/
+      if (locale !== 'zh-Hant') {
+        if (!fs.existsSync(entry.defaultLocalePath)) {
+          console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${entry.sourceDir}/${entry.fileName}`);
+          continue;
+        }
+      }
+
+      const content = fs.readFileSync(entry.filePath, 'utf-8');
+      const parsed = matter(content);
+
+      // Ignore category index or info pages if needed, but we will list everything that has a title.
+      if (parsed.data.title) {
+        // Calculate id / slug based on filename, same as Docusaurus defaults
+        let id = parsed.data.id || entry.fileName.replace(/\.mdx?$/, '');
+        if (!parsed.data.id) {
+          id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
+          id = id.replace(/^\d+[-_]/, '');
+        }
+        const slug = parsed.data.slug
+          ? toDocsUrl(parsed.data.slug)
+          : `/docs/${entry.sourceDir}/${encodeURIComponent(id)}`;
+        id = (source.idPrefix || '') + id;
+
+        outputData[locale].push({
+          id,
+          slug,
+          title: parsed.data.title,
+          date: parsed.data.date || null,
+          lang: parsed.data.lang || locale,
+          section: parsed.data.section || 'sober-record',
+          topic: parsed.data.topic || '',
+          category: parsed.data.category || '',
+          tags: parsed.data.article_tags || parsed.data.tags || {},
+          keywords: parsed.data.keywords || [],
+          summary: parsed.data.summary || '',
+          status: parsed.data.status || 'draft',
+          reading_time: parsed.data.reading_time || 0,
+          sidebar_position: parsed.data.sidebar_position,
+          series: parsed.data.series || null,
+        });
+      }
+    }
   }
-}
 
   // Sort by date descending, or by sidebar_position
   outputData[locale].sort((a, b) => {

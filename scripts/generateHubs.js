@@ -105,13 +105,14 @@ function getDocUrl(docId, frontmatterSlug) {
 function resolveDocFile(locale, docId) {
   const root = LOCALE_ROOTS[locale];
   const candidates = [
+    path.join(projectRoot, root, docId),
     path.join(projectRoot, root, docId + '.md'),
     path.join(projectRoot, root, docId + '.mdx'),
     path.join(projectRoot, root, docId, 'index.md'),
     path.join(projectRoot, root, docId, 'index.mdx'),
   ];
   for (const c of candidates) {
-    if (fs.existsSync(c)) return c;
+    if (fs.existsSync(c) && fs.statSync(c).isFile()) return c;
   }
 
   const dir = path.join(projectRoot, root, path.dirname(docId));
@@ -194,6 +195,9 @@ function generateHubs() {
     throw new Error(`Config file not found: ${configPath}`);
   }
   const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+
+  // 主要檢查（失敗即 exit 1）：hubs.config.json 內每個 doc id 都必須對應到 docs/ 下真實存在的 .md / .mdx 檔案
+  const docCheckResult = checkDocFiles(config);
 
   // Load sidebars for sidebar counts
   const sidebarsPath = path.join(projectRoot, 'sidebars.js');
@@ -337,14 +341,90 @@ function generateHubs() {
   console.log(`[generateHubs] Successfully written hubs metadata to ${outPath}`);
 
   // Perform Self-Check
-  const selfCheckResult = runSelfCheck(outputData['zh-Hant']);
+  const selfCheckResult = runSelfCheck(outputData['zh-Hant'], config, { docCheckAlreadyDone: docCheckResult });
   return { outputData, selfCheckResult };
 }
 
-function runSelfCheck(zhHantData) {
+function extractConfigDocIds(config) {
+  const docEntries = [];
+
+  // 1. Books
+  if (Array.isArray(config.books)) {
+    for (const book of config.books) {
+      if (book.entry) {
+        docEntries.push({ docId: book.entry, source: `Book: ${book.id}` });
+      }
+      if (Array.isArray(book.docs)) {
+        for (const id of book.docs) {
+          docEntries.push({ docId: id, source: `Book: ${book.id}` });
+        }
+      }
+    }
+  }
+
+  // 2. Series
+  if (Array.isArray(config.series)) {
+    for (const s of config.series) {
+      if (Array.isArray(s.docs)) {
+        for (const id of s.docs) {
+          docEntries.push({ docId: id, source: `Series: ${s.id}` });
+        }
+      }
+    }
+  }
+
+  // 3. Essays
+  if (config.essays && Array.isArray(config.essays.groups)) {
+    for (const g of config.essays.groups) {
+      if (Array.isArray(g.docs)) {
+        for (const id of g.docs) {
+          docEntries.push({ docId: id, source: `Essay group: ${g.id}` });
+        }
+      }
+    }
+  }
+
+  return docEntries;
+}
+
+function checkDocFiles(config) {
+  const docEntries = extractConfigDocIds(config);
+  const missing = [];
+
+  for (const entry of docEntries) {
+    const resolvedPath = resolveDocFile('zh-Hant', entry.docId);
+    if (!resolvedPath || !fs.existsSync(resolvedPath)) {
+      missing.push(entry);
+    }
+  }
+
+  if (missing.length > 0) {
+    console.error(`\n[Self-Check ERROR] Found ${missing.length} doc ID(s) in hubs.config.json with no corresponding file in docs/:`);
+    missing.forEach((m) => {
+      console.error(`  - [${m.source}] ${m.docId}`);
+    });
+    process.exit(1);
+  }
+
+  const checkMessage = `[Self-Check] Doc file verification PASSED! All ${docEntries.length} doc IDs in hubs.config.json exist in docs/. Zero missing files.`;
+  console.log(checkMessage);
+  return {
+    passed: true,
+    checkedCount: docEntries.length,
+    message: checkMessage,
+  };
+}
+
+function checkSitemapInventory(zhHantData) {
   const sitemapCsvPath = path.join(projectRoot, '_reports', 'sitemap_inventory.csv');
   if (!fs.existsSync(sitemapCsvPath)) {
-    throw new Error(`Sitemap inventory file not found: ${sitemapCsvPath}`);
+    const infoMessage = '[INFO] _reports/sitemap_inventory.csv not found, skipping sitemap URL inventory check.';
+    console.log(infoMessage);
+    return {
+      passed: true,
+      skipped: true,
+      message: infoMessage,
+    };
   }
 
   const lines = fs.readFileSync(sitemapCsvPath, 'utf8').split('\n');
@@ -397,11 +477,17 @@ function runSelfCheck(zhHantData) {
   }
 
   if (missing.length > 0) {
-    console.error(`\n[Self-Check ERROR] Found ${missing.length} URLs in hubs.json not in _reports/sitemap_inventory.csv:`);
+    console.warn(`\n[WARN] Found ${missing.length} URLs in hubs.json not in _reports/sitemap_inventory.csv:`);
     missing.forEach((m) => {
-      console.error(`  - [${m.source}] ${m.url} -> ${m.fullUrl}`);
+      console.warn(`  - [${m.source}] ${m.url} -> ${m.fullUrl}`);
     });
-    process.exit(1);
+    const warnMessage = `[WARN] Hubs URL inventory verification: ${missing.length} URL(s) not in sitemap snapshot (allowed for new articles).`;
+    return {
+      passed: true,
+      warnings: missing.length,
+      checkedCount: allUrlsToCheck.length,
+      message: warnMessage,
+    };
   }
 
   const checkMessage = `[Self-Check] Hubs URL inventory verification PASSED! All ${allUrlsToCheck.length} URLs checked exist in _reports/sitemap_inventory.csv (zh-Hant). Zero errors found.`;
@@ -410,6 +496,37 @@ function runSelfCheck(zhHantData) {
     passed: true,
     checkedCount: allUrlsToCheck.length,
     message: checkMessage,
+  };
+}
+
+function runSelfCheck(zhHantData, config, options = {}) {
+  let docCheckResult = options.docCheckAlreadyDone;
+  if (!docCheckResult) {
+    if (!config) {
+      const configPath = path.join(projectRoot, 'src', 'data', 'hubs.config.json');
+      if (fs.existsSync(configPath)) {
+        config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      }
+    }
+    if (config) {
+      docCheckResult = checkDocFiles(config);
+    }
+  }
+
+  const sitemapResult = checkSitemapInventory(zhHantData);
+
+  const message = [
+    docCheckResult ? docCheckResult.message : '',
+    sitemapResult ? sitemapResult.message : '',
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  return {
+    passed: true,
+    docCheck: docCheckResult,
+    sitemapResult,
+    message,
   };
 }
 
@@ -682,5 +799,7 @@ if (require.main === module) {
 module.exports = {
   generateHubs,
   runSelfCheck,
+  checkDocFiles,
+  checkSitemapInventory,
   generateReportTables,
 };

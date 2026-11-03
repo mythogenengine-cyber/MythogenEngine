@@ -24,7 +24,7 @@ const config = {
   tagline: 'Refining AI and Speculative Narratives',
   url: 'https://mythogenengine.com',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -78,49 +78,29 @@ const config = {
         title: 'Mythogen Engine',
         items: [
           {
-            type: 'doc',
-            docId: 'ai-war/guide',
+            to: '/books',
             position: 'left',
-            label: 'AI Archive',
+            label: '書',
           },
           {
-            type: 'doc',
-            docId: 'mirror-realm/prologue',
+            to: '/series',
             position: 'left',
-            label: 'Mirror Realm',
-          },
-          {
-            type: 'doc',
-            docId: 'GameVictory/INFO_PAGE',
-            position: 'left',
-            label: 'GameVictory',
-          },
-          {
-            type: 'doc',
-            docId: 'AI_TAO/INFO_PAGE',
-            position: 'left',
-            label: 'The Invisible Path',
+            label: '系列',
           },
           {
             to: '/docs/TechNotes',
             position: 'left',
-            label: 'Lucid Record',
+            label: '清醒記錄',
           },
           {
-            type: 'doc',
-            docId: 'capital-game/誰在門口收錢/INFO_PAGE',
+            to: '/essays',
             position: 'left',
-            label: '資本遊戲玩什麼',
-          },
-          {
-            to: '/docs/Diary',
-            position: 'left',
-            label: 'Diary',
+            label: '散文',
           },
           {
             to: '/about',
             position: 'left',
-            label: 'About',
+            label: '關於',
           },
           {
             type: 'html',

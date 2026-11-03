@@ -305,5 +305,65 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "page.books.title": {
+    "message": "Books",
+    "description": "Books page title"
+  },
+  "page.books.description": {
+    "message": "Complete long-form monographs and conceptual frameworks",
+    "description": "Books page description"
+  },
+  "page.series.title": {
+    "message": "Series",
+    "description": "Series page title"
+  },
+  "page.series.description": {
+    "message": "In-depth serialized thematic studies",
+    "description": "Series page description"
+  },
+  "page.essays.title": {
+    "message": "Essays",
+    "description": "Essays page title"
+  },
+  "page.essays.description": {
+    "message": "Personal musings, Seven Days book, and reflective notes",
+    "description": "Essays page description"
+  },
+  "hubs.chaptersCount": {
+    "message": "{count} chapters",
+    "description": "Chapters count badge"
+  },
+  "hubs.articlesCount": {
+    "message": "{count} articles",
+    "description": "Articles count badge"
+  },
+  "hubs.readBook": {
+    "message": "Read Book",
+    "description": "Read book button label"
+  },
+  "hubs.readSeries": {
+    "message": "Read Series",
+    "description": "Read series button label"
+  },
+  "hubs.sevenDays": {
+    "message": "Seven Days Book",
+    "description": "Seven days section title"
+  },
+  "hubs.sevenDaysDesc": {
+    "message": "Featured column: Seven days of intellectual and writing exploration",
+    "description": "Seven days section description"
+  },
+  "hubs.allEssays": {
+    "message": "Essays & Musings",
+    "description": "Essays section title"
+  },
+  "hubs.pinnedBadge": {
+    "message": "Pinned",
+    "description": "Pinned badge"
+  },
+  "hubs.readArticle": {
+    "message": "Read Article",
+    "description": "Read article link"
   }
 }

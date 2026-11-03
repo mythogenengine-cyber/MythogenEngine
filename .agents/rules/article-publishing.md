@@ -33,3 +33,7 @@ Whenever a new article or note is added or updated in `docs/TechNotes/` or `docs
      - `node scripts/generateDiary.js` (for Diary)
    - This updates `src/data/technotes.json` / `diary.json` so the article properly displays on the PREVIEW PAGES (e.g. the `/docs/TechNotes` card grid with category filter, search, reading time, and preview excerpt).
    - If preview images are provided or needed, place them in the corresponding `images/` directory and configure them in markdown.
+
+4. **Series, Books & Hubs Registration**:
+   - If an article belongs to a series or a book, it MUST simultaneously be registered in `src/data/hubs.config.json` (and `sidebars.js` if part of a named series).
+   - Run `node scripts/generateHubs.js` to regenerate `src/data/hubs.json` and verify the sitemap inventory. All landing hubs (`/books`, `/series`, `/essays`) will automatically sync.

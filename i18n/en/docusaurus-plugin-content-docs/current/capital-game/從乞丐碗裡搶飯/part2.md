@@ -32,9 +32,7 @@ status: published
 reading_time: 25
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 2
-  total: 6
 ---
 # Global Top, Local Bottom
 

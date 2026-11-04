@@ -4,7 +4,6 @@ description: "Xbox is the only business line within Microsoft to completely shed
 summary: "Xbox is the only business line within Microsoft to completely shed the historical baggage of Windows and achieve a closed-loop hardware/software ecosy..."
 series:
   id: ai-war
-  name: AI Ecosystem War
   order: 8
 ---
 # Theme 08: The Xbox Gamble and Crisis—Strategic Value of an AI Testing Ground vs. Commercialization Risks

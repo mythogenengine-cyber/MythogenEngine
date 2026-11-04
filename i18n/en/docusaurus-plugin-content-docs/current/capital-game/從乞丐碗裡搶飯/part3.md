@@ -32,9 +32,7 @@ status: published
 reading_time: 11
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 3
-  total: 6
 ---
 # The Fraud You Can See, the Numbers Nobody Measures
 

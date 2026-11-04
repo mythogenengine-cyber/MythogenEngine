@@ -80,9 +80,7 @@
       "reading_time": 5,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 0,
-        "total": 6
+        "order": 0
       }
     },
     {
@@ -122,9 +120,7 @@
       "reading_time": 5,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 5,
-        "total": 6
+        "order": 5
       }
     },
     {
@@ -164,9 +160,7 @@
       "reading_time": 7,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 3,
-        "total": 6
+        "order": 3
       }
     },
     {
@@ -206,9 +200,7 @@
       "reading_time": 12,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 4,
-        "total": 6
+        "order": 4
       }
     },
     {
@@ -248,9 +240,7 @@
       "reading_time": 22,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 2,
-        "total": 6
+        "order": 2
       }
     },
     {
@@ -290,9 +280,7 @@
       "reading_time": 33,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 1,
-        "total": 6
+        "order": 1
       }
     },
     {
@@ -495,9 +483,7 @@
       "reading_time": 5,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 0,
-        "total": 3
+        "order": 0
       }
     },
     {
@@ -536,9 +522,7 @@
       "reading_time": 11,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -621,9 +605,7 @@
       "reading_time": 13,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -663,9 +645,7 @@
       "reading_time": 14,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -743,9 +723,7 @@
       "reading_time": 19,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -785,9 +763,7 @@
       "reading_time": 18,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -827,9 +803,7 @@
       "reading_time": 22,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -910,9 +884,7 @@
       "reading_time": 7,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 4,
-        "total": 4
+        "order": 4
       }
     },
     {
@@ -989,9 +961,7 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -1029,9 +999,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -1105,9 +1073,7 @@
       "reading_time": 15,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -1145,9 +1111,7 @@
       "reading_time": 24,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -1186,9 +1150,7 @@
       "reading_time": 20,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 1,
-        "total": 5
+        "order": 1
       }
     },
     {
@@ -1226,9 +1188,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -1270,9 +1230,7 @@
       "reading_time": 9,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 3,
-        "total": 4
+        "order": 3
       }
     },
     {
@@ -1389,9 +1347,7 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -1461,9 +1417,7 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -1533,9 +1487,7 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -1576,9 +1528,7 @@
       "sidebar_position": 20260528,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 2,
-        "total": 4
+        "order": 2
       }
     },
     {
@@ -1618,9 +1568,7 @@
       "reading_time": 18,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 1,
-        "total": 4
+        "order": 1
       }
     },
     {
@@ -1732,9 +1680,7 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 1,
-        "total": 5
+        "order": 1
       }
     },
     {
@@ -2192,9 +2138,7 @@
       "reading_time": 5,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 0,
-        "total": 6
+        "order": 0
       }
     },
     {
@@ -2234,9 +2178,7 @@
       "reading_time": 5,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 5,
-        "total": 6
+        "order": 5
       }
     },
     {
@@ -2276,9 +2218,7 @@
       "reading_time": 7,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 3,
-        "total": 6
+        "order": 3
       }
     },
     {
@@ -2318,9 +2258,7 @@
       "reading_time": 12,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 4,
-        "total": 6
+        "order": 4
       }
     },
     {
@@ -2360,9 +2298,7 @@
       "reading_time": 22,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 2,
-        "total": 6
+        "order": 2
       }
     },
     {
@@ -2402,9 +2338,7 @@
       "reading_time": 33,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 1,
-        "total": 6
+        "order": 1
       }
     },
     {
@@ -2607,9 +2541,7 @@
       "reading_time": 5,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 0,
-        "total": 3
+        "order": 0
       }
     },
     {
@@ -2648,9 +2580,7 @@
       "reading_time": 11,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -2733,9 +2663,7 @@
       "reading_time": 13,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -2775,9 +2703,7 @@
       "reading_time": 14,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -2856,9 +2782,7 @@
       "reading_time": 19,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -2898,9 +2822,7 @@
       "reading_time": 18,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -2940,9 +2862,7 @@
       "reading_time": 22,
       "series": {
         "id": "attenuation-visibility",
-        "name": "衰減：可見度如何被分配",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -3023,9 +2943,7 @@
       "reading_time": 7,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 4,
-        "total": 4
+        "order": 4
       }
     },
     {
@@ -3102,9 +3020,7 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -3142,9 +3058,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -3218,9 +3132,7 @@
       "reading_time": 15,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -3258,9 +3170,7 @@
       "reading_time": 24,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -3299,9 +3209,7 @@
       "reading_time": 20,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 1,
-        "total": 5
+        "order": 1
       }
     },
     {
@@ -3339,9 +3247,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "平台消音與認知封鎖五部曲",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -3383,9 +3289,7 @@
       "reading_time": 9,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 3,
-        "total": 4
+        "order": 3
       }
     },
     {
@@ -3502,9 +3406,7 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -3574,9 +3476,7 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -3646,9 +3546,7 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -3689,9 +3587,7 @@
       "sidebar_position": 20260528,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 2,
-        "total": 4
+        "order": 2
       }
     },
     {
@@ -3731,9 +3627,7 @@
       "reading_time": 18,
       "series": {
         "id": "memory-series",
-        "name": "記憶體與 AI 算力週期系列",
-        "order": 1,
-        "total": 4
+        "order": 1
       }
     },
     {
@@ -3845,9 +3739,7 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "效率陷阱與認知侵蝕五部曲",
-        "order": 1,
-        "total": 5
+        "order": 1
       }
     },
     {
@@ -4305,9 +4197,7 @@
       "reading_time": 7,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 0,
-        "total": 6
+        "order": 0
       }
     },
     {
@@ -4347,9 +4237,7 @@
       "reading_time": 7,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 5,
-        "total": 6
+        "order": 5
       }
     },
     {
@@ -4389,9 +4277,7 @@
       "reading_time": 11,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 3,
-        "total": 6
+        "order": 3
       }
     },
     {
@@ -4431,9 +4317,7 @@
       "reading_time": 18,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 4,
-        "total": 6
+        "order": 4
       }
     },
     {
@@ -4473,9 +4357,7 @@
       "reading_time": 25,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 2,
-        "total": 6
+        "order": 2
       }
     },
     {
@@ -4515,9 +4397,7 @@
       "reading_time": 38,
       "series": {
         "id": "beggars-bowl",
-        "name": "從乞丐碗裡搶飯",
-        "order": 1,
-        "total": 6
+        "order": 1
       }
     },
     {
@@ -4719,9 +4599,7 @@
       "reading_time": 5,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 0,
-        "total": 3
+        "order": 0
       }
     },
     {
@@ -4760,9 +4638,7 @@
       "reading_time": 11,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -4845,9 +4721,7 @@
       "reading_time": 13,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -4887,9 +4761,7 @@
       "reading_time": 14,
       "series": {
         "id": "exit-mechanism",
-        "name": "退出機制三部曲",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -4968,9 +4840,7 @@
       "reading_time": 19,
       "series": {
         "id": "attenuation-visibility",
-        "name": "Attenuation: How Visibility Is Allocated",
-        "order": 1,
-        "total": 3
+        "order": 1
       }
     },
     {
@@ -5010,9 +4880,7 @@
       "reading_time": 18,
       "series": {
         "id": "attenuation-visibility",
-        "name": "Attenuation: How Visibility Is Allocated",
-        "order": 2,
-        "total": 3
+        "order": 2
       }
     },
     {
@@ -5052,9 +4920,7 @@
       "reading_time": 22,
       "series": {
         "id": "attenuation-visibility",
-        "name": "Attenuation: How Visibility Is Allocated",
-        "order": 3,
-        "total": 3
+        "order": 3
       }
     },
     {
@@ -5135,9 +5001,7 @@
       "reading_time": 7,
       "series": {
         "id": "memory-series",
-        "name": "Memory and AI Compute Cycle Series",
-        "order": 4,
-        "total": 4
+        "order": 4
       }
     },
     {
@@ -5214,9 +5078,7 @@
       "reading_time": 42,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -5254,9 +5116,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -5330,9 +5190,7 @@
       "reading_time": 15,
       "series": {
         "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 5,
-        "total": 5
+        "order": 5
       }
     },
     {
@@ -5370,9 +5228,7 @@
       "reading_time": 24,
       "series": {
         "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -5411,9 +5267,7 @@
       "reading_time": 20,
       "series": {
         "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 1,
-        "total": 5
+        "order": 1
       }
     },
     {
@@ -5451,9 +5305,7 @@
       "reading_time": 10,
       "series": {
         "id": "platform-silencing",
-        "name": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -5495,9 +5347,7 @@
       "reading_time": 9,
       "series": {
         "id": "memory-series",
-        "name": "Memory and AI Compute Cycle Series",
-        "order": 3,
-        "total": 4
+        "order": 3
       }
     },
     {
@@ -5614,9 +5464,7 @@
       "sidebar_position": 2,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
-        "order": 4,
-        "total": 5
+        "order": 4
       }
     },
     {
@@ -5686,9 +5534,7 @@
       "reading_time": 12,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
-        "order": 3,
-        "total": 5
+        "order": 3
       }
     },
     {
@@ -5758,9 +5604,7 @@
       "reading_time": 10,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
-        "order": 2,
-        "total": 5
+        "order": 2
       }
     },
     {
@@ -5801,9 +5645,7 @@
       "sidebar_position": 20260528,
       "series": {
         "id": "memory-series",
-        "name": "Memory and AI Compute Cycle Series",
-        "order": 2,
-        "total": 4
+        "order": 2
       }
     },
     {
@@ -5843,9 +5685,7 @@
       "reading_time": 18,
       "series": {
         "id": "memory-series",
-        "name": "Memory and AI Compute Cycle Series",
-        "order": 1,
-        "total": 4
+        "order": 1
       }
     },
     {
@@ -5957,9 +5797,7 @@
       "reading_time": 20,
       "series": {
         "id": "efficiency-trap-cognition-erosion",
-        "name": "The Efficiency Trap and Cognitive Erosion Quintet",
         "order": 1,
-        "total": 5,
         "postscript": "This article serves as the foundational inquiry for the series."
       }
     },

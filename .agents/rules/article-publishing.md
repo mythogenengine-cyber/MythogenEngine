@@ -35,6 +35,7 @@ Whenever a new article or note is added or updated in `docs/TechNotes/` or `docs
    - If preview images are provided or needed, place them in the corresponding `images/` directory and configure them in markdown.
 
 4. **Series, Books & Hubs Registration**:
-   - 文章加入系列：只需在 YAML 寫 `series: { id, name, order }`，不需修改 `sidebars.js` 或 `hubs.config.json`。
-   - 若文章屬於新書或調整書本結構，才需在 `src/data/hubs.config.json`（及 `sidebars.js`）註冊。
-   - 執行 `node scripts/generateHubs.js` 重新生成 `src/data/hubs.json` 並驗證 sitemap inventory，所有導航頁（`/books`, `/series`, `/essays`）將自動同步。
+   - 文章加入現有系列：只需在 YAML 寫 `series: { id, order }`（不寫 name；系列名只在 `src/data/catalog.json`）。
+   - 書名、系列名、散文組名、書的章節次序：只改 `src/data/catalog.json`。不要在 `sidebars.js`、`generateHubs.js`、`i18n/*/current.json`、頁面 tsx 寫死名稱。
+   - 新系列：先在 `catalog.json` 的 `series` 加 id 與三語名稱，否則 build 報錯。
+   - 執行 `npm run generate` 重新生成 hubs.json 及英文／港版 sidebar 翻譯，所有導航頁（`/books`, `/series`, `/essays`）自動同步。

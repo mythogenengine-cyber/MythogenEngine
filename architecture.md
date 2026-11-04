@@ -95,7 +95,7 @@ i18n/<locale>/
 | `src/css/custom.css` | 全域自訂樣式 |
 | `src/data/diary.json` | 建置時由 `scripts/generateDiary.js` 生成 |
 | `src/data/technotes.json` | 建置時由 `scripts/generateTechNotes.js` 生成 |
-| `src/data/hubs.config.json` | 書、系列、散文的結構設定檔 |
+| `src/data/catalog.json` | **唯一名稱來源**：書名、系列名、散文組名（三語）、書的章節次序。改名只改這裡 |
 | `src/data/hubs.json` | 建置時由 `scripts/generateHubs.js` 生成的彙總資料 |
 
 ### 3.4 `static/` — 靜態資源
@@ -113,7 +113,9 @@ i18n/<locale>/
 
 | 檔案 | 功能 | 呼叫時機 |
 |---|---|---|
-| `generateHubs.js` | 讀取 `hubs.config.json` 掃描書、系列、散文文章並驗證 sitemap，生成 `src/data/hubs.json` | `npm start`, `npm build`, `npm deploy` |
+| `generateHubs.js` | 讀取 `catalog.json` 及文章 YAML，生成 `src/data/hubs.json` 並自我檢查 | `npm run generate`（start / build / deploy 自動執行） |
+| `syncSidebarTranslations.js` | 由 `catalog.json` 重寫 `i18n/en`、`i18n/zh-HK` 的 sidebar 書名／系列名翻譯，刪除舊 key | 同上 |
+| `lib/catalog.js` | 讀取 catalog 的共用函式 | 被上述腳本及 `sidebars.js` 引用 |
 | `generateTechNotes.js` | 掃描 TechNotes 的 frontmatter，生成 `src/data/technotes.json` | `npm start`, `npm build`, `npm deploy` |
 | `generateDiary.js` | 掃描 Diary 的 frontmatter，生成 `src/data/diary.json` | 同上 |
 | `fixTags.js` | 修正標籤格式 | 手動執行 |
@@ -126,7 +128,7 @@ i18n/<locale>/
 |---|---|
 | `docusaurus.config.js` | 網站標題、URL、i18n 語系、navbar 項目（書、系列、清醒記錄、散文、關於）、footer、gtag |
 | `sidebars.js` | 側邊欄結構，拆分為 9 個獨立 sidebar（`aiTao`, `mirrorRealm`, `gameVictory`, `capitalGame`, `whoCollects`, `aiWar`, `beggarsBowl`, `lucidRecord`, `essays`）；系列與獨立篇、隨筆全部透過動態掃描文章 front matter 生成 |
-| `package.json` | 建置腳本：`start` / `build` / `deploy` 均先跑 generateHubs, generateTechNotes, generateDiary 腳本再執行 docusaurus |
+| `package.json` | `generate` 依序跑 generateTechNotes、generateDiary、generateHubs、syncSidebarTranslations；`start` / `build` / `deploy` 先跑 `generate` |
 
 ---
 
@@ -138,15 +140,15 @@ i18n/<locale>/
 2. 填寫 frontmatter（`title`, `date`, `section`, `topic`, `article_tags`, `summary`...）
 3. 圖片放在 `docs/TechNotes/images/`，以相對路徑引用
 4. 若需多語版本，在 `i18n/<locale>/docusaurus-plugin-content-docs/current/TechNotes/` 鏡像建立翻譯
-5. **系列與 Hubs 關聯**：文章加入系列：只需在 YAML 寫 `series: { id, name, order }`，不需修改 `sidebars.js` 或 `hubs.config.json`。若為獨立篇（無 series），`sidebars.js` 的動態掃描會自動歸入清醒記錄的「獨立篇」
-6. 執行 `node scripts/generateHubs.js` 驗證並更新 `hubs.json`
+5. **系列與 Hubs 關聯**：文章加入系列：只需在 YAML 寫 `series: { id, order }`；系列名只在 `src/data/catalog.json`。若為獨立篇（無 series），`sidebars.js` 的動態掃描會自動歸入清醒記錄的「獨立篇」
+6. 執行 `npm run generate` 驗證並更新 `hubs.json` 及 sidebar 翻譯
 
 ### 新增一本書的章節
 
 1. 在 `docs/<BookName>/` 下新增 `chXX.md`
-2. 在 `sidebars.js` 對應書本 sidebar 中**手動加入**新章節的 ID
+2. 在 `src/data/catalog.json` 對應書本的 `chapters` 加入新章節 ID（次序即側欄次序）
 3. 圖片放在同一目錄下
-4. 若有調整書本入口或結構，在 `src/data/hubs.config.json` 中確認並執行 `node scripts/generateHubs.js`
+4. 執行 `npm run generate`（書的入口 = `chapters` 第一項）
 
 ---
 

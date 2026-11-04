@@ -32,9 +32,7 @@ sidebar_position: 20260528
 description: "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution."
 series:
   id: memory-series
-  name: "Memory and AI Compute Cycle Series"
   order: 2
-  total: 4
 ---
 Author: Nebula Walker
 Date: 28MAY2026

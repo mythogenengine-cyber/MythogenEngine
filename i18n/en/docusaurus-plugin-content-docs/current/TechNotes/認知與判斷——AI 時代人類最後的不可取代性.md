@@ -30,9 +30,7 @@ reading_time: 20
 description: "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills."
 series:
   id: efficiency-trap-cognition-erosion
-  name: "The Efficiency Trap and Cognitive Erosion Quintet"
   order: 1
-  total: 5
   postscript: "This article serves as the foundational inquiry for the series."
 ---
 Author: Nebula Walker

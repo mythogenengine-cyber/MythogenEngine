@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const { loadCatalog, titleOf } = require('./scripts/lib/catalog');
 
 const projectRoot = __dirname;
 
@@ -69,7 +70,8 @@ function getSeriesCategory(seriesId, options = {}) {
   if (list.length === 0) {
     throw new Error(`[sidebars.js] No articles found for series "${seriesId}"`);
   }
-  const label = list[0].name;
+  // 系列名只由 src/data/catalog.json 決定
+  const label = titleOf('series', seriesId);
   const guideItem = list.find((it) => it.order === 0);
   const subItems = list.filter((it) => it.order !== 0).map((it) => it.docId);
 
@@ -230,11 +232,8 @@ function getDiaryRemainingDocs() {
       f !== 'index.md'
   );
 
-  const knownSevenDaysDocs = new Set([
-    'Diary/七日書｜身心靈',
-    'Diary/七日書｜傳奇一曲',
-    'Diary/七日書_無用之用_道',
-  ]);
+  // 已歸入散文組（如七日書）的文章不再列入「隨筆」
+  const knownSevenDaysDocs = new Set(loadCatalog().essays.groups.flatMap((g) => g.docs));
 
   const items = [];
   for (const f of files) {
@@ -264,140 +263,29 @@ function getDiaryRemainingDocs() {
   return items.map((it) => it.docId);
 }
 
+// 書：名稱與章節次序都在 src/data/catalog.json
+function getBookCategory(bookId) {
+  const book = loadCatalog().books.find((b) => b.id === bookId);
+  return {
+    type: 'category',
+    label: titleOf('books', bookId),
+    collapsible: false,
+    items: book.chapters,
+  };
+}
+
+function getEssayGroupCategory(groupId) {
+  const group = loadCatalog().essays.groups.find((g) => g.id === groupId);
+  return {
+    type: 'category',
+    label: titleOf('essay', groupId),
+    items: group.docs,
+  };
+}
+
 const sidebars = {
-  // 1. 大道無形 (The Invisible Path)
-  aiTao: [
-    {
-      type: 'category',
-      label: '大道無形',
-      collapsible: false,
-      items: [
-        'AI_TAO/INFO_PAGE',
-        'AI_TAO/intro',
-        'AI_TAO/prologue',
-        'AI_TAO/ch01',
-        'AI_TAO/ch02',
-        'AI_TAO/ch03',
-        'AI_TAO/ch04',
-        'AI_TAO/ch05',
-        'AI_TAO/ch06',
-        'AI_TAO/ch07',
-        'AI_TAO/ch08',
-        'AI_TAO/ch09',
-        'AI_TAO/ch10',
-        'AI_TAO/ch11',
-        'AI_TAO/ch12',
-        'AI_TAO/ch13',
-        'AI_TAO/ch14',
-        'AI_TAO/ch15',
-        'AI_TAO/ch16',
-        'AI_TAO/ch17',
-        'AI_TAO/ch18',
-        'AI_TAO/epilogue',
-        'AI_TAO/afterword',
-        'AI_TAO/附錄_資料來源_最終版_中英對照',
-      ],
-    },
-  ],
-
-  // 2. 鏡界 (Mirror Realm)
-  mirrorRealm: [
-    {
-      type: 'category',
-      label: '鏡界',
-      collapsible: false,
-      items: [
-        'mirror-realm/prologue',
-        'mirror-realm/ch01',
-        'mirror-realm/ch02',
-        'mirror-realm/ch03',
-        'mirror-realm/ch04',
-        'mirror-realm/ch05',
-        'mirror-realm/ch06',
-        'mirror-realm/ch07',
-        'mirror-realm/ch08',
-        'mirror-realm/ch09',
-        'mirror-realm/ch10',
-        'mirror-realm/ch11',
-        'mirror-realm/ch12',
-        'mirror-realm/ch12b',
-        'mirror-realm/ch13',
-        'mirror-realm/ch14',
-        'mirror-realm/ch15',
-        'mirror-realm/ch16',
-        'mirror-realm/ch17',
-        'mirror-realm/ch18',
-        'mirror-realm/ch19',
-        'mirror-realm/epilogue',
-      ],
-    },
-  ],
-
-  // 3. 遊戲致勝 (GameVictory)
-  gameVictory: [
-    {
-      type: 'category',
-      label: '遊戲致勝',
-      collapsible: false,
-      items: [
-        'GameVictory/INFO_PAGE',
-        'GameVictory/自序_玩住學_v17',
-        'GameVictory/序章_看不見的代價_v1',
-        'GameVictory/第一章_神仙打架的DOS時代_v4',
-        'GameVictory/第二章_特洛伊木馬_v3',
-        'GameVictory/第三章_微軟的恐懼與 Xbox 的誕生',
-        'GameVictory/第四章_世嘉的五百萬美元善款_v1',
-        'GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2',
-        'GameVictory/第六章_Gabe Newell 的越獄行動_v5',
-        'GameVictory/間章_全面性的消亡_v1',
-        'GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3',
-        'GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2',
-        'GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2',
-        'GameVictory/第十章_最後一根救命稻草_v2',
-        'GameVictory/第十一章_給遊戲玩家的情書_v4',
-        'GameVictory/終章_遊戲即未來_v5b',
-        'GameVictory/外傳上篇_逃獄者_Google的無魂豪賭與TPU閉環_v1',
-        'GameVictory/外傳下篇_缺課者_中國的應用狂歡與底層斷裂_v1',
-        'GameVictory/back_cover',
-      ],
-    },
-  ],
-
-  // 4. 資本遊戲玩什麼（單頁長文）
-  capitalGame: [
-    {
-      type: 'category',
-      label: '資本遊戲玩什麼',
-      collapsible: false,
-      items: [
-        'capital-game/資本遊戲玩什麼（實例檔案：遊戲業）',
-      ],
-    },
-  ],
-
-  // 5. 誰在門口收錢
-  whoCollects: [
-    {
-      type: 'category',
-      label: '誰在門口收錢',
-      collapsible: false,
-      items: [
-        'capital-game/誰在門口收錢/INFO_PAGE',
-        'capital-game/誰在門口收錢/preface',
-        'capital-game/誰在門口收錢/ch01',
-        'capital-game/誰在門口收錢/ch02',
-        'capital-game/誰在門口收錢/ch03',
-        'capital-game/誰在門口收錢/ch04',
-        'capital-game/誰在門口收錢/ch05',
-        'capital-game/誰在門口收錢/ch06',
-        'capital-game/誰在門口收錢/ch07',
-        'capital-game/誰在門口收錢/ch08',
-        'capital-game/誰在門口收錢/ch09',
-        'capital-game/誰在門口收錢/conclusion',
-        'capital-game/誰在門口收錢/full',
-      ],
-    },
-  ],
+  // 1–5. 書（sidebar id 對應 catalog.json books[].sidebar）
+  ...Object.fromEntries(loadCatalog().books.map((b) => [b.sidebar, [getBookCategory(b.id)]])),
 
   // 6. AI War
   aiWar: [
@@ -425,15 +313,7 @@ const sidebars = {
 
   // 9. 散文 (essays)
   essays: [
-    {
-      type: 'category',
-      label: '七日書',
-      items: [
-        'Diary/七日書｜身心靈',
-        'Diary/七日書｜傳奇一曲',
-        'Diary/七日書_無用之用_道',
-      ],
-    },
+    getEssayGroupCategory('seven-days'),
     getSeriesCategory('legal-harm'),
     {
       type: 'category',

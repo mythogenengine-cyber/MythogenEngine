@@ -32,9 +32,7 @@ status: published
 reading_time: 7
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 0
-  total: 6
 ---
 # Prologue: Snatching Rice from the Beggar's Bowl
 

@@ -38,9 +38,7 @@ status: published
 reading_time: 9
 series:
   id: memory-series
-  name: "Memory and AI Compute Cycle Series"
   order: 3
-  total: 4
 ---
 Author: Nebula Walker
 Date: 13JUL2026

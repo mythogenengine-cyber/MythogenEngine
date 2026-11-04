@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const { loadCatalog, titleOf, fullTitleOf } = require('./lib/catalog');
 
 const projectRoot = path.resolve(__dirname, '..');
 
@@ -10,84 +11,7 @@ const LOCALE_ROOTS = {
   en: 'i18n/en/docusaurus-plugin-content-docs/current',
 };
 
-const BOOK_TITLE_MAP = {
-  'capital-game': {
-    'zh-Hant': '資本遊戲玩什麼（實例檔案：遊戲業）',
-    'zh-HK': '資本遊戲玩什麼（實例檔案：遊戲業）',
-    en: 'Capital Game',
-  },
-  'who-collects': {
-    'zh-Hant': '誰在門口收錢',
-    'zh-HK': '誰在門口收錢',
-    en: "Who's Collecting at the Door",
-  },
-  'ai-tao': {
-    'zh-Hant': '大道無形',
-    'zh-HK': '大道無形',
-    en: 'The Invisible Path',
-  },
-  'mirror-realm': {
-    'zh-Hant': '鏡界',
-    'zh-HK': '鏡界',
-    en: 'Mirror Realm',
-  },
-  'game-victory': {
-    'zh-Hant': '遊戲致勝',
-    'zh-HK': '遊戲致勝',
-    en: 'GameVictory',
-  },
-};
-
-const SERIES_TITLE_MAP = {
-  'ai-war': {
-    'zh-Hant': 'AI War（AI Ecosystem War）',
-    'zh-HK': 'AI War（AI Ecosystem War）',
-    en: 'AI Ecosystem War',
-  },
-  'memory-series': {
-    'zh-Hant': '記憶體與 AI 算力週期系列',
-    'zh-HK': '記憶體與 AI 算力週期系列',
-    en: 'Memory and AI Compute Cycle Series',
-  },
-  'efficiency-trap-cognition-erosion': {
-    'zh-Hant': '效率陷阱與認知侵蝕五部曲',
-    'zh-HK': '效率陷阱與認知侵蝕五部曲',
-    en: 'Efficiency Trap & Cognitive Erosion Quintet',
-  },
-  'platform-silencing': {
-    'zh-Hant': '平台消音與認知封鎖五部曲',
-    'zh-HK': '平台消音與認知封鎖五部曲',
-    en: 'Platform Silencing Quintet',
-  },
-  'attenuation-visibility': {
-    'zh-Hant': '衰減：可見度如何被分配',
-    'zh-HK': '衰減：可見度如何被分配',
-    en: 'Attenuation: How Visibility is Allocated Trilogy',
-  },
-  'exit-mechanism': {
-    'zh-Hant': '退出機制三部曲',
-    'zh-HK': '退出機制三部曲',
-    en: 'Exit Mechanism Trilogy',
-  },
-  'beggars-bowl': {
-    'zh-Hant': '從乞丐碗裡搶飯',
-    'zh-HK': '從乞丐碗裡搶飯',
-    en: "Snatching Rice from the Beggar's Bowl",
-  },
-  'legal-harm': {
-    'zh-Hant': '合法傷害權（樂風集團案）',
-    'zh-HK': '合法傷害權（樂風集團案）',
-    en: 'Legal Right to Harm',
-  },
-};
-
-const ESSAY_GROUP_TITLE_MAP = {
-  'seven-days': {
-    'zh-Hant': '七日書',
-    'zh-HK': '七日書',
-    en: 'Seven Days Book',
-  },
-};
+// 書名、系列名、散文組名一律由 src/data/catalog.json 提供（唯一來源）
 
 function toDocsUrl(slug) {
   const s = slug.startsWith('/') ? slug : '/' + slug;
@@ -256,13 +180,14 @@ function countSidebarDocItems(item) {
 }
 
 function generateHubs() {
-  const configPath = path.join(projectRoot, 'src', 'data', 'hubs.config.json');
-  if (!fs.existsSync(configPath)) {
-    throw new Error(`Config file not found: ${configPath}`);
-  }
-  const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  // catalog.json：每本書的入口 = chapters 第一項
+  const catalog = loadCatalog();
+  const config = {
+    ...catalog,
+    books: catalog.books.map((b) => ({ ...b, entry: b.chapters[0] })),
+  };
 
-  // 主要檢查（失敗即 exit 1）：hubs.config.json 內每個 doc id 都必須對應到 docs/ 下真實存在的 .md / .mdx 檔案
+  // 主要檢查（失敗即 exit 1）：catalog.json 內每個 doc id 都必須對應到 docs/ 下真實存在的 .md / .mdx 檔案
   // 並且每個 series id 至少有一篇文章且 order 不重複
   const docCheckResult = checkDocFiles(config);
 
@@ -280,7 +205,7 @@ function generateHubs() {
     // 1. Books
     for (const book of config.books) {
       const entryDoc = parseDoc(locale, book.entry);
-      const bookTitle = (BOOK_TITLE_MAP[book.id] && BOOK_TITLE_MAP[book.id][locale]) || entryDoc.title;
+      const bookTitle = fullTitleOf('books', book.id, locale);
       const sidebarDef = sidebars[book.sidebar];
       const chaptersCount = sidebarDef ? countSidebarDocItems(sidebarDef) : 0;
 
@@ -301,13 +226,7 @@ function generateHubs() {
       const docs = seriesDocIds.map((docId) => parseDoc(locale, docId));
       const firstDoc = docs[0];
 
-      let seriesTitle =
-        (firstDoc.series && firstDoc.series.name) ||
-        (SERIES_TITLE_MAP[s.id] && SERIES_TITLE_MAP[s.id][locale]) ||
-        firstDoc.title;
-      if (SERIES_TITLE_MAP[s.id] && SERIES_TITLE_MAP[s.id][locale]) {
-        seriesTitle = SERIES_TITLE_MAP[s.id][locale];
-      }
+      const seriesTitle = titleOf('series', s.id, locale);
 
       const seriesDescription = firstDoc.description;
       const dates = docs.map((d) => d.date).filter(Boolean).sort();
@@ -339,9 +258,7 @@ function generateHubs() {
     // 3A. Groups (seven-days)
     for (const group of config.essays.groups) {
       const groupDocs = group.docs.map((docId) => parseDoc(locale, docId));
-      const groupTitle =
-        (ESSAY_GROUP_TITLE_MAP[group.id] && ESSAY_GROUP_TITLE_MAP[group.id][locale]) ||
-        group.id;
+      const groupTitle = titleOf('essay', group.id, locale);
       outputData[locale].essays.groups.push({
         id: group.id,
         title: groupTitle,
@@ -361,11 +278,7 @@ function generateHubs() {
       .readdirSync(diaryDir)
       .filter((f) => (f.endsWith('.md') || f.endsWith('.mdx')) && f !== 'index.mdx' && f !== 'index.md');
 
-    const knownSevenDaysDocs = new Set([
-      'Diary/七日書｜身心靈',
-      'Diary/七日書｜傳奇一曲',
-      'Diary/七日書_無用之用_道',
-    ]);
+    const knownSevenDaysDocs = new Set(config.essays.groups.flatMap((g) => g.docs));
 
     const restDocs = [];
     for (const f of diaryFiles) {
@@ -422,8 +335,8 @@ function extractConfigDocIds(config) {
       if (book.entry) {
         docEntries.push({ docId: book.entry, source: `Book: ${book.id}` });
       }
-      if (Array.isArray(book.docs)) {
-        for (const id of book.docs) {
+      if (Array.isArray(book.chapters)) {
+        for (const id of book.chapters) {
           docEntries.push({ docId: id, source: `Book: ${book.id}` });
         }
       }
@@ -462,7 +375,7 @@ function checkDocFiles(config) {
     for (const s of config.series) {
       const list = seriesMap[s.id] || [];
       if (list.length === 0) {
-        console.error(`\n[Self-Check ERROR] Series "${s.id}" in hubs.config.json has no corresponding articles in docs/.`);
+        console.error(`\n[Self-Check ERROR] Series "${s.id}" in catalog.json has no corresponding articles in docs/.`);
         process.exit(1);
       }
       const orders = list.map((it) => it.order);
@@ -472,6 +385,14 @@ function checkDocFiles(config) {
         process.exit(1);
       }
     }
+  }
+
+  // 自我檢查 1b：文章 YAML 用到的 series id 必須已在 catalog.json 登記，否則該系列在網站上無名、無入口
+  const knownSeries = new Set((config.series || []).map((s) => s.id));
+  const unknown = Object.keys(seriesMap).filter((id) => !knownSeries.has(id));
+  if (unknown.length > 0) {
+    console.error(`\n[Self-Check ERROR] 文章 YAML 用了未登記的 series id：${unknown.join(', ')}。請在 src/data/catalog.json 的 series 加上名稱。`);
+    process.exit(1);
   }
 
   // 自我檢查 2：所有 docId 必須存在於 docs/
@@ -590,10 +511,8 @@ function runSelfCheck(zhHantData, config, options = {}) {
   let docCheckResult = options.docCheckAlreadyDone;
   if (!docCheckResult) {
     if (!config) {
-      const configPath = path.join(projectRoot, 'src', 'data', 'hubs.config.json');
-      if (fs.existsSync(configPath)) {
-        config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
-      }
+      const catalog = loadCatalog();
+      config = { ...catalog, books: catalog.books.map((b) => ({ ...b, entry: b.chapters[0] })) };
     }
     if (config) {
       docCheckResult = checkDocFiles(config);

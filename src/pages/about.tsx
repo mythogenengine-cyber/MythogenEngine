@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './about.module.css';
 import Link from '@docusaurus/Link';
+import { catalogTitle } from '@site/src/utils/catalog';
 import { 
   MapPin, 
   Code2, 
@@ -139,11 +140,21 @@ function PlatformSection() {
 
 function WorksSection() {
   const { i18n } = useDocusaurusContext();
-  const isEn = i18n.currentLocale === 'en';
+  const locale = i18n.currentLocale;
+  const isEn = locale === 'en';
+  // 書名／系列名由 src/data/catalog.json 提供
+  const book = (id: string, full = true) => {
+    const t = catalogTitle('books', id, locale, { full });
+    return isEn ? t : `《${t}》`;
+  };
+  const series = (id: string) => {
+    const t = catalogTitle('series', id, locale);
+    return isEn ? t : `「${t}」`;
+  };
 
   const works = [
     {
-      title: isEn ? 'The Invisible Path' : '《大道無形》',
+      title: book('ai-tao'),
       subtitle: isEn ? 'Narrative, Tools, and the Last Line of Defence' : '敘事、工具與意識的最後防線',
       desc: isEn 
         ? "AI isn't the problem — the coverings are. From narrative manufacturing to cost displacement to anxiety arbitrage."
@@ -151,7 +162,7 @@ function WorksSection() {
       icon: <ShieldAlert size={24} />
     },
     {
-      title: isEn ? 'AI Ecosystem War' : '微軟與蘋果的 AI 生態暗戰',
+      title: series('ai-war'),
       subtitle: isEn ? 'A panoramic industry study' : '全景式產業研究',
       desc: isEn 
         ? "Eight chapters dissecting the silent war between Microsoft and Apple's AI ecosystems, and OpenAI's funding perpetual motion machine."
@@ -159,7 +170,7 @@ function WorksSection() {
       icon: <Sparkles size={24} />
     },
     {
-      title: isEn ? 'GameVictory' : '《遊戲至勝》',
+      title: book('game-victory'),
       subtitle: isEn ? 'The hidden arithmetic of tech hegemony' : '四十年科技霸權的隱藏算術',
       desc: isEn 
         ? "How the gaming industry accidentally built the infrastructure for the AI revolution."
@@ -167,7 +178,7 @@ function WorksSection() {
       icon: <Gamepad2 size={24} />
     },
     {
-      title: isEn ? 'Capital Game' : '《資本遊戲玩什麼》',
+      title: book('capital-game', false), // 副題「實例檔案：遊戲業」已在 subtitle 顯示
       subtitle: isEn ? 'Case study: the gaming industry' : '實例檔案：遊戲業',
       desc: isEn 
         ? "Sony shuttered studios while posting record profits. Microsoft spent $69B on IP, then laid off the people who made the games."
@@ -175,7 +186,7 @@ function WorksSection() {
       icon: <Building2 size={24} />
     },
     {
-      title: isEn ? 'Mirror Realm' : '《鏡界：假面系統殺人事件》',
+      title: book('mirror-realm'),
       subtitle: isEn ? 'A semi-autobiographical novel' : '半自傳體職場小說',
       desc: isEn 
         ? "An engineer walks into a system designed to make you lose. Institutions don't need villains to grind people down."
@@ -191,7 +202,7 @@ function WorksSection() {
       icon: <Heart size={24} />
     },
     {
-      title: isEn ? 'Memory Myth series' : '「記憶體神話」系列',
+      title: series('memory-series'),
       subtitle: isEn ? 'Semiconductor cycle analysis' : '記憶體週期結構性真相',
       desc: isEn 
         ? "When everyone was chasing HBM, this series dismantled the structural truth of the memory cycle."

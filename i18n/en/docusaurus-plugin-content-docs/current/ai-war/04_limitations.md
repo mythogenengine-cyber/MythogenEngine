@@ -4,7 +4,6 @@ description: "On the surface, Microsoft is the biggest winner of the AI craze."
 summary: "On the surface, Microsoft is the biggest winner of the AI craze."
 series:
   id: ai-war
-  name: AI Ecosystem War
   order: 4
 ---
 # Theme 04: Microsoft's Four Tightening Spells—The Deadlocked AI Empire

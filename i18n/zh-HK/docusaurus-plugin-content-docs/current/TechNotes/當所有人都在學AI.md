@@ -26,9 +26,7 @@ summary: 效率提升如果沒有創造新需求，就只是壓縮——而AI教
 description: "如果效率提升不能創造新需求，那只是壓縮——而 AI 教育市場正在大規模教人壓縮。"
 series:
   id: efficiency-trap-cognition-erosion
-  name: "效率陷阱與認知侵蝕五部曲"
   order: 3
-  total: 5
 status: published
 reading_time: 12
 ---

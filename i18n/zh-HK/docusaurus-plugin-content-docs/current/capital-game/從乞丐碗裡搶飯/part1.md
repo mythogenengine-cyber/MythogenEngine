@@ -32,9 +32,7 @@ status: published
 reading_time: 33
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 1
-  total: 6
 ---
 # 不做就該受苦？從綜援到 UBI，「多勞多得」是誰的原則
 

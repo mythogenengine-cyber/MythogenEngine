@@ -32,9 +32,7 @@ status: published
 reading_time: 5
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 5
-  total: 6
 ---
 # 終篇：數得清楚之後
 

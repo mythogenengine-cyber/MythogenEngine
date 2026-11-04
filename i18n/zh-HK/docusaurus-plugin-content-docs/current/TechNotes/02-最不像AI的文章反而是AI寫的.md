@@ -29,9 +29,7 @@ status: draft
 reading_time: 18
 series:
   id: attenuation-visibility
-  name: "衰減：可見度如何被分配"
   order: 2
-  total: 3
 ---
 作者：星忘塵 Nebula Walker
 Date: 06AUG2026

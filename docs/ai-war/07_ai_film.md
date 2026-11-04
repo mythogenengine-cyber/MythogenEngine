@@ -4,7 +4,6 @@ description: "Sora 的退場不代表 AI 影視已死——而是宣告了：靠
 summary: "Sora 的退場不代表 AI 影視已死——而是宣告了：靠暴力算力「憑空生成」影片的商業模式，在沒有低成本算力和分發平台的前提下走不通。 AI 影視的未來取決於技術路線選擇、成本結構、和分發管道三者的組合。"
 series:
   id: ai-war
-  name: AI Ecosystem War
   order: 7
 ---
 # 主題七：AI 影視的路線之爭——2D 生成 vs 3D 世界模擬

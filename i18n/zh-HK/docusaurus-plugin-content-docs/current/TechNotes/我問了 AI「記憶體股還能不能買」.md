@@ -38,9 +38,7 @@ status: published
 reading_time: 9
 series:
   id: memory-series
-  name: "記憶體與 AI 算力週期系列"
   order: 3
-  total: 4
 ---
 作者：星忘塵 Nebula Walker
 Date: 13JUL2026

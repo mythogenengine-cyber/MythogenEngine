@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield, Briefcase, Building2, TrendingDown } from 'lucide-react';
 import RecentUpdates from '@site/src/components/RecentUpdates';
+import { catalogTitle } from '@site/src/utils/catalog';
 
 function HeroSection() {
   const { i18n } = useDocusaurusContext();
@@ -90,7 +91,7 @@ function HeroSection() {
             <Link to="/docs/AI_TAO/INFO_PAGE">
               <img
                 src="/img/book_cover_invisible_path.jpg"
-                alt={isEn ? 'The Invisible Path — Book Cover' : '大道無形 — 書封面'}
+                alt={`${catalogTitle('books', 'ai-tao', locale)} — ${isEn ? 'Book Cover' : '書封面'}`}
                 className={styles.heroCoverImg}
               />
             </Link>
@@ -138,7 +139,7 @@ function CategoryCards() {
                   </span>
                 </div>
                 <h2 className="text-4xl font-headline mb-4" style={{ fontSize: '2.5rem', color: 'white', fontWeight: 200 }}>
-                  {isEn ? 'The Invisible Path' : '大道無形'} <br />
+                  {catalogTitle('books', 'ai-tao', locale)} <br />
                   <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.4rem', display: 'block', marginTop: '0.5rem', color: 'var(--color-on-surface-variant)' }}>
                     {isEn ? 'Narrative, Tools, and the Last Line of Defence' : '敘事、工具與意識的最後防線'}
                   </span>
@@ -180,7 +181,7 @@ function CategoryCards() {
                   <Activity size={36} strokeWidth={1.5} />
                 </div>
                 <h2 className="text-4xl font-headline mb-4">
-                  AI Ecosystem War <br />
+                  {catalogTitle('series', 'ai-war', locale)} <br />
                   <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
                     {isEn ? '(Industry Analysis)' : '（產業分析書）'}
                   </span>
@@ -364,7 +365,7 @@ function CategoryCards() {
                   </span>
                 </div>
                 <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  {isEn ? "Who's Collecting at the Door" : '誰在門口收錢'} <br />
+                  {catalogTitle('books', 'who-collects', locale)} <br />
                   <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
                     {isEn ? 'In the Age of Financialization, You Are Not the Problem' : '金融化時代，不是你不夠好'}
                   </span>
@@ -412,7 +413,7 @@ function CategoryCards() {
                   </span>
                 </div>
                 <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  {isEn ? "Snatching Rice from the Beggar's Bowl" : '從乞丐碗裡搶飯'} <br />
+                  {catalogTitle('series', 'beggars-bowl', locale)} <br />
                   <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
                     {isEn ? 'One Pie Cut Thinner Every Year' : '同一塊愈切愈細的餅'}
                   </span>

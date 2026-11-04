@@ -30,7 +30,7 @@
       },
       {
         "id": "mirror-realm",
-        "title": "鏡界",
+        "title": "鏡界：假面系統殺人事件",
         "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明回到書房，沒有開燈。 窗外是海。夜裡看不清水色，只有遠處幾點燈。這個方向，是漂亮的。",
         "url": "/docs/mirror-realm/prologue",
         "entry": "mirror-realm/prologue",
@@ -50,7 +50,7 @@
     "series": [
       {
         "id": "ai-war",
-        "title": "AI War（AI Ecosystem War）",
+        "title": "AI Ecosystem War",
         "description": "一份關於 AI 產業食物鏈、資本永動機、開發者生態裂變，以及兩大帝國靜悄悄決戰的深度分析報告 本研究共分為八個主題，每個主題為獨立的深度分析文章： 想快速掌握全局： 先讀主題 01（食物鏈）和主題 04（緊箍咒），這兩篇呈現了微軟困境的全貌。",
         "itemsCount": 9,
         "dateRange": "-",
@@ -401,7 +401,7 @@
       },
       {
         "id": "legal-harm",
-        "title": "合法傷害權（樂風集團案）",
+        "title": "合法傷害權",
         "description": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
         "itemsCount": 4,
         "dateRange": "2026-05-29 ~ 2026-06-12",
@@ -527,7 +527,7 @@
       },
       {
         "id": "mirror-realm",
-        "title": "鏡界",
+        "title": "鏡界：假面系統殺人事件",
         "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明返到書房，冇開燈。 窗外係海。夜裏睇唔清水色，得遠處幾點燈。呢個方向，係靚嘅。",
         "url": "/docs/mirror-realm/prologue",
         "entry": "mirror-realm/prologue",
@@ -547,7 +547,7 @@
     "series": [
       {
         "id": "ai-war",
-        "title": "AI War（AI Ecosystem War）",
+        "title": "AI Ecosystem War",
         "description": "一份關於 AI 產業食物鏈、資本永動機、開發者生態裂變，以及兩大帝國靜悄悄決戰的深度分析報告 本研究共分為八個主題，每個主題為獨立的深度分析文章： 想快速掌握全局： 先讀主題 01（食物鏈）和主題 04（緊箍咒），這兩篇呈現了微軟困境的全貌。",
         "itemsCount": 9,
         "dateRange": "-",
@@ -898,7 +898,7 @@
       },
       {
         "id": "legal-harm",
-        "title": "合法傷害權（樂風集團案）",
+        "title": "合法傷害權",
         "description": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
         "itemsCount": 4,
         "dateRange": "2026-05-29 ~ 2026-06-12",
@@ -1215,7 +1215,7 @@
       },
       {
         "id": "platform-silencing",
-        "title": "Platform Silencing Quintet",
+        "title": "Platform Silencing and Cognitive Blockade: A Five-Part Series",
         "description": "AI generation and AI detection share the same statistical machine: the corpus's centre of gravity is power. Once the archives have been cleansed, the machine perpetuates the deletion at industrial scale.",
         "itemsCount": 5,
         "dateRange": "2026-07-17 ~ 2026-07-23",
@@ -1264,7 +1264,7 @@
       },
       {
         "id": "attenuation-visibility",
-        "title": "Attenuation: How Visibility is Allocated Trilogy",
+        "title": "Attenuation: How Visibility Is Allocated",
         "description": "Demotion is not a gentler version of censorship — it is attenuation designed to produce no evidence.",
         "itemsCount": 3,
         "dateRange": "2026-08-06",

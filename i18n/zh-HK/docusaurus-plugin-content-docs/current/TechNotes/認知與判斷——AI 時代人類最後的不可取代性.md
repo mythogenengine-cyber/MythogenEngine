@@ -30,9 +30,7 @@ reading_time: 20
 description: "系統性拆解認知與判斷力的形成機制，以及教育、演算法與 AI 如何持續剝蝕這些關鍵能力。"
 series:
   id: efficiency-trap-cognition-erosion
-  name: "效率陷阱與認知侵蝕五部曲"
   order: 1
-  total: 5
 ---
 作者：星忘塵 Nebula Walker
 Date: 20MAY2026

@@ -32,9 +32,7 @@ status: published
 reading_time: 38
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 1
-  total: 6
 ---
 # Suffer If You Don't Work? From CSSA to UBI, Whose Principle Is “More Work, More Pay”?
 

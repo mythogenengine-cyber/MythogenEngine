@@ -4,7 +4,6 @@ description: "Apple has consistently been mocked for moving \"too slowly\" in AI
 summary: "Apple has consistently been mocked for moving \"too slowly\" in AI."
 series:
   id: ai-war
-  name: AI Ecosystem War
   order: 6
 ---
 # Theme 06: Apple's Quiet Counterkill—More Than Just Chips

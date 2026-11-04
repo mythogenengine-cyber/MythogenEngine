@@ -32,9 +32,7 @@ sidebar_position: 20260528
 description: "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。"
 series:
   id: memory-series
-  name: "記憶體與 AI 算力週期系列"
   order: 2
-  total: 4
 ---
 作者：星忘塵 Nebula Walker
 Date: 28MAY2026

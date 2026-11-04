@@ -32,9 +32,7 @@ status: published
 reading_time: 7
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 3
-  total: 6
 ---
 # 看得見的騙，量不到的數
 

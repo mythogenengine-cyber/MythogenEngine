@@ -42,9 +42,7 @@ status: published
 reading_time: 7
 series:
   id: memory-series
-  name: "記憶體與 AI 算力週期系列"
   order: 4
-  total: 4
 ---
 
 # 真話是付費功能：AI 定價結構如何決定真相的分配

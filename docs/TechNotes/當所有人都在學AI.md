@@ -27,9 +27,7 @@ status: published
 reading_time: 12
 series:
   id: efficiency-trap-cognition-erosion
-  name: "效率陷阱與認知侵蝕五部曲"
   order: 3
-  total: 5
 ---
 作者：星忘塵 Nebula Walker
 Date: 27JUN2026

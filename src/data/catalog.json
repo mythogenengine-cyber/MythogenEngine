@@ -1,0 +1,145 @@
+{
+  "_說明": "全站書名、系列名、散文組名的唯一來源。改名只改這裡；sidebar、/books、/series、/essays、首頁、關於頁、英文與港版 sidebar 翻譯都由此生成。title = 側欄及卡片用的名稱；fullTitle = 書目頁及關於頁用的完整書名（可省略）。zh-HK 未填時沿用 zh-Hant。系列成員與次序寫在各篇文章 YAML 的 series: { id, order }。",
+  "books": [
+    {
+      "id": "capital-game",
+      "sidebar": "capitalGame",
+      "title": { "zh-Hant": "資本遊戲玩什麼", "en": "Capital Game" },
+      "fullTitle": { "zh-Hant": "資本遊戲玩什麼（實例檔案：遊戲業）", "en": "Capital Game" },
+      "chapters": [
+        "capital-game/資本遊戲玩什麼（實例檔案：遊戲業）"
+      ]
+    },
+    {
+      "id": "who-collects",
+      "sidebar": "whoCollects",
+      "title": { "zh-Hant": "誰在門口收錢", "en": "Who's Collecting at the Door" },
+      "chapters": [
+        "capital-game/誰在門口收錢/INFO_PAGE",
+        "capital-game/誰在門口收錢/preface",
+        "capital-game/誰在門口收錢/ch01",
+        "capital-game/誰在門口收錢/ch02",
+        "capital-game/誰在門口收錢/ch03",
+        "capital-game/誰在門口收錢/ch04",
+        "capital-game/誰在門口收錢/ch05",
+        "capital-game/誰在門口收錢/ch06",
+        "capital-game/誰在門口收錢/ch07",
+        "capital-game/誰在門口收錢/ch08",
+        "capital-game/誰在門口收錢/ch09",
+        "capital-game/誰在門口收錢/conclusion",
+        "capital-game/誰在門口收錢/full"
+      ]
+    },
+    {
+      "id": "ai-tao",
+      "sidebar": "aiTao",
+      "title": { "zh-Hant": "大道無形", "en": "The Invisible Path" },
+      "chapters": [
+        "AI_TAO/INFO_PAGE",
+        "AI_TAO/intro",
+        "AI_TAO/prologue",
+        "AI_TAO/ch01",
+        "AI_TAO/ch02",
+        "AI_TAO/ch03",
+        "AI_TAO/ch04",
+        "AI_TAO/ch05",
+        "AI_TAO/ch06",
+        "AI_TAO/ch07",
+        "AI_TAO/ch08",
+        "AI_TAO/ch09",
+        "AI_TAO/ch10",
+        "AI_TAO/ch11",
+        "AI_TAO/ch12",
+        "AI_TAO/ch13",
+        "AI_TAO/ch14",
+        "AI_TAO/ch15",
+        "AI_TAO/ch16",
+        "AI_TAO/ch17",
+        "AI_TAO/ch18",
+        "AI_TAO/epilogue",
+        "AI_TAO/afterword",
+        "AI_TAO/附錄_資料來源_最終版_中英對照"
+      ]
+    },
+    {
+      "id": "mirror-realm",
+      "sidebar": "mirrorRealm",
+      "title": { "zh-Hant": "鏡界", "en": "Mirror Realm" },
+      "fullTitle": { "zh-Hant": "鏡界：假面系統殺人事件", "en": "Mirror Realm" },
+      "chapters": [
+        "mirror-realm/prologue",
+        "mirror-realm/ch01",
+        "mirror-realm/ch02",
+        "mirror-realm/ch03",
+        "mirror-realm/ch04",
+        "mirror-realm/ch05",
+        "mirror-realm/ch06",
+        "mirror-realm/ch07",
+        "mirror-realm/ch08",
+        "mirror-realm/ch09",
+        "mirror-realm/ch10",
+        "mirror-realm/ch11",
+        "mirror-realm/ch12",
+        "mirror-realm/ch12b",
+        "mirror-realm/ch13",
+        "mirror-realm/ch14",
+        "mirror-realm/ch15",
+        "mirror-realm/ch16",
+        "mirror-realm/ch17",
+        "mirror-realm/ch18",
+        "mirror-realm/ch19",
+        "mirror-realm/epilogue"
+      ]
+    },
+    {
+      "id": "game-victory",
+      "sidebar": "gameVictory",
+      "title": { "zh-Hant": "遊戲致勝", "en": "GameVictory" },
+      "chapters": [
+        "GameVictory/INFO_PAGE",
+        "GameVictory/自序_玩住學_v17",
+        "GameVictory/序章_看不見的代價_v1",
+        "GameVictory/第一章_神仙打架的DOS時代_v4",
+        "GameVictory/第二章_特洛伊木馬_v3",
+        "GameVictory/第三章_微軟的恐懼與 Xbox 的誕生",
+        "GameVictory/第四章_世嘉的五百萬美元善款_v1",
+        "GameVictory/第五章_AI的野蠻生長與Wintel的盲區_v2",
+        "GameVictory/第六章_Gabe Newell 的越獄行動_v5",
+        "GameVictory/間章_全面性的消亡_v1",
+        "GameVictory/第七章_CUDA豪賭與遊戲玩家的RD稅_v3",
+        "GameVictory/第八章_唯一的軍工廠_台積電的終極壟斷_v2",
+        "GameVictory/第九章_CEO的生死時速_Lisa_Su_vs_Pat_Gelsinger_v2",
+        "GameVictory/第十章_最後一根救命稻草_v2",
+        "GameVictory/第十一章_給遊戲玩家的情書_v4",
+        "GameVictory/終章_遊戲即未來_v5b",
+        "GameVictory/外傳上篇_逃獄者_Google的無魂豪賭與TPU閉環_v1",
+        "GameVictory/外傳下篇_缺課者_中國的應用狂歡與底層斷裂_v1",
+        "GameVictory/back_cover"
+      ]
+    }
+  ],
+  "series": [
+    { "id": "ai-war", "title": { "zh-Hant": "AI Ecosystem War", "en": "AI Ecosystem War" } },
+    { "id": "memory-series", "title": { "zh-Hant": "記憶體與 AI 算力週期系列", "en": "Memory and AI Compute Cycle Series" } },
+    { "id": "efficiency-trap-cognition-erosion", "title": { "zh-Hant": "效率陷阱與認知侵蝕五部曲", "en": "Efficiency Trap & Cognitive Erosion Quintet" } },
+    { "id": "platform-silencing", "title": { "zh-Hant": "平台消音與認知封鎖五部曲", "en": "Platform Silencing and Cognitive Blockade: A Five-Part Series" } },
+    { "id": "attenuation-visibility", "title": { "zh-Hant": "衰減：可見度如何被分配", "en": "Attenuation: How Visibility Is Allocated" } },
+    { "id": "exit-mechanism", "title": { "zh-Hant": "退出機制三部曲", "en": "Exit Mechanism Trilogy" } },
+    { "id": "beggars-bowl", "title": { "zh-Hant": "從乞丐碗裡搶飯", "en": "Snatching Rice from the Beggar's Bowl" } },
+    { "id": "legal-harm", "title": { "zh-Hant": "合法傷害權", "en": "Legal Right to Harm" } }
+  ],
+  "essays": {
+    "groups": [
+      {
+        "id": "seven-days",
+        "title": { "zh-Hant": "七日書", "en": "Seven Days Book" },
+        "docs": [
+          "Diary/七日書｜身心靈",
+          "Diary/七日書｜傳奇一曲",
+          "Diary/七日書_無用之用_道"
+        ]
+      }
+    ],
+    "rest": "Diary 其餘自動按日期排列"
+  }
+}

@@ -4,7 +4,6 @@ description: "Sora's exit doesn't signify the death of AI film and television;"
 summary: "Sora's exit doesn't signify the death of AI film and television;"
 series:
   id: ai-war
-  name: AI Ecosystem War
   order: 7
 ---
 # Theme 07: The Route Dispute of AI Film and Television—2D Generation vs. 3D World Simulation

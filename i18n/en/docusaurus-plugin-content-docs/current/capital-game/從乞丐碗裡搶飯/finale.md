@@ -32,9 +32,7 @@ status: published
 reading_time: 7
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 5
-  total: 6
 ---
 # Final Part: After the Counting
 

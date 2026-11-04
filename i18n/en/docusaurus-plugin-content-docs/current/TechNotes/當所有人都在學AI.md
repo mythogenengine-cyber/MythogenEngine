@@ -28,9 +28,7 @@ reading_time: 12
 description: "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale."
 series:
   id: efficiency-trap-cognition-erosion
-  name: "The Efficiency Trap and Cognitive Erosion Quintet"
   order: 3
-  total: 5
 ---
 Author: Nebula Walker
 Date: 27JUN2026

@@ -32,9 +32,7 @@ status: published
 reading_time: 22
 series:
   id: beggars-bowl
-  name: "從乞丐碗裡搶飯"
   order: 2
-  total: 6
 ---
 # 全球前一成，交完租沒有錢：分配問題裡，我們站在哪裡
 

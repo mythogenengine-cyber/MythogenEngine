@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { loadCatalog, titleOf, fullTitleOf } = require('./lib/catalog');
+const { checkUrlLock } = require('./lib/urlLock');
 const { listDocs, getSeriesMap, slugToUrl, quarterOf, dateStr } = require('./lib/docs');
 
 const projectRoot = path.resolve(__dirname, '..');
@@ -331,6 +332,9 @@ function checkDocFiles(config) {
     });
     process.exit(1);
   }
+
+  // 網址鎖：已發佈網址不可消失（見 scripts/lib/urlLock.js）
+  checkUrlLock();
 
   // 提示 1：每篇文都應在 YAML 寫 slug（網址），日後搬資料夾網址才不會變
   const noSlug = listDocs('').filter((d) => !d.data.slug);

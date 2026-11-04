@@ -1,0 +1,4 @@
+# 自動生成的資料檔固定用 LF。Windows 開了 core.autocrlf 時，
+# build 重寫這些檔後 git 不會再誤報為「已修改」。
+src/data/*.json text eol=lf
+i18n/*/docusaurus-plugin-content-docs/current.json text eol=lf

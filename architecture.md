@@ -67,6 +67,8 @@ BLOG/
 - **網址由 YAML `slug` 決定，與資料夾無關。** 2026-11-04 前的舊文已全部釘死原有網址（如 `/TechNotes/xxx`）。新文必須寫 `slug`，建議 `/notes/<english-title>`、`/essays/<english-title>`；這樣日後由獨立篇歸入系列、搬資料夾，網址都不變。沒有 slug 的文章 build 時會出警告。
 - 搬文章：連同它在 `img/` 的圖一起搬，並改相對連結；三個語系同步搬。
 - 未被任何文章引用的舊圖片已移到 repo 根目錄 `_待確認圖片/`（不會發佈），確認無用後可刪。
+- **網址鎖**：`src/data/url-lock.json` 列出所有已發佈網址。任何一個消失（slug 被改／刪、搬檔漏了 slug），`npm run generate` 即失敗。新文章網址自動加入，請連同文章 commit。只有真的下架才手動刪行。
+- **AI 助手規則**：全部寫在 repo 根目錄 `GEMINI.md`（Antigravity 每次對話自動載入）。舊的 `.agents/rules/article-publishing.md` 因缺 `trigger` 欄位一直被 Antigravity 靜默忽略，已刪除並併入 GEMINI.md。
 
 ### 3.2 `i18n/` — 多語系翻譯
 
@@ -116,7 +118,8 @@ i18n/<locale>/
 | `generateHubs.js` | 讀取 `catalog.json` 及文章 YAML，生成 `src/data/hubs.json` 並自我檢查 | `npm run generate`（start / build / deploy 自動執行） |
 | `syncSidebarTranslations.js` | 由 `catalog.json` 重寫 `i18n/en`、`i18n/zh-HK` 的 sidebar 書名／系列名翻譯，刪除舊 key | 同上 |
 | `lib/catalog.js` | 讀取 catalog 的共用函式 |
-| `lib/docs.js` | 掃描文章、由資料夾推出系列與季度的共用函式 | 被上述腳本及 `sidebars.js` 引用 |
+| `lib/docs.js` | 掃描文章、由資料夾推出系列與季度的共用函式 |
+| `lib/urlLock.js` | 網址鎖：`src/data/url-lock.json` 記錄全部已發佈網址（三語）；網址消失即 build 失敗，新網址自動加入 | 被上述腳本及 `sidebars.js` 引用 |
 | `generateTechNotes.js` | 掃描 `docs/notes/` 及清醒記錄系列，生成 `src/data/technotes.json` | `npm start`, `npm build`, `npm deploy` |
 | `generateDiary.js` | 掃描 `docs/essays/` 及合法傷害權系列，生成 `src/data/diary.json` | 同上 |
 | `fixTags.js` | 修正標籤格式 | 手動執行 |

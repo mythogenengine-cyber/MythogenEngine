@@ -2,484 +2,135 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { ArrowRight } from 'lucide-react';
 import styles from './index.module.css';
-import { Cpu, Network, Activity, Moon, Layers, Sparkles, ArrowRight, Gamepad2, Monitor, BookOpen, Zap, Binary, Radio, PenLine, Heart, Coffee, Shield, Briefcase, Building2, TrendingDown } from 'lucide-react';
 import RecentUpdates from '@site/src/components/RecentUpdates';
 import { catalogTitle } from '@site/src/utils/catalog';
+import catalog from '@site/src/data/catalog.json';
+import technotesData from '@site/src/data/technotes.json';
+import diaryData from '@site/src/data/diary.json';
 
-function HeroSection() {
+// 首頁三段（用戶 2026-11-04 決定的次序）：
+//   1. 作品導航：書｜系列｜清醒記錄｜散文 四個入口（名稱與介紹在 src/data/catalog.json 的 sections）
+//   2. 最新文章（RecentUpdates）
+//   3. 宣言與最新著作《大道無形》
+
+type Names = { [locale: string]: string };
+type Section = { to: string; title: Names; intro: Names; unit: Names };
+
+function pick(names: Names, locale: string): string {
+  return names[locale] || names['zh-Hant'];
+}
+
+function useLocale() {
   const { i18n } = useDocusaurusContext();
   const locale = i18n.currentLocale;
-  const isZhTW = locale === 'zh-Hant';
-  const isZhHK = locale === 'zh-HK';
-  const isEn = locale === 'en';
+  return { locale, isEn: locale === 'en', isZhHK: locale === 'zh-HK' };
+}
 
-  // Core headline
-  const headline1 = isEn ? "AI isn't the problem." : 'AI 不是問題，';
-  const headline2 = isEn ? 'The coverings are.' : '遮蓋物才是。';
-
-  // Covering structure lines
-  const coveringLines = isZhTW
-    ? ['文筆遮蓋空洞', '證書遮蓋缺席', '企業話術遮蓋權力運作']
-    : isZhHK
-    ? ['文筆遮蓋空洞', '證書遮蓋缺席', '企業話術遮蓋權力運作']
-    : ['Prose covers emptiness', 'Credentials cover absence', 'Corporate rhetoric covers power dynamics'];
-
-  // Dash sentence
-  const dashLine = isZhTW
-    ? '——AI 只是把它們一次性掀開。'
-    : isZhHK
-    ? '——AI 只係將佢哋一次過掀開。'
-    : '— AI just rips them all off at once.';
-
-  // Closing sentence
-  const closingLine = isZhTW
-    ? '從敘事的製造、成本的轉嫁、焦慮的套利，一路追到意識的結構。不賣焦慮，不賣工具，拆的是底層力學。技術會變，平台會換，但驅動這一切的機制不會變——看懂了力學，技術怎麼變都不怕。'
-    : isZhHK
-    ? '從敘事嘅製造、成本嘅轉嫁、焦慮嘅套利，一路追到意識嘅結構。唔賣焦慮，唔賣工具，拆嘅係底層力學。技術會變，平台會換，但驅動呢一切嘅機制唔會變——睇明咗力學，技術點變都唔使驚。'
-    : 'From the manufacturing of narratives, to the passing of costs, to the arbitrage of anxiety — all the way to the structure of consciousness. No anxiety to sell. No tools to peddle. What it dismantles is the underlying mechanics. Technology changes, platforms shift, but the mechanisms driving it all remain — understand the mechanics, and no change can catch you off guard.';
-
-  const readBook = isEn ? 'Read the Book' : '閱讀全書';
-  const sponsor = isEn ? 'Sponsor' : '贊助支持';
+// ---------- 1. 作品導航 ----------
+function SectionNav() {
+  const { locale, isEn } = useLocale();
+  const sections = (catalog as unknown as { sections: Record<string, Section> }).sections;
+  const count = (list: unknown) => (Array.isArray(list) ? list.length : 0);
+  const counts: Record<string, number> = {
+    books: catalog.books.length,
+    series: catalog.series.length,
+    notes: count((technotesData as Record<string, unknown>)[locale] ?? (technotesData as Record<string, unknown>)['zh-Hant']),
+    essays: count((diaryData as Record<string, unknown>)[locale] ?? (diaryData as Record<string, unknown>)['zh-Hant']),
+  };
 
   return (
-    <header className="hero-banner">
+    <header className={styles.navHero}>
       <div className="container-wide">
-        <div className={styles.heroBookSection}>
-          {/* Left: Text content */}
-          <div className={styles.heroContent}>
-            <div style={{ marginBottom: '0.5rem' }}>
-              <span className="badge" style={{ background: 'linear-gradient(135deg, #00f3ff, #b600f8)', border: 'none', color: 'black', fontWeight: 600, fontSize: '0.7rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-                {isEn ? 'NEW BOOK · 2026' : '全新出版 · 2026'}
-              </span>
-            </div>
-            <h1 className={styles.heroHeadline}>
-              {headline1}<br />
-              <span className={styles.heroHeadlineAccent}>{headline2}</span>
-            </h1>
-            <div className={styles.coveringLines}>
-              {coveringLines.map((line, i) => (
-                <div key={i} className={styles.coveringLine}>{line}</div>
-              ))}
-            </div>
-            <p className={styles.heroDash}>{dashLine}</p>
-            <p className={styles.heroClosing}>{closingLine}</p>
-            <div className={styles.heroActions}>
-              <Link
-                className="button button--outline button--primary button--lg"
-                to="/docs/AI_TAO/INFO_PAGE"
-                style={{ borderWidth: '2px', fontWeight: 500 }}>
-                {readBook} <ArrowRight size={18} style={{ marginLeft: '0.4rem' }} />
-              </Link>
-              <Link
-                className="button button--outline button--lg"
-                to="https://portaly.cc/Mythogen"
-                style={{ borderColor: 'var(--color-secondary-container)', color: 'var(--color-secondary-container)' }}>
-                {sponsor}
-              </Link>
-              <Link
-                className="button button--outline button--lg"
-                to="https://matters.town/@mythogenengine"
-                style={{ borderColor: 'var(--ifm-color-warning)', color: 'var(--ifm-color-warning)' }}>
-                MATTERS
-              </Link>
-            </div>
-          </div>
+        <p className={styles.kicker}>{isEn ? 'Nebula Walker · 星忘塵' : '星忘塵 · Nebula Walker'}</p>
+        <h1 className={styles.siteTitle}>Mythogen Engine</h1>
+        <p className={styles.tagline}>
+          {isEn
+            ? 'Industry and capital structure analysis, long-form books and essays.'
+            : '產業與資本結構分析、長篇著作與散文。'}
+        </p>
 
-          {/* Right: Book cover */}
-          <div className={styles.heroCoverWrap}>
-            <Link to="/docs/AI_TAO/INFO_PAGE">
-              <img
-                src="/img/book_cover_invisible_path.jpg"
-                alt={`${catalogTitle('books', 'ai-tao', locale)} — ${isEn ? 'Book Cover' : '書封面'}`}
-                className={styles.heroCoverImg}
-              />
+        <nav className={styles.sectionGrid} aria-label={isEn ? 'Sections' : '分類'}>
+          {Object.entries(sections).map(([key, s]) => (
+            <Link key={key} to={s.to} className={styles.sectionCard}>
+              <span className={styles.sectionHead}>
+                <span className={styles.sectionTitle}>{pick(s.title, locale)}</span>
+                <span className={styles.sectionCount}>
+                  {counts[key]} {pick(s.unit, locale)}
+                </span>
+              </span>
+              <span className={styles.sectionIntro}>{pick(s.intro, locale)}</span>
+              <span className={styles.sectionArrow} aria-hidden="true">
+                <ArrowRight size={18} />
+              </span>
             </Link>
-          </div>
-        </div>
+          ))}
+        </nav>
       </div>
     </header>
   );
 }
 
-function CategoryCards() {
-  const { i18n } = useDocusaurusContext();
-  const locale = i18n.currentLocale;
-  const isZhTW = locale === 'zh-Hant';
-  const isZhHK = locale === 'zh-HK';
-  const isEn = locale === 'en';
-  const isZh = isZhTW || isZhHK;
+// ---------- 3. 宣言與最新著作 ----------
+function Manifesto() {
+  const { locale, isEn, isZhHK } = useLocale();
+  const bookTitle = catalogTitle('books', 'ai-tao', locale);
+
+  const coveringLines = isEn
+    ? ['Prose covers emptiness', 'Credentials cover absence', 'Corporate rhetoric covers power dynamics']
+    : ['文筆遮蓋空洞', '證書遮蓋缺席', '企業話術遮蓋權力運作'];
+
+  const dashLine = isEn
+    ? '— AI just rips them all off at once.'
+    : isZhHK
+    ? '——AI 只係將佢哋一次過掀開。'
+    : '——AI 只是把它們一次性掀開。';
+
+  const closingLine = isEn
+    ? 'From the manufacturing of narratives, to the passing of costs, to the arbitrage of anxiety — all the way to the structure of consciousness. No anxiety to sell. No tools to peddle. What it dismantles is the underlying mechanics. Technology changes, platforms shift, but the mechanisms driving it all remain — understand the mechanics, and no change can catch you off guard.'
+    : isZhHK
+    ? '從敘事嘅製造、成本嘅轉嫁、焦慮嘅套利，一路追到意識嘅結構。唔賣焦慮，唔賣工具，拆嘅係底層力學。技術會變，平台會換，但驅動呢一切嘅機制唔會變——睇明咗力學，技術點變都唔使驚。'
+    : '從敘事的製造、成本的轉嫁、焦慮的套利，一路追到意識的結構。不賣焦慮，不賣工具，拆的是底層力學。技術會變，平台會換，但驅動這一切的機制不會變——看懂了力學，技術怎麼變都不怕。';
 
   return (
-    <section className="padding-vert--xl" style={{ borderTop: '1px solid rgba(255, 255, 255, 0.05)' }}>
+    <section className={styles.manifesto}>
       <div className="container-wide">
-        <div className="row">
-          {/* The Invisible Path (col-12) */}
-          <div className="col col--12 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
-              <div style={{ position: 'absolute', top: 0, right: 0, width: '400px', height: '300px', background: 'linear-gradient(135deg, #00f3ff, #b600f8)', filter: 'blur(120px)', opacity: 0.12, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1, flex: 1, paddingRight: '2rem' }}>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-primary)', display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                  <Shield size={36} strokeWidth={1.5} />
-                  <Sparkles size={36} strokeWidth={1.5} />
-                  <BookOpen size={36} strokeWidth={1.5} />
-                  <span className="badge" style={{ background: 'linear-gradient(135deg, #00f3ff, #b600f8)', border: 'none', color: 'black', fontWeight: 600, fontSize: '0.75rem', padding: '0.25rem 0.75rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                    {isEn ? 'NEW RELEASE' : '全新上架'}
-                  </span>
-                </div>
-                <h2 className="text-4xl font-headline mb-4" style={{ fontSize: '2.5rem', color: 'white', fontWeight: 200 }}>
-                  {catalogTitle('books', 'ai-tao', locale)} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.4rem', display: 'block', marginTop: '0.5rem', color: 'var(--color-on-surface-variant)' }}>
-                    {isEn ? 'Narrative, Tools, and the Last Line of Defence' : '敘事、工具與意識的最後防線'}
-                  </span>
-                </h2>
-                <div style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300, lineHeight: 1.7, fontSize: '1.05rem' }}>
-                  {isZhTW ? (
-                    <p>AI 不是問題，遮蓋物才是。文筆遮蓋空洞，證書遮蓋缺席，企業話術遮蓋權力運作——AI 只是把它們一次性掀開。從敘事的製造、成本的轉嫁、焦慮的套利，一路追到意識的結構。不賣焦慮，不賣工具，拆的是底層力學。</p>
-                  ) : isZhHK ? (
-                    <p>AI 唔係問題，遮蓋物先係。文筆遮蓋空洞，證書遮蓋缺席，企業話術遮蓋權力運作——AI 只係將佢哋一次過掀開。從敘事嘅製造、成本嘅轉嫁、焦慮嘅套利，一路追到意識嘅結構。唔賣焦慮，唔賣工具，拆嘅係底層力學。</p>
-                  ) : (
-                    <p>AI isn't the problem — the coverings are. Prose covers emptiness, credentials cover absence, corporate rhetoric covers power dynamics. AI just rips them all off at once. From narrative manufacturing to cost displacement to anxiety arbitrage — all the way to the structure of consciousness. No anxiety to sell. No tools to peddle. It dismantles the underlying mechanics.</p>
-                  )}
-                </div>
-              </div>
-              <div className="margin-left--lg" style={{ position: 'relative', zIndex: 1, minWidth: '160px', textAlign: 'right' }}>
-                <Link to="/docs/AI_TAO/INFO_PAGE" className="button button--outline button--primary button--lg" style={{ borderWidth: '2px', fontWeight: 500, display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-                  {isEn ? 'Read Book' : '閱讀全書'} <ArrowRight size={18} />
-                </Link>
-              </div>
+        <div className={styles.manifestoInner}>
+          <div className={styles.manifestoText}>
+            <p className={styles.badge}>{isEn ? 'NEW BOOK · 2026' : '全新出版 · 2026'}</p>
+            <h2 className={styles.manifestoHeadline}>
+              {isEn ? "AI isn't the problem." : 'AI 不是問題，'}
+              <br />
+              <span className={styles.accent}>{isEn ? 'The coverings are.' : '遮蓋物才是。'}</span>
+            </h2>
+            <ul className={styles.coveringLines}>
+              {coveringLines.map((line) => (
+                <li key={line}>{line}</li>
+              ))}
+            </ul>
+            <p className={styles.dashLine}>{dashLine}</p>
+            <p className={styles.closingLine}>{closingLine}</p>
+            <div className={styles.actions}>
+              <Link className={`${styles.button} ${styles.buttonPrimary}`} to="/docs/AI_TAO/INFO_PAGE">
+                {isEn ? 'Read' : '閱讀'} {isEn ? bookTitle : `《${bookTitle}》`} <ArrowRight size={16} />
+              </Link>
+              <Link className={`${styles.button} ${styles.buttonSponsor}`} to="https://portaly.cc/Mythogen">
+                {isEn ? 'Sponsor' : '贊助支持'}
+              </Link>
+              <Link className={`${styles.button} ${styles.buttonMatters}`} to="https://matters.town/@mythogenengine">
+                Matters
+              </Link>
             </div>
           </div>
-
-          {/* AI Ecosystem War */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-low)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none'
-            }}>
-              <div>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-primary)', display: 'flex', gap: '1rem' }}>
-                  <Cpu size={36} strokeWidth={1.5} />
-                  <Network size={36} strokeWidth={1.5} />
-                  <Activity size={36} strokeWidth={1.5} />
-                </div>
-                <h2 className="text-4xl font-headline mb-4">
-                  {catalogTitle('series', 'ai-war', locale)} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? '(Industry Analysis)' : '（產業分析書）'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '一份八章的深度研究：拆解微軟與蘋果的 AI 生態暗戰、OpenAI 的資金永動機、Claude Code 對 Copilot 的側翼突襲，以及這場戰爭的真正贏家與輸家。'
-                    : isZhHK
-                    ? '一份八章嘅深度研究：拆解微軟與蘋果嘅 AI 生態暗戰、OpenAI 嘅資金永動機、Claude Code 對 Copilot 嘅側翼突襲，以及呢場戰爭嘅真正贏家同輸家。'
-                    : 'An eight-part deep dive: the silent war between Microsoft and Apple\'s AI ecosystems, OpenAI\'s funding perpetual motion machine, Claude Code\'s flanking attack on Copilot, and who actually wins and loses.'}
-                </p>
-              </div>
-              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Link to="/docs/ai-war/guide" style={{ color: 'var(--ifm-color-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Read the Book' : '閱讀全書'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Mirror Realm */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
-              <div style={{ position: 'absolute', top: 0, right: 0, width: '200px', height: '200px', background: 'var(--color-secondary-container)', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--color-secondary-container)', display: 'flex', gap: '1rem' }}>
-                  <Moon size={36} strokeWidth={1.5} />
-                  <Layers size={36} strokeWidth={1.5} />
-                  <Sparkles size={36} strokeWidth={1.5} />
-                </div>
-                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  Mirror Realm
-                </h2>
-                <div style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW ? (
-                    <>
-                      <p>一個工程師走進設計好讓你輸的系統。說的、寫的、做的，從來都不是同一套——他花了四年才聽到這句話的重量。</p>
-                      <p>如果你在一間大公司裡，覺得有些事情不對勁，但說不清楚哪裡不對——這本書試圖替你命名。以虛構島嶼為舞台，解剖制度如何在不需要壞人的情況下，把人磨碎。</p>
-                    </>
-                  ) : isZhHK ? (
-                    <>
-                      <p>一個工程師走進設計好要你輸嘅系統。講嘅、寫嘅、做嘅，從來都唔係同一套——佢用咗四年先聽到呢句話嘅重量。</p>
-                      <p>如果你喺一間大公司入面，覺得有啲嘢唔對路，但講唔清楚邊度唔對——呢本書試圖幫你命名。以虛構島嶼為舞台，解剖制度點樣喺唔需要壞人嘅情況下，將人磨碎。</p>
-                    </>
-                  ) : (
-                    <>
-                      <p>An engineer walks into a system designed to make you lose. What is said, written, and done are never the same—it took him four years to hear the weight of these words.</p>
-                      <p>If you're in a large corporation and feel something is wrong but can't articulate what it is—this book attempts to name it for you. Set on a fictional island, it dissects how institutions grind people down without needing villains.</p>
-                    </>
-                  )}
-                </div>
-              </div>
-              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/mirror-realm/prologue" style={{ color: 'var(--color-secondary-container)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Start from Prologue' : '從序章開始'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          {/* GameVictory */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
-              <div style={{ position: 'absolute', top: 0, right: 0, width: '200px', height: '200px', background: 'var(--ifm-color-success, #4caf50)', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-success, #4caf50)', display: 'flex', gap: '1rem' }}>
-                  <Gamepad2 size={36} strokeWidth={1.5} />
-                  <Monitor size={36} strokeWidth={1.5} />
-                  <BookOpen size={36} strokeWidth={1.5} />
-                </div>
-                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  GameVictory <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isZh ? '(科技歷史)' : '(Tech History)'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '一本關於遊戲產業如何意外鋪設 AI 革命底層軌道的書。從 GPU 算力競賽到平台生態戰爭，四十年科技霸權的隱藏算術。'
-                    : isZhHK
-                    ? '一本關於遊戲產業點樣意外鋪設 AI 革命底層軌道嘅書。從 GPU 算力競賽到平台生態戰爭，四十年科技霸權嘅隱藏算術。'
-                    : 'A book about how the gaming industry accidentally built the infrastructure for the AI revolution. From the GPU compute race to platform ecosystem wars — the hidden arithmetic of forty years of tech hegemony.'}
-                </p>
-              </div>
-              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/GameVictory/INFO_PAGE" style={{ color: 'var(--ifm-color-success, #4caf50)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Read the Book' : '閱讀本書'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Sci-Fi Vibe */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-low)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none'
-            }}>
-              <div>
-                <div className="flex space-x-4 mb-8" style={{ color: 'var(--ifm-color-warning, #ff9800)', display: 'flex', gap: '1rem' }}>
-                  <Zap size={36} strokeWidth={1.5} />
-                  <Binary size={36} strokeWidth={1.5} />
-                  <Radio size={36} strokeWidth={1.5} />
-                </div>
-                <h2 className="text-4xl font-headline mb-4">
-                  {isEn ? 'Lucid Record' : '清醒記錄'} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.5rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? '(Industry Notes & Commentary)' : '（產業筆記與評論）'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '產業與資本結構評論、科技與社會觀察。拆解價格訊號失靈與退出機制、資本週期與地租截流、賣課經濟的焦慮套利、就業市場的結構性收縮，以及被忽略的真實趨勢。'
-                    : isZhHK
-                    ? '產業與資本結構評論、科技與社會觀察。拆解價格訊號失靈與退出機制、資本週期與地租截流、賣課經濟嘅焦慮套利、就業市場嘅結構性收縮，以及被忽略嘅真實趨勢。'
-                    : 'Commentary on industry, capital structures, technology, and social observation. Dissecting price signal breakdowns and market exit mechanisms, capital cycles, rent extraction, anxiety arbitrage, and the real underlying trends.'}
-                </p>
-              </div>
-              <div className="margin-top--lg" style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/TechNotes" style={{ color: 'var(--ifm-color-warning, #ff9800)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Read Commentary' : '閱讀評論'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          {/* Capital Game */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-low)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '200px', height: '200px', background: '#f44336', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: '#f44336', display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                  <Briefcase size={36} strokeWidth={1.5} />
-                  <Building2 size={36} strokeWidth={1.5} />
-                  <TrendingDown size={36} strokeWidth={1.5} />
-                  <span className="badge" style={{ background: '#f44336', color: 'white', fontWeight: 600, fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                    {isEn ? 'OCT 2026 BOOK' : '全新出版 · 2026'}
-                  </span>
-                </div>
-                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  {catalogTitle('books', 'who-collects', locale)} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? 'In the Age of Financialization, You Are Not the Problem' : '金融化時代，不是你不夠好'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '九章層層拆解資本如何把結構的代價轉化為個人的缺陷：從研發裁撤、餐飲縮水、賣課焦慮到房租地租。博弈不可怕，可怕的是你不知道規則由誰定、每局抽水的又是誰。無論你往哪個出口走，站在門口收錢的是誰？'
-                    : isZhHK
-                    ? '九章層層拆解資本點樣將結構嘅代價轉化為個人嘅缺陷：從研發裁撤、餐飲縮水、賣課焦慮到房租地租。博弈不可怕，可怕嘅係你唔知規則由邊個定、每局抽水嘅又係邊個。無論你向邊個出口行，企喺門口收錢嘅係邊個？'
-                    : 'Nine chapters dissecting how capital turns systemic costs into personal flaws: from R&D cuts and shrinkflation to course-peddling anxiety and real estate rent. Whichever exit you take, who is standing at the door collecting?'}
-                </p>
-              </div>
-              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/who-collects-at-the-door" style={{ color: '#f44336', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 400 }}>
-                  {isEn ? 'Read Book' : '閱讀全書'} <ArrowRight size={20} />
-                </Link>
-                <Link to="/docs/who-collects-at-the-door/full" style={{ color: 'var(--color-on-surface-variant)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.9rem', fontWeight: 300 }}>
-                  {isEn ? 'Single Page Edition' : '單頁完整版'}
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Snatching Rice from the Beggar's Bowl */}
-          <div className="col col--6 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-low)', 
-              padding: '3rem', 
-              borderRadius: '0.25rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
-              <div style={{ position: 'absolute', top: 0, right: 0, width: '200px', height: '200px', background: '#ff9800', filter: 'blur(100px)', opacity: 0.1, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="flex space-x-4 mb-8" style={{ color: '#ff9800', display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                  <Layers size={36} strokeWidth={1.5} />
-                  <TrendingDown size={36} strokeWidth={1.5} />
-                  <span className="badge" style={{ background: '#ff9800', color: 'black', fontWeight: 600, fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                    {isEn ? 'NEW SERIES · 2026' : '全新系列 · 2026'}
-                  </span>
-                </div>
-                <h2 className="text-4xl font-headline mb-4" style={{ color: 'white' }}>
-                  {catalogTitle('series', 'beggars-bowl', locale)} <br />
-                  <span className="text-on-surface-variant font-light text-2xl italic" style={{ fontSize: '1.3rem', display: 'block', marginTop: '0.5rem' }}>
-                    {isEn ? 'One Pie Cut Thinner Every Year' : '同一塊愈切愈細的餅'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300 }}>
-                  {isZhTW
-                    ? '錢一直流向頂層，留在底層的份額年年縮減，其餘所有人卻被引導去跟身邊的人搶。從綜援到 UBI、從全球前一成到香港公屋與人口統計，五章拆解資本分配與制度的隱藏算術。'
-                    : isZhHK
-                    ? '錢一直流向頂層，留喺底層嘅份額年年縮細，其餘所有人卻被引導去同身邊嘅人爭。從綜援到 UBI、從全球前一成到香港公屋與人口統計，五章拆解資本分配與制度嘅隱藏算術。'
-                    : 'Money keeps flowing to the top while the share left below shrinks every year—and everyone else is steered into fighting the people beside them. From welfare and UBI to global rankings, public housing, and population statistics.'}
-                </p>
-              </div>
-              <div className="margin-top--lg flex items-center" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/beggars-bowl" style={{ color: '#ff9800', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 400 }}>
-                  {isEn ? 'Read Series' : '閱讀系列'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          {/* Diary */}
-          <div className="col col--12 margin-bottom--lg">
-            <div className="card shadow--md" style={{ 
-              background: 'var(--color-surface-container-lowest)', 
-              padding: '2.5rem 3rem', 
-              borderRadius: '0.25rem',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              border: 'none',
-              position: 'relative',
-              overflow: 'hidden',
-              flexWrap: 'wrap',
-              gap: '2rem'
-            }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '200px', height: '200px', background: 'var(--ifm-color-danger, #e91e63)', filter: 'blur(100px)', opacity: 0.08, borderRadius: '50%' }}></div>
-              <div style={{ position: 'relative', zIndex: 1, flex: 1, minWidth: '280px' }}>
-                <div className="flex space-x-4 mb-4" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'flex', gap: '1rem' }}>
-                  <PenLine size={32} strokeWidth={1.5} />
-                  <Heart size={32} strokeWidth={1.5} />
-                  <Coffee size={32} strokeWidth={1.5} />
-                </div>
-                <h2 className="text-3xl font-headline mb-2" style={{ color: 'white' }}>
-                  {isEn ? 'Diary' : '隨心書寫'}{' '}
-                  <span className="text-on-surface-variant font-light text-xl italic" style={{ fontSize: '1.2rem', marginLeft: '0.5rem' }}>
-                    {isEn ? '(Personal Reflections)' : '（隨筆與日記）'}
-                  </span>
-                </h2>
-                <p style={{ color: 'var(--color-on-surface-variant)', fontWeight: 300, marginBottom: 0 }}>
-                  {isZhTW
-                    ? '沒有框架，沒有計劃，只是寫。關於職場、關於系統、關於一個人怎麼在體制裡找到自己的語言。'
-                    : isZhHK
-                    ? '冇框架，冇計劃，只係寫。關於職場、關於系統、關於一個人點喺體制入面搵到自己嘅語言。'
-                    : 'No framework, no plan, just writing. About the workplace, about the system, about how one person finds their own language within institutions.'}
-                </p>
-              </div>
-              <div style={{ position: 'relative', zIndex: 1 }}>
-                <Link to="/docs/Diary" style={{ color: 'var(--ifm-color-danger, #e91e63)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 300 }}>
-                  {isEn ? 'Read Diary' : '閱讀隨筆'} <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
+          <Link to="/docs/AI_TAO/INFO_PAGE" className={styles.coverLink}>
+            <img
+              src="/img/book_cover_invisible_path.jpg"
+              alt={`${bookTitle} — ${isEn ? 'Book Cover' : '書封面'}`}
+              className={styles.coverImg}
+              loading="lazy"
+            />
+          </Link>
         </div>
       </div>
     </section>
@@ -487,15 +138,21 @@ function CategoryCards() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { locale, isEn } = useLocale();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Refining the intersection of AI and speculative fiction.">
+      title="Mythogen Engine"
+      description={
+        isEn
+          ? 'Mythogen Engine by Nebula Walker: industry and capital structure analysis, long-form books and essays.'
+          : locale === 'zh-HK'
+          ? 'Mythogen Engine｜星忘塵：產業與資本結構分析、長篇著作與散文。'
+          : 'Mythogen Engine｜星忘塵：產業與資本結構分析、長篇著作與散文。'
+      }>
       <main>
-        <HeroSection />
+        <SectionNav />
         <RecentUpdates />
-        <CategoryCards />
+        <Manifesto />
       </main>
     </Layout>
   );

@@ -216,3 +216,10 @@
 .card:hover .arrow {
   transform: translateX(4px);
 }
+
+/* 手機只顯示最新 4 篇，避免首頁太長；其餘可按「所有清醒記錄／所有散文」查看 */
+@media (max-width: 640px) {
+  .grid > :nth-child(n + 5) {
+    display: none;
+  }
+}

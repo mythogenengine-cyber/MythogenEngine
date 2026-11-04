@@ -5,6 +5,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 import styles from './styles.module.css';
 
 import technotesData from '@site/src/data/technotes.json';
+import catalog from '@site/src/data/catalog.json';
 import diaryData from '@site/src/data/diary.json';
 
 interface ArticleItem {
@@ -30,18 +31,23 @@ export default function RecentUpdates() {
   const isZhHK = locale === 'zh-HK';
 
   const localeKey = locale in technotesData ? locale : 'zh-Hant';
+  // 分類名稱與連結由 src/data/catalog.json 的 sections 提供
+  const sections = (catalog as any).sections;
+  const sectionName = (key: string) => sections[key].title[locale] || sections[key].title['zh-Hant'];
+  const notesName = sectionName('notes');
+  const essaysName = sectionName('essays');
 
   const recentArticles = useMemo(() => {
     const tnList: ArticleItem[] = ((technotesData as any)[localeKey] || []).map((a: any) => ({
       ...a,
       sectionType: 'technotes',
-      sectionLabel: isEn ? 'Lucid Record' : '清醒記錄',
+      sectionLabel: notesName,
     }));
 
     const diaryList: ArticleItem[] = ((diaryData as any)[localeKey] || []).map((a: any) => ({
       ...a,
       sectionType: 'diary',
-      sectionLabel: isEn ? 'Diary' : '隨心書寫',
+      sectionLabel: essaysName,
     }));
 
     const combined = [...tnList, ...diaryList].filter(
@@ -55,7 +61,7 @@ export default function RecentUpdates() {
     });
 
     return combined.slice(0, 8);
-  }, [localeKey, isEn]);
+  }, [localeKey, notesName, essaysName]);
 
   if (recentArticles.length === 0) {
     return null;
@@ -64,14 +70,12 @@ export default function RecentUpdates() {
   // Localized texts
   const badgeText = isEn ? 'RECENT UPDATES' : '最新動態';
   const headingText = isEn ? 'Latest Dispatches' : isZhHK ? '最新發布文章' : '最新發布文章';
-  const subtitleText = isEn 
-    ? 'The 8 most recent publications across Lucid Record and Diary.'
-    : isZhHK
-    ? '清醒記錄與隨心書寫最新收錄的 8 篇文章。'
-    : '清醒記錄與隨心書寫最新收錄的 8 篇文章。';
-  
-  const techNotesLinkText = isEn ? 'All Lucid Record →' : '所有清醒記錄 →';
-  const diaryLinkText = isEn ? 'All Diary →' : '所有隨心書寫 →';
+  const subtitleText = isEn
+    ? `The 8 most recent publications across ${notesName} and ${essaysName}.`
+    : `${notesName}與${essaysName}最新收錄的 8 篇文章。`;
+
+  const techNotesLinkText = isEn ? `All ${notesName} →` : `所有${notesName} →`;
+  const diaryLinkText = isEn ? `All ${essaysName} →` : `所有${essaysName} →`;
 
   return (
     <section className={styles.section}>
@@ -86,10 +90,10 @@ export default function RecentUpdates() {
             <p className={styles.sectionSubtitle}>{subtitleText}</p>
           </div>
           <div className={styles.viewAllLinks}>
-            <Link to="/docs/TechNotes" className={styles.viewAllLink}>
+            <Link to={sections.notes.to} className={styles.viewAllLink}>
               {techNotesLinkText}
             </Link>
-            <Link to="/docs/Diary" className={styles.viewAllLink}>
+            <Link to={sections.essays.to} className={styles.viewAllLink}>
               {diaryLinkText}
             </Link>
           </div>

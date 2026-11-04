@@ -1,189 +1,336 @@
+/* 首頁：手機優先（先寫窄畫面，再用 min-width 放寬）。
+   顏色一律用 custom.css 的變數，日後換主題只改一處。 */
+
 /* ===========================
-   Hero Book Section Layout
+   1. 作品導航
    =========================== */
 
-.heroBookSection {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-  padding: 6rem 0 4rem;
+.navHero {
+  padding: 2.5rem 0 2rem;
 }
 
-.heroContent {
-  flex: 1;
-  min-width: 0;
+.kicker {
+  font-family: var(--ifm-code-font-family);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem;
 }
 
-.heroCoverWrap {
-  flex-shrink: 0;
-  width: 280px;
-  perspective: 1000px;
-}
-
-.heroCoverImg {
-  width: 100%;
-  border-radius: 4px;
-  box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.5),
-    0 0 40px rgba(0, 243, 255, 0.08),
-    0 0 80px rgba(182, 0, 248, 0.05);
-  animation: coverFloat 6s ease-in-out infinite;
-  transition: transform 0.4s ease;
-}
-
-.heroCoverImg:hover {
-  transform: rotateY(-5deg) scale(1.02);
-}
-
-/* Gold sentence */
-.heroHeadline {
+.siteTitle {
   font-family: var(--ifm-heading-font-family);
-  font-size: 3.2rem;
-  font-weight: 200;
-  letter-spacing: -0.02em;
-  line-height: 1.25;
-  color: #e3fdff;
-  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--color-on-surface);
+  margin: 0 0 0.75rem;
 }
 
-.heroHeadlineAccent {
-  background: linear-gradient(135deg, #00f3ff 0%, #b600f8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.tagline {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-on-surface-variant);
+  margin: 0 0 1.75rem;
+  max-width: 40rem;
 }
 
-/* Covering structure lines */
-.coveringLines {
-  margin: 1.5rem 0;
+.sectionGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.sectionCard {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  padding: 1.1rem 2.75rem 1.1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: var(--color-surface-container-low);
+  color: var(--color-on-surface);
+  transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
-.coveringLine {
-  font-family: var(--ifm-font-family-base);
-  font-size: 1.1rem;
+.sectionCard:hover,
+.sectionCard:focus-visible {
+  border-color: var(--ifm-color-primary);
+  color: var(--color-on-surface);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.sectionTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.sectionCount {
+  font-family: var(--ifm-code-font-family);
+  font-size: 0.8rem;
+  color: var(--ifm-color-primary);
+  white-space: nowrap;
+}
+
+.sectionIntro {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--color-on-surface-variant);
+}
+
+.sectionArrow {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-on-surface-variant);
+}
+
+.sectionCard:hover .sectionArrow {
+  color: var(--ifm-color-primary);
+}
+
+/* ===========================
+   3. 宣言與最新著作
+   =========================== */
+
+.manifesto {
+  padding: 3rem 0 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.manifestoInner {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+
+.manifestoText {
+  min-width: 0;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--color-secondary-container));
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin: 0 0 0.75rem;
+}
+
+.manifestoHeadline {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.9rem;
+  font-weight: 200;
+  line-height: 1.25;
+  color: var(--color-on-surface);
+  margin: 0 0 1rem;
+}
+
+.accent {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--color-secondary-container) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.coveringLines {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.coveringLines li {
+  position: relative;
+  padding-left: 1.1rem;
   font-weight: 300;
   color: var(--color-on-surface-variant);
-  opacity: 0;
-  animation: revealLine 0.6s ease forwards;
-  position: relative;
-  padding-left: 1.2rem;
 }
 
-.coveringLine::before {
+.coveringLines li::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0.7em;
   width: 4px;
   height: 4px;
-  background: var(--ifm-color-primary);
   border-radius: 50%;
-  box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
+  background: var(--ifm-color-primary);
 }
 
-.coveringLine:nth-child(1) { animation-delay: 0.3s; }
-.coveringLine:nth-child(2) { animation-delay: 0.6s; }
-.coveringLine:nth-child(3) { animation-delay: 0.9s; }
-
-/* Dash sentence */
-.heroDash {
+.dashLine {
   font-family: var(--ifm-heading-font-family);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
   color: var(--ifm-color-primary);
-  margin: 1.5rem 0 0.5rem;
-  opacity: 0;
-  animation: revealLine 0.8s ease forwards;
-  animation-delay: 1.2s;
+  margin: 0 0 0.5rem;
 }
 
-/* Closing sentence */
-.heroClosing {
-  font-family: var(--ifm-font-family-base);
-  font-size: 1.05rem;
+.closingLine {
   font-weight: 300;
+  line-height: 1.75;
   color: var(--color-on-surface-variant);
-  margin: 0.75rem 0 2rem;
-  opacity: 0;
-  animation: revealLine 0.8s ease forwards;
-  animation-delay: 1.5s;
-  line-height: 1.7;
+  margin: 0 0 1.5rem;
+  max-width: 44rem;
 }
 
-/* Buttons */
-.heroActions {
+.actions {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
-  opacity: 0;
-  animation: revealLine 0.6s ease forwards;
-  animation-delay: 1.8s;
+  gap: 0.75rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px; /* 手機觸控最少 44px */
+  padding: 0.5rem 1.1rem;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.buttonPrimary {
+  color: var(--ifm-color-primary);
+}
+
+.buttonSponsor {
+  color: var(--color-secondary-container);
+}
+
+.buttonMatters {
+  color: var(--ifm-color-warning);
+}
+
+.coverLink {
+  flex-shrink: 0;
+  width: 170px;
+}
+
+.coverImg {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 /* ===========================
-   Keyframes
+   放寬：平板
    =========================== */
 
-@keyframes coverFloat {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-12px); }
-}
-
-@keyframes revealLine {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ===========================
-   Responsive
-   =========================== */
-
-@media (max-width: 996px) {
-  .heroBookSection {
-    flex-direction: column-reverse;
-    gap: 2rem;
-    padding: 3rem 0 2rem;
-    text-align: center;
+@media (min-width: 600px) {
+  .navHero {
+    padding: 3.5rem 0 2.5rem;
   }
 
-  .heroCoverWrap {
-    width: 200px;
+  .siteTitle {
+    font-size: 2.8rem;
   }
 
-  .heroHeadline {
+  .sectionGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .manifestoHeadline {
     font-size: 2.4rem;
   }
 
-  .coveringLine {
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .coveringLine::before {
-    display: none;
-  }
-
-  .heroActions {
-    justify-content: center;
+  .coverLink {
+    width: 210px;
   }
 }
 
-@media (max-width: 576px) {
-  .heroHeadline {
-    font-size: 1.8rem;
+/* ===========================
+   放寬：桌面
+   =========================== */
+
+@media (min-width: 997px) {
+  .navHero {
+    padding: 5rem 0 3rem;
   }
 
-  .heroCoverWrap {
-    width: 160px;
+  .siteTitle {
+    font-size: 3.4rem;
+  }
+
+  .tagline {
+    font-size: 1.15rem;
+  }
+
+  .sectionGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .sectionCard {
+    min-height: 9.5rem;
+    padding: 1.4rem 1.4rem 2.75rem;
+  }
+
+  .sectionArrow {
+    top: auto;
+    bottom: 1rem;
+    right: 1.2rem;
+    transform: none;
+  }
+
+  .manifesto {
+    padding: 5rem 0 6rem;
+  }
+
+  .manifestoInner {
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .manifestoText {
+    flex: 1;
+  }
+
+  .manifestoHeadline {
+    font-size: 3rem;
+  }
+
+  .coverLink {
+    width: 260px;
+  }
+}
+
+/* 用戶系統設定減少動態效果時，取消卡片位移 */
+@media (prefers-reduced-motion: reduce) {
+  .sectionCard {
+    transition: none;
+  }
+  .sectionCard:hover {
+    transform: none;
   }
 }

@@ -124,6 +124,13 @@ h1, h2, h3, h4 {
   padding: 0 2rem;
 }
 
+/* 手機：左右留白 16px，避免內容太窄 */
+@media (max-width: 600px) {
+  .container-wide {
+    padding: 0 1rem;
+  }
+}
+
 /* Navbar Icons */
 .header-icon-link {
   display: flex;

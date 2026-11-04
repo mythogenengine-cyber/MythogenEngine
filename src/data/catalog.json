@@ -1,11 +1,17 @@
 {
-  "_說明": "全站書名、系列名、散文組名的唯一來源。改名只改這裡；sidebar、/books、/series、/essays、首頁、關於頁、英文與港版 sidebar 翻譯都由此生成。title = 側欄及卡片用的名稱；fullTitle = 書目頁及關於頁用的完整書名（可省略）。zh-HK 未填時沿用 zh-Hant。系列成員由資料夾 docs/series/<系列 id>/ 決定，次序寫在各篇 YAML 的 series: { order }。",
+  "_說明": "全站書名、系列名、散文組名的唯一來源。改名只改這裡；sidebar、/books、/series、/essays、首頁、關於頁、英文與港版 sidebar 翻譯都由此生成。title = 側欄及卡片用的名稱；fullTitle = 書目頁及關於頁用的完整書名（可省略）。zh-HK 未填時沿用 zh-Hant。系列成員由資料夾 docs/series/<系列 id>/ 決定，次序寫在各篇 YAML 的 series: { order }。 sections = 首頁四個入口（書／系列／清醒記錄／散文）的名稱與一句介紹。",
   "books": [
     {
       "id": "capital-game",
       "sidebar": "capitalGame",
-      "title": { "zh-Hant": "資本遊戲玩什麼", "en": "Capital Game" },
-      "fullTitle": { "zh-Hant": "資本遊戲玩什麼（實例檔案：遊戲業）", "en": "Capital Game" },
+      "title": {
+        "zh-Hant": "資本遊戲玩什麼",
+        "en": "Capital Game"
+      },
+      "fullTitle": {
+        "zh-Hant": "資本遊戲玩什麼（實例檔案：遊戲業）",
+        "en": "Capital Game"
+      },
       "chapters": [
         "books/capital-game/資本遊戲玩什麼（實例檔案：遊戲業）"
       ]
@@ -13,7 +19,10 @@
     {
       "id": "who-collects",
       "sidebar": "whoCollects",
-      "title": { "zh-Hant": "誰在門口收錢", "en": "Who's Collecting at the Door" },
+      "title": {
+        "zh-Hant": "誰在門口收錢",
+        "en": "Who's Collecting at the Door"
+      },
       "chapters": [
         "books/who-collects/INFO_PAGE",
         "books/who-collects/preface",
@@ -33,7 +42,10 @@
     {
       "id": "ai-tao",
       "sidebar": "aiTao",
-      "title": { "zh-Hant": "大道無形", "en": "The Invisible Path" },
+      "title": {
+        "zh-Hant": "大道無形",
+        "en": "The Invisible Path"
+      },
       "chapters": [
         "books/ai-tao/INFO_PAGE",
         "books/ai-tao/intro",
@@ -64,8 +76,14 @@
     {
       "id": "mirror-realm",
       "sidebar": "mirrorRealm",
-      "title": { "zh-Hant": "鏡界", "en": "Mirror Realm" },
-      "fullTitle": { "zh-Hant": "鏡界：假面系統殺人事件", "en": "Mirror Realm" },
+      "title": {
+        "zh-Hant": "鏡界",
+        "en": "Mirror Realm"
+      },
+      "fullTitle": {
+        "zh-Hant": "鏡界：假面系統殺人事件",
+        "en": "Mirror Realm"
+      },
       "chapters": [
         "books/mirror-realm/prologue",
         "books/mirror-realm/ch01",
@@ -94,7 +112,10 @@
     {
       "id": "game-victory",
       "sidebar": "gameVictory",
-      "title": { "zh-Hant": "遊戲致勝", "en": "GameVictory" },
+      "title": {
+        "zh-Hant": "遊戲致勝",
+        "en": "GameVictory"
+      },
       "chapters": [
         "books/game-victory/INFO_PAGE",
         "books/game-victory/自序_玩住學_v17",
@@ -119,20 +140,71 @@
     }
   ],
   "series": [
-    { "id": "ai-war", "title": { "zh-Hant": "AI Ecosystem War", "en": "AI Ecosystem War" } },
-    { "id": "memory-series", "title": { "zh-Hant": "記憶體與 AI 算力週期系列", "en": "Memory and AI Compute Cycle Series" } },
-    { "id": "efficiency-trap-cognition-erosion", "title": { "zh-Hant": "效率陷阱與認知侵蝕五部曲", "en": "Efficiency Trap & Cognitive Erosion Quintet" } },
-    { "id": "platform-silencing", "title": { "zh-Hant": "平台消音與認知封鎖五部曲", "en": "Platform Silencing and Cognitive Blockade: A Five-Part Series" } },
-    { "id": "attenuation-visibility", "title": { "zh-Hant": "衰減：可見度如何被分配", "en": "Attenuation: How Visibility Is Allocated" } },
-    { "id": "exit-mechanism", "title": { "zh-Hant": "退出機制三部曲", "en": "Exit Mechanism Trilogy" } },
-    { "id": "beggars-bowl", "title": { "zh-Hant": "從乞丐碗裡搶飯", "en": "Snatching Rice from the Beggar's Bowl" } },
-    { "id": "legal-harm", "title": { "zh-Hant": "合法傷害權", "en": "Legal Right to Harm" } }
+    {
+      "id": "ai-war",
+      "title": {
+        "zh-Hant": "AI Ecosystem War",
+        "en": "AI Ecosystem War"
+      }
+    },
+    {
+      "id": "memory-series",
+      "title": {
+        "zh-Hant": "記憶體與 AI 算力週期系列",
+        "en": "Memory and AI Compute Cycle Series"
+      }
+    },
+    {
+      "id": "efficiency-trap-cognition-erosion",
+      "title": {
+        "zh-Hant": "效率陷阱與認知侵蝕五部曲",
+        "en": "Efficiency Trap & Cognitive Erosion Quintet"
+      }
+    },
+    {
+      "id": "platform-silencing",
+      "title": {
+        "zh-Hant": "平台消音與認知封鎖五部曲",
+        "en": "Platform Silencing and Cognitive Blockade: A Five-Part Series"
+      }
+    },
+    {
+      "id": "attenuation-visibility",
+      "title": {
+        "zh-Hant": "衰減：可見度如何被分配",
+        "en": "Attenuation: How Visibility Is Allocated"
+      }
+    },
+    {
+      "id": "exit-mechanism",
+      "title": {
+        "zh-Hant": "退出機制三部曲",
+        "en": "Exit Mechanism Trilogy"
+      }
+    },
+    {
+      "id": "beggars-bowl",
+      "title": {
+        "zh-Hant": "從乞丐碗裡搶飯",
+        "en": "Snatching Rice from the Beggar's Bowl"
+      }
+    },
+    {
+      "id": "legal-harm",
+      "title": {
+        "zh-Hant": "合法傷害權",
+        "en": "Legal Right to Harm"
+      }
+    }
   ],
   "essays": {
     "groups": [
       {
         "id": "seven-days",
-        "title": { "zh-Hant": "七日書", "en": "Seven Days Book" },
+        "title": {
+          "zh-Hant": "七日書",
+          "en": "Seven Days Book"
+        },
         "docs": [
           "essays/seven-days/七日書｜身心靈",
           "essays/seven-days/七日書｜傳奇一曲",
@@ -141,5 +213,71 @@
       }
     ],
     "rest": "Diary 其餘自動按日期排列"
+  },
+  "sections": {
+    "books": {
+      "to": "/books",
+      "title": {
+        "zh-Hant": "書",
+        "en": "Books"
+      },
+      "intro": {
+        "zh-Hant": "完整著作，由頭讀起。",
+        "zh-HK": "完整著作，由頭讀起。",
+        "en": "Complete works, best read from the beginning."
+      },
+      "unit": {
+        "zh-Hant": "本",
+        "en": "books"
+      }
+    },
+    "series": {
+      "to": "/series",
+      "title": {
+        "zh-Hant": "系列",
+        "en": "Series"
+      },
+      "intro": {
+        "zh-Hant": "同一主題的連載長文，按次序閱讀。",
+        "zh-HK": "同一主題嘅連載長文，按次序閱讀。",
+        "en": "Long-form articles on one theme, meant to be read in order."
+      },
+      "unit": {
+        "zh-Hant": "個系列",
+        "en": "series"
+      }
+    },
+    "notes": {
+      "to": "/docs/TechNotes",
+      "title": {
+        "zh-Hant": "清醒記錄",
+        "en": "Lucid Record"
+      },
+      "intro": {
+        "zh-Hant": "產業與資本結構評論，按季度整理。",
+        "zh-HK": "產業同資本結構評論，按季度整理。",
+        "en": "Commentary on industry and capital structure, grouped by quarter."
+      },
+      "unit": {
+        "zh-Hant": "篇",
+        "en": "articles"
+      }
+    },
+    "essays": {
+      "to": "/essays",
+      "title": {
+        "zh-Hant": "散文",
+        "en": "Essays"
+      },
+      "intro": {
+        "zh-Hant": "隨筆、七日書與個人記錄。",
+        "zh-HK": "隨筆、七日書同個人記錄。",
+        "en": "Personal essays, the Seven Days books and other notes."
+      },
+      "unit": {
+        "zh-Hant": "篇",
+        "en": "pieces"
+      }
+    }
   }
 }

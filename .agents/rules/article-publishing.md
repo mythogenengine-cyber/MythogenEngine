@@ -1,11 +1,11 @@
 ---
 description: Rules for creating, publishing, and updating articles to ensure they appear on PREVIEW PAGES (TechNotes & Diary list pages)
-globs: docs/TechNotes/**/*.md, docs/Diary/**/*.md, i18n/**/*.md
+globs: docs/**/*.md, i18n/**/*.md
 ---
 
 # Article Publishing & PREVIEW PAGES Rule
 
-Whenever a new article or note is added or updated in `docs/TechNotes/` or `docs/Diary/`:
+Whenever a new article or note is added or updated in `docs/notes/`, `docs/essays/`, `docs/series/` or `docs/books/`:
 
 1. **Complete Frontmatter (YAML Header)**:
    - Every article MUST contain a complete YAML header with:
@@ -29,13 +29,15 @@ Whenever a new article or note is added or updated in `docs/TechNotes/` or `docs
 
 3. **Mandatory PREVIEW PAGES Update**:
    - Whenever an article is created or updated, ALWAYS execute:
-     - `node scripts/generateTechNotes.js` (for TechNotes)
-     - `node scripts/generateDiary.js` (for Diary)
+     - `npm run generate`
    - This updates `src/data/technotes.json` / `diary.json` so the article properly displays on the PREVIEW PAGES (e.g. the `/docs/TechNotes` card grid with category filter, search, reading time, and preview excerpt).
-   - If preview images are provided or needed, place them in the corresponding `images/` directory and configure them in markdown.
+   - Images go in the `img/` subfolder next to the article.
 
 4. **Series, Books & Hubs Registration**:
-   - 文章加入現有系列：只需在 YAML 寫 `series: { id, order }`（不寫 name；系列名只在 `src/data/catalog.json`）。
+   - Folder decides where it appears: standalone 清醒記錄 → `docs/notes/<2026Q4>/`; essays → `docs/essays/<2026Q4>/`; series article → `docs/series/<series-id>/` (YAML `series: { order: N }`, no id — the folder is the series).
+   - Every new article MUST have `slug` in YAML (e.g. `slug: /notes/english-title`). URLs come from slug, never from the folder.
+   - Images go in the `img/` subfolder of the article's folder, referenced as `./img/name.png`.
+   - 系列名只在 `src/data/catalog.json`；YAML 不寫 series name／id。
    - 書名、系列名、散文組名、書的章節次序：只改 `src/data/catalog.json`。不要在 `sidebars.js`、`generateHubs.js`、`i18n/*/current.json`、頁面 tsx 寫死名稱。
    - 新系列：先在 `catalog.json` 的 `series` 加 id 與三語名稱，否則 build 報錯。
    - 執行 `npm run generate` 重新生成 hubs.json 及英文／港版 sidebar 翻譯，所有導航頁（`/books`, `/series`, `/essays`）自動同步。

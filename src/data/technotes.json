@@ -79,8 +79,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "beggars-bowl",
-        "order": 0
+        "order": 0,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -119,8 +119,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "beggars-bowl",
-        "order": 5
+        "order": 5,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -159,8 +159,8 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "beggars-bowl",
-        "order": 3
+        "order": 3,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -199,8 +199,8 @@
       "status": "published",
       "reading_time": 12,
       "series": {
-        "id": "beggars-bowl",
-        "order": 4
+        "order": 4,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -239,8 +239,8 @@
       "status": "published",
       "reading_time": 22,
       "series": {
-        "id": "beggars-bowl",
-        "order": 2
+        "order": 2,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -279,8 +279,8 @@
       "status": "published",
       "reading_time": 33,
       "series": {
-        "id": "beggars-bowl",
-        "order": 1
+        "order": 1,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -482,8 +482,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "exit-mechanism",
-        "order": 0
+        "order": 0,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -521,8 +521,8 @@
       "status": "published",
       "reading_time": 11,
       "series": {
-        "id": "exit-mechanism",
-        "order": 3
+        "order": 3,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -604,8 +604,8 @@
       "status": "published",
       "reading_time": 13,
       "series": {
-        "id": "exit-mechanism",
-        "order": 1
+        "order": 1,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -644,8 +644,8 @@
       "status": "published",
       "reading_time": 14,
       "series": {
-        "id": "exit-mechanism",
-        "order": 2
+        "order": 2,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -722,8 +722,8 @@
       "status": "final",
       "reading_time": 19,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 1
+        "order": 1,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -762,8 +762,8 @@
       "status": "draft",
       "reading_time": 18,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 2
+        "order": 2,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -802,8 +802,8 @@
       "status": "draft",
       "reading_time": 22,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 3
+        "order": 3,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -883,12 +883,12 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "memory-series",
-        "order": 4
+        "order": 4,
+        "id": "memory-series"
       }
     },
     {
-      "id": "capital-game/誰說遊戲做不起",
+      "id": "誰說遊戲做不起",
       "slug": "/docs/why-games-cant-be-made",
       "title": "誰說遊戲做不起",
       "date": "2026-07-29T00:00:00.000Z",
@@ -960,8 +960,8 @@
       "status": "draft",
       "reading_time": 42,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 5
+        "order": 5,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -998,8 +998,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 3
+        "order": 3,
+        "id": "platform-silencing"
       }
     },
     {
@@ -1072,8 +1072,8 @@
       "status": "draft",
       "reading_time": 15,
       "series": {
-        "id": "platform-silencing",
-        "order": 5
+        "order": 5,
+        "id": "platform-silencing"
       }
     },
     {
@@ -1110,8 +1110,8 @@
       "status": "draft",
       "reading_time": 24,
       "series": {
-        "id": "platform-silencing",
-        "order": 4
+        "order": 4,
+        "id": "platform-silencing"
       }
     },
     {
@@ -1149,8 +1149,8 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "platform-silencing",
-        "order": 1
+        "order": 1,
+        "id": "platform-silencing"
       }
     },
     {
@@ -1187,8 +1187,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 2
+        "order": 2,
+        "id": "platform-silencing"
       }
     },
     {
@@ -1229,8 +1229,8 @@
       "status": "published",
       "reading_time": 9,
       "series": {
-        "id": "memory-series",
-        "order": 3
+        "order": 3,
+        "id": "memory-series"
       }
     },
     {
@@ -1346,8 +1346,8 @@
       "reading_time": 5,
       "sidebar_position": 2,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 4
+        "order": 4,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -1416,8 +1416,8 @@
       "status": "published",
       "reading_time": 12,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 3
+        "order": 3,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -1486,8 +1486,8 @@
       "status": "published",
       "reading_time": 10,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 2
+        "order": 2,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -1527,8 +1527,8 @@
       "reading_time": 10,
       "sidebar_position": 20260528,
       "series": {
-        "id": "memory-series",
-        "order": 2
+        "order": 2,
+        "id": "memory-series"
       }
     },
     {
@@ -1567,8 +1567,8 @@
       "status": "published",
       "reading_time": 18,
       "series": {
-        "id": "memory-series",
-        "order": 1
+        "order": 1,
+        "id": "memory-series"
       }
     },
     {
@@ -1679,8 +1679,8 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 1
+        "order": 1,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -2137,8 +2137,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "beggars-bowl",
-        "order": 0
+        "order": 0,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2177,8 +2177,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "beggars-bowl",
-        "order": 5
+        "order": 5,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2217,8 +2217,8 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "beggars-bowl",
-        "order": 3
+        "order": 3,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2257,8 +2257,8 @@
       "status": "published",
       "reading_time": 12,
       "series": {
-        "id": "beggars-bowl",
-        "order": 4
+        "order": 4,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2297,8 +2297,8 @@
       "status": "published",
       "reading_time": 22,
       "series": {
-        "id": "beggars-bowl",
-        "order": 2
+        "order": 2,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2337,8 +2337,8 @@
       "status": "published",
       "reading_time": 33,
       "series": {
-        "id": "beggars-bowl",
-        "order": 1
+        "order": 1,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -2540,8 +2540,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "exit-mechanism",
-        "order": 0
+        "order": 0,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -2579,8 +2579,8 @@
       "status": "published",
       "reading_time": 11,
       "series": {
-        "id": "exit-mechanism",
-        "order": 3
+        "order": 3,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -2662,8 +2662,8 @@
       "status": "published",
       "reading_time": 13,
       "series": {
-        "id": "exit-mechanism",
-        "order": 1
+        "order": 1,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -2702,8 +2702,8 @@
       "status": "published",
       "reading_time": 14,
       "series": {
-        "id": "exit-mechanism",
-        "order": 2
+        "order": 2,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -2781,8 +2781,8 @@
       "status": "final",
       "reading_time": 19,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 1
+        "order": 1,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -2821,8 +2821,8 @@
       "status": "draft",
       "reading_time": 18,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 2
+        "order": 2,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -2861,8 +2861,8 @@
       "status": "draft",
       "reading_time": 22,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 3
+        "order": 3,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -2942,12 +2942,12 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "memory-series",
-        "order": 4
+        "order": 4,
+        "id": "memory-series"
       }
     },
     {
-      "id": "capital-game/誰說遊戲做不起",
+      "id": "誰說遊戲做不起",
       "slug": "/docs/why-games-cant-be-made",
       "title": "誰說遊戲做不起",
       "date": "2026-07-29T00:00:00.000Z",
@@ -3019,8 +3019,8 @@
       "status": "draft",
       "reading_time": 42,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 5
+        "order": 5,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -3057,8 +3057,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 3
+        "order": 3,
+        "id": "platform-silencing"
       }
     },
     {
@@ -3131,8 +3131,8 @@
       "status": "draft",
       "reading_time": 15,
       "series": {
-        "id": "platform-silencing",
-        "order": 5
+        "order": 5,
+        "id": "platform-silencing"
       }
     },
     {
@@ -3169,8 +3169,8 @@
       "status": "draft",
       "reading_time": 24,
       "series": {
-        "id": "platform-silencing",
-        "order": 4
+        "order": 4,
+        "id": "platform-silencing"
       }
     },
     {
@@ -3208,8 +3208,8 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "platform-silencing",
-        "order": 1
+        "order": 1,
+        "id": "platform-silencing"
       }
     },
     {
@@ -3246,8 +3246,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 2
+        "order": 2,
+        "id": "platform-silencing"
       }
     },
     {
@@ -3288,8 +3288,8 @@
       "status": "published",
       "reading_time": 9,
       "series": {
-        "id": "memory-series",
-        "order": 3
+        "order": 3,
+        "id": "memory-series"
       }
     },
     {
@@ -3405,8 +3405,8 @@
       "reading_time": 5,
       "sidebar_position": 2,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 4
+        "order": 4,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -3475,8 +3475,8 @@
       "status": "published",
       "reading_time": 12,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 3
+        "order": 3,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -3545,8 +3545,8 @@
       "status": "published",
       "reading_time": 10,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 2
+        "order": 2,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -3586,8 +3586,8 @@
       "reading_time": 10,
       "sidebar_position": 20260528,
       "series": {
-        "id": "memory-series",
-        "order": 2
+        "order": 2,
+        "id": "memory-series"
       }
     },
     {
@@ -3626,8 +3626,8 @@
       "status": "published",
       "reading_time": 18,
       "series": {
-        "id": "memory-series",
-        "order": 1
+        "order": 1,
+        "id": "memory-series"
       }
     },
     {
@@ -3738,8 +3738,8 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 1
+        "order": 1,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -4196,8 +4196,8 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "beggars-bowl",
-        "order": 0
+        "order": 0,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4236,8 +4236,8 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "beggars-bowl",
-        "order": 5
+        "order": 5,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4276,8 +4276,8 @@
       "status": "published",
       "reading_time": 11,
       "series": {
-        "id": "beggars-bowl",
-        "order": 3
+        "order": 3,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4316,8 +4316,8 @@
       "status": "published",
       "reading_time": 18,
       "series": {
-        "id": "beggars-bowl",
-        "order": 4
+        "order": 4,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4356,8 +4356,8 @@
       "status": "published",
       "reading_time": 25,
       "series": {
-        "id": "beggars-bowl",
-        "order": 2
+        "order": 2,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4396,8 +4396,8 @@
       "status": "published",
       "reading_time": 38,
       "series": {
-        "id": "beggars-bowl",
-        "order": 1
+        "order": 1,
+        "id": "beggars-bowl"
       }
     },
     {
@@ -4598,8 +4598,8 @@
       "status": "published",
       "reading_time": 5,
       "series": {
-        "id": "exit-mechanism",
-        "order": 0
+        "order": 0,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -4637,8 +4637,8 @@
       "status": "published",
       "reading_time": 11,
       "series": {
-        "id": "exit-mechanism",
-        "order": 3
+        "order": 3,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -4720,8 +4720,8 @@
       "status": "published",
       "reading_time": 13,
       "series": {
-        "id": "exit-mechanism",
-        "order": 1
+        "order": 1,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -4760,8 +4760,8 @@
       "status": "published",
       "reading_time": 14,
       "series": {
-        "id": "exit-mechanism",
-        "order": 2
+        "order": 2,
+        "id": "exit-mechanism"
       }
     },
     {
@@ -4839,8 +4839,8 @@
       "status": "final",
       "reading_time": 19,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 1
+        "order": 1,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -4879,8 +4879,8 @@
       "status": "draft",
       "reading_time": 18,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 2
+        "order": 2,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -4919,8 +4919,8 @@
       "status": "draft",
       "reading_time": 22,
       "series": {
-        "id": "attenuation-visibility",
-        "order": 3
+        "order": 3,
+        "id": "attenuation-visibility"
       }
     },
     {
@@ -5000,12 +5000,12 @@
       "status": "published",
       "reading_time": 7,
       "series": {
-        "id": "memory-series",
-        "order": 4
+        "order": 4,
+        "id": "memory-series"
       }
     },
     {
-      "id": "capital-game/誰說遊戲做不起",
+      "id": "誰說遊戲做不起",
       "slug": "/docs/why-games-cant-be-made",
       "title": "Who Says Games Are Too Expensive to Make",
       "date": "2026-07-29T00:00:00.000Z",
@@ -5077,8 +5077,8 @@
       "status": "draft",
       "reading_time": 42,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 5
+        "order": 5,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -5115,8 +5115,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 3
+        "order": 3,
+        "id": "platform-silencing"
       }
     },
     {
@@ -5189,8 +5189,8 @@
       "status": "draft",
       "reading_time": 15,
       "series": {
-        "id": "platform-silencing",
-        "order": 5
+        "order": 5,
+        "id": "platform-silencing"
       }
     },
     {
@@ -5227,8 +5227,8 @@
       "status": "draft",
       "reading_time": 24,
       "series": {
-        "id": "platform-silencing",
-        "order": 4
+        "order": 4,
+        "id": "platform-silencing"
       }
     },
     {
@@ -5266,8 +5266,8 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "platform-silencing",
-        "order": 1
+        "order": 1,
+        "id": "platform-silencing"
       }
     },
     {
@@ -5304,8 +5304,8 @@
       "status": "draft",
       "reading_time": 10,
       "series": {
-        "id": "platform-silencing",
-        "order": 2
+        "order": 2,
+        "id": "platform-silencing"
       }
     },
     {
@@ -5346,8 +5346,8 @@
       "status": "published",
       "reading_time": 9,
       "series": {
-        "id": "memory-series",
-        "order": 3
+        "order": 3,
+        "id": "memory-series"
       }
     },
     {
@@ -5463,8 +5463,8 @@
       "reading_time": 5,
       "sidebar_position": 2,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 4
+        "order": 4,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -5533,8 +5533,8 @@
       "status": "published",
       "reading_time": 12,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 3
+        "order": 3,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -5603,8 +5603,8 @@
       "status": "published",
       "reading_time": 10,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
-        "order": 2
+        "order": 2,
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {
@@ -5644,8 +5644,8 @@
       "reading_time": 10,
       "sidebar_position": 20260528,
       "series": {
-        "id": "memory-series",
-        "order": 2
+        "order": 2,
+        "id": "memory-series"
       }
     },
     {
@@ -5684,8 +5684,8 @@
       "status": "published",
       "reading_time": 18,
       "series": {
-        "id": "memory-series",
-        "order": 1
+        "order": 1,
+        "id": "memory-series"
       }
     },
     {
@@ -5796,9 +5796,9 @@
       "status": "published",
       "reading_time": 20,
       "series": {
-        "id": "efficiency-trap-cognition-erosion",
         "order": 1,
-        "postscript": "This article serves as the foundational inquiry for the series."
+        "postscript": "This article serves as the foundational inquiry for the series.",
+        "id": "efficiency-trap-cognition-erosion"
       }
     },
     {

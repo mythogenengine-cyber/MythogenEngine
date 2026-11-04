@@ -6,7 +6,7 @@
         "title": "資本遊戲玩什麼（實例檔案：遊戲業）",
         "description": "TODO",
         "url": "/docs/capital-game",
-        "entry": "capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
+        "entry": "books/capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
         "sidebar": "capitalGame",
         "chaptersCount": 1
       },
@@ -15,7 +15,7 @@
         "title": "誰在門口收錢",
         "description": "假設在2026年10月的某一天，你打開手機，看到四則消息。",
         "url": "/docs/who-collects-at-the-door",
-        "entry": "capital-game/誰在門口收錢/INFO_PAGE",
+        "entry": "books/who-collects/INFO_PAGE",
         "sidebar": "whoCollects",
         "chaptersCount": 12
       },
@@ -24,7 +24,7 @@
         "title": "大道無形",
         "description": "TODO",
         "url": "/docs/AI_TAO/INFO_PAGE",
-        "entry": "AI_TAO/INFO_PAGE",
+        "entry": "books/ai-tao/INFO_PAGE",
         "sidebar": "aiTao",
         "chaptersCount": 24
       },
@@ -33,7 +33,7 @@
         "title": "鏡界：假面系統殺人事件",
         "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明回到書房，沒有開燈。 窗外是海。夜裡看不清水色，只有遠處幾點燈。這個方向，是漂亮的。",
         "url": "/docs/mirror-realm/prologue",
-        "entry": "mirror-realm/prologue",
+        "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",
         "chaptersCount": 22
       },
@@ -42,7 +42,7 @@
         "title": "遊戲致勝",
         "description": "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine.com/ Facebook https://www.facebook.",
         "url": "/docs/GameVictory/INFO_PAGE",
-        "entry": "GameVictory/INFO_PAGE",
+        "entry": "books/game-victory/INFO_PAGE",
         "sidebar": "gameVictory",
         "chaptersCount": 19
       }
@@ -56,7 +56,7 @@
         "dateRange": "-",
         "docs": [
           {
-            "id": "ai-war/guide",
+            "id": "series/ai-war/guide",
             "title": "微軟與蘋果的 AI 生態暗戰：全景式產業研究",
             "date": null,
             "description": "一份關於 AI 產業食物鏈、資本永動機、開發者生態裂變，以及兩大帝國靜悄悄決戰的深度分析報告 本研究共分為八個主題，每個主題為獨立的深度分析文章： 想快速掌握全局： 先讀主題 01（食物鏈）和主題 04（緊箍咒），這兩篇呈現了微軟困境的全貌。",
@@ -64,7 +64,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/food_chain",
+            "id": "series/ai-war/food_chain",
             "title": "主題一：AI 食物鏈的階級遊戲——誰是地主，誰是租客？",
             "date": null,
             "description": "AI 產業的競爭不是「誰的模型更聰明」，而是誰掌握了結構性的成本優勢與分發管道。理解這個「食物鏈」的階級邏輯，是看懂後續所有主題的基礎。 OpenAI 在 2025 年砍掉了旗下最具話題性的 AI 影片生成產品 Sora，同期年度虧損飆升，Disney 10 億美元合作告吹。",
@@ -72,7 +72,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ms_openai",
+            "id": "series/ai-war/ms_openai",
             "title": "主題二：微軟與 OpenAI 的危險雙人舞——互相綁架、世紀陽謀、與脫身計劃",
             "date": null,
             "description": "微軟與 OpenAI 的關係是科技史上最複雜、最畸形的商業聯姻。表面上是戰略合作，實際上是一場互相綁架的危險博弈——雙方都在明處攜手、暗處脫身。 很多人簡單地把微軟歸類為「OpenAI 的投資者」或「OpenAI 的盟友」。這是極度簡化的理解。",
@@ -80,7 +80,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/perpetual_motion",
+            "id": "series/ai-war/perpetual_motion",
             "title": "主題三：AI 永動機——千億美元的資金循環",
             "date": null,
             "description": "AI 產業正在運行一台精巧的「資金永動機」：投資者把錢投給 AI 公司，AI 公司立刻把錢花在買晶片和雲端上，錢又流回投資者的口袋——每個環節都產生「營收」，但真正從終端用戶口袋掏出來的新錢有多少？這是 2000 年網際泡沫以來最值得警惕的金融結構。",
@@ -88,7 +88,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/limitations",
+            "id": "series/ai-war/limitations",
             "title": "主題四：微軟的四道緊箍咒——被鎖死的 AI 帝國",
             "date": null,
             "description": "表面上，微軟是 AI 狂潮的最大贏家。但翻開底牌，微軟正被四道「緊箍咒」死死勒住，處境可能比完全沒有雲端算力的 Apple 更加嚴峻。 過去兩年，微軟的 AI 戰略可以用一個詞概括：「鋪入口」。",
@@ -96,7 +96,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/claude_code",
+            "id": "series/ai-war/claude_code",
             "title": "主題五：開發者生態的兩面夾擊——Claude Code 與 Google 的聯合瓦解",
             "date": null,
             "description": "這是原系列完全遺漏、但在 2025-2026 年對微軟衝擊最大的一個維度。",
@@ -104,7 +104,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/apple_counter",
+            "id": "series/ai-war/apple_counter",
             "title": "主題六：Apple 的靜悄悄反殺——不只是晶片",
             "date": null,
             "description": "Apple 一直被嘲笑「AI 發展太慢」。但如果你看懂了結構性優勢的邏輯，就會發現 Apple 正在進行一場教科書級別的降維打擊——它不跟微軟搶雲端，卻在硬體底層、隱私架構、和消費端體驗三個維度同時構築了護城河。Apple 的 AI 策略不是「落後」，而是「不同戰場」。",
@@ -112,7 +112,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ai_film",
+            "id": "series/ai-war/ai_film",
             "title": "主題七：AI 影視的路線之爭——2D 生成 vs 3D 世界模擬",
             "date": null,
             "description": "Sora 的退場不代表 AI 影視已死——而是宣告了：靠暴力算力「憑空生成」影片的商業模式，在沒有低成本算力和分發平台的前提下走不通。 AI 影視的未來取決於技術路線選擇、成本結構、和分發管道三者的組合。",
@@ -120,7 +120,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/xbox",
+            "id": "series/ai-war/xbox",
             "title": "主題八：Xbox 的豪賭與危機——AI 試驗場的戰略價值 vs 商業化風險",
             "date": null,
             "description": "Xbox 是微軟所有業務線中唯一一個完全擺脫了 Windows 歷史包袱、實現了軟硬體閉環的生態系統。從戰略圖紙來看，它是微軟 AI 版圖中最前衛的資產。但「有潛力」和「能成功」之間隔著一片隨時會翻船的汪洋大海。",
@@ -137,7 +137,7 @@
         "dateRange": "2026-05-26 ~ 2026-07-31",
         "docs": [
           {
-            "id": "TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+            "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
             "title": "HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
             "date": "2026-05-26",
             "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
@@ -145,7 +145,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+            "id": "series/memory-series/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
             "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
             "date": "2026-05-28",
             "description": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
@@ -153,7 +153,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/我問了 AI「記憶體股還能不能買」",
+            "id": "series/memory-series/我問了 AI「記憶體股還能不能買」",
             "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
             "date": "2026-07-13",
             "description": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
@@ -161,7 +161,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配",
+            "id": "series/memory-series/真話是付費功能：AI 定價結構如何決定真相的分配",
             "title": "真話是付費功能：AI 定價結構如何決定真相的分配",
             "date": "2026-07-31",
             "description": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
@@ -178,7 +178,7 @@
         "dateRange": "2026-05-20 ~ 2026-07-28",
         "docs": [
           {
-            "id": "TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+            "id": "series/efficiency-trap-cognition-erosion/認知與判斷——AI 時代人類最後的不可取代性",
             "title": "認知與判斷——AI 時代人類最後的不可取代性",
             "date": "2026-05-20",
             "description": "系統性論證AI時代認知力與判斷力的形成路徑，以及教育、演算法、AI三重侵蝕。",
@@ -186,7 +186,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/環境如何令人變蠢——認知與判斷（後記）",
+            "id": "series/efficiency-trap-cognition-erosion/環境如何令人變蠢——認知與判斷（後記）",
             "title": "環境如何令人變蠢——認知與判斷（後記）",
             "date": "2026-06-02",
             "description": "未經歷過巨大壓力的人，不會意識到人的判斷力可以被環境系統性地削弱。煤氣燈效應、群體壓力、人造的緊急性——這些不是騙局專利，而是日常環境中隨時存在的認知陷阱。在一切都在加速的時代，保留清醒的時間做決定，是最被低估的生存能力。",
@@ -194,7 +194,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/當所有人都在學AI",
+            "id": "series/efficiency-trap-cognition-erosion/當所有人都在學AI",
             "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
             "date": "2026-06-27",
             "description": "效率提升如果沒有創造新需求，就只是壓縮——而AI教育市場正在大規模教人壓縮。",
@@ -202,7 +202,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/殺死創新的標準作業程序",
+            "id": "series/efficiency-trap-cognition-erosion/殺死創新的標準作業程序",
             "title": "殺死創新的標準作業程序",
             "date": "2026-07-02",
             "description": "同一個劇本——當資本學會了怎麼殺死創新，每個行業都成了遊戲業。",
@@ -210,7 +210,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/效率陷阱續章・續章：你以為你贏了",
+            "id": "series/efficiency-trap-cognition-erosion/效率陷阱續章・續章：你以為你贏了",
             "title": "效率陷阱・續章：你以為你贏了",
             "date": "2026-07-28",
             "description": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
@@ -227,7 +227,7 @@
         "dateRange": "2026-07-17 ~ 2026-07-23",
         "docs": [
           {
-            "id": "TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除",
+            "id": "series/platform-silencing/機器點樣幫手執行一場已經發生咗嘅刪除",
             "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
             "date": "2026-07-17",
             "description": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
@@ -235,7 +235,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+            "id": "series/platform-silencing/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
             "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
             "date": "2026-07-17",
             "description": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
@@ -243,7 +243,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者・後記——我以為門關了",
+            "id": "series/platform-silencing/異常報告裡的讀者・後記——我以為門關了",
             "title": "異常報告裡的讀者・後記——我以為門關了",
             "date": "2026-07-23",
             "description": "當你以為是平台故障或演算法不推時，真相可能是你已被無聲地從場域中封鎖。一個需要僥倖才能揭穿的排除機制，是最完美的消音。",
@@ -251,7 +251,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本",
+            "id": "series/platform-silencing/零違規，每篇二十四個曝光——一個帳號的分發帳本",
             "title": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
             "date": "2026-07-20",
             "description": "零違規帳號,每篇二十四次曝光。垃圾洪水令一刀切成為必然,而稀缺被標價出售——防洪與生意共用同一把刀。",
@@ -259,7 +259,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/半個鐘頭的生產線",
+            "id": "series/platform-silencing/半個鐘頭的生產線",
             "title": "半個鐘頭的生產線——當內容農場不需要敵人就能打贏一場信息戰",
             "date": "2026-07-21",
             "description": "半個鐘頭、三個帳號、同一篇文——一條由 AI 生產到 AI 消費的完整工業鏈，不需要敵人就能打贏一場信息戰。",
@@ -276,7 +276,7 @@
         "dateRange": "2026-08-06",
         "docs": [
           {
-            "id": "TechNotes/批准之後沒有人看見",
+            "id": "series/attenuation-visibility/批准之後沒有人看見",
             "title": "批准之後，沒有人看見——一項專利如何讓消音不留下證據",
             "date": "2026-08-06",
             "description": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
@@ -284,7 +284,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/最不像AI的文章反而是AI寫的",
+            "id": "series/attenuation-visibility/最不像AI的文章反而是AI寫的",
             "title": "最不像 AI 的文章，反而是 AI 寫的——一場認知盲區的即時實驗",
             "date": "2026-08-06",
             "description": "偵測器建立在模仿者的失敗模式上，於是最像原版的受罰最重。",
@@ -292,7 +292,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/一個讚一分一場罵戰三十分",
+            "id": "series/attenuation-visibility/一個讚一分一場罵戰三十分",
             "title": "一個讚一分，一場罵戰三十分——論壇消失之後，複雜性沒有了位置",
             "date": "2026-08-06",
             "description": "真正被消失的，未必是某一種立場，而是容納複雜性的空間。",
@@ -309,7 +309,7 @@
         "dateRange": "2026-08-26 ~ 2026-08-31",
         "docs": [
           {
-            "id": "TechNotes/退出機制三部曲",
+            "id": "series/exit-mechanism/退出機制三部曲",
             "title": "退出機制三部曲：便宜的代價",
             "date": "2026-08-31",
             "description": "三篇共用同一句話：價格訊號被壓住，所以該退出的都沒有退出。從全球產能供給的扭曲，到地租對便宜紅利的截留，再到資本與勞動市場的互相鎖死。",
@@ -317,7 +317,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/你的定期存款，補貼了德國人買車",
+            "id": "series/exit-mechanism/你的定期存款，補貼了德國人買車",
             "title": "你的定期存款，補貼了德國人買車",
             "date": "2026-08-26",
             "description": "中國的過度積累與美國的金融化不是兩種病，是一個系統的兩個器官——過去二十年，兩個體制一直在互相替對方拖延結帳。",
@@ -325,7 +325,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/四個地方，沒有一個人拿到那筆便宜",
+            "id": "series/exit-mechanism/四個地方，沒有一個人拿到那筆便宜",
             "title": "四個地方，沒有一個人拿到那筆便宜",
             "date": "2026-08-26",
             "description": "全世界最便宜的東西就在隔壁生產，而香港、深圳、內陸、台灣沒有一個地方的人拿到那筆便宜。它去了哪裡？",
@@ -333,7 +333,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/錢不走，人也不走",
+            "id": "series/exit-mechanism/錢不走，人也不走",
             "title": "錢不走，人也不走",
             "date": "2026-08-31",
             "description": "一個經濟體真正的健康指標不是增長率，是退出率。而現在資本與人同時失去了離開的能力。",
@@ -350,7 +350,7 @@
         "dateRange": "2026-10-20 ~ 2026-10-24",
         "docs": [
           {
-            "id": "capital-game/從乞丐碗裡搶飯/prologue",
+            "id": "series/beggars-bowl/prologue",
             "title": "序篇：從乞丐碗裡搶飯",
             "date": "2026-10-24",
             "description": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
@@ -358,7 +358,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part1",
+            "id": "series/beggars-bowl/part1",
             "title": "不做就該受苦？從綜援到 UBI，「多勞多得」是誰的原則",
             "date": "2026-10-20",
             "description": "「不工作的人就應該過得更慘」這個前提，來自 1834 年英國的濟貧法，功能從來是壓低工資。社會需要有人工作，不等於人要工作才配活；安全網的高度，決定的是每一層的地板。",
@@ -366,7 +366,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part2",
+            "id": "series/beggars-bowl/part2",
             "title": "全球前一成，交完租沒有錢：分配問題裡，我們站在哪裡",
             "date": "2026-10-21",
             "description": "月薪兩萬二的行政主任，在全球排名表上排前四分之一，交完租卻買不起一部手機。罪疚與恐懼兩個陷阱，把目光引向下層；切走大半塊餅的人，從來不在比較之內。",
@@ -374,7 +374,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part3",
+            "id": "series/beggars-bowl/part3",
             "title": "看得見的騙，量不到的數",
             "date": "2026-10-23",
             "description": "公屋在香港行之有效幾十年，今天卻像無故全面失效。審查量得到糧單，量不到現金和境外資產；被剔走的，是老實報糧的人。騙福利是執法問題，不是保障本身的問題。",
@@ -382,7 +382,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part4",
+            "id": "series/beggars-bowl/part4",
             "title": "走的和來的",
             "date": "2026-10-23",
             "description": "統計處只公布淨數；單程證、雙非、人才計劃住滿七年就一律計作「本地」，來路從此消失。要數據不是歧視；不是量不到，而是不去量。",
@@ -390,7 +390,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/finale",
+            "id": "series/beggars-bowl/finale",
             "title": "終篇：數得清楚之後",
             "date": "2026-10-24",
             "description": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
@@ -407,7 +407,7 @@
         "dateRange": "2026-05-29 ~ 2026-06-12",
         "docs": [
           {
-            "id": "Diary/樂風集團案的食物鏈結構",
+            "id": "series/legal-harm/樂風集團案的食物鏈結構",
             "title": "一層食一層——樂風集團案的食物鏈結構",
             "date": "2026-05-29",
             "description": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
@@ -415,7 +415,7 @@
             "category": ""
           },
           {
-            "id": "Diary/收費結構決定言論自由",
+            "id": "series/legal-harm/收費結構決定言論自由",
             "title": "收費結構決定言論自由——從獨立律師到獨立創作者的商業模型",
             "date": "2026-05-29",
             "description": "從獨立律師的超然商業模型，延伸至美食YouTuber困境與獨立創作者的收費結構設計。",
@@ -423,7 +423,7 @@
             "category": ""
           },
           {
-            "id": "Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+            "id": "series/legal-harm/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
             "title": "合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
             "date": "2026-05-29",
             "description": "以正規創業融資為對照組，拆解樂風集團案中PE合約的合法壓制與樂風對投資者的資訊不對稱之間的分界線，以及所有做生意的人必須知道的PG風險。",
@@ -431,7 +431,7 @@
             "category": ""
           },
           {
-            "id": "Diary/一場豪賭的正常與不正常",
+            "id": "series/legal-harm/一場豪賭的正常與不正常",
             "title": "後記：一場豪賭的正常與不正常",
             "date": "2026-06-12",
             "description": "以「願賭服輸」的視角重新審視樂風集團案：對賭正常、PG正常、高槓桿正常——唯一不正常的，是誰被推上了賭桌。",
@@ -448,21 +448,21 @@
           "title": "七日書",
           "docs": [
             {
-              "id": "Diary/七日書｜身心靈",
+              "id": "essays/seven-days/七日書｜身心靈",
               "title": "七日書：身心靈",
               "date": "2026-09-01",
               "description": "七天的書寫，從「不必同情」的顧問歲月、看見銀河的農莊、阿卡西圖書館的空白支票，到一年的停頓與老花眼的對焦。一場穿透身心靈表象、直面內心混亂空間的自我剖白。",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88"
             },
             {
-              "id": "Diary/七日書｜傳奇一曲",
+              "id": "essays/seven-days/七日書｜傳奇一曲",
               "title": "七日書：傳奇一曲",
               "date": "2026-07-11",
               "description": "藉由《千千闋歌》與《夕陽之歌》兩首經典歌曲，探討香港的離別潮、集體記憶與歷史改寫。",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2"
             },
             {
-              "id": "Diary/七日書_無用之用_道",
+              "id": "essays/seven-days/七日書_無用之用_道",
               "title": "七日書：無用之用・道",
               "date": "2026-06-05",
               "description": "探討無用之用與道的個人隨筆紀錄。",
@@ -473,21 +473,21 @@
       ],
       "rest": [
         {
-          "id": "Diary/名偵探柯南 vs 命運石之門",
+          "id": "essays/2026Q4/名偵探柯南 vs 命運石之門",
           "title": "名偵探柯南 vs 命運石之門",
           "date": "2026-10-07",
           "description": "零件相同，結構倒轉：一部用時間停止迴避選擇，一部讓選擇真正有代價。談愛情與人心，《命運石之門》細緻、全面、立體得多。",
           "url": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80"
         },
         {
-          "id": "Diary/中國的「高速工業化系統」與全球競爭的真正問題",
+          "id": "essays/2026Q2/中國的「高速工業化系統」與全球競爭的真正問題",
           "title": "中國的「高速工業化系統」與全球競爭的真正問題",
           "date": "2026-06-01",
           "description": "拆解中國高效率工業化系統的結構性優勢與代價，以及這套模式若成為全球主流的真正問題。",
           "url": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C"
         },
         {
-          "id": "Diary/看不見的暴力，和一本沒人要求我寫的書",
+          "id": "essays/2026Q2/看不見的暴力，和一本沒人要求我寫的書",
           "title": "看不見的暴力，和一本沒人要求我寫的書",
           "date": "2026-05-20",
           "description": "七日書計劃系列：一個工程師在三間公司、三個地區看見的職場系統性暴力，以及他為什麼決定寫下來。",
@@ -503,7 +503,7 @@
         "title": "資本遊戲玩什麼（實例檔案：遊戲業）",
         "description": "TODO",
         "url": "/docs/capital-game",
-        "entry": "capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
+        "entry": "books/capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
         "sidebar": "capitalGame",
         "chaptersCount": 1
       },
@@ -512,7 +512,7 @@
         "title": "誰在門口收錢",
         "description": "假設在2026年10月的某一天，你打開手機，看到四則消息。",
         "url": "/docs/who-collects-at-the-door",
-        "entry": "capital-game/誰在門口收錢/INFO_PAGE",
+        "entry": "books/who-collects/INFO_PAGE",
         "sidebar": "whoCollects",
         "chaptersCount": 12
       },
@@ -521,7 +521,7 @@
         "title": "大道無形",
         "description": "TODO",
         "url": "/docs/AI_TAO/INFO_PAGE",
-        "entry": "AI_TAO/INFO_PAGE",
+        "entry": "books/ai-tao/INFO_PAGE",
         "sidebar": "aiTao",
         "chaptersCount": 24
       },
@@ -530,7 +530,7 @@
         "title": "鏡界：假面系統殺人事件",
         "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明返到書房，冇開燈。 窗外係海。夜裏睇唔清水色，得遠處幾點燈。呢個方向，係靚嘅。",
         "url": "/docs/mirror-realm/prologue",
-        "entry": "mirror-realm/prologue",
+        "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",
         "chaptersCount": 22
       },
@@ -539,7 +539,7 @@
         "title": "遊戲致勝",
         "description": "&nbsp; 作者 星忘塵 Nebula Walker 初版日期 23 APR 2026 引擎 MYTHOGEN ENG 網頁 https://mythogenengine.com/ Facebook https://www.facebook.",
         "url": "/docs/GameVictory/INFO_PAGE",
-        "entry": "GameVictory/INFO_PAGE",
+        "entry": "books/game-victory/INFO_PAGE",
         "sidebar": "gameVictory",
         "chaptersCount": 19
       }
@@ -553,7 +553,7 @@
         "dateRange": "-",
         "docs": [
           {
-            "id": "ai-war/guide",
+            "id": "series/ai-war/guide",
             "title": "微軟與蘋果的 AI 生態暗戰：全景式產業研究",
             "date": null,
             "description": "一份關於 AI 產業食物鏈、資本永動機、開發者生態裂變，以及兩大帝國靜悄悄決戰的深度分析報告 本研究共分為八個主題，每個主題為獨立的深度分析文章： 想快速掌握全局： 先讀主題 01（食物鏈）和主題 04（緊箍咒），這兩篇呈現了微軟困境的全貌。",
@@ -561,7 +561,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/food_chain",
+            "id": "series/ai-war/food_chain",
             "title": "主題一：AI 食物鏈的階級遊戲——誰是地主，誰是租客？",
             "date": null,
             "description": "AI 產業的競爭不是「誰的模型更聰明」，而是誰掌握了結構性的成本優勢與分發管道。理解這個「食物鏈」的階級邏輯，是看懂後續所有主題的基礎。 OpenAI 在 2025 年砍掉了旗下最具話題性的 AI 影片生成產品 Sora，同期年度虧損飆升，Disney 10 億美元合作告吹。",
@@ -569,7 +569,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ms_openai",
+            "id": "series/ai-war/ms_openai",
             "title": "主題二：微軟與 OpenAI 的危險雙人舞——互相綁架、世紀陽謀、與脱身計劃",
             "date": null,
             "description": "微軟與 OpenAI 的關係是科技史上最複雜、最畸形的商業聯姻。表面上是戰略合作，實際上是一場互相綁架的危險博弈——雙方都在明處攜手、暗處脱身。 很多人簡單地把微軟歸類為「OpenAI 的投資者」或「OpenAI 的盟友」。這是極度簡化的理解。",
@@ -577,7 +577,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/perpetual_motion",
+            "id": "series/ai-war/perpetual_motion",
             "title": "主題三：AI 永動機——千億美元的資金循環",
             "date": null,
             "description": "AI 產業正在運行一台精巧的「資金永動機」：投資者把錢投給 AI 公司，AI 公司立刻把錢花在買晶片和雲端上，錢又流回投資者的口袋——每個環節都產生「營收」，但真正從終端用户口袋掏出來的新錢有多少？這是 2000 年網際泡沫以來最值得警惕的金融結構。",
@@ -585,7 +585,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/limitations",
+            "id": "series/ai-war/limitations",
             "title": "主題四：微軟的四道緊箍咒——被鎖死的 AI 帝國",
             "date": null,
             "description": "表面上，微軟是 AI 狂潮的最大贏家。但翻開底牌，微軟正被四道「緊箍咒」死死勒住，處境可能比完全沒有雲端算力的 Apple 更加嚴峻。 過去兩年，微軟的 AI 戰略可以用一個詞概括：「鋪入口」。",
@@ -593,7 +593,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/claude_code",
+            "id": "series/ai-war/claude_code",
             "title": "主題五：開發者生態的兩面夾擊——Claude Code 與 Google 的聯合瓦解",
             "date": null,
             "description": "這是原系列完全遺漏、但在 2025-2026 年對微軟衝擊最大的一個維度。",
@@ -601,7 +601,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/apple_counter",
+            "id": "series/ai-war/apple_counter",
             "title": "主題六：Apple 的靜悄悄反殺——不只是晶片",
             "date": null,
             "description": "Apple 一直被嘲笑「AI 發展太慢」。但如果你看懂了結構性優勢的邏輯，就會發現 Apple 正在進行一場教科書級別的降維打擊——它不跟微軟搶雲端，卻在硬體底層、隱私架構、和消費端體驗三個維度同時構築了護城河。Apple 的 AI 策略不是「落後」，而是「不同戰場」。",
@@ -609,7 +609,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ai_film",
+            "id": "series/ai-war/ai_film",
             "title": "主題七：AI 影視的路線之爭——2D 生成 vs 3D 世界模擬",
             "date": null,
             "description": "Sora 的退場不代表 AI 影視已死——而是宣告了：靠暴力算力「憑空生成」影片的商業模式，在沒有低成本算力和分發平台的前提下走不通。 AI 影視的未來取決於技術路線選擇、成本結構、和分發管道三者的組合。",
@@ -617,7 +617,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/xbox",
+            "id": "series/ai-war/xbox",
             "title": "主題八：Xbox 的豪賭與危機——AI 試驗場的戰略價值 vs 商業化風險",
             "date": null,
             "description": "Xbox 是微軟所有業務線中唯一一個完全擺脱了 Windows 歷史包袱、實現了軟硬體閉環的生態系統。從戰略圖紙來看，它是微軟 AI 版圖中最前衞的資產。但「有潛力」和「能成功」之間隔着一片隨時會翻船的汪洋大海。",
@@ -634,7 +634,7 @@
         "dateRange": "2026-05-26 ~ 2026-07-31",
         "docs": [
           {
-            "id": "TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+            "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
             "title": "HBM 不是下一個台積電：內存與邏輯晶片的結構性鴻溝",
             "date": "2026-05-26",
             "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
@@ -642,7 +642,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+            "id": "series/memory-series/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
             "title": "900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
             "date": "2026-05-28",
             "description": "解析 Samsung 900層 V-NAND 的技術真相，以及 AI 對 HBM 的飢渴需求如何傳導至消費性電子產品，讓遊戲玩家為 AI 革命變相買單。",
@@ -650,7 +650,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/我問了 AI「記憶體股還能不能買」",
+            "id": "series/memory-series/我問了 AI「記憶體股還能不能買」",
             "title": "我問了 AI「記憶體股還能不能買」?然後發現了一個更大的問題！",
             "date": "2026-07-13",
             "description": "實測三大 AI 模型，發現其預設回答模式在週期頂部會產生誤導，AI 的誠實程度完全取決於使用者的提問能力。",
@@ -658,7 +658,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配",
+            "id": "series/memory-series/真話是付費功能：AI 定價結構如何決定真相的分配",
             "title": "真話是付費功能：AI 定價結構如何決定真相的分配",
             "date": "2026-07-31",
             "description": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
@@ -675,7 +675,7 @@
         "dateRange": "2026-05-20 ~ 2026-07-28",
         "docs": [
           {
-            "id": "TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+            "id": "series/efficiency-trap-cognition-erosion/認知與判斷——AI 時代人類最後的不可取代性",
             "title": "認知與判斷——AI 時代人類最後的不可取代性",
             "date": "2026-05-20",
             "description": "系統性拆解認知與判斷力的形成機制，以及教育、演算法與 AI 如何持續剝蝕這些關鍵能力。",
@@ -683,7 +683,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/環境如何令人變蠢——認知與判斷（後記）",
+            "id": "series/efficiency-trap-cognition-erosion/環境如何令人變蠢——認知與判斷（後記）",
             "title": "環境如何令人變蠢——認知與判斷（後記）",
             "date": "2026-06-02",
             "description": "未經歷過巨大壓力的人，不會意識到人的判斷力可以被環境系統性地削弱。煤氣燈效應、群體壓力、人造的緊急性——這些不是騙局專利，而是日常環境中隨時存在的認知陷阱。在一切都在加速的時代，保留清醒的時間做決定，是最被低估的生存能力。",
@@ -691,7 +691,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/當所有人都在學AI",
+            "id": "series/efficiency-trap-cognition-erosion/當所有人都在學AI",
             "title": "效率陷阱：當所有人都在學壓縮，誰在創造新需求？",
             "date": "2026-06-27",
             "description": "如果效率提升不能創造新需求，那只是壓縮——而 AI 教育市場正在大規模教人壓縮。",
@@ -699,7 +699,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/殺死創新的標準作業程序",
+            "id": "series/efficiency-trap-cognition-erosion/殺死創新的標準作業程序",
             "title": "殺死創新的標準作業程序",
             "date": "2026-07-02",
             "description": "同一個劇本——當資本學會如何殺死創新，每個行業都變成了遊戲業。",
@@ -707,7 +707,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/效率陷阱續章・續章：你以為你贏了",
+            "id": "series/efficiency-trap-cognition-erosion/效率陷阱續章・續章：你以為你贏了",
             "title": "效率陷阱・續章：你以為你贏了",
             "date": "2026-07-28",
             "description": "裁員與破紀錄利潤同時發生。AI 不是原因，是牌照。一場退場，兩次銷售：上游賣給按按鈕的手，下游賣給按鈕底下的人。",
@@ -724,7 +724,7 @@
         "dateRange": "2026-07-17 ~ 2026-07-23",
         "docs": [
           {
-            "id": "TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除",
+            "id": "series/platform-silencing/機器點樣幫手執行一場已經發生咗嘅刪除",
             "title": "機器點樣幫手執行一場已經發生咗嘅刪除",
             "date": "2026-07-17",
             "description": "AI 生成與 AI 偵測共用同一套統計機器：語料庫的重心即權力。當檔案已被清洗，機器便以工業規模將刪除結果永久化。",
@@ -732,7 +732,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+            "id": "series/platform-silencing/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
             "title": "異常報告裡的讀者——當真話與垃圾走同一條通道入場",
             "date": "2026-07-17",
             "description": "真話與垃圾走同一條通道入場,機器分不出。但人傳人的人格認證,仍能在三重封鎖裡開出缺口。",
@@ -740,7 +740,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者・後記——我以為門關了",
+            "id": "series/platform-silencing/異常報告裡的讀者・後記——我以為門關了",
             "title": "異常報告裡的讀者・後記——我以為門關了",
             "date": "2026-07-23",
             "description": "當你以為是平台故障或演算法不推時，真相可能是你已被無聲地從場域中封鎖。一個需要僥倖才能揭穿的排除機制，是最完美的消音。",
@@ -748,7 +748,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本",
+            "id": "series/platform-silencing/零違規，每篇二十四個曝光——一個帳號的分發帳本",
             "title": "零違規，每篇二十四個曝光——一個帳號的分發帳本",
             "date": "2026-07-20",
             "description": "零違規帳號,每篇二十四次曝光。垃圾洪水令一刀切成為必然,而稀缺被標價出售——防洪與生意共用同一把刀。",
@@ -756,7 +756,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/半個鐘頭的生產線",
+            "id": "series/platform-silencing/半個鐘頭的生產線",
             "title": "半個鐘頭的生產線——當內容農場不需要敵人就能打贏一場信息戰",
             "date": "2026-07-21",
             "description": "半個鐘頭、三個帳號、同一篇文——一條由 AI 生產到 AI 消費的完整工業鏈，不需要敵人就能打贏一場信息戰。",
@@ -773,7 +773,7 @@
         "dateRange": "2026-08-06",
         "docs": [
           {
-            "id": "TechNotes/批准之後沒有人看見",
+            "id": "series/attenuation-visibility/批准之後沒有人看見",
             "title": "批准之後，沒有人看見——一項專利如何讓消音不留下證據",
             "date": "2026-08-06",
             "description": "降權不是審查的溫和版本，而是一種刻意不產生證據的衰減。",
@@ -781,7 +781,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/最不像AI的文章反而是AI寫的",
+            "id": "series/attenuation-visibility/最不像AI的文章反而是AI寫的",
             "title": "最不像 AI 的文章，反而是 AI 寫的——一場認知盲區的即時實驗",
             "date": "2026-08-06",
             "description": "偵測器建立在模仿者的失敗模式上，於是最像原版的受罰最重。",
@@ -789,7 +789,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/一個讚一分一場罵戰三十分",
+            "id": "series/attenuation-visibility/一個讚一分一場罵戰三十分",
             "title": "一個讚一分，一場罵戰三十分——論壇消失之後，複雜性沒有了位置",
             "date": "2026-08-06",
             "description": "真正被消失的，未必是某一種立場，而是容納複雜性的空間。",
@@ -806,7 +806,7 @@
         "dateRange": "2026-08-26 ~ 2026-08-31",
         "docs": [
           {
-            "id": "TechNotes/退出機制三部曲",
+            "id": "series/exit-mechanism/退出機制三部曲",
             "title": "退出機制三部曲：便宜的代價",
             "date": "2026-08-31",
             "description": "三篇共用同一句話：價格訊號被壓住，所以該退出的都沒有退出。從全球產能供給的扭曲，到地租對便宜紅利的截留，再到資本與勞動市場的互相鎖死。",
@@ -814,7 +814,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/你的定期存款，補貼了德國人買車",
+            "id": "series/exit-mechanism/你的定期存款，補貼了德國人買車",
             "title": "你的定期存款，補貼了德國人買車",
             "date": "2026-08-26",
             "description": "中國的過度積累與美國的金融化不是兩種病，是一個系統的兩個器官——過去二十年，兩個體制一直在互相替對方拖延結帳。",
@@ -822,7 +822,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/四個地方，沒有一個人拿到那筆便宜",
+            "id": "series/exit-mechanism/四個地方，沒有一個人拿到那筆便宜",
             "title": "四個地方，沒有一個人拿到那筆便宜",
             "date": "2026-08-26",
             "description": "全世界最便宜的東西就在隔壁生產，而香港、深圳、內陸、台灣沒有一個地方的人拿到那筆便宜。它去了哪裡？",
@@ -830,7 +830,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/錢不走，人也不走",
+            "id": "series/exit-mechanism/錢不走，人也不走",
             "title": "錢不走，人也不走",
             "date": "2026-08-31",
             "description": "一個經濟體真正的健康指標不是增長率，是退出率。而現在資本與人同時失去了離開的能力。",
@@ -847,7 +847,7 @@
         "dateRange": "2026-10-20 ~ 2026-10-24",
         "docs": [
           {
-            "id": "capital-game/從乞丐碗裡搶飯/prologue",
+            "id": "series/beggars-bowl/prologue",
             "title": "序篇：從乞丐碗裡搶飯",
             "date": "2026-10-24",
             "description": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
@@ -855,7 +855,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part1",
+            "id": "series/beggars-bowl/part1",
             "title": "不做就該受苦？從綜援到 UBI，「多勞多得」是誰的原則",
             "date": "2026-10-20",
             "description": "「不工作的人就應該過得更慘」這個前提，來自 1834 年英國的濟貧法，功能從來是壓低工資。社會需要有人工作，不等於人要工作才配活；安全網的高度，決定的是每一層的地板。",
@@ -863,7 +863,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part2",
+            "id": "series/beggars-bowl/part2",
             "title": "全球前一成，交完租沒有錢：分配問題裡，我們站在哪裡",
             "date": "2026-10-21",
             "description": "月薪兩萬二的行政主任，在全球排名表上排前四分之一，交完租卻買不起一部手機。罪疚與恐懼兩個陷阱，把目光引向下層；切走大半塊餅的人，從來不在比較之內。",
@@ -871,7 +871,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part3",
+            "id": "series/beggars-bowl/part3",
             "title": "看得見的騙，量不到的數",
             "date": "2026-10-23",
             "description": "公屋在香港行之有效幾十年，今天卻像無故全面失效。審查量得到糧單，量不到現金和境外資產；被剔走的，是老實報糧的人。騙福利是執法問題，不是保障本身的問題。",
@@ -879,7 +879,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part4",
+            "id": "series/beggars-bowl/part4",
             "title": "走的和來的",
             "date": "2026-10-23",
             "description": "統計處只公布淨數；單程證、雙非、人才計劃住滿七年就一律計作「本地」，來路從此消失。要數據不是歧視；不是量不到，而是不去量。",
@@ -887,7 +887,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/finale",
+            "id": "series/beggars-bowl/finale",
             "title": "終篇：數得清楚之後",
             "date": "2026-10-24",
             "description": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
@@ -904,7 +904,7 @@
         "dateRange": "2026-05-29 ~ 2026-06-12",
         "docs": [
           {
-            "id": "Diary/樂風集團案的食物鏈結構",
+            "id": "series/legal-harm/樂風集團案的食物鏈結構",
             "title": "一層食一層——樂風集團案的食物鏈結構",
             "date": "2026-05-29",
             "description": "拆解樂風集團案中PE基金、發展商、散戶投資者之間的多層收割結構，以及律師食物鏈如何令整條鏈失去煞車系統。",
@@ -912,7 +912,7 @@
             "category": ""
           },
           {
-            "id": "Diary/收費結構決定言論自由",
+            "id": "series/legal-harm/收費結構決定言論自由",
             "title": "收費結構決定言論自由——從獨立律師到獨立創作者的商業模型",
             "date": "2026-05-29",
             "description": "從獨立律師的超然商業模型，延伸至美食YouTuber困境與獨立創作者的收費結構設計。",
@@ -920,7 +920,7 @@
             "category": ""
           },
           {
-            "id": "Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+            "id": "series/legal-harm/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
             "title": "合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
             "date": "2026-05-29",
             "description": "以正規創業融資為對照組，拆解樂風集團案中PE合約的合法壓制與樂風對投資者的資訊不對稱之間的分界線，以及所有做生意的人必須知道的PG風險。",
@@ -928,7 +928,7 @@
             "category": ""
           },
           {
-            "id": "Diary/一場豪賭的正常與不正常",
+            "id": "series/legal-harm/一場豪賭的正常與不正常",
             "title": "後記：一場豪賭的正常與不正常",
             "date": "2026-06-12",
             "description": "以「願賭服輸」的視角重新審視樂風集團案：對賭正常、PG正常、高槓桿正常——唯一不正常的，是誰被推上了賭桌。",
@@ -945,21 +945,21 @@
           "title": "七日書",
           "docs": [
             {
-              "id": "Diary/七日書｜身心靈",
+              "id": "essays/seven-days/七日書｜身心靈",
               "title": "七日書：身心靈",
               "date": "2026-09-01",
               "description": "七天的書寫，從「不必同情」的顧問歲月、看見銀河的農莊、阿卡西圖書館的空白支票，到一年的停頓與老花眼的對焦。一場穿透身心靈表象、直面內心混亂空間的自我剖白。",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88"
             },
             {
-              "id": "Diary/七日書｜傳奇一曲",
+              "id": "essays/seven-days/七日書｜傳奇一曲",
               "title": "七日書：傳奇一曲",
               "date": "2026-07-11",
               "description": "藉由《千千闋歌》與《夕陽之歌》兩首經典歌曲，探討香港的離別潮、集體記憶與歷史改寫。",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2"
             },
             {
-              "id": "Diary/七日書_無用之用_道",
+              "id": "essays/seven-days/七日書_無用之用_道",
               "title": "七日書：無用之用・道",
               "date": "2026-06-05",
               "description": "探討無用之用與道的個人隨筆紀錄。",
@@ -970,21 +970,21 @@
       ],
       "rest": [
         {
-          "id": "Diary/名偵探柯南 vs 命運石之門",
+          "id": "essays/2026Q4/名偵探柯南 vs 命運石之門",
           "title": "名偵探柯南 vs 命運石之門",
           "date": "2026-10-07",
           "description": "零件相同，結構倒轉：一部用時間停止迴避選擇，一部讓選擇真正有代價。談愛情與人心，《命運石之門》細緻、全面、立體得多。",
           "url": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80"
         },
         {
-          "id": "Diary/中國的「高速工業化系統」與全球競爭的真正問題",
+          "id": "essays/2026Q2/中國的「高速工業化系統」與全球競爭的真正問題",
           "title": "中國的「高速工業化系統」與全球競爭的真正問題",
           "date": "2026-06-01",
           "description": "拆解中國高效率工業化系統的結構性優勢與代價，以及這套模式若成為全球主流的真正問題。",
           "url": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C"
         },
         {
-          "id": "Diary/看不見的暴力，和一本沒人要求我寫的書",
+          "id": "essays/2026Q2/看不見的暴力，和一本沒人要求我寫的書",
           "title": "看不見的暴力，和一本沒人要求我寫的書",
           "date": "2026-05-20",
           "description": "七日書計劃系列：一個工程師在三間公司、三個地區看見的職場系統性暴力，以及他為什麼決定寫下來。",
@@ -1000,7 +1000,7 @@
         "title": "Capital Game",
         "description": "TODO",
         "url": "/docs/capital-game",
-        "entry": "capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
+        "entry": "books/capital-game/資本遊戲玩什麼（實例檔案：遊戲業）",
         "sidebar": "capitalGame",
         "chaptersCount": 1
       },
@@ -1009,7 +1009,7 @@
         "title": "Who's Collecting at the Door",
         "description": "Imagine that one day in October 2026 you pick up your phone and see four headlines.",
         "url": "/docs/who-collects-at-the-door",
-        "entry": "capital-game/誰在門口收錢/INFO_PAGE",
+        "entry": "books/who-collects/INFO_PAGE",
         "sidebar": "whoCollects",
         "chaptersCount": 12
       },
@@ -1018,7 +1018,7 @@
         "title": "The Invisible Path",
         "description": "TODO",
         "url": "/docs/AI_TAO/INFO_PAGE",
-        "entry": "AI_TAO/INFO_PAGE",
+        "entry": "books/ai-tao/INFO_PAGE",
         "sidebar": "aiTao",
         "chaptersCount": 24
       },
@@ -1027,7 +1027,7 @@
         "title": "Mirror Realm",
         "description": "━━━━━━━━━━━━━━━━━━━━ A NOTE ON THIS TRANSLATION You are reading a working draft. The original is in Chinese (Cantonese and Mandarin editions).",
         "url": "/docs/mirror-realm/prologue",
-        "entry": "mirror-realm/prologue",
+        "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",
         "chaptersCount": 22
       },
@@ -1036,7 +1036,7 @@
         "title": "GameVictory",
         "description": "&nbsp; Author 星忘塵 Nebula Walker First Edition Date 23 APR 2026 Engine MYTHOGEN ENG Website: https://mythogenengine-cyber.github.",
         "url": "/docs/GameVictory/INFO_PAGE",
-        "entry": "GameVictory/INFO_PAGE",
+        "entry": "books/game-victory/INFO_PAGE",
         "sidebar": "gameVictory",
         "chaptersCount": 19
       }
@@ -1050,7 +1050,7 @@
         "dateRange": "-",
         "docs": [
           {
-            "id": "ai-war/guide",
+            "id": "series/ai-war/guide",
             "title": "Microsoft and Apple's Covert AI Ecosystem War: A Panoramic Industry Research",
             "date": null,
             "description": "A detailed analysis report on the AI industry food chain, the perpetual motion machine of capital, the fission of the developer ecosystem, and the qui...",
@@ -1058,7 +1058,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/food_chain",
+            "id": "series/ai-war/food_chain",
             "title": "Theme 01: The Class Game of the AI Food Chain—Who is the Landlord, Who is the Tenant?",
             "date": null,
             "description": "The competition in the AI industry is not about \"whose model is smarter,\" but who commands structural cost advantages and distribution channels.",
@@ -1066,7 +1066,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ms_openai",
+            "id": "series/ai-war/ms_openai",
             "title": "Theme 02: The Dangerous Dance Between Microsoft and OpenAI—Mutual Hostage-Taking, The Century's Open Conspiracy, and Exit Plans",
             "date": null,
             "description": "The relationship between Microsoft and OpenAI is the most complex and deformed commercial marriage in tech history.",
@@ -1074,7 +1074,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/perpetual_motion",
+            "id": "series/ai-war/perpetual_motion",
             "title": "Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle",
             "date": null,
             "description": "The AI industry is operating an intricate \"capital perpetual motion machine\": investors pour money into AI companies, AI companies immediately spend i...",
@@ -1082,7 +1082,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/limitations",
+            "id": "series/ai-war/limitations",
             "title": "Theme 04: Microsoft's Four Tightening Spells—The Deadlocked AI Empire",
             "date": null,
             "description": "On the surface, Microsoft is the biggest winner of the AI craze.",
@@ -1090,7 +1090,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/claude_code",
+            "id": "series/ai-war/claude_code",
             "title": "Theme 05: The Two-Pronged Attack on the Developer Ecosystem—Claude Code and Google's Joint Disruption",
             "date": null,
             "description": "This is the dimension completely omitted from the original series, yet it posed the biggest shock to Microsoft in 2025-2026.",
@@ -1098,7 +1098,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/apple_counter",
+            "id": "series/ai-war/apple_counter",
             "title": "Theme 06: Apple's Quiet Counterkill—More Than Just Chips",
             "date": null,
             "description": "Apple has consistently been mocked for moving \"too slowly\" in AI.",
@@ -1106,7 +1106,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/ai_film",
+            "id": "series/ai-war/ai_film",
             "title": "Theme 07: The Route Dispute of AI Film and Television—2D Generation vs. 3D World Simulation",
             "date": null,
             "description": "Sora's exit doesn't signify the death of AI film and television;",
@@ -1114,7 +1114,7 @@
             "category": ""
           },
           {
-            "id": "ai-war/xbox",
+            "id": "series/ai-war/xbox",
             "title": "Theme 08: The Xbox Gamble and Crisis—Strategic Value of an AI Testing Ground vs. Commercialization Risks",
             "date": null,
             "description": "Xbox is the only business line within Microsoft to completely shed the historical baggage of Windows and achieve a closed-loop hardware/software ecosy...",
@@ -1131,7 +1131,7 @@
         "dateRange": "2026-05-26 ~ 2026-07-31",
         "docs": [
           {
-            "id": "TechNotes/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
+            "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
             "title": "HBM Is Not the Next TSMC: The Structural Chasm Between Memory and Logic",
             "date": "2026-05-26",
             "description": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
@@ -1139,7 +1139,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
+            "id": "series/memory-series/900 層的真相：當你的 Switch 和 Steam Deck 在替 AI 買單",
             "title": "The Truth Behind 900 Layers: When Your Switch and Steam Deck Are Footing the Bill for AI",
             "date": "2026-05-28",
             "description": "Deconstructing the technology behind Samsung's 900-layer V-NAND, and explaining how AI's insatiable memory demand ripples into consumer electronics, forcing gamers to pay for the AI revolution.",
@@ -1147,7 +1147,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/我問了 AI「記憶體股還能不能買」",
+            "id": "series/memory-series/我問了 AI「記憶體股還能不能買」",
             "title": "I Asked AI 'Should I Still Buy Memory Stocks?' — And Discovered a Much Bigger Problem",
             "date": "2026-07-13",
             "description": "Testing three major AI models reveals their default responses can mislead at cycle peaks — AI's honesty depends entirely on the user's ability to ask the right questions.",
@@ -1155,7 +1155,7 @@
             "category": "半導體週期"
           },
           {
-            "id": "TechNotes/真話是付費功能：AI 定價結構如何決定真相的分配",
+            "id": "series/memory-series/真話是付費功能：AI 定價結構如何決定真相的分配",
             "title": "Truth Is a Paid Feature: How AI Pricing Structures Determine the Distribution of Truth",
             "date": "2026-07-31",
             "description": "Dissecting the three-tier AI product pyramid (free/subscription/API), revealing how ability to pay compounds with ability to ask, ensuring the most vulnerable users receive the most dangerous answers.",
@@ -1172,7 +1172,7 @@
         "dateRange": "2026-05-20 ~ 2026-07-28",
         "docs": [
           {
-            "id": "TechNotes/認知與判斷——AI 時代人類最後的不可取代性",
+            "id": "series/efficiency-trap-cognition-erosion/認知與判斷——AI 時代人類最後的不可取代性",
             "title": "Cognition and Judgment—The Last Thing AI Cannot Replace",
             "date": "2026-05-20",
             "description": "Systematically exploring how cognition and judgment are formed, and how education, algorithms, and AI continually erode these critical skills.",
@@ -1180,7 +1180,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/環境如何令人變蠢——認知與判斷（後記）",
+            "id": "series/efficiency-trap-cognition-erosion/環境如何令人變蠢——認知與判斷（後記）",
             "title": "How Environments Make People Foolish—Cognition and Judgment (Postscript)",
             "date": "2026-06-02",
             "description": "Those who have never experienced immense pressure rarely realize that human judgment can be systematically eroded by environments. Gaslighting, peer pressure, and artificial urgency are not exclusive to scams, but cognitive traps present in daily life.",
@@ -1188,7 +1188,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/當所有人都在學AI",
+            "id": "series/efficiency-trap-cognition-erosion/當所有人都在學AI",
             "title": "The Efficiency Trap: When Everyone Is Learning to Compress, Who Is Creating New Demand?",
             "date": "2026-06-27",
             "description": "If efficiency gains don't create new demand, they're just compression — and the AI education market is teaching compression at scale.",
@@ -1196,7 +1196,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/殺死創新的標準作業程序",
+            "id": "series/efficiency-trap-cognition-erosion/殺死創新的標準作業程序",
             "title": "The Standard Operating Procedure for Killing Innovation",
             "date": "2026-07-02",
             "description": "The same script—when capital learns how to kill innovation, every industry becomes the games industry.",
@@ -1204,7 +1204,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "TechNotes/效率陷阱續章・續章：你以為你贏了",
+            "id": "series/efficiency-trap-cognition-erosion/效率陷阱續章・續章：你以為你贏了",
             "title": "The Efficiency Trap · Sequel: You Thought You Won",
             "date": "2026-07-28",
             "description": "Layoffs and record profits happening simultaneously. AI isn't the cause; it's the license. One exit, two sales: upstream to the hand pushing the button, downstream to the people under the button.",
@@ -1221,7 +1221,7 @@
         "dateRange": "2026-07-17 ~ 2026-07-23",
         "docs": [
           {
-            "id": "TechNotes/機器點樣幫手執行一場已經發生咗嘅刪除",
+            "id": "series/platform-silencing/機器點樣幫手執行一場已經發生咗嘅刪除",
             "title": "How the Machine Helps Execute a Deletion That Has Already Happened",
             "date": "2026-07-17",
             "description": "AI generation and AI detection share the same statistical machine: the corpus's centre of gravity is power. Once the archives have been cleansed, the machine perpetuates the deletion at industrial scale.",
@@ -1229,7 +1229,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
+            "id": "series/platform-silencing/異常報告裡的讀者——當真話與垃圾走同一條通道入場",
             "title": "The Reader in the Anomaly Report — When Truth and Garbage Enter Through the Same Channel",
             "date": "2026-07-17",
             "description": "Truth and garbage enter through the same channel, and the machine can't tell them apart. But person-to-person reputation endorsement can still crack open a gap within a triple blockade.",
@@ -1237,7 +1237,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/異常報告裡的讀者・後記——我以為門關了",
+            "id": "series/platform-silencing/異常報告裡的讀者・後記——我以為門關了",
             "title": "The Reader in the Anomaly Report · Postscript — I Thought the Door Was Closed",
             "date": "2026-07-23",
             "description": "When you think it's a platform glitch or the algorithm not promoting you, the truth may be that you've already been silently blocked from the field. An exclusion mechanism that requires luck to uncover is the perfect silencing.",
@@ -1245,7 +1245,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/零違規，每篇二十四個曝光——一個帳號的分發帳本",
+            "id": "series/platform-silencing/零違規，每篇二十四個曝光——一個帳號的分發帳本",
             "title": "Zero Violations, Twenty-Four Impressions Per Post — A Distribution Ledger of One Account",
             "date": "2026-07-20",
             "description": "A zero-violation account, twenty-four impressions per post. The spam flood makes across-the-board cuts inevitable, and scarcity is manufactured, priced, and sold back to you — flood control and commerce share the same blade.",
@@ -1253,7 +1253,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/半個鐘頭的生產線",
+            "id": "series/platform-silencing/半個鐘頭的生產線",
             "title": "Half an Hour on the Assembly Line — When Content Farms Don't Need an Enemy to Win an Information War",
             "date": "2026-07-21",
             "description": "Half an hour, three accounts, the same article — a complete industrial chain from AI production to AI consumption, winning an information war without needing an enemy.",
@@ -1270,7 +1270,7 @@
         "dateRange": "2026-08-06",
         "docs": [
           {
-            "id": "TechNotes/批准之後沒有人看見",
+            "id": "series/attenuation-visibility/批准之後沒有人看見",
             "title": "Approved, Then Unseen — How a Patent Made Silencing Leave No Evidence",
             "date": "2026-08-06",
             "description": "Demotion is not a gentler version of censorship — it is attenuation designed to produce no evidence.",
@@ -1278,7 +1278,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/最不像AI的文章反而是AI寫的",
+            "id": "series/attenuation-visibility/最不像AI的文章反而是AI寫的",
             "title": "The Least AI-Like Article Was Actually Written by AI — A Real-Time Experiment in Cognitive Blind Spots",
             "date": "2026-08-06",
             "description": "The detector is built on the failure modes of imitators — so the one who most resembles the original is punished most severely.",
@@ -1286,7 +1286,7 @@
             "category": "平台與分發"
           },
           {
-            "id": "TechNotes/一個讚一分一場罵戰三十分",
+            "id": "series/attenuation-visibility/一個讚一分一場罵戰三十分",
             "title": "One Like, One Point; One Flame War, Thirty Points — After the Forums Disappeared, Complexity Lost Its Place",
             "date": "2026-08-06",
             "description": "What truly disappeared was not any particular stance, but the space that could accommodate complexity.",
@@ -1303,7 +1303,7 @@
         "dateRange": "2026-08-26 ~ 2026-08-31",
         "docs": [
           {
-            "id": "TechNotes/退出機制三部曲",
+            "id": "series/exit-mechanism/退出機制三部曲",
             "title": "Exit Mechanism Trilogy: The Cost of Cheapness",
             "date": "2026-08-31",
             "description": "Three essays sharing one sentence: When price signals are suppressed, actors that should exit fail to do so. From distortions in global supply, to land rent intercepting the dividend of cheapness, to the mutual lock-in of capital and labor.",
@@ -1311,7 +1311,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/你的定期存款，補貼了德國人買車",
+            "id": "series/exit-mechanism/你的定期存款，補貼了德國人買車",
             "title": "Your Fixed Deposits Subsidized German Car Buyers",
             "date": "2026-08-26",
             "description": "China's over-accumulation and America's financialization are not two distinct illnesses — they are two organs of a single system. For the past twenty years, both regimes have been postponing each other's day of reckoning.",
@@ -1319,7 +1319,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/四個地方，沒有一個人拿到那筆便宜",
+            "id": "series/exit-mechanism/四個地方，沒有一個人拿到那筆便宜",
             "title": "Four Places Where No One Captured the Cheapness",
             "date": "2026-08-26",
             "description": "The cheapest goods in history are produced right next door, yet in Hong Kong, Shenzhen, inland China, and Taiwan, no one captured that cheapness. Where did it go?",
@@ -1327,7 +1327,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "TechNotes/錢不走，人也不走",
+            "id": "series/exit-mechanism/錢不走，人也不走",
             "title": "Capital Won't Leave, People Won't Leave",
             "date": "2026-08-31",
             "description": "The true health metric of an economy is not its growth rate, but its exit rate. Today, capital and labor have simultaneously lost the ability to leave.",
@@ -1344,7 +1344,7 @@
         "dateRange": "2026-10-20 ~ 2026-10-24",
         "docs": [
           {
-            "id": "capital-game/從乞丐碗裡搶飯/prologue",
+            "id": "series/beggars-bowl/prologue",
             "title": "Prologue: Snatching Rice from the Beggar's Bowl",
             "date": "2026-10-24",
             "description": "Money keeps flowing to the top, the share left below shrinks year after year, and everyone else is steered into fighting the people beside them. Four essays, one pie cut thinner every year.",
@@ -1352,7 +1352,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part1",
+            "id": "series/beggars-bowl/part1",
             "title": "Suffer If You Don't Work? From CSSA to UBI, Whose Principle Is “More Work, More Pay”?",
             "date": "2026-10-20",
             "description": "The premise that people who don't work should live worse comes from England's 1834 Poor Law, and its function has always been to hold down wages. A society needing work done does not mean people must work to deserve to live; the height of the safety net sets the floor for every level.",
@@ -1360,7 +1360,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part2",
+            "id": "series/beggars-bowl/part2",
             "title": "Global Top, Local Bottom",
             "date": "2026-10-21",
             "description": "An office administrator on HK$22,000 a month ranks in the global top quarter, yet after rent she cannot afford a phone. Guilt and fear steer attention downward; those who take most of the pie are never part of the comparison.",
@@ -1368,7 +1368,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part3",
+            "id": "series/beggars-bowl/part3",
             "title": "The Fraud You Can See, the Numbers Nobody Measures",
             "date": "2026-10-23",
             "description": "Public housing worked in Hong Kong for decades and now seems to have failed for no stated reason. Means tests see payslips but not cash or offshore assets, so those screened out are the ones who declare honestly. Welfare fraud is an enforcement problem, not a problem with protection itself.",
@@ -1376,7 +1376,7 @@
             "category": "資本與退出機制"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/part4",
+            "id": "series/beggars-bowl/part4",
             "title": "Those Who Leave and Those Who Arrive",
             "date": "2026-10-23",
             "description": "Hong Kong's statistics department publishes only net figures; one-way permit holders and talent-scheme arrivals count as “local” after seven years, and where they came from disappears. Asking for data is not discrimination: it is not that it cannot be measured, but that no one measures it.",
@@ -1384,7 +1384,7 @@
             "category": "教育與勞動"
           },
           {
-            "id": "capital-game/從乞丐碗裡搶飯/finale",
+            "id": "series/beggars-bowl/finale",
             "title": "Final Part: After the Counting",
             "date": "2026-10-24",
             "description": "Taiwan already counts clearly, yet wages stagnate and homes remain out of reach. The middle class are both victims and beneficiaries, and land prices are chained to public finance, the tax base and capital: any single policy is pulled back by the whole chain.",
@@ -1401,7 +1401,7 @@
         "dateRange": "2026-05-29 ~ 2026-06-12",
         "docs": [
           {
-            "id": "Diary/樂風集團案的食物鏈結構",
+            "id": "series/legal-harm/樂風集團案的食物鏈結構",
             "title": "Layer Eats Layer — The Food Chain Structure of the Lofter Group Case",
             "date": "2026-05-29",
             "description": "Dissecting the multi-layered harvesting structure among PE funds, developers, and retail investors in the Lofter Group case, and how the lawyer food chain stripped the entire system of its braking mechanism.",
@@ -1409,7 +1409,7 @@
             "category": ""
           },
           {
-            "id": "Diary/收費結構決定言論自由",
+            "id": "series/legal-harm/收費結構決定言論自由",
             "title": "Fee Structure Determines Freedom of Speech — From Independent Counsel to Independent Creators' Business Models",
             "date": "2026-05-29",
             "description": "Extending from the transcendent business model of independent counsel to the food YouTuber dilemma and the fee-structure design of independent creators.",
@@ -1417,7 +1417,7 @@
             "category": ""
           },
           {
-            "id": "Diary/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
+            "id": "series/legal-harm/合法的不公平與不合法的欺瞞——樂風集團案中兩種「欺詐」的分界線",
             "title": "Lawful Unfairness and Unlawful Deception — The Dividing Line Between Two Kinds of 'Fraud' in the Lofter Group Case",
             "date": "2026-05-29",
             "description": "Using standard startup financing as a control group, this article dissects the dividing line between PE contracts' lawful suppression and Lofter's information asymmetry toward investors, along with what everyone in business must know about PG risk.",
@@ -1425,7 +1425,7 @@
             "category": ""
           },
           {
-            "id": "Diary/一場豪賭的正常與不正常",
+            "id": "series/legal-harm/一場豪賭的正常與不正常",
             "title": "Postscript: The Normal and the Abnormal in a High-Stakes Gamble",
             "date": "2026-06-12",
             "description": "Re-examining the Lofter Group case through the lens of 'you bet, you lose': the gamble was normal, the PG was normal, the high leverage was normal — the only thing that was not normal was who got pushed onto the gambling table.",
@@ -1442,21 +1442,21 @@
           "title": "Seven Days Book",
           "docs": [
             {
-              "id": "Diary/七日書｜身心靈",
+              "id": "essays/seven-days/七日書｜身心靈",
               "title": "Seven-Day Book: Body, Mind, and Spirit",
               "date": "2026-09-01",
               "description": "Seven days of writing, from the 'no sympathy' years of corporate consulting, a farm under the Milky Way, a blank check from the Akashic Records, to a year of quiet standstill and the readjustment of presbyopic eyes. A candid introspection piercing the veneer of spirituality to confront an unorganized inner space.",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E8%BA%AB%E5%BF%83%E9%9D%88"
             },
             {
-              "id": "Diary/七日書｜傳奇一曲",
+              "id": "essays/seven-days/七日書｜傳奇一曲",
               "title": "七日書：傳奇一曲",
               "date": "2026-07-11",
               "description": "藉由《千千闋歌》與《夕陽之歌》兩首經典歌曲，探討香港的離別潮、集體記憶與歷史改寫。",
               "url": "/docs/Diary/%E4%B8%83%E6%97%A5%E6%9B%B8%EF%BD%9C%E5%82%B3%E5%A5%87%E4%B8%80%E6%9B%B2"
             },
             {
-              "id": "Diary/七日書_無用之用_道",
+              "id": "essays/seven-days/七日書_無用之用_道",
               "title": "七日書：無用之用・道",
               "date": "2026-06-05",
               "description": "探討無用之用與道的個人隨筆紀錄。",
@@ -1467,21 +1467,21 @@
       ],
       "rest": [
         {
-          "id": "Diary/名偵探柯南 vs 命運石之門",
+          "id": "essays/2026Q4/名偵探柯南 vs 命運石之門",
           "title": "Detective Conan vs Steins;Gate",
           "date": "2026-10-07",
           "description": "Same parts, inverted structure: one story freezes time to avoid a choice; the other makes the choice carry real weight. On love and the inner life, Steins;Gate is far more nuanced, complete, and three-dimensional.",
           "url": "/docs/Diary/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%20vs%20%E5%91%BD%E9%81%8B%E7%9F%B3%E4%B9%8B%E9%96%80"
         },
         {
-          "id": "Diary/中國的「高速工業化系統」與全球競爭的真正問題",
+          "id": "essays/2026Q2/中國的「高速工業化系統」與全球競爭的真正問題",
           "title": "China's 'High-Speed Industrialisation System' and the Real Problem of Global Competition",
           "date": "2026-06-01",
           "description": "Dissecting the structural advantages and costs of China's high-efficiency industrialisation system, and the real problem if this model becomes the global mainstream.",
           "url": "/docs/Diary/%E4%B8%AD%E5%9C%8B%E7%9A%84%E3%80%8C%E9%AB%98%E9%80%9F%E5%B7%A5%E6%A5%AD%E5%8C%96%E7%B3%BB%E7%B5%B1%E3%80%8D%E8%88%87%E5%85%A8%E7%90%83%E7%AB%B6%E7%88%AD%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%95%8F%E9%A1%8C"
         },
         {
-          "id": "Diary/看不見的暴力，和一本沒人要求我寫的書",
+          "id": "essays/2026Q2/看不見的暴力，和一本沒人要求我寫的書",
           "title": "Invisible Violence, and a Book No One Asked Me to Write",
           "date": "2026-05-20",
           "description": "7-Day Writing series: an engineer's account of systemic workplace violence across three companies and three regions, and why he decided to write it down.",

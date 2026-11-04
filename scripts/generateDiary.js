@@ -1,12 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const { listDocs, LOCALE_ROOTS, slugToUrl } = require('./lib/docs');
 
-const targetDirs = {
-  'zh-Hant': 'docs/Diary',
-  'zh-HK': 'i18n/zh-HK/docusaurus-plugin-content-docs/current/Diary',
-  'en': 'i18n/en/docusaurus-plugin-content-docs/current/Diary'
-};
+// 散文列表：docs/essays/（七日書、各季隨筆）＋ docs/series/legal-harm/
+const SOURCES = ['essays', 'series/legal-harm'];
 
 const outputData = {
   'zh-Hant': [],
@@ -16,29 +14,17 @@ const outputData = {
 
 const projectRoot = path.resolve(__dirname, '..');
 
-for (const [locale, relativePath] of Object.entries(targetDirs)) {
-  const dirPath = path.join(projectRoot, relativePath);
-  
-  if (!fs.existsSync(dirPath)) {
-    console.warn(`Directory not found: ${dirPath}`);
-    continue;
-  }
-
-  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
-  
-  for (const file of files) {
-    if (file === 'index.mdx' || file === 'index.md') continue;
+for (const locale of Object.keys(LOCALE_ROOTS)) {
+  for (const d of SOURCES.flatMap((dir) => listDocs(dir, { locale }))) {
+    const file = path.basename(d.rel);
 
     // Skip orphan i18n files that have no counterpart in default locale docs/
-    if (locale !== 'zh-Hant') {
-      const defaultLocalePath = path.join(projectRoot, targetDirs['zh-Hant'], file);
-      if (!fs.existsSync(defaultLocalePath)) {
-        console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${file}`);
-        continue;
-      }
+    if (locale !== 'zh-Hant' && !fs.existsSync(path.join(projectRoot, LOCALE_ROOTS['zh-Hant'], d.rel))) {
+      console.warn(`[WARN] Skipping orphan i18n file without default locale counterpart: ${locale}/${d.rel}`);
+      continue;
     }
 
-    const filePath = path.join(dirPath, file);
+    const filePath = d.full;
     const content = fs.readFileSync(filePath, 'utf-8');
     const parsed = matter(content);
     
@@ -50,7 +36,7 @@ for (const [locale, relativePath] of Object.entries(targetDirs)) {
         id = id.replace(/^\d{4}-\d{2}-\d{2}[-_]/, '').replace(/^\d{8}[-_]/, '');
         id = id.replace(/^\d+[-_]/, '');
       }
-      const slug = parsed.data.slug || `/docs/Diary/${encodeURIComponent(id)}`;
+      const slug = parsed.data.slug ? slugToUrl(parsed.data.slug) : `/docs/${encodeURIComponent(d.docId).replace(/%2F/g, '/')}`;
       
       outputData[locale].push({
         id,

@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { loadCatalog, titleOf, fullTitleOf } = require('./lib/catalog');
+const { listDocs, getSeriesMap, slugToUrl, quarterOf, dateStr } = require('./lib/docs');
 
 const projectRoot = path.resolve(__dirname, '..');
 
@@ -13,14 +14,9 @@ const LOCALE_ROOTS = {
 
 // 書名、系列名、散文組名一律由 src/data/catalog.json 提供（唯一來源）
 
-function toDocsUrl(slug) {
-  const s = slug.startsWith('/') ? slug : '/' + slug;
-  return s.startsWith('/docs/') ? s : '/docs' + s;
-}
-
 function getDocUrl(docId, frontmatterSlug) {
   if (frontmatterSlug) {
-    return toDocsUrl(frontmatterSlug);
+    return slugToUrl(frontmatterSlug);
   }
   const segments = docId.split('/');
   return '/docs/' + segments.map((s) => encodeURIComponent(s)).join('/');
@@ -59,64 +55,9 @@ function resolveDocFile(locale, docId) {
   return null;
 }
 
-function getDocId(relFilePath, parsedData) {
-  const dir = path.dirname(relFilePath).replace(/\\/g, '/');
-  let base = path.basename(relFilePath).replace(/\.mdx?$/, '');
-  if (parsedData && parsedData.id) {
-    base = parsedData.id;
-  } else {
-    base = base
-      .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
-      .replace(/^\d{8}[-_]/, '')
-      .replace(/^\d+[-_]/, '');
-  }
-  if (base === 'index') {
-    return dir;
-  }
-  return dir === '.' ? base : `${dir}/${base}`;
-}
-
-let _cachedSeriesDocs = null;
+// 系列成員由 docs/series/<id>/ 資料夾決定（scripts/lib/docs.js）
 function getAllSeriesDocs() {
-  if (_cachedSeriesDocs) return _cachedSeriesDocs;
-  const docsDir = path.join(projectRoot, 'docs');
-  function scan(dir) {
-    let results = [];
-    const entries = fs.readdirSync(dir);
-    for (const entry of entries) {
-      const full = path.join(dir, entry);
-      const stat = fs.statSync(full);
-      if (stat.isDirectory()) {
-        results = results.concat(scan(full));
-      } else if (entry.endsWith('.md') || entry.endsWith('.mdx')) {
-        results.push(full);
-      }
-    }
-    return results;
-  }
-  const files = scan(docsDir);
-  const map = {};
-  for (const f of files) {
-    const content = fs.readFileSync(f, 'utf8');
-    const parsed = matter(content);
-    if (parsed.data && parsed.data.series && parsed.data.series.id) {
-      const s = parsed.data.series;
-      if (!map[s.id]) map[s.id] = [];
-      const relPath = path.relative(docsDir, f).replace(/\\/g, '/');
-      const docId = getDocId(relPath, parsed.data);
-      map[s.id].push({
-        docId,
-        name: s.name,
-        order: typeof s.order === 'number' ? s.order : 999,
-        file: path.relative(projectRoot, f).replace(/\\/g, '/'),
-      });
-    }
-  }
-  for (const sid of Object.keys(map)) {
-    map[sid].sort((a, b) => a.order - b.order);
-  }
-  _cachedSeriesDocs = map;
-  return map;
+  return getSeriesMap();
 }
 
 function getSeriesDocIds(seriesId) {
@@ -272,34 +213,11 @@ function generateHubs() {
       });
     }
 
-    // 3B. Rest (Diary remaining, sorted by date descending)
-    const diaryDir = path.join(projectRoot, 'docs', 'Diary');
-    const diaryFiles = fs
-      .readdirSync(diaryDir)
-      .filter((f) => (f.endsWith('.md') || f.endsWith('.mdx')) && f !== 'index.mdx' && f !== 'index.md');
-
-    const knownSevenDaysDocs = new Set(config.essays.groups.flatMap((g) => g.docs));
-
-    const restDocs = [];
-    for (const f of diaryFiles) {
-      const content = fs.readFileSync(path.join(diaryDir, f), 'utf8');
-      const parsed = matter(content);
-      // 跳過有 series 的文章（如 legal-harm）
-      if (parsed.data && parsed.data.series) {
-        continue;
-      }
-      let id = parsed.data.id || f.replace(/\.mdx?$/, '');
-      if (!parsed.data.id) {
-        id = id
-          .replace(/^\d{4}-\d{2}-\d{2}[-_]/, '')
-          .replace(/^\d{8}[-_]/, '')
-          .replace(/^\d+[-_]/, '');
-      }
-      const docId = 'Diary/' + id;
-      if (!knownSevenDaysDocs.has(docId)) {
-        restDocs.push(parseDoc(locale, docId));
-      }
-    }
+    // 3B. Rest：docs/essays/ 內七日書以外的隨筆，按日期新到舊
+    const knownGroupDocs = new Set(config.essays.groups.flatMap((g) => g.docs));
+    const restDocs = listDocs('essays')
+      .filter((d) => !knownGroupDocs.has(d.docId))
+      .map((d) => parseDoc(locale, d.docId));
 
     restDocs.sort((a, b) => {
       const tA = a.date ? new Date(a.date).getTime() : 0;
@@ -412,6 +330,23 @@ function checkDocFiles(config) {
       console.error(`  - [${m.source}] ${m.docId}`);
     });
     process.exit(1);
+  }
+
+  // 提示 1：每篇文都應在 YAML 寫 slug（網址），日後搬資料夾網址才不會變
+  const noSlug = listDocs('').filter((d) => !d.data.slug);
+  if (noSlug.length > 0) {
+    console.warn(
+      `[WARN] 以下文章 YAML 沒有 slug，網址會跟資料夾路徑走；搬動前請先加上 slug（例：slug: /notes/your-english-title）：\n${noSlug.map((d) => '  - docs/' + d.rel).join('\n')}`
+    );
+  }
+  // 提示 2：清醒記錄／散文的季度資料夾應與文章日期一致
+  const wrongQuarter = [...listDocs('notes'), ...listDocs('essays')].filter((d) => {
+    const q = quarterOf(d.rel);
+    const m = dateStr(d.data.date).match(/^(\d{4})-(\d{2})/);
+    return q && m && q !== `${m[1]} Q${Math.ceil(Number(m[2]) / 3)}`;
+  });
+  if (wrongQuarter.length > 0) {
+    console.warn(`[WARN] 以下文章所在季度資料夾與 YAML date 不一致：\n${wrongQuarter.map((d) => '  - docs/' + d.rel + '（date: ' + dateStr(d.data.date) + '）').join('\n')}`);
   }
 
   const checkMessage = `[Self-Check] Doc file verification PASSED! All ${docEntries.length} doc IDs in hubs verified in docs/. All series validated with unique orders.`;

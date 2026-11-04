@@ -53,20 +53,20 @@ BLOG/
 
 所有文章（zh-Hant 版本）的來源。Docusaurus 會自動將此目錄下的 `.md`/`.mdx` 轉為頁面。
 
-| 子目錄 | 內容 | 類型 |
+| 子目錄 | 內容 | 網站位置 |
 |---|---|---|
-| `AI_TAO/` | 《大道無形》書籍章節 | 書籍連載 |
-| `GameVictory/` | 《遊戲致勝》書籍章節 | 書籍連載 |
-| `mirror-realm/` | 《鏡中域》小說章節 | 書籍連載 |
-| `ai-war/` | AI 生態系列文章 | 專題系列 |
-| `TechNotes/` | 技術評論與分析（Lucid Record） | 獨立文章（自動生成索引） |
-| `Diary/` | 日記/隨筆 | 獨立文章（自動生成索引） |
-| `資本遊戲玩什麼（...）/` | 資本遊戲系列 | 獨立長文 |
+| `books/<書>/` | 書（ai-tao、who-collects、capital-game、mirror-realm、game-victory）；章節次序在 `src/data/catalog.json` | 書 |
+| `series/<系列 id>/` | 系列文章；資料夾 = 系列，YAML `series: { order }` = 次序（0 = 導讀頁） | 系列（清醒記錄／散文側欄內亦會出現） |
+| `notes/<2026Q4>/` | 清醒記錄獨立篇，資料夾 = 季度 | 清醒記錄 → 獨立篇 → 季度 |
+| `essays/<2026Q4>/`、`essays/seven-days/` | 散文隨筆（按季度）、七日書 | 散文 |
+| `notes/index.mdx`、`essays/index.mdx` | 清醒記錄、散文列表頁（網址 `/docs/TechNotes`、`/docs/Diary`） | |
 
-**圖片管理規則**：
-- 書籍章節的插圖**放在各自的 `docs/<BookName>/` 目錄下**，與章節 markdown 同層。
-- TechNotes 的圖片放在 `docs/TechNotes/images/`。
-- Diary 的圖片直接放在 `docs/Diary/` 與文章同層。
+**規則**：
+- 系列 id 資料夾名必須已在 `src/data/catalog.json` 的 `series` 登記。季度資料夾名一律 `2026Q4` 格式（不要寫成 `2026-Q4`，Docusaurus 會把「數字-」當作排序前綴刪掉）。
+- **圖片**放在文章所在資料夾的 `img/`，以 `./img/檔名` 引用。Obsidian 已設定（`.obsidian/app.json` 的 `attachmentFolderPath: ./img`）貼圖自動落 `img/`。
+- **網址由 YAML `slug` 決定，與資料夾無關。** 2026-11-04 前的舊文已全部釘死原有網址（如 `/TechNotes/xxx`）。新文必須寫 `slug`，建議 `/notes/<english-title>`、`/essays/<english-title>`；這樣日後由獨立篇歸入系列、搬資料夾，網址都不變。沒有 slug 的文章 build 時會出警告。
+- 搬文章：連同它在 `img/` 的圖一起搬，並改相對連結；三個語系同步搬。
+- 未被任何文章引用的舊圖片已移到 repo 根目錄 `_待確認圖片/`（不會發佈），確認無用後可刪。
 
 ### 3.2 `i18n/` — 多語系翻譯
 
@@ -115,9 +115,10 @@ i18n/<locale>/
 |---|---|---|
 | `generateHubs.js` | 讀取 `catalog.json` 及文章 YAML，生成 `src/data/hubs.json` 並自我檢查 | `npm run generate`（start / build / deploy 自動執行） |
 | `syncSidebarTranslations.js` | 由 `catalog.json` 重寫 `i18n/en`、`i18n/zh-HK` 的 sidebar 書名／系列名翻譯，刪除舊 key | 同上 |
-| `lib/catalog.js` | 讀取 catalog 的共用函式 | 被上述腳本及 `sidebars.js` 引用 |
-| `generateTechNotes.js` | 掃描 TechNotes 的 frontmatter，生成 `src/data/technotes.json` | `npm start`, `npm build`, `npm deploy` |
-| `generateDiary.js` | 掃描 Diary 的 frontmatter，生成 `src/data/diary.json` | 同上 |
+| `lib/catalog.js` | 讀取 catalog 的共用函式 |
+| `lib/docs.js` | 掃描文章、由資料夾推出系列與季度的共用函式 | 被上述腳本及 `sidebars.js` 引用 |
+| `generateTechNotes.js` | 掃描 `docs/notes/` 及清醒記錄系列，生成 `src/data/technotes.json` | `npm start`, `npm build`, `npm deploy` |
+| `generateDiary.js` | 掃描 `docs/essays/` 及合法傷害權系列，生成 `src/data/diary.json` | 同上 |
 | `fixTags.js` | 修正標籤格式 | 手動執行 |
 
 ---
@@ -134,20 +135,20 @@ i18n/<locale>/
 
 ## 5. 文章管理 SOP
 
-### 新增一篇 TechNotes 文章
+### 新增一篇文章（清醒記錄／散文／系列）
 
-1. 在 `docs/TechNotes/` 建立 `.md` 檔案
-2. 填寫 frontmatter（`title`, `date`, `section`, `topic`, `article_tags`, `summary`...）
-3. 圖片放在 `docs/TechNotes/images/`，以相對路徑引用
-4. 若需多語版本，在 `i18n/<locale>/docusaurus-plugin-content-docs/current/TechNotes/` 鏡像建立翻譯
-5. **系列與 Hubs 關聯**：文章加入系列：只需在 YAML 寫 `series: { id, order }`；系列名只在 `src/data/catalog.json`。若為獨立篇（無 series），`sidebars.js` 的動態掃描會自動歸入清醒記錄的「獨立篇」
-6. 執行 `npm run generate` 驗證並更新 `hubs.json` 及 sidebar 翻譯
+1. 決定位置：獨立篇 → `docs/notes/<當季，如 2026Q4>/`；散文 → `docs/essays/<當季>/`；系列文 → `docs/series/<系列 id>/`
+2. 填寫 frontmatter（`title`, `date`, **`slug`**, `section`, `topic`, `article_tags`, `summary`...）；系列文加 `series: { order: N }`
+3. 圖片放在同資料夾的 `img/`，以 `./img/檔名` 引用
+4. 多語版本：在 `i18n/<locale>/docusaurus-plugin-content-docs/current/` 下相同路徑建立翻譯（資料夾、檔名與 docs/ 完全一致）
+5. 新系列：先在 `src/data/catalog.json` 的 `series` 登記 id 與三語名稱，再建 `docs/series/<id>/`
+6. 執行 `npm run generate` 驗證並更新列表、hubs 及 sidebar 翻譯
 
 ### 新增一本書的章節
 
-1. 在 `docs/<BookName>/` 下新增 `chXX.md`
+1. 在 `docs/books/<書>/` 下新增 `chXX.md`（記得寫 `slug`）
 2. 在 `src/data/catalog.json` 對應書本的 `chapters` 加入新章節 ID（次序即側欄次序）
-3. 圖片放在同一目錄下
+3. 圖片放在同資料夾的 `img/`
 4. 執行 `npm run generate`（書的入口 = `chapters` 第一項）
 
 ---
@@ -225,7 +226,7 @@ src/
 
 | 對象 | 慣例 | 範例 |
 |---|---|---|
-| docs 子目錄 | PascalCase 或 kebab-case | `AI_TAO`, `mirror-realm` |
+| docs 子目錄 | 英文 kebab-case；季度 `2026Q4` | `books/ai-tao`, `notes/2026Q4` |
 | 章節 markdown | `chXX.md` | `ch01.md`, `ch12b.md` |
 | React 元件目錄 | PascalCase | `DiaryList/`, `Forum/` |
 | CSS Modules | `*.module.css` | `styles.module.css` |

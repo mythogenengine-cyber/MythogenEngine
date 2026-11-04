@@ -60,3 +60,6 @@ _reports/
 
 
 
+
+# Obsidian 視窗狀態（每次開關都會變，不入 git）
+.obsidian/workspace.json

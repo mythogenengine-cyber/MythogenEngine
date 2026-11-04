@@ -1,4 +1,5 @@
 ---
+description: "《大道無形：敘事、工具與意識的最後防線》書籍資訊：五部十八章、約二十一萬字，附章節目錄與版權說明。"
 title: "大道無形 — INFO PAGE"
 slug: "/AI_TAO/INFO_PAGE"
 ---

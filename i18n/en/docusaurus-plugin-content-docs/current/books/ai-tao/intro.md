@@ -1,4 +1,5 @@
 ---
+description: "A detective report on the mechanism that lets storytellers escape the consequences while those who bear them never see the bill. AI isn't the problem — the coverings are."
 slug: "/AI_TAO/intro"
 ---
 # The Invisible Path: Narrative, Tools, and the Last Line of Defence of Consciousness

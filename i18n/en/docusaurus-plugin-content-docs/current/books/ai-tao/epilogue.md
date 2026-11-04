@@ -1,4 +1,5 @@
 ---
+description: "A book that can reach the future: which analyses will expire, which principles will still hold in twenty years, and the simple act of going back to the original source."
 slug: "/AI_TAO/epilogue"
 ---
 # Epilogue: A Book That Can Reach the Future

@@ -1,4 +1,5 @@
 ---
+description: "Book information for The Invisible Path: Narrative, Tools, and the Last Line of Defence — five parts, eighteen chapters, with table of contents and copyright notice."
 title: "The Invisible Path — Book Info Page"
 slug: "/AI_TAO/INFO_PAGE"
 ---

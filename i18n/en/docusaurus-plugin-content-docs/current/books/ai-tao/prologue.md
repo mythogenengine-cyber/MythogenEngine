@@ -1,4 +1,5 @@
 ---
+description: "A Schopenhauer-style comfort text generated in ten seconds shows how AI imitates the shape of being understood, and sets out the three questions this book answers."
 slug: "/AI_TAO/prologue"
 ---
 # Prologue: Three Questions

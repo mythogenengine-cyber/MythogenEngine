@@ -1,4 +1,5 @@
 ---
+description: "That you have read this far is itself a choice: a book no algorithm will recommend, defending the capacity for independent judgment."
 slug: "/AI_TAO/afterword"
 ---
 # Afterword: About What You Are Doing Right Now

@@ -200,4 +200,4 @@ GitHub (80 million+ developers) and VS Code (world's most popular IDE) are Micro
 
 **Time is running out for Microsoft to ensure its platform advantage isn't washed away by the Agentic tide before Suleyman's five-year plan bears fruit.**
 
-👉 [Theme 06: Apple's Quiet Counterkill](06_Apples_Quiet_Counterkill.md)
+👉 [Theme 06: Apple's Quiet Counterkill](./06_apple_counter.md)

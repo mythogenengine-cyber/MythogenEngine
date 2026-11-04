@@ -182,4 +182,4 @@ Microsoft possesses the strongest "ecosystem" and "distribution channels," but *
 
 In this brutal game, Microsoft attempts to forcefully sew cloud, system, and hardware together with boundless capital. But until these four tightening spells are undone, this AI empire is built entirely on quicksand waiting to collapse.
 
-👉 [Theme 05: The Surprise Attack of Claude Code](05_Surprise_Attack_of_Claude_Code.md)
+👉 [Theme 05: The Surprise Attack of Claude Code](./05_claude_code.md)

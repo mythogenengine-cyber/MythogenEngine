@@ -34,7 +34,7 @@ slug: "/TechNotes/每一句都是真話：一堂 AI 影片課的成本帳"
 
 # Every Sentence Is True: The Real Cost Accounting of an AI Video Course
 
-Sep 24, 2026 · @Mythogen
+Sep 24, 2026 · @Mythogen Engine
 
 Ah Zhe is thirty-two. He has spent seven years editing video as a freelancer. Starting last year, the very first question clients asked shifted from "When can you deliver?" to "Can this be made with AI?"
 

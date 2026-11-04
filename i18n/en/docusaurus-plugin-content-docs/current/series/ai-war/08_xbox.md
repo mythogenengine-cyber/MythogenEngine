@@ -198,4 +198,4 @@ In the cracks of this clash of giants, Anthropic's Claude Code is tearing throug
 
 *This research is based on public data up to March 2026. All data is cross-verified; selected predictive opinions represent analytical reasoning and do not constitute investment advice.*
 
-👈 [Return to Table of Contents](00_Table_of_Contents_and_Guide.md)
+👈 [Return to Table of Contents](./00_guide.md)

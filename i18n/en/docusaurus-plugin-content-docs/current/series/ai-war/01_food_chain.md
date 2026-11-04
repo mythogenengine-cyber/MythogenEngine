@@ -140,4 +140,4 @@ What AI makes obsolete is not technology, but business models that fail to balan
 
 The next question is: Why is Microsoft, the seemingly most advantaged "landlord," actually in a far more dangerous position than anyone imagines?
 
-👉 [Theme 02: The Dangerous Dance Between Microsoft and OpenAI](02_Dangerous_Dance_Between_Microsoft_and_OpenAI.md)
+👉 [Theme 02: The Dangerous Dance Between Microsoft and OpenAI](./02_ms_openai.md)

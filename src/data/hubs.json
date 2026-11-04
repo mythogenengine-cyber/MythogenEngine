@@ -31,7 +31,7 @@
       {
         "id": "mirror-realm",
         "title": "鏡界：假面系統殺人事件",
-        "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明回到書房，沒有開燈。 窗外是海。夜裡看不清水色，只有遠處幾點燈。這個方向，是漂亮的。",
+        "description": "「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明回到書房，沒有開燈。 窗外是海。夜裡看不清水色，只有遠處幾點燈。這個方向，是漂亮的。",
         "url": "/docs/mirror-realm/prologue",
         "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",
@@ -528,7 +528,7 @@
       {
         "id": "mirror-realm",
         "title": "鏡界：假面系統殺人事件",
-        "description": "⬇️ 下載《鏡界：假面系統殺人事件》電子書 (EPUB) 「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明返到書房，冇開燈。 窗外係海。夜裏睇唔清水色，得遠處幾點燈。呢個方向，係靚嘅。",
+        "description": "「如果這本書只能救到一個人——一個人也值得。」 ——林昭明 林昭明返到書房，冇開燈。 窗外係海。夜裏睇唔清水色，得遠處幾點燈。呢個方向，係靚嘅。",
         "url": "/docs/mirror-realm/prologue",
         "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",
@@ -1025,7 +1025,7 @@
       {
         "id": "mirror-realm",
         "title": "Mirror Realm",
-        "description": "━━━━━━━━━━━━━━━━━━━━ A NOTE ON THIS TRANSLATION You are reading a working draft. The original is in Chinese (Cantonese and Mandarin editions).",
+        "description": "An engineer walks into a system designed to make you lose. Institutions don't need villains to grind people down.",
         "url": "/docs/mirror-realm/prologue",
         "entry": "books/mirror-realm/prologue",
         "sidebar": "mirrorRealm",

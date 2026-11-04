@@ -136,4 +136,4 @@ But this "optimal solution" is suffering severe blowback. As OpenAI begins looki
 
 **The end of 2026 through 2027 is the critical juncture.** Whether it's through IPOs laying open their books or a breakthrough in in-house modeling, the most dangerous dance in tech history is finally approaching its climax or conclusion.
 
-👉 [Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle](03_AI_Perpetual_Motion_Machine.md)
+👉 [Theme 03: AI Perpetual Motion Machine—The $100 Billion Capital Cycle](./03_perpetual_motion.md)

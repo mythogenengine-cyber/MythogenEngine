@@ -154,4 +154,4 @@ Apple doesn't need to win the cloud war. It only needs to do one thing: **Make u
 
 If Apple succeeds, Microsoft will find that the AI empire it spent tens of billions building in the cloud is slowly being drained from the pockets of end consumers by a rival functioning entirely outside the cloud arena.
 
-👉 [Theme 07: The Route Dispute of AI Film and Television](07_Route_Dispute_of_AI_Film_and_Television.md)
+👉 [Theme 07: The Route Dispute of AI Film and Television](./07_ai_film.md)

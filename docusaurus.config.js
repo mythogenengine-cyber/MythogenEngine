@@ -26,6 +26,19 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    // 文章 YAML 只寫 summary 時，自動用作 meta description（搜尋結果摘要），
+    // 唔使再重複寫一次 description。冇 summary 嘅頁面，Docusaurus 會用第一段文字。
+    parseFrontMatter: async (params) => {
+      const result = await params.defaultParseFrontMatter(params);
+      const fm = result.frontMatter;
+      if (!fm.description && typeof fm.summary === 'string' && fm.summary.trim()) {
+        fm.description = fm.summary.trim();
+      }
+      return result;
+    },
+  },
   favicon: 'img/favicon.ico',
 
   // GitHub Pages deployment config.

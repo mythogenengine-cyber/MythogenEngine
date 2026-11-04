@@ -117,7 +117,7 @@ DX11 時代,驅動程式會替開發者處理大量著色器編譯和排列組�
 工程資源沒有花在改善遊戲引擎上,沒有花在遊戲 AI 上。工程資源花在建設平台鎖定的基礎設施上。遊戲品質是手段,平台黏性才是目的。
 
 ![](./img/Gemini_Generated_Image_ot21t9ot21t9ot21.jpg)
-![](./img/Gemini_Generated_Image_ndwbrfndwbrfndwb 1.jpg)
+![](<./img/Gemini_Generated_Image_ndwbrfndwbrfndwb 1.jpg>)
 
 ---
 

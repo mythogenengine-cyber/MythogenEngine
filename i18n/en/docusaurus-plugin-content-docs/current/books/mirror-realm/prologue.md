@@ -1,7 +1,7 @@
 ---
 title: "Prologue: The Way of Disappearing"
-description: "━━━━━━━━━━━━━━━━━━━━ A NOTE ON THIS TRANSLATION You are reading a working draft. The original is in Chinese (Cantonese and Mandarin editions)."
-summary: "━━━━━━━━━━━━━━━━━━━━ A NOTE ON THIS TRANSLATION You are reading a working draft. The original is in Chinese (Cantonese and Mandarin editions)."
+description: "An engineer walks into a system designed to make you lose. Institutions don't need villains to grind people down."
+summary: "An engineer walks into a system designed to make you lose. Institutions don't need villains to grind people down."
 slug: "/mirror-realm/prologue"
 ---
 # Prologue: The Way of Disappearing

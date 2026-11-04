@@ -144,4 +144,4 @@ Anthropic is also prepping an IPO, possibly in October 2026. As both companies g
 
 **This perpetual motion machine has at most 1-2 more years to spin before the truth comes to light.**
 
-👉 [Theme 04: Microsoft's Four Tightening Spells](04_Microsofts_Four_Tightening_Spells.md)
+👉 [Theme 04: Microsoft's Four Tightening Spells](./04_limitations.md)

@@ -142,4 +142,4 @@ Players hoping to survive in the AI video market must fulfill:
 
 **The future of AI video doesn't belong to the company with the most chips or the loudest claims—it belongs to whoever can get audiences to pay.**
 
-👉 [Theme 08: The Xbox Gamble and Crisis](08_Xbox_Gamble_and_Crisis.md)
+👉 [Theme 08: The Xbox Gamble and Crisis](./08_xbox.md)

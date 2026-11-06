@@ -15,6 +15,10 @@
     "message": "Lucid Record",
     "description": "Navbar item with label 清醒記錄"
   },
+  "item.label.財經學習": {
+    "message": "Finance",
+    "description": "Navbar item with label 財經學習"
+  },
   "item.label.散文": {
     "message": "Essays",
     "description": "Navbar item with label 散文"

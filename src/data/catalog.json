@@ -1,5 +1,5 @@
 {
-  "_說明": "全站書名、系列名、散文組名的唯一來源。改名只改這裡；sidebar、/books、/series、/essays、首頁、關於頁、英文與港版 sidebar 翻譯都由此生成。title = 側欄及卡片用的名稱；fullTitle = 書目頁及關於頁用的完整書名（可省略）。zh-HK 未填時沿用 zh-Hant。系列成員由資料夾 docs/series/<系列 id>/ 決定，次序寫在各篇 YAML 的 series: { order }。 sections = 首頁四個入口（書／系列／清醒記錄／散文）的名稱與一句介紹。",
+  "_說明": "全站書名、系列名、散文組名的唯一來源。改名只改這裡；sidebar、/books、/series、/essays、首頁、關於頁、英文與港版 sidebar 翻譯都由此生成。title = 側欄及卡片用的名稱；fullTitle = 書目頁及關於頁用的完整書名（可省略）。zh-HK 未填時沿用 zh-Hant。系列成員由資料夾 docs/series/<系列 id>/ 決定（財經學習：finance 列表，資料夾 docs/finance/<系列 id>/），次序寫在各篇 YAML 的 series: { order }。 sections = 首頁入口（書／系列／清醒記錄／財經學習／散文）的名稱與一句介紹。",
   "books": [
     {
       "id": "capital-game",
@@ -197,6 +197,15 @@
       }
     }
   ],
+  "finance": [
+    {
+      "id": "ai-in-financial-statements",
+      "title": {
+        "zh-Hant": "財報裡的 AI",
+        "en": "AI in the Financial Statements"
+      }
+    }
+  ],
   "essays": {
     "groups": [
       {
@@ -257,6 +266,22 @@
         "zh-Hant": "產業與資本結構評論，按季度整理。",
         "zh-HK": "產業同資本結構評論，按季度整理。",
         "en": "Commentary on industry and capital structure, grouped by quarter."
+      },
+      "unit": {
+        "zh-Hant": "篇",
+        "en": "articles"
+      }
+    },
+    "finance": {
+      "to": "/finance",
+      "title": {
+        "zh-Hant": "財經學習",
+        "en": "Finance"
+      },
+      "intro": {
+        "zh-Hant": "用財報數字讀產業與資本週期。",
+        "zh-HK": "用財報數字讀產業同資本週期。",
+        "en": "Reading industry and capital cycles through the financial statements."
       },
       "unit": {
         "zh-Hant": "篇",

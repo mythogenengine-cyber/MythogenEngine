@@ -3,7 +3,7 @@ const path = require('path');
 const matter = require('gray-matter');
 const { loadCatalog, titleOf, fullTitleOf } = require('./lib/catalog');
 const { checkUrlLock } = require('./lib/urlLock');
-const { listDocs, getSeriesMap, slugToUrl, quarterOf, dateStr } = require('./lib/docs');
+const { listDocs, getSeriesMap, getFinanceMap, getAlsoInMap, slugToUrl, quarterOf, dateStr } = require('./lib/docs');
 
 const projectRoot = path.resolve(__dirname, '..');
 
@@ -61,10 +61,11 @@ function getAllSeriesDocs() {
   return getSeriesMap();
 }
 
+// 系列在 /series 頁的篇目：本系列文章 + also_in 交叉列出的文章，按 order 排
 function getSeriesDocIds(seriesId) {
-  const map = getAllSeriesDocs();
-  const list = map[seriesId] || [];
-  return list.map((item) => item.docId);
+  const own = getAllSeriesDocs()[seriesId] || [];
+  const refs = getAlsoInMap()[seriesId] || [];
+  return [...own, ...refs].sort((a, b) => a.order - b.order).map((item) => item.docId);
 }
 
 function extractFirstH1(content) {
@@ -103,6 +104,8 @@ function parseDoc(locale, docId) {
     url,
     category,
     series: data.series || null,
+    readingTime: typeof data.reading_time === 'number' ? data.reading_time : null,
+    status: data.status || null,
   };
 }
 
@@ -138,9 +141,9 @@ function generateHubs() {
   const sidebars = require(sidebarsPath);
 
   const outputData = {
-    'zh-Hant': { books: [], series: [], essays: { groups: [], rest: [] } },
-    'zh-HK': { books: [], series: [], essays: { groups: [], rest: [] } },
-    en: { books: [], series: [], essays: { groups: [], rest: [] } },
+    'zh-Hant': { books: [], series: [], finance: [], essays: { groups: [], rest: [] } },
+    'zh-HK': { books: [], series: [], finance: [], essays: { groups: [], rest: [] } },
+    en: { books: [], series: [], finance: [], essays: { groups: [], rest: [] } },
   };
 
   for (const locale of ['zh-Hant', 'zh-HK', 'en']) {
@@ -196,6 +199,29 @@ function generateHubs() {
       });
     }
 
+    // 2B. 財經學習（docs/finance/<id>/，名稱在 catalog.json finance）
+    const financeMap = getFinanceMap();
+    for (const f of config.finance || []) {
+      const docs = (financeMap[f.id] || []).map((it) => parseDoc(locale, it.docId));
+      const dates = docs.map((d) => d.date).filter(Boolean).sort();
+      outputData[locale].finance.push({
+        id: f.id,
+        title: titleOf('finance', f.id, locale),
+        description: docs[0].description,
+        itemsCount: docs.length,
+        dateRange: dates.length === 0 ? '-' : dates[0] === dates[dates.length - 1] ? dates[0] : `${dates[0]} ~ ${dates[dates.length - 1]}`,
+        docs: docs.map((d) => ({
+          id: d.id,
+          title: d.title,
+          date: d.date,
+          description: d.description,
+          url: d.url,
+          readingTime: d.readingTime,
+          status: d.status,
+        })),
+      });
+    }
+
     // 3. Essays
     // 3A. Groups (seven-days)
     for (const group of config.essays.groups) {
@@ -240,6 +266,12 @@ function generateHubs() {
   fs.writeFileSync(outPath, JSON.stringify(outputData, null, 2), 'utf8');
   console.log(`[generateHubs] Successfully written hubs metadata to ${outPath}`);
 
+  // 財經學習另存一個小檔，給首頁、最新文章及 /finance 頁用（首頁不載入整個 hubs.json）
+  const financeOut = path.join(projectRoot, 'src', 'data', 'finance.json');
+  const financeData = Object.fromEntries(Object.entries(outputData).map(([loc, d]) => [loc, d.finance]));
+  fs.writeFileSync(financeOut, JSON.stringify(financeData, null, 2), 'utf8');
+  console.log(`[generateHubs] Successfully written finance metadata to ${financeOut}`);
+
   // Perform Self-Check
   const selfCheckResult = runSelfCheck(outputData['zh-Hant'], config, { docCheckAlreadyDone: docCheckResult });
   return { outputData, selfCheckResult };
@@ -270,6 +302,14 @@ function extractConfigDocIds(config) {
       for (const item of list) {
         docEntries.push({ docId: item.docId, source: `Series: ${s.id}` });
       }
+    }
+  }
+
+  // 2B. 財經學習
+  const financeMap = getFinanceMap();
+  for (const f of config.finance || []) {
+    for (const item of financeMap[f.id] || []) {
+      docEntries.push({ docId: item.docId, source: `Finance: ${f.id}` });
     }
   }
 
@@ -312,6 +352,43 @@ function checkDocFiles(config) {
   if (unknown.length > 0) {
     console.error(`\n[Self-Check ERROR] 文章 YAML 用了未登記的 series id：${unknown.join(', ')}。請在 src/data/catalog.json 的 series 加上名稱。`);
     process.exit(1);
+  }
+
+  // 自我檢查 1c：財經學習 docs/finance/<id>/ 必須在 catalog.json finance 登記；每個登記的 id 至少一篇、order 不重複
+  const financeMap = getFinanceMap();
+  const knownFinance = new Set((config.finance || []).map((f) => f.id));
+  const unknownFinance = Object.keys(financeMap).filter((id) => !knownFinance.has(id));
+  if (unknownFinance.length > 0) {
+    console.error(`\n[Self-Check ERROR] docs/finance/ 內有未登記的資料夾：${unknownFinance.join(', ')}。請在 src/data/catalog.json 的 finance 加上名稱。`);
+    process.exit(1);
+  }
+  for (const f of config.finance || []) {
+    const list = financeMap[f.id] || [];
+    if (list.length === 0) {
+      console.error(`\n[Self-Check ERROR] 財經系列 "${f.id}" 在 catalog.json 登記了，但 docs/finance/${f.id}/ 沒有文章。`);
+      process.exit(1);
+    }
+    const orders = list.map((it) => it.order);
+    const dup = list.filter((it, idx) => orders.indexOf(it.order) !== idx);
+    if (dup.length > 0) {
+      console.error(`\n[Self-Check ERROR] 財經系列 "${f.id}" 的 order 重複：${dup.map((d) => d.order).join(', ')}`);
+      process.exit(1);
+    }
+  }
+
+  // 自我檢查 1d：also_in 指向的系列必須存在，order 不可與該系列現有文章重複
+  const alsoIn = getAlsoInMap();
+  for (const [sid, refs] of Object.entries(alsoIn)) {
+    if (!knownSeries.has(sid)) {
+      console.error(`\n[Self-Check ERROR] also_in 指向未登記的系列「${sid}」：${refs.map((r) => 'docs/' + r.rel).join('、')}`);
+      process.exit(1);
+    }
+    const all = [...(seriesMap[sid] || []), ...refs].map((it) => it.order);
+    const clash = all.filter((o, idx) => all.indexOf(o) !== idx);
+    if (clash.length > 0) {
+      console.error(`\n[Self-Check ERROR] 系列「${sid}」的 order 重複（含 also_in 交叉列出的文章）：${clash.join(', ')}`);
+      process.exit(1);
+    }
   }
 
   // 自我檢查 2：所有 docId 必須存在於 docs/

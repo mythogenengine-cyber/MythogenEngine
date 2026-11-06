@@ -58,6 +58,9 @@ BLOG/
 | `books/<書>/` | 書（ai-tao、who-collects、capital-game、mirror-realm、game-victory）；章節次序在 `src/data/catalog.json` | 書 |
 | `series/<系列 id>/` | 系列文章；資料夾 = 系列，YAML `series: { order }` = 次序（0 = 導讀頁） | 系列（清醒記錄／散文側欄內亦會出現） |
 | `notes/<2026Q4>/` | 清醒記錄獨立篇，資料夾 = 季度 | 清醒記錄 → 獨立篇 → 季度 |
+| `finance/<財經系列 id>/` | 財經學習；資料夾 = 財經系列（名稱在 `catalog.json` 的 `finance`），YAML `series: { order }` = 次序 | 財經學習（`/finance`） |
+
+一篇文同時屬於兩個系列：只放一個資料夾（主位），YAML 加 `also_in: { series: <系列 id>, order: N }`；另一個系列的側欄以 `ref` 連結列出（網址與所屬側欄不變），`/series` 頁亦會列入。
 | `essays/<2026Q4>/`、`essays/seven-days/` | 散文隨筆（按季度）、七日書 | 散文 |
 | `notes/index.mdx`、`essays/index.mdx` | 清醒記錄、散文列表頁（網址 `/docs/TechNotes`、`/docs/Diary`） | |
 
@@ -130,8 +133,8 @@ i18n/<locale>/
 
 | 檔案 | 重點內容 |
 |---|---|
-| `docusaurus.config.js` | 網站標題、URL、i18n 語系、navbar 項目（書、系列、清醒記錄、散文、關於）、footer、gtag |
-| `sidebars.js` | 側邊欄結構，拆分為 9 個獨立 sidebar（`aiTao`, `mirrorRealm`, `gameVictory`, `capitalGame`, `whoCollects`, `aiWar`, `beggarsBowl`, `lucidRecord`, `essays`）；系列與獨立篇、隨筆全部透過動態掃描文章 front matter 生成 |
+| `docusaurus.config.js` | 網站標題、URL、i18n 語系、navbar 項目（書、系列、清醒記錄、財經學習、散文、關於）、footer、gtag |
+| `sidebars.js` | 側邊欄結構，拆分為 10 個獨立 sidebar（`aiTao`, `mirrorRealm`, `gameVictory`, `capitalGame`, `whoCollects`, `aiWar`, `beggarsBowl`, `lucidRecord`, `finance`, `essays`）；系列與獨立篇、隨筆全部透過動態掃描文章 front matter 生成 |
 | `package.json` | `generate` 依序跑 generateTechNotes、generateDiary、generateHubs、syncSidebarTranslations；`start` / `build` / `deploy` 先跑 `generate` |
 
 ---
@@ -140,11 +143,11 @@ i18n/<locale>/
 
 ### 新增一篇文章（清醒記錄／散文／系列）
 
-1. 決定位置：獨立篇 → `docs/notes/<當季，如 2026Q4>/`；散文 → `docs/essays/<當季>/`；系列文 → `docs/series/<系列 id>/`
+1. 決定位置：獨立篇 → `docs/notes/<當季，如 2026Q4>/`；散文 → `docs/essays/<當季>/`；系列文 → `docs/series/<系列 id>/`；財經學習 → `docs/finance/<財經系列 id>/`
 2. 填寫 frontmatter（`title`, `date`, **`slug`**, `section`, `topic`, `article_tags`, `summary`...）；系列文加 `series: { order: N }`
 3. 圖片放在同資料夾的 `img/`，以 `./img/檔名` 引用
 4. 多語版本：在 `i18n/<locale>/docusaurus-plugin-content-docs/current/` 下相同路徑建立翻譯（資料夾、檔名與 docs/ 完全一致）
-5. 新系列：先在 `src/data/catalog.json` 的 `series` 登記 id 與三語名稱，再建 `docs/series/<id>/`
+5. 新系列：先在 `src/data/catalog.json` 的 `series` 登記 id 與三語名稱，再建 `docs/series/<id>/`；新財經系列登記在 `finance`，資料夾 `docs/finance/<id>/`
 6. 執行 `npm run generate` 驗證並更新列表、hubs 及 sidebar 翻譯
 
 ### 新增一本書的章節

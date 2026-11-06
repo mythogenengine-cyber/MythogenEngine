@@ -106,6 +106,11 @@ const config = {
             label: '清醒記錄',
           },
           {
+            to: '/finance',
+            position: 'left',
+            label: '財經學習',
+          },
+          {
             to: '/essays',
             position: 'left',
             label: '散文',

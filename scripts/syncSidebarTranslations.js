@@ -14,7 +14,7 @@ const LOCALES = ['en', 'zh-HK'];
 function catalogLabelMap() {
   const c = loadCatalog();
   const map = new Map(); // zh-Hant label -> names object
-  for (const e of [...c.books, ...c.series, ...c.essays.groups]) {
+  for (const e of [...c.books, ...c.series, ...(c.finance || []), ...c.essays.groups]) {
     map.set(pick(e.title, 'zh-Hant'), e.title);
   }
   return map;

@@ -9,9 +9,10 @@ import { catalogTitle } from '@site/src/utils/catalog';
 import catalog from '@site/src/data/catalog.json';
 import technotesData from '@site/src/data/technotes.json';
 import diaryData from '@site/src/data/diary.json';
+import financeData from '@site/src/data/finance.json';
 
 // 首頁三段（用戶 2026-11-04 決定的次序）：
-//   1. 作品導航：書｜系列｜清醒記錄｜散文 四個入口（名稱與介紹在 src/data/catalog.json 的 sections）
+//   1. 作品導航：書｜系列｜清醒記錄｜財經學習｜散文（名稱、介紹與次序在 src/data/catalog.json 的 sections）
 //   2. 最新文章（RecentUpdates）
 //   3. 宣言與最新著作《大道無形》
 
@@ -38,6 +39,11 @@ function SectionNav() {
     series: catalog.series.length,
     notes: count((technotesData as Record<string, unknown>)[locale] ?? (technotesData as Record<string, unknown>)['zh-Hant']),
     essays: count((diaryData as Record<string, unknown>)[locale] ?? (diaryData as Record<string, unknown>)['zh-Hant']),
+    finance: (
+      (financeData as Record<string, { itemsCount: number }[]>)[locale] ??
+      (financeData as Record<string, { itemsCount: number }[]>)['zh-Hant'] ??
+      []
+    ).reduce((n, s) => n + s.itemsCount, 0),
   };
 
   return (

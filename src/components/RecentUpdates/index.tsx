@@ -7,6 +7,7 @@ import styles from './styles.module.css';
 import technotesData from '@site/src/data/technotes.json';
 import catalog from '@site/src/data/catalog.json';
 import diaryData from '@site/src/data/diary.json';
+import financeData from '@site/src/data/finance.json';
 
 interface ArticleItem {
   id: string;
@@ -20,7 +21,7 @@ interface ArticleItem {
   summary?: string;
   status?: string;
   reading_time?: number;
-  sectionType: 'technotes' | 'diary';
+  sectionType: 'technotes' | 'diary' | 'finance';
   sectionLabel: string;
 }
 
@@ -36,6 +37,7 @@ export default function RecentUpdates() {
   const sectionName = (key: string) => sections[key].title[locale] || sections[key].title['zh-Hant'];
   const notesName = sectionName('notes');
   const essaysName = sectionName('essays');
+  const financeName = sectionName('finance');
 
   const recentArticles = useMemo(() => {
     const tnList: ArticleItem[] = ((technotesData as any)[localeKey] || []).map((a: any) => ({
@@ -50,7 +52,22 @@ export default function RecentUpdates() {
       sectionLabel: essaysName,
     }));
 
-    const combined = [...tnList, ...diaryList].filter(
+    // 財經學習：來自 finance.json（scripts/generateHubs.js 生成），卡片標籤顯示欄目名
+    const financeList: ArticleItem[] = ((financeData as any)[localeKey] || []).flatMap((s: any) =>
+      s.docs.map((d: any) => ({
+        id: d.id,
+        slug: d.url,
+        title: d.title,
+        date: d.date,
+        summary: d.description,
+        status: d.status,
+        reading_time: d.readingTime,
+        sectionType: 'finance',
+        sectionLabel: financeName,
+      })),
+    );
+
+    const combined = [...tnList, ...financeList, ...diaryList].filter(
       item => item.id !== 'index' && item.date && item.status === 'published'
     );
 
@@ -61,7 +78,7 @@ export default function RecentUpdates() {
     });
 
     return combined.slice(0, 8);
-  }, [localeKey, notesName, essaysName]);
+  }, [localeKey, notesName, essaysName, financeName]);
 
   if (recentArticles.length === 0) {
     return null;
@@ -71,11 +88,12 @@ export default function RecentUpdates() {
   const badgeText = isEn ? 'RECENT UPDATES' : '最新動態';
   const headingText = isEn ? 'Latest Dispatches' : isZhHK ? '最新發布文章' : '最新發布文章';
   const subtitleText = isEn
-    ? `The 8 most recent publications across ${notesName} and ${essaysName}.`
-    : `${notesName}與${essaysName}最新收錄的 8 篇文章。`;
+    ? `The 8 most recent publications across ${notesName}, ${financeName} and ${essaysName}.`
+    : `${notesName}、${financeName}與${essaysName}最新收錄的 8 篇文章。`;
 
   const techNotesLinkText = isEn ? `All ${notesName} →` : `所有${notesName} →`;
   const diaryLinkText = isEn ? `All ${essaysName} →` : `所有${essaysName} →`;
+  const financeLinkText = isEn ? `All ${financeName} →` : `所有${financeName} →`;
 
   return (
     <section className={styles.section}>
@@ -92,6 +110,9 @@ export default function RecentUpdates() {
           <div className={styles.viewAllLinks}>
             <Link to={sections.notes.to} className={styles.viewAllLink}>
               {techNotesLinkText}
+            </Link>
+            <Link to={sections.finance.to} className={styles.viewAllLink}>
+              {financeLinkText}
             </Link>
             <Link to={sections.essays.to} className={styles.viewAllLink}>
               {diaryLinkText}

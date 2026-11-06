@@ -133,8 +133,8 @@
         "id": "memory-series",
         "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
-        "itemsCount": 4,
-        "dateRange": "2026-05-26 ~ 2026-07-31",
+        "itemsCount": 5,
+        "dateRange": "2026-05-26 ~ 2026-11-06",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -166,6 +166,14 @@
             "date": "2026-07-31",
             "description": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
             "url": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+            "category": "半導體週期"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "毛利率還在創新高，第一個轉向訊號出現了",
+            "date": "2026-11-06",
+            "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
+            "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
           }
         ]
@@ -441,6 +449,62 @@
         ]
       }
     ],
+    "finance": [
+      {
+        "id": "ai-in-financial-statements",
+        "title": "財報裡的 AI",
+        "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
+        "itemsCount": 5,
+        "dateRange": "2026-11-06",
+        "docs": [
+          {
+            "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
+            "title": "同一個產業代碼，兩種相反的動作",
+            "date": "2026-11-06",
+            "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
+            "url": "/docs/finance/one-industry-code-two-opposite-moves",
+            "readingTime": 12,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/改一個估計，多賺幾十億",
+            "title": "改一個估計，多賺幾十億：合法的靚盤數，怎樣自己看穿",
+            "date": "2026-11-06",
+            "description": "拆解 Intel、Microsoft 與旺宏延長設備使用年限的會計操作，教你如何從公開財報看穿合法的利潤調節。",
+            "url": "/docs/finance/change-one-estimate-earn-billions-more",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/成本搬去了哪裡",
+            "title": "成本搬去了哪裡",
+            "date": "2026-11-06",
+            "description": "追蹤四大雲端巨頭的年報數據，揭開 AI 成本如何從損益表搬進租約、未來折舊與發債融資中。",
+            "url": "/docs/finance/where-did-the-costs-go",
+            "readingTime": 8,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/派錢的人開始收錢",
+            "title": "派錢的人開始收錢",
+            "date": "2026-11-06",
+            "description": "從 Intel 與 PC 生態及合作夥伴出資的現金流變化，分析晶片巨頭如何從補貼生態轉為向供應鏈收錢。",
+            "url": "/docs/finance/the-payer-starts-collecting",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "毛利率還在創新高，第一個轉向訊號出現了",
+            "date": "2026-11-06",
+            "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
+            "url": "/docs/finance/margins-still-at-record-highs",
+            "readingTime": 8,
+            "status": "published"
+          }
+        ]
+      }
+    ],
     "essays": {
       "groups": [
         {
@@ -630,8 +694,8 @@
         "id": "memory-series",
         "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
-        "itemsCount": 4,
-        "dateRange": "2026-05-26 ~ 2026-07-31",
+        "itemsCount": 5,
+        "dateRange": "2026-05-26 ~ 2026-11-06",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -663,6 +727,14 @@
             "date": "2026-07-31",
             "description": "拆解 AI 產品三層金字塔（免費／訂閱／API），揭示付費能力如何與提問能力疊加，使最需要保護的用戶拿到最危險的答案。",
             "url": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+            "category": "半導體週期"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "毛利率還在創新高，第一個轉向訊號出現了",
+            "date": "2026-11-06",
+            "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
+            "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
           }
         ]
@@ -938,6 +1010,62 @@
         ]
       }
     ],
+    "finance": [
+      {
+        "id": "ai-in-financial-statements",
+        "title": "財報裡的 AI",
+        "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
+        "itemsCount": 5,
+        "dateRange": "2026-11-06",
+        "docs": [
+          {
+            "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
+            "title": "同一個產業代碼，兩種相反的動作",
+            "date": "2026-11-06",
+            "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
+            "url": "/docs/finance/one-industry-code-two-opposite-moves",
+            "readingTime": 12,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/改一個估計，多賺幾十億",
+            "title": "改一個估計，多賺幾十億：合法的靚盤數，怎樣自己看穿",
+            "date": "2026-11-06",
+            "description": "拆解 Intel、Microsoft 與旺宏延長設備使用年限的會計操作，教你如何從公開財報看穿合法的利潤調節。",
+            "url": "/docs/finance/change-one-estimate-earn-billions-more",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/成本搬去了哪裡",
+            "title": "成本搬去了哪裡",
+            "date": "2026-11-06",
+            "description": "追蹤四大雲端巨頭的年報數據，揭開 AI 成本如何從損益表搬進租約、未來折舊與發債融資中。",
+            "url": "/docs/finance/where-did-the-costs-go",
+            "readingTime": 8,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/派錢的人開始收錢",
+            "title": "派錢的人開始收錢",
+            "date": "2026-11-06",
+            "description": "從 Intel 與 PC 生態及合作夥伴出資的現金流變化，分析晶片巨頭如何從補貼生態轉為向供應鏈收錢。",
+            "url": "/docs/finance/the-payer-starts-collecting",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "毛利率還在創新高，第一個轉向訊號出現了",
+            "date": "2026-11-06",
+            "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
+            "url": "/docs/finance/margins-still-at-record-highs",
+            "readingTime": 8,
+            "status": "published"
+          }
+        ]
+      }
+    ],
     "essays": {
       "groups": [
         {
@@ -1127,8 +1255,8 @@
         "id": "memory-series",
         "title": "Memory and AI Compute Cycle Series",
         "description": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
-        "itemsCount": 4,
-        "dateRange": "2026-05-26 ~ 2026-07-31",
+        "itemsCount": 5,
+        "dateRange": "2026-05-26 ~ 2026-11-06",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -1160,6 +1288,14 @@
             "date": "2026-07-31",
             "description": "Dissecting the three-tier AI product pyramid (free/subscription/API), revealing how ability to pay compounds with ability to ask, ensuring the most vulnerable users receive the most dangerous answers.",
             "url": "/docs/TechNotes/%E7%9C%9F%E8%A9%B1%E6%98%AF%E4%BB%98%E8%B2%BB%E5%8A%9F%E8%83%BD%EF%BC%9AAI%20%E5%AE%9A%E5%83%B9%E7%B5%90%E6%A7%8B%E5%A6%82%E4%BD%95%E6%B1%BA%E5%AE%9A%E7%9C%9F%E7%9B%B8%E7%9A%84%E5%88%86%E9%85%8D",
+            "category": "半導體週期"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "Margins Still at Record Highs, and the First Turning Signal Has Appeared",
+            "date": "2026-11-06",
+            "description": "Contrasting record gross margins at Nanya and Winbond with historical cycles illuminates the turning signals between revenue growth and margin peaks.",
+            "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
           }
         ]
@@ -1431,6 +1567,62 @@
             "description": "Re-examining the Lofter Group case through the lens of 'you bet, you lose': the gamble was normal, the PG was normal, the high leverage was normal — the only thing that was not normal was who got pushed onto the gambling table.",
             "url": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",
             "category": ""
+          }
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "id": "ai-in-financial-statements",
+        "title": "AI in the Financial Statements",
+        "description": "Analyzing capex-to-depreciation ratios across 96 listed Taiwanese semiconductor companies reveals a sharp K-shaped divergence between advanced and mature nodes.",
+        "itemsCount": 5,
+        "dateRange": "2026-11-06",
+        "docs": [
+          {
+            "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
+            "title": "One Industry Code, Two Opposite Moves",
+            "date": "2026-11-06",
+            "description": "Analyzing capex-to-depreciation ratios across 96 listed Taiwanese semiconductor companies reveals a sharp K-shaped divergence between advanced and mature nodes.",
+            "url": "/docs/finance/one-industry-code-two-opposite-moves",
+            "readingTime": 12,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/改一個估計，多賺幾十億",
+            "title": "Change One Estimate, Earn Billions More: How to Spot Legal Window Dressing Yourself",
+            "date": "2026-11-06",
+            "description": "Deconstructing accounting estimate revisions at Intel, Microsoft, and Macronix to reveal how extending useful lives legally inflates profits.",
+            "url": "/docs/finance/change-one-estimate-earn-billions-more",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/成本搬去了哪裡",
+            "title": "Where Did the Costs Go?",
+            "date": "2026-11-06",
+            "description": "Tracking annual reports of the Big Four cloud hyperscalers reveals how AI costs migrated into leases, future depreciation, and debt.",
+            "url": "/docs/finance/where-did-the-costs-go",
+            "readingTime": 8,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/派錢的人開始收錢",
+            "title": "The Payer Starts Collecting",
+            "date": "2026-11-06",
+            "description": "Analyzing the cash flow shifts between Intel and its partners reveals how the chip giant transitioned from subsidizing the ecosystem to collecting from it.",
+            "url": "/docs/finance/the-payer-starts-collecting",
+            "readingTime": 9,
+            "status": "published"
+          },
+          {
+            "id": "finance/ai-in-financial-statements/毛利率還在創新高，第一個轉向訊號出現了",
+            "title": "Margins Still at Record Highs, and the First Turning Signal Has Appeared",
+            "date": "2026-11-06",
+            "description": "Contrasting record gross margins at Nanya and Winbond with historical cycles illuminates the turning signals between revenue growth and margin peaks.",
+            "url": "/docs/finance/margins-still-at-record-highs",
+            "readingTime": 8,
+            "status": "published"
           }
         ]
       }

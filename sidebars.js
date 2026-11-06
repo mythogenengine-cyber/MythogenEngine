@@ -3,8 +3,10 @@
 //   系列：docs/series/<id>/ 內文章，按 YAML series.order；order 0 = 導讀頁，做系列標題連結
 //   清醒記錄獨立篇：docs/notes/<季度>/，資料夾 = 季度分組
 //   散文：七日書（catalog）、合法傷害權（系列）、隨筆 = docs/essays/<季度>/
+//   財經學習：docs/finance/<系列 id>/，名稱在 catalog.json finance
+//   also_in：主位在別處的文章，以 ref 連結列在另一個系列（不改其網址及所屬側欄）
 const { loadCatalog, titleOf } = require('./scripts/lib/catalog');
-const { listDocs, getSeriesMap, quarterOf, dateStr } = require('./scripts/lib/docs');
+const { listDocs, getSeriesMap, getFinanceMap, getAlsoInMap, quarterOf, dateStr } = require('./scripts/lib/docs');
 
 function getSeriesCategory(seriesId, options = {}) {
   const list = getSeriesMap()[seriesId] || [];
@@ -20,8 +22,24 @@ function getSeriesCategory(seriesId, options = {}) {
   if (guideItem) {
     category.link = { type: 'doc', id: guideItem.docId };
   }
-  category.items = list.filter((it) => it.order !== 0).map((it) => it.docId);
+  // 本系列文章（doc）與交叉列出的文章（ref：只是連結，文章仍屬主位的側欄），按 order 排
+  const own = list.filter((it) => it.order !== 0).map((it) => ({ order: it.order, item: it.docId }));
+  const refs = (getAlsoInMap()[seriesId] || []).map((it) => ({ order: it.order, item: { type: 'ref', id: it.docId } }));
+  category.items = [...own, ...refs].sort((a, b) => a.order - b.order).map((x) => x.item);
   return category;
+}
+
+// 財經學習：每個 docs/finance/<id>/ 一組，名稱由 catalog.json finance 決定
+function getFinanceCategories() {
+  const map = getFinanceMap();
+  return loadCatalog()
+    .finance.filter((f) => (map[f.id] || []).length > 0)
+    .map((f) => ({
+      type: 'category',
+      label: titleOf('finance', f.id),
+      collapsible: false,
+      items: map[f.id].map((it) => it.docId),
+    }));
 }
 
 function byDateDesc(a, b) {
@@ -111,7 +129,10 @@ const sidebars = {
     },
   ],
 
-  // 9. 散文 (essays)
+  // 9. 財經學習 (finance)
+  finance: getFinanceCategories(),
+
+  // 10. 散文 (essays)
   essays: [
     getEssayGroupCategory('seven-days'),
     getSeriesCategory('legal-harm'),

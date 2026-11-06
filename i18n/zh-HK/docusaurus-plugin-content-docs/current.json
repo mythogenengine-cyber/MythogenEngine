@@ -82,5 +82,9 @@
   "sidebar.lucidRecord.category.退出機制三部曲": {
     "message": "退出機制三部曲",
     "description": "The label for category 退出機制三部曲 in sidebar lucidRecord"
+  },
+  "sidebar.finance.category.財報裡的 AI": {
+    "message": "財報裡的 AI",
+    "description": "The label for category 財報裡的 AI in sidebar finance"
   }
 }

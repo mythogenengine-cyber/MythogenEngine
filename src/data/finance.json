@@ -4,8 +4,8 @@
       "id": "ai-in-financial-statements",
       "title": "財報裡的 AI",
       "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
-      "itemsCount": 5,
-      "dateRange": "2026-11-06",
+      "itemsCount": 6,
+      "dateRange": "2026-11-06 ~ 2026-11-11",
       "docs": [
         {
           "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
@@ -50,6 +50,15 @@
           "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
           "url": "/docs/finance/margins-still-at-record-highs",
           "readingTime": 8,
+          "status": "published"
+        },
+        {
+          "id": "finance/ai-in-financial-statements/股票搬去了哪裡：外資賣了逾2.5兆，接手的是借錢的本地人",
+          "title": "股票搬去了哪裡：外資賣了逾2.5兆，接手的是借錢的本地人",
+          "date": "2026-11-11",
+          "description": "外資今年累計賣超台股逾 2.5 兆，接手的是本地投信、公股行庫與借錢的融資戶。從籌碼換手、三層槓桿與升息預期，拆解反彈背後的脆弱結構。",
+          "url": "/docs/finance/where-the-shares-went",
+          "readingTime": 12,
           "status": "published"
         }
       ]
@@ -60,8 +69,8 @@
       "id": "ai-in-financial-statements",
       "title": "財報裡的 AI",
       "description": "從台灣半導體代碼 96 間上市公司的資本支出與折舊比率，看清先進製程加碼與成熟製程收手的 K 字走勢。",
-      "itemsCount": 5,
-      "dateRange": "2026-11-06",
+      "itemsCount": 6,
+      "dateRange": "2026-11-06 ~ 2026-11-11",
       "docs": [
         {
           "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
@@ -107,6 +116,15 @@
           "url": "/docs/finance/margins-still-at-record-highs",
           "readingTime": 8,
           "status": "published"
+        },
+        {
+          "id": "finance/ai-in-financial-statements/股票搬去了哪裡：外資賣了逾2.5兆，接手的是借錢的本地人",
+          "title": "股票搬去了哪裡：外資賣了逾2.5兆，接手的是借錢的本地人",
+          "date": "2026-11-11",
+          "description": "外資今年累計賣超台股逾 2.5 兆，接手的是本地投信、公股行庫與借錢的融資戶。從籌碼換手、三層槓桿與升息預期，拆解反彈背後的脆弱結構。",
+          "url": "/docs/finance/where-the-shares-went",
+          "readingTime": 12,
+          "status": "published"
         }
       ]
     }
@@ -116,8 +134,8 @@
       "id": "ai-in-financial-statements",
       "title": "AI in the Financial Statements",
       "description": "Analyzing capex-to-depreciation ratios across 96 listed Taiwanese semiconductor companies reveals a sharp K-shaped divergence between advanced and mature nodes.",
-      "itemsCount": 5,
-      "dateRange": "2026-11-06",
+      "itemsCount": 6,
+      "dateRange": "2026-11-06 ~ 2026-11-11",
       "docs": [
         {
           "id": "finance/ai-in-financial-statements/同一個產業代碼，兩種相反的動作",
@@ -162,6 +180,15 @@
           "description": "Contrasting record gross margins at Nanya and Winbond with historical cycles illuminates the turning signals between revenue growth and margin peaks.",
           "url": "/docs/finance/margins-still-at-record-highs",
           "readingTime": 8,
+          "status": "published"
+        },
+        {
+          "id": "finance/ai-in-financial-statements/股票搬去了哪裡：外資賣了逾2.5兆，接手的是借錢的本地人",
+          "title": "Where the Shares Went: Foreign Investors Sold Over NT$2.5 Trillion, and Locals on Borrowed Money Took the Other Side",
+          "date": "2026-11-11",
+          "description": "Foreign investors have net sold over NT$2.5 trillion in Taiwan equities this year, taken up by local funds, state banks, and margin borrowers. Analyzing the fragile structure behind the rebound amid high leverage and rate hike expectations.",
+          "url": "/docs/finance/where-the-shares-went",
+          "readingTime": 12,
           "status": "published"
         }
       ]

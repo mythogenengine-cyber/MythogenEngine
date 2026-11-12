@@ -1,6 +1,86 @@
 {
   "zh-Hant": [
     {
+      "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
+      "slug": "/docs/notes/security-from-an-unalterable-trail",
+      "title": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "ai-agent-trust",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "軟體工程",
+          "稽核軌跡",
+          "AI 安全",
+          "職場政治"
+        ],
+        "en": [
+          "ai-agents",
+          "software-engineering",
+          "audit-trail",
+          "ai-safety",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "NET Walker",
+        "大內行者",
+        "Apollo Research",
+        "In-context Scheming",
+        "Chain-of-thought Monitoring",
+        "小顆粒度",
+        "安隆案"
+      ],
+      "summary": "「自己寫就知道」本來就是神話：人的紀錄是寫給人看的交代，AI 的紀錄是過程中自然留下的副產品。AI 學會了報喜不報憂，卻還沒學會毀屍滅跡，但「還沒」不等於「永遠不會」。工程師的安全感應該來自一條沒有人能動的軌跡：相信軌跡，不要相信敘述；系統怎樣拆、介面怎樣定，由人決定。",
+      "status": "published",
+      "reading_time": 7,
+      "sidebar_position": 20261112,
+      "series": null
+    },
+    {
+      "id": "錯誤曾經是攤開的",
+      "slug": "/docs/notes/errors-used-to-be-out-in-the-open",
+      "title": "錯誤曾經是攤開的",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "self-taught-learning",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "自學程式",
+          "Stack Overflow",
+          "公開驗證",
+          "AI 學習",
+          "判斷力"
+        ],
+        "en": [
+          "self-taught-programming",
+          "stack-overflow",
+          "public-verification",
+          "learning-with-ai",
+          "judgement"
+        ]
+      },
+      "keywords": [
+        "Stack Overflow",
+        "Tailwind CSS",
+        "三國志英傑傳",
+        "PC Tools",
+        "萬元課程",
+        "打書釘",
+        "遊戲致勝"
+      ],
+      "summary": "Stack Overflow 的價值不在答案，而在答案旁邊那一層公開驗證：票數、留言、日期、版本、反駁。AI 拿走的正是這一層，驗證成本轉嫁回最沒能力承擔的新手身上；公開討論被成本結構殺死，信任退回圈子，變成要付費的門票。出路是先精通一門學問，練出不會跟著版本折舊的判斷力。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261112,
+      "series": null
+    },
+    {
       "id": "我很少談心理學",
       "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",
       "title": "我很少談心理學",
@@ -2058,6 +2138,86 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
+      "slug": "/docs/notes/security-from-an-unalterable-trail",
+      "title": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-agent-trust",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "軟體工程",
+          "稽核軌跡",
+          "AI 安全",
+          "職場政治"
+        ],
+        "en": [
+          "ai-agents",
+          "software-engineering",
+          "audit-trail",
+          "ai-safety",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "NET Walker",
+        "大內行者",
+        "Apollo Research",
+        "In-context Scheming",
+        "Chain-of-thought Monitoring",
+        "小顆粒度",
+        "安隆案"
+      ],
+      "summary": "「自己寫就知道」本來就係神話：人嘅紀錄係寫畀人睇嘅交代，AI 嘅紀錄係過程中自然留低嘅副產品。AI 學識咗報喜不報憂，但未學識毀屍滅跡，而「未」唔等於「永遠唔會」。工程師嘅安全感應該來自一條冇人郁得到嘅軌跡：信軌跡，唔好信敘述；系統點拆、介面點定，由人決定。",
+      "status": "published",
+      "reading_time": 7,
+      "sidebar_position": 20261112,
+      "series": null
+    },
+    {
+      "id": "錯誤曾經是攤開的",
+      "slug": "/docs/notes/errors-used-to-be-out-in-the-open",
+      "title": "錯誤曾經是攤開的",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "self-taught-learning",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "自學程式",
+          "Stack Overflow",
+          "公開驗證",
+          "AI 學習",
+          "判斷力"
+        ],
+        "en": [
+          "self-taught-programming",
+          "stack-overflow",
+          "public-verification",
+          "learning-with-ai",
+          "judgement"
+        ]
+      },
+      "keywords": [
+        "Stack Overflow",
+        "Tailwind CSS",
+        "三國志英傑傳",
+        "PC Tools",
+        "萬元課程",
+        "打書釘",
+        "遊戲致勝"
+      ],
+      "summary": "Stack Overflow 嘅價值唔在答案，而在答案旁邊嗰一層公開驗證：票數、留言、日期、版本、反駁。AI 拎走嘅正正係呢一層，驗證成本轉嫁返最冇能力承擔嘅新手身上；公開討論俾成本結構殺死，信任退返圈子，變成要畀錢嘅門票。出路係先精通一門學問，練出唔會跟住版本折舊嘅判斷力。",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261112,
+      "series": null
+    },
     {
       "id": "我很少談心理學",
       "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",
@@ -4117,6 +4277,86 @@
     }
   ],
   "en": [
+    {
+      "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
+      "slug": "/docs/notes/security-from-an-unalterable-trail",
+      "title": "An Engineer's Sense of Security Shouldn't Come from Writing the Code Yourself, but from a Trail No One Can Alter",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-agent-trust",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "AI Agent",
+          "軟體工程",
+          "稽核軌跡",
+          "AI 安全",
+          "職場政治"
+        ],
+        "en": [
+          "ai-agents",
+          "software-engineering",
+          "audit-trail",
+          "ai-safety",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "NET Walker",
+        "Apollo Research",
+        "In-context Scheming",
+        "Chain-of-thought Monitoring",
+        "small granularity",
+        "Enron",
+        "legacy systems"
+      ],
+      "summary": "'I wrote it, so I know it' was always a myth: human records are accounts written to answer to someone, while AI's records are a by-product left as the work happens. AI has learned to report only good news but not yet to destroy the evidence, and not yet is not never. An engineer's sense of security should come from a trail no one can alter: trust the trail, not the narrative, and let humans decide how the system is cut.",
+      "status": "published",
+      "reading_time": 11,
+      "sidebar_position": 20261112,
+      "series": null
+    },
+    {
+      "id": "錯誤曾經是攤開的",
+      "slug": "/docs/notes/errors-used-to-be-out-in-the-open",
+      "title": "Errors Used to Be Out in the Open: How AI Removed the Verification Layer Self-Taught Programmers Relied On",
+      "date": "2026-11-12T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "self-taught-learning",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "自學程式",
+          "Stack Overflow",
+          "公開驗證",
+          "AI 學習",
+          "判斷力"
+        ],
+        "en": [
+          "self-taught-programming",
+          "stack-overflow",
+          "public-verification",
+          "learning-with-ai",
+          "judgement"
+        ]
+      },
+      "keywords": [
+        "Stack Overflow",
+        "Tailwind CSS",
+        "Sangokushi Eiketsuden",
+        "PC Tools",
+        "paid coding courses",
+        "bookstore browsing",
+        "Game to Win"
+      ],
+      "summary": "Stack Overflow's value was never the answer but the public verification layer around it: votes, comments, dates, versions, objections. AI removed exactly that layer, shifting the cost of verification onto the beginners least able to bear it. Public discussion has been killed by its cost structure and trust has retreated into paid circles; the way out is to master one discipline first and build judgement that doesn't depreciate with each new version.",
+      "status": "published",
+      "reading_time": 15,
+      "sidebar_position": 20261112,
+      "series": null
+    },
     {
       "id": "我很少談心理學",
       "slug": "/docs/TechNotes/%E6%88%91%E5%BE%88%E5%B0%91%E8%AB%87%E5%BF%83%E7%90%86%E5%AD%B8",

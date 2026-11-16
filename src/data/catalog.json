@@ -204,6 +204,17 @@
         "zh-Hant": "財報裡的 AI",
         "en": "AI in the Financial Statements"
       }
+    },
+    {
+      "id": "ai-ledger",
+      "title": {
+        "zh-Hant": "AI 的帳：誰出錢、誰擔保、誰還錢",
+        "en": "The AI Ledger: Who Pays, Who Guarantees, Who Repays"
+      },
+      "description": {
+        "zh-Hant": "讀 Nvidia、雲端巨頭與 AI 實驗室的財報與債券文件，追蹤 AI 基建的錢如何繞一個圈，以及最後由誰來還。",
+        "en": "Reading the filings and bond documents of Nvidia, the hyperscalers and the AI labs to trace how the money for AI infrastructure goes round in a circle, and who pays it back in the end."
+      }
     }
   ],
   "essays": {

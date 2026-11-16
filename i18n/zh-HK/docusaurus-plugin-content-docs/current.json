@@ -86,5 +86,9 @@
   "sidebar.finance.category.財報裡的 AI": {
     "message": "財報裡的 AI",
     "description": "The label for category 財報裡的 AI in sidebar finance"
+  },
+  "sidebar.finance.category.AI 的帳：誰出錢、誰擔保、誰還錢": {
+    "message": "AI 的帳：誰出錢、誰擔保、誰還錢",
+    "description": "The label for category AI 的帳：誰出錢、誰擔保、誰還錢 in sidebar finance"
   }
 }

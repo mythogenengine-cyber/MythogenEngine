@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
-const { loadCatalog, titleOf, fullTitleOf } = require('./lib/catalog');
+const { loadCatalog, titleOf, fullTitleOf, pick } = require('./lib/catalog');
 const { checkUrlLock } = require('./lib/urlLock');
 const { listDocs, getSeriesMap, getFinanceMap, getAlsoInMap, slugToUrl, quarterOf, dateStr } = require('./lib/docs');
 
@@ -207,7 +207,7 @@ function generateHubs() {
       outputData[locale].finance.push({
         id: f.id,
         title: titleOf('finance', f.id, locale),
-        description: docs[0].description,
+        description: (f.description && pick(f.description, locale)) || docs[0].description,
         itemsCount: docs.length,
         dateRange: dates.length === 0 ? '-' : dates[0] === dates[dates.length - 1] ? dates[0] : `${dates[0]} ~ ${dates[dates.length - 1]}`,
         docs: docs.map((d) => ({

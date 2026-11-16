@@ -62,6 +62,24 @@
           "status": "published"
         }
       ]
+    },
+    {
+      "id": "ai-ledger",
+      "title": "AI 的帳：誰出錢、誰擔保、誰還錢",
+      "description": "讀 Nvidia、雲端巨頭與 AI 實驗室的財報與債券文件，追蹤 AI 基建的錢如何繞一個圈，以及最後由誰來還。",
+      "itemsCount": 1,
+      "dateRange": "2026-11-16",
+      "docs": [
+        {
+          "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
+          "title": "黃仁勳走了，擔保還在——Nvidia 的估值只算盈利，沒算要還的錢",
+          "date": "2026-11-16",
+          "description": "2026 年 11 月 12 日，Nvidia 宣布黃仁勳辭去總裁、CEO 及董事職務，即時生效，由 CFO Colette Kress 暫代 CEO。之後一天，市場的討論集中在三件事：誰會正式接班、Bezos 與 Gates 式的「Affair Rally」會不會出現、預測市盈率跌到約 14 倍算不算便宜。",
+          "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
+          "readingTime": 13,
+          "status": "published"
+        }
+      ]
     }
   ],
   "zh-HK": [
@@ -127,6 +145,24 @@
           "status": "published"
         }
       ]
+    },
+    {
+      "id": "ai-ledger",
+      "title": "AI 的帳：誰出錢、誰擔保、誰還錢",
+      "description": "讀 Nvidia、雲端巨頭與 AI 實驗室的財報與債券文件，追蹤 AI 基建的錢如何繞一個圈，以及最後由誰來還。",
+      "itemsCount": 1,
+      "dateRange": "2026-11-16",
+      "docs": [
+        {
+          "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
+          "title": "黃仁勳走了，擔保還在——Nvidia 的估值只算盈利，沒算要還的錢",
+          "date": "2026-11-16",
+          "description": "2026 年 11 月 12 日，Nvidia 宣布黃仁勳辭去總裁、CEO 及董事職務，即時生效，由 CFO Colette Kress 暫代 CEO。之後一天，市場的討論集中在三件事：誰會正式接班、Bezos 與 Gates 式的「Affair Rally」會不會出現、預測市盈率跌到約 14 倍算不算便宜。",
+          "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
+          "readingTime": 13,
+          "status": "published"
+        }
+      ]
     }
   ],
   "en": [
@@ -189,6 +225,24 @@
           "description": "Foreign investors have net sold over NT$2.5 trillion in Taiwan equities this year, taken up by local funds, state banks, and margin borrowers. Analyzing the fragile structure behind the rebound amid high leverage and rate hike expectations.",
           "url": "/docs/finance/where-the-shares-went",
           "readingTime": 12,
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "ai-ledger",
+      "title": "The AI Ledger: Who Pays, Who Guarantees, Who Repays",
+      "description": "Reading the filings and bond documents of Nvidia, the hyperscalers and the AI labs to trace how the money for AI infrastructure goes round in a circle, and who pays it back in the end.",
+      "itemsCount": 1,
+      "dateRange": "2026-11-16",
+      "docs": [
+        {
+          "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
+          "title": "Jensen Huang Is Gone, the Guarantees Remain: Nvidia's Valuation Counts Earnings, Not the Money It Has Promised to Pay",
+          "date": "2026-11-16",
+          "description": "On November 12, 2026, Nvidia announced that Jensen Huang had resigned as president, CEO and director, effective immediately, with CFO Colette Kress stepping in as interim CEO. For the next day, the discussion centred on three things: who will take the job permanently, whether a Bezos- or Gates-style \"affair rally\" will follow, and whether a forward P/E of about 14 counts as cheap.",
+          "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
+          "readingTime": 13,
           "status": "published"
         }
       ]

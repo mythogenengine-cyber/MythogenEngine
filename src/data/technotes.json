@@ -1,6 +1,47 @@
 {
   "zh-Hant": [
     {
+      "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+      "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
+      "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+      "date": "2026-11-17T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "restructuring-job-postings",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "勞動市場",
+          "勞動結構",
+          "就業收縮",
+          "HR",
+          "職場政治"
+        ],
+        "en": [
+          "labor-market",
+          "labor-structure",
+          "job-market-contraction",
+          "hr",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "TrueUp",
+        "Live Data Technologies",
+        "Lenny Rachitsky",
+        "Revelio Labs",
+        "Greenhouse",
+        "幽靈職缺",
+        "PIP",
+        "組織重組"
+      ],
+      "summary": "科技業職缺數量上升、實際到職下降，未必只是「假職缺」或好人才難請。結合公開數據與親見的重組做法推估：當公司把幾個舊職位合併成一個新職缺、同時發出 PIP 並要求內外共同競逐，原本的人數縮減就會在外部統計上表現為「職缺升、到職跌」。",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 20261117,
+      "series": null
+    },
+    {
       "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
       "slug": "/docs/notes/security-from-an-unalterable-trail",
       "title": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
@@ -2138,6 +2179,47 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+      "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
+      "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+      "date": "2026-11-17T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "restructuring-job-postings",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "勞動市場",
+          "勞動結構",
+          "就業收縮",
+          "HR",
+          "職場政治"
+        ],
+        "en": [
+          "labor-market",
+          "labor-structure",
+          "job-market-contraction",
+          "hr",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "TrueUp",
+        "Live Data Technologies",
+        "Lenny Rachitsky",
+        "Revelio Labs",
+        "Greenhouse",
+        "幽靈職缺",
+        "PIP",
+        "組織重組"
+      ],
+      "summary": "科技業職缺數量上升、實際到職下降，未必只係「假職缺」或者好人才難請。結合公開數據同親眼見過嘅重組做法推估：當公司將幾個舊職位合併成一個新職缺、同時發出 PIP 並要求內外一齊競爭，原本嘅縮減人手就會喺外部統計上表現成「職缺升、到職跌」。",
+      "status": "published",
+      "reading_time": 5,
+      "sidebar_position": 20261117,
+      "series": null
+    },
     {
       "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
       "slug": "/docs/notes/security-from-an-unalterable-trail",
@@ -4277,6 +4359,47 @@
     }
   ],
   "en": [
+    {
+      "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+      "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
+      "title": "A Job Posting Is Not Always a Hire: How Restructuring Merges Several Roles into One and Makes Everyone Reapply",
+      "date": "2026-11-17T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "restructuring-job-postings",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "勞動市場",
+          "勞動結構",
+          "就業收縮",
+          "HR",
+          "職場政治"
+        ],
+        "en": [
+          "labor-market",
+          "labor-structure",
+          "job-market-contraction",
+          "hr",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "TrueUp",
+        "Live Data Technologies",
+        "Lenny Rachitsky",
+        "Revelio Labs",
+        "Greenhouse",
+        "ghost jobs",
+        "PIP",
+        "restructuring"
+      ],
+      "summary": "Tech job openings are rising while actual hires are falling, and the gap may not come down to 'fake jobs' or scarce talent alone. Combining public data with firsthand restructuring practices: when a company merges several old roles into one new posting, issues PIPs, and makes internal and external candidates compete together, a headcount reduction shows up in external statistics as openings up and hires down.",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20261117,
+      "series": null
+    },
     {
       "id": "工程師的安全感，不該來自親手寫，而該來自改不了的軌跡",
       "slug": "/docs/notes/security-from-an-unalterable-trail",

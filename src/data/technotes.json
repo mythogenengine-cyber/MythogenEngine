@@ -1,6 +1,49 @@
 {
   "zh-Hant": [
     {
+      "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+      "slug": "/docs/notes/ai-title-game",
+      "title": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "ai-title-game",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "職稱",
+          "AI 轉型",
+          "裁員",
+          "授權綑綁",
+          "Microsoft"
+        ],
+        "en": [
+          "job titles",
+          "AI transformation",
+          "layoffs",
+          "licence bundling",
+          "Microsoft"
+        ]
+      },
+      "keywords": [
+        "Microsoft",
+        "Copilot",
+        "Bing Chat Enterprise",
+        "Azure OpenAI",
+        "Société Générale",
+        "Google Workspace",
+        "Gemini Enterprise",
+        "職稱遊戲",
+        "授權綑綁",
+        "轉換成本"
+      ],
+      "summary": "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20261118,
+      "series": null
+    },
+    {
       "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
       "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
       "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
@@ -2179,6 +2222,49 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+      "slug": "/docs/notes/ai-title-game",
+      "title": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "ai-title-game",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "職稱",
+          "AI 轉型",
+          "裁員",
+          "授權綑綁",
+          "Microsoft"
+        ],
+        "en": [
+          "job titles",
+          "AI transformation",
+          "layoffs",
+          "licence bundling",
+          "Microsoft"
+        ]
+      },
+      "keywords": [
+        "Microsoft",
+        "Copilot",
+        "Bing Chat Enterprise",
+        "Azure OpenAI",
+        "Société Générale",
+        "Google Workspace",
+        "Gemini Enterprise",
+        "職稱遊戲",
+        "授權綑綁",
+        "轉換成本"
+      ],
+      "summary": "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20261118,
+      "series": null
+    },
     {
       "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
       "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
@@ -4359,6 +4445,49 @@
     }
   ],
   "en": [
+    {
+      "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+      "slug": "/docs/notes/ai-title-game",
+      "title": "The People Who Built AI Were Laid Off, the People Who Promoted It Stayed: The Job-Title Game Behind Corporate \"AI Talent Expansion\"",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "ai-title-game",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "職稱",
+          "AI 轉型",
+          "裁員",
+          "授權綑綁",
+          "Microsoft"
+        ],
+        "en": [
+          "job titles",
+          "AI transformation",
+          "layoffs",
+          "licence bundling",
+          "Microsoft"
+        ]
+      },
+      "keywords": [
+        "Microsoft",
+        "Copilot",
+        "Bing Chat Enterprise",
+        "Azure OpenAI",
+        "Société Générale",
+        "Google Workspace",
+        "Gemini Enterprise",
+        "job-title game",
+        "licence bundling",
+        "switching costs"
+      ],
+      "summary": "When large enterprises adopt AI bundled into office suites like Microsoft 365, the IT staff who built in-house AI tools are streamlined while promoters and vendor liaisons stay under AI titles. On paper AI headcount doubles, while internal AI capability drops to zero and switching costs rise because nobody left knows how to leave.",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 20261118,
+      "series": null
+    },
     {
       "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
       "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",

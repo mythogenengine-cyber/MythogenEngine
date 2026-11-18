@@ -44,6 +44,47 @@
       "series": null
     },
     {
+      "id": "真正的帳記在老闆腦裡：一個小學生眼中的八十年代香港生意",
+      "slug": "/docs/notes/abacus-boss-ledger",
+      "title": "真正的帳記在老闆腦裡：一個小學生眼中的八十年代香港生意",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "abacus-boss-ledger",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "香港",
+          "資本退場",
+          "退出機制",
+          "資本邏輯",
+          "資本結構"
+        ],
+        "en": [
+          "hong-kong",
+          "capital-exit",
+          "market-exit",
+          "capital-logic",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "八十年代香港",
+        "算盤",
+        "枱底數",
+        "周轉時間",
+        "槓桿",
+        "鄧成波",
+        "家族生意",
+        "退出機制"
+      ],
+      "summary": "從八十年代香港大人桌上的算盤與計數機切入，寫老闆記在腦裡的「另一本帳」、有生意與打工仔面對槓桿與風浪的結構差異，以及上一代及時退場與未能把看數本事傳下去的代價。",
+      "status": "published",
+      "reading_time": 7,
+      "sidebar_position": 20261118,
+      "series": null
+    },
+    {
       "id": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
       "slug": "/docs/notes/a-job-posting-is-not-always-a-hire",
       "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
@@ -2262,6 +2303,47 @@
       "summary": "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。",
       "status": "published",
       "reading_time": 6,
+      "sidebar_position": 20261118,
+      "series": null
+    },
+    {
+      "id": "真正的帳記在老闆腦裡：一個小學生眼中的八十年代香港生意",
+      "slug": "/docs/notes/abacus-boss-ledger",
+      "title": "真正的帳記在老闆腦裡：一個小學生眼中的八十年代香港生意",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "abacus-boss-ledger",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "香港",
+          "資本退場",
+          "退出機制",
+          "資本邏輯",
+          "資本結構"
+        ],
+        "en": [
+          "hong-kong",
+          "capital-exit",
+          "market-exit",
+          "capital-logic",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "八十年代香港",
+        "算盤",
+        "枱底數",
+        "周轉時間",
+        "槓桿",
+        "鄧成波",
+        "家族生意",
+        "退出機制"
+      ],
+      "summary": "從八十年代香港大人桌上的算盤與計數機切入，寫老闆記在腦裡的「另一本帳」、有生意與打工仔面對槓桿與風浪的結構差異，以及上一代及時退場與未能把看數本事傳下去的代價。",
+      "status": "published",
+      "reading_time": 7,
       "sidebar_position": 20261118,
       "series": null
     },
@@ -4485,6 +4567,47 @@
       "summary": "When large enterprises adopt AI bundled into office suites like Microsoft 365, the IT staff who built in-house AI tools are streamlined while promoters and vendor liaisons stay under AI titles. On paper AI headcount doubles, while internal AI capability drops to zero and switching costs rise because nobody left knows how to leave.",
       "status": "published",
       "reading_time": 8,
+      "sidebar_position": 20261118,
+      "series": null
+    },
+    {
+      "id": "真正的帳記在老闆腦裡：一個小學生眼中的八十年代香港生意",
+      "slug": "/docs/notes/abacus-boss-ledger",
+      "title": "The Real Books Were Kept in the Boss's Head: 1980s Hong Kong Business Through a Primary-School Kid's Eyes",
+      "date": "2026-11-18T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "abacus-boss-ledger",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "香港",
+          "資本退場",
+          "退出機制",
+          "資本邏輯",
+          "資本結構"
+        ],
+        "en": [
+          "hong-kong",
+          "capital-exit",
+          "market-exit",
+          "capital-logic",
+          "capital-structure"
+        ]
+      },
+      "keywords": [
+        "1980s Hong Kong",
+        "abacus",
+        "off-the-books ledger",
+        "cash-flow leverage",
+        "Tang Shing-bor",
+        "family business",
+        "exit timing",
+        "generational transition"
+      ],
+      "summary": "Starting from the abacus and calculator on 1980s Hong Kong desks, this piece examines the unrecorded ledger bosses kept in their heads, why business cash flow separates who survives leverage and downturns from salaried workers, and what happens when a generation exits or goes under without passing that way of reading numbers down.",
+      "status": "published",
+      "reading_time": 9,
       "sidebar_position": 20261118,
       "series": null
     },

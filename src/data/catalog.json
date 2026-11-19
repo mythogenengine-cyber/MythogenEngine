@@ -195,6 +195,13 @@
         "zh-Hant": "合法傷害權",
         "en": "Legal Right to Harm"
       }
+    },
+    {
+      "id": "job-title-trilogy",
+      "title": {
+        "zh-Hant": "職稱與人力三部曲",
+        "en": "The Job-Title Trilogy"
+      }
     }
   ],
   "finance": [

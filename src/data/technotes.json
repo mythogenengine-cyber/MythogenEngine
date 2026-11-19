@@ -1,6 +1,50 @@
 {
   "zh-Hant": [
     {
+      "id": "job-title-trilogy-preface",
+      "slug": "/docs/notes/job-title-trilogy-preface",
+      "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
+      "date": "2026-11-19T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "job-title-trilogy",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職稱",
+          "職缺",
+          "AI 轉型",
+          "設計師",
+          "PM"
+        ],
+        "en": [
+          "job titles",
+          "job postings",
+          "AI transformation",
+          "designers",
+          "product managers"
+        ]
+      },
+      "keywords": [
+        "職稱與人力三部曲",
+        "職稱",
+        "職缺",
+        "AI 轉型",
+        "設計師",
+        "PM",
+        "前線部署工程師",
+        "職稱遊戲"
+      ],
+      "summary": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+      "status": "published",
+      "reading_time": 3,
+      "sidebar_position": 20261119,
+      "series": {
+        "order": 0,
+        "id": "job-title-trilogy"
+      }
+    },
+    {
       "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
       "slug": "/docs/notes/ai-title-game",
       "title": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
@@ -2263,6 +2307,50 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "job-title-trilogy-preface",
+      "slug": "/docs/notes/job-title-trilogy-preface",
+      "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
+      "date": "2026-11-19T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "job-title-trilogy",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職稱",
+          "職缺",
+          "AI 轉型",
+          "設計師",
+          "PM"
+        ],
+        "en": [
+          "job titles",
+          "job postings",
+          "AI transformation",
+          "designers",
+          "product managers"
+        ]
+      },
+      "keywords": [
+        "職稱與人力三部曲",
+        "職稱",
+        "職缺",
+        "AI 轉型",
+        "設計師",
+        "PM",
+        "前線部署工程師",
+        "職稱遊戲"
+      ],
+      "summary": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+      "status": "published",
+      "reading_time": 3,
+      "sidebar_position": 20261119,
+      "series": {
+        "order": 0,
+        "id": "job-title-trilogy"
+      }
+    },
     {
       "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
       "slug": "/docs/notes/ai-title-game",
@@ -4527,6 +4615,50 @@
     }
   ],
   "en": [
+    {
+      "id": "job-title-trilogy-preface",
+      "slug": "/docs/notes/job-title-trilogy-preface",
+      "title": "Job Postings, Job Titles and the Actual Work: The Workforce Changes Hidden in AI Transformation (Trilogy Preface)",
+      "date": "2026-11-19T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "job-title-trilogy",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職稱",
+          "職缺",
+          "AI 轉型",
+          "設計師",
+          "PM"
+        ],
+        "en": [
+          "job titles",
+          "job postings",
+          "AI transformation",
+          "designers",
+          "product managers"
+        ]
+      },
+      "keywords": [
+        "The Job-Title Trilogy",
+        "job titles",
+        "job postings",
+        "AI transformation",
+        "designers",
+        "product managers",
+        "Forward Deployed Engineer",
+        "job-title game"
+      ],
+      "summary": "A designer shared how an entire design team was moved into PM roles without layoffs: design work was packaged into guidelines for AI while the same person kept doing the judgment under a new title. Three articles examine the workforce changes hidden behind job titles.",
+      "status": "published",
+      "reading_time": 3,
+      "sidebar_position": 20261119,
+      "series": {
+        "order": 0,
+        "id": "job-title-trilogy"
+      }
+    },
     {
       "id": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
       "slug": "/docs/notes/ai-title-game",

@@ -90,5 +90,9 @@
   "sidebar.finance.category.AI 的帳：誰出錢、誰擔保、誰還錢": {
     "message": "AI 的帳：誰出錢、誰擔保、誰還錢",
     "description": "The label for category AI 的帳：誰出錢、誰擔保、誰還錢 in sidebar finance"
+  },
+  "sidebar.lucidRecord.category.職稱與人力三部曲": {
+    "message": "職稱與人力三部曲",
+    "description": "The label for category 職稱與人力三部曲 in sidebar lucidRecord"
   }
 }

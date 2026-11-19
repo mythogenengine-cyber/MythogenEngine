@@ -31,7 +31,12 @@ status: published
 reading_time: 15
 description: "從一則臉書貼文出發，以親身 FAE 經歷拆解 FDE 這個「新職缺」的真實面貌：它不是劃時代的新物種，而是舊角色的重新包裝。真正值得追問的，不是機器會不會取代人，而是效率收益被誰拿走、代價由誰承擔。"
 slug: "/TechNotes/JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」"
+also_in:
+  series: job-title-trilogy
+  order: 2
 ---
+
+> 本文是「職稱與人力三部曲」之 2。[系列序](/docs/notes/job-title-trilogy-preface)｜[一、職缺貼出來不一定是要加人](/docs/notes/a-job-posting-is-not-always-a-hire)｜二、前線部署工程師這個「新職缺」｜[三、AI 人才背後的職稱遊戲](/docs/notes/ai-title-game)
 
 # JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」
 

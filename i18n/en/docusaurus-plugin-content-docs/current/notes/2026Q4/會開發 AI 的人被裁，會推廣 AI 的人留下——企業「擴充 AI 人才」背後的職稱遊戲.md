@@ -37,7 +37,12 @@ sidebar_label: 'The People Who Built AI Were Laid Off, the People Who Promoted I
 sidebar_position: 20261118
 description: 'When large enterprises adopt AI bundled into office suites like Microsoft 365, the IT staff who built in-house AI tools are streamlined while promoters and vendor liaisons stay under AI titles. On paper AI headcount doubles, while internal AI capability drops to zero and switching costs rise because nobody left knows how to leave.'
 slug: "/notes/ai-title-game"
+also_in:
+  series: job-title-trilogy
+  order: 3
 ---
+
+> Part 3 of The Job-Title Trilogy. [Preface](/docs/notes/job-title-trilogy-preface) | [1. A Job Posting Is Not Always a Hire](/docs/notes/a-job-posting-is-not-always-a-hire) | [2. The "Forward Deployed Engineer" Role](/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D) | 3. The Job-Title Game
 
 ## Wang Po-ta asks: how many times have you switched AI?
 
@@ -146,6 +151,10 @@ So the next time a large company announces it is "expanding AI talent and embrac
 Back to Wang Po-ta's Red Queen. Model companies run as fast as they can so that customers can't leave. But in companies like these, customers already can't leave. It's just that what they can't leave isn't the model but the office suite. However fast a model runs, here it is just a replaceable part behind the suite.
 
 Once you've asked those three questions, it becomes clear who is collecting at the door.
+
+## Postscript: designers turned PMs
+
+After this article was published, a designer on Threads shared that the company had shut down its entire design team and moved every designer into a PM role. Unlike the case here, no one was laid off. But design work did not disappear: it was packaged into a design system for AI, and the remaining judgment is now done by the same person on top of a PM job. Once again, the title no longer describes the work. See the [series preface](/docs/notes/job-title-trilogy-preface).
 
 ## Sources
 

@@ -30,7 +30,12 @@ status: published
 reading_time: 15
 description: "Starting from a Facebook post, this article draws on firsthand FAE experience to dissect the reality behind the 'Forward Deployed Engineer' role: it's not a groundbreaking new species, but old roles repackaged. The real question isn't whether machines will replace people, but who captures the efficiency gains and who bears the cost."
 slug: "/TechNotes/JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」"
+also_in:
+  series: job-title-trilogy
+  order: 2
 ---
+
+> Part 2 of The Job-Title Trilogy. [Preface](/docs/notes/job-title-trilogy-preface) | [1. A Job Posting Is Not Always a Hire](/docs/notes/a-job-posting-is-not-always-a-hire) | 2. The "Forward Deployed Engineer" Role | [3. The Job-Title Game](/docs/notes/ai-title-game)
 
 # The JD Looks Great on Paper — The Reality of the "Forward Deployed Engineer" Role
 

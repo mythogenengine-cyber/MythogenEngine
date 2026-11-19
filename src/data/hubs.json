@@ -447,6 +447,47 @@
             "category": ""
           }
         ]
+      },
+      {
+        "id": "job-title-trilogy",
+        "title": "職稱與人力三部曲",
+        "description": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+        "itemsCount": 4,
+        "dateRange": "2026-09-29 ~ 2026-11-19",
+        "docs": [
+          {
+            "id": "series/job-title-trilogy/job-title-trilogy-preface",
+            "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
+            "date": "2026-11-19",
+            "description": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+            "url": "/docs/notes/job-title-trilogy-preface",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+            "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+            "date": "2026-11-17",
+            "description": "科技業職缺數量上升、實際到職下降，未必只是「假職缺」或好人才難請。結合公開數據與親見的重組做法推估：當公司把幾個舊職位合併成一個新職缺、同時發出 PIP 並要求內外共同競逐，原本的人數縮減就會在外部統計上表現為「職缺升、到職跌」。",
+            "url": "/docs/notes/a-job-posting-is-not-always-a-hire",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q3/JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+            "title": "JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+            "date": "2026-09-29",
+            "description": "從一則臉書貼文出發，以親身 FAE 經歷拆解 FDE 這個「新職缺」的真實面貌：它不是劃時代的新物種，而是舊角色的重新包裝。真正值得追問的，不是機器會不會取代人，而是效率收益被誰拿走、代價由誰承擔。",
+            "url": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+            "title": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+            "date": "2026-11-18",
+            "description": "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。",
+            "url": "/docs/notes/ai-title-game",
+            "category": "產業與資本競爭"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1035,6 +1076,47 @@
             "category": ""
           }
         ]
+      },
+      {
+        "id": "job-title-trilogy",
+        "title": "職稱與人力三部曲",
+        "description": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+        "itemsCount": 4,
+        "dateRange": "2026-09-29 ~ 2026-11-19",
+        "docs": [
+          {
+            "id": "series/job-title-trilogy/job-title-trilogy-preface",
+            "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
+            "date": "2026-11-19",
+            "description": "一位設計師分享設計組全部轉為 PM 的故事：設計工作並沒有消失，只是整理成規範交給 AI，剩下的判斷由同一個人兼著做。三篇文章從職缺統計、FDE 現場到職稱遊戲三個角度，拆解 AI 轉型裡被職稱藏起來的人力變化。",
+            "url": "/docs/notes/job-title-trilogy-preface",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+            "title": "職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+            "date": "2026-11-17",
+            "description": "科技業職缺數量上升、實際到職下降，未必只係「假職缺」或者好人才難請。結合公開數據同親眼見過嘅重組做法推估：當公司將幾個舊職位合併成一個新職缺、同時發出 PIP 並要求內外一齊競爭，原本嘅縮減人手就會喺外部統計上表現成「職缺升、到職跌」。",
+            "url": "/docs/notes/a-job-posting-is-not-always-a-hire",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q3/JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+            "title": "JD 好豐滿，現實好骨感：前線部署工程師呢個「新職缺」",
+            "date": "2026-09-29",
+            "description": "由一則 Facebook 帖文出發，以親身 FAE 經歷拆解 FDE 呢個「新職缺」嘅真實面貌：佢唔係劃時代嘅新物種，而係舊角色嘅重新包裝。真正值得追問嘅，唔係機器會唔會取代人，而係效率收益畀咗邊個攞、代價由邊個孭。",
+            "url": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+            "title": "會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+            "date": "2026-11-18",
+            "description": "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。",
+            "url": "/docs/notes/ai-title-game",
+            "category": "產業與資本競爭"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1621,6 +1703,47 @@
             "description": "Re-examining the Lofter Group case through the lens of 'you bet, you lose': the gamble was normal, the PG was normal, the high leverage was normal — the only thing that was not normal was who got pushed onto the gambling table.",
             "url": "/docs/Diary/%E4%B8%80%E5%A0%B4%E8%B1%AA%E8%B3%AD%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%88%87%E4%B8%8D%E6%AD%A3%E5%B8%B8",
             "category": ""
+          }
+        ]
+      },
+      {
+        "id": "job-title-trilogy",
+        "title": "The Job-Title Trilogy",
+        "description": "A designer shared how an entire design team was moved into PM roles without layoffs: design work was packaged into guidelines for AI while the same person kept doing the judgment under a new title. Three articles examine the workforce changes hidden behind job titles.",
+        "itemsCount": 4,
+        "dateRange": "2026-09-29 ~ 2026-11-19",
+        "docs": [
+          {
+            "id": "series/job-title-trilogy/job-title-trilogy-preface",
+            "title": "Job Postings, Job Titles and the Actual Work: The Workforce Changes Hidden in AI Transformation (Trilogy Preface)",
+            "date": "2026-11-19",
+            "description": "A designer shared how an entire design team was moved into PM roles without layoffs: design work was packaged into guidelines for AI while the same person kept doing the judgment under a new title. Three articles examine the workforce changes hidden behind job titles.",
+            "url": "/docs/notes/job-title-trilogy-preface",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/職缺貼出來不一定是要加人：重組怎樣把幾個位併成一個，再叫所有人重新應徵",
+            "title": "A Job Posting Is Not Always a Hire: How Restructuring Merges Several Roles into One and Makes Everyone Reapply",
+            "date": "2026-11-17",
+            "description": "Tech job openings are rising while actual hires are falling, and the gap may not come down to 'fake jobs' or scarce talent alone. Combining public data with firsthand restructuring practices: when a company merges several old roles into one new posting, issues PIPs, and makes internal and external candidates compete together, a headcount reduction shows up in external statistics as openings up and hires down.",
+            "url": "/docs/notes/a-job-posting-is-not-always-a-hire",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q3/JD 很豐滿，現實很骨感：前線部署工程師這個「新職缺」",
+            "title": "The JD Looks Great on Paper — The Reality of the 'Forward Deployed Engineer' Role",
+            "date": "2026-09-29",
+            "description": "Starting from a Facebook post, this article draws on firsthand FAE experience to dissect the reality behind the 'Forward Deployed Engineer' role: it's not a groundbreaking new species, but old roles repackaged. The real question isn't whether machines will replace people, but who captures the efficiency gains and who bears the cost.",
+            "url": "/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D",
+            "category": "教育與勞動"
+          },
+          {
+            "id": "notes/2026Q4/會開發 AI 的人被裁，會推廣 AI 的人留下——企業「擴充 AI 人才」背後的職稱遊戲",
+            "title": "The People Who Built AI Were Laid Off, the People Who Promoted It Stayed: The Job-Title Game Behind Corporate \"AI Talent Expansion\"",
+            "date": "2026-11-18",
+            "description": "When large enterprises adopt AI bundled into office suites like Microsoft 365, the IT staff who built in-house AI tools are streamlined while promoters and vendor liaisons stay under AI titles. On paper AI headcount doubles, while internal AI capability drops to zero and switching costs rise because nobody left knows how to leave.",
+            "url": "/docs/notes/ai-title-game",
+            "category": "產業與資本競爭"
           }
         ]
       }

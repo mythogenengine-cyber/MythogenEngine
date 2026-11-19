@@ -20,6 +20,7 @@ const SOURCES = [
   { dir: 'series/attenuation-visibility', idPrefix: '' },
   { dir: 'series/exit-mechanism', idPrefix: '' },
   { dir: 'series/beggars-bowl', idPrefix: 'beggars-bowl/' },
+  { dir: 'series/job-title-trilogy', idPrefix: '' },
 ];
 
 const outputData = {

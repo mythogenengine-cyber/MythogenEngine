@@ -122,6 +122,7 @@ const sidebars = {
     getSeriesCategory('platform-silencing'),
     getSeriesCategory('attenuation-visibility'),
     getSeriesCategory('exit-mechanism'),
+    getSeriesCategory('job-title-trilogy'),
     {
       type: 'category',
       label: '獨立篇',

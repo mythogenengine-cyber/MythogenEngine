@@ -37,7 +37,12 @@ sidebar_label: "會開發 AI 的人被裁，會推廣 AI 的人留下——企�
 sidebar_position: 20261118
 description: "大企業導入 Microsoft 等辦公套件附送的 AI 後，內部開發 AI 工具的 IT 人員被精簡，負責推廣與對接供應商的人員則留下並掛上 AI 職稱。報表上 AI 人才翻倍，公司實際自建 AI 的能力卻歸零，轉換成本也在能做替代方案的人離開後自行升高。"
 slug: "/notes/ai-title-game"
+also_in:
+  series: job-title-trilogy
+  order: 3
 ---
+
+> 本文是「職稱與人力三部曲」之 3。[系列序](/docs/notes/job-title-trilogy-preface)｜[一、職缺貼出來不一定是要加人](/docs/notes/a-job-posting-is-not-always-a-hire)｜[二、前線部署工程師這個「新職缺」](/docs/TechNotes/JD%20%E5%BE%88%E8%B1%90%E6%BB%BF%EF%BC%8C%E7%8F%BE%E5%AF%A6%E5%BE%88%E9%AA%A8%E6%84%9F%EF%BC%9A%E5%89%8D%E7%B7%9A%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%99%E5%80%8B%E3%80%8C%E6%96%B0%E8%81%B7%E7%BC%BA%E3%80%8D)｜三、AI 人才背後的職稱遊戲
 
 ## 王伯達問：你的 AI 換過幾次？
 
@@ -150,6 +155,10 @@ Microsoft 把 Teams 免費包進 Office，企業原本自己選的溝通工具�
 回到王伯達的紅皇后。模型公司拚命地跑，是為了讓客戶離不開。但在這類公司裡，客戶早就離不開了，只是離不開的不是模型，而是辦公套件。跑得再快的模型，在這裡也只是套件背後可以替換的一個零件。
 
 三個問題問完，誰在門口收錢，就很清楚了。
+
+## 補充：設計師轉為 PM
+
+本文發佈後，Threads 上有一位設計師分享：公司收掉了整個設計組，設計師全部轉為 PM。和本文的情況不同，這一次沒有人被裁。但設計工作並沒有消失，而是被整理成設計系統交給 AI，剩下的判斷由同一個人在 PM 工作之外兼著做。職稱同樣不再說明實際的工作。詳見[系列序](/docs/notes/job-title-trilogy-preface)。
 
 ## Sources
 

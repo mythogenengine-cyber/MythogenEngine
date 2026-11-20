@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" role="img" aria-label="Both ends wrote exit doors; the one in the middle did not" font-size="12" font-family="-apple-system, 'Segoe UI', 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', sans-serif">
+<rect x="0" y="0" width="760" height="288" rx="12" fill="#FAFAF7"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8A8A8A"/></marker></defs>
+<text x="24" y="32" font-size="15" font-weight="600" fill="#1F1F1F">Both ends wrote exit doors; the one in the middle did not</text>
+<g fill="none" stroke="#8A8A8A" stroke-width="1.25"><path d="M228 112H284" marker-end="url(#a)"/><path d="M488 112H544" marker-end="url(#a)"/><path d="M386 216V168" marker-end="url(#a)"/></g>
+<text x="256" y="104" text-anchor="middle" font-size="11.5" fill="#6B6B6B">GPUs</text>
+<text x="516" y="104" text-anchor="middle" font-size="11.5" fill="#6B6B6B">Compute</text>
+<text x="398" y="196" font-size="11.5" fill="#6B6B6B">Loans</text>
+<rect x="24" y="56" width="204" height="112" rx="8" fill="none" stroke="#8A8A8A" stroke-width="1.25"/>
+<text x="36" y="80" font-size="13" font-weight="600" fill="#1F1F1F">Nvidia (supplier)</text>
+<text x="36" y="102" fill="#1F1F1F">Rent-back only after financing</text>
+<text x="36" y="120" fill="#1F1F1F">Guarantees: $118B</text>
+<text x="36" y="138" fill="#1F1F1F">Supply commitments: $390B</text>
+<text x="36" y="156" font-size="11.5" fill="#6B6B6B">Firm up, conditional down</text>
+<rect x="284" y="56" width="204" height="112" rx="8" fill="#D97706" fill-opacity="0.12" stroke="#D97706" stroke-width="2"/>
+<text x="296" y="80" font-size="13" font-weight="600" fill="#1F1F1F">Neocloud (middle)</text>
+<text x="296" y="102" fill="#1F1F1F">Borrows first to buy GPUs</text>
+<text x="296" y="120" fill="#1F1F1F">Upstream promise conditional</text>
+<text x="296" y="138" fill="#1F1F1F">Downstream can cancel</text>
+<text x="296" y="156" font-size="11.5" fill="#6B6B6B">Debt and interest still due</text>
+<rect x="544" y="56" width="204" height="112" rx="8" fill="none" stroke="#8A8A8A" stroke-width="1.25"/>
+<text x="556" y="80" font-size="13" font-weight="600" fill="#1F1F1F">Anthropic (buyer)</text>
+<text x="556" y="102" fill="#1F1F1F">Big clouds, own chips:</text>
+<text x="556" y="120" fill="#1F1F1F">pay regardless of use</text>
+<text x="556" y="138" fill="#1F1F1F">GPU clouds, neoclouds:</text>
+<text x="556" y="156" fill="#1F1F1F">cancel, or pay on delivery</text>
+<rect x="284" y="216" width="204" height="48" rx="8" fill="none" stroke="#8A8A8A" stroke-width="1.25"/>
+<text x="386" y="244" text-anchor="middle" fill="#1F1F1F">Lenders: banks, private credit</text></svg>

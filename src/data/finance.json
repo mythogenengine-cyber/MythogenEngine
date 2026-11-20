@@ -67,8 +67,8 @@
       "id": "ai-ledger",
       "title": "AI 的帳：誰出錢、誰擔保、誰還錢",
       "description": "讀 Nvidia、雲端巨頭與 AI 實驗室的財報與債券文件，追蹤 AI 基建的錢如何繞一個圈，以及最後由誰來還。",
-      "itemsCount": 1,
-      "dateRange": "2026-11-16",
+      "itemsCount": 2,
+      "dateRange": "2026-11-16 ~ 2026-11-20",
       "docs": [
         {
           "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
@@ -77,6 +77,15 @@
           "description": "2026 年 11 月 12 日，Nvidia 宣布黃仁勳辭去總裁、CEO 及董事職務，即時生效，由 CFO Colette Kress 暫代 CEO。之後一天，市場的討論集中在三件事：誰會正式接班、Bezos 與 Gates 式的「Affair Rally」會不會出現、預測市盈率跌到約 14 倍算不算便宜。",
           "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
           "readingTime": 13,
+          "status": "published"
+        },
+        {
+          "id": "finance/ai-ledger/who-carries-ai-risk",
+          "title": "AI 的風險落在誰身上：上游寫了條件，下游留了取消權",
+          "date": "2026-11-20",
+          "description": "Nvidia 財務長評論與 Anthropic 招股書同時揭示 AI 算力鏈的合約結構：上游回租承諾加了融資前提，下游算力合約留了退出權，借錢買 GPU 的 neocloud 兩頭都沒有保障。",
+          "url": "/docs/finance/who-carries-ai-risk",
+          "readingTime": 10,
           "status": "published"
         }
       ]
@@ -150,8 +159,8 @@
       "id": "ai-ledger",
       "title": "AI 的帳：誰出錢、誰擔保、誰還錢",
       "description": "讀 Nvidia、雲端巨頭與 AI 實驗室的財報與債券文件，追蹤 AI 基建的錢如何繞一個圈，以及最後由誰來還。",
-      "itemsCount": 1,
-      "dateRange": "2026-11-16",
+      "itemsCount": 2,
+      "dateRange": "2026-11-16 ~ 2026-11-20",
       "docs": [
         {
           "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
@@ -160,6 +169,15 @@
           "description": "2026 年 11 月 12 日，Nvidia 宣布黃仁勳辭去總裁、CEO 及董事職務，即時生效，由 CFO Colette Kress 暫代 CEO。之後一天，市場的討論集中在三件事：誰會正式接班、Bezos 與 Gates 式的「Affair Rally」會不會出現、預測市盈率跌到約 14 倍算不算便宜。",
           "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
           "readingTime": 13,
+          "status": "published"
+        },
+        {
+          "id": "finance/ai-ledger/who-carries-ai-risk",
+          "title": "AI 的風險落在誰身上：上游寫了條件，下游留了取消權",
+          "date": "2026-11-20",
+          "description": "Nvidia 財務長評論與 Anthropic 招股書同時揭示 AI 算力鏈的合約結構：上游回租承諾加了融資前提，下游算力合約留了退出權，借錢買 GPU 的 neocloud 兩頭都沒有保障。",
+          "url": "/docs/finance/who-carries-ai-risk",
+          "readingTime": 10,
           "status": "published"
         }
       ]
@@ -233,8 +251,8 @@
       "id": "ai-ledger",
       "title": "The AI Ledger: Who Pays, Who Guarantees, Who Repays",
       "description": "Reading the filings and bond documents of Nvidia, the hyperscalers and the AI labs to trace how the money for AI infrastructure goes round in a circle, and who pays it back in the end.",
-      "itemsCount": 1,
-      "dateRange": "2026-11-16",
+      "itemsCount": 2,
+      "dateRange": "2026-11-16 ~ 2026-11-20",
       "docs": [
         {
           "id": "finance/ai-ledger/黃仁勳走了，擔保還在",
@@ -243,6 +261,15 @@
           "description": "On November 12, 2026, Nvidia announced that Jensen Huang had resigned as president, CEO and director, effective immediately, with CFO Colette Kress stepping in as interim CEO. For the next day, the discussion centred on three things: who will take the job permanently, whether a Bezos- or Gates-style \"affair rally\" will follow, and whether a forward P/E of about 14 counts as cheap.",
           "url": "/docs/finance/jensen-huang-is-gone-the-guarantees-remain",
           "readingTime": 13,
+          "status": "published"
+        },
+        {
+          "id": "finance/ai-ledger/who-carries-ai-risk",
+          "title": "Who Carries AI's Risk: The Supplier Wrote Conditions, the Buyer Kept the Right to Cancel",
+          "date": "2026-11-20",
+          "description": "Nvidia's CFO commentary and Anthropic's S-1 prospectus together expose the contract structure of the AI compute chain: conditional rent-back commitments upstream, exit rights downstream, and indebted neoclouds unprotected at either end.",
+          "url": "/docs/finance/who-carries-ai-risk",
+          "readingTime": 10,
           "status": "published"
         }
       ]

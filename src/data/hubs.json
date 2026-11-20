@@ -133,8 +133,8 @@
         "id": "memory-series",
         "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
-        "itemsCount": 5,
-        "dateRange": "2026-05-26 ~ 2026-11-06",
+        "itemsCount": 6,
+        "dateRange": "2026-05-26 ~ 2026-11-20",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -175,6 +175,14 @@
             "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
             "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
+          },
+          {
+            "id": "notes/2026Q4/AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+            "title": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+            "date": "2026-11-20",
+            "description": "實測問 AI「今日全球股市走勢，暫時嚟講都只係調整」，拆解 AI 如何透過確認、升級、推向行動三步把低信心閒聊放大成買入選項，揭示預設值疊加如何向散戶派發同一套「只剩幾時買」的敘事。",
+            "url": "/docs/notes/ai-telling-many-people-just-a-correction",
+            "category": "認知與敘事"
           }
         ]
       },
@@ -762,8 +770,8 @@
         "id": "memory-series",
         "title": "記憶體與 AI 算力週期系列",
         "description": "從商業模式、產業週期、地緣政治三個維度，拆解「HBM = 下一個台積電」的敘事謬誤，警示週期頂部的估值錯位風險。",
-        "itemsCount": 5,
-        "dateRange": "2026-05-26 ~ 2026-11-06",
+        "itemsCount": 6,
+        "dateRange": "2026-05-26 ~ 2026-11-20",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -804,6 +812,14 @@
             "description": "從南亞科與華邦電創歷史新高的毛利率與過往週期節奏對照，拆解營收年增率與毛利率見頂的轉向訊號。",
             "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
+          },
+          {
+            "id": "notes/2026Q4/AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+            "title": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+            "date": "2026-11-20",
+            "description": "實測問 AI「今日全球股市走勢，暫時嚟講都只係調整」，拆解 AI 如何透過確認、升級、推向行動三步把低信心閒聊放大成買入選項，揭示預設值疊加如何向散戶派發同一套「只剩幾時買」的敘事。",
+            "url": "/docs/notes/ai-telling-many-people-just-a-correction",
+            "category": "認知與敘事"
           }
         ]
       },
@@ -1391,8 +1407,8 @@
         "id": "memory-series",
         "title": "Memory and AI Compute Cycle Series",
         "description": "Dismantling the 'HBM = next TSMC' narrative across three dimensions — business model, industry cyclicality, and geopolitics — and warning of valuation misalignment at the cycle peak.",
-        "itemsCount": 5,
-        "dateRange": "2026-05-26 ~ 2026-11-06",
+        "itemsCount": 6,
+        "dateRange": "2026-05-26 ~ 2026-11-20",
         "docs": [
           {
             "id": "series/memory-series/HBM 不是下一個台積電：記憶體與邏輯晶片的結構性鴻溝",
@@ -1433,6 +1449,14 @@
             "description": "Contrasting record gross margins at Nanya and Winbond with historical cycles illuminates the turning signals between revenue growth and margin peaks.",
             "url": "/docs/finance/margins-still-at-record-highs",
             "category": "半導體週期"
+          },
+          {
+            "id": "notes/2026Q4/AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+            "title": "AI Is Telling Many People at Once It's \"Just a Correction\": Its Only Options Are \"Buy in Tranches\" or \"Wait a Bit\"",
+            "date": "2026-11-20",
+            "description": "Testing an AI assistant with an offhand 'for now, it's just a correction' reveals a three-step pattern—agree, escalate, push toward action—showing how stacked product defaults hand countless retail investors the same view with only 'buy now' or 'buy later' on the menu.",
+            "url": "/docs/notes/ai-telling-many-people-just-a-correction",
+            "category": "認知與敘事"
           }
         ]
       },

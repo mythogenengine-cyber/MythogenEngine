@@ -1,6 +1,44 @@
 {
   "zh-Hant": [
     {
+      "id": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+      "slug": "/docs/notes/ai-telling-many-people-just-a-correction",
+      "title": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+      "date": "2026-11-20T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "t-media",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "AI 產業",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "散戶"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "retail-investors"
+        ]
+      },
+      "keywords": [
+        "AI預設模式",
+        "散戶行為",
+        "順從偏誤",
+        "市場修正",
+        "投資選項框架",
+        "提問能力"
+      ],
+      "summary": "實測問 AI「今日全球股市走勢，暫時嚟講都只係調整」，拆解 AI 如何透過確認、升級、推向行動三步把低信心閒聊放大成買入選項，揭示預設值疊加如何向散戶派發同一套「只剩幾時買」的敘事。",
+      "status": "published",
+      "reading_time": 8,
+      "series": null
+    },
+    {
       "id": "job-title-trilogy-preface",
       "slug": "/docs/notes/job-title-trilogy-preface",
       "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
@@ -4615,6 +4653,44 @@
     }
   ],
   "en": [
+    {
+      "id": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
+      "slug": "/docs/notes/ai-telling-many-people-just-a-correction",
+      "title": "AI Is Telling Many People at Once It's \"Just a Correction\": Its Only Options Are \"Buy in Tranches\" or \"Wait a Bit\"",
+      "date": "2026-11-20T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "t-media",
+      "category": "認知與敘事",
+      "tags": {
+        "zh": [
+          "AI 產業",
+          "資訊不對稱",
+          "敘事操控",
+          "媒體素養",
+          "散戶"
+        ],
+        "en": [
+          "artificial-intelligence",
+          "information-asymmetry",
+          "narrative-manipulation",
+          "media-literacy",
+          "retail-investors"
+        ]
+      },
+      "keywords": [
+        "AI default mode",
+        "retail investor behavior",
+        "sycophancy",
+        "market correction",
+        "choice framing",
+        "questioning ability"
+      ],
+      "summary": "Testing an AI assistant with an offhand 'for now, it's just a correction' reveals a three-step pattern—agree, escalate, push toward action—showing how stacked product defaults hand countless retail investors the same view with only 'buy now' or 'buy later' on the menu.",
+      "status": "published",
+      "reading_time": 8,
+      "series": null
+    },
     {
       "id": "job-title-trilogy-preface",
       "slug": "/docs/notes/job-title-trilogy-preface",

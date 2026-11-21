@@ -1,6 +1,48 @@
 {
   "zh-Hant": [
     {
+      "id": "day-in-the-life-layoffs",
+      "slug": "/docs/notes/day-in-the-life-layoffs",
+      "title": "一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
+      "date": "2026-11-21T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "媒體素養",
+          "敘事操控",
+          "裁員",
+          "微軟",
+          "AI 短劇",
+          "族群標籤"
+        ],
+        "en": [
+          "media-literacy",
+          "narrative-manipulation",
+          "layoffs",
+          "microsoft",
+          "ai-short-drama",
+          "ethnic-labelling"
+        ]
+      },
+      "keywords": [
+        "微軟自願離職方案",
+        "上班日常影片",
+        "橫店AI短劇",
+        "屈機TV",
+        "竹天花板",
+        "羅素《幸福之路》",
+        "魯迅〈隨感錄六十五〉"
+      ],
+      "summary": "2026年10月微軟推出自願離職方案，一條印度工程師的上班日常舊片被翻出來討伐。本文對照橫店短劇演員的處境與屈機TV的報道，拆解「勤力先有回報」如何讓沒有資本的人互相懲罰。",
+      "status": "published",
+      "reading_time": 13,
+      "sidebar_position": 20261121,
+      "series": null
+    },
+    {
       "id": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
       "slug": "/docs/notes/ai-telling-many-people-just-a-correction",
       "title": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
@@ -2346,6 +2388,48 @@
   ],
   "zh-HK": [
     {
+      "id": "day-in-the-life-layoffs",
+      "slug": "/docs/notes/day-in-the-life-layoffs",
+      "title": "一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
+      "date": "2026-11-21T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "媒體素養",
+          "敘事操控",
+          "裁員",
+          "微軟",
+          "AI 短劇",
+          "族群標籤"
+        ],
+        "en": [
+          "media-literacy",
+          "narrative-manipulation",
+          "layoffs",
+          "microsoft",
+          "ai-short-drama",
+          "ethnic-labelling"
+        ]
+      },
+      "keywords": [
+        "微軟自願離職方案",
+        "上班日常影片",
+        "橫店AI短劇",
+        "屈機TV",
+        "竹天花板",
+        "羅素《幸福之路》",
+        "魯迅〈隨感錄六十五〉"
+      ],
+      "summary": "2026年10月微軟推出自願離職方案，一條印度工程師的上班日常舊片被翻出來討伐。本文對照橫店短劇演員的處境與屈機TV的報道，拆解「勤力先有回報」如何讓沒有資本的人互相懲罰。",
+      "status": "published",
+      "reading_time": 13,
+      "sidebar_position": 20261121,
+      "series": null
+    },
+    {
       "id": "job-title-trilogy-preface",
       "slug": "/docs/notes/job-title-trilogy-preface",
       "title": "職缺、職稱與實際工作：AI 轉型裡被藏起來的人力變化（三部曲・序）",
@@ -4653,6 +4737,48 @@
     }
   ],
   "en": [
+    {
+      "id": "day-in-the-life-layoffs",
+      "slug": "/docs/notes/day-in-the-life-layoffs",
+      "title": "How a Day-in-the-Life Video Became a Reason for Layoffs: People Without Capital Punishing People Without Capital",
+      "date": "2026-11-21T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "welfare",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "媒體素養",
+          "敘事操控",
+          "裁員",
+          "微軟",
+          "AI 短劇",
+          "族群標籤"
+        ],
+        "en": [
+          "media-literacy",
+          "narrative-manipulation",
+          "layoffs",
+          "microsoft",
+          "ai-short-drama",
+          "ethnic-labelling"
+        ]
+      },
+      "keywords": [
+        "Microsoft Voluntary Exit Offer",
+        "day-in-the-life video",
+        "Hengdian AI short dramas",
+        "WatGei TV",
+        "bamboo ceiling",
+        "Russell The Conquest of Happiness",
+        "Lu Xun Random Thoughts No. 65"
+      ],
+      "summary": "When Microsoft announced a voluntary exit offer in October 2026, an Indian engineer's old day-in-the-life video resurfaced as a target. Set against a Hengdian actress's situation and WatGei TV's coverage, this piece shows how the belief that hard work earns reward turns people without capital against each other.",
+      "status": "published",
+      "reading_time": 14,
+      "sidebar_position": 20261121,
+      "series": null
+    },
     {
       "id": "AI 同時對很多人說「只是調整」：它給的選項只有「分批買」和「再等等」",
       "slug": "/docs/notes/ai-telling-many-people-just-a-correction",

@@ -362,8 +362,8 @@
         "id": "beggars-bowl",
         "title": "從乞丐碗裡搶飯",
         "description": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
-        "itemsCount": 6,
-        "dateRange": "2026-10-20 ~ 2026-10-24",
+        "itemsCount": 7,
+        "dateRange": "2026-10-20 ~ 2026-11-21",
         "docs": [
           {
             "id": "series/beggars-bowl/prologue",
@@ -412,6 +412,14 @@
             "description": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
             "url": "/docs/beggars-bowl/after-the-counting",
             "category": "資本與退出機制"
+          },
+          {
+            "id": "notes/2026Q4/day-in-the-life-layoffs",
+            "title": "一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
+            "date": "2026-11-21",
+            "description": "從微軟日常影片風波、橫店演員擺攤到屈機TV的誤導報道，看「勤力先有回報」如何讓沒有資本的人互相懲罰。",
+            "url": "/docs/notes/day-in-the-life-layoffs",
+            "category": "教育與勞動"
           }
         ]
       },
@@ -1008,8 +1016,8 @@
         "id": "beggars-bowl",
         "title": "從乞丐碗裡搶飯",
         "description": "錢一直流向頂層，留在下面的那一份年年縮細；其餘所有人，卻被引導去跟身邊的人爭。四篇文章，同一塊愈切愈細的餅。",
-        "itemsCount": 6,
-        "dateRange": "2026-10-20 ~ 2026-10-24",
+        "itemsCount": 7,
+        "dateRange": "2026-10-20 ~ 2026-11-21",
         "docs": [
           {
             "id": "series/beggars-bowl/prologue",
@@ -1058,6 +1066,14 @@
             "description": "台灣已經數得清楚，工資卻一樣原地踏步、房子一樣買不起。中產既是受害者也是受益者，而地價和財政、稅基、資本鎖在一起，任何一個政策單獨上場，都會被整條鎖拉回去。",
             "url": "/docs/beggars-bowl/after-the-counting",
             "category": "資本與退出機制"
+          },
+          {
+            "id": "notes/2026Q4/day-in-the-life-layoffs",
+            "title": "一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
+            "date": "2026-11-21",
+            "description": "從微軟日常影片風波、橫店演員擺攤到屈機TV的誤導報道，看「勤力先有回報」如何讓沒有資本的人互相懲罰。",
+            "url": "/docs/notes/day-in-the-life-layoffs",
+            "category": "教育與勞動"
           }
         ]
       },
@@ -1654,8 +1670,8 @@
         "id": "beggars-bowl",
         "title": "Snatching Rice from the Beggar's Bowl",
         "description": "Money keeps flowing to the top, the share left below shrinks year after year, and everyone else is steered into fighting the people beside them. Four essays, one pie cut thinner every year.",
-        "itemsCount": 6,
-        "dateRange": "2026-10-20 ~ 2026-10-24",
+        "itemsCount": 7,
+        "dateRange": "2026-10-20 ~ 2026-11-21",
         "docs": [
           {
             "id": "series/beggars-bowl/prologue",
@@ -1704,6 +1720,14 @@
             "description": "Taiwan already counts clearly, yet wages stagnate and homes remain out of reach. The middle class are both victims and beneficiaries, and land prices are chained to public finance, the tax base and capital: any single policy is pulled back by the whole chain.",
             "url": "/docs/beggars-bowl/after-the-counting",
             "category": "資本與退出機制"
+          },
+          {
+            "id": "notes/2026Q4/day-in-the-life-layoffs",
+            "title": "How a Day-in-the-Life Video Became a Reason for Layoffs: People Without Capital Punishing People Without Capital",
+            "date": "2026-11-21",
+            "description": "From the Microsoft day-in-the-life backlash to a Hengdian actress's street stall and WatGei TV's misleading coverage: how 'hard work earns reward' turns people without capital against each other.",
+            "url": "/docs/notes/day-in-the-life-layoffs",
+            "category": "教育與勞動"
           }
         ]
       },

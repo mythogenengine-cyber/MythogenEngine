@@ -1,5 +1,5 @@
 ---
-title: "How a Day-in-the-Life Video Became a Reason for Layoffs: People Without Capital Punishing People Without Capital"
+title: "Companion | How a Day-in-the-Life Video Became a Reason for Layoffs: People Without Capital Punishing People Without Capital"
 date: 2026-11-21
 author: "@Mythogen Engine"
 lang: en

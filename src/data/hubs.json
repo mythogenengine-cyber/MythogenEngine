@@ -504,6 +504,63 @@
             "category": "產業與資本競爭"
           }
         ]
+      },
+      {
+        "id": "chaos-series",
+        "title": "混亂去了哪裡",
+        "description": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+        "itemsCount": 6,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/chaos-series/preface",
+            "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
+            "date": "2026-11-23",
+            "description": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+            "url": "/docs/chaos-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/freedom-and-lossless-integration",
+            "title": "混亂去了哪裡（一）：自由與無損不能兼得",
+            "date": "2026-11-23",
+            "description": "Excel 是業務部門逃離 IT 流程的出口；AI 抽得出規則，抽不出責任，自由與無損不能兼得。",
+            "url": "/docs/chaos-series/freedom-and-lossless-integration",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-monster-becomes-a-seat",
+            "title": "混亂去了哪裡（二）：怪物變成座位",
+            "date": "2026-11-23",
+            "description": "舊系統怎樣在十幾二十年裡變成沒有人明白的怪物，又在收縮的公司裡變成別人搶不走的座位。",
+            "url": "/docs/chaos-series/the-monster-becomes-a-seat",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/problem-worse-person-promoted",
+            "title": "混亂去了哪裡（三）：問題爛一級，人升一級",
+            "date": "2026-11-23",
+            "description": "問題往下沉，起它的人往上升：過濾者、接手的座位、三個月的計分板，以及替這一切埋單的壟斷差額。",
+            "url": "/docs/chaos-series/problem-worse-person-promoted",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-last-field-never-names-the-company",
+            "title": "混亂去了哪裡（四）：最後一欄，沒有公司的名字",
+            "date": "2026-11-23",
+            "description": "崩潰被記成負債、感情和抗壓性，證據在公司手上，保密原則封住最後一個出口。",
+            "url": "/docs/chaos-series/the-last-field-never-names-the-company",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/side-no-one-comes-forward",
+            "title": "沒有人舉證，不是因為沒有道理——在不公平的地方，不糾纏，去找下一條出路",
+            "date": "2026-11-23",
+            "description": "沒有人舉證，不是因為沒有道理；在不公平又沒有發聲位置的地方，不糾纏，去找下一條出路。",
+            "url": "/docs/chaos-series/side-no-one-comes-forward",
+            "category": "教育與勞動"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1158,6 +1215,63 @@
             "category": "產業與資本競爭"
           }
         ]
+      },
+      {
+        "id": "chaos-series",
+        "title": "混亂去了哪裡",
+        "description": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+        "itemsCount": 6,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/chaos-series/preface",
+            "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
+            "date": "2026-11-23",
+            "description": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+            "url": "/docs/chaos-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/freedom-and-lossless-integration",
+            "title": "混亂去了哪裡（一）：自由與無損不能兼得",
+            "date": "2026-11-23",
+            "description": "Excel 是業務部門逃離 IT 流程的出口；AI 抽得出規則，抽不出責任，自由與無損不能兼得。",
+            "url": "/docs/chaos-series/freedom-and-lossless-integration",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-monster-becomes-a-seat",
+            "title": "混亂去了哪裡（二）：怪物變成座位",
+            "date": "2026-11-23",
+            "description": "舊系統怎樣在十幾二十年裡變成沒有人明白的怪物，又在收縮的公司裡變成別人搶不走的座位。",
+            "url": "/docs/chaos-series/the-monster-becomes-a-seat",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/problem-worse-person-promoted",
+            "title": "混亂去了哪裡（三）：問題爛一級，人升一級",
+            "date": "2026-11-23",
+            "description": "問題往下沉，起它的人往上升：過濾者、接手的座位、三個月的計分板，以及替這一切埋單的壟斷差額。",
+            "url": "/docs/chaos-series/problem-worse-person-promoted",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-last-field-never-names-the-company",
+            "title": "混亂去了哪裡（四）：最後一欄，沒有公司的名字",
+            "date": "2026-11-23",
+            "description": "崩潰被記成負債、感情和抗壓性，證據在公司手上，保密原則封住最後一個出口。",
+            "url": "/docs/chaos-series/the-last-field-never-names-the-company",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/side-no-one-comes-forward",
+            "title": "沒有人舉證，不是因為沒有道理——在不公平的地方，不糾纏，去找下一條出路",
+            "date": "2026-11-23",
+            "description": "沒有人舉證，不是因為沒有道理；在不公平又沒有發聲位置的地方，不糾纏，去找下一條出路。",
+            "url": "/docs/chaos-series/side-no-one-comes-forward",
+            "category": "教育與勞動"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1810,6 +1924,63 @@
             "description": "When large enterprises adopt AI bundled into office suites like Microsoft 365, the IT staff who built in-house AI tools are streamlined while promoters and vendor liaisons stay under AI titles. On paper AI headcount doubles, while internal AI capability drops to zero and switching costs rise because nobody left knows how to leave.",
             "url": "/docs/notes/ai-title-game",
             "category": "產業與資本競爭"
+          }
+        ]
+      },
+      {
+        "id": "chaos-series",
+        "title": "Where Does the Chaos Go?",
+        "description": "The gap between what is promised and what is real never disappears; it only moves: first into Excel, then into the organization where it settles as legacy, paid for by the monopoly margin, and finally recorded against individuals. Four articles follow that path; a side article asks what you can choose when you are inside it and have no voice.",
+        "itemsCount": 6,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/chaos-series/preface",
+            "title": "Where Does the Chaos Go? The Gap Between Promise and Reality Never Disappears; It Only Moves",
+            "date": "2026-11-23",
+            "description": "The gap between what is promised and what is real never disappears; it only moves: first into Excel, then into the organization where it settles as legacy, paid for by the monopoly margin, and finally recorded against individuals. Four articles follow that path; a side article asks what you can choose when you are inside it and have no voice.",
+            "url": "/docs/chaos-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/freedom-and-lossless-integration",
+            "title": "Where Does the Chaos Go? (1): You Can't Have Both Freedom and Lossless Integration",
+            "date": "2026-11-23",
+            "description": "Excel is the business unit's exit from IT process; AI can extract its rules but not its responsibility, and freedom and lossless integration cannot coexist.",
+            "url": "/docs/chaos-series/freedom-and-lossless-integration",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-monster-becomes-a-seat",
+            "title": "Where Does the Chaos Go? (2): The Monster Becomes a Seat",
+            "date": "2026-11-23",
+            "description": "How a legacy system becomes a monster nobody understands over two decades, and then a seat nobody can take in a shrinking company.",
+            "url": "/docs/chaos-series/the-monster-becomes-a-seat",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/problem-worse-person-promoted",
+            "title": "Where Does the Chaos Go? (3): Each Time the Problem Gets Worse, Someone Gets Promoted",
+            "date": "2026-11-23",
+            "description": "The problem sinks while the person who built it rises: filterers, inherited seats, three-month scoreboards, and the monopoly margin that pays for it all.",
+            "url": "/docs/chaos-series/problem-worse-person-promoted",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/the-last-field-never-names-the-company",
+            "title": "Where Does the Chaos Go? (4): The Last Field Never Names the Company",
+            "date": "2026-11-23",
+            "description": "Breakdowns are recorded as debt, relationships and resilience; the evidence sits with the company, and confidentiality seals the last exit.",
+            "url": "/docs/chaos-series/the-last-field-never-names-the-company",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/chaos-series/side-no-one-comes-forward",
+            "title": "No One Comes Forward, and It Isn't for Lack of a Case — In an Unfair Place, Don't Get Entangled; Find the Next Way Out",
+            "date": "2026-11-23",
+            "description": "No one comes forward, and not for lack of a case; in an unfair place where you have no voice, don't get entangled; find the next way out.",
+            "url": "/docs/chaos-series/side-no-one-comes-forward",
+            "category": "教育與勞動"
           }
         ]
       }

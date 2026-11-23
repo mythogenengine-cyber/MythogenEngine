@@ -1,6 +1,244 @@
 {
   "zh-Hant": [
     {
+      "id": "chaos-series/preface",
+      "slug": "/docs/chaos-series",
+      "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "資本結構",
+          "結構性問題",
+          "勞動結構",
+          "職場政治"
+        ],
+        "en": [
+          "exit-mechanism",
+          "capital-structure",
+          "structural-problems",
+          "labour-structure",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "混亂去了哪裡",
+        "Excel",
+        "legacy",
+        "壟斷差額",
+        "退出機制"
+      ],
+      "summary": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+      "status": "published",
+      "reading_time": 2,
+      "series": {
+        "order": 0,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/freedom-and-lossless-integration",
+      "slug": "/docs/chaos-series/freedom-and-lossless-integration",
+      "title": "混亂去了哪裡（一）：自由與無損不能兼得",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "Excel",
+          "企業系統",
+          "AI",
+          "退出機制"
+        ],
+        "en": [
+          "financialization",
+          "excel",
+          "enterprise-systems",
+          "ai",
+          "exit-mechanism"
+        ]
+      },
+      "keywords": [
+        "Excel",
+        "ERP",
+        "Jira",
+        "AI",
+        "退出機制"
+      ],
+      "summary": "Excel 是業務部門逃離 IT 流程的出口；AI 抽得出規則，抽不出責任，自由與無損不能兼得。",
+      "status": "published",
+      "reading_time": 6,
+      "series": {
+        "order": 1,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-monster-becomes-a-seat",
+      "slug": "/docs/chaos-series/the-monster-becomes-a-seat",
+      "title": "混亂去了哪裡（二）：怪物變成座位",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "legacy",
+          "組織",
+          "舉證責任",
+          "職場政治"
+        ],
+        "en": [
+          "financialization",
+          "legacy",
+          "organization",
+          "burden-of-proof",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "公版參考設計",
+        "舉證責任",
+        "格雷欣法則",
+        "AI PC"
+      ],
+      "summary": "舊系統怎樣在十幾二十年裡變成沒有人明白的怪物，又在收縮的公司裡變成別人搶不走的座位。",
+      "status": "published",
+      "reading_time": 15,
+      "series": {
+        "order": 2,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/problem-worse-person-promoted",
+      "slug": "/docs/chaos-series/problem-worse-person-promoted",
+      "title": "混亂去了哪裡（三）：問題爛一級，人升一級",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "管理層",
+          "研發",
+          "壟斷",
+          "銷售"
+        ],
+        "en": [
+          "financialization",
+          "management",
+          "r-and-d",
+          "monopoly",
+          "sales"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "workaround",
+        "X 非效率",
+        "狗屁工作",
+        "殭屍企業"
+      ],
+      "summary": "問題往下沉，起它的人往上升：過濾者、接手的座位、三個月的計分板，以及替這一切埋單的壟斷差額。",
+      "status": "published",
+      "reading_time": 15,
+      "series": {
+        "order": 3,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-last-field-never-names-the-company",
+      "slug": "/docs/chaos-series/the-last-field-never-names-the-company",
+      "title": "混亂去了哪裡（四）：最後一欄，沒有公司的名字",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "過勞",
+          "保密協議",
+          "自動化",
+          "分配"
+        ],
+        "en": [
+          "financialization",
+          "overwork",
+          "nda",
+          "automation",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "過勞死",
+        "保密協議",
+        "自動化",
+        "金融化",
+        "鏡界"
+      ],
+      "summary": "崩潰被記成負債、感情和抗壓性，證據在公司手上，保密原則封住最後一個出口。",
+      "status": "published",
+      "reading_time": 8,
+      "series": {
+        "order": 4,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/side-no-one-comes-forward",
+      "slug": "/docs/chaos-series/side-no-one-comes-forward",
+      "title": "沒有人舉證，不是因為沒有道理——在不公平的地方，不糾纏，去找下一條出路",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職場政治",
+          "檢舉",
+          "匿名",
+          "出路"
+        ],
+        "en": [
+          "workplace-politics",
+          "whistleblowing",
+          "anonymity",
+          "way-out"
+        ]
+      },
+      "keywords": [
+        "檢舉機制",
+        "署名權",
+        "匿名",
+        "派系",
+        "出路"
+      ],
+      "summary": "沒有人舉證，不是因為沒有道理；在不公平又沒有發聲位置的地方，不糾纏，去找下一條出路。",
+      "status": "published",
+      "reading_time": 9,
+      "series": {
+        "order": 5,
+        "id": "chaos-series"
+      }
+    },
+    {
       "id": "day-in-the-life-layoffs",
       "slug": "/docs/notes/day-in-the-life-layoffs",
       "title": "外篇｜一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
@@ -2388,6 +2626,244 @@
   ],
   "zh-HK": [
     {
+      "id": "chaos-series/preface",
+      "slug": "/docs/chaos-series",
+      "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "資本結構",
+          "結構性問題",
+          "勞動結構",
+          "職場政治"
+        ],
+        "en": [
+          "exit-mechanism",
+          "capital-structure",
+          "structural-problems",
+          "labour-structure",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "混亂去了哪裡",
+        "Excel",
+        "legacy",
+        "壟斷差額",
+        "退出機制"
+      ],
+      "summary": "承諾與現實之間的差距不會消失，只會搬位：先落在 Excel，再收進組織沉澱成 legacy，由壟斷差額埋單，最後記在個人身上。四篇正文追蹤這條路線，外篇談身處其中、又沒有發聲位置時，可以怎樣選擇。",
+      "status": "published",
+      "reading_time": 2,
+      "series": {
+        "order": 0,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/freedom-and-lossless-integration",
+      "slug": "/docs/chaos-series/freedom-and-lossless-integration",
+      "title": "混亂去了哪裡（一）：自由與無損不能兼得",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "Excel",
+          "企業系統",
+          "AI",
+          "退出機制"
+        ],
+        "en": [
+          "financialization",
+          "excel",
+          "enterprise-systems",
+          "ai",
+          "exit-mechanism"
+        ]
+      },
+      "keywords": [
+        "Excel",
+        "ERP",
+        "Jira",
+        "AI",
+        "退出機制"
+      ],
+      "summary": "Excel 是業務部門逃離 IT 流程的出口；AI 抽得出規則，抽不出責任，自由與無損不能兼得。",
+      "status": "published",
+      "reading_time": 6,
+      "series": {
+        "order": 1,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-monster-becomes-a-seat",
+      "slug": "/docs/chaos-series/the-monster-becomes-a-seat",
+      "title": "混亂去了哪裡（二）：怪物變成座位",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "legacy",
+          "組織",
+          "舉證責任",
+          "職場政治"
+        ],
+        "en": [
+          "financialization",
+          "legacy",
+          "organization",
+          "burden-of-proof",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "公版參考設計",
+        "舉證責任",
+        "格雷欣法則",
+        "AI PC"
+      ],
+      "summary": "舊系統怎樣在十幾二十年裡變成沒有人明白的怪物，又在收縮的公司裡變成別人搶不走的座位。",
+      "status": "published",
+      "reading_time": 15,
+      "series": {
+        "order": 2,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/problem-worse-person-promoted",
+      "slug": "/docs/chaos-series/problem-worse-person-promoted",
+      "title": "混亂去了哪裡（三）：問題爛一級，人升一級",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "管理層",
+          "研發",
+          "壟斷",
+          "銷售"
+        ],
+        "en": [
+          "financialization",
+          "management",
+          "r-and-d",
+          "monopoly",
+          "sales"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "workaround",
+        "X 非效率",
+        "狗屁工作",
+        "殭屍企業"
+      ],
+      "summary": "問題往下沉，起它的人往上升：過濾者、接手的座位、三個月的計分板，以及替這一切埋單的壟斷差額。",
+      "status": "published",
+      "reading_time": 15,
+      "series": {
+        "order": 3,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-last-field-never-names-the-company",
+      "slug": "/docs/chaos-series/the-last-field-never-names-the-company",
+      "title": "混亂去了哪裡（四）：最後一欄，沒有公司的名字",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "過勞",
+          "保密協議",
+          "自動化",
+          "分配"
+        ],
+        "en": [
+          "financialization",
+          "overwork",
+          "nda",
+          "automation",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "過勞死",
+        "保密協議",
+        "自動化",
+        "金融化",
+        "鏡界"
+      ],
+      "summary": "崩潰被記成負債、感情和抗壓性，證據在公司手上，保密原則封住最後一個出口。",
+      "status": "published",
+      "reading_time": 8,
+      "series": {
+        "order": 4,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/side-no-one-comes-forward",
+      "slug": "/docs/chaos-series/side-no-one-comes-forward",
+      "title": "沒有人舉證，不是因為沒有道理——在不公平的地方，不糾纏，去找下一條出路",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職場政治",
+          "檢舉",
+          "匿名",
+          "出路"
+        ],
+        "en": [
+          "workplace-politics",
+          "whistleblowing",
+          "anonymity",
+          "way-out"
+        ]
+      },
+      "keywords": [
+        "檢舉機制",
+        "署名權",
+        "匿名",
+        "派系",
+        "出路"
+      ],
+      "summary": "沒有人舉證，不是因為沒有道理；在不公平又沒有發聲位置的地方，不糾纏，去找下一條出路。",
+      "status": "published",
+      "reading_time": 9,
+      "series": {
+        "order": 5,
+        "id": "chaos-series"
+      }
+    },
+    {
       "id": "day-in-the-life-layoffs",
       "slug": "/docs/notes/day-in-the-life-layoffs",
       "title": "外篇｜一條上班日常影片如何變成裁員理由：沒有資本的人在懲罰沒有資本的人",
@@ -4737,6 +5213,244 @@
     }
   ],
   "en": [
+    {
+      "id": "chaos-series/preface",
+      "slug": "/docs/chaos-series",
+      "title": "Where Does the Chaos Go? The Gap Between Promise and Reality Never Disappears; It Only Moves",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "退出機制",
+          "資本結構",
+          "結構性問題",
+          "勞動結構",
+          "職場政治"
+        ],
+        "en": [
+          "exit-mechanism",
+          "capital-structure",
+          "structural-problems",
+          "labour-structure",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "Where Does the Chaos Go?",
+        "Excel",
+        "legacy",
+        "monopoly margin",
+        "exit mechanism"
+      ],
+      "summary": "The gap between what is promised and what is real never disappears; it only moves: first into Excel, then into the organization where it settles as legacy, paid for by the monopoly margin, and finally recorded against individuals. Four articles follow that path; a side article asks what you can choose when you are inside it and have no voice.",
+      "status": "published",
+      "reading_time": 2,
+      "series": {
+        "order": 0,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/freedom-and-lossless-integration",
+      "slug": "/docs/chaos-series/freedom-and-lossless-integration",
+      "title": "Where Does the Chaos Go? (1): You Can't Have Both Freedom and Lossless Integration",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "Excel",
+          "企業系統",
+          "AI",
+          "退出機制"
+        ],
+        "en": [
+          "financialization",
+          "excel",
+          "enterprise-systems",
+          "ai",
+          "exit-mechanism"
+        ]
+      },
+      "keywords": [
+        "Excel",
+        "ERP",
+        "Jira",
+        "AI",
+        "exit mechanism"
+      ],
+      "summary": "Excel is the business unit's exit from IT process; AI can extract its rules but not its responsibility, and freedom and lossless integration cannot coexist.",
+      "status": "published",
+      "reading_time": 8,
+      "series": {
+        "order": 1,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-monster-becomes-a-seat",
+      "slug": "/docs/chaos-series/the-monster-becomes-a-seat",
+      "title": "Where Does the Chaos Go? (2): The Monster Becomes a Seat",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "legacy",
+          "組織",
+          "舉證責任",
+          "職場政治"
+        ],
+        "en": [
+          "financialization",
+          "legacy",
+          "organization",
+          "burden-of-proof",
+          "workplace-politics"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "reference design",
+        "burden of proof",
+        "Gresham's Law",
+        "AI PC"
+      ],
+      "summary": "How a legacy system becomes a monster nobody understands over two decades, and then a seat nobody can take in a shrinking company.",
+      "status": "published",
+      "reading_time": 19,
+      "series": {
+        "order": 2,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/problem-worse-person-promoted",
+      "slug": "/docs/chaos-series/problem-worse-person-promoted",
+      "title": "Where Does the Chaos Go? (3): Each Time the Problem Gets Worse, Someone Gets Promoted",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "管理層",
+          "研發",
+          "壟斷",
+          "銷售"
+        ],
+        "en": [
+          "financialization",
+          "management",
+          "r-and-d",
+          "monopoly",
+          "sales"
+        ]
+      },
+      "keywords": [
+        "legacy",
+        "workaround",
+        "X-inefficiency",
+        "bullshit jobs",
+        "zombie firms"
+      ],
+      "summary": "The problem sinks while the person who built it rises: filterers, inherited seats, three-month scoreboards, and the monopoly margin that pays for it all.",
+      "status": "published",
+      "reading_time": 20,
+      "series": {
+        "order": 3,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/the-last-field-never-names-the-company",
+      "slug": "/docs/chaos-series/the-last-field-never-names-the-company",
+      "title": "Where Does the Chaos Go? (4): The Last Field Never Names the Company",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "金融化",
+          "過勞",
+          "保密協議",
+          "自動化",
+          "分配"
+        ],
+        "en": [
+          "financialization",
+          "overwork",
+          "nda",
+          "automation",
+          "distribution"
+        ]
+      },
+      "keywords": [
+        "karoshi",
+        "NDA",
+        "automation",
+        "financialization",
+        "Mirror Realm"
+      ],
+      "summary": "Breakdowns are recorded as debt, relationships and resilience; the evidence sits with the company, and confidentiality seals the last exit.",
+      "status": "published",
+      "reading_time": 11,
+      "series": {
+        "order": 4,
+        "id": "chaos-series"
+      }
+    },
+    {
+      "id": "chaos-series/side-no-one-comes-forward",
+      "slug": "/docs/chaos-series/side-no-one-comes-forward",
+      "title": "No One Comes Forward, and It Isn't for Lack of a Case — In an Unfair Place, Don't Get Entangled; Find the Next Way Out",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "chaos-series",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "職場政治",
+          "檢舉",
+          "匿名",
+          "出路"
+        ],
+        "en": [
+          "workplace-politics",
+          "whistleblowing",
+          "anonymity",
+          "way-out"
+        ]
+      },
+      "keywords": [
+        "reporting system",
+        "attribution",
+        "anonymity",
+        "factions",
+        "way out"
+      ],
+      "summary": "No one comes forward, and not for lack of a case; in an unfair place where you have no voice, don't get entangled; find the next way out.",
+      "status": "published",
+      "reading_time": 12,
+      "series": {
+        "order": 5,
+        "id": "chaos-series"
+      }
+    },
     {
       "id": "day-in-the-life-layoffs",
       "slug": "/docs/notes/day-in-the-life-layoffs",

@@ -21,6 +21,7 @@ const SOURCES = [
   { dir: 'series/exit-mechanism', idPrefix: '' },
   { dir: 'series/beggars-bowl', idPrefix: 'beggars-bowl/' },
   { dir: 'series/job-title-trilogy', idPrefix: '' },
+  { dir: 'series/chaos-series', idPrefix: 'chaos-series/' },
 ];
 
 const outputData = {

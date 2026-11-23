@@ -123,6 +123,7 @@ const sidebars = {
     getSeriesCategory('attenuation-visibility'),
     getSeriesCategory('exit-mechanism'),
     getSeriesCategory('job-title-trilogy'),
+    getSeriesCategory('chaos-series'),
     {
       type: 'category',
       label: '獨立篇',

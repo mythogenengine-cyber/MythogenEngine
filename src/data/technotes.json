@@ -1,6 +1,48 @@
 {
   "zh-Hant": [
     {
+      "id": "apprentice-gone",
+      "slug": "/docs/notes/apprentice-gone",
+      "title": "產品還在，學徒沒了——AI 省下的人力成本，為什麼沒有流回人身上",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "apprentice-gone",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "AI 轉型",
+          "勞動結構",
+          "就業收縮",
+          "勞工份額",
+          "資本邏輯"
+        ],
+        "en": [
+          "AI transformation",
+          "labor-structure",
+          "job-market-contraction",
+          "labour-share",
+          "capital-logic"
+        ]
+      },
+      "keywords": [
+        "AI 替代",
+        "學徒制",
+        "初級工程師",
+        "legacy code",
+        "人力成本",
+        "股票回購",
+        "資本支出",
+        "隱性知識",
+        "預製菜"
+      ],
+      "summary": "AI 不必取代整個產品，只要讓一個資深工程師配 AI 做完一組人的工作，學徒與 junior 的入口職位就不再開缺。省下的人力成本被資本市場導向 GPU、擴張與回購，而非需要多年回本的師徒傳承，最終讓組織失去底層技術與隱性知識的接班人。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20261123,
+      "series": null
+    },
+    {
       "id": "chaos-series/preface",
       "slug": "/docs/chaos-series",
       "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
@@ -2834,6 +2876,48 @@
   ],
   "zh-HK": [
     {
+      "id": "apprentice-gone",
+      "slug": "/docs/notes/apprentice-gone",
+      "title": "產品還在，學徒沒了——AI 省下的人力成本，為什麼沒有流回人身上",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "apprentice-gone",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "AI 轉型",
+          "勞動結構",
+          "就業收縮",
+          "勞工份額",
+          "資本邏輯"
+        ],
+        "en": [
+          "AI transformation",
+          "labor-structure",
+          "job-market-contraction",
+          "labour-share",
+          "capital-logic"
+        ]
+      },
+      "keywords": [
+        "AI 替代",
+        "學徒制",
+        "初級工程師",
+        "legacy code",
+        "人力成本",
+        "股票回購",
+        "資本支出",
+        "隱性知識",
+        "預製菜"
+      ],
+      "summary": "AI 不必取代整個產品，只要讓一個資深工程師配 AI 做完一組人的工作，學徒與 junior 的入口職位就不再開缺。省下的人力成本被資本市場導向 GPU、擴張與回購，而非需要多年回本的師徒傳承，最終讓組織失去底層技術與隱性知識的接班人。",
+      "status": "published",
+      "reading_time": 6,
+      "sidebar_position": 20261123,
+      "series": null
+    },
+    {
       "id": "chaos-series/preface",
       "slug": "/docs/chaos-series",
       "title": "混亂去了哪裡：承諾與現實的差距不會消失，只會搬位",
@@ -5629,6 +5713,48 @@
     }
   ],
   "en": [
+    {
+      "id": "apprentice-gone",
+      "slug": "/docs/notes/apprentice-gone",
+      "title": "The Product Survives, the Apprentices Don't: Why the Labour AI Saves Isn't Flowing Back to People",
+      "date": "2026-11-23T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "apprentice-gone",
+      "category": "教育與勞動",
+      "tags": {
+        "zh": [
+          "AI 轉型",
+          "勞動結構",
+          "就業收縮",
+          "勞工份額",
+          "資本邏輯"
+        ],
+        "en": [
+          "AI transformation",
+          "labor-structure",
+          "job-market-contraction",
+          "labour-share",
+          "capital-logic"
+        ]
+      },
+      "keywords": [
+        "AI displacement",
+        "apprenticeship",
+        "junior engineers",
+        "legacy code",
+        "labour costs",
+        "share buybacks",
+        "capital expenditure",
+        "tacit knowledge",
+        "entry-level jobs"
+      ],
+      "summary": "AI does not need to replace an entire product for people to disappear. When one senior engineer with AI handles a team's workload, junior and apprentice roles quietly stop opening. Capital markets reward capitalised assets and buybacks over slow-payback human training, cutting off the entry point that builds the next generation of senior engineers.",
+      "status": "published",
+      "reading_time": 8,
+      "sidebar_position": 20261123,
+      "series": null
+    },
     {
       "id": "chaos-series/preface",
       "slug": "/docs/chaos-series",

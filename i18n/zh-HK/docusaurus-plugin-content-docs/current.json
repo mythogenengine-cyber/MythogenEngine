@@ -98,5 +98,9 @@
   "sidebar.lucidRecord.category.混亂去了哪裡": {
     "message": "混亂去了哪裡",
     "description": "The label for category 混亂去了哪裡 in sidebar lucidRecord"
+  },
+  "sidebar.lucidRecord.category.股災去了哪裡": {
+    "message": "股災去了哪裡",
+    "description": "The label for category 股災去了哪裡 in sidebar lucidRecord"
   }
 }

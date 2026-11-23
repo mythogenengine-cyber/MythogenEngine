@@ -124,6 +124,7 @@ const sidebars = {
     getSeriesCategory('exit-mechanism'),
     getSeriesCategory('job-title-trilogy'),
     getSeriesCategory('chaos-series'),
+    getSeriesCategory('crash-series'),
     {
       type: 'category',
       label: '獨立篇',

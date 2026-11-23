@@ -209,6 +209,13 @@
         "zh-Hant": "混亂去了哪裡",
         "en": "Where Does the Chaos Go?"
       }
+    },
+    {
+      "id": "crash-series",
+      "title": {
+        "zh-Hant": "股災去了哪裡",
+        "en": "Where Did the Crashes Go?"
+      }
     }
   ],
   "finance": [

@@ -561,6 +561,47 @@
             "category": "教育與勞動"
           }
         ]
+      },
+      {
+        "id": "crash-series",
+        "title": "股災去了哪裡",
+        "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
+        "itemsCount": 4,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/crash-series/preface",
+            "title": "《股災去了哪裡》三部曲｜導讀",
+            "date": "2026-11-23",
+            "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
+            "url": "/docs/crash-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/crashes-renamed-as-corrections",
+            "title": "台股一個月跌兩成四，卻只能叫「調整」：股災沒有消失，只是被攤分了",
+            "date": "2026-11-23",
+            "description": "股災被指數平均、被反彈抹走、被國家隊接住，再被攤分到散戶帳戶裡，只是不准用這個名字。",
+            "url": "/docs/crash-series/crashes-renamed-as-corrections",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/risk-moved-into-your-pension",
+            "title": "看不見股災的原因：風險搬進了你的強積金",
+            "date": "2026-11-23",
+            "description": "損失由可以離場的外資，搬到不能離場的散戶、退休金與國家隊身上；槓桿則搬進了財報附註。",
+            "url": "/docs/crash-series/risk-moved-into-your-pension",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/denser-backstops-bigger-crash",
+            "title": "防線越撐越密，下一次股災會更大",
+            "date": "2026-11-23",
+            "description": "國家隊、退休金、ETF 與央行的防線有四個前提；附十項條件計分表，可逐季核對。",
+            "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1272,6 +1313,47 @@
             "category": "教育與勞動"
           }
         ]
+      },
+      {
+        "id": "crash-series",
+        "title": "股災去了哪裡",
+        "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
+        "itemsCount": 4,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/crash-series/preface",
+            "title": "《股災去了哪裡》三部曲｜導讀",
+            "date": "2026-11-23",
+            "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
+            "url": "/docs/crash-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/crashes-renamed-as-corrections",
+            "title": "台股一個月跌兩成四，卻只能叫「調整」：股災沒有消失，只是被攤分了",
+            "date": "2026-11-23",
+            "description": "股災被指數平均、被反彈抹走、被國家隊接住，再被攤分到散戶帳戶裡，只是不准用這個名字。",
+            "url": "/docs/crash-series/crashes-renamed-as-corrections",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/risk-moved-into-your-pension",
+            "title": "看不見股災的原因：風險搬進了你的強積金",
+            "date": "2026-11-23",
+            "description": "損失由可以離場的外資，搬到不能離場的散戶、退休金與國家隊身上；槓桿則搬進了財報附註。",
+            "url": "/docs/crash-series/risk-moved-into-your-pension",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/denser-backstops-bigger-crash",
+            "title": "防線越撐越密，下一次股災會更大",
+            "date": "2026-11-23",
+            "description": "國家隊、退休金、ETF 與央行的防線有四個前提；附十項條件計分表，可逐季核對。",
+            "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
+          }
+        ]
       }
     ],
     "finance": [
@@ -1981,6 +2063,47 @@
             "description": "No one comes forward, and not for lack of a case; in an unfair place where you have no voice, don't get entangled; find the next way out.",
             "url": "/docs/chaos-series/side-no-one-comes-forward",
             "category": "教育與勞動"
+          }
+        ]
+      },
+      {
+        "id": "crash-series",
+        "title": "Where Did the Crashes Go?",
+        "description": "In the second half of 2026, Taiwan's market fell 24% in a month and US stocks had two sharp one-day drops within two weeks, yet the market still only calls it a \"correction.\" These three articles do not predict dates. They ask three questions: why crashes are no longer called crashes, whose shoulders the losses landed on, and how long the backstops holding up the market can hold.",
+        "itemsCount": 4,
+        "dateRange": "2026-11-23",
+        "docs": [
+          {
+            "id": "series/crash-series/preface",
+            "title": "Where Did the Crashes Go? — Reader's Guide",
+            "date": "2026-11-23",
+            "description": "In the second half of 2026, Taiwan's market fell 24% in a month and US stocks had two sharp one-day drops within two weeks, yet the market still only calls it a \"correction.\" These three articles do not predict dates. They ask three questions: why crashes are no longer called crashes, whose shoulders the losses landed on, and how long the backstops holding up the market can hold.",
+            "url": "/docs/crash-series",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/crashes-renamed-as-corrections",
+            "title": "Taiwan Stocks Fell 24% in a Month, Yet It Can Only Be Called a \"Correction\": Crashes Haven't Disappeared, They've Been Spread Out",
+            "date": "2026-11-23",
+            "description": "Crashes are averaged out by the index, erased by rebounds, caught by national teams and spread across retail accounts — they just can't use the name.",
+            "url": "/docs/crash-series/crashes-renamed-as-corrections",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/risk-moved-into-your-pension",
+            "title": "Why You Can't See the Crash: The Risk Has Moved into Your MPF",
+            "date": "2026-11-23",
+            "description": "Losses moved from foreign investors who can leave to retail investors, pension funds and national teams who can't; leverage moved into the footnotes.",
+            "url": "/docs/crash-series/risk-moved-into-your-pension",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/denser-backstops-bigger-crash",
+            "title": "The Denser the Backstops, the Bigger the Next Crash",
+            "date": "2026-11-23",
+            "description": "The backstops rest on four premises; a ten-condition scorecard you can check every quarter.",
+            "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
           }
         ]
       }

@@ -1,6 +1,49 @@
 {
   "zh-Hant": [
     {
+      "id": "machine-taiwan-person-hong-kong",
+      "slug": "/docs/notes/machine-taiwan-person-hong-kong",
+      "title": "機器在台灣，人在香港，公司在新加坡：規則寫的是人，執法只看得到機器和文件",
+      "date": "2026-11-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "export-controls",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "出口管制",
+          "算力規則",
+          "代理指標",
+          "輝達",
+          "新加坡",
+          "遠端存取"
+        ],
+        "en": [
+          "export-controls",
+          "compute-rules",
+          "proxy-indicators",
+          "nvidia",
+          "singapore",
+          "remote-access"
+        ]
+      },
+      "keywords": [
+        "Megaspeed",
+        "Speedmatrix",
+        "黃仁勳",
+        "Anthropic 支援地區政策",
+        "BIS 遠端存取新規",
+        "50% 規則",
+        "代理指標",
+        "出口管制"
+      ],
+      "summary": "規則寫的是「人在哪裡」和「人可不可信」，但執法只能量度機器、連線、申報文件與政府背書。從個人遠端桌面連回台灣、Megaspeed 晶片流向調查，到 BIS 遠端存取新規、50% 規則與黃仁勳復職風波，拆解代理指標與真相之間的結構落差。",
+      "status": "published",
+      "reading_time": 9,
+      "sidebar_position": 20261125,
+      "series": null
+    },
+    {
       "id": "apprentice-gone",
       "slug": "/docs/notes/apprentice-gone",
       "title": "產品還在，學徒沒了——AI 省下的人力成本，為什麼沒有流回人身上",
@@ -5713,6 +5756,49 @@
     }
   ],
   "en": [
+    {
+      "id": "machine-taiwan-person-hong-kong",
+      "slug": "/docs/notes/machine-taiwan-person-hong-kong",
+      "title": "The Machine Is in Taiwan, the Person in Hong Kong, the Company in Singapore: Rules Name the Person, Enforcement Sees Only Machines and Paperwork",
+      "date": "2026-11-25T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "export-controls",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "出口管制",
+          "算力規則",
+          "代理指標",
+          "輝達",
+          "新加坡",
+          "遠端存取"
+        ],
+        "en": [
+          "export-controls",
+          "compute-rules",
+          "proxy-indicators",
+          "nvidia",
+          "singapore",
+          "remote-access"
+        ]
+      },
+      "keywords": [
+        "Megaspeed",
+        "Speedmatrix",
+        "Jensen Huang",
+        "Anthropic Supported Regions Policy",
+        "BIS remote-access rule",
+        "50% Affiliates Rule",
+        "proxy indicators",
+        "export controls"
+      ],
+      "summary": "Rules ask where a person is and whether a person can be trusted, while enforcement can only measure machines, connections, filings, and government assurances. Tracing remote desktop access, the Megaspeed chip probe, the BIS remote-access rule, the 50% Affiliates Rule, and Jensen Huang's reinstatement, this piece examines the structural gap between proxy indicators and truth.",
+      "status": "published",
+      "reading_time": 10,
+      "sidebar_position": 20261125,
+      "series": null
+    },
     {
       "id": "apprentice-gone",
       "slug": "/docs/notes/apprentice-gone",

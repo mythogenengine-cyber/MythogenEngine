@@ -566,8 +566,8 @@
         "id": "crash-series",
         "title": "股災去了哪裡",
         "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
-        "itemsCount": 4,
-        "dateRange": "2026-11-23",
+        "itemsCount": 5,
+        "dateRange": "2026-11-23 ~ 2026-11-25",
         "docs": [
           {
             "id": "series/crash-series/preface",
@@ -599,6 +599,14 @@
             "date": "2026-11-23",
             "description": "國家隊、退休金、ETF 與央行的防線有四個前提；附十項條件計分表，可逐季核對。",
             "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/nov-23-rebound-forced-buying",
+            "title": "11 月 23 日那場反彈，主力是被迫平倉的人",
+            "date": "2026-11-25",
+            "description": "看懂機械式買賣盤，避免在反彈中接貨",
+            "url": "/docs/crash-series/nov-23-rebound-forced-buying",
             "category": "資本與退出機制"
           }
         ]
@@ -1318,8 +1326,8 @@
         "id": "crash-series",
         "title": "股災去了哪裡",
         "description": "2026 年下半年，台股一個月跌兩成四，美股兩週內兩次單日急跌，市場仍然只叫它「調整」。這三篇不預測日期，只問三個問題：股災為甚麼不再被叫作股災？損失被攤到了誰身上？撐住市場的防線又能撐多久？",
-        "itemsCount": 4,
-        "dateRange": "2026-11-23",
+        "itemsCount": 5,
+        "dateRange": "2026-11-23 ~ 2026-11-25",
         "docs": [
           {
             "id": "series/crash-series/preface",
@@ -1351,6 +1359,14 @@
             "date": "2026-11-23",
             "description": "國家隊、退休金、ETF 與央行的防線有四個前提；附十項條件計分表，可逐季核對。",
             "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/nov-23-rebound-forced-buying",
+            "title": "11 月 23 日那場反彈，主力是被迫平倉的人",
+            "date": "2026-11-25",
+            "description": "看懂機械式買賣盤，避免在反彈中接貨",
+            "url": "/docs/crash-series/nov-23-rebound-forced-buying",
             "category": "資本與退出機制"
           }
         ]
@@ -2070,8 +2086,8 @@
         "id": "crash-series",
         "title": "Where Did the Crashes Go?",
         "description": "In the second half of 2026, Taiwan's market fell 24% in a month and US stocks had two sharp one-day drops within two weeks, yet the market still only calls it a \"correction.\" These three articles do not predict dates. They ask three questions: why crashes are no longer called crashes, whose shoulders the losses landed on, and how long the backstops holding up the market can hold.",
-        "itemsCount": 4,
-        "dateRange": "2026-11-23",
+        "itemsCount": 5,
+        "dateRange": "2026-11-23 ~ 2026-11-25",
         "docs": [
           {
             "id": "series/crash-series/preface",
@@ -2103,6 +2119,14 @@
             "date": "2026-11-23",
             "description": "The backstops rest on four premises; a ten-condition scorecard you can check every quarter.",
             "url": "/docs/crash-series/denser-backstops-bigger-crash",
+            "category": "資本與退出機制"
+          },
+          {
+            "id": "series/crash-series/nov-23-rebound-forced-buying",
+            "title": "The November 23 Rebound Was Mostly Forced Buying",
+            "date": "2026-11-25",
+            "description": "Understanding mechanical buying and selling, so you don't buy into the next rebound",
+            "url": "/docs/crash-series/nov-23-rebound-forced-buying",
             "category": "資本與退出機制"
           }
         ]

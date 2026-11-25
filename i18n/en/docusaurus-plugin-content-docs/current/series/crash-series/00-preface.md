@@ -53,6 +53,7 @@ In the second half of 2026, Taiwan's market fell 24% in a month and US stocks ha
 - [Part 1](./01-crashes-renamed-as-corrections.md): how crashes get defined away, averaged out and broken into small pieces.
 - [Part 2](./02-risk-moved-into-your-pension.md): who is selling, who is buying, and where the leverage is hidden.
 - [Part 3](./03-denser-backstops-bigger-crash.md): the four premises behind the backstops, the history of multi-wave declines, and a scorecard you can check every quarter.
+- [Side article](./04-nov-23-rebound-forced-buying.md): how a 4.7% one-day rebound was manufactured, and how to avoid buying into it.
 
 Data in each article runs to 20 November 2026.
 

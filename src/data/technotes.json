@@ -44,6 +44,62 @@
       "series": null
     },
     {
+      "id": "crash-series/nov-23-rebound-forced-buying",
+      "slug": "/docs/crash-series/nov-23-rebound-forced-buying",
+      "title": "11 月 23 日那場反彈，主力是被迫平倉的人",
+      "date": "2026-11-25T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "crash-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "股災",
+          "國安基金",
+          "強積金",
+          "退休金",
+          "ETF",
+          "循環融資",
+          "道德風險",
+          "系統性風險",
+          "機械式買賣盤",
+          "沽空回補",
+          "期權 gamma",
+          "CTA"
+        ],
+        "en": [
+          "market-crash",
+          "national-stabilization-fund",
+          "mpf",
+          "pension-funds",
+          "etf",
+          "circular-financing",
+          "moral-hazard",
+          "systemic-risk",
+          "mechanical-flows",
+          "short-covering",
+          "options-gamma",
+          "cta"
+        ]
+      },
+      "keywords": [
+        "機械式買賣盤",
+        "沽空回補",
+        "期權 gamma",
+        "CTA",
+        "黃仁勳復職",
+        "輝達",
+        "機械式反彈"
+      ],
+      "summary": "看懂機械式買賣盤，避免在反彈中接貨",
+      "status": "published",
+      "reading_time": 9,
+      "series": {
+        "order": 4,
+        "id": "crash-series"
+      }
+    },
+    {
       "id": "apprentice-gone",
       "slug": "/docs/notes/apprentice-gone",
       "title": "產品還在，學徒沒了——AI 省下的人力成本，為什麼沒有流回人身上",
@@ -2918,6 +2974,62 @@
     }
   ],
   "zh-HK": [
+    {
+      "id": "crash-series/nov-23-rebound-forced-buying",
+      "slug": "/docs/crash-series/nov-23-rebound-forced-buying",
+      "title": "11 月 23 日那場反彈，主力是被迫平倉的人",
+      "date": "2026-11-25T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "crash-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "股災",
+          "國安基金",
+          "強積金",
+          "退休金",
+          "ETF",
+          "循環融資",
+          "道德風險",
+          "系統性風險",
+          "機械式買賣盤",
+          "沽空回補",
+          "期權 gamma",
+          "CTA"
+        ],
+        "en": [
+          "market-crash",
+          "national-stabilization-fund",
+          "mpf",
+          "pension-funds",
+          "etf",
+          "circular-financing",
+          "moral-hazard",
+          "systemic-risk",
+          "mechanical-flows",
+          "short-covering",
+          "options-gamma",
+          "cta"
+        ]
+      },
+      "keywords": [
+        "機械式買賣盤",
+        "沽空回補",
+        "期權 gamma",
+        "CTA",
+        "黃仁勳復職",
+        "輝達",
+        "機械式反彈"
+      ],
+      "summary": "看懂機械式買賣盤，避免在反彈中接貨",
+      "status": "published",
+      "reading_time": 9,
+      "series": {
+        "order": 4,
+        "id": "crash-series"
+      }
+    },
     {
       "id": "apprentice-gone",
       "slug": "/docs/notes/apprentice-gone",
@@ -5798,6 +5910,62 @@
       "reading_time": 10,
       "sidebar_position": 20261125,
       "series": null
+    },
+    {
+      "id": "crash-series/nov-23-rebound-forced-buying",
+      "slug": "/docs/crash-series/nov-23-rebound-forced-buying",
+      "title": "The November 23 Rebound Was Mostly Forced Buying",
+      "date": "2026-11-25T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "crash-series",
+      "category": "資本與退出機制",
+      "tags": {
+        "zh": [
+          "股災",
+          "國安基金",
+          "強積金",
+          "退休金",
+          "ETF",
+          "循環融資",
+          "道德風險",
+          "系統性風險",
+          "機械式買賣盤",
+          "沽空回補",
+          "期權 gamma",
+          "CTA"
+        ],
+        "en": [
+          "market-crash",
+          "national-stabilization-fund",
+          "mpf",
+          "pension-funds",
+          "etf",
+          "circular-financing",
+          "moral-hazard",
+          "systemic-risk",
+          "mechanical-flows",
+          "short-covering",
+          "options-gamma",
+          "cta"
+        ]
+      },
+      "keywords": [
+        "mechanical flows",
+        "short covering",
+        "options gamma",
+        "CTA",
+        "Jensen Huang reinstated",
+        "Nvidia",
+        "mechanical bounce"
+      ],
+      "summary": "Understanding mechanical buying and selling, so you don't buy into the next rebound",
+      "status": "published",
+      "reading_time": 12,
+      "series": {
+        "order": 4,
+        "id": "crash-series"
+      }
     },
     {
       "id": "apprentice-gone",

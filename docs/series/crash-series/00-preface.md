@@ -53,6 +53,7 @@ slug: "/crash-series"
 - 篇一〈[台股一個月跌兩成四，卻只能叫「調整」](./01-crashes-renamed-as-corrections.md)〉：股災怎樣被定義、被平均、被拆小。
 - 篇二〈[看不見股災的原因：風險搬進了你的強積金](./02-risk-moved-into-your-pension.md)〉：誰在賣、誰在接，槓桿藏在哪裡。
 - 篇三〈[防線越撐越密，下一次股災會更大](./03-denser-backstops-bigger-crash.md)〉：防線的四個前提、分幾波跌的歷史，以及一張可以逐季核對的計分表。
+- 外篇〈[11 月 23 日那場反彈，主力是被迫平倉的人](./04-nov-23-rebound-forced-buying.md)〉：一天升 4.7% 的反彈怎樣被製造出來，以及怎樣避免在反彈中接貨。
 
 各篇數據截至 2026 年 11 月 20 日。
 

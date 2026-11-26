@@ -1,6 +1,44 @@
 {
   "zh-Hant": [
     {
+      "id": "微軟365停了近一日修補要到2027年",
+      "slug": "/docs/notes/microsoft-365-outage-risks",
+      "title": "微軟 365 停了近一日，修補要到 2027 年：事故報告沒有說的風險",
+      "date": "2026-11-26T00:00:00.000Z",
+      "lang": "zh-Hant",
+      "section": "sober-record",
+      "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "微軟",
+          "雲端依賴",
+          "系統風險",
+          "資安",
+          "AI 產業"
+        ],
+        "en": [
+          "microsoft",
+          "cloud-dependency",
+          "systemic-risk",
+          "cybersecurity",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "Microsoft 365 停機",
+        "Exchange Online",
+        "事故報告 EX1550543",
+        "BitLocker",
+        "Copilot"
+      ],
+      "summary": "微軟 365 停機近一日，修補排到 2027 年，報告沒寫的風險仍開著。",
+      "status": "published",
+      "reading_time": 17,
+      "sidebar_position": 20261126,
+      "series": null
+    },
+    {
       "id": "machine-taiwan-person-hong-kong",
       "slug": "/docs/notes/machine-taiwan-person-hong-kong",
       "title": "機器在台灣，人在香港，公司在新加坡：規則寫的是人，執法只看得到機器和文件",
@@ -2975,6 +3013,44 @@
   ],
   "zh-HK": [
     {
+      "id": "微軟365停了近一日修補要到2027年",
+      "slug": "/docs/notes/microsoft-365-outage-risks",
+      "title": "微軟 365 停了近一日，修補要到 2027 年：事故報告沒有說的風險",
+      "date": "2026-11-26T00:00:00.000Z",
+      "lang": "zh-HK",
+      "section": "sober-record",
+      "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "微軟",
+          "雲端依賴",
+          "系統風險",
+          "資安",
+          "AI 產業"
+        ],
+        "en": [
+          "microsoft",
+          "cloud-dependency",
+          "systemic-risk",
+          "cybersecurity",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "Microsoft 365 停機",
+        "Exchange Online",
+        "事故報告 EX1550543",
+        "BitLocker",
+        "Copilot"
+      ],
+      "summary": "微軟 365 停機近一日，修補排到 2027 年，報告沒寫的風險仍開著。",
+      "status": "published",
+      "reading_time": 17,
+      "sidebar_position": 20261126,
+      "series": null
+    },
+    {
       "id": "crash-series/nov-23-rebound-forced-buying",
       "slug": "/docs/crash-series/nov-23-rebound-forced-buying",
       "title": "11 月 23 日那場反彈，主力是被迫平倉的人",
@@ -5868,6 +5944,44 @@
     }
   ],
   "en": [
+    {
+      "id": "微軟365停了近一日修補要到2027年",
+      "slug": "/docs/notes/microsoft-365-outage-risks",
+      "title": "Microsoft 365 Was Down for Nearly a Day, and the Fixes Run Into 2027: The Risks the Incident Report Leaves Out",
+      "date": "2026-11-26T00:00:00.000Z",
+      "lang": "en",
+      "section": "sober-record",
+      "topic": "platform-monopoly",
+      "category": "產業與資本競爭",
+      "tags": {
+        "zh": [
+          "微軟",
+          "雲端依賴",
+          "系統風險",
+          "資安",
+          "AI 產業"
+        ],
+        "en": [
+          "microsoft",
+          "cloud-dependency",
+          "systemic-risk",
+          "cybersecurity",
+          "ai-industry"
+        ]
+      },
+      "keywords": [
+        "Microsoft 365 outage",
+        "Exchange Online",
+        "incident report EX1550543",
+        "BitLocker",
+        "Copilot"
+      ],
+      "summary": "Microsoft 365 was down for nearly a day; key fixes slip to 2027 or have no date.",
+      "status": "published",
+      "reading_time": 24,
+      "sidebar_position": 20261126,
+      "series": null
+    },
     {
       "id": "machine-taiwan-person-hong-kong",
       "slug": "/docs/notes/machine-taiwan-person-hong-kong",
